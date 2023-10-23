@@ -35,6 +35,12 @@ jobs:
         run: ls -la
         if: steps.changed-files.outputs.any_changed	 == 'true'
 
+      - name: cat
+        run: |
+          cat dist/v1/modules/cloudposse/stack-config/yaml/versions
+          cat dist/v1/modules/cloudposse/stack-config/yaml/1.5.0/download
+        if: steps.changed-files.outputs.any_changed	 == 'true'
+
 
 #      - name: ssss
 #        uses: s0/git-publish-subdir-action@develop
