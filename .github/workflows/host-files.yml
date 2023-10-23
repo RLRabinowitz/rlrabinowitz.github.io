@@ -20,8 +20,8 @@ jobs:
         with:
           separator: ","
           files: |
-            modules/*
-            providers/*
+            modules/**/*.json
+            providers/**/*.json
 
       - name: Install Go
         uses: actions/setup-go@v4
