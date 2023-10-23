@@ -63,6 +63,8 @@ type OutputModuleVersionsFile struct {
 	Modules []ModuleInputVersionFile `json:"modules"`
 }
 
+// TODO Removal of version, and removal of entire provider
+
 type SigningKeys struct {
 	GPGPublicKeys []GPGPublicKeys `json:"gpg_public_keys"` // A list of GPG public keys.
 }
@@ -158,7 +160,7 @@ func runForModuleFile(pathToFile string) error {
 }
 
 func getPathToModuleVersionsFile(module Module) string {
-	return fmt.Sprintf("v1/modules/%s/%s/%s/versions", module.Namespace, module.Name, module.System)
+	return fmt.Sprintf("dist/v1/modules/%s/%s/%s/versions", module.Namespace, module.Name, module.System)
 }
 
 func trimModuleTagPrefix(version string) string {
@@ -166,7 +168,7 @@ func trimModuleTagPrefix(version string) string {
 }
 
 func getPathToModuleDownloadFile(module Module, version string) string {
-	return fmt.Sprintf("v1/modules/%s/%s/%s/%s/download", module.Namespace, module.Name, module.System, trimModuleTagPrefix(version))
+	return fmt.Sprintf("dist/v1/modules/%s/%s/%s/%s/download", module.Namespace, module.Name, module.System, trimModuleTagPrefix(version))
 }
 
 func createModuleVersionsFile(module Module, file ModuleInputVersionFile) error {
@@ -327,12 +329,14 @@ func mapToOutputVersions(file InputVersionFile) OutputVersionsFile {
 	}
 }
 
+// TODO Do not hardcode the "dist" folder
+
 func getPathToVersionsFile(provider Provider) string {
-	return fmt.Sprintf("v1/providers/%s/%s/versions", provider.Namespace, provider.ProviderName)
+	return fmt.Sprintf("dist/v1/providers/%s/%s/versions", provider.Namespace, provider.ProviderName)
 }
 
 func getPathToDownloadFile(provider Provider, version string, platform OutputPlatform) string {
-	return fmt.Sprintf("v1/providers/%s/%s/%s/download/%s/%s", provider.Namespace, provider.ProviderName, trimModuleTagPrefix(version), platform.OS, platform.Arch)
+	return fmt.Sprintf("dist/v1/providers/%s/%s/%s/download/%s/%s", provider.Namespace, provider.ProviderName, trimModuleTagPrefix(version), platform.OS, platform.Arch)
 }
 
 func createVersionsFile(provider Provider, file InputVersionFile) error {
