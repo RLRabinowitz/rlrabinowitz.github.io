@@ -19,15 +19,21 @@ jobs:
         uses: tj-actions/changed-files@v39
         with:
           separator: ","
+          files: |
+            modules/*
+            providers/*
 
       - name: Install Go
         uses: actions/setup-go@v4
+        if: steps.changed-files.outputs.any_changed	 == 'true'
 
       - name: Created files
         run: go run create-host-files.go ${{ steps.changed-files.outputs.all_changed_files }}
+        if: steps.changed-files.outputs.any_changed	 == 'true'
 
       - name: List
         run: ls -la
+        if: steps.changed-files.outputs.any_changed	 == 'true'
 
 #      - name: ssss
 #        uses: s0/git-publish-subdir-action@develop
