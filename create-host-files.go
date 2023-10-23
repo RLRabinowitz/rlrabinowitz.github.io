@@ -3,6 +3,7 @@ package main
 import (
 	"encoding/json"
 	"fmt"
+	"log"
 	"os"
 	"path"
 	"strings"
@@ -97,6 +98,7 @@ type Module struct {
 }
 
 func main() {
+	log.Printf("Starting")
 	filePaths := getFilePathsToMigrate()
 	for _, filePath := range filePaths {
 		// TODO Range variables
