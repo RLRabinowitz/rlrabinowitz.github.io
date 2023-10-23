@@ -33,6 +33,7 @@ jobs:
 
       - name: Publish Changes
         uses: s0/git-publish-subdir-action@develop
+        if: steps.changed-files.outputs.any_changed	 == 'true'
         env:
           REPO: self
           BRANCH: host
