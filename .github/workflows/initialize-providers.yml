@@ -34,4 +34,4 @@ jobs:
       - name: Invoke publish workflow
         uses: benc-uk/workflow-dispatch@v1
         with:
-          workflow: publish-files.yaml
+          workflow: publish-files.yml
