@@ -21,11 +21,9 @@ jobs:
 
       - name: Install Go
         uses: actions/setup-go@v4
-        if: steps.changed-files.outputs.any_changed	 == 'true'
 
       - name: Initialize files
         run: go run ./cmd/main.go initialize modules/cloudposse/stack-config/yaml.json,modules/terraform-aws-modules/iam/aws.json,providers/oracle/oci.json
-        if: steps.changed-files.outputs.any_changed	 == 'true'
 
       - uses: stefanzweifel/git-auto-commit-action@v5
         with:
