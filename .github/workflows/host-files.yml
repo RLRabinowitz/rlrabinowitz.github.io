@@ -30,7 +30,7 @@ jobs:
         if: steps.changed-files.outputs.any_changed	 == 'true'
 
       - name: Created files
-        run: go run create-host-files.go ${{ steps.changed-files.outputs.all_changed_files }}
+        run: go run cmd/main.go ${{ steps.changed-files.outputs.all_changed_files }}
         if: steps.changed-files.outputs.any_changed	 == 'true'
 
       - name: Publish Changes
