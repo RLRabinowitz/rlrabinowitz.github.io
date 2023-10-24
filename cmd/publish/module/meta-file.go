@@ -1,7 +1,6 @@
 package module
 
 import (
-	"encoding/json"
 	"fmt"
 	"rlrabinowitz.github.io/internal"
 	"rlrabinowitz.github.io/internal/files"
@@ -19,12 +18,7 @@ func createMetaFiles(module module.Module, file module.RepositoryFile) error {
 		filePath := getMetaFilePath(module, version)
 		fileContent := MetaFile{XTerraformGet: getXTerraformGet(module, version)}
 
-		marshalledJson, err := json.Marshal(fileContent)
-		if err != nil {
-			return err
-		}
-
-		err = files.WriteToFile(filePath, marshalledJson)
+		err := files.WriteToFile(filePath, fileContent)
 		if err != nil {
 			return err
 		}

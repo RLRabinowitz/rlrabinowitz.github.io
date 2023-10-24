@@ -7,32 +7,34 @@ import (
 	"strings"
 )
 
-func GetShaSum(ctx context.Context, downloadURL string, filename string) (shaSum string, err error) {
-	assetContents, assetErr := DownloadAssetContents(ctx, downloadURL)
+func GetShaSums(ctx context.Context, shaFileDownloadUrl string) (map[string]string, error) {
+	assetContents, assetErr := DownloadAssetContents(ctx, shaFileDownloadUrl)
 	if assetErr != nil {
-		err = fmt.Errorf("failed to download asset contents: %w", assetErr)
-		return
+		return nil, fmt.Errorf("failed to download asset contents: %w", assetErr)
 	}
 
 	contents, contentsErr := io.ReadAll(assetContents)
-	if err != nil {
-		err = fmt.Errorf("failed to read asset contents: %w", contentsErr)
-		return
+	if contentsErr != nil {
+		return nil, fmt.Errorf("failed to read asset contents: %w", contentsErr)
 	}
 
-	shaSum = findShaSum(contents, filename, shaSum)
-
-	return
+	return shaFileToMap(contents), nil
 }
 
-func findShaSum(contents []byte, filename string, shaSum string) string {
+func shaFileToMap(contents []byte) map[string]string {
+	var result = make(map[string]string)
 	lines := strings.Split(string(contents), "\n")
 
 	for _, line := range lines {
-		if strings.HasSuffix(line, filename) {
-			shaSum = strings.Split(line, " ")[0]
-			break
+		parts := strings.Fields(line)
+		if len(parts) != 2 {
+			continue
 		}
+
+		shaSum := parts[0]
+		fileName := parts[1]
+
+		result[fileName] = shaSum
 	}
-	return shaSum
+	return result
 }

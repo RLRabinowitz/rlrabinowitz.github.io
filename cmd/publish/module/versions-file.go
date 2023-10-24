@@ -1,7 +1,6 @@
 package module
 
 import (
-	"encoding/json"
 	"fmt"
 	"rlrabinowitz.github.io/internal"
 	"rlrabinowitz.github.io/internal/files"
@@ -16,12 +15,8 @@ func createVersionsFile(module module.Module, file module.RepositoryFile) error 
 	filePath := getVersionsFilePath(module)
 
 	data := mapToVersions(file)
-	marshalledJson, err := json.Marshal(data)
-	if err != nil {
-		return err
-	}
 
-	return files.WriteToFile(filePath, marshalledJson)
+	return files.WriteToFile(filePath, data)
 }
 
 func getVersionsFilePath(module module.Module) string {

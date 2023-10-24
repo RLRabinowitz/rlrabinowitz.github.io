@@ -1,7 +1,6 @@
 package module
 
 import (
-	"encoding/json"
 	"path"
 	"rlrabinowitz.github.io/internal/files"
 	"rlrabinowitz.github.io/internal/github"
@@ -20,24 +19,19 @@ func Initialize(pathToFile string) error {
 		System:    system,
 	}
 
-	fileContent, err := getInputDataModule(mod)
+	fileContent, err := toRepositoryFileData(mod)
 	if err != nil {
 		return err
 	}
 
-	marshalledJson, err := json.Marshal(fileContent)
-	if err != nil {
-		return err
-	}
-
-	return files.WriteToFile(pathToFile, marshalledJson)
+	return files.WriteToFile(pathToFile, fileContent)
 }
 
 func getModuleTags(mod module.Module) ([]string, error) {
 	return github.GetTags(module.GetRepositoryUrl(mod))
 }
 
-func getInputDataModule(mod module.Module) (*module.RepositoryFile, error) {
+func toRepositoryFileData(mod module.Module) (*module.RepositoryFile, error) {
 	tags, err := getModuleTags(mod)
 	if err != nil {
 		return nil, err

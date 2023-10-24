@@ -1,11 +1,9 @@
 package provider
 
 import (
-	"encoding/json"
 	"fmt"
-	"os"
-	"path"
 	"rlrabinowitz.github.io/internal"
+	"rlrabinowitz.github.io/internal/files"
 	"rlrabinowitz.github.io/internal/provider"
 )
 
@@ -30,30 +28,13 @@ func createVersionsFile(provider provider.Provider, file provider.RepositoryFile
 	filePath := getVersionsFilePath(provider)
 
 	data := mapToVersions(file)
-	marshalledJson, err := json.Marshal(data)
-	if err != nil {
-		return err
-	}
 
-	// TODO what if exists
-	err = os.MkdirAll(path.Dir(filePath), 0700)
-	if err != nil {
-		return err
-	}
-
-	err = os.WriteFile(filePath, marshalledJson, 0777) // TODO Perm
-	if err != nil {
-		return err
-	}
-
-	return nil
+	return files.WriteToFile(filePath, data)
 }
 
 func getVersionsFilePath(provider provider.Provider) string {
 	return fmt.Sprintf("dist/v1/providers/%s/%s/versions", provider.Namespace, provider.ProviderName)
 }
-
-// TODO How to handle 404s and other such errors?
 
 func mapToVersions(file provider.RepositoryFile) VersionsFile {
 	outputVersionsFile := make([]Version, len(file.Versions))

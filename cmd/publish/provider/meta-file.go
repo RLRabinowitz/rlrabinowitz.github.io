@@ -1,7 +1,6 @@
 package provider
 
 import (
-	"encoding/json"
 	"fmt"
 	"rlrabinowitz.github.io/internal"
 	"rlrabinowitz.github.io/internal/files"
@@ -57,12 +56,7 @@ func createMetaFiles(provider provider.Provider, file provider.RepositoryFile) e
 				SigningKeys:         SigningKeys{GPGPublicKeys: make([]GPGPublicKeys, 0)},
 			}
 
-			marshalledJson, err := json.Marshal(fileContent)
-			if err != nil {
-				return err
-			}
-
-			err = files.WriteToFile(filePath, marshalledJson)
+			err := files.WriteToFile(filePath, fileContent)
 
 			if err != nil {
 				return err

@@ -1,6 +1,7 @@
 package main
 
 import (
+	"fmt"
 	"os"
 	"rlrabinowitz.github.io/cmd/initialize"
 	"rlrabinowitz.github.io/cmd/publish"
@@ -30,7 +31,7 @@ func main() {
 	} else if command == Update {
 
 	} else {
-		panic("bad command")
+		panic(fmt.Errorf("unexpected command: %s. Please run one of the following commands: publish, initialize, update", command))
 	}
 }
 

@@ -1,0 +1,33 @@
+### Note: This implementation should be changed to use `go run main.go update`, as it should only look for new releases for tags
+### For now, it uses `go run main.go initialize` which initializes a provider/module from scratch
+
+name: Initialize Providers and Modules
+
+on:
+  schedule:
+    - cron:
+      '5 * * * *':
+  workflow_dispatch:
+
+jobs:
+  initialize:
+    runs-on: ubuntu-latest
+    name: Initialize
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # OR "2" -> To retrieve the preceding commit.
+
+      - name: Install Go
+        uses: actions/setup-go@v4
+        if: steps.changed-files.outputs.any_changed	 == 'true'
+
+      - name: Initialize files
+        run: go run ./cmd/main.go initialize modules/cloudposse/stack-config/yaml.json,modules/terraform-aws-modules/iam/aws.json,providers/oracle/oci.json
+        if: steps.changed-files.outputs.any_changed	 == 'true'
+
+      - uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          file_pattern: 'modules/**/* providers/**/*'
