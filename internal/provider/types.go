@@ -1,7 +1,8 @@
 package provider
 
 type RepositoryFile struct {
-	Versions []Version `json:"versions"`
+	Repository string    `json:"repository"`
+	Versions   []Version `json:"versions"`
 }
 
 type Version struct {
@@ -9,7 +10,6 @@ type Version struct {
 	Protocols           []string `json:"protocols"`
 	SHASumsURL          string   `json:"shasums_url"`
 	SHASumsSignatureURL string   `json:"shasums_signature_url"`
-	Repository          string   `json:"repository"`
 	Targets             []Target `json:"targets"`
 }
 

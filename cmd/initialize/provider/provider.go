@@ -87,9 +87,7 @@ func toRepositoryFileData(ctx context.Context, ghClient *githubv4.Client, p prov
 			Protocols:           []string{"5.0"}, // TODO fetch manifest
 			SHASumsURL:          shaSumsArtifact.DownloadURL,
 			SHASumsSignatureURL: shaSumsSignatureArtifact.DownloadURL,
-			Repository:          getRepositoryUrl(p), // TODO move the repository setting
-			// TODO actually - how to know the repository initially???
-			Targets: targets,
+			Targets:             targets,
 		})
 	}
 
@@ -98,7 +96,10 @@ func toRepositoryFileData(ctx context.Context, ghClient *githubv4.Client, p prov
 		return nil, err
 	}
 
-	return &provider.RepositoryFile{Versions: versions}, nil
+	return &provider.RepositoryFile{
+		Versions:   versions,
+		Repository: provider.GetRepositoryUrl(p),
+	}, nil
 }
 
 func enrichWithShaSums(ctx context.Context, versions []provider.Version) ([]provider.Version, error) {
@@ -136,8 +137,4 @@ func enrichWithShaSums(ctx context.Context, versions []provider.Version) ([]prov
 	}
 
 	return versionsCopy, nil
-}
-
-func getRepositoryUrl(provider provider.Provider) string {
-	return fmt.Sprintf("https://github.com/%s/%s", provider.Namespace, provider.ProviderName)
 }
