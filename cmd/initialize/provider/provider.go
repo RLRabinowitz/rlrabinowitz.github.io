@@ -43,7 +43,7 @@ func Initialize(pathToFile string) error {
 
 func toRepositoryFileData(ctx context.Context, ghClient *githubv4.Client, p provider.Provider) (*provider.RepositoryFile, error) {
 	repoName := provider.GetRepositoryName(p)
-	releases, err := github.FetchPublishedReleases(ctx, ghClient, p.Namespace, repoName)
+	releases, err := github.FetchPublishedReleases(ctx, ghClient, provider.EffectiveNamespace(p.Namespace), repoName)
 	if err != nil {
 		return nil, err
 	}

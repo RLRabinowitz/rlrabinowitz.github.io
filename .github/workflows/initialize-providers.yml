@@ -24,7 +24,7 @@ jobs:
         uses: actions/setup-go@v4
 
       - name: Initialize files
-        run: go run ./cmd/main.go initialize modules/cloudposse/stack-config/yaml.json,modules/terraform-aws-modules/iam/aws.json,providers/oracle/oci.json
+        run: go run ./cmd/main.go initialize modules/cloudposse/stack-config/yaml.json,modules/terraform-aws-modules/iam/aws.json,providers/oracle/oci.json,providers/hashicorp/aws.json
 
       - uses: stefanzweifel/git-auto-commit-action@v5
         with:
@@ -33,4 +33,4 @@ jobs:
       - name: Invoke publish workflow
         uses: benc-uk/workflow-dispatch@v1
         with:
-          workflow: publish-files.yml
+          workflow: publish-files.yml # TODO apply commit message here
