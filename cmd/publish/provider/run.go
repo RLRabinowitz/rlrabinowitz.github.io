@@ -20,8 +20,6 @@ func Publish(pathToFile string) error {
 		Namespace:    namespace,
 	}
 
-	// TODO replace Hashi
-
 	fileContent, err := getProviderFileContent(pathToFile)
 	if err != nil {
 		return err

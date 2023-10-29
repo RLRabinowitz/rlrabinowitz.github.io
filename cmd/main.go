@@ -16,7 +16,7 @@ const (
 // TODO use 3rd-party for commands
 func getCommandAndArguments() (string, []string) {
 	if len(os.Args) < 2 {
-		panic("The fuck, missing arguments") // TODO language (and panic)
+		panic("Received wrong number of arguments") // TODO panic
 	}
 
 	return os.Args[1], os.Args[2:]

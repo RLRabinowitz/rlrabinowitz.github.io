@@ -29,7 +29,7 @@ func Publish(args []string) {
 
 func getFilePathsToMigrate(args []string) []string {
 	if len(args) != 1 {
-		panic("The fuck, missing arguments") // TODO language (and panic)
+		panic("Received wrong number of arguments") // TODO panic
 	}
 	return strings.Split(args[0], ",")
 }

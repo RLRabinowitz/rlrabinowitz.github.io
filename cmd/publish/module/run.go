@@ -24,7 +24,7 @@ func Publish(pathToFile string) error {
 		return err
 	}
 
-	// TODO - Validate file? Other than JSON Unmarshal? Required Fields? Validation for fields?
+	// TODO Validate file? Other than JSON Unmarshal? Required Fields? Validation for fields?
 
 	err = createVersionsFile(mod, fileContent)
 	if err != nil {

@@ -36,7 +36,6 @@ func createMetaFiles(provider provider.Provider, file provider.RepositoryFile) e
 	for _, d := range file.Versions {
 		version := d.Version
 		for _, dp := range d.Targets {
-			// TODO refactor
 			platform := Platform{
 				OS:   dp.OS,
 				Arch: dp.Arch,

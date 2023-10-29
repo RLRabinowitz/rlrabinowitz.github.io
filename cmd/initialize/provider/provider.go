@@ -107,6 +107,7 @@ func enrichWithShaSums(ctx context.Context, versions []provider.Version) ([]prov
 
 	shaSumCh := make(chan ShaSumResult, len(versionsCopy))
 
+	// TODO Consider adding retries
 	var wg sync.WaitGroup
 	for i, v := range versionsCopy {
 		wg.Add(1)
