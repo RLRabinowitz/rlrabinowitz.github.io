@@ -5,6 +5,7 @@ import (
 	"os"
 	"rlrabinowitz.github.io/cmd/initialize"
 	"rlrabinowitz.github.io/cmd/publish"
+	"rlrabinowitz.github.io/cmd/update"
 )
 
 const (
@@ -29,7 +30,7 @@ func main() {
 	} else if command == Initialize {
 		initialize.Run(args)
 	} else if command == Update {
-
+		update.Update(args)
 	} else {
 		panic(fmt.Errorf("unexpected command: %s. Please run one of the following commands: publish, initialize, update", command))
 	}
