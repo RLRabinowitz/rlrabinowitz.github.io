@@ -2,6 +2,114 @@
   "repository": "https://github.com/snowplow-devops/terraform-provider-snowplow",
   "versions": [
     {
+      "version": "0.7.3",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/snowplow-devops/terraform-provider-snowplow/releases/download/v0.7.3/terraform-provider-snowplow_0.7.3_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/snowplow-devops/terraform-provider-snowplow/releases/download/v0.7.3/terraform-provider-snowplow_0.7.3_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-snowplow_0.7.3_linux_amd64.zip",
+          "download_url": "https://github.com/snowplow-devops/terraform-provider-snowplow/releases/download/v0.7.3/terraform-provider-snowplow_0.7.3_linux_amd64.zip",
+          "shasum": "89650292c01da333a9387f86bee9b98ec36ea191d0e4aaf6a38216867a52b6fa"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-snowplow_0.7.3_windows_386.zip",
+          "download_url": "https://github.com/snowplow-devops/terraform-provider-snowplow/releases/download/v0.7.3/terraform-provider-snowplow_0.7.3_windows_386.zip",
+          "shasum": "062c12ab965caf749c2d1cfde75fffc36a2f7092c773a6676860207c24aaa50d"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-snowplow_0.7.3_linux_arm64.zip",
+          "download_url": "https://github.com/snowplow-devops/terraform-provider-snowplow/releases/download/v0.7.3/terraform-provider-snowplow_0.7.3_linux_arm64.zip",
+          "shasum": "67be8575599f258c3038c26e3a612fce55ebdaa4263bf39358624d60e9bf667e"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-snowplow_0.7.3_freebsd_arm.zip",
+          "download_url": "https://github.com/snowplow-devops/terraform-provider-snowplow/releases/download/v0.7.3/terraform-provider-snowplow_0.7.3_freebsd_arm.zip",
+          "shasum": "0ef5a3718114c7714f85fe117a419df4f78edb65e055893b23fe755da48cdd19"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-snowplow_0.7.3_windows_arm.zip",
+          "download_url": "https://github.com/snowplow-devops/terraform-provider-snowplow/releases/download/v0.7.3/terraform-provider-snowplow_0.7.3_windows_arm.zip",
+          "shasum": "b14229658c62ff2e43cc6966dab00afa2ff2c0982c1ab45ec0f670c8d9c2c32b"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-snowplow_0.7.3_windows_amd64.zip",
+          "download_url": "https://github.com/snowplow-devops/terraform-provider-snowplow/releases/download/v0.7.3/terraform-provider-snowplow_0.7.3_windows_amd64.zip",
+          "shasum": "8b821a91c0076b97d975b8be5ad795d03e5b676041de71de39a373bf891b7d85"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-snowplow_0.7.3_darwin_amd64.zip",
+          "download_url": "https://github.com/snowplow-devops/terraform-provider-snowplow/releases/download/v0.7.3/terraform-provider-snowplow_0.7.3_darwin_amd64.zip",
+          "shasum": "8e8946ede615ed99f5570be283a1aeff96b68facf8d8df9889c5892060768767"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-snowplow_0.7.3_freebsd_amd64.zip",
+          "download_url": "https://github.com/snowplow-devops/terraform-provider-snowplow/releases/download/v0.7.3/terraform-provider-snowplow_0.7.3_freebsd_amd64.zip",
+          "shasum": "4a4f2c00984a3d7705a575e5b6477fe63e5363be890d422886cd985b4f2327d6"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-snowplow_0.7.3_windows_arm64.zip",
+          "download_url": "https://github.com/snowplow-devops/terraform-provider-snowplow/releases/download/v0.7.3/terraform-provider-snowplow_0.7.3_windows_arm64.zip",
+          "shasum": "1c1f4e67822f70ee30a6127f70cf7a49ce52ecaa50e374a3f397faeff8341325"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-snowplow_0.7.3_linux_arm.zip",
+          "download_url": "https://github.com/snowplow-devops/terraform-provider-snowplow/releases/download/v0.7.3/terraform-provider-snowplow_0.7.3_linux_arm.zip",
+          "shasum": "00007377603be024df36483879ab5f3cc233ec89eb51a9ba22e63e54436f8658"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-snowplow_0.7.3_freebsd_386.zip",
+          "download_url": "https://github.com/snowplow-devops/terraform-provider-snowplow/releases/download/v0.7.3/terraform-provider-snowplow_0.7.3_freebsd_386.zip",
+          "shasum": "0a4d2e03cdab3bd7a85e0b7d8f9e8fd9c5a5cf6f1bd40be9a9380e2c9b67cb0a"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-snowplow_0.7.3_darwin_arm64.zip",
+          "download_url": "https://github.com/snowplow-devops/terraform-provider-snowplow/releases/download/v0.7.3/terraform-provider-snowplow_0.7.3_darwin_arm64.zip",
+          "shasum": "1c6bf2fc517334ce13fad56d7657665d65c8a14e0792f608586774b7de7ee989"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-snowplow_0.7.3_freebsd_arm64.zip",
+          "download_url": "https://github.com/snowplow-devops/terraform-provider-snowplow/releases/download/v0.7.3/terraform-provider-snowplow_0.7.3_freebsd_arm64.zip",
+          "shasum": "2780a34fcb9883d0694a0cd67020867fade43e99dcce20f2a93a3629533b3612"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-snowplow_0.7.3_linux_386.zip",
+          "download_url": "https://github.com/snowplow-devops/terraform-provider-snowplow/releases/download/v0.7.3/terraform-provider-snowplow_0.7.3_linux_386.zip",
+          "shasum": "3756c14b33aeca19644b1a965e11fdc0c6694bf2325d1fc40b627facb304493f"
+        }
+      ]
+    },
+    {
       "version": "0.7.3-rc1",
       "protocols": [
         "5.0"
