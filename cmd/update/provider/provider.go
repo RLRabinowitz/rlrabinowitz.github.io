@@ -87,7 +87,7 @@ func getHighestSemverTag(p provider.Provider) (string, error) {
 	}
 
 	if len(semverTags) < 1 {
-		return "", fmt.Errorf("no semver tags found in repository")
+		return "", fmt.Errorf("no semver tags found in repository for provider %s/%s", p.Namespace, p.ProviderName)
 	}
 
 	return semverTags[len(semverTags)-1], nil
