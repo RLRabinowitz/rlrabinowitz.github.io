@@ -27,6 +27,7 @@ jobs:
         id: list-files
         run: |
           files=$(find providers/ modules/ -type f -name "*.json" -exec printf "%s," {} + | sed 's/,$//')
+          echo "files=$files"
           echo "files=$files" >> $GITHUB_OUTPUT
 
       - name: Initialize files
