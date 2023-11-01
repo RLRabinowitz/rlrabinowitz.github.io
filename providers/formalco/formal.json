@@ -2,6 +2,114 @@
   "repository": "https://github.com/formalco/terraform-provider-formal",
   "versions": [
     {
+      "version": "3.2.12",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/formalco/terraform-provider-formal/releases/download/v3.2.12/terraform-provider-formal_3.2.12_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/formalco/terraform-provider-formal/releases/download/v3.2.12/terraform-provider-formal_3.2.12_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-formal_3.2.12_linux_arm64.zip",
+          "download_url": "https://github.com/formalco/terraform-provider-formal/releases/download/v3.2.12/terraform-provider-formal_3.2.12_linux_arm64.zip",
+          "shasum": "fa6d4ae27dde2bb2b3f1cb4ca56d082eaad1875bc655ba0e9de1a1d19df39055"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-formal_3.2.12_linux_arm.zip",
+          "download_url": "https://github.com/formalco/terraform-provider-formal/releases/download/v3.2.12/terraform-provider-formal_3.2.12_linux_arm.zip",
+          "shasum": "ad435de00f9259f594f02d5130c27716df1102d8836a77e555266ae78a9f50ba"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-formal_3.2.12_freebsd_arm64.zip",
+          "download_url": "https://github.com/formalco/terraform-provider-formal/releases/download/v3.2.12/terraform-provider-formal_3.2.12_freebsd_arm64.zip",
+          "shasum": "8b405691de05d390d677f6842a425c3358f7eecc48a2c2f0650a800421815354"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-formal_3.2.12_windows_amd64.zip",
+          "download_url": "https://github.com/formalco/terraform-provider-formal/releases/download/v3.2.12/terraform-provider-formal_3.2.12_windows_amd64.zip",
+          "shasum": "4c333c62695e3ac2bd56c764717e25190f28249f0ff182b4e18eb4fabd972de5"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-formal_3.2.12_windows_386.zip",
+          "download_url": "https://github.com/formalco/terraform-provider-formal/releases/download/v3.2.12/terraform-provider-formal_3.2.12_windows_386.zip",
+          "shasum": "832c2f0f956b85cf2b48b1ce15e9c00c5ebb2eaa41e3d32bf533f4402968ecdc"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-formal_3.2.12_windows_arm64.zip",
+          "download_url": "https://github.com/formalco/terraform-provider-formal/releases/download/v3.2.12/terraform-provider-formal_3.2.12_windows_arm64.zip",
+          "shasum": "76d378d44255b9f5128faa5a2702f8ac4625606bb1284237d8f0a39058563754"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-formal_3.2.12_darwin_amd64.zip",
+          "download_url": "https://github.com/formalco/terraform-provider-formal/releases/download/v3.2.12/terraform-provider-formal_3.2.12_darwin_amd64.zip",
+          "shasum": "dc8d5e043b7263a63529e20daf4a20486545579d343f47c3f0b0b0c47104930c"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-formal_3.2.12_darwin_arm64.zip",
+          "download_url": "https://github.com/formalco/terraform-provider-formal/releases/download/v3.2.12/terraform-provider-formal_3.2.12_darwin_arm64.zip",
+          "shasum": "73b30e4254d1326e346d12dd786ef9162b307d703de9e10403717e71dc5e5cd3"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-formal_3.2.12_linux_386.zip",
+          "download_url": "https://github.com/formalco/terraform-provider-formal/releases/download/v3.2.12/terraform-provider-formal_3.2.12_linux_386.zip",
+          "shasum": "e264f7be70c1313e8dce5223270ca836f3906ff6df5aba12ecc13f8b5b76fb7d"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-formal_3.2.12_linux_amd64.zip",
+          "download_url": "https://github.com/formalco/terraform-provider-formal/releases/download/v3.2.12/terraform-provider-formal_3.2.12_linux_amd64.zip",
+          "shasum": "e4ff9d99288c053cbb606d6d7ba0aa864d499920d9b7239aef8f1555c7090455"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-formal_3.2.12_freebsd_arm.zip",
+          "download_url": "https://github.com/formalco/terraform-provider-formal/releases/download/v3.2.12/terraform-provider-formal_3.2.12_freebsd_arm.zip",
+          "shasum": "4e5b45857679a1e7004b20ed6c5828d2ee508aa7e353302c744874163e94df0d"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-formal_3.2.12_windows_arm.zip",
+          "download_url": "https://github.com/formalco/terraform-provider-formal/releases/download/v3.2.12/terraform-provider-formal_3.2.12_windows_arm.zip",
+          "shasum": "1a783ffaab272ab5929d83cc964774d34e100d26f99fffc18dde18defa661008"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-formal_3.2.12_freebsd_386.zip",
+          "download_url": "https://github.com/formalco/terraform-provider-formal/releases/download/v3.2.12/terraform-provider-formal_3.2.12_freebsd_386.zip",
+          "shasum": "8f49c1475d8d622e77dc76735083b229e5b2b653154d4b41c084bb08e807b78f"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-formal_3.2.12_freebsd_amd64.zip",
+          "download_url": "https://github.com/formalco/terraform-provider-formal/releases/download/v3.2.12/terraform-provider-formal_3.2.12_freebsd_amd64.zip",
+          "shasum": "4938fff91f5b052667f542dcbd955ac88cbe477dac82658fda1a949f39d98cd0"
+        }
+      ]
+    },
+    {
       "version": "3.2.11",
       "protocols": [
         "5.0"

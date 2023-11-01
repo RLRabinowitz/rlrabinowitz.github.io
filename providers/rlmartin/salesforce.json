@@ -2,6 +2,114 @@
   "repository": "https://github.com/rlmartin/terraform-provider-salesforce",
   "versions": [
     {
+      "version": "0.4.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/rlmartin/terraform-provider-salesforce/releases/download/v0.4.0/terraform-provider-salesforce_0.4.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/rlmartin/terraform-provider-salesforce/releases/download/v0.4.0/terraform-provider-salesforce_0.4.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-salesforce_0.4.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/rlmartin/terraform-provider-salesforce/releases/download/v0.4.0/terraform-provider-salesforce_0.4.0_freebsd_amd64.zip",
+          "shasum": "da97c144a6f25b6842b5006c69ee860183f43ed93ba7309cdfdaceca71fc869f"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-salesforce_0.4.0_windows_amd64.zip",
+          "download_url": "https://github.com/rlmartin/terraform-provider-salesforce/releases/download/v0.4.0/terraform-provider-salesforce_0.4.0_windows_amd64.zip",
+          "shasum": "aac8e7ca29364283f71cd0ec0e8141492ee038539d2f41018117f4d9624e9183"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-salesforce_0.4.0_freebsd_arm.zip",
+          "download_url": "https://github.com/rlmartin/terraform-provider-salesforce/releases/download/v0.4.0/terraform-provider-salesforce_0.4.0_freebsd_arm.zip",
+          "shasum": "2dcb546a40ade61b7a4dba26bc4b998b8595164f75cd215392fd18ee75c8a249"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-salesforce_0.4.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/rlmartin/terraform-provider-salesforce/releases/download/v0.4.0/terraform-provider-salesforce_0.4.0_freebsd_arm64.zip",
+          "shasum": "a90a0eefb95055c829fe71ac7c7242082429ac4a5fbf740b372fb4a8113ede96"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-salesforce_0.4.0_windows_386.zip",
+          "download_url": "https://github.com/rlmartin/terraform-provider-salesforce/releases/download/v0.4.0/terraform-provider-salesforce_0.4.0_windows_386.zip",
+          "shasum": "645e9fb8fbf399f07484f9410ef3de4e1160b7ee433c5eac5984f33635bc9d87"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-salesforce_0.4.0_linux_386.zip",
+          "download_url": "https://github.com/rlmartin/terraform-provider-salesforce/releases/download/v0.4.0/terraform-provider-salesforce_0.4.0_linux_386.zip",
+          "shasum": "61ed0d475ae61379f8168888d8d14c7fd5c37bd4fffc38951b9d064abf5036bf"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-salesforce_0.4.0_freebsd_386.zip",
+          "download_url": "https://github.com/rlmartin/terraform-provider-salesforce/releases/download/v0.4.0/terraform-provider-salesforce_0.4.0_freebsd_386.zip",
+          "shasum": "261b3045fe07f058f08aa6e4855bff005a7eeee8d2e89318de2c002009cdece6"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-salesforce_0.4.0_darwin_arm64.zip",
+          "download_url": "https://github.com/rlmartin/terraform-provider-salesforce/releases/download/v0.4.0/terraform-provider-salesforce_0.4.0_darwin_arm64.zip",
+          "shasum": "382a0abcf19ec67960be41a607b62f005cf183aeff7c5071ab6801a61be0946b"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-salesforce_0.4.0_windows_arm.zip",
+          "download_url": "https://github.com/rlmartin/terraform-provider-salesforce/releases/download/v0.4.0/terraform-provider-salesforce_0.4.0_windows_arm.zip",
+          "shasum": "61aa3c70b18070422bd62ee3e8d07c19a2643f9c3727c181fa0a2dcc72a1cb09"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-salesforce_0.4.0_linux_arm64.zip",
+          "download_url": "https://github.com/rlmartin/terraform-provider-salesforce/releases/download/v0.4.0/terraform-provider-salesforce_0.4.0_linux_arm64.zip",
+          "shasum": "83b28b89717323670b077d01193546c05354706fdce6a249bff657adc682b77e"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-salesforce_0.4.0_windows_arm64.zip",
+          "download_url": "https://github.com/rlmartin/terraform-provider-salesforce/releases/download/v0.4.0/terraform-provider-salesforce_0.4.0_windows_arm64.zip",
+          "shasum": "deeedb550b83a98fdba1059eb245f5c62035764dfabc357a45e1de0ea00acda0"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-salesforce_0.4.0_darwin_amd64.zip",
+          "download_url": "https://github.com/rlmartin/terraform-provider-salesforce/releases/download/v0.4.0/terraform-provider-salesforce_0.4.0_darwin_amd64.zip",
+          "shasum": "020bae5d52ac458fa9957e64f809afb9c27bac46fe3f244ff3dea68afdb784bb"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-salesforce_0.4.0_linux_arm.zip",
+          "download_url": "https://github.com/rlmartin/terraform-provider-salesforce/releases/download/v0.4.0/terraform-provider-salesforce_0.4.0_linux_arm.zip",
+          "shasum": "b1f26bc51ca8d8b696acd833e5776bc60d792a018ba786e4430af59d056c3222"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-salesforce_0.4.0_linux_amd64.zip",
+          "download_url": "https://github.com/rlmartin/terraform-provider-salesforce/releases/download/v0.4.0/terraform-provider-salesforce_0.4.0_linux_amd64.zip",
+          "shasum": "e7c7b08496b9af0216219e47632bc1c3963b7defbca07a15c5a78dd43f83d68e"
+        }
+      ]
+    },
+    {
       "version": "0.3.0",
       "protocols": [
         "5.0"
