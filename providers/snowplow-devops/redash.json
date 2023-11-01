@@ -2,6 +2,114 @@
   "repository": "https://github.com/snowplow-devops/terraform-provider-redash",
   "versions": [
     {
+      "version": "0.8.3",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/snowplow-devops/terraform-provider-redash/releases/download/v0.8.3/terraform-provider-redash_0.8.3_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/snowplow-devops/terraform-provider-redash/releases/download/v0.8.3/terraform-provider-redash_0.8.3_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-redash_0.8.3_windows_386.zip",
+          "download_url": "https://github.com/snowplow-devops/terraform-provider-redash/releases/download/v0.8.3/terraform-provider-redash_0.8.3_windows_386.zip",
+          "shasum": "afe9e9935b086a3a13acd22de4d33ec6f625ed2cda06da8d0de5a53e8aea2658"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-redash_0.8.3_freebsd_386.zip",
+          "download_url": "https://github.com/snowplow-devops/terraform-provider-redash/releases/download/v0.8.3/terraform-provider-redash_0.8.3_freebsd_386.zip",
+          "shasum": "c3fca57da8c98b4d17463b96d43da97143c7d1ae44f6e0f95700b717887dbdec"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-redash_0.8.3_windows_arm64.zip",
+          "download_url": "https://github.com/snowplow-devops/terraform-provider-redash/releases/download/v0.8.3/terraform-provider-redash_0.8.3_windows_arm64.zip",
+          "shasum": "e07cc056509f7d9c53bb9736cbad4db66ea323e8bd24d238595210f179905ff0"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-redash_0.8.3_darwin_amd64.zip",
+          "download_url": "https://github.com/snowplow-devops/terraform-provider-redash/releases/download/v0.8.3/terraform-provider-redash_0.8.3_darwin_amd64.zip",
+          "shasum": "6e5ae5118f3bbf090f07856507400f57aa6bfa88240aa2a5e609452b9aec2c7a"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-redash_0.8.3_freebsd_amd64.zip",
+          "download_url": "https://github.com/snowplow-devops/terraform-provider-redash/releases/download/v0.8.3/terraform-provider-redash_0.8.3_freebsd_amd64.zip",
+          "shasum": "bc07299d34e81f35e794c44d56fc490ae28aca1367c98749df9b95808df7ad7d"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-redash_0.8.3_windows_amd64.zip",
+          "download_url": "https://github.com/snowplow-devops/terraform-provider-redash/releases/download/v0.8.3/terraform-provider-redash_0.8.3_windows_amd64.zip",
+          "shasum": "5b68c52e01512b806c6de13833bcbcb3c2271ded34563201816db143cc77b6dc"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-redash_0.8.3_linux_amd64.zip",
+          "download_url": "https://github.com/snowplow-devops/terraform-provider-redash/releases/download/v0.8.3/terraform-provider-redash_0.8.3_linux_amd64.zip",
+          "shasum": "076c09776f3a21ba88651b70b0ef3a69756b8dfc1c70f23cb2d78a8f3115eb8d"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-redash_0.8.3_linux_386.zip",
+          "download_url": "https://github.com/snowplow-devops/terraform-provider-redash/releases/download/v0.8.3/terraform-provider-redash_0.8.3_linux_386.zip",
+          "shasum": "275e3f44838d3606dc60c7e8963ea8bd13676b92c877d900267af8bcd95f8d98"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-redash_0.8.3_linux_arm.zip",
+          "download_url": "https://github.com/snowplow-devops/terraform-provider-redash/releases/download/v0.8.3/terraform-provider-redash_0.8.3_linux_arm.zip",
+          "shasum": "95494ff71ca0180bc90c2ccd05679a3e6c6650633aed76021b489992221e740b"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-redash_0.8.3_freebsd_arm64.zip",
+          "download_url": "https://github.com/snowplow-devops/terraform-provider-redash/releases/download/v0.8.3/terraform-provider-redash_0.8.3_freebsd_arm64.zip",
+          "shasum": "4bec0b6efe2011520bcbb14db6a8627fab3d5d65842da21c87edda3d39809131"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-redash_0.8.3_freebsd_arm.zip",
+          "download_url": "https://github.com/snowplow-devops/terraform-provider-redash/releases/download/v0.8.3/terraform-provider-redash_0.8.3_freebsd_arm.zip",
+          "shasum": "f50eaae013077744f543d32e12fecdcdf62483f718ef46da466713a9a79eac21"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-redash_0.8.3_windows_arm.zip",
+          "download_url": "https://github.com/snowplow-devops/terraform-provider-redash/releases/download/v0.8.3/terraform-provider-redash_0.8.3_windows_arm.zip",
+          "shasum": "b6704e2a3935a2b8a6e625809e6547bf0be9fa8a64537f3a67b57d8522fa4812"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-redash_0.8.3_linux_arm64.zip",
+          "download_url": "https://github.com/snowplow-devops/terraform-provider-redash/releases/download/v0.8.3/terraform-provider-redash_0.8.3_linux_arm64.zip",
+          "shasum": "fffc11a05972d779214dd0f364e5f8897fa24bd8e0a682478d72f347430b5568"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-redash_0.8.3_darwin_arm64.zip",
+          "download_url": "https://github.com/snowplow-devops/terraform-provider-redash/releases/download/v0.8.3/terraform-provider-redash_0.8.3_darwin_arm64.zip",
+          "shasum": "4774a1fbb3960868e20371251bba22d8ae67c9b60cb673d98752c50b50236835"
+        }
+      ]
+    },
+    {
       "version": "0.8.2",
       "protocols": [
         "5.0"
