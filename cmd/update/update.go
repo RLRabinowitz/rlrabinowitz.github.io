@@ -5,27 +5,50 @@ import (
 	"rlrabinowitz.github.io/cmd/initialize/module"
 	"rlrabinowitz.github.io/cmd/update/provider"
 	"strings"
+	"sync"
 )
+
+type ExecutionResult struct {
+	filePath string
+	Err      error
+}
 
 func Update(args []string) {
 	log.Printf("Starting")
 	filePaths := getFilePathsToMigrate(args)
+
+	executionCh := make(chan ExecutionResult, len(filePaths))
+
+	var wg sync.WaitGroup
 	for _, filePath := range filePaths {
-		// TODO Range variables
-		// TODO Parallelism
-		if isProviderPath(filePath) {
-			err := provider.Update(filePath)
-			if err != nil {
-				panic(err)
+		wg.Add(1)
+
+		go func(filePath string) {
+			defer wg.Done()
+			var err error
+			if isProviderPath(filePath) {
+				err = provider.Update(filePath)
+			} else {
+				// Right now there's no difference between the update and initialize action of modules
+				// as we just go over all tags and create the file from there
+				err = module.Initialize(filePath)
+			} // TODO Validate path is either provider or module, that amount of parts make sense
+
+			executionCh <- ExecutionResult{
+				filePath: filePath,
+				Err:      err,
 			}
-		} else {
-			// Right now there's no difference between the update and initialize action of modules
-			// as we just go over all tags and create the file from there
-			err := module.Initialize(filePath)
-			if err != nil {
-				panic(err)
-			}
-		} // TODO Validate path is either provider or module, that amount of parts make sense
+
+		}(filePath)
+	}
+
+	wg.Wait()
+	close(executionCh)
+
+	for e := range executionCh {
+		if e.Err != nil {
+			log.Printf("Failed to update %s: %s", e.filePath, e.Err)
+		}
 	}
 }
 
