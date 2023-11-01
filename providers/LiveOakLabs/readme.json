@@ -2,6 +2,114 @@
   "repository": "https://github.com/LiveOakLabs/terraform-provider-readme",
   "versions": [
     {
+      "version": "0.1.16",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/LiveOakLabs/terraform-provider-readme/releases/download/v0.1.16/terraform-provider-readme_0.1.16_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/LiveOakLabs/terraform-provider-readme/releases/download/v0.1.16/terraform-provider-readme_0.1.16_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-readme_0.1.16_windows_arm.zip",
+          "download_url": "https://github.com/LiveOakLabs/terraform-provider-readme/releases/download/v0.1.16/terraform-provider-readme_0.1.16_windows_arm.zip",
+          "shasum": "37598595269e6ffa3d98f43c5b77b6258a5390445cd429cdba2592d1655f29ed"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-readme_0.1.16_freebsd_arm.zip",
+          "download_url": "https://github.com/LiveOakLabs/terraform-provider-readme/releases/download/v0.1.16/terraform-provider-readme_0.1.16_freebsd_arm.zip",
+          "shasum": "307043754cb420b5735c117fce7f83f96db3f920bd1055bafb0f3196b47a625f"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-readme_0.1.16_linux_arm.zip",
+          "download_url": "https://github.com/LiveOakLabs/terraform-provider-readme/releases/download/v0.1.16/terraform-provider-readme_0.1.16_linux_arm.zip",
+          "shasum": "12b4f17968a0b215bb5bdd969ceb17f3149d46f0ead6ef5f855850c39c5866cd"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-readme_0.1.16_darwin_arm64.zip",
+          "download_url": "https://github.com/LiveOakLabs/terraform-provider-readme/releases/download/v0.1.16/terraform-provider-readme_0.1.16_darwin_arm64.zip",
+          "shasum": "851cc2f9ae60278c7433f0b093fd94a5fd39343e531199545bf335c31433a8de"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-readme_0.1.16_freebsd_386.zip",
+          "download_url": "https://github.com/LiveOakLabs/terraform-provider-readme/releases/download/v0.1.16/terraform-provider-readme_0.1.16_freebsd_386.zip",
+          "shasum": "fa7ef8632853e4a9acbed8a4a9a2f271f9dd2bdbc03f36f0f3e56b4cfa9fd1bf"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-readme_0.1.16_freebsd_amd64.zip",
+          "download_url": "https://github.com/LiveOakLabs/terraform-provider-readme/releases/download/v0.1.16/terraform-provider-readme_0.1.16_freebsd_amd64.zip",
+          "shasum": "b545ebf91e5f6981c6bb032481efb4d91b4ccb56d85611afad6ab84720d1a71c"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-readme_0.1.16_windows_arm64.zip",
+          "download_url": "https://github.com/LiveOakLabs/terraform-provider-readme/releases/download/v0.1.16/terraform-provider-readme_0.1.16_windows_arm64.zip",
+          "shasum": "215d2a2f997c86553a0f495d6d9f206f4e4946fe52c510abdd06ea2bcec1c1f0"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-readme_0.1.16_linux_amd64.zip",
+          "download_url": "https://github.com/LiveOakLabs/terraform-provider-readme/releases/download/v0.1.16/terraform-provider-readme_0.1.16_linux_amd64.zip",
+          "shasum": "21e0f58bdc29f3f7b27ef9410e5834ff58cbb7a66a5f5d131c17f83ceb9370af"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-readme_0.1.16_freebsd_arm64.zip",
+          "download_url": "https://github.com/LiveOakLabs/terraform-provider-readme/releases/download/v0.1.16/terraform-provider-readme_0.1.16_freebsd_arm64.zip",
+          "shasum": "d1147a56e68b35e8e9247e5394b3f63489714068ba8bd8244e7d5c9cfd95a389"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-readme_0.1.16_linux_386.zip",
+          "download_url": "https://github.com/LiveOakLabs/terraform-provider-readme/releases/download/v0.1.16/terraform-provider-readme_0.1.16_linux_386.zip",
+          "shasum": "ef97d7e288f90131f34c922c7bab2e04707db0c30dbf1ba91f1e2fdee2eb0435"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-readme_0.1.16_windows_amd64.zip",
+          "download_url": "https://github.com/LiveOakLabs/terraform-provider-readme/releases/download/v0.1.16/terraform-provider-readme_0.1.16_windows_amd64.zip",
+          "shasum": "1c44a755b6e1624864f354e09e53a507e00e08784c3432aa4c8092050091cae4"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-readme_0.1.16_linux_arm64.zip",
+          "download_url": "https://github.com/LiveOakLabs/terraform-provider-readme/releases/download/v0.1.16/terraform-provider-readme_0.1.16_linux_arm64.zip",
+          "shasum": "f5fbf4fc653161c9a659ea4fd2a14cfb9d2ff07b74457a89c06a3d1e58f8a44e"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-readme_0.1.16_darwin_amd64.zip",
+          "download_url": "https://github.com/LiveOakLabs/terraform-provider-readme/releases/download/v0.1.16/terraform-provider-readme_0.1.16_darwin_amd64.zip",
+          "shasum": "56936ac78402bafc4f3167c285f6802253f734698b12c0c9d99380757f34bf14"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-readme_0.1.16_windows_386.zip",
+          "download_url": "https://github.com/LiveOakLabs/terraform-provider-readme/releases/download/v0.1.16/terraform-provider-readme_0.1.16_windows_386.zip",
+          "shasum": "f5c87a74f27f3f9ea3da5ce65d9e04ec84d3045d7b4ea254a592c96a97c07f3a"
+        }
+      ]
+    },
+    {
       "version": "0.1.15",
       "protocols": [
         "5.0"
