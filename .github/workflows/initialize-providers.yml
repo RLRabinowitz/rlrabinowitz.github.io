@@ -23,8 +23,14 @@ jobs:
       - name: Install Go
         uses: actions/setup-go@v4
 
+      - name: Find all files
+        id: list-files
+        run: |
+          files=$(find providers/ modules/ -type f -name "*.json" -exec printf "%s," {} + | sed 's/,$//')
+          echo "files=$files" >> $GITHUB_OUTPUT
+
       - name: Initialize files
-        run: go run ./cmd/main.go update modules/cloudposse/stack-config/yaml.json,modules/terraform-aws-modules/iam/aws.json,providers/oracle/oci.json,providers/hashicorp/aws.json # Find a better way of providing the providers/modules to update (all?)
+        run: go run ./cmd/main.go update {{ steps.list-files.outputs.files }}
 
       - uses: stefanzweifel/git-auto-commit-action@v5
         with:
