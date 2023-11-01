@@ -1,0 +1,545 @@
+{
+  "repository": "https://github.com/avisi-cloud/terraform-provider-acloud",
+  "versions": [
+    {
+      "version": "0.1.5",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/avisi-cloud/terraform-provider-acloud/releases/download/v0.1.5/terraform-provider-acloud_0.1.5_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/avisi-cloud/terraform-provider-acloud/releases/download/v0.1.5/terraform-provider-acloud_0.1.5_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-acloud_0.1.5_freebsd_amd64.zip",
+          "download_url": "https://github.com/avisi-cloud/terraform-provider-acloud/releases/download/v0.1.5/terraform-provider-acloud_0.1.5_freebsd_amd64.zip",
+          "shasum": "60324828b22e1f2c183e20bd913f812f5e679035f79bd25fd59085bd4fa37639"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-acloud_0.1.5_freebsd_arm64.zip",
+          "download_url": "https://github.com/avisi-cloud/terraform-provider-acloud/releases/download/v0.1.5/terraform-provider-acloud_0.1.5_freebsd_arm64.zip",
+          "shasum": "602f1c5ed33cc1473d2c796ff739517bafcb3799544bdade603c048a4c1c8158"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-acloud_0.1.5_windows_arm64.zip",
+          "download_url": "https://github.com/avisi-cloud/terraform-provider-acloud/releases/download/v0.1.5/terraform-provider-acloud_0.1.5_windows_arm64.zip",
+          "shasum": "11f037b76760eec20feb28bc9cc9565a0596b9b4ffb44756c55df19148c2e1ac"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-acloud_0.1.5_darwin_amd64.zip",
+          "download_url": "https://github.com/avisi-cloud/terraform-provider-acloud/releases/download/v0.1.5/terraform-provider-acloud_0.1.5_darwin_amd64.zip",
+          "shasum": "52baf65ab0dfbaf2a1adb6bd59389a5f3221ad29201fb9654aef3ca09ab69027"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-acloud_0.1.5_freebsd_386.zip",
+          "download_url": "https://github.com/avisi-cloud/terraform-provider-acloud/releases/download/v0.1.5/terraform-provider-acloud_0.1.5_freebsd_386.zip",
+          "shasum": "98188e55ac8269bc84ea466c0049cb31317e05acdf01665e202343c9bf88a275"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-acloud_0.1.5_freebsd_arm.zip",
+          "download_url": "https://github.com/avisi-cloud/terraform-provider-acloud/releases/download/v0.1.5/terraform-provider-acloud_0.1.5_freebsd_arm.zip",
+          "shasum": "e72a5aa80130210070749285ecd223f36ce16b5b624ab5e7582ccdd8d2e4ba3c"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-acloud_0.1.5_windows_arm.zip",
+          "download_url": "https://github.com/avisi-cloud/terraform-provider-acloud/releases/download/v0.1.5/terraform-provider-acloud_0.1.5_windows_arm.zip",
+          "shasum": "6f23ad6411ca86700ef413776235de1058a116f9a977681967e25622a6682043"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-acloud_0.1.5_linux_arm.zip",
+          "download_url": "https://github.com/avisi-cloud/terraform-provider-acloud/releases/download/v0.1.5/terraform-provider-acloud_0.1.5_linux_arm.zip",
+          "shasum": "3a32e688d13c993f47935644d88a8df832df06ac177ac20271d4723d47b957a0"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-acloud_0.1.5_linux_amd64.zip",
+          "download_url": "https://github.com/avisi-cloud/terraform-provider-acloud/releases/download/v0.1.5/terraform-provider-acloud_0.1.5_linux_amd64.zip",
+          "shasum": "6003dd4fe70f4765e00e9a1c3aa729556a5b410ce4fddc70819154655b1c2eb4"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-acloud_0.1.5_linux_386.zip",
+          "download_url": "https://github.com/avisi-cloud/terraform-provider-acloud/releases/download/v0.1.5/terraform-provider-acloud_0.1.5_linux_386.zip",
+          "shasum": "9893ae1e7d7c65ebd772ca57fe90d189188f87a9e6c0a94d242880b0a2621bb1"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-acloud_0.1.5_linux_arm64.zip",
+          "download_url": "https://github.com/avisi-cloud/terraform-provider-acloud/releases/download/v0.1.5/terraform-provider-acloud_0.1.5_linux_arm64.zip",
+          "shasum": "1440c0b0465bef129c8e226922d7ed0e4308cab67ac9ee13a0212af38713780f"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-acloud_0.1.5_darwin_arm64.zip",
+          "download_url": "https://github.com/avisi-cloud/terraform-provider-acloud/releases/download/v0.1.5/terraform-provider-acloud_0.1.5_darwin_arm64.zip",
+          "shasum": "4cd177494af44d4cf3b6a99b7c5b36ff5a333addad6e85fe8affaa9b76fd81fc"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-acloud_0.1.5_windows_386.zip",
+          "download_url": "https://github.com/avisi-cloud/terraform-provider-acloud/releases/download/v0.1.5/terraform-provider-acloud_0.1.5_windows_386.zip",
+          "shasum": "936b368abc68fc0cf8e77c74cbf804ae9322cf9b4cc69fe806c0e4a818cd6992"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-acloud_0.1.5_windows_amd64.zip",
+          "download_url": "https://github.com/avisi-cloud/terraform-provider-acloud/releases/download/v0.1.5/terraform-provider-acloud_0.1.5_windows_amd64.zip",
+          "shasum": "cb6aca64e8a6fdbd1044860faacc2ef47e6604c88feef23759dd68234fcbf47c"
+        }
+      ]
+    },
+    {
+      "version": "0.1.4",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/avisi-cloud/terraform-provider-acloud/releases/download/v0.1.4/terraform-provider-acloud_0.1.4_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/avisi-cloud/terraform-provider-acloud/releases/download/v0.1.4/terraform-provider-acloud_0.1.4_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-acloud_0.1.4_windows_386.zip",
+          "download_url": "https://github.com/avisi-cloud/terraform-provider-acloud/releases/download/v0.1.4/terraform-provider-acloud_0.1.4_windows_386.zip",
+          "shasum": "52c899713773beedc47e731855af55182be5b76bf78d529142700b2ee6e7ec39"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-acloud_0.1.4_freebsd_386.zip",
+          "download_url": "https://github.com/avisi-cloud/terraform-provider-acloud/releases/download/v0.1.4/terraform-provider-acloud_0.1.4_freebsd_386.zip",
+          "shasum": "6db816e153295fd5b44980b090cc9a5b4dc42819c53f736716462833339dd718"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-acloud_0.1.4_linux_arm.zip",
+          "download_url": "https://github.com/avisi-cloud/terraform-provider-acloud/releases/download/v0.1.4/terraform-provider-acloud_0.1.4_linux_arm.zip",
+          "shasum": "0d2cbcbbaaa35b8c7c4048b633984f2fe42dd4874431618487d1d3eac1648fab"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-acloud_0.1.4_freebsd_amd64.zip",
+          "download_url": "https://github.com/avisi-cloud/terraform-provider-acloud/releases/download/v0.1.4/terraform-provider-acloud_0.1.4_freebsd_amd64.zip",
+          "shasum": "232e0e4bdf4e00e4d7aa875b7d9655776314b26d4cd780d1d4b0ca3cc4ba1a51"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-acloud_0.1.4_freebsd_arm.zip",
+          "download_url": "https://github.com/avisi-cloud/terraform-provider-acloud/releases/download/v0.1.4/terraform-provider-acloud_0.1.4_freebsd_arm.zip",
+          "shasum": "0d9ccce14cc618af942681618f3702322b2f982717ebd8234157609e66799809"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-acloud_0.1.4_linux_386.zip",
+          "download_url": "https://github.com/avisi-cloud/terraform-provider-acloud/releases/download/v0.1.4/terraform-provider-acloud_0.1.4_linux_386.zip",
+          "shasum": "2aaa82ca3ee74ba79c7fd98c5f62d728292e394bdcb10824240764cdce762124"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-acloud_0.1.4_darwin_arm64.zip",
+          "download_url": "https://github.com/avisi-cloud/terraform-provider-acloud/releases/download/v0.1.4/terraform-provider-acloud_0.1.4_darwin_arm64.zip",
+          "shasum": "aace4280f946b8c1bf4a773b5f3736146e029adcba922e4f4cbbe29f9ab95970"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-acloud_0.1.4_freebsd_arm64.zip",
+          "download_url": "https://github.com/avisi-cloud/terraform-provider-acloud/releases/download/v0.1.4/terraform-provider-acloud_0.1.4_freebsd_arm64.zip",
+          "shasum": "8b72630c7a8ddccd0fd8285c4b47bda5d17f7acbcfd718d3bf3de0235a41dea9"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-acloud_0.1.4_windows_arm.zip",
+          "download_url": "https://github.com/avisi-cloud/terraform-provider-acloud/releases/download/v0.1.4/terraform-provider-acloud_0.1.4_windows_arm.zip",
+          "shasum": "1349e430d3c843633aae4006c144229b3ea9cf57eb13483b8747df2b50b13d6b"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-acloud_0.1.4_windows_amd64.zip",
+          "download_url": "https://github.com/avisi-cloud/terraform-provider-acloud/releases/download/v0.1.4/terraform-provider-acloud_0.1.4_windows_amd64.zip",
+          "shasum": "cc82422bd9b129a491a3f8f1a889415d72e46fd71a55c9259494f8eb7a8585f8"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-acloud_0.1.4_windows_arm64.zip",
+          "download_url": "https://github.com/avisi-cloud/terraform-provider-acloud/releases/download/v0.1.4/terraform-provider-acloud_0.1.4_windows_arm64.zip",
+          "shasum": "4ce3ab9ec4db4c17355d37381cae10b5678704728da8b5f2b12a1d93d8cb68fd"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-acloud_0.1.4_linux_amd64.zip",
+          "download_url": "https://github.com/avisi-cloud/terraform-provider-acloud/releases/download/v0.1.4/terraform-provider-acloud_0.1.4_linux_amd64.zip",
+          "shasum": "ea7198227d68a7b6102a6a3a27e847a0a42681b1b8d7a4931c103d34624cdd08"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-acloud_0.1.4_linux_arm64.zip",
+          "download_url": "https://github.com/avisi-cloud/terraform-provider-acloud/releases/download/v0.1.4/terraform-provider-acloud_0.1.4_linux_arm64.zip",
+          "shasum": "6366842a23d5a9a0766c8b3fa7564933c8fc162b25180419eb88b555da1e69c5"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-acloud_0.1.4_darwin_amd64.zip",
+          "download_url": "https://github.com/avisi-cloud/terraform-provider-acloud/releases/download/v0.1.4/terraform-provider-acloud_0.1.4_darwin_amd64.zip",
+          "shasum": "edcd7278c470c08203bc56f50fe561fab5f55b58e790003b39d5a13edfd2d18c"
+        }
+      ]
+    },
+    {
+      "version": "0.1.3",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/avisi-cloud/terraform-provider-acloud/releases/download/v0.1.3/terraform-provider-acloud_0.1.3_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/avisi-cloud/terraform-provider-acloud/releases/download/v0.1.3/terraform-provider-acloud_0.1.3_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-acloud_0.1.3_freebsd_arm.zip",
+          "download_url": "https://github.com/avisi-cloud/terraform-provider-acloud/releases/download/v0.1.3/terraform-provider-acloud_0.1.3_freebsd_arm.zip",
+          "shasum": "44f169949011f26a6b9363feeceda3cc5c4f1b424c275ee8368d2ba6ea37801e"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-acloud_0.1.3_freebsd_amd64.zip",
+          "download_url": "https://github.com/avisi-cloud/terraform-provider-acloud/releases/download/v0.1.3/terraform-provider-acloud_0.1.3_freebsd_amd64.zip",
+          "shasum": "02a5b5510778a1feae466d7103a7c21c1fe8618d63098f4f17af84ac3cca96f1"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-acloud_0.1.3_linux_386.zip",
+          "download_url": "https://github.com/avisi-cloud/terraform-provider-acloud/releases/download/v0.1.3/terraform-provider-acloud_0.1.3_linux_386.zip",
+          "shasum": "b472c366947418a838061792efb35d2fad17556347a243d0121574bfd931a14c"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-acloud_0.1.3_windows_amd64.zip",
+          "download_url": "https://github.com/avisi-cloud/terraform-provider-acloud/releases/download/v0.1.3/terraform-provider-acloud_0.1.3_windows_amd64.zip",
+          "shasum": "eaec63b4fe78498b875d9f59da5683ec00174d5882cc9e294281b68df2147861"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-acloud_0.1.3_freebsd_386.zip",
+          "download_url": "https://github.com/avisi-cloud/terraform-provider-acloud/releases/download/v0.1.3/terraform-provider-acloud_0.1.3_freebsd_386.zip",
+          "shasum": "daa323c88a6cecc032b76315e48df01d7842dbf25b99145da44d67d263e066e9"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-acloud_0.1.3_darwin_amd64.zip",
+          "download_url": "https://github.com/avisi-cloud/terraform-provider-acloud/releases/download/v0.1.3/terraform-provider-acloud_0.1.3_darwin_amd64.zip",
+          "shasum": "c946339ebee3b9953180d7a5c50881d34065a775b5b3e6765fd2c543b839f08d"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-acloud_0.1.3_windows_arm.zip",
+          "download_url": "https://github.com/avisi-cloud/terraform-provider-acloud/releases/download/v0.1.3/terraform-provider-acloud_0.1.3_windows_arm.zip",
+          "shasum": "922aff90f0ea87f26163411486ae46cd66970eb0a94a3063ac758202c1f1a6bb"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-acloud_0.1.3_windows_arm64.zip",
+          "download_url": "https://github.com/avisi-cloud/terraform-provider-acloud/releases/download/v0.1.3/terraform-provider-acloud_0.1.3_windows_arm64.zip",
+          "shasum": "3deffe00282d1c8b741f5d482c3fdc02f4ef0bb6cbb57bc7bf610e4df6910d46"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-acloud_0.1.3_freebsd_arm64.zip",
+          "download_url": "https://github.com/avisi-cloud/terraform-provider-acloud/releases/download/v0.1.3/terraform-provider-acloud_0.1.3_freebsd_arm64.zip",
+          "shasum": "563a8f0d91027ee550ddfafade649a2bc6b83ba65c4148f23534d237bd49ca8e"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-acloud_0.1.3_windows_386.zip",
+          "download_url": "https://github.com/avisi-cloud/terraform-provider-acloud/releases/download/v0.1.3/terraform-provider-acloud_0.1.3_windows_386.zip",
+          "shasum": "37cdcedf65b5c46a4a1496e8d35b0efeed295ed14932d8336993f18353ac914e"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-acloud_0.1.3_darwin_arm64.zip",
+          "download_url": "https://github.com/avisi-cloud/terraform-provider-acloud/releases/download/v0.1.3/terraform-provider-acloud_0.1.3_darwin_arm64.zip",
+          "shasum": "5b795c905a646211f0e521efca91862707b8d0b73e95aa85520d9a557be127f5"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-acloud_0.1.3_linux_amd64.zip",
+          "download_url": "https://github.com/avisi-cloud/terraform-provider-acloud/releases/download/v0.1.3/terraform-provider-acloud_0.1.3_linux_amd64.zip",
+          "shasum": "df339264d589bbf254ec47ec0e57dc5fd39b6efee22a93d01bf8bd07f03466cd"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-acloud_0.1.3_linux_arm.zip",
+          "download_url": "https://github.com/avisi-cloud/terraform-provider-acloud/releases/download/v0.1.3/terraform-provider-acloud_0.1.3_linux_arm.zip",
+          "shasum": "f11b0d74c27eb77c240091f2a4c5c815d4fe35dd871f00a3f6993d1a7391e944"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-acloud_0.1.3_linux_arm64.zip",
+          "download_url": "https://github.com/avisi-cloud/terraform-provider-acloud/releases/download/v0.1.3/terraform-provider-acloud_0.1.3_linux_arm64.zip",
+          "shasum": "9f37b9385688861e2d44c80492229eb784d5b9297fa667120b1c83e3ece82928"
+        }
+      ]
+    },
+    {
+      "version": "0.1.2",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/avisi-cloud/terraform-provider-acloud/releases/download/v0.1.2/terraform-provider-acloud_0.1.2_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/avisi-cloud/terraform-provider-acloud/releases/download/v0.1.2/terraform-provider-acloud_0.1.2_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-acloud_0.1.2_linux_amd64.zip",
+          "download_url": "https://github.com/avisi-cloud/terraform-provider-acloud/releases/download/v0.1.2/terraform-provider-acloud_0.1.2_linux_amd64.zip",
+          "shasum": "846f3e976fdf257e13e6ca9c65c9fa0c1a12b34e88868e5c34d81e31a2052399"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-acloud_0.1.2_windows_amd64.zip",
+          "download_url": "https://github.com/avisi-cloud/terraform-provider-acloud/releases/download/v0.1.2/terraform-provider-acloud_0.1.2_windows_amd64.zip",
+          "shasum": "81e4d5861963e8f5360b51e9f7f88ca1fcee06d3872d5d334cd55e47233936e2"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-acloud_0.1.2_linux_arm64.zip",
+          "download_url": "https://github.com/avisi-cloud/terraform-provider-acloud/releases/download/v0.1.2/terraform-provider-acloud_0.1.2_linux_arm64.zip",
+          "shasum": "52c27e37cba7015c1d6a1e482d38fb86e70d787f1744e1fc8395af5b4f119572"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-acloud_0.1.2_darwin_amd64.zip",
+          "download_url": "https://github.com/avisi-cloud/terraform-provider-acloud/releases/download/v0.1.2/terraform-provider-acloud_0.1.2_darwin_amd64.zip",
+          "shasum": "1095555a5166ccd2a8b929a3c5b69f5782885c050e54420795d593cf32ed54f9"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-acloud_0.1.2_freebsd_386.zip",
+          "download_url": "https://github.com/avisi-cloud/terraform-provider-acloud/releases/download/v0.1.2/terraform-provider-acloud_0.1.2_freebsd_386.zip",
+          "shasum": "49385cadcabed2306381be3e49a8d74ee187a1462bf9b8d60a6a6199ea812c89"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-acloud_0.1.2_darwin_arm64.zip",
+          "download_url": "https://github.com/avisi-cloud/terraform-provider-acloud/releases/download/v0.1.2/terraform-provider-acloud_0.1.2_darwin_arm64.zip",
+          "shasum": "c9b789ccf1a2cf7c031fa788e3db1517ca79560b629f6a51015446029441c372"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-acloud_0.1.2_freebsd_arm.zip",
+          "download_url": "https://github.com/avisi-cloud/terraform-provider-acloud/releases/download/v0.1.2/terraform-provider-acloud_0.1.2_freebsd_arm.zip",
+          "shasum": "fe42754badbf363bfb71f9c761c8db335ee44609e604923a93345c2a415f2658"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-acloud_0.1.2_windows_386.zip",
+          "download_url": "https://github.com/avisi-cloud/terraform-provider-acloud/releases/download/v0.1.2/terraform-provider-acloud_0.1.2_windows_386.zip",
+          "shasum": "a6f75ba4609904a0a2db9ce654ae516b927938e87dfbe51175da93516cc380e0"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-acloud_0.1.2_windows_arm.zip",
+          "download_url": "https://github.com/avisi-cloud/terraform-provider-acloud/releases/download/v0.1.2/terraform-provider-acloud_0.1.2_windows_arm.zip",
+          "shasum": "9f919b43893ffc042008d330b6e6f1f33fa64081305e8b8f5cb47ccc58f02582"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-acloud_0.1.2_windows_arm64.zip",
+          "download_url": "https://github.com/avisi-cloud/terraform-provider-acloud/releases/download/v0.1.2/terraform-provider-acloud_0.1.2_windows_arm64.zip",
+          "shasum": "713905beeb56bb8aef24c48f0662d6dda7955dbac4e2b64ed11413cb6fdd16ce"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-acloud_0.1.2_linux_arm.zip",
+          "download_url": "https://github.com/avisi-cloud/terraform-provider-acloud/releases/download/v0.1.2/terraform-provider-acloud_0.1.2_linux_arm.zip",
+          "shasum": "2259db1a51fbaf3001a36aec87dc36db7002b10ec973cea2bd6b480f9df3bfea"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-acloud_0.1.2_freebsd_amd64.zip",
+          "download_url": "https://github.com/avisi-cloud/terraform-provider-acloud/releases/download/v0.1.2/terraform-provider-acloud_0.1.2_freebsd_amd64.zip",
+          "shasum": "aa417459e6a8fd24c02cd941d92c18d1a906fb0b28067cc1f90d8325cd087b19"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-acloud_0.1.2_linux_386.zip",
+          "download_url": "https://github.com/avisi-cloud/terraform-provider-acloud/releases/download/v0.1.2/terraform-provider-acloud_0.1.2_linux_386.zip",
+          "shasum": "6adf3122b26131eea12e5d3714f1474b4c7249b7cb7aef2bc5b6fc44cf3cbcd4"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-acloud_0.1.2_freebsd_arm64.zip",
+          "download_url": "https://github.com/avisi-cloud/terraform-provider-acloud/releases/download/v0.1.2/terraform-provider-acloud_0.1.2_freebsd_arm64.zip",
+          "shasum": "355d4b6bb9648101ccd3023eeb34790c6b9bac4d2e22935590a7b0d886ec2377"
+        }
+      ]
+    },
+    {
+      "version": "0.1.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/avisi-cloud/terraform-provider-acloud/releases/download/v0.1.0/terraform-provider-acloud_0.1.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/avisi-cloud/terraform-provider-acloud/releases/download/v0.1.0/terraform-provider-acloud_0.1.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-acloud_0.1.0_linux_386.zip",
+          "download_url": "https://github.com/avisi-cloud/terraform-provider-acloud/releases/download/v0.1.0/terraform-provider-acloud_0.1.0_linux_386.zip",
+          "shasum": "c9965793874d62e972e2d2d2b3b4d7826a40b37f190ff716bb04e6e4e392df6a"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-acloud_0.1.0_windows_arm.zip",
+          "download_url": "https://github.com/avisi-cloud/terraform-provider-acloud/releases/download/v0.1.0/terraform-provider-acloud_0.1.0_windows_arm.zip",
+          "shasum": "6c39d3d8bdf9be12e934dfb246ad58748bde9bcebede8fe5cec03056832ee110"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-acloud_0.1.0_linux_arm.zip",
+          "download_url": "https://github.com/avisi-cloud/terraform-provider-acloud/releases/download/v0.1.0/terraform-provider-acloud_0.1.0_linux_arm.zip",
+          "shasum": "435079de7cd93992de7ba1e90c9d2b1c1cce51f462e7401ee3872f2cb2b3cc68"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-acloud_0.1.0_freebsd_arm.zip",
+          "download_url": "https://github.com/avisi-cloud/terraform-provider-acloud/releases/download/v0.1.0/terraform-provider-acloud_0.1.0_freebsd_arm.zip",
+          "shasum": "c18205a1df89b51eed22af7c163c508886ef3baa3b0b5f05fdc80b42c14b252b"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-acloud_0.1.0_windows_386.zip",
+          "download_url": "https://github.com/avisi-cloud/terraform-provider-acloud/releases/download/v0.1.0/terraform-provider-acloud_0.1.0_windows_386.zip",
+          "shasum": "c42656748994ed10a9a2b0f4e9ffe7f0658a3997b1c2d48759277896e80bbc8b"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-acloud_0.1.0_windows_amd64.zip",
+          "download_url": "https://github.com/avisi-cloud/terraform-provider-acloud/releases/download/v0.1.0/terraform-provider-acloud_0.1.0_windows_amd64.zip",
+          "shasum": "022d39378b53f8b3061ac936b9e6b0c9ed8212cf221ea62e88add39049147b68"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-acloud_0.1.0_darwin_arm64.zip",
+          "download_url": "https://github.com/avisi-cloud/terraform-provider-acloud/releases/download/v0.1.0/terraform-provider-acloud_0.1.0_darwin_arm64.zip",
+          "shasum": "9141c19eb3d407fc0fb06320fefc6b9a034580d193f9f37e219d7ff2ec80f7c2"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-acloud_0.1.0_freebsd_386.zip",
+          "download_url": "https://github.com/avisi-cloud/terraform-provider-acloud/releases/download/v0.1.0/terraform-provider-acloud_0.1.0_freebsd_386.zip",
+          "shasum": "787b17fc39204e967b0c305c5a71de0fccf57accdcb9a3cb472d4d26904ce375"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-acloud_0.1.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/avisi-cloud/terraform-provider-acloud/releases/download/v0.1.0/terraform-provider-acloud_0.1.0_freebsd_amd64.zip",
+          "shasum": "5a21486d1fd677f5a499d8092a0dc70e047cf194d94b98afb1540fef44b6437f"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-acloud_0.1.0_darwin_amd64.zip",
+          "download_url": "https://github.com/avisi-cloud/terraform-provider-acloud/releases/download/v0.1.0/terraform-provider-acloud_0.1.0_darwin_amd64.zip",
+          "shasum": "39fe5308a6ccfe20d40d8f346d671a417fbde2ecf6916211fa0baffd14b6243a"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-acloud_0.1.0_linux_amd64.zip",
+          "download_url": "https://github.com/avisi-cloud/terraform-provider-acloud/releases/download/v0.1.0/terraform-provider-acloud_0.1.0_linux_amd64.zip",
+          "shasum": "e10175adccfa4a7cea1afa1b83165701afdfb9cdf6a2678b2e950c6996d06412"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-acloud_0.1.0_linux_arm64.zip",
+          "download_url": "https://github.com/avisi-cloud/terraform-provider-acloud/releases/download/v0.1.0/terraform-provider-acloud_0.1.0_linux_arm64.zip",
+          "shasum": "7304adb2c80bbbd09267e25a4e461a046b490076931d84850eb0a708d41cc35d"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-acloud_0.1.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/avisi-cloud/terraform-provider-acloud/releases/download/v0.1.0/terraform-provider-acloud_0.1.0_freebsd_arm64.zip",
+          "shasum": "a15322e57439dec67937047dc0363a2980825232bcaa3310f3694e58fb8379d9"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-acloud_0.1.0_windows_arm64.zip",
+          "download_url": "https://github.com/avisi-cloud/terraform-provider-acloud/releases/download/v0.1.0/terraform-provider-acloud_0.1.0_windows_arm64.zip",
+          "shasum": "23ddd1cadfb0152427593507572803baa7a87dbce41cb5946f2c81b7c8f07fed"
+        }
+      ]
+    }
+  ]
+}

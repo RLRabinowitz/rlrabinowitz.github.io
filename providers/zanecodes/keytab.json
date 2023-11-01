@@ -1,0 +1,329 @@
+{
+  "repository": "https://github.com/zanecodes/terraform-provider-keytab",
+  "versions": [
+    {
+      "version": "0.2.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/zanecodes/terraform-provider-kerberos/releases/download/v0.2.0/terraform-provider-kerberos_0.2.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/zanecodes/terraform-provider-kerberos/releases/download/v0.2.0/terraform-provider-kerberos_0.2.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-kerberos_0.2.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/zanecodes/terraform-provider-kerberos/releases/download/v0.2.0/terraform-provider-kerberos_0.2.0_freebsd_arm64.zip",
+          "shasum": "c27dfe95b4fd99cd668aa96bcdf97ee9f5603162781bf296fecf5230dbd25ac1"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-kerberos_0.2.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/zanecodes/terraform-provider-kerberos/releases/download/v0.2.0/terraform-provider-kerberos_0.2.0_freebsd_amd64.zip",
+          "shasum": "6cbe90d2a6187599dba2a98c14e36bae43163146dae4b80a87e51ea9aac36ee8"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-kerberos_0.2.0_windows_arm.zip",
+          "download_url": "https://github.com/zanecodes/terraform-provider-kerberos/releases/download/v0.2.0/terraform-provider-kerberos_0.2.0_windows_arm.zip",
+          "shasum": "640591fd03d35bb158b044d8231f3811706e43f0580c0dd2e6d64a512957ef7a"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-kerberos_0.2.0_darwin_amd64.zip",
+          "download_url": "https://github.com/zanecodes/terraform-provider-kerberos/releases/download/v0.2.0/terraform-provider-kerberos_0.2.0_darwin_amd64.zip",
+          "shasum": "ccf60e502917053a40da236debaba5a5a84fd8786dae10e09600ecf8f7454c12"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-kerberos_0.2.0_darwin_arm64.zip",
+          "download_url": "https://github.com/zanecodes/terraform-provider-kerberos/releases/download/v0.2.0/terraform-provider-kerberos_0.2.0_darwin_arm64.zip",
+          "shasum": "cd5e77df41e7549246fd463d7654e96452a5b6c328767da5ee2f4f67018f1407"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-kerberos_0.2.0_windows_amd64.zip",
+          "download_url": "https://github.com/zanecodes/terraform-provider-kerberos/releases/download/v0.2.0/terraform-provider-kerberos_0.2.0_windows_amd64.zip",
+          "shasum": "15c9bcb3636a7a1e4cebe876c5a893428e85d1267567befca3b0e52a28f205d9"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-kerberos_0.2.0_freebsd_386.zip",
+          "download_url": "https://github.com/zanecodes/terraform-provider-kerberos/releases/download/v0.2.0/terraform-provider-kerberos_0.2.0_freebsd_386.zip",
+          "shasum": "b2aee729453f71115f528f75e9fa1450c55875ace156fabe280cd6c31b5c6711"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-kerberos_0.2.0_windows_386.zip",
+          "download_url": "https://github.com/zanecodes/terraform-provider-kerberos/releases/download/v0.2.0/terraform-provider-kerberos_0.2.0_windows_386.zip",
+          "shasum": "d5a26e8ab63e895809fb54b3380a59bbe9d0d5788a782f3b12fdc8fb834bb554"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-kerberos_0.2.0_linux_386.zip",
+          "download_url": "https://github.com/zanecodes/terraform-provider-kerberos/releases/download/v0.2.0/terraform-provider-kerberos_0.2.0_linux_386.zip",
+          "shasum": "a52479fbe21d8f4f627c3c5ae7eb465edc61bebe22fdbf2e38d59bff14370e9f"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-kerberos_0.2.0_linux_arm.zip",
+          "download_url": "https://github.com/zanecodes/terraform-provider-kerberos/releases/download/v0.2.0/terraform-provider-kerberos_0.2.0_linux_arm.zip",
+          "shasum": "464634629e8bc8aaca583de8dfe159203f996c3b240ecfb8227c69c1239eeaee"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-kerberos_0.2.0_linux_arm64.zip",
+          "download_url": "https://github.com/zanecodes/terraform-provider-kerberos/releases/download/v0.2.0/terraform-provider-kerberos_0.2.0_linux_arm64.zip",
+          "shasum": "f8ffea94a9870a3d8a7850095d808b4af06cb82a716b3dca6fe62f55a9497b93"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-kerberos_0.2.0_freebsd_arm.zip",
+          "download_url": "https://github.com/zanecodes/terraform-provider-kerberos/releases/download/v0.2.0/terraform-provider-kerberos_0.2.0_freebsd_arm.zip",
+          "shasum": "33edb13974e592de29133a44ab80c7700fdbf83e14f1788c72dd989292f8de2e"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-kerberos_0.2.0_windows_arm64.zip",
+          "download_url": "https://github.com/zanecodes/terraform-provider-kerberos/releases/download/v0.2.0/terraform-provider-kerberos_0.2.0_windows_arm64.zip",
+          "shasum": "f6026f4464b75e0f65be9d9c5fd8a66601a7f5c1db92c54c25060eaa16f728af"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-kerberos_0.2.0_linux_amd64.zip",
+          "download_url": "https://github.com/zanecodes/terraform-provider-kerberos/releases/download/v0.2.0/terraform-provider-kerberos_0.2.0_linux_amd64.zip",
+          "shasum": "b4f00f73172cfb5e012530cfa403b7637722e41327510c59b0555f569b4cd4dd"
+        }
+      ]
+    },
+    {
+      "version": "0.1.1",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/zanecodes/terraform-provider-kerberos/releases/download/v0.1.1/terraform-provider-keytab_0.1.1_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/zanecodes/terraform-provider-kerberos/releases/download/v0.1.1/terraform-provider-keytab_0.1.1_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-keytab_0.1.1_linux_arm.zip",
+          "download_url": "https://github.com/zanecodes/terraform-provider-kerberos/releases/download/v0.1.1/terraform-provider-keytab_0.1.1_linux_arm.zip",
+          "shasum": "4d9aa8ce75d2330d51d70630f05254f3f0dfe174cacc8ec4c666553dc0ca40f1"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-keytab_0.1.1_linux_arm64.zip",
+          "download_url": "https://github.com/zanecodes/terraform-provider-kerberos/releases/download/v0.1.1/terraform-provider-keytab_0.1.1_linux_arm64.zip",
+          "shasum": "3fed7b9348016f10901eb3f7bb7be34bb3283792d3a168c6de3bb3623fb59032"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-keytab_0.1.1_freebsd_amd64.zip",
+          "download_url": "https://github.com/zanecodes/terraform-provider-kerberos/releases/download/v0.1.1/terraform-provider-keytab_0.1.1_freebsd_amd64.zip",
+          "shasum": "46815759b58f6c8fa978b54cb7239798e71207e835947a9859b65feae254f28b"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-keytab_0.1.1_freebsd_arm64.zip",
+          "download_url": "https://github.com/zanecodes/terraform-provider-kerberos/releases/download/v0.1.1/terraform-provider-keytab_0.1.1_freebsd_arm64.zip",
+          "shasum": "fbc9558a95e2a383c833b220097751277af049d997141e7c41010025a78a4901"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-keytab_0.1.1_windows_386.zip",
+          "download_url": "https://github.com/zanecodes/terraform-provider-kerberos/releases/download/v0.1.1/terraform-provider-keytab_0.1.1_windows_386.zip",
+          "shasum": "970075ff4f7e8692d4f430c2882f9335fb81ff9d58aa37125a9e72e6878ca989"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-keytab_0.1.1_windows_amd64.zip",
+          "download_url": "https://github.com/zanecodes/terraform-provider-kerberos/releases/download/v0.1.1/terraform-provider-keytab_0.1.1_windows_amd64.zip",
+          "shasum": "502c9714111ddfd6e9cf5cb827f1cb9eb5cf7e7c252edf820659b457178190de"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-keytab_0.1.1_windows_arm64.zip",
+          "download_url": "https://github.com/zanecodes/terraform-provider-kerberos/releases/download/v0.1.1/terraform-provider-keytab_0.1.1_windows_arm64.zip",
+          "shasum": "5c8f4f13799ddc31540163de0e12c173f0312642cc871e6532b2b91b8ae0f95f"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-keytab_0.1.1_linux_386.zip",
+          "download_url": "https://github.com/zanecodes/terraform-provider-kerberos/releases/download/v0.1.1/terraform-provider-keytab_0.1.1_linux_386.zip",
+          "shasum": "caa4e902a0275590ba760fe05ac2579fbb2c4cb3898afc811b150b0bcacbc5e7"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-keytab_0.1.1_windows_arm.zip",
+          "download_url": "https://github.com/zanecodes/terraform-provider-kerberos/releases/download/v0.1.1/terraform-provider-keytab_0.1.1_windows_arm.zip",
+          "shasum": "271d70ed04f0ee972f090e13c98b0e0b0b6eea5ad7d6c3de1826b8dc6de11df4"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-keytab_0.1.1_darwin_arm64.zip",
+          "download_url": "https://github.com/zanecodes/terraform-provider-kerberos/releases/download/v0.1.1/terraform-provider-keytab_0.1.1_darwin_arm64.zip",
+          "shasum": "4bd8f8a2bbfdaad5cacb5aa44cd9f004fea75dd4555e2f3b6643fd96e3f4c72d"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-keytab_0.1.1_freebsd_386.zip",
+          "download_url": "https://github.com/zanecodes/terraform-provider-kerberos/releases/download/v0.1.1/terraform-provider-keytab_0.1.1_freebsd_386.zip",
+          "shasum": "31cd614b54cf3645930ddcadd702a96ecef23494cf1976ff58d8f43e6b481e97"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-keytab_0.1.1_freebsd_arm.zip",
+          "download_url": "https://github.com/zanecodes/terraform-provider-kerberos/releases/download/v0.1.1/terraform-provider-keytab_0.1.1_freebsd_arm.zip",
+          "shasum": "e0886b501fc51e9098b7058b6b764baddab1572b59525769b3314f41af199d1b"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-keytab_0.1.1_linux_amd64.zip",
+          "download_url": "https://github.com/zanecodes/terraform-provider-kerberos/releases/download/v0.1.1/terraform-provider-keytab_0.1.1_linux_amd64.zip",
+          "shasum": "05f145ec6bc45738c8dee9dff962dad86f1c4d065cbdf99a64f84d774d2e336f"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-keytab_0.1.1_darwin_amd64.zip",
+          "download_url": "https://github.com/zanecodes/terraform-provider-kerberos/releases/download/v0.1.1/terraform-provider-keytab_0.1.1_darwin_amd64.zip",
+          "shasum": "207388f4af7c4243f65978cb79247a6693f93cdba0229d4c30e6d7cfd787a0bf"
+        }
+      ]
+    },
+    {
+      "version": "0.1.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/zanecodes/terraform-provider-kerberos/releases/download/v0.1.0/terraform-provider-keytab_0.1.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/zanecodes/terraform-provider-kerberos/releases/download/v0.1.0/terraform-provider-keytab_0.1.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-keytab_0.1.0_windows_amd64.zip",
+          "download_url": "https://github.com/zanecodes/terraform-provider-kerberos/releases/download/v0.1.0/terraform-provider-keytab_0.1.0_windows_amd64.zip",
+          "shasum": "0969804a365785032bdbdfc3b125ad3240fdc18ca812914fbbbc5f5c626a6256"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-keytab_0.1.0_linux_arm64.zip",
+          "download_url": "https://github.com/zanecodes/terraform-provider-kerberos/releases/download/v0.1.0/terraform-provider-keytab_0.1.0_linux_arm64.zip",
+          "shasum": "00af3322ef8848d05aa7fd82309432791fbbde9ed48251723ce29c2e5fa45271"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-keytab_0.1.0_freebsd_arm.zip",
+          "download_url": "https://github.com/zanecodes/terraform-provider-kerberos/releases/download/v0.1.0/terraform-provider-keytab_0.1.0_freebsd_arm.zip",
+          "shasum": "18758026324d0f7b44f0352bc86ce802c616708b2f44b97ad4ccea36bf842587"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-keytab_0.1.0_darwin_arm64.zip",
+          "download_url": "https://github.com/zanecodes/terraform-provider-kerberos/releases/download/v0.1.0/terraform-provider-keytab_0.1.0_darwin_arm64.zip",
+          "shasum": "69d229e6aaf4d411c312587714be211320d9e415be931fe78a3552cfc5602349"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-keytab_0.1.0_windows_arm.zip",
+          "download_url": "https://github.com/zanecodes/terraform-provider-kerberos/releases/download/v0.1.0/terraform-provider-keytab_0.1.0_windows_arm.zip",
+          "shasum": "24f0059d11b190c630dfa4f54f160a03ec52ed2cf8a74d6e2e5d00bd491a1ddd"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-keytab_0.1.0_linux_arm.zip",
+          "download_url": "https://github.com/zanecodes/terraform-provider-kerberos/releases/download/v0.1.0/terraform-provider-keytab_0.1.0_linux_arm.zip",
+          "shasum": "1991027bb83a58c2738d30224d952d1004f8d9b19ab97fd5f45b1cda038068e5"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-keytab_0.1.0_windows_arm64.zip",
+          "download_url": "https://github.com/zanecodes/terraform-provider-kerberos/releases/download/v0.1.0/terraform-provider-keytab_0.1.0_windows_arm64.zip",
+          "shasum": "41f4a68842eff4d628ac5fbbd65b2f47843af5085e90451e209da5e738fc6c71"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-keytab_0.1.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/zanecodes/terraform-provider-kerberos/releases/download/v0.1.0/terraform-provider-keytab_0.1.0_freebsd_amd64.zip",
+          "shasum": "e72377d976e34c9217004d73462f37b1f216595cb5b4225947a8221a8f6e70bc"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-keytab_0.1.0_linux_386.zip",
+          "download_url": "https://github.com/zanecodes/terraform-provider-kerberos/releases/download/v0.1.0/terraform-provider-keytab_0.1.0_linux_386.zip",
+          "shasum": "2f760c284505727a99e874f3c1a323ab3e440a72f960419298c4267605e82d96"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-keytab_0.1.0_linux_amd64.zip",
+          "download_url": "https://github.com/zanecodes/terraform-provider-kerberos/releases/download/v0.1.0/terraform-provider-keytab_0.1.0_linux_amd64.zip",
+          "shasum": "abc6547ceea8f13ef54374d38c88466236d772fb329703d24a02410ac0e49eaa"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-keytab_0.1.0_freebsd_386.zip",
+          "download_url": "https://github.com/zanecodes/terraform-provider-kerberos/releases/download/v0.1.0/terraform-provider-keytab_0.1.0_freebsd_386.zip",
+          "shasum": "cd14dc68d9cd6b31ee180e6efcc8d173f63d9bcc12fe3cc74680393201bbb868"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-keytab_0.1.0_darwin_amd64.zip",
+          "download_url": "https://github.com/zanecodes/terraform-provider-kerberos/releases/download/v0.1.0/terraform-provider-keytab_0.1.0_darwin_amd64.zip",
+          "shasum": "4ac7230dadb0e2f6e544bfa3bdb47202847ed6dc19772e1118a68a382a8e5455"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-keytab_0.1.0_windows_386.zip",
+          "download_url": "https://github.com/zanecodes/terraform-provider-kerberos/releases/download/v0.1.0/terraform-provider-keytab_0.1.0_windows_386.zip",
+          "shasum": "88188e35d301be37c25bafc91904afdcc765d0b6524cbf853a8e663903b6160d"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-keytab_0.1.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/zanecodes/terraform-provider-kerberos/releases/download/v0.1.0/terraform-provider-keytab_0.1.0_freebsd_arm64.zip",
+          "shasum": "b1ba53e18e34138131fb072cbddf8bbb606f96ed94d885b5047e2a522453028b"
+        }
+      ]
+    }
+  ]
+}

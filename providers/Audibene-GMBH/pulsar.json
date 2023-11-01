@@ -1,0 +1,653 @@
+{
+  "repository": "https://github.com/Audibene-GMBH/terraform-provider-pulsar",
+  "versions": [
+    {
+      "version": "0.4.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/Audibene-GMBH/terraform-provider-pulsar/releases/download/v0.4.0/terraform-provider-pulsar_0.4.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/Audibene-GMBH/terraform-provider-pulsar/releases/download/v0.4.0/terraform-provider-pulsar_0.4.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-pulsar_0.4.0_freebsd_arm.zip",
+          "download_url": "https://github.com/Audibene-GMBH/terraform-provider-pulsar/releases/download/v0.4.0/terraform-provider-pulsar_0.4.0_freebsd_arm.zip",
+          "shasum": "515b8e73e6f779f32dfdf517075f093686747135ea23d0bcfee34fb6d3c56463"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-pulsar_0.4.0_linux_386.zip",
+          "download_url": "https://github.com/Audibene-GMBH/terraform-provider-pulsar/releases/download/v0.4.0/terraform-provider-pulsar_0.4.0_linux_386.zip",
+          "shasum": "0d2becc8a0b62e86c0ebc4b7423ca8160625c9e409da714e2a060fa8ec8e50af"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-pulsar_0.4.0_linux_amd64.zip",
+          "download_url": "https://github.com/Audibene-GMBH/terraform-provider-pulsar/releases/download/v0.4.0/terraform-provider-pulsar_0.4.0_linux_amd64.zip",
+          "shasum": "360001e4bdeb499b37a32a7bb26e2f704e2731bed2293f11c4fba5de48e4f67f"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-pulsar_0.4.0_darwin_arm64.zip",
+          "download_url": "https://github.com/Audibene-GMBH/terraform-provider-pulsar/releases/download/v0.4.0/terraform-provider-pulsar_0.4.0_darwin_arm64.zip",
+          "shasum": "b89fa1a7f22fa5e98d0a43bb40274f46721f96afe970de792648e207b2ce8f67"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-pulsar_0.4.0_linux_arm.zip",
+          "download_url": "https://github.com/Audibene-GMBH/terraform-provider-pulsar/releases/download/v0.4.0/terraform-provider-pulsar_0.4.0_linux_arm.zip",
+          "shasum": "1c133a9ffe84af4131c1402085ecaa9e0f574d9cd18ba55d5647fd90a87932e7"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-pulsar_0.4.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/Audibene-GMBH/terraform-provider-pulsar/releases/download/v0.4.0/terraform-provider-pulsar_0.4.0_freebsd_amd64.zip",
+          "shasum": "0034a0a29addf2071a229ce0ba4af46ce7d2bbba9eca5e58d4378777754c71af"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-pulsar_0.4.0_windows_arm64.zip",
+          "download_url": "https://github.com/Audibene-GMBH/terraform-provider-pulsar/releases/download/v0.4.0/terraform-provider-pulsar_0.4.0_windows_arm64.zip",
+          "shasum": "f5a5d8146cdb2042681f22c6009086eec07c388d42a11d9b5b7044d9bf0a1024"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-pulsar_0.4.0_darwin_amd64.zip",
+          "download_url": "https://github.com/Audibene-GMBH/terraform-provider-pulsar/releases/download/v0.4.0/terraform-provider-pulsar_0.4.0_darwin_amd64.zip",
+          "shasum": "f6dfafaaff15fed016a76ec7219b8a2d9d84c7fe237952ed13845f87070d5634"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-pulsar_0.4.0_windows_386.zip",
+          "download_url": "https://github.com/Audibene-GMBH/terraform-provider-pulsar/releases/download/v0.4.0/terraform-provider-pulsar_0.4.0_windows_386.zip",
+          "shasum": "510a56a40a1457955df54bd7ceb88354eb6c54e52007b3b2df1ab0b79bac89d4"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-pulsar_0.4.0_windows_arm.zip",
+          "download_url": "https://github.com/Audibene-GMBH/terraform-provider-pulsar/releases/download/v0.4.0/terraform-provider-pulsar_0.4.0_windows_arm.zip",
+          "shasum": "d42ae7464aeed12bed437542e2d3dc784e4ac82ab4b1f4d7b5da1aabb19c4a05"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-pulsar_0.4.0_freebsd_386.zip",
+          "download_url": "https://github.com/Audibene-GMBH/terraform-provider-pulsar/releases/download/v0.4.0/terraform-provider-pulsar_0.4.0_freebsd_386.zip",
+          "shasum": "b56eeb75b92cc5a6792492cd2fb55167ad10fdadd7a5ffb9ab1355ceb8a11641"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-pulsar_0.4.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/Audibene-GMBH/terraform-provider-pulsar/releases/download/v0.4.0/terraform-provider-pulsar_0.4.0_freebsd_arm64.zip",
+          "shasum": "d96ee2f9ba9ba76e5350e527e535267b760042fab1bdf9be1721cc7039c416c6"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-pulsar_0.4.0_linux_arm64.zip",
+          "download_url": "https://github.com/Audibene-GMBH/terraform-provider-pulsar/releases/download/v0.4.0/terraform-provider-pulsar_0.4.0_linux_arm64.zip",
+          "shasum": "2cc4b48b0fba4b32796c101acf9eef68e2a94158d91783912a81d9603c67aa1a"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-pulsar_0.4.0_windows_amd64.zip",
+          "download_url": "https://github.com/Audibene-GMBH/terraform-provider-pulsar/releases/download/v0.4.0/terraform-provider-pulsar_0.4.0_windows_amd64.zip",
+          "shasum": "edd92dbaea97acaea80cd15fa1c4235e9d6e57ab8c1bbe7c3a8bc2c801588d31"
+        }
+      ]
+    },
+    {
+      "version": "0.3.3",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/Audibene-GMBH/terraform-provider-pulsar/releases/download/v0.3.3/terraform-provider-pulsar_0.3.3_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/Audibene-GMBH/terraform-provider-pulsar/releases/download/v0.3.3/terraform-provider-pulsar_0.3.3_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-pulsar_0.3.3_freebsd_amd64.zip",
+          "download_url": "https://github.com/Audibene-GMBH/terraform-provider-pulsar/releases/download/v0.3.3/terraform-provider-pulsar_0.3.3_freebsd_amd64.zip",
+          "shasum": "435d876c13602db1e7cae41d596dea356f5e654c8351f96d8256c06573d5a2c2"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-pulsar_0.3.3_linux_386.zip",
+          "download_url": "https://github.com/Audibene-GMBH/terraform-provider-pulsar/releases/download/v0.3.3/terraform-provider-pulsar_0.3.3_linux_386.zip",
+          "shasum": "a9ae3cd3c72f214c5de9cdc4c39a1e10718eb5b654383a495b7c7db2e550dfeb"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-pulsar_0.3.3_windows_amd64.zip",
+          "download_url": "https://github.com/Audibene-GMBH/terraform-provider-pulsar/releases/download/v0.3.3/terraform-provider-pulsar_0.3.3_windows_amd64.zip",
+          "shasum": "a40be5a2ac14e55ca42faccad0c0c2403b2271bd2035aebc88613a663910c16e"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-pulsar_0.3.3_windows_arm64.zip",
+          "download_url": "https://github.com/Audibene-GMBH/terraform-provider-pulsar/releases/download/v0.3.3/terraform-provider-pulsar_0.3.3_windows_arm64.zip",
+          "shasum": "50e24631266abd1c256e5ea8610cd08dd68ab08182a560727e738efd4475062f"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-pulsar_0.3.3_linux_arm64.zip",
+          "download_url": "https://github.com/Audibene-GMBH/terraform-provider-pulsar/releases/download/v0.3.3/terraform-provider-pulsar_0.3.3_linux_arm64.zip",
+          "shasum": "dfed2242f0761c25545812f9dcda31cc81b8981a688b6294192c959db47d67d0"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-pulsar_0.3.3_darwin_arm64.zip",
+          "download_url": "https://github.com/Audibene-GMBH/terraform-provider-pulsar/releases/download/v0.3.3/terraform-provider-pulsar_0.3.3_darwin_arm64.zip",
+          "shasum": "ba961c5df494f7162cbdaae3cc1213f1ad82a8b1927e308f042f62e29f3f5954"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-pulsar_0.3.3_freebsd_arm64.zip",
+          "download_url": "https://github.com/Audibene-GMBH/terraform-provider-pulsar/releases/download/v0.3.3/terraform-provider-pulsar_0.3.3_freebsd_arm64.zip",
+          "shasum": "9c9f690c5c66be80ff51bd80f478ceaf0b28b84ac0cbae8996c783c04b15388a"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-pulsar_0.3.3_linux_amd64.zip",
+          "download_url": "https://github.com/Audibene-GMBH/terraform-provider-pulsar/releases/download/v0.3.3/terraform-provider-pulsar_0.3.3_linux_amd64.zip",
+          "shasum": "df9d1f575e316bf2e517c4dccb4cd7bcd675fceab36ee2e6aab253a7d3f80735"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-pulsar_0.3.3_freebsd_arm.zip",
+          "download_url": "https://github.com/Audibene-GMBH/terraform-provider-pulsar/releases/download/v0.3.3/terraform-provider-pulsar_0.3.3_freebsd_arm.zip",
+          "shasum": "763d69e1de74785881a58c3583e50d726349820a82c0d448efc0cc85ca1f56d2"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-pulsar_0.3.3_darwin_amd64.zip",
+          "download_url": "https://github.com/Audibene-GMBH/terraform-provider-pulsar/releases/download/v0.3.3/terraform-provider-pulsar_0.3.3_darwin_amd64.zip",
+          "shasum": "9a966256aca28c8bb1be4193ae08327a54fbd41b8028ce5d8b26485b8ed692db"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-pulsar_0.3.3_windows_arm.zip",
+          "download_url": "https://github.com/Audibene-GMBH/terraform-provider-pulsar/releases/download/v0.3.3/terraform-provider-pulsar_0.3.3_windows_arm.zip",
+          "shasum": "4559619b7017e6042859351db96a6b2b3da0d2cec9a67a246e80b4895fd43126"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-pulsar_0.3.3_linux_arm.zip",
+          "download_url": "https://github.com/Audibene-GMBH/terraform-provider-pulsar/releases/download/v0.3.3/terraform-provider-pulsar_0.3.3_linux_arm.zip",
+          "shasum": "6e99ef98ce90bf678877746d65ee66259a3a4b4863b5b4975d380ff4f246f30f"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-pulsar_0.3.3_freebsd_386.zip",
+          "download_url": "https://github.com/Audibene-GMBH/terraform-provider-pulsar/releases/download/v0.3.3/terraform-provider-pulsar_0.3.3_freebsd_386.zip",
+          "shasum": "168e981bab6c0479cf7a17410e83490f1b53c5b015e5bfe82707b832ff725943"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-pulsar_0.3.3_windows_386.zip",
+          "download_url": "https://github.com/Audibene-GMBH/terraform-provider-pulsar/releases/download/v0.3.3/terraform-provider-pulsar_0.3.3_windows_386.zip",
+          "shasum": "618e566f258bfc8d5fd20df823ca49656485dd6429a1b90b71657e4f64128632"
+        }
+      ]
+    },
+    {
+      "version": "0.3.2",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/Audibene-GMBH/terraform-provider-pulsar/releases/download/v0.3.2/terraform-provider-pulsar_0.3.2_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/Audibene-GMBH/terraform-provider-pulsar/releases/download/v0.3.2/terraform-provider-pulsar_0.3.2_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-pulsar_0.3.2_linux_arm64.zip",
+          "download_url": "https://github.com/Audibene-GMBH/terraform-provider-pulsar/releases/download/v0.3.2/terraform-provider-pulsar_0.3.2_linux_arm64.zip",
+          "shasum": "340932f7ce058fc9e53ecab47fece8c7cccf266010cec3488f2d624cb78b8632"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-pulsar_0.3.2_windows_386.zip",
+          "download_url": "https://github.com/Audibene-GMBH/terraform-provider-pulsar/releases/download/v0.3.2/terraform-provider-pulsar_0.3.2_windows_386.zip",
+          "shasum": "5569d799ca64c08ad887bca1bcecaa3552560bdecb0a5dd5fc996b8f44840ffb"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-pulsar_0.3.2_linux_386.zip",
+          "download_url": "https://github.com/Audibene-GMBH/terraform-provider-pulsar/releases/download/v0.3.2/terraform-provider-pulsar_0.3.2_linux_386.zip",
+          "shasum": "aeec95555e34286e54b764a97e396cbc2907b78c48d934c80c877b6b9b09645b"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-pulsar_0.3.2_freebsd_386.zip",
+          "download_url": "https://github.com/Audibene-GMBH/terraform-provider-pulsar/releases/download/v0.3.2/terraform-provider-pulsar_0.3.2_freebsd_386.zip",
+          "shasum": "e8fb46d670ed083173dcdd0af2cfa4ef95b8f1c83a3d2411e6eaa1f604619be9"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-pulsar_0.3.2_freebsd_amd64.zip",
+          "download_url": "https://github.com/Audibene-GMBH/terraform-provider-pulsar/releases/download/v0.3.2/terraform-provider-pulsar_0.3.2_freebsd_amd64.zip",
+          "shasum": "156e38ca6811cfa6dda665352c3491aebb79afc4b348a49440388600d6c8c15a"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-pulsar_0.3.2_darwin_arm64.zip",
+          "download_url": "https://github.com/Audibene-GMBH/terraform-provider-pulsar/releases/download/v0.3.2/terraform-provider-pulsar_0.3.2_darwin_arm64.zip",
+          "shasum": "1e5f8b9f30fd136efe13e77869430e054e4ad22e201cbb1508c37ff379c0aedc"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-pulsar_0.3.2_windows_arm64.zip",
+          "download_url": "https://github.com/Audibene-GMBH/terraform-provider-pulsar/releases/download/v0.3.2/terraform-provider-pulsar_0.3.2_windows_arm64.zip",
+          "shasum": "fc2b10c7426d1137bf8dc1054c320bef6addf870c5d41d796acd8ef7283e16d8"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-pulsar_0.3.2_freebsd_arm64.zip",
+          "download_url": "https://github.com/Audibene-GMBH/terraform-provider-pulsar/releases/download/v0.3.2/terraform-provider-pulsar_0.3.2_freebsd_arm64.zip",
+          "shasum": "56d0fc95cd0eb91927751743e65959e7540f0c9fed17473fcbff653787914595"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-pulsar_0.3.2_freebsd_arm.zip",
+          "download_url": "https://github.com/Audibene-GMBH/terraform-provider-pulsar/releases/download/v0.3.2/terraform-provider-pulsar_0.3.2_freebsd_arm.zip",
+          "shasum": "a753eb7485cd69d7257fa0fd188f34e26adaf948f61e19a8b88c0eb9a0663f1b"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-pulsar_0.3.2_linux_arm.zip",
+          "download_url": "https://github.com/Audibene-GMBH/terraform-provider-pulsar/releases/download/v0.3.2/terraform-provider-pulsar_0.3.2_linux_arm.zip",
+          "shasum": "e49c56e117ff3cd518784026e182455b1f204d5a4a59f0ad34960979ddb20e0d"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-pulsar_0.3.2_windows_amd64.zip",
+          "download_url": "https://github.com/Audibene-GMBH/terraform-provider-pulsar/releases/download/v0.3.2/terraform-provider-pulsar_0.3.2_windows_amd64.zip",
+          "shasum": "8277c10e380493f5798fed4f2ed40d21a72c0b9a69aebcef50254b0a8b0b12ee"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-pulsar_0.3.2_windows_arm.zip",
+          "download_url": "https://github.com/Audibene-GMBH/terraform-provider-pulsar/releases/download/v0.3.2/terraform-provider-pulsar_0.3.2_windows_arm.zip",
+          "shasum": "d0a12643b00d0e73047663a61250f4cac63dbbf65387a1be98240bad3f4edee7"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-pulsar_0.3.2_darwin_amd64.zip",
+          "download_url": "https://github.com/Audibene-GMBH/terraform-provider-pulsar/releases/download/v0.3.2/terraform-provider-pulsar_0.3.2_darwin_amd64.zip",
+          "shasum": "c3ec28b7725697a65712cd5883b644415f3f639a5c36d00c862c80e90faf1bc5"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-pulsar_0.3.2_linux_amd64.zip",
+          "download_url": "https://github.com/Audibene-GMBH/terraform-provider-pulsar/releases/download/v0.3.2/terraform-provider-pulsar_0.3.2_linux_amd64.zip",
+          "shasum": "7f4e38d96c74d143bb218193a5530977c67100803f0975829ff0523aca82a6c3"
+        }
+      ]
+    },
+    {
+      "version": "0.3.1",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/Audibene-GMBH/terraform-provider-pulsar/releases/download/v0.3.1/terraform-provider-pulsar_0.3.1_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/Audibene-GMBH/terraform-provider-pulsar/releases/download/v0.3.1/terraform-provider-pulsar_0.3.1_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-pulsar_0.3.1_windows_386.zip",
+          "download_url": "https://github.com/Audibene-GMBH/terraform-provider-pulsar/releases/download/v0.3.1/terraform-provider-pulsar_0.3.1_windows_386.zip",
+          "shasum": "a300d78273fc91976d21105666f7e41b4a1479b8c1ef846515a29fbc7bdaee72"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-pulsar_0.3.1_freebsd_arm64.zip",
+          "download_url": "https://github.com/Audibene-GMBH/terraform-provider-pulsar/releases/download/v0.3.1/terraform-provider-pulsar_0.3.1_freebsd_arm64.zip",
+          "shasum": "4a73cdcf6f85142a0abe7a2e4085aba519bdf80abdefc4f1cbe01386b116599e"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-pulsar_0.3.1_linux_amd64.zip",
+          "download_url": "https://github.com/Audibene-GMBH/terraform-provider-pulsar/releases/download/v0.3.1/terraform-provider-pulsar_0.3.1_linux_amd64.zip",
+          "shasum": "be58519d5688f862043f5c08c5a81476182358fae91af6f81b85cc0fd41dc56d"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-pulsar_0.3.1_windows_arm.zip",
+          "download_url": "https://github.com/Audibene-GMBH/terraform-provider-pulsar/releases/download/v0.3.1/terraform-provider-pulsar_0.3.1_windows_arm.zip",
+          "shasum": "2f380753882a90b92a6d98336d52db3ff1080319f95b5ae59ecb4290848bbe22"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-pulsar_0.3.1_darwin_arm64.zip",
+          "download_url": "https://github.com/Audibene-GMBH/terraform-provider-pulsar/releases/download/v0.3.1/terraform-provider-pulsar_0.3.1_darwin_arm64.zip",
+          "shasum": "afa9d4cc042b7d5a2f9bf5c1c9c6150d0a91713b63677c0386eb376811d0d277"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-pulsar_0.3.1_linux_386.zip",
+          "download_url": "https://github.com/Audibene-GMBH/terraform-provider-pulsar/releases/download/v0.3.1/terraform-provider-pulsar_0.3.1_linux_386.zip",
+          "shasum": "14321d501b5de80a55641fe816a969bac52689f355a9d07658bafed531cc1eef"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-pulsar_0.3.1_freebsd_arm.zip",
+          "download_url": "https://github.com/Audibene-GMBH/terraform-provider-pulsar/releases/download/v0.3.1/terraform-provider-pulsar_0.3.1_freebsd_arm.zip",
+          "shasum": "3d835abddee2a1a19ad9cbc6368314b782fd9a9245a54494b75792ba0e6a13c0"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-pulsar_0.3.1_windows_arm64.zip",
+          "download_url": "https://github.com/Audibene-GMBH/terraform-provider-pulsar/releases/download/v0.3.1/terraform-provider-pulsar_0.3.1_windows_arm64.zip",
+          "shasum": "e91e37220698920f6bd4a8b78fcd894e6508f9f4ed022a7ab9c8e1922bb762bb"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-pulsar_0.3.1_linux_arm64.zip",
+          "download_url": "https://github.com/Audibene-GMBH/terraform-provider-pulsar/releases/download/v0.3.1/terraform-provider-pulsar_0.3.1_linux_arm64.zip",
+          "shasum": "e5c82b9cf993fced66a6a14bafa4ff11eb043452eec45bbfa2fec2c980f8357e"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-pulsar_0.3.1_freebsd_386.zip",
+          "download_url": "https://github.com/Audibene-GMBH/terraform-provider-pulsar/releases/download/v0.3.1/terraform-provider-pulsar_0.3.1_freebsd_386.zip",
+          "shasum": "54c0e1d4566df0ecb56149c291e352bfed0d41222c5d73f1ad68e5bf6573705b"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-pulsar_0.3.1_linux_arm.zip",
+          "download_url": "https://github.com/Audibene-GMBH/terraform-provider-pulsar/releases/download/v0.3.1/terraform-provider-pulsar_0.3.1_linux_arm.zip",
+          "shasum": "6ca2e939f881df96df0f477e57819ec7e284644ce5790aac19bcdf8159a9c427"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-pulsar_0.3.1_darwin_amd64.zip",
+          "download_url": "https://github.com/Audibene-GMBH/terraform-provider-pulsar/releases/download/v0.3.1/terraform-provider-pulsar_0.3.1_darwin_amd64.zip",
+          "shasum": "e2124eccbc35d1e9584fe20d0033e55e7795e6ffaa0ab8c419bbcf8e883a9311"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-pulsar_0.3.1_windows_amd64.zip",
+          "download_url": "https://github.com/Audibene-GMBH/terraform-provider-pulsar/releases/download/v0.3.1/terraform-provider-pulsar_0.3.1_windows_amd64.zip",
+          "shasum": "466cbce6254d6ddca261b234903246f0bd97e0341fe36661a16ceb93712234dc"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-pulsar_0.3.1_freebsd_amd64.zip",
+          "download_url": "https://github.com/Audibene-GMBH/terraform-provider-pulsar/releases/download/v0.3.1/terraform-provider-pulsar_0.3.1_freebsd_amd64.zip",
+          "shasum": "efd94e771780184e4ac01472cb47496cf57b3daf8c2c427a6625685b87cc5320"
+        }
+      ]
+    },
+    {
+      "version": "0.3.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/Audibene-GMBH/terraform-provider-pulsar/releases/download/v0.3.0/terraform-provider-pulsar_0.3.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/Audibene-GMBH/terraform-provider-pulsar/releases/download/v0.3.0/terraform-provider-pulsar_0.3.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-pulsar_0.3.0_linux_386.zip",
+          "download_url": "https://github.com/Audibene-GMBH/terraform-provider-pulsar/releases/download/v0.3.0/terraform-provider-pulsar_0.3.0_linux_386.zip",
+          "shasum": "dd7e23b5acd69e7c4a6103832703411fc19aa87b543da186268f83040e444f9d"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-pulsar_0.3.0_linux_arm64.zip",
+          "download_url": "https://github.com/Audibene-GMBH/terraform-provider-pulsar/releases/download/v0.3.0/terraform-provider-pulsar_0.3.0_linux_arm64.zip",
+          "shasum": "8b6f34460973561ff2eb7a0b339be1d874eb26445dcc4aa227d81e9e0be48a67"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-pulsar_0.3.0_linux_amd64.zip",
+          "download_url": "https://github.com/Audibene-GMBH/terraform-provider-pulsar/releases/download/v0.3.0/terraform-provider-pulsar_0.3.0_linux_amd64.zip",
+          "shasum": "5adc5fdab3bd37fb0527b08562a04d6f296c477459ce9b9166f8c2bcacd9dbee"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-pulsar_0.3.0_linux_arm.zip",
+          "download_url": "https://github.com/Audibene-GMBH/terraform-provider-pulsar/releases/download/v0.3.0/terraform-provider-pulsar_0.3.0_linux_arm.zip",
+          "shasum": "6fb23f9637b0eea74bb0bdd3353d22110bf43d71e72056bd4c105965c6b2f058"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-pulsar_0.3.0_darwin_amd64.zip",
+          "download_url": "https://github.com/Audibene-GMBH/terraform-provider-pulsar/releases/download/v0.3.0/terraform-provider-pulsar_0.3.0_darwin_amd64.zip",
+          "shasum": "9e9dda0e326f026b41b289ef1aa3be413245e8029c5d459213d7f26c07a81cc3"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-pulsar_0.3.0_darwin_arm64.zip",
+          "download_url": "https://github.com/Audibene-GMBH/terraform-provider-pulsar/releases/download/v0.3.0/terraform-provider-pulsar_0.3.0_darwin_arm64.zip",
+          "shasum": "0328ba67c13ec3e8248d0d4a2478136b30d235b3bd63ff7f08dbf702bae413ca"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-pulsar_0.3.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/Audibene-GMBH/terraform-provider-pulsar/releases/download/v0.3.0/terraform-provider-pulsar_0.3.0_freebsd_arm64.zip",
+          "shasum": "76cd7bb50cd4475118a8da63050023bf2777a813a89e1d66e99cb5aff20109b6"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-pulsar_0.3.0_windows_arm64.zip",
+          "download_url": "https://github.com/Audibene-GMBH/terraform-provider-pulsar/releases/download/v0.3.0/terraform-provider-pulsar_0.3.0_windows_arm64.zip",
+          "shasum": "ecdf5cc8c346c79be7a9cb5b74f86e51bab55f7cdf6edd189ceed5e70234efb1"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-pulsar_0.3.0_freebsd_386.zip",
+          "download_url": "https://github.com/Audibene-GMBH/terraform-provider-pulsar/releases/download/v0.3.0/terraform-provider-pulsar_0.3.0_freebsd_386.zip",
+          "shasum": "01bbcc3b978004e851c8920b38c23e1922c9134b5cf8ca56b1536625c8f9e789"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-pulsar_0.3.0_windows_arm.zip",
+          "download_url": "https://github.com/Audibene-GMBH/terraform-provider-pulsar/releases/download/v0.3.0/terraform-provider-pulsar_0.3.0_windows_arm.zip",
+          "shasum": "bced3ee7b996fac97a240bdfa9e5fd8b34a67bcd180fabfd7b57dc64074eb519"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-pulsar_0.3.0_freebsd_arm.zip",
+          "download_url": "https://github.com/Audibene-GMBH/terraform-provider-pulsar/releases/download/v0.3.0/terraform-provider-pulsar_0.3.0_freebsd_arm.zip",
+          "shasum": "55763ce74ff9b5d471698c88fe9afdff5a361c8ace42ac0eccaab5cdbcfa475b"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-pulsar_0.3.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/Audibene-GMBH/terraform-provider-pulsar/releases/download/v0.3.0/terraform-provider-pulsar_0.3.0_freebsd_amd64.zip",
+          "shasum": "31e8626b349940f1ed6425e983a97e4f0133f589779cb9e3b137c873757a10f4"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-pulsar_0.3.0_windows_amd64.zip",
+          "download_url": "https://github.com/Audibene-GMBH/terraform-provider-pulsar/releases/download/v0.3.0/terraform-provider-pulsar_0.3.0_windows_amd64.zip",
+          "shasum": "1b7d34125f39ee68fd2c1dcc0b021887c58d805054289f8616670124fdf1a1bc"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-pulsar_0.3.0_windows_386.zip",
+          "download_url": "https://github.com/Audibene-GMBH/terraform-provider-pulsar/releases/download/v0.3.0/terraform-provider-pulsar_0.3.0_windows_386.zip",
+          "shasum": "b0be42d8bf09362e43c7848617f279ae147dbd188dfd0448b97c64ae45ac1656"
+        }
+      ]
+    },
+    {
+      "version": "0.2.1",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/Audibene-GMBH/terraform-provider-pulsar/releases/download/v0.2.1/terraform-provider-pulsar_0.2.1_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/Audibene-GMBH/terraform-provider-pulsar/releases/download/v0.2.1/terraform-provider-pulsar_0.2.1_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-pulsar_0.2.1_windows_amd64.zip",
+          "download_url": "https://github.com/Audibene-GMBH/terraform-provider-pulsar/releases/download/v0.2.1/terraform-provider-pulsar_0.2.1_windows_amd64.zip",
+          "shasum": "9ed6c848dee9be2524c3dceaf1402d19f687e386db0b93f2e66699dee5b73834"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-pulsar_0.2.1_freebsd_386.zip",
+          "download_url": "https://github.com/Audibene-GMBH/terraform-provider-pulsar/releases/download/v0.2.1/terraform-provider-pulsar_0.2.1_freebsd_386.zip",
+          "shasum": "512c83db6fd0cf1993cca0f669d58fd9498897f0d4e3aa26bc93ceeab8e337cf"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-pulsar_0.2.1_linux_386.zip",
+          "download_url": "https://github.com/Audibene-GMBH/terraform-provider-pulsar/releases/download/v0.2.1/terraform-provider-pulsar_0.2.1_linux_386.zip",
+          "shasum": "7d331f244e91e82a63965a1bf596af81b125deb2909cc29d5310e80a98ede37f"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-pulsar_0.2.1_freebsd_amd64.zip",
+          "download_url": "https://github.com/Audibene-GMBH/terraform-provider-pulsar/releases/download/v0.2.1/terraform-provider-pulsar_0.2.1_freebsd_amd64.zip",
+          "shasum": "bf680fccea0b5a82fff4ad5b11bc4a2bd0b478a083876a9de400a6efc90af628"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-pulsar_0.2.1_linux_arm.zip",
+          "download_url": "https://github.com/Audibene-GMBH/terraform-provider-pulsar/releases/download/v0.2.1/terraform-provider-pulsar_0.2.1_linux_arm.zip",
+          "shasum": "37abd5cc18fe7bc4385925769c8bd5be8fb719b2546914b323d3d943cb2aadb9"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-pulsar_0.2.1_windows_arm.zip",
+          "download_url": "https://github.com/Audibene-GMBH/terraform-provider-pulsar/releases/download/v0.2.1/terraform-provider-pulsar_0.2.1_windows_arm.zip",
+          "shasum": "0b9902fc08d49f831701456ed9ee3c85185b875207aa6844ac2870778e68144b"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-pulsar_0.2.1_darwin_arm64.zip",
+          "download_url": "https://github.com/Audibene-GMBH/terraform-provider-pulsar/releases/download/v0.2.1/terraform-provider-pulsar_0.2.1_darwin_arm64.zip",
+          "shasum": "4e960afa4ef443a90d945a002c895abcfecceb28d463cbac5b43dc81825328ac"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-pulsar_0.2.1_linux_arm64.zip",
+          "download_url": "https://github.com/Audibene-GMBH/terraform-provider-pulsar/releases/download/v0.2.1/terraform-provider-pulsar_0.2.1_linux_arm64.zip",
+          "shasum": "aa9fcbf56fb9b7b6b8e32f7a55bd2ae8cc71e504aa258ccf2fd0d4f5ad17a8ab"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-pulsar_0.2.1_windows_arm64.zip",
+          "download_url": "https://github.com/Audibene-GMBH/terraform-provider-pulsar/releases/download/v0.2.1/terraform-provider-pulsar_0.2.1_windows_arm64.zip",
+          "shasum": "bb767313a2a324d3b93b3848318baf6642d70b1921989aeacafdeb4acd66bddd"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-pulsar_0.2.1_darwin_amd64.zip",
+          "download_url": "https://github.com/Audibene-GMBH/terraform-provider-pulsar/releases/download/v0.2.1/terraform-provider-pulsar_0.2.1_darwin_amd64.zip",
+          "shasum": "d68101053db3640de2f20a04b3fa12b0e1cc27419f8939e66ac0d9d3cda10118"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-pulsar_0.2.1_freebsd_arm.zip",
+          "download_url": "https://github.com/Audibene-GMBH/terraform-provider-pulsar/releases/download/v0.2.1/terraform-provider-pulsar_0.2.1_freebsd_arm.zip",
+          "shasum": "c372843a4658a9d6ca91223871a6959c865df969a2c3575b6fc09a94ea98fa44"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-pulsar_0.2.1_windows_386.zip",
+          "download_url": "https://github.com/Audibene-GMBH/terraform-provider-pulsar/releases/download/v0.2.1/terraform-provider-pulsar_0.2.1_windows_386.zip",
+          "shasum": "34fb43ca3bad6e15f5168e98dd5b9aa44bacef2113d8f3a33f5250a1670403b1"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-pulsar_0.2.1_freebsd_arm64.zip",
+          "download_url": "https://github.com/Audibene-GMBH/terraform-provider-pulsar/releases/download/v0.2.1/terraform-provider-pulsar_0.2.1_freebsd_arm64.zip",
+          "shasum": "5df7368768bff0b610c6363f133e165bc451b12e16d12cccbb3be6d1f98561ae"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-pulsar_0.2.1_linux_amd64.zip",
+          "download_url": "https://github.com/Audibene-GMBH/terraform-provider-pulsar/releases/download/v0.2.1/terraform-provider-pulsar_0.2.1_linux_amd64.zip",
+          "shasum": "0fcabd58d07aae20eddd31e44734aaa0fc80040f8dfe3728b5979fa225a9f284"
+        }
+      ]
+    }
+  ]
+}

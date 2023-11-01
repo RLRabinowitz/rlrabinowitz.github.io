@@ -1,0 +1,2693 @@
+{
+  "repository": "https://github.com/tenstad/terraform-provider-remote",
+  "versions": [
+    {
+      "version": "0.1.2",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.1.2/terraform-provider-remote_0.1.2_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.1.2/terraform-provider-remote_0.1.2_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-remote_0.1.2_freebsd_arm.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.1.2/terraform-provider-remote_0.1.2_freebsd_arm.zip",
+          "shasum": "b1122e6d4a9dc95263c888a888b198f6f6020bf7abdc1e46094b91842b4afbde"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-remote_0.1.2_freebsd_amd64.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.1.2/terraform-provider-remote_0.1.2_freebsd_amd64.zip",
+          "shasum": "c14b113744f0cd164af5d71d243be5cf7201f94c7c3b5c411da7ca983931f02f"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-remote_0.1.2_freebsd_arm64.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.1.2/terraform-provider-remote_0.1.2_freebsd_arm64.zip",
+          "shasum": "5ea72e39a458e9870063f3c7e85b10b382c116abfda47f69424cf50277e9ac55"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-remote_0.1.2_windows_386.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.1.2/terraform-provider-remote_0.1.2_windows_386.zip",
+          "shasum": "a9a14a0f8aee8f5f2ee94e83ab4edd7b211e9e09ff9070564cac7aa97b8a2842"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-remote_0.1.2_windows_arm.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.1.2/terraform-provider-remote_0.1.2_windows_arm.zip",
+          "shasum": "4e11789792cea54c1701b1fe1eb8d307a9f6c912152b5af6312505544dba2a79"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-remote_0.1.2_darwin_arm64.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.1.2/terraform-provider-remote_0.1.2_darwin_arm64.zip",
+          "shasum": "3b19a2f6692313931a53d2c71f5a0e7e0628503e88ee664348f168d74f239652"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-remote_0.1.2_darwin_amd64.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.1.2/terraform-provider-remote_0.1.2_darwin_amd64.zip",
+          "shasum": "6d831dd4502c2ab7a0aa506a7b18ccabed29ca51e4f63272f950b3d2267699e0"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-remote_0.1.2_freebsd_386.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.1.2/terraform-provider-remote_0.1.2_freebsd_386.zip",
+          "shasum": "f644ec7496cffc23ca7d01f12e41b626dfd52aa730213575e8ea6f721f7cc8bb"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-remote_0.1.2_windows_amd64.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.1.2/terraform-provider-remote_0.1.2_windows_amd64.zip",
+          "shasum": "c31284f61be4ca5d09c6205122051de45f9cf0f4f28946335e0ffebec1e0b78b"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-remote_0.1.2_linux_amd64.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.1.2/terraform-provider-remote_0.1.2_linux_amd64.zip",
+          "shasum": "f9f15f672d0bdb1a1988e632e6665ee5eecf7dce964b056e916c8cb336fef897"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-remote_0.1.2_linux_386.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.1.2/terraform-provider-remote_0.1.2_linux_386.zip",
+          "shasum": "2db7ef794e1e4e505423cfac2063b3db972b3e66ec5fe21ad90779cb2bc85c68"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-remote_0.1.2_linux_arm.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.1.2/terraform-provider-remote_0.1.2_linux_arm.zip",
+          "shasum": "7b3738adad0f8fec63ef641d3fd3689050120cba91e63329941d123507cc0267"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-remote_0.1.2_linux_arm64.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.1.2/terraform-provider-remote_0.1.2_linux_arm64.zip",
+          "shasum": "971c748387e1c36494f1438b317ab79b822977233145467a279a35daee0c0cc5"
+        }
+      ]
+    },
+    {
+      "version": "0.1.1",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.1.1/terraform-provider-remote_0.1.1_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.1.1/terraform-provider-remote_0.1.1_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-remote_0.1.1_linux_arm64.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.1.1/terraform-provider-remote_0.1.1_linux_arm64.zip",
+          "shasum": "b7032268227a640805a4f3c7440180db0362a2497a24ddfb1c8293d403e1c24c"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-remote_0.1.1_windows_amd64.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.1.1/terraform-provider-remote_0.1.1_windows_amd64.zip",
+          "shasum": "12475396d20d34ccdb5132caf0a50378ffc46f28fa8c6e5b867ac505ea6a776c"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-remote_0.1.1_darwin_arm64.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.1.1/terraform-provider-remote_0.1.1_darwin_arm64.zip",
+          "shasum": "00dab99d546d4f74b9b9a4aa23e5e4562edee95f815d284c1ffda92bab6e8b9f"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-remote_0.1.1_linux_amd64.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.1.1/terraform-provider-remote_0.1.1_linux_amd64.zip",
+          "shasum": "6f214da8658ff479714259c3a29d089d79889a70162e27bbdd1d7636cf9b2361"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-remote_0.1.1_windows_arm64.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.1.1/terraform-provider-remote_0.1.1_windows_arm64.zip",
+          "shasum": "3c6c0c664d5f7c4d3feb28d841b627781381f9e439a2f834fc64b5ddd577ce8f"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-remote_0.1.1_windows_arm.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.1.1/terraform-provider-remote_0.1.1_windows_arm.zip",
+          "shasum": "701753bdfe5a64aa354f4c418ccad3f77c09030b737685895e95907cddd87ffb"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-remote_0.1.1_freebsd_arm.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.1.1/terraform-provider-remote_0.1.1_freebsd_arm.zip",
+          "shasum": "bbf660b0d8a72dcce3510e9c6708f01f045e4259046984c2c070727ae44d2cf6"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-remote_0.1.1_linux_arm.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.1.1/terraform-provider-remote_0.1.1_linux_arm.zip",
+          "shasum": "c825fdb5cf3328260e9db8aa711aba515d04277086f9e4556314b1a1f7265cc4"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-remote_0.1.1_freebsd_386.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.1.1/terraform-provider-remote_0.1.1_freebsd_386.zip",
+          "shasum": "70d370bd9d7224df5ef73fc2152e74df25796ba69701406c740b1c584d4eb7b6"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-remote_0.1.1_linux_386.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.1.1/terraform-provider-remote_0.1.1_linux_386.zip",
+          "shasum": "7095c82c5008d56d9b315cf43b07c7f2c86de2f608315d2941e2a0649fb968d3"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-remote_0.1.1_windows_386.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.1.1/terraform-provider-remote_0.1.1_windows_386.zip",
+          "shasum": "a95426eb286c34c9a173c4ff03e45eecb56ec095783b4acb3e0c9cadbf7aaa42"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-remote_0.1.1_freebsd_amd64.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.1.1/terraform-provider-remote_0.1.1_freebsd_amd64.zip",
+          "shasum": "ef75990a7a5282f12e1b7b4b4e34419103bb2d05a3ece39d921f42a29dcad476"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-remote_0.1.1_freebsd_arm64.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.1.1/terraform-provider-remote_0.1.1_freebsd_arm64.zip",
+          "shasum": "cf9d8fd66f71fe7f5eef983eca06f209ef366bb32dcc956b2231dc8eff681dcb"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-remote_0.1.1_darwin_amd64.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.1.1/terraform-provider-remote_0.1.1_darwin_amd64.zip",
+          "shasum": "65f0f405b0ec692c40d718a27dd21ac991a9e8dd5a9c8fc08df72ffd6f540c7f"
+        }
+      ]
+    },
+    {
+      "version": "0.1.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.1.0/terraform-provider-remote_0.1.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.1.0/terraform-provider-remote_0.1.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-remote_0.1.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.1.0/terraform-provider-remote_0.1.0_freebsd_amd64.zip",
+          "shasum": "f527eecd8831aff8fb1c2dd9d43dfa33be1e47fc3bea35ccc3fcfb2f75f5bc05"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-remote_0.1.0_linux_arm64.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.1.0/terraform-provider-remote_0.1.0_linux_arm64.zip",
+          "shasum": "c8d27fb7813b9db11c501f2b2e7a215201bf0ef8bd6dddd9dfd1e96d0062101f"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-remote_0.1.0_linux_amd64.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.1.0/terraform-provider-remote_0.1.0_linux_amd64.zip",
+          "shasum": "0a09315e860526a9fc8e8467b6eb406897b3f4088ba1054187c517e0cfddb37d"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-remote_0.1.0_windows_386.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.1.0/terraform-provider-remote_0.1.0_windows_386.zip",
+          "shasum": "ad08d3afd33b25bb37e5706f695c9f4eab7e462cc6f4c576609012a6636722c9"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-remote_0.1.0_darwin_arm64.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.1.0/terraform-provider-remote_0.1.0_darwin_arm64.zip",
+          "shasum": "c6e027516dd23c02fe036f9655bc299d3560aa7dbbdfc470602a41f28c756505"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-remote_0.1.0_linux_386.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.1.0/terraform-provider-remote_0.1.0_linux_386.zip",
+          "shasum": "63f74af83ba3151830e1a858e2042380950b758e7e0b9167cbac7d636f8e967d"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-remote_0.1.0_freebsd_386.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.1.0/terraform-provider-remote_0.1.0_freebsd_386.zip",
+          "shasum": "5bcf636926a0d6419348c8fabb9afced728d6f148e169933728b928344c9ccde"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-remote_0.1.0_freebsd_arm.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.1.0/terraform-provider-remote_0.1.0_freebsd_arm.zip",
+          "shasum": "b81f69f45786dbf8b9e17fc5f57457b49c20da513e9b066fd948709922fd8c50"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-remote_0.1.0_windows_arm.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.1.0/terraform-provider-remote_0.1.0_windows_arm.zip",
+          "shasum": "b60a86cf0fe720690c2c701543258c2fe7545e2ea329934bf85e4f31ea94499d"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-remote_0.1.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.1.0/terraform-provider-remote_0.1.0_freebsd_arm64.zip",
+          "shasum": "81538c014a8a617ac0a1eb1a82e38b68b3e6f12cf1ac11521a754f88358ca917"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-remote_0.1.0_linux_arm.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.1.0/terraform-provider-remote_0.1.0_linux_arm.zip",
+          "shasum": "0a982fa1e48d9a6995d264734557d24f699415a2c0576937d1ad2bc871cbe28e"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-remote_0.1.0_darwin_amd64.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.1.0/terraform-provider-remote_0.1.0_darwin_amd64.zip",
+          "shasum": "1db1dbb76439842da95dbcacb76a123c2d6c85ccc7926e0756b0e6f6c445fb1e"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-remote_0.1.0_windows_amd64.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.1.0/terraform-provider-remote_0.1.0_windows_amd64.zip",
+          "shasum": "ea960040d0ddbf1b0488a0421b0b82c898184a26ba1ff2ac76f635e5210b7dc5"
+        }
+      ]
+    },
+    {
+      "version": "0.0.25",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.25/terraform-provider-remote_0.0.25_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.25/terraform-provider-remote_0.0.25_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-remote_0.0.25_linux_386.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.25/terraform-provider-remote_0.0.25_linux_386.zip",
+          "shasum": "22e35461a8345f288a8f081fd60eb9684b62501825ed114606478172109f1c7d"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-remote_0.0.25_freebsd_386.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.25/terraform-provider-remote_0.0.25_freebsd_386.zip",
+          "shasum": "6ca7dbe28a7275ee6050c7a8098ecc45e1bf43e00ece3a4e33d55c870339f91f"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-remote_0.0.25_windows_amd64.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.25/terraform-provider-remote_0.0.25_windows_amd64.zip",
+          "shasum": "b13f09df9ba6e01bffd42e3e0d7a25393da6a7f211f227e228385bafd78ada6b"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-remote_0.0.25_darwin_arm64.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.25/terraform-provider-remote_0.0.25_darwin_arm64.zip",
+          "shasum": "3d34de84a96598eb456bd9c82b31a9d0e53d0bd1be01375fe7605a79445c8391"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-remote_0.0.25_linux_amd64.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.25/terraform-provider-remote_0.0.25_linux_amd64.zip",
+          "shasum": "391b92f93bf09ec3f91cbcdd1c5b7090fbe5a248ef26e136471c859d1d638fe6"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-remote_0.0.25_linux_arm.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.25/terraform-provider-remote_0.0.25_linux_arm.zip",
+          "shasum": "482132a2f9dce214f11f2529ac330fed905b2502fdcd779f0b8053fa5e42682d"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-remote_0.0.25_linux_arm64.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.25/terraform-provider-remote_0.0.25_linux_arm64.zip",
+          "shasum": "688017828fee6406e5237d4fa7277f40109a17115a0ff7bd05e31262e15ba8f7"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-remote_0.0.25_windows_386.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.25/terraform-provider-remote_0.0.25_windows_386.zip",
+          "shasum": "21759dada43aa7093e410f0ff8f4029e7412b050b87533dc9fd3cf7bfdf114df"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-remote_0.0.25_darwin_amd64.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.25/terraform-provider-remote_0.0.25_darwin_amd64.zip",
+          "shasum": "a9a3c96184ef5b56c7e037a79df3141bb9429cb95be815f018a4c94213f334cd"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-remote_0.0.25_windows_arm.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.25/terraform-provider-remote_0.0.25_windows_arm.zip",
+          "shasum": "379c8b2ee359f4ee0f3ea1327a270bcdf857ceedbea1e1ac0f62420f5d7e9e62"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-remote_0.0.25_freebsd_amd64.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.25/terraform-provider-remote_0.0.25_freebsd_amd64.zip",
+          "shasum": "308dc280708b9e6ea4ac008600110fb84c714d91c785f287129bf3f327a02df4"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-remote_0.0.25_freebsd_arm64.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.25/terraform-provider-remote_0.0.25_freebsd_arm64.zip",
+          "shasum": "b8ba0cb385e4f05a0d81792949bd24fc42a7513a6b05b182514f411722e5e0d8"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-remote_0.0.25_freebsd_arm.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.25/terraform-provider-remote_0.0.25_freebsd_arm.zip",
+          "shasum": "c954230a0e49c1ba49eb0591b31ae9acc10441590e16a0b2fca7e70b17e2c02b"
+        }
+      ]
+    },
+    {
+      "version": "0.0.24",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.24/terraform-provider-remote_0.0.24_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.24/terraform-provider-remote_0.0.24_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-remote_0.0.24_windows_386.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.24/terraform-provider-remote_0.0.24_windows_386.zip",
+          "shasum": "c0be880a97eabc22b1350c581577823724ca2061f39d391aa7736936539a45a9"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-remote_0.0.24_windows_arm.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.24/terraform-provider-remote_0.0.24_windows_arm.zip",
+          "shasum": "4137bfd779324d8579a91a8836a77e7ccbf59a19ea5eb24b2ac128eec2364780"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-remote_0.0.24_linux_arm.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.24/terraform-provider-remote_0.0.24_linux_arm.zip",
+          "shasum": "06e899417a6e3edada0326bee9ecff5ca6f45ac90e0d9af8cbe0df9927bb1d18"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-remote_0.0.24_linux_amd64.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.24/terraform-provider-remote_0.0.24_linux_amd64.zip",
+          "shasum": "26e1dc590a670d3faebced51c732fe73370688760dcbbfd8a79de871b812adf8"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-remote_0.0.24_freebsd_amd64.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.24/terraform-provider-remote_0.0.24_freebsd_amd64.zip",
+          "shasum": "db8a37c9340440d33deb57d99784a919e0f543e5c5f8b092245d3366d087d75d"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-remote_0.0.24_darwin_arm64.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.24/terraform-provider-remote_0.0.24_darwin_arm64.zip",
+          "shasum": "fec832dda56f6b2bd3b7c4848143b7d6d0c696be749dcab5a63bc4d6b1ccb4ed"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-remote_0.0.24_freebsd_arm.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.24/terraform-provider-remote_0.0.24_freebsd_arm.zip",
+          "shasum": "a0c394c9d41e6a60b7e337cc10faffc220ffc5de13c41e8c75c091ea9729a09d"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-remote_0.0.24_freebsd_arm64.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.24/terraform-provider-remote_0.0.24_freebsd_arm64.zip",
+          "shasum": "132705ef823d7a7ac28ed23bbb355dc23fef01123fc896d1c05c5beed176218f"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-remote_0.0.24_windows_amd64.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.24/terraform-provider-remote_0.0.24_windows_amd64.zip",
+          "shasum": "023b33665cb990d20781c66791fad860be6fdf62be14b53e1fcd0a1219393800"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-remote_0.0.24_linux_386.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.24/terraform-provider-remote_0.0.24_linux_386.zip",
+          "shasum": "5f01a98a2b2697ce4c73d2c663314c7554c1ad539946f3f9296affca7967c599"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-remote_0.0.24_darwin_amd64.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.24/terraform-provider-remote_0.0.24_darwin_amd64.zip",
+          "shasum": "85773c1a2dd5a3b14d2daf05fdee98644cdb3c81bc0636b2d7b44eebb3f4ca0b"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-remote_0.0.24_linux_arm64.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.24/terraform-provider-remote_0.0.24_linux_arm64.zip",
+          "shasum": "d0fd999501072060a1baf5ac5e058aa60c493cf052b21781663dc5a5b465625c"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-remote_0.0.24_freebsd_386.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.24/terraform-provider-remote_0.0.24_freebsd_386.zip",
+          "shasum": "7da919517ada72f677fae8902f2ead190bcbc677666db7603d52be4d06deb9cf"
+        }
+      ]
+    },
+    {
+      "version": "0.0.23",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.23/terraform-provider-remote_0.0.23_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.23/terraform-provider-remote_0.0.23_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-remote_0.0.23_linux_arm64.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.23/terraform-provider-remote_0.0.23_linux_arm64.zip",
+          "shasum": "f4eae3e0452fc68393bb3e94d920d3eb1713e6207220e346b21a9595d72b486c"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-remote_0.0.23_windows_386.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.23/terraform-provider-remote_0.0.23_windows_386.zip",
+          "shasum": "1bacf6d642b18411d93480d5888620110dc996670027764ad162624a963b7956"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-remote_0.0.23_windows_amd64.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.23/terraform-provider-remote_0.0.23_windows_amd64.zip",
+          "shasum": "8bf413dedb8b457149e93f993aed439aee8a7443137c780bf75df329d57e7933"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-remote_0.0.23_linux_arm.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.23/terraform-provider-remote_0.0.23_linux_arm.zip",
+          "shasum": "a0ba500aeb3afcaefbaa9005b92c3056835395034d7be7a23f3bef325610a716"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-remote_0.0.23_linux_amd64.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.23/terraform-provider-remote_0.0.23_linux_amd64.zip",
+          "shasum": "89ba3dc843c1767f4625575307e654fd8ec4dc835d1964d3efcaf280235dd823"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-remote_0.0.23_windows_arm.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.23/terraform-provider-remote_0.0.23_windows_arm.zip",
+          "shasum": "3b5e21e9e9c9e801e00fa8990963c7b5d3060d6dddbb56df031ecc87724c40d8"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-remote_0.0.23_freebsd_386.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.23/terraform-provider-remote_0.0.23_freebsd_386.zip",
+          "shasum": "2fbe2c24212fac0da3c668ce206f10b8d3416b25679d26c9f870904fdfdb7bef"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-remote_0.0.23_freebsd_amd64.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.23/terraform-provider-remote_0.0.23_freebsd_amd64.zip",
+          "shasum": "24358e83f55d602f5c2ad14c70335d02e2612b291d8d63e0843609b649b1bd9e"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-remote_0.0.23_freebsd_arm64.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.23/terraform-provider-remote_0.0.23_freebsd_arm64.zip",
+          "shasum": "218532ed71c1008e809bb19f1cee11ca7151be14b82e62f91a740bf1001d64c4"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-remote_0.0.23_darwin_amd64.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.23/terraform-provider-remote_0.0.23_darwin_amd64.zip",
+          "shasum": "34e3ef203477b78f10d1c7c0991317ea9c3c7bb30dbdaa0e2697e427ade98611"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-remote_0.0.23_darwin_arm64.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.23/terraform-provider-remote_0.0.23_darwin_arm64.zip",
+          "shasum": "fb47c528faaf118e8d43e2b5a05d3f129da57089bd35991a4b396f8c9e0f5008"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-remote_0.0.23_linux_386.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.23/terraform-provider-remote_0.0.23_linux_386.zip",
+          "shasum": "5fcee4a8ebe9c0b887dda2a3ed0d5d06f9c5a779b54b89dedbec9376479b7ddd"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-remote_0.0.23_freebsd_arm.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.23/terraform-provider-remote_0.0.23_freebsd_arm.zip",
+          "shasum": "24eef5e8c4c3aaa4f3a873231d0dfaf7b9a6e36f210053e0cc86041c91f369d3"
+        }
+      ]
+    },
+    {
+      "version": "0.0.22",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.22/terraform-provider-remote_0.0.22_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.22/terraform-provider-remote_0.0.22_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-remote_0.0.22_linux_amd64.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.22/terraform-provider-remote_0.0.22_linux_amd64.zip",
+          "shasum": "cf476205e0ba28d585e14c94a9f3f508b48fcf1018cdcc59535f306b929637b0"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-remote_0.0.22_freebsd_amd64.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.22/terraform-provider-remote_0.0.22_freebsd_amd64.zip",
+          "shasum": "2da5c88acdc3b731401599bd0f5f0f87419a376ed6303ac1c39c166e8166f656"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-remote_0.0.22_darwin_amd64.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.22/terraform-provider-remote_0.0.22_darwin_amd64.zip",
+          "shasum": "019ed6805b17d86b412a3bcf68f1ce9f5bd8b4440a989dde67ac04bd7fa11c44"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-remote_0.0.22_freebsd_arm64.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.22/terraform-provider-remote_0.0.22_freebsd_arm64.zip",
+          "shasum": "4434c90bdd5a8e199fb7fa7779ed7a32a4a734b73dc5d135795dbb0f91067ee7"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-remote_0.0.22_darwin_arm64.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.22/terraform-provider-remote_0.0.22_darwin_arm64.zip",
+          "shasum": "f879cd606fc3af473f187ffe86f4e0db1f5d73d1c3af2eac0017758b574e3345"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-remote_0.0.22_windows_arm.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.22/terraform-provider-remote_0.0.22_windows_arm.zip",
+          "shasum": "c3e54e794289317a4b67aa9da9e405e106a05da34b6ae6178792f9e8e9a9485e"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-remote_0.0.22_linux_386.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.22/terraform-provider-remote_0.0.22_linux_386.zip",
+          "shasum": "77a9a7fe4ed416e05266b01c00e27e61bd597d6bde154fc7e1083a9bc5c1936f"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-remote_0.0.22_freebsd_arm.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.22/terraform-provider-remote_0.0.22_freebsd_arm.zip",
+          "shasum": "044eaa9a1d3845cb8d77c42058642543f95b255da4842f95225b4be9f8689cde"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-remote_0.0.22_linux_arm.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.22/terraform-provider-remote_0.0.22_linux_arm.zip",
+          "shasum": "2f81ef960569e8ebc806ea6216fb81101b0e9521bea55301a1574857a137bd24"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-remote_0.0.22_windows_386.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.22/terraform-provider-remote_0.0.22_windows_386.zip",
+          "shasum": "2dbe8bef18f29d4a6dcd953bd9b1ba244ed40ab90026376ee2086abc5f13e828"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-remote_0.0.22_freebsd_386.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.22/terraform-provider-remote_0.0.22_freebsd_386.zip",
+          "shasum": "ceb49c886bc775daad4da1685b160cf216183d436fbef2771809aa041def34f3"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-remote_0.0.22_windows_amd64.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.22/terraform-provider-remote_0.0.22_windows_amd64.zip",
+          "shasum": "645b3447d76f5f3d6a1f75a8bdc8eca9db719a1f0da13ef6725ae789f02c6189"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-remote_0.0.22_linux_arm64.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.22/terraform-provider-remote_0.0.22_linux_arm64.zip",
+          "shasum": "1a6e92349f2a7b2d31cd3359bbaf2e2d52285a6024a8150c3ec8f6293c2789c0"
+        }
+      ]
+    },
+    {
+      "version": "0.0.21",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.21/terraform-provider-remote_0.0.21_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.21/terraform-provider-remote_0.0.21_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-remote_0.0.21_windows_amd64.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.21/terraform-provider-remote_0.0.21_windows_amd64.zip",
+          "shasum": "b40f54341cfdae0d7d08b04087e2e34d593d425f8357365f184509d4f0a86df8"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-remote_0.0.21_windows_386.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.21/terraform-provider-remote_0.0.21_windows_386.zip",
+          "shasum": "bda45af08f0f220e024db04864b0558668b9076e5314ad2fd46ee8ed19bc3c9a"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-remote_0.0.21_linux_amd64.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.21/terraform-provider-remote_0.0.21_linux_amd64.zip",
+          "shasum": "70ffc275877821cd57a0d6c3abc6f5e9839a9b471ede80e793bc526ed800d946"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-remote_0.0.21_linux_arm64.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.21/terraform-provider-remote_0.0.21_linux_arm64.zip",
+          "shasum": "ca9716c90f84adc16bf6b4b0d55c24f14f2fc9e09144b0a5c61d758916157b79"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-remote_0.0.21_freebsd_386.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.21/terraform-provider-remote_0.0.21_freebsd_386.zip",
+          "shasum": "604adbd71efb36b5525862edfcd76cf4c9e3adf3369600620ed025926191d0d0"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-remote_0.0.21_freebsd_arm64.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.21/terraform-provider-remote_0.0.21_freebsd_arm64.zip",
+          "shasum": "43ea471cfb2de5711e1871f4435c7933cdc351e0b9a37d4e7048e57319d30650"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-remote_0.0.21_linux_arm.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.21/terraform-provider-remote_0.0.21_linux_arm.zip",
+          "shasum": "b938377586e66a7f93c25d92cf5beb9f0501df16070e7d6e3a0ac76f1a17f02b"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-remote_0.0.21_windows_arm.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.21/terraform-provider-remote_0.0.21_windows_arm.zip",
+          "shasum": "038dc5422dedc2d33a0d743a98726c6aa7a8c31997dcc5f03f2094ec81783dfa"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-remote_0.0.21_freebsd_arm.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.21/terraform-provider-remote_0.0.21_freebsd_arm.zip",
+          "shasum": "4305fee210a7b13fe42169d1850d086a485129c3d21f95008ff47bb7208ca335"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-remote_0.0.21_linux_386.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.21/terraform-provider-remote_0.0.21_linux_386.zip",
+          "shasum": "3c407427d200a71ded94f9afd4c06afabe2671b9fd7ebdde02956a45a8c886b8"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-remote_0.0.21_freebsd_amd64.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.21/terraform-provider-remote_0.0.21_freebsd_amd64.zip",
+          "shasum": "23130d47af582511e262feab2757a3c47836e3e20f0aa280c99ca18d31e8b7be"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-remote_0.0.21_darwin_amd64.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.21/terraform-provider-remote_0.0.21_darwin_amd64.zip",
+          "shasum": "0984781671bae399d278b49f2dbca7e735c6aab01d0950447708797aec2d1ab5"
+        }
+      ]
+    },
+    {
+      "version": "0.0.20",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.20/terraform-provider-remote_0.0.20_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.20/terraform-provider-remote_0.0.20_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-remote_0.0.20_linux_arm64.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.20/terraform-provider-remote_0.0.20_linux_arm64.zip",
+          "shasum": "a20843746862454e32720059f588dea619f0ee4cc5789526393ae0ac74e257ca"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-remote_0.0.20_linux_arm.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.20/terraform-provider-remote_0.0.20_linux_arm.zip",
+          "shasum": "3a5e646f9e324c7b7b0aa811203a36e8077c02d889fb68d890fc445c560d6008"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-remote_0.0.20_windows_386.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.20/terraform-provider-remote_0.0.20_windows_386.zip",
+          "shasum": "105abada8d57d3c7335bd90b979f84f56440c7d612068eebe8b857cba83cc5ac"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-remote_0.0.20_darwin_amd64.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.20/terraform-provider-remote_0.0.20_darwin_amd64.zip",
+          "shasum": "75af641ec3b1492dd90603abc8238cb08729c8b4443cdda6899e5b0fb881312a"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-remote_0.0.20_freebsd_amd64.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.20/terraform-provider-remote_0.0.20_freebsd_amd64.zip",
+          "shasum": "e44688bb72b4ae543591370cc9d7db710f8764bff1f93fcadd888037ae6ac701"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-remote_0.0.20_windows_arm.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.20/terraform-provider-remote_0.0.20_windows_arm.zip",
+          "shasum": "438889a6c8f0c62d02df71f5e415f5d70cc64d0bdb2bb204d6e541a9de3a2069"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-remote_0.0.20_linux_386.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.20/terraform-provider-remote_0.0.20_linux_386.zip",
+          "shasum": "507c838daefb2e511eaafdbfb815b6fd607e1bf3012d2b1ff740c63de84e8fc2"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-remote_0.0.20_freebsd_arm.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.20/terraform-provider-remote_0.0.20_freebsd_arm.zip",
+          "shasum": "571ce19f67c43260647b9bc93a3b862eaa58628ff0ae337cd215aa453c7dfe87"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-remote_0.0.20_linux_amd64.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.20/terraform-provider-remote_0.0.20_linux_amd64.zip",
+          "shasum": "2c074bbf3a9e2c9e1ec8411ea513d32bbf209ad403e94090de9d14782aa355e8"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-remote_0.0.20_freebsd_386.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.20/terraform-provider-remote_0.0.20_freebsd_386.zip",
+          "shasum": "a76eed6ffb583ac41cbf387d405e2c5e614570924b4dc739b4aa39e0c38cdb96"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-remote_0.0.20_freebsd_arm64.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.20/terraform-provider-remote_0.0.20_freebsd_arm64.zip",
+          "shasum": "c0db6e58eef8f601780e6ab99d7174fb9fc5e405beb161740c01fe088c876b93"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-remote_0.0.20_windows_amd64.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.20/terraform-provider-remote_0.0.20_windows_amd64.zip",
+          "shasum": "afb921ca304141fc573b29814911bae80c59c0007e13a0756238e1a46a50f5a4"
+        }
+      ]
+    },
+    {
+      "version": "0.0.19",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.19/terraform-provider-remote_0.0.19_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.19/terraform-provider-remote_0.0.19_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-remote_0.0.19_freebsd_amd64.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.19/terraform-provider-remote_0.0.19_freebsd_amd64.zip",
+          "shasum": "491fd57afd0db36fc5f05d960c8dba1e1b09315059c7ac51ab5e60fa864d4c2b"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-remote_0.0.19_windows_386.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.19/terraform-provider-remote_0.0.19_windows_386.zip",
+          "shasum": "094c0a4f9474b9dde6a5a09677d1e621a5ba66966c875c6e19932daf2c4b6288"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-remote_0.0.19_freebsd_arm64.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.19/terraform-provider-remote_0.0.19_freebsd_arm64.zip",
+          "shasum": "6c2be01b4a69d6550cb300235e53ba59d1b2e65ff4a4775ac5dd2ef863c0c42d"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-remote_0.0.19_darwin_amd64.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.19/terraform-provider-remote_0.0.19_darwin_amd64.zip",
+          "shasum": "a12aaf82b236f6882a5a178a2aa5ed3dcb68f6771ceb437997b063d4a3f9599d"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-remote_0.0.19_linux_386.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.19/terraform-provider-remote_0.0.19_linux_386.zip",
+          "shasum": "df684d0bc989eb028983cf9190f7fd5131f218301816fcab467e659d166dd7f5"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-remote_0.0.19_windows_amd64.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.19/terraform-provider-remote_0.0.19_windows_amd64.zip",
+          "shasum": "56e3bbaa3a5f9e5271f0bf9211b6b4eb0cb556c9ff53c44a5e0796ebe28f3c2c"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-remote_0.0.19_linux_arm64.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.19/terraform-provider-remote_0.0.19_linux_arm64.zip",
+          "shasum": "3c2c2ef2f37e4b94c9a51d60c57053b8691cfb1b0d6a28c221a907606e758dfb"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-remote_0.0.19_linux_arm.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.19/terraform-provider-remote_0.0.19_linux_arm.zip",
+          "shasum": "e0a678c9e7a949e2a0525e85ea2800da7e250371702474afff2a93276d9f35e1"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-remote_0.0.19_freebsd_386.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.19/terraform-provider-remote_0.0.19_freebsd_386.zip",
+          "shasum": "aa7b83680c0ef89a90f1f76fe5201c6e5029c45a53fab6e4bd0734b9f44d87a3"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-remote_0.0.19_freebsd_arm.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.19/terraform-provider-remote_0.0.19_freebsd_arm.zip",
+          "shasum": "b83d90b23aa77f30269b7418abcde980b10663bb27a1f2227478f478c294cef1"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-remote_0.0.19_linux_amd64.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.19/terraform-provider-remote_0.0.19_linux_amd64.zip",
+          "shasum": "31cf5880ef4f6c5147ba178395f2884375faee3364f824c4107b8d299d497557"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-remote_0.0.19_windows_arm.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.19/terraform-provider-remote_0.0.19_windows_arm.zip",
+          "shasum": "fd8d006fbb614f537346f4fe3d648c362c1eba8b3eba5e0bc1b3727ef1898b07"
+        }
+      ]
+    },
+    {
+      "version": "0.0.18",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.18/terraform-provider-remote_0.0.18_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.18/terraform-provider-remote_0.0.18_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-remote_0.0.18_windows_arm.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.18/terraform-provider-remote_0.0.18_windows_arm.zip",
+          "shasum": "d527e84eea5c7aeb445fa68e9af3d008227f27988422709f44dcdc79150a65ee"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-remote_0.0.18_freebsd_arm.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.18/terraform-provider-remote_0.0.18_freebsd_arm.zip",
+          "shasum": "c6deedd5a2ad07f38301eef80e1340bfa1e77af0ebad8451e6cd5a4d0c1b80dd"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-remote_0.0.18_freebsd_386.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.18/terraform-provider-remote_0.0.18_freebsd_386.zip",
+          "shasum": "7ece900d2eafe32e52e536a9d1dfa43fb06de9a3651c1af1fd86d2447c89d557"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-remote_0.0.18_linux_arm.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.18/terraform-provider-remote_0.0.18_linux_arm.zip",
+          "shasum": "701916051b235326e6e5bd61bf56ed0d6e75c37e6e97a9857abb33866d546f41"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-remote_0.0.18_freebsd_arm64.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.18/terraform-provider-remote_0.0.18_freebsd_arm64.zip",
+          "shasum": "65505734cdba8a998d291a422c7cd76ce462a25b7f7ca14089015a2e679a6475"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-remote_0.0.18_windows_amd64.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.18/terraform-provider-remote_0.0.18_windows_amd64.zip",
+          "shasum": "c87356f27ccc9510e7a6588dbaf8c22ce5f2e378b333e0c60c617d5c695f9b0c"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-remote_0.0.18_linux_amd64.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.18/terraform-provider-remote_0.0.18_linux_amd64.zip",
+          "shasum": "4f845151a56486d25cc2eb046a048af665e50ee228f41180e2235a406a79cb3f"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-remote_0.0.18_windows_386.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.18/terraform-provider-remote_0.0.18_windows_386.zip",
+          "shasum": "05a32992bbb66097e20bd5befe4efd813789527f68cdf48e84580b75f533d88a"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-remote_0.0.18_darwin_amd64.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.18/terraform-provider-remote_0.0.18_darwin_amd64.zip",
+          "shasum": "3bf7520b982845ee251fc0d860ae7d762b3ab4bda73ed3a4a357ac7a7f442b5b"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-remote_0.0.18_linux_386.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.18/terraform-provider-remote_0.0.18_linux_386.zip",
+          "shasum": "a7c091a41dd18700cf5fa3248b9791ce60a931e8b263be5c5101daa66a3eabef"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-remote_0.0.18_freebsd_amd64.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.18/terraform-provider-remote_0.0.18_freebsd_amd64.zip",
+          "shasum": "cc9375d7bbbafc5a0ee95bf830b5ff3066aac749b8559bb682f94f7d8e69485c"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-remote_0.0.18_linux_arm64.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.18/terraform-provider-remote_0.0.18_linux_arm64.zip",
+          "shasum": "4f676e2ea204c6e096a7ddcfcfdff8313228946d626b94deccb29a71181f4e00"
+        }
+      ]
+    },
+    {
+      "version": "0.0.17",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.17/terraform-provider-remote_0.0.17_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.17/terraform-provider-remote_0.0.17_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-remote_0.0.17_linux_386.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.17/terraform-provider-remote_0.0.17_linux_386.zip",
+          "shasum": "4a58003effafb6942e0b9f7d682460009a5264e2ce2be675d46787626f5834b6"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-remote_0.0.17_freebsd_arm.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.17/terraform-provider-remote_0.0.17_freebsd_arm.zip",
+          "shasum": "1ddbde36dae7481a5ac11437d30f958082a03f786d6c538330d1069b8ffb51f5"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-remote_0.0.17_linux_arm64.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.17/terraform-provider-remote_0.0.17_linux_arm64.zip",
+          "shasum": "09ba0d0f2b70bb22356f13be766a56b6da7ccfe8e47495dfe68a748752b39510"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-remote_0.0.17_windows_386.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.17/terraform-provider-remote_0.0.17_windows_386.zip",
+          "shasum": "661a2813588f7963bdb0d09a37ca4628bd3907c10dc1bdc2da88aa24a159defa"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-remote_0.0.17_darwin_amd64.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.17/terraform-provider-remote_0.0.17_darwin_amd64.zip",
+          "shasum": "1417b472ae728457f3c34d6d130730f5113127d266091f5b8ff2ab0243661152"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-remote_0.0.17_windows_arm.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.17/terraform-provider-remote_0.0.17_windows_arm.zip",
+          "shasum": "2d9d95b76da9c7210d4fa67c83a7b63d6e28368e87ee864fd8fcad2386a99517"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-remote_0.0.17_freebsd_386.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.17/terraform-provider-remote_0.0.17_freebsd_386.zip",
+          "shasum": "1f552712d28d53b869ed39adf1814930ab3acca2863b6cc4b27d86c954033fbb"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-remote_0.0.17_linux_arm.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.17/terraform-provider-remote_0.0.17_linux_arm.zip",
+          "shasum": "c762aa1c38622e3c2af8bbb7dc5582d87736cb5995fb20c3aa1ac606567c4160"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-remote_0.0.17_freebsd_amd64.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.17/terraform-provider-remote_0.0.17_freebsd_amd64.zip",
+          "shasum": "24fe5abb20a1fa595b324e39f8ac9e0043a21f616034da9b6367463b3a46f193"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-remote_0.0.17_freebsd_arm64.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.17/terraform-provider-remote_0.0.17_freebsd_arm64.zip",
+          "shasum": "9862d5fe655a35ad1cf65fdfd5b490cf8d813ed9ded637a4b7576f3abd2772e0"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-remote_0.0.17_linux_amd64.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.17/terraform-provider-remote_0.0.17_linux_amd64.zip",
+          "shasum": "788ca658f2f64752e31c76f777834c128a87136757ad1bbbc576b39e5518bda4"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-remote_0.0.17_windows_amd64.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.17/terraform-provider-remote_0.0.17_windows_amd64.zip",
+          "shasum": "6d84086ad37fa316d3190d12a1c13b7fc0a271bc3b726089e156c09fed2bc4a8"
+        }
+      ]
+    },
+    {
+      "version": "0.0.16",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.16/terraform-provider-remotefile_0.0.16_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.16/terraform-provider-remotefile_0.0.16_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-remotefile_0.0.16_darwin_amd64.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.16/terraform-provider-remotefile_0.0.16_darwin_amd64.zip",
+          "shasum": "a7cbbe98542dee2316ce9f0764fc28922bcfe58b3c3999a4d9f71a5882c4a6cc"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-remotefile_0.0.16_freebsd_386.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.16/terraform-provider-remotefile_0.0.16_freebsd_386.zip",
+          "shasum": "9289ad55ae319f9f0614735aa038972c2b77eb1b5b9482067c0562a76fe0b128"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-remotefile_0.0.16_windows_386.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.16/terraform-provider-remotefile_0.0.16_windows_386.zip",
+          "shasum": "5d5fef3f1a9c684a2943883d6aa270f909a80d4bfb0b4da90a7c6dc683abfe48"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-remotefile_0.0.16_freebsd_amd64.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.16/terraform-provider-remotefile_0.0.16_freebsd_amd64.zip",
+          "shasum": "b21b8ef9a9257676d076ded4f402c3f634565c3a5ede99f556f398d679849ca9"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-remotefile_0.0.16_windows_arm.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.16/terraform-provider-remotefile_0.0.16_windows_arm.zip",
+          "shasum": "9de4226ffee046636e271e15ea76c4f23dc3a0c255a8149a2bdff19820b33238"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-remotefile_0.0.16_linux_arm.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.16/terraform-provider-remotefile_0.0.16_linux_arm.zip",
+          "shasum": "ad9fa41c28d8a0e7dbeb00b1802695789d44c52f7eade284f22c320c877cd600"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-remotefile_0.0.16_freebsd_arm64.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.16/terraform-provider-remotefile_0.0.16_freebsd_arm64.zip",
+          "shasum": "923463125d6a30307cb2bc4ac07a97060dfba3524ef23c47fd2d7d4f217659b9"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-remotefile_0.0.16_windows_amd64.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.16/terraform-provider-remotefile_0.0.16_windows_amd64.zip",
+          "shasum": "796b84d778fcf3458bb65e1fb06c490ad41cc13dec9dc15e9d7d2a50d73bd90f"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-remotefile_0.0.16_freebsd_arm.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.16/terraform-provider-remotefile_0.0.16_freebsd_arm.zip",
+          "shasum": "283263a531853ba199137e25cc5bcc8ac6e8d36768f6c567df70d42ee4d95f9e"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-remotefile_0.0.16_linux_amd64.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.16/terraform-provider-remotefile_0.0.16_linux_amd64.zip",
+          "shasum": "492ede08d6573286c7fff5b00e321b076251ec73e432bdfa6c4f39dc8c2f1c5b"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-remotefile_0.0.16_linux_arm64.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.16/terraform-provider-remotefile_0.0.16_linux_arm64.zip",
+          "shasum": "606d53545d8d1375d27da778cddcc6d8e99484e708f87c487bda97125e713a2a"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-remotefile_0.0.16_linux_386.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.16/terraform-provider-remotefile_0.0.16_linux_386.zip",
+          "shasum": "cd2b39740585856300f72a2c7f6d6f8f254ee5a9a3b4b10c42e2175317e2bb1d"
+        }
+      ]
+    },
+    {
+      "version": "0.0.15",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.15/terraform-provider-remotefile_0.0.15_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.15/terraform-provider-remotefile_0.0.15_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-remotefile_0.0.15_freebsd_arm64.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.15/terraform-provider-remotefile_0.0.15_freebsd_arm64.zip",
+          "shasum": "8a2ac61f82a3f5e8020ebaf9cf9741d7381d9b1308e6c9dc0296dc6f86ccf5d6"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-remotefile_0.0.15_freebsd_amd64.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.15/terraform-provider-remotefile_0.0.15_freebsd_amd64.zip",
+          "shasum": "a02cf11aece710cac14497c0ed0449c789b8383303db756186197bcea9f925b1"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-remotefile_0.0.15_darwin_amd64.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.15/terraform-provider-remotefile_0.0.15_darwin_amd64.zip",
+          "shasum": "3d72f46582cfddd6b14ba90325901ee0773b39d42deb5e57872f4799c9a1f49b"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-remotefile_0.0.15_freebsd_386.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.15/terraform-provider-remotefile_0.0.15_freebsd_386.zip",
+          "shasum": "9873310b675e00d795d07899e3e69e8a8e835e0f8085cd29254d03d956ccb8b5"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-remotefile_0.0.15_freebsd_arm.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.15/terraform-provider-remotefile_0.0.15_freebsd_arm.zip",
+          "shasum": "f09a4f6340c79ce82984ede2340a6cca07bbb23c2f94f3bab92d4d6a3aa045e4"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-remotefile_0.0.15_windows_amd64.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.15/terraform-provider-remotefile_0.0.15_windows_amd64.zip",
+          "shasum": "6609263174744eec22c62bb97fecf7de7c1a407348e3adcb2b2f9875a84e5dcd"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-remotefile_0.0.15_linux_arm.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.15/terraform-provider-remotefile_0.0.15_linux_arm.zip",
+          "shasum": "cce6d74eaed016ee11288a146d04679b9675d820b847e2afdd2659b63d428fc5"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-remotefile_0.0.15_windows_386.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.15/terraform-provider-remotefile_0.0.15_windows_386.zip",
+          "shasum": "bab213d91c8e56890cd5ee12d03e952f19cb82e0b542152df367f9fd53c9ffd0"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-remotefile_0.0.15_windows_arm.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.15/terraform-provider-remotefile_0.0.15_windows_arm.zip",
+          "shasum": "32a0f9e240652477df64049c7eafce6f68b5eac099918f5c2f8298039712315e"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-remotefile_0.0.15_linux_arm64.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.15/terraform-provider-remotefile_0.0.15_linux_arm64.zip",
+          "shasum": "807c66a66ce307ba7cf539a190447d07143fba38c3ec65b3ded8685f4bda514d"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-remotefile_0.0.15_linux_amd64.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.15/terraform-provider-remotefile_0.0.15_linux_amd64.zip",
+          "shasum": "abe00d93350567ce932b2ced9fa6c17ab3e01cb0ee9767559090e6eeea6a335a"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-remotefile_0.0.15_linux_386.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.15/terraform-provider-remotefile_0.0.15_linux_386.zip",
+          "shasum": "83e19859e43d7a4af844f5729372a36717c0cdbd93cfc1cb199ed25167f2137f"
+        }
+      ]
+    },
+    {
+      "version": "0.0.14",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.14/terraform-provider-remotefile_0.0.14_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.14/terraform-provider-remotefile_0.0.14_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-remotefile_0.0.14_freebsd_arm64.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.14/terraform-provider-remotefile_0.0.14_freebsd_arm64.zip",
+          "shasum": "6799309a731f2a0b4694e9238d6487da690cb35eee77f40827bc6330d4ac690a"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-remotefile_0.0.14_windows_arm.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.14/terraform-provider-remotefile_0.0.14_windows_arm.zip",
+          "shasum": "f016f863522c25771c097df4d838a7c71e341e961cae0eb7cf35f3d5f125b1c8"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-remotefile_0.0.14_freebsd_arm.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.14/terraform-provider-remotefile_0.0.14_freebsd_arm.zip",
+          "shasum": "146858e28d2d8362e006e996563ae9497a1aae9b2a061ba1712cd2b0f691d26d"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-remotefile_0.0.14_freebsd_386.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.14/terraform-provider-remotefile_0.0.14_freebsd_386.zip",
+          "shasum": "de73fcc3ff7adfcd33471d99c400a43b632d05130ed06083b1d3b4d7e2c74fcc"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-remotefile_0.0.14_windows_amd64.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.14/terraform-provider-remotefile_0.0.14_windows_amd64.zip",
+          "shasum": "388de9bbafbc107fb7463fee5b4800bc807c5563d98f3f861f727bce965cedde"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-remotefile_0.0.14_linux_386.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.14/terraform-provider-remotefile_0.0.14_linux_386.zip",
+          "shasum": "778bc984269709f36dc14d02f30e35c6e679744ff4af647a8d7d54cb36831860"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-remotefile_0.0.14_linux_amd64.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.14/terraform-provider-remotefile_0.0.14_linux_amd64.zip",
+          "shasum": "46342831590dfa07fbe38fb976488c680ad7aecf20b70bc8c55d0b39cbf52c07"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-remotefile_0.0.14_linux_arm.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.14/terraform-provider-remotefile_0.0.14_linux_arm.zip",
+          "shasum": "f422c444134ef11f4fc3472ab9490b62b3a93b45889f0d35a6c660ba9c2c1efa"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-remotefile_0.0.14_freebsd_amd64.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.14/terraform-provider-remotefile_0.0.14_freebsd_amd64.zip",
+          "shasum": "c7d5d742782c44c7614e8265bb481b652c46019c264f0f2d5c5e3392dd3e6f0d"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-remotefile_0.0.14_windows_386.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.14/terraform-provider-remotefile_0.0.14_windows_386.zip",
+          "shasum": "d8c8314d260b83a9c59610c2555009b2dfecb8b416ef38dda57d733319fcb87a"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-remotefile_0.0.14_linux_arm64.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.14/terraform-provider-remotefile_0.0.14_linux_arm64.zip",
+          "shasum": "13dd31b7a3dea4c1e2df8020680d5d467be0bde7a64f57b4c6f62c90a6adf029"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-remotefile_0.0.14_darwin_amd64.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.14/terraform-provider-remotefile_0.0.14_darwin_amd64.zip",
+          "shasum": "b4e8a00d235b7b2c87ba5f6092cbcceb7d28c27dfbacba6e350035c5998d288c"
+        }
+      ]
+    },
+    {
+      "version": "0.0.13",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.13/terraform-provider-remotefile_0.0.13_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.13/terraform-provider-remotefile_0.0.13_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-remotefile_0.0.13_windows_amd64.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.13/terraform-provider-remotefile_0.0.13_windows_amd64.zip",
+          "shasum": "ddf990ae08fbc6f7a814f797656015aac691989fe70fe835c264374c8cefc6ff"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-remotefile_0.0.13_freebsd_arm.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.13/terraform-provider-remotefile_0.0.13_freebsd_arm.zip",
+          "shasum": "bb509de7ab3e62f94d96b24b1b60420b74ee221ad81ab4fe4fdb654335b1d2b6"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-remotefile_0.0.13_freebsd_arm64.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.13/terraform-provider-remotefile_0.0.13_freebsd_arm64.zip",
+          "shasum": "77fd0f9302f4f04f983734f2364566c88cdec85a28df3e4be088189986da4926"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-remotefile_0.0.13_freebsd_386.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.13/terraform-provider-remotefile_0.0.13_freebsd_386.zip",
+          "shasum": "410d086c0f4ce2aee12aeb23ac94a55ba222312542134d7e1a4b6ba82db87555"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-remotefile_0.0.13_freebsd_amd64.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.13/terraform-provider-remotefile_0.0.13_freebsd_amd64.zip",
+          "shasum": "79b583699d0a64bc58d9bca2cff8191e860b8e4e803329fa3d2a57743ecbe29f"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-remotefile_0.0.13_windows_386.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.13/terraform-provider-remotefile_0.0.13_windows_386.zip",
+          "shasum": "03a66cd6f5369a240228f424e2f57ac4007bdcc3df4a41a84c4dc2fb7d473a9d"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-remotefile_0.0.13_windows_arm.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.13/terraform-provider-remotefile_0.0.13_windows_arm.zip",
+          "shasum": "7cd9a8197a868f2861a7462a091c6300066a1bea257e2f8d2bfa82ad43b9e88e"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-remotefile_0.0.13_linux_arm.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.13/terraform-provider-remotefile_0.0.13_linux_arm.zip",
+          "shasum": "fb04007fa4ab063b2ad1d50cb8d9253710ad17862034b36a8f0220f993b5e771"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-remotefile_0.0.13_darwin_amd64.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.13/terraform-provider-remotefile_0.0.13_darwin_amd64.zip",
+          "shasum": "be1c2224a55d258f41670c2dc30e02f97b6bd872234997e8ae9c721127f4c002"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-remotefile_0.0.13_linux_386.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.13/terraform-provider-remotefile_0.0.13_linux_386.zip",
+          "shasum": "0f791a6a4ae9d482372579da79068933b00ded6af762f8065a18ae294a482b5f"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-remotefile_0.0.13_linux_arm64.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.13/terraform-provider-remotefile_0.0.13_linux_arm64.zip",
+          "shasum": "0ca1671e93cf5685a758e3199011717dce06faed72de8999b2ca7d1e076f0931"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-remotefile_0.0.13_linux_amd64.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.13/terraform-provider-remotefile_0.0.13_linux_amd64.zip",
+          "shasum": "8e95fcdeef4b5b107f6e0dc65af34edeff19e25e3d1481b6bbf55ef3fea39814"
+        }
+      ]
+    },
+    {
+      "version": "0.0.12",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.12/terraform-provider-remotefile_0.0.12_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.12/terraform-provider-remotefile_0.0.12_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-remotefile_0.0.12_freebsd_arm64.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.12/terraform-provider-remotefile_0.0.12_freebsd_arm64.zip",
+          "shasum": "dcbe5260bd3f33eb63cceb3b6fb2dfc89722cd61da419e0e388ab17bfda50516"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-remotefile_0.0.12_darwin_amd64.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.12/terraform-provider-remotefile_0.0.12_darwin_amd64.zip",
+          "shasum": "9cede10fab234c66443543464d8d3fa10a4931f1f8de956ed3820789703319d8"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-remotefile_0.0.12_windows_amd64.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.12/terraform-provider-remotefile_0.0.12_windows_amd64.zip",
+          "shasum": "b1146be2d18f787087027c527544d1d6617125fa64f8477595e246ea8659e1bf"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-remotefile_0.0.12_windows_arm.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.12/terraform-provider-remotefile_0.0.12_windows_arm.zip",
+          "shasum": "33cdfba557fce2c4ed512bd9c68c7e65b4644669ae269dd58022e2398f50c326"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-remotefile_0.0.12_windows_386.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.12/terraform-provider-remotefile_0.0.12_windows_386.zip",
+          "shasum": "e5caed7f7cb208be5acd5c09146bcb69df33e2581e0780555e745b706f61cc27"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-remotefile_0.0.12_freebsd_386.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.12/terraform-provider-remotefile_0.0.12_freebsd_386.zip",
+          "shasum": "24a7ae9a90faea78a741912abfcee00571bd293720d3ab256f1e606fedc8649d"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-remotefile_0.0.12_linux_amd64.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.12/terraform-provider-remotefile_0.0.12_linux_amd64.zip",
+          "shasum": "28a8887acb564f77be04be07668205ff13ccfc864620da50a335bd6f69e6917f"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-remotefile_0.0.12_freebsd_arm.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.12/terraform-provider-remotefile_0.0.12_freebsd_arm.zip",
+          "shasum": "6efe7d6b68dccc8688c74a5249cd6172497e3ab67e1d2bc50fb96bd163d05e4e"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-remotefile_0.0.12_linux_386.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.12/terraform-provider-remotefile_0.0.12_linux_386.zip",
+          "shasum": "3a7b92077db2a5f94c9aef973fc41c3e135667b7a2486eb6759f14de27ccf932"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-remotefile_0.0.12_freebsd_amd64.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.12/terraform-provider-remotefile_0.0.12_freebsd_amd64.zip",
+          "shasum": "744483483b35c7e9c7de27ecf13f3a8b840de4d63b766a2e701f188cb29e6dbe"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-remotefile_0.0.12_linux_arm64.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.12/terraform-provider-remotefile_0.0.12_linux_arm64.zip",
+          "shasum": "b7640b814767baebcef95cb3912539c0bacfb24dee53212d3d7d88ebd653a316"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-remotefile_0.0.12_linux_arm.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.12/terraform-provider-remotefile_0.0.12_linux_arm.zip",
+          "shasum": "2bee3e22336e08def9b9c974a65683c798c49e457cb0532e3385e12af2989019"
+        }
+      ]
+    },
+    {
+      "version": "0.0.11",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.11/terraform-provider-remotefile_0.0.11_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.11/terraform-provider-remotefile_0.0.11_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-remotefile_0.0.11_linux_386.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.11/terraform-provider-remotefile_0.0.11_linux_386.zip",
+          "shasum": "65c42acef2362a4561194d2240a20eaaec6634e80c9410b7f7595e6c35c04346"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-remotefile_0.0.11_linux_arm64.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.11/terraform-provider-remotefile_0.0.11_linux_arm64.zip",
+          "shasum": "7267c4b557b63b17e85dd32f0d0ed2236bacdbe49f40c3c28f80617807f4c158"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-remotefile_0.0.11_linux_amd64.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.11/terraform-provider-remotefile_0.0.11_linux_amd64.zip",
+          "shasum": "868e7aff798a03eed0c603f533c794736ef2d1b89b73668470a224812464af5a"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-remotefile_0.0.11_freebsd_386.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.11/terraform-provider-remotefile_0.0.11_freebsd_386.zip",
+          "shasum": "cb20ba7ba17bcded75385669e7d677e5c3e760633eaeaaa9faf527ecbb1a6088"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-remotefile_0.0.11_freebsd_amd64.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.11/terraform-provider-remotefile_0.0.11_freebsd_amd64.zip",
+          "shasum": "78a9d7d71157ebafa44a9b6f05809860cdff92775562250637c5c9f13742747c"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-remotefile_0.0.11_windows_386.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.11/terraform-provider-remotefile_0.0.11_windows_386.zip",
+          "shasum": "21b499950b7be4d98a5674ad4c2b4d2396e0aece9685286d36e8d040870ddaa0"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-remotefile_0.0.11_linux_arm.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.11/terraform-provider-remotefile_0.0.11_linux_arm.zip",
+          "shasum": "ef5479c819ad8bd723eb8869886e23ca4f1d5b9db6a6f7908b5596a5d37b03e4"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-remotefile_0.0.11_darwin_amd64.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.11/terraform-provider-remotefile_0.0.11_darwin_amd64.zip",
+          "shasum": "65ec847650e94edf22bef7477f20426936d5dda03a0eae2669ac734235f26955"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-remotefile_0.0.11_windows_arm.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.11/terraform-provider-remotefile_0.0.11_windows_arm.zip",
+          "shasum": "d36b7ebe7aa28003a07215665acb6551dd3b02386cea21efa292a42f5507fc31"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-remotefile_0.0.11_freebsd_arm.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.11/terraform-provider-remotefile_0.0.11_freebsd_arm.zip",
+          "shasum": "7713df0b9d45cc2eef0ee845770d6dbf5b23b5bab40b9232f6ecd06a31c6c256"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-remotefile_0.0.11_windows_amd64.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.11/terraform-provider-remotefile_0.0.11_windows_amd64.zip",
+          "shasum": "ff65a2ba86cded2e4ce510770778b06125f5c0fc1ad666299c16a97612297fd2"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-remotefile_0.0.11_freebsd_arm64.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.11/terraform-provider-remotefile_0.0.11_freebsd_arm64.zip",
+          "shasum": "8c013dc5b0cda987e76e047b60dc9ce217a21d1b47b33b8404c6e754b11e17fe"
+        }
+      ]
+    },
+    {
+      "version": "0.0.10",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.10/terraform-provider-remotefile_0.0.10_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.10/terraform-provider-remotefile_0.0.10_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-remotefile_0.0.10_linux_arm64.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.10/terraform-provider-remotefile_0.0.10_linux_arm64.zip",
+          "shasum": "4a02760310b142d2c59cf33f194125091def771fe71162ceaebb9832003f14e9"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-remotefile_0.0.10_linux_arm.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.10/terraform-provider-remotefile_0.0.10_linux_arm.zip",
+          "shasum": "4540e2f1b24f20a90624a2cbdf27d3bae0882cedda304fef9bfbabba69ea0c33"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-remotefile_0.0.10_freebsd_amd64.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.10/terraform-provider-remotefile_0.0.10_freebsd_amd64.zip",
+          "shasum": "eea647f5ad744bf1351c3feb4b7ae33f25f36548901a6467fcb2096746f38605"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-remotefile_0.0.10_windows_arm.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.10/terraform-provider-remotefile_0.0.10_windows_arm.zip",
+          "shasum": "18c59ea1eca74676de7977ef68d60209294877f9e6e5ffa3bb5f440076bd7be6"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-remotefile_0.0.10_windows_amd64.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.10/terraform-provider-remotefile_0.0.10_windows_amd64.zip",
+          "shasum": "e91c0cd06902d03b8ef2475f62bfc8f750a27dae0db4e118214fe0f6221813b8"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-remotefile_0.0.10_linux_amd64.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.10/terraform-provider-remotefile_0.0.10_linux_amd64.zip",
+          "shasum": "acd74fa33f377795839d5e9a7f968aa3f3a7f7993d33c6a8c57ac8ee6e40277d"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-remotefile_0.0.10_freebsd_386.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.10/terraform-provider-remotefile_0.0.10_freebsd_386.zip",
+          "shasum": "6a2d932e81e2e93752207893896dad26eb423487110c3e1d67ed22a2a4727719"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-remotefile_0.0.10_linux_386.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.10/terraform-provider-remotefile_0.0.10_linux_386.zip",
+          "shasum": "d37fef3c21dc563853df52ec44ee8da278a26abef0e9f9419085bab105c0b8f1"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-remotefile_0.0.10_windows_386.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.10/terraform-provider-remotefile_0.0.10_windows_386.zip",
+          "shasum": "84a65ac24943cc2c40089aa3610b5b69a9ed045a09742ab3c1bdceb3cb937761"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-remotefile_0.0.10_darwin_amd64.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.10/terraform-provider-remotefile_0.0.10_darwin_amd64.zip",
+          "shasum": "39a142522b77432069e0b49e31a69401c4b0fb4519d9aa4b5f40a8abecb7ddc4"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-remotefile_0.0.10_freebsd_arm.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.10/terraform-provider-remotefile_0.0.10_freebsd_arm.zip",
+          "shasum": "4ccf0557470c1d3414227417e163d4577392677716f4f8820d3b642bb73fb93a"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-remotefile_0.0.10_freebsd_arm64.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.10/terraform-provider-remotefile_0.0.10_freebsd_arm64.zip",
+          "shasum": "be4c54349493032bd5d3a75ae80a2997ef4d2b2e2cbc5b1ca0c31d258cce63e0"
+        }
+      ]
+    },
+    {
+      "version": "0.0.9",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.9/terraform-provider-remotefile_0.0.9_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.9/terraform-provider-remotefile_0.0.9_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-remotefile_0.0.9_linux_arm.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.9/terraform-provider-remotefile_0.0.9_linux_arm.zip",
+          "shasum": "276a225921e5a99cbd659191165dd99dc47bb36b70c4ca58fa76af5fbd648c73"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-remotefile_0.0.9_darwin_amd64.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.9/terraform-provider-remotefile_0.0.9_darwin_amd64.zip",
+          "shasum": "0a41cedeeb773c22eb623ee5764a39cf7631100e83dc7d590c4bf6b808f05a7f"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-remotefile_0.0.9_windows_amd64.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.9/terraform-provider-remotefile_0.0.9_windows_amd64.zip",
+          "shasum": "4e2077ea507fba35831feadc0bc9d9f467290593915dcbb40be18e86849f0eae"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-remotefile_0.0.9_linux_arm64.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.9/terraform-provider-remotefile_0.0.9_linux_arm64.zip",
+          "shasum": "827cc7da1e0f6521d38a98ec243e6e395638396b89b8f17d12a113c830037af7"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-remotefile_0.0.9_freebsd_386.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.9/terraform-provider-remotefile_0.0.9_freebsd_386.zip",
+          "shasum": "84eee2d28ea1f40816e386fabb7c135dbb99716d2c00d20b95a4e0ed90b99cdc"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-remotefile_0.0.9_windows_arm.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.9/terraform-provider-remotefile_0.0.9_windows_arm.zip",
+          "shasum": "3b93b93116c9aec631fc8973ae7b86da40a791e1bd4ab047fc133ea2adba2fd4"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-remotefile_0.0.9_freebsd_arm64.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.9/terraform-provider-remotefile_0.0.9_freebsd_arm64.zip",
+          "shasum": "111bfa645cd8bd8ac9a403ce03ca1e0f14508e4d6475b995ca5781f011cdadc4"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-remotefile_0.0.9_linux_386.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.9/terraform-provider-remotefile_0.0.9_linux_386.zip",
+          "shasum": "1a8f0d85547b73e662a4e6de7e60999dbdc8e91d80d9eb1d81a4b23603a6165f"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-remotefile_0.0.9_linux_amd64.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.9/terraform-provider-remotefile_0.0.9_linux_amd64.zip",
+          "shasum": "8376bc4978525c56a26ee325d35fa350b04ad77e1dc5ca8171fc9b13a8db52fe"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-remotefile_0.0.9_freebsd_amd64.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.9/terraform-provider-remotefile_0.0.9_freebsd_amd64.zip",
+          "shasum": "9b841e33190a6a63291fc5d25020f926cc74f49645c4ae597c138370eee2251e"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-remotefile_0.0.9_freebsd_arm.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.9/terraform-provider-remotefile_0.0.9_freebsd_arm.zip",
+          "shasum": "6ed3fd12bf8ac8fa13ee767d900209e26a20a275c8107903bca9757c88f6c301"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-remotefile_0.0.9_windows_386.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.9/terraform-provider-remotefile_0.0.9_windows_386.zip",
+          "shasum": "fcd126ee3681b532f2da99983e9db7d950489cfb765ee3ac14a4f3f5cc3d7cf0"
+        }
+      ]
+    },
+    {
+      "version": "0.0.8",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.8/terraform-provider-remotefile_0.0.8_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.8/terraform-provider-remotefile_0.0.8_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-remotefile_0.0.8_windows_arm.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.8/terraform-provider-remotefile_0.0.8_windows_arm.zip",
+          "shasum": "f7037d13ffee7a12dd70cf01468b7851880e9d3190c8f7554a6fb90f30bc3932"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-remotefile_0.0.8_darwin_amd64.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.8/terraform-provider-remotefile_0.0.8_darwin_amd64.zip",
+          "shasum": "55e64cdc258ad313bf602619893d727d30c151683cc9fcd337fa729e342e5779"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-remotefile_0.0.8_linux_arm.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.8/terraform-provider-remotefile_0.0.8_linux_arm.zip",
+          "shasum": "2be1e274d9d3d98350f12ae20dbdf9ba36331bf906018ee3b2177ea896fb0be7"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-remotefile_0.0.8_freebsd_arm.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.8/terraform-provider-remotefile_0.0.8_freebsd_arm.zip",
+          "shasum": "2aab53bccf9b0d3b6e78642f75e21f275e164709b33d36b43b4365bc64fd4000"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-remotefile_0.0.8_windows_amd64.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.8/terraform-provider-remotefile_0.0.8_windows_amd64.zip",
+          "shasum": "17c6241207eef04c6f6b5cf2ea8bfa4b198b52794191490980f8ae7f2b16fff8"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-remotefile_0.0.8_freebsd_arm64.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.8/terraform-provider-remotefile_0.0.8_freebsd_arm64.zip",
+          "shasum": "94f24dd4209a1814e1107682c5356d5666f3b806cd75a4a3d1a12adbf11fe027"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-remotefile_0.0.8_linux_386.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.8/terraform-provider-remotefile_0.0.8_linux_386.zip",
+          "shasum": "f75ab10bdd359c45d6b629a6d5d99d09e1e6ffc67cbec47084f0ca78c3a03e0b"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-remotefile_0.0.8_linux_arm64.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.8/terraform-provider-remotefile_0.0.8_linux_arm64.zip",
+          "shasum": "fab3b2656b66eb26439d677b30b0898767e71be5f38c79a56ec57b2af4cb8d6b"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-remotefile_0.0.8_freebsd_amd64.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.8/terraform-provider-remotefile_0.0.8_freebsd_amd64.zip",
+          "shasum": "fb64c6e1331b4c17317304f19c0c6efcfd2f909524daca9a7cddb408f8ea2531"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-remotefile_0.0.8_windows_386.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.8/terraform-provider-remotefile_0.0.8_windows_386.zip",
+          "shasum": "ec58237f21e828744f801fe0df44a8a2dd230eaa5c830d6dc47a563538a9c799"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-remotefile_0.0.8_linux_amd64.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.8/terraform-provider-remotefile_0.0.8_linux_amd64.zip",
+          "shasum": "76bc7dafbd4cb5681c2d2411ee35a8cd88c1c8749bb70b1ae2dd9922cc790a44"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-remotefile_0.0.8_freebsd_386.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.8/terraform-provider-remotefile_0.0.8_freebsd_386.zip",
+          "shasum": "4e480b16cc9340a7a64d884b00e5c51a8a8fc68358ccd1e2b15da490d8e2cd56"
+        }
+      ]
+    },
+    {
+      "version": "0.0.7",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.7/terraform-provider-remotefile_0.0.7_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.7/terraform-provider-remotefile_0.0.7_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-remotefile_0.0.7_windows_386.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.7/terraform-provider-remotefile_0.0.7_windows_386.zip",
+          "shasum": "2148e5b18f1a51d65f6043f07e5543238c194d3a2d2bb6d9955adf10c2394acb"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-remotefile_0.0.7_linux_arm64.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.7/terraform-provider-remotefile_0.0.7_linux_arm64.zip",
+          "shasum": "fc82ef33bc4c16e3f683a6e497fd7b7adc8068f304f4979446edadfe9ec4419a"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-remotefile_0.0.7_darwin_amd64.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.7/terraform-provider-remotefile_0.0.7_darwin_amd64.zip",
+          "shasum": "2634066fa8526038c34542fe0c1151ed96fefec30e2e08be720bd30b33da13b6"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-remotefile_0.0.7_freebsd_amd64.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.7/terraform-provider-remotefile_0.0.7_freebsd_amd64.zip",
+          "shasum": "678d292ffccf37336784d9811fbc27bd2b4bde9770453107bbdcdc9e9a9ebb24"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-remotefile_0.0.7_freebsd_arm.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.7/terraform-provider-remotefile_0.0.7_freebsd_arm.zip",
+          "shasum": "a1fff0ad343423a8d8af26c5815b76c4bb0ace2f14b499c19db2248d244d15ad"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-remotefile_0.0.7_linux_arm.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.7/terraform-provider-remotefile_0.0.7_linux_arm.zip",
+          "shasum": "5afde85ad1c7011b3d2e86c906cb3208c697ff860b75ca3aafbf4854e103d951"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-remotefile_0.0.7_linux_amd64.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.7/terraform-provider-remotefile_0.0.7_linux_amd64.zip",
+          "shasum": "a390a002bbd81c6c84cf16ae3c053d5ef628486f29a7310214b3452a807b4c8d"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-remotefile_0.0.7_windows_arm.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.7/terraform-provider-remotefile_0.0.7_windows_arm.zip",
+          "shasum": "6431618c3bfa24febc57d4e953e31d044fb7ddf6b692d65deef9835e9acef5dd"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-remotefile_0.0.7_freebsd_386.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.7/terraform-provider-remotefile_0.0.7_freebsd_386.zip",
+          "shasum": "24105723d4c966087e690171d171983bda0ff4ce0056ebb197b35fdfba587ea8"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-remotefile_0.0.7_windows_amd64.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.7/terraform-provider-remotefile_0.0.7_windows_amd64.zip",
+          "shasum": "cbd936ffa3c7617a25e4d2774afe72ddff301ca5ee3c6531c4698fbd3094b3fe"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-remotefile_0.0.7_freebsd_arm64.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.7/terraform-provider-remotefile_0.0.7_freebsd_arm64.zip",
+          "shasum": "56363e4e35383aeecf664cf17d939dc1e7c4fae7b2c616e748d5fef49d37e8cc"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-remotefile_0.0.7_linux_386.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.7/terraform-provider-remotefile_0.0.7_linux_386.zip",
+          "shasum": "aa4b1c38b16d6fbf30553acecf2faa4e747997052f1dfde0242fb6defbb4ddfe"
+        }
+      ]
+    },
+    {
+      "version": "0.0.6",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.6/terraform-provider-remotefile_0.0.6_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.6/terraform-provider-remotefile_0.0.6_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-remotefile_0.0.6_windows_amd64.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.6/terraform-provider-remotefile_0.0.6_windows_amd64.zip",
+          "shasum": "0435f307e7dd44da5302c467c05e93db4dde80453241c49c89aae3f55af56d36"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-remotefile_0.0.6_windows_386.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.6/terraform-provider-remotefile_0.0.6_windows_386.zip",
+          "shasum": "0d062b624f326aefc650123aee5f8288bae7ab14b69ea8a4e91f5ae54d4c2c89"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-remotefile_0.0.6_windows_arm.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.6/terraform-provider-remotefile_0.0.6_windows_arm.zip",
+          "shasum": "ee1a92e95784c933c1ba4b60d6f3f575d8014ea88694bd785d8e930c4ba226b1"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-remotefile_0.0.6_linux_amd64.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.6/terraform-provider-remotefile_0.0.6_linux_amd64.zip",
+          "shasum": "53bbf8d9f648fa15049e26ceb260125f7332f74f449568a4324576b55a1ec40f"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-remotefile_0.0.6_freebsd_386.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.6/terraform-provider-remotefile_0.0.6_freebsd_386.zip",
+          "shasum": "88b3ad9313c70c1993e431f207a533b62e96b292de218c814772f4566ba77526"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-remotefile_0.0.6_freebsd_arm.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.6/terraform-provider-remotefile_0.0.6_freebsd_arm.zip",
+          "shasum": "431a9518b88e25bf1b57cdb3bcb62e744d943636c748887cce6b8cf680e97d86"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-remotefile_0.0.6_freebsd_arm64.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.6/terraform-provider-remotefile_0.0.6_freebsd_arm64.zip",
+          "shasum": "c69c77bd6a72a8dd099ae11990ca0441eba683547e09c9f8bc2ea997f281695f"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-remotefile_0.0.6_darwin_amd64.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.6/terraform-provider-remotefile_0.0.6_darwin_amd64.zip",
+          "shasum": "c51caf3d32c99b73c08cbc595e8b154c17d841f8a1b23b36b551fbda5e916285"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-remotefile_0.0.6_linux_arm64.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.6/terraform-provider-remotefile_0.0.6_linux_arm64.zip",
+          "shasum": "1abe0746f823dbb3e918613c6e5aa0d20be67b5ef2dccbc8195c7cdd6bc9b382"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-remotefile_0.0.6_freebsd_amd64.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.6/terraform-provider-remotefile_0.0.6_freebsd_amd64.zip",
+          "shasum": "7ad2fc91a3fe1daec4725a053e1c2f57f1ccdddbcf905cb2edcc8f7a5b72ec85"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-remotefile_0.0.6_linux_arm.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.6/terraform-provider-remotefile_0.0.6_linux_arm.zip",
+          "shasum": "6ca5417d8f0c83c4e47ff9567eab60bf3f57c5c474198364ae893b703ec728a2"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-remotefile_0.0.6_linux_386.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.6/terraform-provider-remotefile_0.0.6_linux_386.zip",
+          "shasum": "dba06c35a1aa67c86760b7bb11dc3322d756194e514541b7c8be4a2c41c41c88"
+        }
+      ]
+    },
+    {
+      "version": "0.0.5",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.5/terraform-provider-remotefile_0.0.5_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.5/terraform-provider-remotefile_0.0.5_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-remotefile_0.0.5_linux_arm64.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.5/terraform-provider-remotefile_0.0.5_linux_arm64.zip",
+          "shasum": "d4c8a0c4ed09f4c4fa4d97960e16eac6d4bbb68c5839e3cf4ea5afe75f6a7834"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-remotefile_0.0.5_windows_amd64.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.5/terraform-provider-remotefile_0.0.5_windows_amd64.zip",
+          "shasum": "80d17f5323bb95dc717987a84ad850eeafabbb253d55e3f4b6d7cb395a9980d8"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-remotefile_0.0.5_darwin_amd64.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.5/terraform-provider-remotefile_0.0.5_darwin_amd64.zip",
+          "shasum": "2b7f1a800c9a43993074c8d79d65ec1fd258e65e77d752fc4b71dd20a60f3284"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-remotefile_0.0.5_linux_386.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.5/terraform-provider-remotefile_0.0.5_linux_386.zip",
+          "shasum": "75b2f5a15c54de5ba5cffee4281a0cd353f7b7ad8e16d9cffd1923e2d18f0bb2"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-remotefile_0.0.5_windows_arm.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.5/terraform-provider-remotefile_0.0.5_windows_arm.zip",
+          "shasum": "3df40e6fe81457f02ee4c50cc5878eae4209a0a5f8957880ed22fc55855d8225"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-remotefile_0.0.5_linux_arm.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.5/terraform-provider-remotefile_0.0.5_linux_arm.zip",
+          "shasum": "3512e6cf73e2159ec1645abb3b4432e587bc585779808366b6b578d53595bad5"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-remotefile_0.0.5_linux_amd64.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.5/terraform-provider-remotefile_0.0.5_linux_amd64.zip",
+          "shasum": "19dd5b4fc0bfd56936c6e5571021a41b2fcf10c2887cfe4057a4c783f23607a2"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-remotefile_0.0.5_freebsd_amd64.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.5/terraform-provider-remotefile_0.0.5_freebsd_amd64.zip",
+          "shasum": "1d85512eb9d2d96f4431bd718b01335475efcafdb976bd637c97a10a249e6849"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-remotefile_0.0.5_freebsd_arm.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.5/terraform-provider-remotefile_0.0.5_freebsd_arm.zip",
+          "shasum": "a748f5043d7e7d536c7d67c5692380810d2a2664f26cec0bd0dc1909329d9c13"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-remotefile_0.0.5_freebsd_arm64.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.5/terraform-provider-remotefile_0.0.5_freebsd_arm64.zip",
+          "shasum": "7c4779e7a4ec3c92d9bf5b8a9b8e35eed4ae5b800f94a7fec92e9ece5583fb91"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-remotefile_0.0.5_freebsd_386.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.5/terraform-provider-remotefile_0.0.5_freebsd_386.zip",
+          "shasum": "62ca09a4be9043fdecc66eae1fcda7d519299bd6e8fcbb3aa713e550407f9171"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-remotefile_0.0.5_windows_386.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.5/terraform-provider-remotefile_0.0.5_windows_386.zip",
+          "shasum": "05eb689369eb581df300346e6ffe1192214f94b1c13fa0f989a9970ce03467ff"
+        }
+      ]
+    },
+    {
+      "version": "0.0.4",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.4/terraform-provider-remotefile_0.0.4_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.4/terraform-provider-remotefile_0.0.4_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-remotefile_0.0.4_windows_amd64.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.4/terraform-provider-remotefile_0.0.4_windows_amd64.zip",
+          "shasum": "46482c24bf6f5db8cec72b17784526cdc01dacabbdc1eef2484464de4b9e4cc7"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-remotefile_0.0.4_windows_arm.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.4/terraform-provider-remotefile_0.0.4_windows_arm.zip",
+          "shasum": "002eadb627af841b61a0bf033d30e1aafd289748cc93c6a243fc0aecd33cc4c6"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-remotefile_0.0.4_freebsd_386.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.4/terraform-provider-remotefile_0.0.4_freebsd_386.zip",
+          "shasum": "4f4a10badea9372121e3a834a32e0423536e3d95cdb7543523771f4e741a0876"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-remotefile_0.0.4_windows_386.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.4/terraform-provider-remotefile_0.0.4_windows_386.zip",
+          "shasum": "8f1d8e24ca258a4c94007b1c77d82c8541d633c179d625d87f4339cad6d353a1"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-remotefile_0.0.4_freebsd_arm.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.4/terraform-provider-remotefile_0.0.4_freebsd_arm.zip",
+          "shasum": "5906a8844d2ce3716337dbd654e51ba790463f622998fdb5a66b582145c1b47c"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-remotefile_0.0.4_freebsd_amd64.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.4/terraform-provider-remotefile_0.0.4_freebsd_amd64.zip",
+          "shasum": "3ec66db015af172640a97dcc905b5a402aff01780abb213660e3025c7bf66f9c"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-remotefile_0.0.4_linux_386.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.4/terraform-provider-remotefile_0.0.4_linux_386.zip",
+          "shasum": "8e520825868011fbfc74bd30b7b2301a8d5548c08b25146288cccf2e5b7a3c8b"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-remotefile_0.0.4_darwin_amd64.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.4/terraform-provider-remotefile_0.0.4_darwin_amd64.zip",
+          "shasum": "e06304e3794e48e49e9ae0387fddd95560ca319c497bc51dfbd7534ec102ea68"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-remotefile_0.0.4_freebsd_arm64.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.4/terraform-provider-remotefile_0.0.4_freebsd_arm64.zip",
+          "shasum": "b17753f6f1a9e24be18f3368a06a9970846b05404244f2568f6df3be733da26d"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-remotefile_0.0.4_linux_amd64.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.4/terraform-provider-remotefile_0.0.4_linux_amd64.zip",
+          "shasum": "bd2e3ae196cf26953a56224038bb2b882f77686664a028466c30d87f34f028e9"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-remotefile_0.0.4_linux_arm64.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.4/terraform-provider-remotefile_0.0.4_linux_arm64.zip",
+          "shasum": "3c9abe40bb811b9fcbdf42d269467201717da1281f481e61db6aa777eb13682d"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-remotefile_0.0.4_linux_arm.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.4/terraform-provider-remotefile_0.0.4_linux_arm.zip",
+          "shasum": "9068332c003f6ae5bebf530f72519e76858c6562965c93dd143561198cb4c2ab"
+        }
+      ]
+    },
+    {
+      "version": "0.0.3",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.3/terraform-provider-remotefile_0.0.3_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.3/terraform-provider-remotefile_0.0.3_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-remotefile_0.0.3_linux_arm.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.3/terraform-provider-remotefile_0.0.3_linux_arm.zip",
+          "shasum": "faa2e331eab0dd87f4e4c0ef37e87eb9a9887a69443621724d05ef32e9fdd152"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-remotefile_0.0.3_linux_386.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.3/terraform-provider-remotefile_0.0.3_linux_386.zip",
+          "shasum": "b84c9947f9c05313f71904eb10206d4b2161df985dcd34c2610ef141a5ca54af"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-remotefile_0.0.3_freebsd_386.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.3/terraform-provider-remotefile_0.0.3_freebsd_386.zip",
+          "shasum": "0ea86c729f00003606744ff90602a26074ff9e07e95dc9c60e58d85063257b91"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-remotefile_0.0.3_freebsd_arm.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.3/terraform-provider-remotefile_0.0.3_freebsd_arm.zip",
+          "shasum": "be6f4bb0a83130a1046f30aaf491c7aba8606179873f3afc383a729621c32524"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-remotefile_0.0.3_freebsd_amd64.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.3/terraform-provider-remotefile_0.0.3_freebsd_amd64.zip",
+          "shasum": "3a7a62a85d971afc1009fda72e50a3d315d2b6eee7746ed86191d062dddd91e8"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-remotefile_0.0.3_freebsd_arm64.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.3/terraform-provider-remotefile_0.0.3_freebsd_arm64.zip",
+          "shasum": "2262973d0194997eae0e63ae778e5f658c74a6a8d9a41ce4d295370313c9ae57"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-remotefile_0.0.3_windows_arm.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.3/terraform-provider-remotefile_0.0.3_windows_arm.zip",
+          "shasum": "a882ed7e14c9bf4a30065cdc7c563771999f95eec977fe4295368e6f6b642c61"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-remotefile_0.0.3_linux_arm64.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.3/terraform-provider-remotefile_0.0.3_linux_arm64.zip",
+          "shasum": "f32bfc654d86993f96e580b637db77e3877e582eccd9cddfc8e880fbe3b8da3f"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-remotefile_0.0.3_linux_amd64.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.3/terraform-provider-remotefile_0.0.3_linux_amd64.zip",
+          "shasum": "68df406d3b031c402a823250927dae455cff41e8f429d8a83323d1149d7c0c70"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-remotefile_0.0.3_windows_386.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.3/terraform-provider-remotefile_0.0.3_windows_386.zip",
+          "shasum": "251c13cbb10527c8bf452fa15c4b80034d2eff7a5c967f7c5de81e111463c036"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-remotefile_0.0.3_windows_amd64.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.3/terraform-provider-remotefile_0.0.3_windows_amd64.zip",
+          "shasum": "0c1695b9a9b755a0ea88519c71a7de1768541508d9f2a0694e0b35e9b055e3bd"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-remotefile_0.0.3_darwin_amd64.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.3/terraform-provider-remotefile_0.0.3_darwin_amd64.zip",
+          "shasum": "893a2581c895d2c84f363b268b26bdbb16ef420908b7476605eb4f6073bdde10"
+        }
+      ]
+    },
+    {
+      "version": "0.0.2",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.2/terraform-provider-remotefile_0.0.2_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.2/terraform-provider-remotefile_0.0.2_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-remotefile_0.0.2_windows_amd64.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.2/terraform-provider-remotefile_0.0.2_windows_amd64.zip",
+          "shasum": "55c0fd979e547fcb8a43b6c6ed8373c4c0dd66c77edbd216668a59d6b6652b6c"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-remotefile_0.0.2_freebsd_amd64.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.2/terraform-provider-remotefile_0.0.2_freebsd_amd64.zip",
+          "shasum": "3374f8a32edbe70cd48aadbaed8950374153bd12652c620017664cc6f7078b9b"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-remotefile_0.0.2_linux_386.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.2/terraform-provider-remotefile_0.0.2_linux_386.zip",
+          "shasum": "51de966e980749f997fb30c2eb1c8ae4dbd59c45e9617fe96b49bb3f508f2c19"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-remotefile_0.0.2_linux_arm64.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.2/terraform-provider-remotefile_0.0.2_linux_arm64.zip",
+          "shasum": "9c6e96a7e06de4802769d413ceb56097feeb42f40368c6b85b50ed2965723346"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-remotefile_0.0.2_freebsd_386.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.2/terraform-provider-remotefile_0.0.2_freebsd_386.zip",
+          "shasum": "065ce2d5e6d767ca83763a2fab4d9cf09fa5c9cb62bae834ca342819f0c36553"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-remotefile_0.0.2_darwin_amd64.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.2/terraform-provider-remotefile_0.0.2_darwin_amd64.zip",
+          "shasum": "f50264bf7727feb88a8e414efd7703c680c1a98f701e1ef50ed35c656c34a089"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-remotefile_0.0.2_linux_amd64.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.2/terraform-provider-remotefile_0.0.2_linux_amd64.zip",
+          "shasum": "fbb38c96b9b0fa3d8f772f66ad24556d6800815dc57a32393404a0be3ce2859d"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-remotefile_0.0.2_windows_386.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.2/terraform-provider-remotefile_0.0.2_windows_386.zip",
+          "shasum": "7f404aca0039b5a55fef9a7edf18c76b01bb36600667ebf51fd132f30a3028a9"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-remotefile_0.0.2_windows_arm.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.2/terraform-provider-remotefile_0.0.2_windows_arm.zip",
+          "shasum": "e85497aa17a68b2f0bdb830fa3222e4e5dfbc08b24d15c2f93f08367ed5b7732"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-remotefile_0.0.2_linux_arm.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.2/terraform-provider-remotefile_0.0.2_linux_arm.zip",
+          "shasum": "68972708c776ecbc28475589b4b7a425bdd6d06db6b4b71e518b5f48d5272be4"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-remotefile_0.0.2_freebsd_arm.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.2/terraform-provider-remotefile_0.0.2_freebsd_arm.zip",
+          "shasum": "4a0f9d3269469f92bb1b88340024d9d84c7d32c340299472add6bb2d4281e652"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-remotefile_0.0.2_freebsd_arm64.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.2/terraform-provider-remotefile_0.0.2_freebsd_arm64.zip",
+          "shasum": "56552a0bb9e41f89ffc4eae03d8e54b09564afefb087f9e2fb06c691c30fa15d"
+        }
+      ]
+    },
+    {
+      "version": "0.0.1",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.1/terraform-provider-remotefile_0.0.1_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.1/terraform-provider-remotefile_0.0.1_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-remotefile_0.0.1_linux_amd64.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.1/terraform-provider-remotefile_0.0.1_linux_amd64.zip",
+          "shasum": "0ceb427bf2f69e18f91db6c6a85cc0ae028d37eceeb06adea30d00b765934de8"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-remotefile_0.0.1_darwin_amd64.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.1/terraform-provider-remotefile_0.0.1_darwin_amd64.zip",
+          "shasum": "f229d4f18057aef7ab839213fde510ca13110b837765d552c724bac6a57ca3b7"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-remotefile_0.0.1_windows_amd64.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.1/terraform-provider-remotefile_0.0.1_windows_amd64.zip",
+          "shasum": "d05ea1f4afce1e730edd6fd396bcfa6380defc662eb741f027378a722c6ff06e"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-remotefile_0.0.1_freebsd_amd64.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.1/terraform-provider-remotefile_0.0.1_freebsd_amd64.zip",
+          "shasum": "6fc0f4c577fc96c7d74f808d5efe1cb608e145fe188f36bf9a2d1c10d2770957"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-remotefile_0.0.1_linux_arm.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.1/terraform-provider-remotefile_0.0.1_linux_arm.zip",
+          "shasum": "33f2de8af59b3e41b9ac3a033883066d2b0b4a11f165c5f80744605393a43fe5"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-remotefile_0.0.1_linux_386.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.1/terraform-provider-remotefile_0.0.1_linux_386.zip",
+          "shasum": "6c82d26dfbc496cfedc8f13406e16dc7a0f53dfb7ff00877ca46ac2f7065ae85"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-remotefile_0.0.1_freebsd_arm.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.1/terraform-provider-remotefile_0.0.1_freebsd_arm.zip",
+          "shasum": "43a62b749692abf4360d58c6604ed842923f186d88045f64da5d647dcf0c7e8b"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-remotefile_0.0.1_freebsd_386.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.1/terraform-provider-remotefile_0.0.1_freebsd_386.zip",
+          "shasum": "56105ec71032af17c55615f8db214836b8d0278caa586d472d9dc848c83d2c6b"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-remotefile_0.0.1_linux_arm64.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.1/terraform-provider-remotefile_0.0.1_linux_arm64.zip",
+          "shasum": "f9ba182a68db86743ba2938be71fd3cd8da356ab9ebbfe225450047b40e75f86"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-remotefile_0.0.1_freebsd_arm64.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.1/terraform-provider-remotefile_0.0.1_freebsd_arm64.zip",
+          "shasum": "cfddcc3e13dfeb41400989f8b5f767f33e19d3e7e3d21c3aae66f01ae0d23e43"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-remotefile_0.0.1_windows_386.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.1/terraform-provider-remotefile_0.0.1_windows_386.zip",
+          "shasum": "3be77ebc24af2277cf3ea143d7e9651b3d431233342364799c920a1353546df5"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-remotefile_0.0.1_windows_arm.zip",
+          "download_url": "https://github.com/tenstad/terraform-provider-remote/releases/download/v0.0.1/terraform-provider-remotefile_0.0.1_windows_arm.zip",
+          "shasum": "068bbc3f14ad9c3aa8504d06719e30a26922fdf607f439237a14182ee1213d0a"
+        }
+      ]
+    }
+  ]
+}

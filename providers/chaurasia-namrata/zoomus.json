@@ -1,0 +1,611 @@
+{
+  "repository": "https://github.com/chaurasia-namrata/terraform-provider-zoomus",
+  "versions": [
+    {
+      "version": "1.0.5",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/chaurasia-namrata/terraform-provider-zoomus/releases/download/v1.0.5/terraform-provider-zoomus_1.0.5_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/chaurasia-namrata/terraform-provider-zoomus/releases/download/v1.0.5/terraform-provider-zoomus_1.0.5_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-zoomus_1.0.5_freebsd_386.zip",
+          "download_url": "https://github.com/chaurasia-namrata/terraform-provider-zoomus/releases/download/v1.0.5/terraform-provider-zoomus_1.0.5_freebsd_386.zip",
+          "shasum": "40a25860be95d7e472b69813fa734eb8eb7a7c6365c9007519c6abb18a4a5e57"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-zoomus_1.0.5_freebsd_arm.zip",
+          "download_url": "https://github.com/chaurasia-namrata/terraform-provider-zoomus/releases/download/v1.0.5/terraform-provider-zoomus_1.0.5_freebsd_arm.zip",
+          "shasum": "cd9fcfc8049a0c58b0f0bc5d8ed6987a5a3a885a2c851dfd7e36bf21f7de60da"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-zoomus_1.0.5_darwin_amd64.zip",
+          "download_url": "https://github.com/chaurasia-namrata/terraform-provider-zoomus/releases/download/v1.0.5/terraform-provider-zoomus_1.0.5_darwin_amd64.zip",
+          "shasum": "94613c883bf744af69a1420fcdc23671fbb9f58b43437e61e3e464fe82164a8c"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-zoomus_1.0.5_linux_amd64.zip",
+          "download_url": "https://github.com/chaurasia-namrata/terraform-provider-zoomus/releases/download/v1.0.5/terraform-provider-zoomus_1.0.5_linux_amd64.zip",
+          "shasum": "6e29daf93a71e877512d492cd9e4471d5316b74152c683c03313d6003f06f695"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-zoomus_1.0.5_linux_386.zip",
+          "download_url": "https://github.com/chaurasia-namrata/terraform-provider-zoomus/releases/download/v1.0.5/terraform-provider-zoomus_1.0.5_linux_386.zip",
+          "shasum": "30d2ee194b46342a9e45a30728b2a273bca277c234ab78bb44be5be11e18a9ce"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-zoomus_1.0.5_windows_arm.zip",
+          "download_url": "https://github.com/chaurasia-namrata/terraform-provider-zoomus/releases/download/v1.0.5/terraform-provider-zoomus_1.0.5_windows_arm.zip",
+          "shasum": "f797076f016f75179015324835224c7a7804c2c0dac0b4848f07a272b9b3054f"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-zoomus_1.0.5_darwin_arm64.zip",
+          "download_url": "https://github.com/chaurasia-namrata/terraform-provider-zoomus/releases/download/v1.0.5/terraform-provider-zoomus_1.0.5_darwin_arm64.zip",
+          "shasum": "031dc2e80ff0a05aa572315172a5a314641de1922f8bcd4aa859cd67ba284e77"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-zoomus_1.0.5_linux_arm.zip",
+          "download_url": "https://github.com/chaurasia-namrata/terraform-provider-zoomus/releases/download/v1.0.5/terraform-provider-zoomus_1.0.5_linux_arm.zip",
+          "shasum": "26f9557f72bca9559e8d947026d9b3b3ffd818ebbcfe1157a20bed7f91e12b7a"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-zoomus_1.0.5_freebsd_amd64.zip",
+          "download_url": "https://github.com/chaurasia-namrata/terraform-provider-zoomus/releases/download/v1.0.5/terraform-provider-zoomus_1.0.5_freebsd_amd64.zip",
+          "shasum": "41cf8df786b0fc16320c5eb9754557cb718c2de481f77ff1c51a638fde8cc6b1"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-zoomus_1.0.5_freebsd_arm64.zip",
+          "download_url": "https://github.com/chaurasia-namrata/terraform-provider-zoomus/releases/download/v1.0.5/terraform-provider-zoomus_1.0.5_freebsd_arm64.zip",
+          "shasum": "7a283011f57286835ba8a8915f93705b8a4fa43ad528101e4f8b8161fd14ab34"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-zoomus_1.0.5_windows_amd64.zip",
+          "download_url": "https://github.com/chaurasia-namrata/terraform-provider-zoomus/releases/download/v1.0.5/terraform-provider-zoomus_1.0.5_windows_amd64.zip",
+          "shasum": "00bc162f490ba8d1b58111c5df4cf24bd45f79ebd59c85d88fcb69755ceed175"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-zoomus_1.0.5_linux_arm64.zip",
+          "download_url": "https://github.com/chaurasia-namrata/terraform-provider-zoomus/releases/download/v1.0.5/terraform-provider-zoomus_1.0.5_linux_arm64.zip",
+          "shasum": "ddde982224260dae05eeccc083d63237574179616623a39a356620586d3cec70"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-zoomus_1.0.5_windows_386.zip",
+          "download_url": "https://github.com/chaurasia-namrata/terraform-provider-zoomus/releases/download/v1.0.5/terraform-provider-zoomus_1.0.5_windows_386.zip",
+          "shasum": "69b4751a0961f3ef86f93301d688324a71859f4adb954af416c95d0ab5504801"
+        }
+      ]
+    },
+    {
+      "version": "1.0.4",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/chaurasia-namrata/terraform-provider-zoomus/releases/download/v1.0.4/terraform-provider-zoomus_1.0.4_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/chaurasia-namrata/terraform-provider-zoomus/releases/download/v1.0.4/terraform-provider-zoomus_1.0.4_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-zoomus_1.0.4_freebsd_amd64.zip",
+          "download_url": "https://github.com/chaurasia-namrata/terraform-provider-zoomus/releases/download/v1.0.4/terraform-provider-zoomus_1.0.4_freebsd_amd64.zip",
+          "shasum": "912c096529e3c147d5ba1f9b21dbdb308aa7ebd5f8f77daa72e8adf7e48c97bd"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-zoomus_1.0.4_linux_arm.zip",
+          "download_url": "https://github.com/chaurasia-namrata/terraform-provider-zoomus/releases/download/v1.0.4/terraform-provider-zoomus_1.0.4_linux_arm.zip",
+          "shasum": "8bf5198596bab364ea5e9859ed8fd2ca8e1903fd117cdad17eeed365d61fa5d7"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-zoomus_1.0.4_windows_amd64.zip",
+          "download_url": "https://github.com/chaurasia-namrata/terraform-provider-zoomus/releases/download/v1.0.4/terraform-provider-zoomus_1.0.4_windows_amd64.zip",
+          "shasum": "eef8fc9e66406b8aa81cfba2652b996a8d6b3e99448211da376391bca72d481e"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-zoomus_1.0.4_linux_arm64.zip",
+          "download_url": "https://github.com/chaurasia-namrata/terraform-provider-zoomus/releases/download/v1.0.4/terraform-provider-zoomus_1.0.4_linux_arm64.zip",
+          "shasum": "91346fcc73482263b187b123343c9cb7fffa04f4fbddd8a1b8d35a33d6dde215"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-zoomus_1.0.4_windows_arm.zip",
+          "download_url": "https://github.com/chaurasia-namrata/terraform-provider-zoomus/releases/download/v1.0.4/terraform-provider-zoomus_1.0.4_windows_arm.zip",
+          "shasum": "d82ffa5d146e619a4c011b1eef81c7e95f3bbd8890e8dfeb79e9be8a8b0b9cf7"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-zoomus_1.0.4_darwin_amd64.zip",
+          "download_url": "https://github.com/chaurasia-namrata/terraform-provider-zoomus/releases/download/v1.0.4/terraform-provider-zoomus_1.0.4_darwin_amd64.zip",
+          "shasum": "0e96d548a2734d81aee951ce2cd4894c258cc35408cb1b3b2909868b97efe3ca"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-zoomus_1.0.4_freebsd_386.zip",
+          "download_url": "https://github.com/chaurasia-namrata/terraform-provider-zoomus/releases/download/v1.0.4/terraform-provider-zoomus_1.0.4_freebsd_386.zip",
+          "shasum": "7a4714612479f32406c23e1fdf4d8b6c053b5faf40a43f6ac4969926e99b9ec1"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-zoomus_1.0.4_freebsd_arm.zip",
+          "download_url": "https://github.com/chaurasia-namrata/terraform-provider-zoomus/releases/download/v1.0.4/terraform-provider-zoomus_1.0.4_freebsd_arm.zip",
+          "shasum": "cf7d6d10938fdb374ca268d5df20b8497171f7f8977384bf19adaaaedee7ef54"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-zoomus_1.0.4_linux_386.zip",
+          "download_url": "https://github.com/chaurasia-namrata/terraform-provider-zoomus/releases/download/v1.0.4/terraform-provider-zoomus_1.0.4_linux_386.zip",
+          "shasum": "c6288c2b4aa2362bd7febbc6ee06808befe772c1467a59cba48db50c0cebf3a1"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-zoomus_1.0.4_freebsd_arm64.zip",
+          "download_url": "https://github.com/chaurasia-namrata/terraform-provider-zoomus/releases/download/v1.0.4/terraform-provider-zoomus_1.0.4_freebsd_arm64.zip",
+          "shasum": "64b433d145a6c88f3d312eee809b242c497e41701abaa4bbe23f7776a29c47eb"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-zoomus_1.0.4_windows_386.zip",
+          "download_url": "https://github.com/chaurasia-namrata/terraform-provider-zoomus/releases/download/v1.0.4/terraform-provider-zoomus_1.0.4_windows_386.zip",
+          "shasum": "7498cbafa0caa0901e35671fbbd99db12c2ec15ff30b5db61687ba5a12d11031"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-zoomus_1.0.4_linux_amd64.zip",
+          "download_url": "https://github.com/chaurasia-namrata/terraform-provider-zoomus/releases/download/v1.0.4/terraform-provider-zoomus_1.0.4_linux_amd64.zip",
+          "shasum": "8bd2be9a8f63cf0a08d1bdd9f91ebaed2e9c2e9014341b94f6999ca3947792c4"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-zoomus_1.0.4_darwin_arm64.zip",
+          "download_url": "https://github.com/chaurasia-namrata/terraform-provider-zoomus/releases/download/v1.0.4/terraform-provider-zoomus_1.0.4_darwin_arm64.zip",
+          "shasum": "3ec5fffa564c6a9dc66264bc69fff69baccf4b8ae4620fbbead463693033ca93"
+        }
+      ]
+    },
+    {
+      "version": "1.0.3",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/chaurasia-namrata/terraform-provider-zoomus/releases/download/v1.0.3/terraform-provider-zoom-v2_1.0.3_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/chaurasia-namrata/terraform-provider-zoomus/releases/download/v1.0.3/terraform-provider-zoom-v2_1.0.3_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-zoom-v2_1.0.3_windows_arm.zip",
+          "download_url": "https://github.com/chaurasia-namrata/terraform-provider-zoomus/releases/download/v1.0.3/terraform-provider-zoom-v2_1.0.3_windows_arm.zip",
+          "shasum": "4532c7a91358e14a40b96bd710e933fe517d6622a39d617a4e8c4196337d001f"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-zoom-v2_1.0.3_freebsd_386.zip",
+          "download_url": "https://github.com/chaurasia-namrata/terraform-provider-zoomus/releases/download/v1.0.3/terraform-provider-zoom-v2_1.0.3_freebsd_386.zip",
+          "shasum": "07184b34dd385a9812bc0076a0874707e0629d05c2d39661e090a692115d0912"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-zoom-v2_1.0.3_freebsd_arm.zip",
+          "download_url": "https://github.com/chaurasia-namrata/terraform-provider-zoomus/releases/download/v1.0.3/terraform-provider-zoom-v2_1.0.3_freebsd_arm.zip",
+          "shasum": "0d1e39644b1e8d0e1edacb67a056f828a8b1640a26a962d13a84193141a671ee"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-zoom-v2_1.0.3_freebsd_amd64.zip",
+          "download_url": "https://github.com/chaurasia-namrata/terraform-provider-zoomus/releases/download/v1.0.3/terraform-provider-zoom-v2_1.0.3_freebsd_amd64.zip",
+          "shasum": "87da61e8be34c34f3177f4d569dd7bec207bada70e97ecb35b7d7e3429ed56bc"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-zoom-v2_1.0.3_linux_386.zip",
+          "download_url": "https://github.com/chaurasia-namrata/terraform-provider-zoomus/releases/download/v1.0.3/terraform-provider-zoom-v2_1.0.3_linux_386.zip",
+          "shasum": "47071677be4beb9a6af99e1e35e04372866ddfaef3106a1e4979679ce4eb1afb"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-zoom-v2_1.0.3_freebsd_arm64.zip",
+          "download_url": "https://github.com/chaurasia-namrata/terraform-provider-zoomus/releases/download/v1.0.3/terraform-provider-zoom-v2_1.0.3_freebsd_arm64.zip",
+          "shasum": "c0b210c8dbcf5f6037d930cc5f189d4fdf7173b3dbc002fe0f57de926b379d23"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-zoom-v2_1.0.3_windows_386.zip",
+          "download_url": "https://github.com/chaurasia-namrata/terraform-provider-zoomus/releases/download/v1.0.3/terraform-provider-zoom-v2_1.0.3_windows_386.zip",
+          "shasum": "977887323213e33a96de1fddad136cece672aa4cbade29c15cf714d5a38adca6"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-zoom-v2_1.0.3_linux_arm.zip",
+          "download_url": "https://github.com/chaurasia-namrata/terraform-provider-zoomus/releases/download/v1.0.3/terraform-provider-zoom-v2_1.0.3_linux_arm.zip",
+          "shasum": "69414f9af091c8bd15ae911957afd353eb9195d2e5ed0bbf6a022fead7b45d64"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-zoom-v2_1.0.3_darwin_arm64.zip",
+          "download_url": "https://github.com/chaurasia-namrata/terraform-provider-zoomus/releases/download/v1.0.3/terraform-provider-zoom-v2_1.0.3_darwin_arm64.zip",
+          "shasum": "4adabb1e1785a3c425d9f3eb422b3168e72d14d3972b97acd36e206131b8212b"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-zoom-v2_1.0.3_linux_arm64.zip",
+          "download_url": "https://github.com/chaurasia-namrata/terraform-provider-zoomus/releases/download/v1.0.3/terraform-provider-zoom-v2_1.0.3_linux_arm64.zip",
+          "shasum": "e652eb8d74f2c834c3bd7294743a847728adabdf4f9e068327b1cd1e39fbc178"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-zoom-v2_1.0.3_linux_amd64.zip",
+          "download_url": "https://github.com/chaurasia-namrata/terraform-provider-zoomus/releases/download/v1.0.3/terraform-provider-zoom-v2_1.0.3_linux_amd64.zip",
+          "shasum": "0911d85ee7c6b6cb4a1125fab1c57ac6c49be8bb8a46febb6f5c495695c4b927"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-zoom-v2_1.0.3_windows_amd64.zip",
+          "download_url": "https://github.com/chaurasia-namrata/terraform-provider-zoomus/releases/download/v1.0.3/terraform-provider-zoom-v2_1.0.3_windows_amd64.zip",
+          "shasum": "835e0e28f65a70d59f867e4cfd2b0ee7bbd2a94bfede4cfdaa816d30b72dfe02"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-zoom-v2_1.0.3_darwin_amd64.zip",
+          "download_url": "https://github.com/chaurasia-namrata/terraform-provider-zoomus/releases/download/v1.0.3/terraform-provider-zoom-v2_1.0.3_darwin_amd64.zip",
+          "shasum": "1bc6cf96bebb6e0483007209d9289503f355d6b3920278b5c1671dad70d59f4b"
+        }
+      ]
+    },
+    {
+      "version": "1.0.2",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/chaurasia-namrata/terraform-provider-zoomus/releases/download/v1.0.2/terraform-provider-zoom-v2_1.0.2_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/chaurasia-namrata/terraform-provider-zoomus/releases/download/v1.0.2/terraform-provider-zoom-v2_1.0.2_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-zoom-v2_1.0.2_darwin_arm64.zip",
+          "download_url": "https://github.com/chaurasia-namrata/terraform-provider-zoomus/releases/download/v1.0.2/terraform-provider-zoom-v2_1.0.2_darwin_arm64.zip",
+          "shasum": "59cf279d8be6fc5d4e6ea29918476b16af94f722ff033c00ccedddb79d333a7b"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-zoom-v2_1.0.2_freebsd_amd64.zip",
+          "download_url": "https://github.com/chaurasia-namrata/terraform-provider-zoomus/releases/download/v1.0.2/terraform-provider-zoom-v2_1.0.2_freebsd_amd64.zip",
+          "shasum": "1801cbaace4bc83b4b279b7bc734f5f04de1ab2ed84e0457a696e26a8be40c9c"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-zoom-v2_1.0.2_windows_amd64.zip",
+          "download_url": "https://github.com/chaurasia-namrata/terraform-provider-zoomus/releases/download/v1.0.2/terraform-provider-zoom-v2_1.0.2_windows_amd64.zip",
+          "shasum": "5c916ef106de53909b570d497e2bf1e80e71910ed40042676c35e5adb38cf76f"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-zoom-v2_1.0.2_linux_386.zip",
+          "download_url": "https://github.com/chaurasia-namrata/terraform-provider-zoomus/releases/download/v1.0.2/terraform-provider-zoom-v2_1.0.2_linux_386.zip",
+          "shasum": "5c5bdc207980edc027e4acab4b2127923df88b3f01562d961db7b93b9d2fb4fe"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-zoom-v2_1.0.2_linux_arm64.zip",
+          "download_url": "https://github.com/chaurasia-namrata/terraform-provider-zoomus/releases/download/v1.0.2/terraform-provider-zoom-v2_1.0.2_linux_arm64.zip",
+          "shasum": "2fb4e2e0f4abf81ba851a2d87e051a1186816ccd1369b1cf83c5aa8a8bbb1d74"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-zoom-v2_1.0.2_freebsd_386.zip",
+          "download_url": "https://github.com/chaurasia-namrata/terraform-provider-zoomus/releases/download/v1.0.2/terraform-provider-zoom-v2_1.0.2_freebsd_386.zip",
+          "shasum": "69f24e99af8734b5f95440a49953d01bfc9e02e3a52b7e18c013f992e6fb613d"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-zoom-v2_1.0.2_darwin_amd64.zip",
+          "download_url": "https://github.com/chaurasia-namrata/terraform-provider-zoomus/releases/download/v1.0.2/terraform-provider-zoom-v2_1.0.2_darwin_amd64.zip",
+          "shasum": "6a2786b7952c3cb9413daa259090c2a62d5f8dfcf58ccdc24481b34d52640163"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-zoom-v2_1.0.2_linux_arm.zip",
+          "download_url": "https://github.com/chaurasia-namrata/terraform-provider-zoomus/releases/download/v1.0.2/terraform-provider-zoom-v2_1.0.2_linux_arm.zip",
+          "shasum": "780ee8ff300553125001076ec7c466871efffa9d6f0dcdb80ca778fb3f204597"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-zoom-v2_1.0.2_freebsd_arm.zip",
+          "download_url": "https://github.com/chaurasia-namrata/terraform-provider-zoomus/releases/download/v1.0.2/terraform-provider-zoom-v2_1.0.2_freebsd_arm.zip",
+          "shasum": "d42ce76acfa28bfaaa78fa05355524e4cc35083e187646fbff124c2b72e103e4"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-zoom-v2_1.0.2_freebsd_arm64.zip",
+          "download_url": "https://github.com/chaurasia-namrata/terraform-provider-zoomus/releases/download/v1.0.2/terraform-provider-zoom-v2_1.0.2_freebsd_arm64.zip",
+          "shasum": "e3a07bedea985337ee37ef231733136f73736e0ba094a045e904d5375f080a18"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-zoom-v2_1.0.2_windows_arm.zip",
+          "download_url": "https://github.com/chaurasia-namrata/terraform-provider-zoomus/releases/download/v1.0.2/terraform-provider-zoom-v2_1.0.2_windows_arm.zip",
+          "shasum": "6c55ad03f9cdee4fe08077a761feb53313896c7b5559ac6768956169f3620069"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-zoom-v2_1.0.2_linux_amd64.zip",
+          "download_url": "https://github.com/chaurasia-namrata/terraform-provider-zoomus/releases/download/v1.0.2/terraform-provider-zoom-v2_1.0.2_linux_amd64.zip",
+          "shasum": "db2807f9311cd1da848726818ea6644efd4a947f18cb71c4810cec18128c9da2"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-zoom-v2_1.0.2_windows_386.zip",
+          "download_url": "https://github.com/chaurasia-namrata/terraform-provider-zoomus/releases/download/v1.0.2/terraform-provider-zoom-v2_1.0.2_windows_386.zip",
+          "shasum": "6f8e7dcf4f42850cf446cf8e65acc4b372201162e58169a63d9f493795f5f381"
+        }
+      ]
+    },
+    {
+      "version": "1.0.1",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/chaurasia-namrata/terraform-provider-zoomus/releases/download/v1.0.1/terraform-provider-zoom-v2_1.0.1_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/chaurasia-namrata/terraform-provider-zoomus/releases/download/v1.0.1/terraform-provider-zoom-v2_1.0.1_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-zoom-v2_1.0.1_darwin_arm64.zip",
+          "download_url": "https://github.com/chaurasia-namrata/terraform-provider-zoomus/releases/download/v1.0.1/terraform-provider-zoom-v2_1.0.1_darwin_arm64.zip",
+          "shasum": "1c3b5d81bc01b2a24c053371fa1139609481a4dc68af926c20f4b3394383d3ea"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-zoom-v2_1.0.1_windows_arm.zip",
+          "download_url": "https://github.com/chaurasia-namrata/terraform-provider-zoomus/releases/download/v1.0.1/terraform-provider-zoom-v2_1.0.1_windows_arm.zip",
+          "shasum": "383f3b5bb6bcb124881372696aedddc81d01ebd33103496579b34f5ece4463dc"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-zoom-v2_1.0.1_windows_386.zip",
+          "download_url": "https://github.com/chaurasia-namrata/terraform-provider-zoomus/releases/download/v1.0.1/terraform-provider-zoom-v2_1.0.1_windows_386.zip",
+          "shasum": "21db9e4365fe2b2a1230c631c4e0f67e86953c01087b0c62110acc40953a1a2f"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-zoom-v2_1.0.1_linux_386.zip",
+          "download_url": "https://github.com/chaurasia-namrata/terraform-provider-zoomus/releases/download/v1.0.1/terraform-provider-zoom-v2_1.0.1_linux_386.zip",
+          "shasum": "6ac6751ce438995e4b7b85ae4baf1ec5f71950e109721314c233badebca90bf2"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-zoom-v2_1.0.1_linux_arm64.zip",
+          "download_url": "https://github.com/chaurasia-namrata/terraform-provider-zoomus/releases/download/v1.0.1/terraform-provider-zoom-v2_1.0.1_linux_arm64.zip",
+          "shasum": "98742896c35f0e2ebbb8f56963d20401f2b52a21c0e8937ee444d536c69b4f7a"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-zoom-v2_1.0.1_freebsd_386.zip",
+          "download_url": "https://github.com/chaurasia-namrata/terraform-provider-zoomus/releases/download/v1.0.1/terraform-provider-zoom-v2_1.0.1_freebsd_386.zip",
+          "shasum": "f4f39456d21c28343a161928bcf2615f69aad3961cd582a5bdebe18fafbfc652"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-zoom-v2_1.0.1_darwin_amd64.zip",
+          "download_url": "https://github.com/chaurasia-namrata/terraform-provider-zoomus/releases/download/v1.0.1/terraform-provider-zoom-v2_1.0.1_darwin_amd64.zip",
+          "shasum": "f4449eee2460e406230d344980fb7c25feaf82d2e146dbff1e265b6a08b413b9"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-zoom-v2_1.0.1_linux_arm.zip",
+          "download_url": "https://github.com/chaurasia-namrata/terraform-provider-zoomus/releases/download/v1.0.1/terraform-provider-zoom-v2_1.0.1_linux_arm.zip",
+          "shasum": "5127489e3d027c21c1842355ee726553f7f5abfa114cbd3ef0256e663b070313"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-zoom-v2_1.0.1_freebsd_amd64.zip",
+          "download_url": "https://github.com/chaurasia-namrata/terraform-provider-zoomus/releases/download/v1.0.1/terraform-provider-zoom-v2_1.0.1_freebsd_amd64.zip",
+          "shasum": "b8b9885fd84e18c9a3ff51e66a250022fd649c97bfb9a749b43eaf9f2df51623"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-zoom-v2_1.0.1_windows_amd64.zip",
+          "download_url": "https://github.com/chaurasia-namrata/terraform-provider-zoomus/releases/download/v1.0.1/terraform-provider-zoom-v2_1.0.1_windows_amd64.zip",
+          "shasum": "7beb1f1fdf0eec92d5a236c3529b418d3f3e2c93ceed108f8e8ba9185a9435c7"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-zoom-v2_1.0.1_linux_amd64.zip",
+          "download_url": "https://github.com/chaurasia-namrata/terraform-provider-zoomus/releases/download/v1.0.1/terraform-provider-zoom-v2_1.0.1_linux_amd64.zip",
+          "shasum": "d7a1852dbe116fd774aef2799a839cce6c26a636c59a24c095d85fec17c9c250"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-zoom-v2_1.0.1_freebsd_arm64.zip",
+          "download_url": "https://github.com/chaurasia-namrata/terraform-provider-zoomus/releases/download/v1.0.1/terraform-provider-zoom-v2_1.0.1_freebsd_arm64.zip",
+          "shasum": "3ef3cdf6e1b3af8a6f550eb799e2cc713217c0d546e20aa52eddc84e6ecea5f5"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-zoom-v2_1.0.1_freebsd_arm.zip",
+          "download_url": "https://github.com/chaurasia-namrata/terraform-provider-zoomus/releases/download/v1.0.1/terraform-provider-zoom-v2_1.0.1_freebsd_arm.zip",
+          "shasum": "434e7a47a95fc3db2c337707eafc3e1248c5a144196fca5409df019f59b464e8"
+        }
+      ]
+    },
+    {
+      "version": "1.0.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/chaurasia-namrata/terraform-provider-zoomus/releases/download/v1.0.0/terraform-provider-zoom-v2_1.0.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/chaurasia-namrata/terraform-provider-zoomus/releases/download/v1.0.0/terraform-provider-zoom-v2_1.0.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-zoom-v2_1.0.0_darwin_amd64.zip",
+          "download_url": "https://github.com/chaurasia-namrata/terraform-provider-zoomus/releases/download/v1.0.0/terraform-provider-zoom-v2_1.0.0_darwin_amd64.zip",
+          "shasum": "a99f8f35a56455f8e8a1fbf127f5f8d5dcc323b28b9864afb2ac877b0058e672"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-zoom-v2_1.0.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/chaurasia-namrata/terraform-provider-zoomus/releases/download/v1.0.0/terraform-provider-zoom-v2_1.0.0_freebsd_arm64.zip",
+          "shasum": "656049b628dc6616ea83bb9cab3738767496bb4786070b4aee88495275de06eb"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-zoom-v2_1.0.0_linux_386.zip",
+          "download_url": "https://github.com/chaurasia-namrata/terraform-provider-zoomus/releases/download/v1.0.0/terraform-provider-zoom-v2_1.0.0_linux_386.zip",
+          "shasum": "811c4b218a210c700fcc0b40810e39e28ed9f5cad42ba29496d10a437050a1b9"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-zoom-v2_1.0.0_freebsd_arm.zip",
+          "download_url": "https://github.com/chaurasia-namrata/terraform-provider-zoomus/releases/download/v1.0.0/terraform-provider-zoom-v2_1.0.0_freebsd_arm.zip",
+          "shasum": "da65476d4c63db6a60f7ad725e5cd58f754ed8e89790487fe33ad6a51a2b748c"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-zoom-v2_1.0.0_freebsd_386.zip",
+          "download_url": "https://github.com/chaurasia-namrata/terraform-provider-zoomus/releases/download/v1.0.0/terraform-provider-zoom-v2_1.0.0_freebsd_386.zip",
+          "shasum": "c9cded2fda27a6a646b0e8d75b9382ea6c77f59ad158e3cbe9e3affc570f0d3d"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-zoom-v2_1.0.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/chaurasia-namrata/terraform-provider-zoomus/releases/download/v1.0.0/terraform-provider-zoom-v2_1.0.0_freebsd_amd64.zip",
+          "shasum": "ef8ebf30ced5c9f10c3f9c43886d7a166e4e103396093304e698b53b951f8c3e"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-zoom-v2_1.0.0_windows_amd64.zip",
+          "download_url": "https://github.com/chaurasia-namrata/terraform-provider-zoomus/releases/download/v1.0.0/terraform-provider-zoom-v2_1.0.0_windows_amd64.zip",
+          "shasum": "db4bc10bd8abbbcb2d93a0d60249a1473e873ae81469afae01b999796cc54d98"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-zoom-v2_1.0.0_darwin_arm64.zip",
+          "download_url": "https://github.com/chaurasia-namrata/terraform-provider-zoomus/releases/download/v1.0.0/terraform-provider-zoom-v2_1.0.0_darwin_arm64.zip",
+          "shasum": "bfa1f118a66d8bfaeb21eb574715f0199e6e2447d66e4b2fd7783e736bb4ce87"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-zoom-v2_1.0.0_windows_arm.zip",
+          "download_url": "https://github.com/chaurasia-namrata/terraform-provider-zoomus/releases/download/v1.0.0/terraform-provider-zoom-v2_1.0.0_windows_arm.zip",
+          "shasum": "41481a95863eca6ec1ca6a58e662b85d91104b9193cf4795a9c15df87704af78"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-zoom-v2_1.0.0_windows_386.zip",
+          "download_url": "https://github.com/chaurasia-namrata/terraform-provider-zoomus/releases/download/v1.0.0/terraform-provider-zoom-v2_1.0.0_windows_386.zip",
+          "shasum": "e1e8ba857e09f9e622b6016345ed1b3d1d6e0b3aa8da6a5ae77b65bfb1bcb035"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-zoom-v2_1.0.0_linux_arm.zip",
+          "download_url": "https://github.com/chaurasia-namrata/terraform-provider-zoomus/releases/download/v1.0.0/terraform-provider-zoom-v2_1.0.0_linux_arm.zip",
+          "shasum": "4ebed888e3c66aa50f1dd86b84f91827c6cf947b9e27d7e7eb32b7fa30416146"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-zoom-v2_1.0.0_linux_amd64.zip",
+          "download_url": "https://github.com/chaurasia-namrata/terraform-provider-zoomus/releases/download/v1.0.0/terraform-provider-zoom-v2_1.0.0_linux_amd64.zip",
+          "shasum": "a2557247e71d893f0ba6e5fcba8c1fdb8c848c12efef22ed781f560da7d9cb18"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-zoom-v2_1.0.0_linux_arm64.zip",
+          "download_url": "https://github.com/chaurasia-namrata/terraform-provider-zoomus/releases/download/v1.0.0/terraform-provider-zoom-v2_1.0.0_linux_arm64.zip",
+          "shasum": "d3866e24324f7c38302bd03c3f680a9a8d90c09058fc183a6aaf7fed3caa7816"
+        }
+      ]
+    }
+  ]
+}

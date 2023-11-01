@@ -1,0 +1,1973 @@
+{
+  "repository": "https://github.com/OpenNebula/terraform-provider-opennebula",
+  "versions": [
+    {
+      "version": "1.3.1",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v1.3.1/terraform-provider-opennebula_1.3.1_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v1.3.1/terraform-provider-opennebula_1.3.1_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-opennebula_1.3.1_freebsd_386.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v1.3.1/terraform-provider-opennebula_1.3.1_freebsd_386.zip",
+          "shasum": "611105c4b10041900f1fbbe42c33c64719c97f410ec99804acec3dee184010ef"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-opennebula_1.3.1_linux_386.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v1.3.1/terraform-provider-opennebula_1.3.1_linux_386.zip",
+          "shasum": "8b466594586b979820319526dc12428de43f38fd71b2fb3e88bf94b5e8fedf56"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-opennebula_1.3.1_linux_arm64.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v1.3.1/terraform-provider-opennebula_1.3.1_linux_arm64.zip",
+          "shasum": "5fee1e444d5689334744d860da5f1de1c477f5202c6854544d00256c11763b05"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-opennebula_1.3.1_freebsd_amd64.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v1.3.1/terraform-provider-opennebula_1.3.1_freebsd_amd64.zip",
+          "shasum": "a2d9e6f8bb68c0d57b0e968e2dd56287a70a66d8e609f0a8f80d6ae1bd608829"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-opennebula_1.3.1_windows_arm.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v1.3.1/terraform-provider-opennebula_1.3.1_windows_arm.zip",
+          "shasum": "5e2bb9d898f373cd47b6dc0790fa074e042db8d8728fd7791782dd05300dbf71"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-opennebula_1.3.1_darwin_amd64.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v1.3.1/terraform-provider-opennebula_1.3.1_darwin_amd64.zip",
+          "shasum": "96b80ec8dbdfcb48d63bd8128fb13b01c6e444109b9c0b34e92eb7f271d57bce"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-opennebula_1.3.1_linux_amd64.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v1.3.1/terraform-provider-opennebula_1.3.1_linux_amd64.zip",
+          "shasum": "0a502c1d4c5071dac7e45763ac54f43c207182476a525a483ca6cb7d4c2596f8"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-opennebula_1.3.1_windows_386.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v1.3.1/terraform-provider-opennebula_1.3.1_windows_386.zip",
+          "shasum": "7ac629472bc50f153b8f2f20448fceebca0a5d14254edc6bc74dd7bcda7cdb20"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-opennebula_1.3.1_windows_arm64.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v1.3.1/terraform-provider-opennebula_1.3.1_windows_arm64.zip",
+          "shasum": "4a44f3dae83c1ea9b569b53992da549bba58e2cfaf40876a440eefb6f581428c"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-opennebula_1.3.1_windows_amd64.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v1.3.1/terraform-provider-opennebula_1.3.1_windows_amd64.zip",
+          "shasum": "2127573d1beef67a5ed028b61523ae61359e10dd2ca7c996710e6aec45063427"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-opennebula_1.3.1_linux_arm.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v1.3.1/terraform-provider-opennebula_1.3.1_linux_arm.zip",
+          "shasum": "7a64be96bf72835995327b350223e1950c9721feed18c8b3c711a9a7c0a856ff"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-opennebula_1.3.1_darwin_arm64.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v1.3.1/terraform-provider-opennebula_1.3.1_darwin_arm64.zip",
+          "shasum": "55565ce4f82f44570537abe05805691c5a286d31904472fbcffc5256a6fcd298"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-opennebula_1.3.1_freebsd_arm.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v1.3.1/terraform-provider-opennebula_1.3.1_freebsd_arm.zip",
+          "shasum": "8c35e61c26755d1819ff925a5511bd796367ffe2ec42900112a3332070f05548"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-opennebula_1.3.1_freebsd_arm64.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v1.3.1/terraform-provider-opennebula_1.3.1_freebsd_arm64.zip",
+          "shasum": "6cc9ad25e6f85d139f5041616a7ba3f5aef065210c26b9fdcccab56dbb38cba5"
+        }
+      ]
+    },
+    {
+      "version": "1.3.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v1.3.0/terraform-provider-opennebula_1.3.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v1.3.0/terraform-provider-opennebula_1.3.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-opennebula_1.3.0_freebsd_arm.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v1.3.0/terraform-provider-opennebula_1.3.0_freebsd_arm.zip",
+          "shasum": "c14c5d8e62cacf9bb35603a64e6687f6c40930e643c8a7c3a81c8a9b870651f0"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-opennebula_1.3.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v1.3.0/terraform-provider-opennebula_1.3.0_freebsd_arm64.zip",
+          "shasum": "4af31a107230798442f1e88a2f8eb29f3241b77f14364bf9eb7135f3cb8e5a53"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-opennebula_1.3.0_linux_arm64.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v1.3.0/terraform-provider-opennebula_1.3.0_linux_arm64.zip",
+          "shasum": "9d2c944d4072e6601cc36ea29a023c1bdb637990bac06b352c55aa7d49bec83a"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-opennebula_1.3.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v1.3.0/terraform-provider-opennebula_1.3.0_freebsd_amd64.zip",
+          "shasum": "fca1ed709770ad0e0a3258344f99b950c727219abcc13526e8b2044a5dff1d1e"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-opennebula_1.3.0_windows_386.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v1.3.0/terraform-provider-opennebula_1.3.0_windows_386.zip",
+          "shasum": "a91728e48782981758be0c790bef22523d0e4d9e758ab7519a2d6c8361865bd3"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-opennebula_1.3.0_windows_arm.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v1.3.0/terraform-provider-opennebula_1.3.0_windows_arm.zip",
+          "shasum": "16a4a2937ccbdedf5086fbfd7cfb387ddb1db23eaeed848b9d4887c5375c3469"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-opennebula_1.3.0_windows_arm64.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v1.3.0/terraform-provider-opennebula_1.3.0_windows_arm64.zip",
+          "shasum": "81f36b68d8c8f8f1bc39a359ab133fb93dfec9db3a6d62d22b55a8fb2912cf75"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-opennebula_1.3.0_linux_386.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v1.3.0/terraform-provider-opennebula_1.3.0_linux_386.zip",
+          "shasum": "46fa6023da56d6e951a83f2b1d8cd4ecd425efbad28bf2b2d21c8e55649ee629"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-opennebula_1.3.0_freebsd_386.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v1.3.0/terraform-provider-opennebula_1.3.0_freebsd_386.zip",
+          "shasum": "746377b5b2d4540c07148399138cfa090ee200060c49e57fcc31dc9da0465458"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-opennebula_1.3.0_darwin_amd64.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v1.3.0/terraform-provider-opennebula_1.3.0_darwin_amd64.zip",
+          "shasum": "488c81d727bbff380829c1a03b9c48de7e52c7dbc6aa86a0b793eb56f9a81dfe"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-opennebula_1.3.0_windows_amd64.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v1.3.0/terraform-provider-opennebula_1.3.0_windows_amd64.zip",
+          "shasum": "43e1eece9f3b6b10634aa6b0184599ca5ad7d27b75df1bfb7ec71c5afeb2cc0b"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-opennebula_1.3.0_linux_amd64.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v1.3.0/terraform-provider-opennebula_1.3.0_linux_amd64.zip",
+          "shasum": "74911dbffc085f873e2a48ad7651dd7b3dbc298fea3fc5fdd96ce02dc3c25083"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-opennebula_1.3.0_linux_arm.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v1.3.0/terraform-provider-opennebula_1.3.0_linux_arm.zip",
+          "shasum": "20b023de4a041554c94edce4f7c453852f9afe77a9e0ba671ad8a586dddead9b"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-opennebula_1.3.0_darwin_arm64.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v1.3.0/terraform-provider-opennebula_1.3.0_darwin_arm64.zip",
+          "shasum": "c2039fc21b84cd538ee9fc283ed81b9e7f480d4e94b210eccbc977714034d869"
+        }
+      ]
+    },
+    {
+      "version": "1.2.2",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v1.2.2/terraform-provider-opennebula_1.2.2_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v1.2.2/terraform-provider-opennebula_1.2.2_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-opennebula_1.2.2_freebsd_386.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v1.2.2/terraform-provider-opennebula_1.2.2_freebsd_386.zip",
+          "shasum": "e78bc0fac329dcf228f8e0ef2391c38970b4d61eaefcbb418e71ab7ef024e3e0"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-opennebula_1.2.2_windows_arm.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v1.2.2/terraform-provider-opennebula_1.2.2_windows_arm.zip",
+          "shasum": "178ce6296d7c17588384fc04f8870795a83296db4eb590b7f7f25082d2aaeb77"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-opennebula_1.2.2_linux_arm.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v1.2.2/terraform-provider-opennebula_1.2.2_linux_arm.zip",
+          "shasum": "eddea0b4a4115e742238bbbe99805ce614ef0e6e151899ecc0a922e1897acb91"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-opennebula_1.2.2_linux_amd64.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v1.2.2/terraform-provider-opennebula_1.2.2_linux_amd64.zip",
+          "shasum": "aa5d3148529ddcc581c5a6c70a83ee881c67d9ca60fc0e1def7011522759a9ef"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-opennebula_1.2.2_freebsd_amd64.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v1.2.2/terraform-provider-opennebula_1.2.2_freebsd_amd64.zip",
+          "shasum": "deab1d2a050c319a7fbefa62e5779d1213a86d1cf7923600b09905a897760764"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-opennebula_1.2.2_freebsd_arm64.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v1.2.2/terraform-provider-opennebula_1.2.2_freebsd_arm64.zip",
+          "shasum": "29f20ed67d529e0a528995e3dbb3f606dab651c44ced68f2d62c81f814057d2a"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-opennebula_1.2.2_windows_386.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v1.2.2/terraform-provider-opennebula_1.2.2_windows_386.zip",
+          "shasum": "9ed4ed6da60778f1dbefae753e2e5b576b828291265e6f3e119327ed3b420fe9"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-opennebula_1.2.2_freebsd_arm.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v1.2.2/terraform-provider-opennebula_1.2.2_freebsd_arm.zip",
+          "shasum": "7427dc6ece9cd19b22cd1f361d191900a09e1ab741f0f215312a82481bf713e7"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-opennebula_1.2.2_darwin_amd64.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v1.2.2/terraform-provider-opennebula_1.2.2_darwin_amd64.zip",
+          "shasum": "07c2c5b0200b23756a96e2d07949e61bb559066f774b7961e7f15b74661c1d79"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-opennebula_1.2.2_windows_arm64.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v1.2.2/terraform-provider-opennebula_1.2.2_windows_arm64.zip",
+          "shasum": "c5cf011c08b7622f3792fc55e82687c6d4cf58610025030a6645a45b7b9eb253"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-opennebula_1.2.2_windows_amd64.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v1.2.2/terraform-provider-opennebula_1.2.2_windows_amd64.zip",
+          "shasum": "5b67f7833901e8f871b523cfd150270b346e874ea83a06cf593b542082821cc5"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-opennebula_1.2.2_linux_386.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v1.2.2/terraform-provider-opennebula_1.2.2_linux_386.zip",
+          "shasum": "122e1adafa6f42125bd213c358e6e88dd57814cc0e1b19a3851d4e73e3c01a18"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-opennebula_1.2.2_linux_arm64.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v1.2.2/terraform-provider-opennebula_1.2.2_linux_arm64.zip",
+          "shasum": "260e229c1e0178c5f3a8aa8dae91d66f322beb918bf5d0f6688e67f0a2774b3c"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-opennebula_1.2.2_darwin_arm64.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v1.2.2/terraform-provider-opennebula_1.2.2_darwin_arm64.zip",
+          "shasum": "bd5709a8b084866a41be8a56ef13e6ea48db2743685ced2f6fea0d3dfdfa4d44"
+        }
+      ]
+    },
+    {
+      "version": "1.2.1",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v1.2.1/terraform-provider-opennebula_1.2.1_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v1.2.1/terraform-provider-opennebula_1.2.1_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-opennebula_1.2.1_darwin_amd64.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v1.2.1/terraform-provider-opennebula_1.2.1_darwin_amd64.zip",
+          "shasum": "c7682f590c2b81f84517a4a31c60ca6d7bc43afa6ae574665feb45131845e236"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-opennebula_1.2.1_linux_arm64.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v1.2.1/terraform-provider-opennebula_1.2.1_linux_arm64.zip",
+          "shasum": "51384322535ad477c3975a232db21403e146859a05fceb4bf492b7d0437d1d64"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-opennebula_1.2.1_darwin_arm64.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v1.2.1/terraform-provider-opennebula_1.2.1_darwin_arm64.zip",
+          "shasum": "20a564561c7fdf51751260ec1c628029a82aaa19a9af1768f6969d0ef4c27315"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-opennebula_1.2.1_linux_386.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v1.2.1/terraform-provider-opennebula_1.2.1_linux_386.zip",
+          "shasum": "61635be022cdd03da57dff6ae39d86cef1c18de5f5f64a8a7e2c520bca760fb4"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-opennebula_1.2.1_linux_arm.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v1.2.1/terraform-provider-opennebula_1.2.1_linux_arm.zip",
+          "shasum": "54d68c65ddf5bc0702e3a53b3791ea7fc27edda3e13734604109b1324ebbf964"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-opennebula_1.2.1_freebsd_386.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v1.2.1/terraform-provider-opennebula_1.2.1_freebsd_386.zip",
+          "shasum": "8cccc3d91fa74622a88835aee7d15563b56f36ae42c54e3a3e1ad5b9baa75c44"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-opennebula_1.2.1_freebsd_arm.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v1.2.1/terraform-provider-opennebula_1.2.1_freebsd_arm.zip",
+          "shasum": "0608a8435ae1f60511a81efb5fc3d6fc4b25894d51e5bb8a936718cd57750238"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-opennebula_1.2.1_freebsd_amd64.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v1.2.1/terraform-provider-opennebula_1.2.1_freebsd_amd64.zip",
+          "shasum": "7e81bbf76f191a8e948ce0a22f9fdb09c9ca0becfd7e8327f45bc57ec299af8b"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-opennebula_1.2.1_freebsd_arm64.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v1.2.1/terraform-provider-opennebula_1.2.1_freebsd_arm64.zip",
+          "shasum": "c787d186c27ba4c02f8d64bcade42d3dbdcda89cec49e1446043b445982b1f44"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-opennebula_1.2.1_windows_amd64.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v1.2.1/terraform-provider-opennebula_1.2.1_windows_amd64.zip",
+          "shasum": "d8729c1aebfd64c61a9b4046bcfaad8ce92af394eaad49811b00d16375293393"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-opennebula_1.2.1_windows_386.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v1.2.1/terraform-provider-opennebula_1.2.1_windows_386.zip",
+          "shasum": "3438ecc0212185b8f7f6829a9237c889ad7925703abc6c3bf3acfea036a2129e"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-opennebula_1.2.1_windows_arm.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v1.2.1/terraform-provider-opennebula_1.2.1_windows_arm.zip",
+          "shasum": "6a6926bd7a50af3ed6b6fbfc0b6ba14fdb6bbc7addcea8741f86498102202cad"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-opennebula_1.2.1_windows_arm64.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v1.2.1/terraform-provider-opennebula_1.2.1_windows_arm64.zip",
+          "shasum": "66f156d34c0fca52ff9b653e42ad04e679eee9594b09e4af3b8a367000da1b91"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-opennebula_1.2.1_linux_amd64.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v1.2.1/terraform-provider-opennebula_1.2.1_linux_amd64.zip",
+          "shasum": "025ad1abcd0e3e74dc56eb1484a63e15a89b43520c245051b6cca5563245f7af"
+        }
+      ]
+    },
+    {
+      "version": "1.2.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v1.2.0/terraform-provider-opennebula_1.2.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v1.2.0/terraform-provider-opennebula_1.2.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-opennebula_1.2.0_windows_386.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v1.2.0/terraform-provider-opennebula_1.2.0_windows_386.zip",
+          "shasum": "83f4208af6a88c9c1748eeccd4f1f9819ca49abbbaa19e0c52be2fc7f882cf1c"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-opennebula_1.2.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v1.2.0/terraform-provider-opennebula_1.2.0_freebsd_arm64.zip",
+          "shasum": "6aa27383f751e94728ecead7156556212d5b9f03bb34a6e52b8743e7c8a0ccb3"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-opennebula_1.2.0_linux_386.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v1.2.0/terraform-provider-opennebula_1.2.0_linux_386.zip",
+          "shasum": "9bd8315cffdb2ccbec722c58c4156acb2b9f3e1ae9bfa06cda003db7ea8bcca1"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-opennebula_1.2.0_linux_arm64.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v1.2.0/terraform-provider-opennebula_1.2.0_linux_arm64.zip",
+          "shasum": "cef92a947115a6c324bb224db870fc4c9b738f8db9a64c45581a1110ca3c329c"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-opennebula_1.2.0_freebsd_arm.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v1.2.0/terraform-provider-opennebula_1.2.0_freebsd_arm.zip",
+          "shasum": "5d90f6b6efafd3da1076b2d03129f81b1f0906e6c3d2fe70183f3b7a563658ad"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-opennebula_1.2.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v1.2.0/terraform-provider-opennebula_1.2.0_freebsd_amd64.zip",
+          "shasum": "5d511cbbffc37948bcfc223b737a9d883d3ff99a17b0c370c6c274370d5a237f"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-opennebula_1.2.0_linux_arm.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v1.2.0/terraform-provider-opennebula_1.2.0_linux_arm.zip",
+          "shasum": "8d2b63ec952d1b81222fa49a80ce83e99dc9348639fe8bfc8f80e9a37927c3e1"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-opennebula_1.2.0_windows_arm64.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v1.2.0/terraform-provider-opennebula_1.2.0_windows_arm64.zip",
+          "shasum": "dcc2c79ec9c8871fb190ad688bb52e85b9a4926d519210295580107cdbcb567a"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-opennebula_1.2.0_freebsd_386.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v1.2.0/terraform-provider-opennebula_1.2.0_freebsd_386.zip",
+          "shasum": "8ea6a1c3cf1fbab1a41613bd7e188c9c351cdcea338bc9dd5b1ad064ff17de1d"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-opennebula_1.2.0_darwin_amd64.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v1.2.0/terraform-provider-opennebula_1.2.0_darwin_amd64.zip",
+          "shasum": "105960c187f05a99e4bc4ce017257a0a2dbac76026a272353e65ca5a5f633373"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-opennebula_1.2.0_windows_amd64.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v1.2.0/terraform-provider-opennebula_1.2.0_windows_amd64.zip",
+          "shasum": "af1d8106e86a32efdbef0268ad5ad4acdba5ac535d8e891e761fbdafb45bf990"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-opennebula_1.2.0_windows_arm.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v1.2.0/terraform-provider-opennebula_1.2.0_windows_arm.zip",
+          "shasum": "1b6bdd51043ada3f09801bd9cb9505db179098f4f2fad4020c6d86beda043129"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-opennebula_1.2.0_linux_amd64.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v1.2.0/terraform-provider-opennebula_1.2.0_linux_amd64.zip",
+          "shasum": "a0779daa4a8138d30ddcb6cc783186377337edf4834ba5b480adee40416acf24"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-opennebula_1.2.0_darwin_arm64.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v1.2.0/terraform-provider-opennebula_1.2.0_darwin_arm64.zip",
+          "shasum": "45470a15bf88ff371d33337934ad38000310885cf0aa725c9707bfd3c8e22e4f"
+        }
+      ]
+    },
+    {
+      "version": "1.1.1",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v1.1.1/terraform-provider-opennebula_1.1.1_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v1.1.1/terraform-provider-opennebula_1.1.1_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-opennebula_1.1.1_windows_amd64.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v1.1.1/terraform-provider-opennebula_1.1.1_windows_amd64.zip",
+          "shasum": "2c9ba419400f0f4ac6ebdbf4e697af2f16796957af150b3837144f871c0933fc"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-opennebula_1.1.1_linux_amd64.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v1.1.1/terraform-provider-opennebula_1.1.1_linux_amd64.zip",
+          "shasum": "cd4a405d3cd5fced6977f6f1009a435479104fbee34c6d51631981035fd78bb1"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-opennebula_1.1.1_darwin_arm64.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v1.1.1/terraform-provider-opennebula_1.1.1_darwin_arm64.zip",
+          "shasum": "f57c2c5ea4d84341e8899ec0ca397762b582c2ff28fcf125f9c99ae6ccaf7a7f"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-opennebula_1.1.1_darwin_amd64.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v1.1.1/terraform-provider-opennebula_1.1.1_darwin_amd64.zip",
+          "shasum": "77ad7d64cc85e237ae26b35f7cf01e003a4dd5ec085e2cbfce893d6d1fa6e2f3"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-opennebula_1.1.1_freebsd_386.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v1.1.1/terraform-provider-opennebula_1.1.1_freebsd_386.zip",
+          "shasum": "d71c3b341032113a01c278e956c5ea20350e727ce4e7f564d24cdd6b2a78692b"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-opennebula_1.1.1_freebsd_arm64.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v1.1.1/terraform-provider-opennebula_1.1.1_freebsd_arm64.zip",
+          "shasum": "eb43088cfce28fbb99e8e6d986f3be685bfcc548b63ed81a78ca80e71d45d579"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-opennebula_1.1.1_windows_386.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v1.1.1/terraform-provider-opennebula_1.1.1_windows_386.zip",
+          "shasum": "0515cf103ecf8a9f39ab089e4cae74d83f2a438282ffc7313d72ed4a821bc89a"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-opennebula_1.1.1_linux_386.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v1.1.1/terraform-provider-opennebula_1.1.1_linux_386.zip",
+          "shasum": "f5393a993c4ccb2a9e72183b198ff7989ac94a6ac7fb2e78517276a064aab5e8"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-opennebula_1.1.1_linux_arm.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v1.1.1/terraform-provider-opennebula_1.1.1_linux_arm.zip",
+          "shasum": "7ec3a4d94eeb589d5c6d3a96cc66523cd6e7935bbac7db3ffb0d0237cbd621e3"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-opennebula_1.1.1_freebsd_arm.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v1.1.1/terraform-provider-opennebula_1.1.1_freebsd_arm.zip",
+          "shasum": "3ace6aa9d59f961bf53e14ba86512edc1ec8caafa9b3dd20d7c5b94dcdd4e5fb"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-opennebula_1.1.1_linux_arm64.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v1.1.1/terraform-provider-opennebula_1.1.1_linux_arm64.zip",
+          "shasum": "61850d57b130b33516d317bfa439058f974ee017d498e84d8017d1c10a0ff3ba"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-opennebula_1.1.1_windows_arm64.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v1.1.1/terraform-provider-opennebula_1.1.1_windows_arm64.zip",
+          "shasum": "502653da0c2822e49b316ebfb7dc5122037230015e021320b33f198e1664b609"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-opennebula_1.1.1_windows_arm.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v1.1.1/terraform-provider-opennebula_1.1.1_windows_arm.zip",
+          "shasum": "53d892dfdf1f14463c404b110fa0c0361f55c857a2ce4591c73a356fa69479de"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-opennebula_1.1.1_freebsd_amd64.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v1.1.1/terraform-provider-opennebula_1.1.1_freebsd_amd64.zip",
+          "shasum": "6f7783ef734f5855200786dba2f84faf26f328366ce7fdd4f5e7090e05861037"
+        }
+      ]
+    },
+    {
+      "version": "1.1.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v1.1.0/terraform-provider-opennebula_1.1.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v1.1.0/terraform-provider-opennebula_1.1.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-opennebula_1.1.0_linux_arm64.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v1.1.0/terraform-provider-opennebula_1.1.0_linux_arm64.zip",
+          "shasum": "f06df248bbb46794ed28f318537f9ffb398ad5c09dd4d2a65f1f86a99fef0496"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-opennebula_1.1.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v1.1.0/terraform-provider-opennebula_1.1.0_freebsd_amd64.zip",
+          "shasum": "ff39b3964bc12c72a5a2dfb4e9b434636fb8f98668cee56562fa39305cda2836"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-opennebula_1.1.0_windows_arm.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v1.1.0/terraform-provider-opennebula_1.1.0_windows_arm.zip",
+          "shasum": "506ffca31ddae2c10bfe074355181db028a01c2c6184b09c5d738e6e3d12eeda"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-opennebula_1.1.0_linux_arm.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v1.1.0/terraform-provider-opennebula_1.1.0_linux_arm.zip",
+          "shasum": "51285e36acde35bf1c34c99d7432a401bacdeb9425ec5e7e608ea3ac3e235bc0"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-opennebula_1.1.0_windows_386.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v1.1.0/terraform-provider-opennebula_1.1.0_windows_386.zip",
+          "shasum": "d04f0e4241855cbb1001d180a350e88f7d503c7b202461dbc61853b9032eda73"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-opennebula_1.1.0_windows_amd64.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v1.1.0/terraform-provider-opennebula_1.1.0_windows_amd64.zip",
+          "shasum": "3c1918e2b4b6dc89edbd8c9d4766df5b6a79a9f491150a5726d411028fd4118e"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-opennebula_1.1.0_linux_386.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v1.1.0/terraform-provider-opennebula_1.1.0_linux_386.zip",
+          "shasum": "65f5df12f1be2678d5223971c10d8e76317c6334f7bd5023b6fb4016ad337954"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-opennebula_1.1.0_linux_amd64.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v1.1.0/terraform-provider-opennebula_1.1.0_linux_amd64.zip",
+          "shasum": "2f37d7a9b5b8bfbb537239f96947e92f415783b0eb178bac500525e9c2fff4b6"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-opennebula_1.1.0_darwin_amd64.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v1.1.0/terraform-provider-opennebula_1.1.0_darwin_amd64.zip",
+          "shasum": "9dc53e64af888941fb91594f01fd9c18d76fc015cb300d05ec63af91e5207bc9"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-opennebula_1.1.0_freebsd_386.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v1.1.0/terraform-provider-opennebula_1.1.0_freebsd_386.zip",
+          "shasum": "0a97318e909e2b19e5c70c403bc7258c194e114eb6ab08f924f7c997dadf25a0"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-opennebula_1.1.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v1.1.0/terraform-provider-opennebula_1.1.0_freebsd_arm64.zip",
+          "shasum": "a38936ce2158cd4dd5fba8b12bcd8de846e54947353397f918700210d33af3ab"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-opennebula_1.1.0_windows_arm64.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v1.1.0/terraform-provider-opennebula_1.1.0_windows_arm64.zip",
+          "shasum": "b226994c8e7cab11feae2897eee4c87df50918e719b3a6846ddf7af799da3bb6"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-opennebula_1.1.0_freebsd_arm.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v1.1.0/terraform-provider-opennebula_1.1.0_freebsd_arm.zip",
+          "shasum": "5696d7022bc667c884c1e2be16b1bd49ce833c31e3bedfe676021c920afe8ae4"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-opennebula_1.1.0_darwin_arm64.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v1.1.0/terraform-provider-opennebula_1.1.0_darwin_arm64.zip",
+          "shasum": "4e0c6533d192b4551aa4e89f9402e0ead5466f84ce02da269cbf97a20bbfe6dc"
+        }
+      ]
+    },
+    {
+      "version": "1.0.2",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v1.0.2/terraform-provider-opennebula_1.0.2_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v1.0.2/terraform-provider-opennebula_1.0.2_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-opennebula_1.0.2_freebsd_386.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v1.0.2/terraform-provider-opennebula_1.0.2_freebsd_386.zip",
+          "shasum": "5e306cfba0fd5f5d3454d735984c6c74cad56459cc8c1f6cf99d1cb53a22fe9c"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-opennebula_1.0.2_freebsd_arm.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v1.0.2/terraform-provider-opennebula_1.0.2_freebsd_arm.zip",
+          "shasum": "f7ed9696d39c64681856b06dc27c8c1d8b9fb6a1b7e7e1e1694eb21739ab938d"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-opennebula_1.0.2_windows_amd64.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v1.0.2/terraform-provider-opennebula_1.0.2_windows_amd64.zip",
+          "shasum": "5d7c3c9c924436d657990484097039a10b7f4dc41b4052781e7c657df932fb32"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-opennebula_1.0.2_darwin_amd64.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v1.0.2/terraform-provider-opennebula_1.0.2_darwin_amd64.zip",
+          "shasum": "a53348e7188208a3c4aa7fe24415b73b85c886a0998d06064ab207b9cd09dd7c"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-opennebula_1.0.2_freebsd_arm64.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v1.0.2/terraform-provider-opennebula_1.0.2_freebsd_arm64.zip",
+          "shasum": "84ac6553a0d1b29f990334fd5353e114ec0aafc36f625dde734b21fcb035bc22"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-opennebula_1.0.2_freebsd_amd64.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v1.0.2/terraform-provider-opennebula_1.0.2_freebsd_amd64.zip",
+          "shasum": "24e71e0b9f7e9cdbe14081a395b50a203ace7ac7ea728fd23596c5569034f75d"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-opennebula_1.0.2_linux_386.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v1.0.2/terraform-provider-opennebula_1.0.2_linux_386.zip",
+          "shasum": "5c66ae6cb497cbfb88a021cf15703ea0003ac2ff0fb95427d02ab36ba6c1661b"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-opennebula_1.0.2_linux_arm64.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v1.0.2/terraform-provider-opennebula_1.0.2_linux_arm64.zip",
+          "shasum": "f5fb0f7661ab817c6724fe3a9a0c762048319926313172c0837cc8f65bcd111c"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-opennebula_1.0.2_darwin_arm64.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v1.0.2/terraform-provider-opennebula_1.0.2_darwin_arm64.zip",
+          "shasum": "edc6db181aceb8e5a0426ff4cd4f57cda1cf5f58e1810124e35c12f30b63d9d0"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-opennebula_1.0.2_windows_arm64.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v1.0.2/terraform-provider-opennebula_1.0.2_windows_arm64.zip",
+          "shasum": "775b04bc0e86be36d8fb2c17d88659c0380c41b2207da3a00516f21a8d1ae40d"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-opennebula_1.0.2_windows_arm.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v1.0.2/terraform-provider-opennebula_1.0.2_windows_arm.zip",
+          "shasum": "3afb1a32f5e485a265df15b7299a622a09860ea44e1e877e32e4e8530015188c"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-opennebula_1.0.2_linux_arm.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v1.0.2/terraform-provider-opennebula_1.0.2_linux_arm.zip",
+          "shasum": "40338dcc5874311e15029b182c37c1392616e70a95e96c0e584e856941e34563"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-opennebula_1.0.2_windows_386.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v1.0.2/terraform-provider-opennebula_1.0.2_windows_386.zip",
+          "shasum": "c1275d85b18cb4d974238f6b7942c01dc8a9be21b9ebcf3cf55c3d98512e0ef6"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-opennebula_1.0.2_linux_amd64.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v1.0.2/terraform-provider-opennebula_1.0.2_linux_amd64.zip",
+          "shasum": "8dc68f3f6b5ba7c52f6988e81d753ec74bf4ddccdf2b9720aa2e37162f992df8"
+        }
+      ]
+    },
+    {
+      "version": "1.0.1",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v1.0.1/terraform-provider-opennebula_1.0.1_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v1.0.1/terraform-provider-opennebula_1.0.1_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-opennebula_1.0.1_linux_amd64.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v1.0.1/terraform-provider-opennebula_1.0.1_linux_amd64.zip",
+          "shasum": "9f01f5c2b3d0da29efaa9f7bddb6ab06e92172e9788e458645119c320ce8062a"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-opennebula_1.0.1_windows_arm.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v1.0.1/terraform-provider-opennebula_1.0.1_windows_arm.zip",
+          "shasum": "c0570198158810afe3973ed626f17c9e47cb6aac7ccd3d42445ecdb8c035e013"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-opennebula_1.0.1_windows_386.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v1.0.1/terraform-provider-opennebula_1.0.1_windows_386.zip",
+          "shasum": "97d97dfb4ecd98406dc98ce993f7685246d901dd7e420cdd6ef9e1fce35383a1"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-opennebula_1.0.1_linux_386.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v1.0.1/terraform-provider-opennebula_1.0.1_linux_386.zip",
+          "shasum": "6535c90481ee8c9e93f83f825e8dd97e08c26439be5a9cf39681c6d2483218f9"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-opennebula_1.0.1_freebsd_arm64.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v1.0.1/terraform-provider-opennebula_1.0.1_freebsd_arm64.zip",
+          "shasum": "e4f17c5407be727b1df879663751af14c7d058d7b0f2851892d4b44f81aa31ef"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-opennebula_1.0.1_windows_amd64.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v1.0.1/terraform-provider-opennebula_1.0.1_windows_amd64.zip",
+          "shasum": "449f71e0d2ef2d31fe822576764583487a3454bd648cf984af602cd99af67cc5"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-opennebula_1.0.1_windows_arm64.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v1.0.1/terraform-provider-opennebula_1.0.1_windows_arm64.zip",
+          "shasum": "bdc29b5dfaab8a5edfff5461776f8bff3b5556270807a5568666937fd017f734"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-opennebula_1.0.1_linux_arm.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v1.0.1/terraform-provider-opennebula_1.0.1_linux_arm.zip",
+          "shasum": "26d5d2f1f39fbb2321f1f82eb576011d0ccc1cdaeb5f12dfb1c918b050947db5"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-opennebula_1.0.1_linux_arm64.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v1.0.1/terraform-provider-opennebula_1.0.1_linux_arm64.zip",
+          "shasum": "638622de3cba77b676d4ef439016d2af08e4b51a9d6368518a1241586762417f"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-opennebula_1.0.1_darwin_amd64.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v1.0.1/terraform-provider-opennebula_1.0.1_darwin_amd64.zip",
+          "shasum": "a9606b0626099735eec07c6acfbfe7fa0a40b4ad6c759b067b8febe67b69e6ff"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-opennebula_1.0.1_freebsd_386.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v1.0.1/terraform-provider-opennebula_1.0.1_freebsd_386.zip",
+          "shasum": "ab88a35702651f32038104a32b6ef75c3f45854e921baa682128a9d3c8eaddb1"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-opennebula_1.0.1_darwin_arm64.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v1.0.1/terraform-provider-opennebula_1.0.1_darwin_arm64.zip",
+          "shasum": "46f2785a9759c4092bde31cd55ff52f811485ec17e30fedfdb9a5c2c93d3ce8d"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-opennebula_1.0.1_freebsd_arm.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v1.0.1/terraform-provider-opennebula_1.0.1_freebsd_arm.zip",
+          "shasum": "c795376fe3c1a267946e68568cf377bfa9133ee71e7d5c555984dcd3a26429e8"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-opennebula_1.0.1_freebsd_amd64.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v1.0.1/terraform-provider-opennebula_1.0.1_freebsd_amd64.zip",
+          "shasum": "7b31ece6ffcdab5f0f755b45c5ac63050569a9a22e0ae25369cf7ddcbe41e891"
+        }
+      ]
+    },
+    {
+      "version": "1.0.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v1.0.0/terraform-provider-opennebula_1.0.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v1.0.0/terraform-provider-opennebula_1.0.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-opennebula_1.0.0_windows_386.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v1.0.0/terraform-provider-opennebula_1.0.0_windows_386.zip",
+          "shasum": "244f7a1b71c507c9e7075967f2352bdb73dcd709d67a7f6fc1041486462b8ca9"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-opennebula_1.0.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v1.0.0/terraform-provider-opennebula_1.0.0_freebsd_amd64.zip",
+          "shasum": "b62870eb9287e0f0b4ade2a3e1122851c001cd8e94e308e9b173b09238476ff7"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-opennebula_1.0.0_darwin_amd64.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v1.0.0/terraform-provider-opennebula_1.0.0_darwin_amd64.zip",
+          "shasum": "aa1670bb124ec8444b9a1a25702575fc562355db0fb173b04be26e28d60af863"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-opennebula_1.0.0_freebsd_386.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v1.0.0/terraform-provider-opennebula_1.0.0_freebsd_386.zip",
+          "shasum": "1c7ca3a1c60a23d80056dff3749a676f23fb2c774299a938fda5fdcbd35237ac"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-opennebula_1.0.0_freebsd_arm.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v1.0.0/terraform-provider-opennebula_1.0.0_freebsd_arm.zip",
+          "shasum": "907b75e54a176268e16572c0cfffdb3769d4fcff8644137654c0c7a8accef41d"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-opennebula_1.0.0_windows_arm.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v1.0.0/terraform-provider-opennebula_1.0.0_windows_arm.zip",
+          "shasum": "201a2adb32762f1c584879213a355d9229238b47bebabba3ab5e485322b4f418"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-opennebula_1.0.0_linux_arm64.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v1.0.0/terraform-provider-opennebula_1.0.0_linux_arm64.zip",
+          "shasum": "366a75ffe6fe8aff216ca01392cfc2aca9886d815c803c155363462ef3b71830"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-opennebula_1.0.0_windows_amd64.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v1.0.0/terraform-provider-opennebula_1.0.0_windows_amd64.zip",
+          "shasum": "0137c510a23bc7577db7eeebf741e183f2249636aca4c93178fc2bc471a79906"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-opennebula_1.0.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v1.0.0/terraform-provider-opennebula_1.0.0_freebsd_arm64.zip",
+          "shasum": "ef2921d8505c95f76d2f9d327b2a8e8a9d2c2194b2a0c4289a2cd8ef011675f1"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-opennebula_1.0.0_darwin_arm64.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v1.0.0/terraform-provider-opennebula_1.0.0_darwin_arm64.zip",
+          "shasum": "b5e4e9522843fe24c1a3c1c969cd9c3f08b73992183802c5978afb8bf809dc45"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-opennebula_1.0.0_linux_386.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v1.0.0/terraform-provider-opennebula_1.0.0_linux_386.zip",
+          "shasum": "a049e0f2e8087652de2a6f6f64a7a78f2c0732987481e04cb9ff28653804d86c"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-opennebula_1.0.0_windows_arm64.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v1.0.0/terraform-provider-opennebula_1.0.0_windows_arm64.zip",
+          "shasum": "e0d8d9f63ed6a2aa4710b4f9b17fa4b4a5f547e4299131a7c9a85734517598a9"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-opennebula_1.0.0_linux_arm.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v1.0.0/terraform-provider-opennebula_1.0.0_linux_arm.zip",
+          "shasum": "6d6edc3ebd70d0b2a0c625a17599b4a3b9738dabf5861a2fbfa6dc39efa2dba6"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-opennebula_1.0.0_linux_amd64.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v1.0.0/terraform-provider-opennebula_1.0.0_linux_amd64.zip",
+          "shasum": "7096565c20f2b9860266f4d0a86d26af426fbb4664cb2067257623eca8b10ada"
+        }
+      ]
+    },
+    {
+      "version": "0.5.2",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v0.5.2/terraform-provider-opennebula_0.5.2_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v0.5.2/terraform-provider-opennebula_0.5.2_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-opennebula_0.5.2_freebsd_arm64.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v0.5.2/terraform-provider-opennebula_0.5.2_freebsd_arm64.zip",
+          "shasum": "a73ea5a9a54e77c68e16d9bb9ffcc2a587ce2310c6f6ee892a9c33fdd0c6a2c5"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-opennebula_0.5.2_windows_arm.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v0.5.2/terraform-provider-opennebula_0.5.2_windows_arm.zip",
+          "shasum": "2cb8a17f6b6c9edb1871acdff00bd1ac73d20a50d28a6ffb034ed7dfce46a0ea"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-opennebula_0.5.2_darwin_amd64.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v0.5.2/terraform-provider-opennebula_0.5.2_darwin_amd64.zip",
+          "shasum": "59d6f32f677939f5288d791a73fd985b7030e8a8d4b2146d77f0602a6138588e"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-opennebula_0.5.2_darwin_arm64.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v0.5.2/terraform-provider-opennebula_0.5.2_darwin_arm64.zip",
+          "shasum": "5c9831467b54245037907037a8955fe2290369385594f3f06a232c7d20b59f69"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-opennebula_0.5.2_linux_386.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v0.5.2/terraform-provider-opennebula_0.5.2_linux_386.zip",
+          "shasum": "7688e747757a561a556446735648cf4d073e2acb3c08a8794f5a7e09c05f7bb0"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-opennebula_0.5.2_linux_arm.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v0.5.2/terraform-provider-opennebula_0.5.2_linux_arm.zip",
+          "shasum": "f29f5e33e584d8b5e111e3db9808f15585ad58800b5e65931282660e63c83328"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-opennebula_0.5.2_linux_amd64.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v0.5.2/terraform-provider-opennebula_0.5.2_linux_amd64.zip",
+          "shasum": "fcba121634704f9ed0bc2f7407257e32767930d5bc55facebf6b47a2e957e193"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-opennebula_0.5.2_freebsd_arm.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v0.5.2/terraform-provider-opennebula_0.5.2_freebsd_arm.zip",
+          "shasum": "cc5a091867513cc33f1b4be8f9d2e2b316ebcff3786c748be38829d627c262e6"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-opennebula_0.5.2_freebsd_amd64.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v0.5.2/terraform-provider-opennebula_0.5.2_freebsd_amd64.zip",
+          "shasum": "9bf2a0bfcea4505554219b943a019328c772e1c2ce264d67140a3e03178c4ee3"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-opennebula_0.5.2_windows_amd64.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v0.5.2/terraform-provider-opennebula_0.5.2_windows_amd64.zip",
+          "shasum": "02a7a6317a52aadca7350e785e1173ab5585882ef421578a249a7387403853bb"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-opennebula_0.5.2_windows_arm64.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v0.5.2/terraform-provider-opennebula_0.5.2_windows_arm64.zip",
+          "shasum": "414e7a0d9c32934773b74d4f5a3a5c73bc5cd1785ed984f94c878b7a4ff378c9"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-opennebula_0.5.2_freebsd_386.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v0.5.2/terraform-provider-opennebula_0.5.2_freebsd_386.zip",
+          "shasum": "1e295ab9f4e3f866105bf376989062abe873b76e9a6ad07995ea74853c66d5c0"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-opennebula_0.5.2_windows_386.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v0.5.2/terraform-provider-opennebula_0.5.2_windows_386.zip",
+          "shasum": "567a0d03fda140ef0ee6c813170d197261f5e9aa6d3503c84d61377b6c842ef7"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-opennebula_0.5.2_linux_arm64.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v0.5.2/terraform-provider-opennebula_0.5.2_linux_arm64.zip",
+          "shasum": "47fc062583b6ead1644fda9500a6695e742d9ad7804f822d5602ac6168825e47"
+        }
+      ]
+    },
+    {
+      "version": "0.5.1",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v0.5.1/terraform-provider-opennebula_0.5.1_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v0.5.1/terraform-provider-opennebula_0.5.1_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-opennebula_0.5.1_linux_386.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v0.5.1/terraform-provider-opennebula_0.5.1_linux_386.zip",
+          "shasum": "e54bd1f2b245c6bdc5c48f0613e7875f934e5d076f51023b20243f604c8ef7c2"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-opennebula_0.5.1_linux_arm64.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v0.5.1/terraform-provider-opennebula_0.5.1_linux_arm64.zip",
+          "shasum": "2fa776584775e2a9e076aa0c68ec5f7c3f69066a361574840fe6520740e04f30"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-opennebula_0.5.1_darwin_arm64.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v0.5.1/terraform-provider-opennebula_0.5.1_darwin_arm64.zip",
+          "shasum": "f80471f100cf50afc43d5c7e4c909bacb5b6fb1ba51418e04c817faef5e46185"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-opennebula_0.5.1_freebsd_386.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v0.5.1/terraform-provider-opennebula_0.5.1_freebsd_386.zip",
+          "shasum": "a601a3f3adde36332eb78a716202bf621907bf676b9d94c457bc12aa91793c34"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-opennebula_0.5.1_darwin_amd64.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v0.5.1/terraform-provider-opennebula_0.5.1_darwin_amd64.zip",
+          "shasum": "fa306cf9423d2ab7e303cf8834f5724243f0fd8a59bcbd09bc175e77f00b2d2d"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-opennebula_0.5.1_freebsd_arm64.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v0.5.1/terraform-provider-opennebula_0.5.1_freebsd_arm64.zip",
+          "shasum": "7fa19b14e00cfbfb8598207ae13c9e44d6f354586f9131455e1fe320c991dcdd"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-opennebula_0.5.1_windows_386.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v0.5.1/terraform-provider-opennebula_0.5.1_windows_386.zip",
+          "shasum": "0bd6aef695756f21a981ed11c5dbf368280dc7becf5c9bf39e5c90c29356f548"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-opennebula_0.5.1_windows_amd64.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v0.5.1/terraform-provider-opennebula_0.5.1_windows_amd64.zip",
+          "shasum": "5127b5f758a598cee38c9d0dcbc971eab308a2a6ee7c0f73db4dcd646662eaee"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-opennebula_0.5.1_windows_arm.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v0.5.1/terraform-provider-opennebula_0.5.1_windows_arm.zip",
+          "shasum": "caa5ae7f40e7486d6c2d9e52d739f8a499e5376e14286aa1d9be5518683a3e92"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-opennebula_0.5.1_linux_amd64.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v0.5.1/terraform-provider-opennebula_0.5.1_linux_amd64.zip",
+          "shasum": "e23aa9cc9fb684aac46119db290c29d297554f94d7bf04106ce82c033e27b83c"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-opennebula_0.5.1_freebsd_arm.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v0.5.1/terraform-provider-opennebula_0.5.1_freebsd_arm.zip",
+          "shasum": "b2cd967d0c8b580d5f6a2128594b63e5c950147a8274299cb3506a9092b93148"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-opennebula_0.5.1_freebsd_amd64.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v0.5.1/terraform-provider-opennebula_0.5.1_freebsd_amd64.zip",
+          "shasum": "a11157ba8c80ab8044f58bad0f7ed08b4ff4fc4431777c1bcda519f011d8887b"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-opennebula_0.5.1_linux_arm.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v0.5.1/terraform-provider-opennebula_0.5.1_linux_arm.zip",
+          "shasum": "978c92dc33c302d767e8cf7d37f32a4a0d2a5b8dd56cd100d10202a53fdeae24"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-opennebula_0.5.1_windows_arm64.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v0.5.1/terraform-provider-opennebula_0.5.1_windows_arm64.zip",
+          "shasum": "5879e00121d507119b5cc4196289c155f085f3db7277a045112cceb758cf7218"
+        }
+      ]
+    },
+    {
+      "version": "0.5.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v0.5.0/terraform-provider-opennebula_0.5.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v0.5.0/terraform-provider-opennebula_0.5.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-opennebula_0.5.0_linux_arm64.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v0.5.0/terraform-provider-opennebula_0.5.0_linux_arm64.zip",
+          "shasum": "ff87f51a24fcd785384752aefb349f2bab7f380c357c2117f2207221d15069c8"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-opennebula_0.5.0_linux_386.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v0.5.0/terraform-provider-opennebula_0.5.0_linux_386.zip",
+          "shasum": "60f4068fc390312585f1161c64cc6ac33bccf4b146a9863b52bf4ed971a0fe9d"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-opennebula_0.5.0_freebsd_386.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v0.5.0/terraform-provider-opennebula_0.5.0_freebsd_386.zip",
+          "shasum": "6110554de86c1b5666e0a979b2beb3511a9cec413d9479a590b994c50bb46993"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-opennebula_0.5.0_windows_arm.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v0.5.0/terraform-provider-opennebula_0.5.0_windows_arm.zip",
+          "shasum": "0263787798a6d334ec7454455284021527108c12f1facebb2ebbc1ca208f5c9b"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-opennebula_0.5.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v0.5.0/terraform-provider-opennebula_0.5.0_freebsd_arm64.zip",
+          "shasum": "548beb15670923006d159b3cf3e03745b6032f0a6fbafff96715c9ae5ea517cf"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-opennebula_0.5.0_linux_arm.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v0.5.0/terraform-provider-opennebula_0.5.0_linux_arm.zip",
+          "shasum": "6dbd4ae401f66e51a4bd70500a00f5cdf33f0c21421215d9a778fff0679b3f62"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-opennebula_0.5.0_windows_arm64.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v0.5.0/terraform-provider-opennebula_0.5.0_windows_arm64.zip",
+          "shasum": "fae4313fc489f7bf4dca557318a636b09114767f4e0f7b180ca978e42e3a8cd2"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-opennebula_0.5.0_linux_amd64.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v0.5.0/terraform-provider-opennebula_0.5.0_linux_amd64.zip",
+          "shasum": "7495a2c431b217e1a6dbb9874431dde872e8f88120b9ef70b609b796a667b991"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-opennebula_0.5.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v0.5.0/terraform-provider-opennebula_0.5.0_freebsd_amd64.zip",
+          "shasum": "429bfa55327571b75b9d8fe7dbc5677c4b52069b1c549afb4e84ddb6c828c133"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-opennebula_0.5.0_darwin_arm64.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v0.5.0/terraform-provider-opennebula_0.5.0_darwin_arm64.zip",
+          "shasum": "aabe8394c3722ae03600a69be799ce9a1efb6265cb79469537bc59aa8aa3c219"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-opennebula_0.5.0_windows_386.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v0.5.0/terraform-provider-opennebula_0.5.0_windows_386.zip",
+          "shasum": "f33111ec1c365c672eb28770b31996d041f61b7b2c536c67d3d5afa88e6af644"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-opennebula_0.5.0_windows_amd64.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v0.5.0/terraform-provider-opennebula_0.5.0_windows_amd64.zip",
+          "shasum": "6b0c15d272be29bff9634a8513e474e1b21d0f201794fbbf9be9e83169ecfd7a"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-opennebula_0.5.0_freebsd_arm.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v0.5.0/terraform-provider-opennebula_0.5.0_freebsd_arm.zip",
+          "shasum": "f6fea4860d25092df3a61471f199d6e9515d0d0ccb6c2bfa2c4126030e6c0049"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-opennebula_0.5.0_darwin_amd64.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v0.5.0/terraform-provider-opennebula_0.5.0_darwin_amd64.zip",
+          "shasum": "25cbd38a8c415b2657acf36cd59da081aec462cbe261e27eabd6e6c20a18383a"
+        }
+      ]
+    },
+    {
+      "version": "0.4.3",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v0.4.3/terraform-provider-opennebula_0.4.3_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v0.4.3/terraform-provider-opennebula_0.4.3_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-opennebula_0.4.3_freebsd_arm.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v0.4.3/terraform-provider-opennebula_0.4.3_freebsd_arm.zip",
+          "shasum": "403153f128f10841e88a56f1f25ddcd98a4068403456ee98e225328a5ec17bd6"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-opennebula_0.4.3_linux_arm.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v0.4.3/terraform-provider-opennebula_0.4.3_linux_arm.zip",
+          "shasum": "662cb93d49abba9b6074d90c4c7b07db154f6fd1b84cb26a5cc7da48e7ba6068"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-opennebula_0.4.3_linux_amd64.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v0.4.3/terraform-provider-opennebula_0.4.3_linux_amd64.zip",
+          "shasum": "698608c7b7e1e58b5ebf319557b3aab1a2a121da4dcd81711ff8565e0f03a8fb"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-opennebula_0.4.3_linux_arm64.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v0.4.3/terraform-provider-opennebula_0.4.3_linux_arm64.zip",
+          "shasum": "c6f2c94b4631a6a2deadcee5cc38d4547fd630ac6e79ab9c60a7392bbefbcdc4"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-opennebula_0.4.3_darwin_amd64.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v0.4.3/terraform-provider-opennebula_0.4.3_darwin_amd64.zip",
+          "shasum": "1668ca137d86b63419ebbcd1f49ad79226b01307f3ebcea3babdbd241597d663"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-opennebula_0.4.3_freebsd_amd64.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v0.4.3/terraform-provider-opennebula_0.4.3_freebsd_amd64.zip",
+          "shasum": "2b66f168c9e02e074f4678c84cfe9edebb94df9c56cef9a0bfc67a9d2f309395"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-opennebula_0.4.3_windows_arm.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v0.4.3/terraform-provider-opennebula_0.4.3_windows_arm.zip",
+          "shasum": "f17d1901e1ddf5c8fbb01fc6f309d6b96a934d625c2339f0a96251c03da3e77f"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-opennebula_0.4.3_windows_386.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v0.4.3/terraform-provider-opennebula_0.4.3_windows_386.zip",
+          "shasum": "8f55c028b147a388544cffefa1b5d97ade3a101aa35236b88fb6e447daec83eb"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-opennebula_0.4.3_darwin_arm64.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v0.4.3/terraform-provider-opennebula_0.4.3_darwin_arm64.zip",
+          "shasum": "58aad28c6581b088090a6278444ba4c15f7202f79035afe3288a0fff68c426ba"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-opennebula_0.4.3_freebsd_arm64.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v0.4.3/terraform-provider-opennebula_0.4.3_freebsd_arm64.zip",
+          "shasum": "c958decc99ac04c21deb6c2a9f2a93cc8d8421dbc6bd9a3fd23f0d195debfb58"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-opennebula_0.4.3_freebsd_386.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v0.4.3/terraform-provider-opennebula_0.4.3_freebsd_386.zip",
+          "shasum": "ecaa8a8cd3d62d472ef27f93912639064c7f18b198b14c78f4a89969b4a31e2b"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-opennebula_0.4.3_windows_amd64.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v0.4.3/terraform-provider-opennebula_0.4.3_windows_amd64.zip",
+          "shasum": "dd700928c002055f313e27527336981bcfd2cdfaa9123760126b119aa2bdc47e"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-opennebula_0.4.3_linux_386.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v0.4.3/terraform-provider-opennebula_0.4.3_linux_386.zip",
+          "shasum": "a1d71c961fb3756e71966fb0e8b32925ad1b00a8ca395d32f13041c857975652"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-opennebula_0.4.3_windows_arm64.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v0.4.3/terraform-provider-opennebula_0.4.3_windows_arm64.zip",
+          "shasum": "29bd12c70a3df37a6872d1695cc713014bcb4f55a6ca84556ba6e4a3e23bc95d"
+        }
+      ]
+    },
+    {
+      "version": "0.4.2",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v0.4.2/terraform-provider-opennebula_0.4.2_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v0.4.2/terraform-provider-opennebula_0.4.2_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-opennebula_0.4.2_freebsd_arm64.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v0.4.2/terraform-provider-opennebula_0.4.2_freebsd_arm64.zip",
+          "shasum": "25a7ff1370a7bb2d657dc693fea24a2727b41cfe2b176289965698b42814e2a3"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-opennebula_0.4.2_freebsd_arm.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v0.4.2/terraform-provider-opennebula_0.4.2_freebsd_arm.zip",
+          "shasum": "458c9e0104ae3833416b859c8583ce2f28554900cafc71d7a52f35af9feb9b22"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-opennebula_0.4.2_linux_386.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v0.4.2/terraform-provider-opennebula_0.4.2_linux_386.zip",
+          "shasum": "fade55f2bb146d21b71e4601ee20f7cefb9629ef75537e76c05bc1f81faa738c"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-opennebula_0.4.2_freebsd_386.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v0.4.2/terraform-provider-opennebula_0.4.2_freebsd_386.zip",
+          "shasum": "15da83407cc0b9bf6d879d35a725af84cf231e2bfe158ad8eeaaba6727561a52"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-opennebula_0.4.2_windows_arm.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v0.4.2/terraform-provider-opennebula_0.4.2_windows_arm.zip",
+          "shasum": "e28d55ab87b597eff052929598356352626ebfa029054e7e63b733c086e2d09b"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-opennebula_0.4.2_linux_amd64.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v0.4.2/terraform-provider-opennebula_0.4.2_linux_amd64.zip",
+          "shasum": "22201f73bf54989e4612c36696b7b3842121edd65a4e78f85fec14630c460675"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-opennebula_0.4.2_windows_386.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v0.4.2/terraform-provider-opennebula_0.4.2_windows_386.zip",
+          "shasum": "fc72427a410eda24206ccfce009f8cfd761080fdd83fd57503eed7717320322a"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-opennebula_0.4.2_linux_arm64.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v0.4.2/terraform-provider-opennebula_0.4.2_linux_arm64.zip",
+          "shasum": "8a0759e0de21379f28c2d46b7727aa47c329732790e431646c46f422106ff86b"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-opennebula_0.4.2_windows_amd64.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v0.4.2/terraform-provider-opennebula_0.4.2_windows_amd64.zip",
+          "shasum": "68ba49e9c227fadc42321cc63d69a4b0ffa85833990082e0ffd3f64aac4fd27f"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-opennebula_0.4.2_freebsd_amd64.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v0.4.2/terraform-provider-opennebula_0.4.2_freebsd_amd64.zip",
+          "shasum": "e376a951df84d73d30ba9f556e9ae234f2b3a4fd8de40c53cdf93fc981840946"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-opennebula_0.4.2_darwin_amd64.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v0.4.2/terraform-provider-opennebula_0.4.2_darwin_amd64.zip",
+          "shasum": "f6ac91981f3675b8414bd13c35c36ee772b870bbe86978c40e86f6f190b1e8cc"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-opennebula_0.4.2_linux_arm.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v0.4.2/terraform-provider-opennebula_0.4.2_linux_arm.zip",
+          "shasum": "e44f26f6245cf46d96566817a10ae7c61c2b9d43248a5f0b8bb4f07088746d1d"
+        }
+      ]
+    },
+    {
+      "version": "0.4.1",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v0.4.1/terraform-provider-opennebula_0.4.1_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v0.4.1/terraform-provider-opennebula_0.4.1_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-opennebula_0.4.1_windows_386.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v0.4.1/terraform-provider-opennebula_0.4.1_windows_386.zip",
+          "shasum": "babd92b44b68a18d1a541a4fc5a57c70b5070904f311f30931d6c5bd9f840b9b"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-opennebula_0.4.1_windows_amd64.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v0.4.1/terraform-provider-opennebula_0.4.1_windows_amd64.zip",
+          "shasum": "5dce182ac570afdfa0a7c0a249590a36e5fe4c8ad9ac97242ee1017e59898b7a"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-opennebula_0.4.1_freebsd_arm.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v0.4.1/terraform-provider-opennebula_0.4.1_freebsd_arm.zip",
+          "shasum": "1dcbd87f72c7e0d890729801d5e04498f95e6683d1541a8711cfeb4ed366f154"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-opennebula_0.4.1_darwin_amd64.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v0.4.1/terraform-provider-opennebula_0.4.1_darwin_amd64.zip",
+          "shasum": "f42af218293bf13b09d1061b4c725449de66081c59452093244b3ff4d9be4e79"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-opennebula_0.4.1_linux_386.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v0.4.1/terraform-provider-opennebula_0.4.1_linux_386.zip",
+          "shasum": "982008f092297e2eb567da9aca4bf68c6ca8290e0f11d6cde722d07257c87f89"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-opennebula_0.4.1_windows_arm.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v0.4.1/terraform-provider-opennebula_0.4.1_windows_arm.zip",
+          "shasum": "5670911c1e8b9dd9d123435ec4445607b3b0703c00f2a27f95f1520727c2909f"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-opennebula_0.4.1_freebsd_386.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v0.4.1/terraform-provider-opennebula_0.4.1_freebsd_386.zip",
+          "shasum": "dedaf3ab9fbeb918662873de9833a277bcf88f65950032dc68d98851f7fbafd5"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-opennebula_0.4.1_linux_arm.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v0.4.1/terraform-provider-opennebula_0.4.1_linux_arm.zip",
+          "shasum": "137970a7bacd8cdc33128f06a6ab20159e44b5d439be3bdbe636a235b2628314"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-opennebula_0.4.1_linux_arm64.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v0.4.1/terraform-provider-opennebula_0.4.1_linux_arm64.zip",
+          "shasum": "3a48a4691c4035808e7a6bc2c5f6750b22cd7f8c5d47653f31a0cb38fd21661c"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-opennebula_0.4.1_freebsd_arm64.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v0.4.1/terraform-provider-opennebula_0.4.1_freebsd_arm64.zip",
+          "shasum": "cc861dcd6ae7712b6a9b8607f68c7a2e01e506cfcc74fc033a8cb9a4a6b2fa8b"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-opennebula_0.4.1_freebsd_amd64.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v0.4.1/terraform-provider-opennebula_0.4.1_freebsd_amd64.zip",
+          "shasum": "466aeb8dadbbeb62119aba4f1a356c29ce6e44cc0cf50fbea567cd471c26d3a4"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-opennebula_0.4.1_linux_amd64.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v0.4.1/terraform-provider-opennebula_0.4.1_linux_amd64.zip",
+          "shasum": "9322979da41b8c27e4ccb71414f09f243b033e12b71f6fb13e95712c19329205"
+        }
+      ]
+    },
+    {
+      "version": "0.4.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v0.4.0/terraform-provider-opennebula_0.4.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v0.4.0/terraform-provider-opennebula_0.4.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-opennebula_0.4.0_windows_arm.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v0.4.0/terraform-provider-opennebula_0.4.0_windows_arm.zip",
+          "shasum": "3570424235944759211d1df2498a2255a2ed55e1e071804efe0ce2e9c4128106"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-opennebula_0.4.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v0.4.0/terraform-provider-opennebula_0.4.0_freebsd_arm64.zip",
+          "shasum": "873c7ed396708f651887c2af69ca78d662297dc55f7e825664f71b3f617eecc5"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-opennebula_0.4.0_linux_amd64.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v0.4.0/terraform-provider-opennebula_0.4.0_linux_amd64.zip",
+          "shasum": "0cb96d71b668c0a06f9d82fe930f08c225822564a7ede55c65e2695098de8c99"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-opennebula_0.4.0_linux_arm.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v0.4.0/terraform-provider-opennebula_0.4.0_linux_arm.zip",
+          "shasum": "c90290447c741586f66ce967e5d26f8478f967b0b138179b9c28a08bbb52b005"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-opennebula_0.4.0_windows_386.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v0.4.0/terraform-provider-opennebula_0.4.0_windows_386.zip",
+          "shasum": "d6eeb2c880471217b775e34ecaded4483e76337354ebf445067465fd5ec07a89"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-opennebula_0.4.0_windows_amd64.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v0.4.0/terraform-provider-opennebula_0.4.0_windows_amd64.zip",
+          "shasum": "45aad6dcc47969735cb32294e2373dc62dec9b78bf3a89273f1587369ae375a9"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-opennebula_0.4.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v0.4.0/terraform-provider-opennebula_0.4.0_freebsd_amd64.zip",
+          "shasum": "d98a1ec7a41db82795c75c4c6b818a622bc6535f9e819458233340bbb1e69311"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-opennebula_0.4.0_linux_386.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v0.4.0/terraform-provider-opennebula_0.4.0_linux_386.zip",
+          "shasum": "f96bcf51811a2d053643d25aef857baf5ff3273b277bba7e076d52fe7b6d8c7a"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-opennebula_0.4.0_darwin_amd64.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v0.4.0/terraform-provider-opennebula_0.4.0_darwin_amd64.zip",
+          "shasum": "e6a3a2639385e88c5ed531e071186289fdd4f93d12586d1e1215b9bf3f33b50c"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-opennebula_0.4.0_freebsd_arm.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v0.4.0/terraform-provider-opennebula_0.4.0_freebsd_arm.zip",
+          "shasum": "3633915a51ae55f688976f0bbf3929100916fda5a8a399e10904367a31b58b0a"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-opennebula_0.4.0_freebsd_386.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v0.4.0/terraform-provider-opennebula_0.4.0_freebsd_386.zip",
+          "shasum": "ed95ca884f9d8d6f1efc374feb12d79510095486c16a82c25cb6cf94d732dfe3"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-opennebula_0.4.0_linux_arm64.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v0.4.0/terraform-provider-opennebula_0.4.0_linux_arm64.zip",
+          "shasum": "6a6eb38a57c64c6727c3bfc80dd8da9210a08997268313b5c36d6ae02c0c113b"
+        }
+      ]
+    },
+    {
+      "version": "0.3.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v0.3.0/terraform-provider-opennebula_0.3.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v0.3.0/terraform-provider-opennebula_0.3.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-opennebula_0.3.0_freebsd_386.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v0.3.0/terraform-provider-opennebula_0.3.0_freebsd_386.zip",
+          "shasum": "46e952f79180fda444ee0a781ab13b98cfe56e67aea1bc5fdfb5be0a940fa03f"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-opennebula_0.3.0_windows_386.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v0.3.0/terraform-provider-opennebula_0.3.0_windows_386.zip",
+          "shasum": "2cb0987f477fcb5543a81c747f56f6b2ed48e10ca81975f5b0bf6dd5862587b9"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-opennebula_0.3.0_linux_386.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v0.3.0/terraform-provider-opennebula_0.3.0_linux_386.zip",
+          "shasum": "8b1c1c8bd2424382c237609b1b3587075f872e1301043734aa9d08a577446ffa"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-opennebula_0.3.0_linux_arm64.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v0.3.0/terraform-provider-opennebula_0.3.0_linux_arm64.zip",
+          "shasum": "94bc3a8acf1286cde7cb247d8dd93c028d2bc385379ffa654b38432dd924c390"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-opennebula_0.3.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v0.3.0/terraform-provider-opennebula_0.3.0_freebsd_arm64.zip",
+          "shasum": "aa40d6719796c30bea613f152c49072a4eebfe09295e7c69e6bbf37567d93f28"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-opennebula_0.3.0_freebsd_arm.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v0.3.0/terraform-provider-opennebula_0.3.0_freebsd_arm.zip",
+          "shasum": "8c30d3135b768ae95cf2019114506b137529ed6354bd664496f126abc72c4c14"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-opennebula_0.3.0_windows_amd64.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v0.3.0/terraform-provider-opennebula_0.3.0_windows_amd64.zip",
+          "shasum": "40b0a342b3e46f3173eb47cbcfe65cac0816327b383cba54a6631406adf920d6"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-opennebula_0.3.0_linux_arm.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v0.3.0/terraform-provider-opennebula_0.3.0_linux_arm.zip",
+          "shasum": "236aaa8ecd1e97f2c356281234142bbf7919db9265bad1584fc256bf4fcdd80d"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-opennebula_0.3.0_linux_amd64.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v0.3.0/terraform-provider-opennebula_0.3.0_linux_amd64.zip",
+          "shasum": "df9a6acef4d4034095859d16481248640f73a348cba77cd987c37fdbd6c5b7c1"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-opennebula_0.3.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v0.3.0/terraform-provider-opennebula_0.3.0_freebsd_amd64.zip",
+          "shasum": "e8ee96066623e2738f6b886e9c98b27be442bbe151dfe19beaeb731bfd569086"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-opennebula_0.3.0_darwin_amd64.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v0.3.0/terraform-provider-opennebula_0.3.0_darwin_amd64.zip",
+          "shasum": "ed0e8438409eda95a44bac40ce472fd705fccabeed95cf30ea300c3506936c75"
+        }
+      ]
+    },
+    {
+      "version": "0.2.2",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v0.2.2/terraform-provider-opennebula_0.2.2_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v0.2.2/terraform-provider-opennebula_0.2.2_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-opennebula_0.2.2_linux_386.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v0.2.2/terraform-provider-opennebula_0.2.2_linux_386.zip",
+          "shasum": "7a8301b67e97e18a1f05612b83d7d89134854f14a3f284f4a42e970f470dc26a"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-opennebula_0.2.2_freebsd_arm.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v0.2.2/terraform-provider-opennebula_0.2.2_freebsd_arm.zip",
+          "shasum": "9d7879293b382bbd9d8fd69b39509fad36a9b8a5a1210f8942da2bd952251b4d"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-opennebula_0.2.2_linux_amd64.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v0.2.2/terraform-provider-opennebula_0.2.2_linux_amd64.zip",
+          "shasum": "32bc45fa1df753868f6edad84cd7f75166521f899f8c5bae83b2b7a38250f31e"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-opennebula_0.2.2_freebsd_386.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v0.2.2/terraform-provider-opennebula_0.2.2_freebsd_386.zip",
+          "shasum": "97f5e2e189800f85bcd66c690dda0180f48a43c2bd91ec0440da86add4c60cbb"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-opennebula_0.2.2_windows_amd64.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v0.2.2/terraform-provider-opennebula_0.2.2_windows_amd64.zip",
+          "shasum": "42e33aa439002e0404bc95e7a6f06475fdf900a63f45f566679fcb3a4b67f0db"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-opennebula_0.2.2_freebsd_amd64.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v0.2.2/terraform-provider-opennebula_0.2.2_freebsd_amd64.zip",
+          "shasum": "181393875774c2ff4fbfebecd8c576cabbb4eeaaadffb19cd8df0d88161c2852"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-opennebula_0.2.2_linux_arm64.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v0.2.2/terraform-provider-opennebula_0.2.2_linux_arm64.zip",
+          "shasum": "533cfcbe8c216f95811ad704304926ccabd2f980dfa87e261628165869609b1f"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-opennebula_0.2.2_darwin_amd64.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v0.2.2/terraform-provider-opennebula_0.2.2_darwin_amd64.zip",
+          "shasum": "365f98fd3de9b8e062c06f61d2e80b57b2da87226c8ae193e63170ecc63086d0"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-opennebula_0.2.2_windows_386.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v0.2.2/terraform-provider-opennebula_0.2.2_windows_386.zip",
+          "shasum": "41fde92935fe6d4db0f6448cdf1f817a1fd2b6a5c56f7624aa3748064f8f099a"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-opennebula_0.2.2_freebsd_arm64.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v0.2.2/terraform-provider-opennebula_0.2.2_freebsd_arm64.zip",
+          "shasum": "4b038f9ce9c915b6fc5ee39e7686c36d629c2277ead9b6f422cc9c20c6f3b15b"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-opennebula_0.2.2_linux_arm.zip",
+          "download_url": "https://github.com/OpenNebula/terraform-provider-opennebula/releases/download/v0.2.2/terraform-provider-opennebula_0.2.2_linux_arm.zip",
+          "shasum": "56dfd12a69c4309b0b3d9a43de266910c41309e7a476de272ed78266bd2c26a5"
+        }
+      ]
+    }
+  ]
+}

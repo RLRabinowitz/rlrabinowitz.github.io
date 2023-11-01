@@ -1,0 +1,1203 @@
+{
+  "repository": "https://github.com/equinix/terraform-provider-metal",
+  "versions": [
+    {
+      "version": "3.3.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/equinix/terraform-provider-metal/releases/download/v3.3.0/terraform-provider-metal_3.3.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/equinix/terraform-provider-metal/releases/download/v3.3.0/terraform-provider-metal_3.3.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-metal_3.3.0_windows_arm.zip",
+          "download_url": "https://github.com/equinix/terraform-provider-metal/releases/download/v3.3.0/terraform-provider-metal_3.3.0_windows_arm.zip",
+          "shasum": "93acf234c117eae047f6a1f48d5741e67244b47523384c4a007865527a8cf791"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-metal_3.3.0_linux_arm.zip",
+          "download_url": "https://github.com/equinix/terraform-provider-metal/releases/download/v3.3.0/terraform-provider-metal_3.3.0_linux_arm.zip",
+          "shasum": "76d5df416a01200aba0434d8853b34271ea75713b84b1633443b646f430ab985"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-metal_3.3.0_freebsd_arm.zip",
+          "download_url": "https://github.com/equinix/terraform-provider-metal/releases/download/v3.3.0/terraform-provider-metal_3.3.0_freebsd_arm.zip",
+          "shasum": "c216240a8360c641ec9b6a4611c5caa18fb3809fca3ca82e88e4169330b93a13"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-metal_3.3.0_freebsd_386.zip",
+          "download_url": "https://github.com/equinix/terraform-provider-metal/releases/download/v3.3.0/terraform-provider-metal_3.3.0_freebsd_386.zip",
+          "shasum": "793c83286480473f043a5243e7e82eae0ec7c96d5aedf67ed376db6c066d8062"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-metal_3.3.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/equinix/terraform-provider-metal/releases/download/v3.3.0/terraform-provider-metal_3.3.0_freebsd_arm64.zip",
+          "shasum": "0d9441a27466df73956f78ffd3bf8d9dd754e13bf22c42c30dd2160a394c4cd7"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-metal_3.3.0_darwin_amd64.zip",
+          "download_url": "https://github.com/equinix/terraform-provider-metal/releases/download/v3.3.0/terraform-provider-metal_3.3.0_darwin_amd64.zip",
+          "shasum": "38974c4cf3ada6fb571d33767bb2fb9d4721430276bb70e833bfe35f19e6c347"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-metal_3.3.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/equinix/terraform-provider-metal/releases/download/v3.3.0/terraform-provider-metal_3.3.0_freebsd_amd64.zip",
+          "shasum": "d6484af6631d5ef7f309111ca7133a675f01f9753ede74a6195fb0ad960c1559"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-metal_3.3.0_linux_amd64.zip",
+          "download_url": "https://github.com/equinix/terraform-provider-metal/releases/download/v3.3.0/terraform-provider-metal_3.3.0_linux_amd64.zip",
+          "shasum": "913084757af995288e88d4ce6f21643c9e4004d3b3fe382cdd8ebb47a1d98013"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-metal_3.3.0_linux_386.zip",
+          "download_url": "https://github.com/equinix/terraform-provider-metal/releases/download/v3.3.0/terraform-provider-metal_3.3.0_linux_386.zip",
+          "shasum": "41f89f5d2f3867613765808cd15687091c5456151ee1e0ec50313c93f1c78d45"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-metal_3.3.0_linux_arm64.zip",
+          "download_url": "https://github.com/equinix/terraform-provider-metal/releases/download/v3.3.0/terraform-provider-metal_3.3.0_linux_arm64.zip",
+          "shasum": "42019d99f3374d48749c0a3f4a72b1f1a0055e81e378801f7b2b45661b93a016"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-metal_3.3.0_darwin_arm64.zip",
+          "download_url": "https://github.com/equinix/terraform-provider-metal/releases/download/v3.3.0/terraform-provider-metal_3.3.0_darwin_arm64.zip",
+          "shasum": "5300fade06db25aa2e98de10a313f634221d9934bbe93b8ad8282cbd46b0e75a"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-metal_3.3.0_windows_386.zip",
+          "download_url": "https://github.com/equinix/terraform-provider-metal/releases/download/v3.3.0/terraform-provider-metal_3.3.0_windows_386.zip",
+          "shasum": "6a80e47f7d6a1f47e8ff3c2e3906b9a18903609a58c85b3f94f142b03d1cc5a0"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-metal_3.3.0_windows_amd64.zip",
+          "download_url": "https://github.com/equinix/terraform-provider-metal/releases/download/v3.3.0/terraform-provider-metal_3.3.0_windows_amd64.zip",
+          "shasum": "4bcdf9f1528bf1dbe4431d8ea94b0cb9b3b813c330b8bc2376de094cea764ca8"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-metal_3.3.0_windows_arm64.zip",
+          "download_url": "https://github.com/equinix/terraform-provider-metal/releases/download/v3.3.0/terraform-provider-metal_3.3.0_windows_arm64.zip",
+          "shasum": "a19c0934adb3ae6192e687519278403f8fa9af6ee7931b4fa395bd7c3b90b61c"
+        }
+      ]
+    },
+    {
+      "version": "3.3.0-alpha.4",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/equinix/terraform-provider-metal/releases/download/v3.3.0-alpha.4/terraform-provider-metal_3.3.0-alpha.4_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/equinix/terraform-provider-metal/releases/download/v3.3.0-alpha.4/terraform-provider-metal_3.3.0-alpha.4_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-metal_3.3.0-alpha.4_linux_amd64.zip",
+          "download_url": "https://github.com/equinix/terraform-provider-metal/releases/download/v3.3.0-alpha.4/terraform-provider-metal_3.3.0-alpha.4_linux_amd64.zip",
+          "shasum": "08989fdf472083bb83ecb0159223b50afd94a4a13354c1a80a99c528e2aa844d"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-metal_3.3.0-alpha.4_darwin_arm64.zip",
+          "download_url": "https://github.com/equinix/terraform-provider-metal/releases/download/v3.3.0-alpha.4/terraform-provider-metal_3.3.0-alpha.4_darwin_arm64.zip",
+          "shasum": "d9481d9a615d8e377ad384373a0fa80601ab5f7d9e99ff2509865c4c4b1ee85f"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-metal_3.3.0-alpha.4_darwin_amd64.zip",
+          "download_url": "https://github.com/equinix/terraform-provider-metal/releases/download/v3.3.0-alpha.4/terraform-provider-metal_3.3.0-alpha.4_darwin_amd64.zip",
+          "shasum": "216814586a3ff93c03ac914f6695831aa8ea6c7b9e350e3c6d9fe5e879905aa1"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-metal_3.3.0-alpha.4_freebsd_386.zip",
+          "download_url": "https://github.com/equinix/terraform-provider-metal/releases/download/v3.3.0-alpha.4/terraform-provider-metal_3.3.0-alpha.4_freebsd_386.zip",
+          "shasum": "a08f39ca49222aa0e9313dd7959f9a383827d4d800308f8dfc9b41631b1a202f"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-metal_3.3.0-alpha.4_linux_arm.zip",
+          "download_url": "https://github.com/equinix/terraform-provider-metal/releases/download/v3.3.0-alpha.4/terraform-provider-metal_3.3.0-alpha.4_linux_arm.zip",
+          "shasum": "0d6e38c1995aabcf21be0f4f24bf075d151749012974f1f5718e943e7796af83"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-metal_3.3.0-alpha.4_freebsd_arm64.zip",
+          "download_url": "https://github.com/equinix/terraform-provider-metal/releases/download/v3.3.0-alpha.4/terraform-provider-metal_3.3.0-alpha.4_freebsd_arm64.zip",
+          "shasum": "c7275a269d6454e4eae66957ad6f6dd7ec1cb2ff6ffec7ca07bdef92e1172e80"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-metal_3.3.0-alpha.4_linux_386.zip",
+          "download_url": "https://github.com/equinix/terraform-provider-metal/releases/download/v3.3.0-alpha.4/terraform-provider-metal_3.3.0-alpha.4_linux_386.zip",
+          "shasum": "7f1e003663940b3e6514e0bf54b3734b707aed211319ac48a756c64dd15f5153"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-metal_3.3.0-alpha.4_windows_amd64.zip",
+          "download_url": "https://github.com/equinix/terraform-provider-metal/releases/download/v3.3.0-alpha.4/terraform-provider-metal_3.3.0-alpha.4_windows_amd64.zip",
+          "shasum": "29f7c746ff05e3a9aa19ae90352eb6ebaccd0d440547a5705514e75ca8c0cbf1"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-metal_3.3.0-alpha.4_windows_arm64.zip",
+          "download_url": "https://github.com/equinix/terraform-provider-metal/releases/download/v3.3.0-alpha.4/terraform-provider-metal_3.3.0-alpha.4_windows_arm64.zip",
+          "shasum": "bfb86cded76c51ea7aeb3eee67a9a38941a325639d2d70c9b06a460aa30aa149"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-metal_3.3.0-alpha.4_linux_arm64.zip",
+          "download_url": "https://github.com/equinix/terraform-provider-metal/releases/download/v3.3.0-alpha.4/terraform-provider-metal_3.3.0-alpha.4_linux_arm64.zip",
+          "shasum": "36212b4feb2ddb6efedfb9f5d883b3e14a9f36eb9f96491ddb17fc0cfb66fa05"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-metal_3.3.0-alpha.4_windows_386.zip",
+          "download_url": "https://github.com/equinix/terraform-provider-metal/releases/download/v3.3.0-alpha.4/terraform-provider-metal_3.3.0-alpha.4_windows_386.zip",
+          "shasum": "b335ced2895d1b18004f4ada1dfb6b225835278bade039d84bb30579e30b8b47"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-metal_3.3.0-alpha.4_freebsd_arm.zip",
+          "download_url": "https://github.com/equinix/terraform-provider-metal/releases/download/v3.3.0-alpha.4/terraform-provider-metal_3.3.0-alpha.4_freebsd_arm.zip",
+          "shasum": "22e27bebeeca084fe0a25219d551e65f9731f23e4d5ab3e2768dd61173a47cb9"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-metal_3.3.0-alpha.4_freebsd_amd64.zip",
+          "download_url": "https://github.com/equinix/terraform-provider-metal/releases/download/v3.3.0-alpha.4/terraform-provider-metal_3.3.0-alpha.4_freebsd_amd64.zip",
+          "shasum": "0d2b34eccfa9d0f257ef0f452159ba174c138c0ecc45a2fa2f1a02ac3916fed1"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-metal_3.3.0-alpha.4_windows_arm.zip",
+          "download_url": "https://github.com/equinix/terraform-provider-metal/releases/download/v3.3.0-alpha.4/terraform-provider-metal_3.3.0-alpha.4_windows_arm.zip",
+          "shasum": "1552bfd28638b66705a6608a59d71c95625b6c0ef6e2bb71ac944ccda15bd618"
+        }
+      ]
+    },
+    {
+      "version": "3.2.2",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/equinix/terraform-provider-metal/releases/download/v3.2.2/terraform-provider-metal_3.2.2_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/equinix/terraform-provider-metal/releases/download/v3.2.2/terraform-provider-metal_3.2.2_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-metal_3.2.2_windows_arm.zip",
+          "download_url": "https://github.com/equinix/terraform-provider-metal/releases/download/v3.2.2/terraform-provider-metal_3.2.2_windows_arm.zip",
+          "shasum": "80ab4553328bfc273723b70d9c900bcc2ba3baac9b265bc8859c22c90e380c4f"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-metal_3.2.2_linux_386.zip",
+          "download_url": "https://github.com/equinix/terraform-provider-metal/releases/download/v3.2.2/terraform-provider-metal_3.2.2_linux_386.zip",
+          "shasum": "67a3190a03743b1116b4c38228f76522aa7539bcb04a2026e649c490e8b5d82f"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-metal_3.2.2_linux_arm.zip",
+          "download_url": "https://github.com/equinix/terraform-provider-metal/releases/download/v3.2.2/terraform-provider-metal_3.2.2_linux_arm.zip",
+          "shasum": "b963557e9bd2f6a341927416a6c2c3e689da657133443b6a6208440f0efa87b7"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-metal_3.2.2_linux_amd64.zip",
+          "download_url": "https://github.com/equinix/terraform-provider-metal/releases/download/v3.2.2/terraform-provider-metal_3.2.2_linux_amd64.zip",
+          "shasum": "dc190466f631cb3fc1d9788daea9f8dc611fe1ffe058d542eac15dba2eaa9286"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-metal_3.2.2_linux_arm64.zip",
+          "download_url": "https://github.com/equinix/terraform-provider-metal/releases/download/v3.2.2/terraform-provider-metal_3.2.2_linux_arm64.zip",
+          "shasum": "3e3d6a6e79691e6117250d72f433216da417679592a9288ba448f5c455e3af57"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-metal_3.2.2_freebsd_amd64.zip",
+          "download_url": "https://github.com/equinix/terraform-provider-metal/releases/download/v3.2.2/terraform-provider-metal_3.2.2_freebsd_amd64.zip",
+          "shasum": "d270fa91dd18c469a59bf95cb5393dd37e0cef67c4ec398abdea57b5038bcaff"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-metal_3.2.2_freebsd_arm.zip",
+          "download_url": "https://github.com/equinix/terraform-provider-metal/releases/download/v3.2.2/terraform-provider-metal_3.2.2_freebsd_arm.zip",
+          "shasum": "a8498e7e305f3e317f583fb5a8b26358b92b808758807c09b5694b72c80d8695"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-metal_3.2.2_freebsd_386.zip",
+          "download_url": "https://github.com/equinix/terraform-provider-metal/releases/download/v3.2.2/terraform-provider-metal_3.2.2_freebsd_386.zip",
+          "shasum": "95ab7f7f985c95ba78c786ad6523b3873ac53b14425a9ce36a4568658e16c33c"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-metal_3.2.2_windows_amd64.zip",
+          "download_url": "https://github.com/equinix/terraform-provider-metal/releases/download/v3.2.2/terraform-provider-metal_3.2.2_windows_amd64.zip",
+          "shasum": "54d69d9d5ba91e37de7a86cf6cb1d66c83111967566a195f16925e4bddc695ad"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-metal_3.2.2_darwin_amd64.zip",
+          "download_url": "https://github.com/equinix/terraform-provider-metal/releases/download/v3.2.2/terraform-provider-metal_3.2.2_darwin_amd64.zip",
+          "shasum": "546b6ad06feae5beb2d7e8ce1e55a4f119fd3d28778e6b5d36d792cbbfc340ae"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-metal_3.2.2_darwin_arm64.zip",
+          "download_url": "https://github.com/equinix/terraform-provider-metal/releases/download/v3.2.2/terraform-provider-metal_3.2.2_darwin_arm64.zip",
+          "shasum": "a8c956cd2f8875238eb391550813a8e76879ca1c2fbb4b68c0ac514185d9374a"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-metal_3.2.2_freebsd_arm64.zip",
+          "download_url": "https://github.com/equinix/terraform-provider-metal/releases/download/v3.2.2/terraform-provider-metal_3.2.2_freebsd_arm64.zip",
+          "shasum": "42408b9c94f08c38a67df3fca402bc910a2ea43e115e81026620662927def11f"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-metal_3.2.2_windows_386.zip",
+          "download_url": "https://github.com/equinix/terraform-provider-metal/releases/download/v3.2.2/terraform-provider-metal_3.2.2_windows_386.zip",
+          "shasum": "7cc37301f0daa5b4ca3e24558871a99e5a387c5e8b23181b35cf260ae7eaafbd"
+        }
+      ]
+    },
+    {
+      "version": "3.2.1",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/equinix/terraform-provider-metal/releases/download/v3.2.1/terraform-provider-metal_3.2.1_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/equinix/terraform-provider-metal/releases/download/v3.2.1/terraform-provider-metal_3.2.1_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-metal_3.2.1_windows_amd64.zip",
+          "download_url": "https://github.com/equinix/terraform-provider-metal/releases/download/v3.2.1/terraform-provider-metal_3.2.1_windows_amd64.zip",
+          "shasum": "001983330b8845ad07f1e7d8462cd2ba2f372d54523d64e382ae5bdd4fe690a5"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-metal_3.2.1_windows_386.zip",
+          "download_url": "https://github.com/equinix/terraform-provider-metal/releases/download/v3.2.1/terraform-provider-metal_3.2.1_windows_386.zip",
+          "shasum": "27785aec3fa7d4b1d4638a7eb36ae70d15fe457e3371365bc16a8fb1349d9649"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-metal_3.2.1_freebsd_386.zip",
+          "download_url": "https://github.com/equinix/terraform-provider-metal/releases/download/v3.2.1/terraform-provider-metal_3.2.1_freebsd_386.zip",
+          "shasum": "a81ef5a2f29b928c23a83c86e157daa604e70c3ef9e2d49b494556103b58e9ad"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-metal_3.2.1_linux_arm64.zip",
+          "download_url": "https://github.com/equinix/terraform-provider-metal/releases/download/v3.2.1/terraform-provider-metal_3.2.1_linux_arm64.zip",
+          "shasum": "636c16ef8acc57605a0dc011dc05ef00276980553b70a2b35ab09185434902f7"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-metal_3.2.1_windows_arm.zip",
+          "download_url": "https://github.com/equinix/terraform-provider-metal/releases/download/v3.2.1/terraform-provider-metal_3.2.1_windows_arm.zip",
+          "shasum": "1ec8c9052c01acd43f10ac92998b715b693640bb1f53e4dad7b4f5b2a2b84574"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-metal_3.2.1_linux_arm.zip",
+          "download_url": "https://github.com/equinix/terraform-provider-metal/releases/download/v3.2.1/terraform-provider-metal_3.2.1_linux_arm.zip",
+          "shasum": "9ea35a527e95280f3440abf2670c449951c239f1ce5e8fd685e04af60b2d28ff"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-metal_3.2.1_linux_amd64.zip",
+          "download_url": "https://github.com/equinix/terraform-provider-metal/releases/download/v3.2.1/terraform-provider-metal_3.2.1_linux_amd64.zip",
+          "shasum": "84c82012f51f82977b27084e1d7410c020a5772645f3037c25f7e3df1a637611"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-metal_3.2.1_freebsd_amd64.zip",
+          "download_url": "https://github.com/equinix/terraform-provider-metal/releases/download/v3.2.1/terraform-provider-metal_3.2.1_freebsd_amd64.zip",
+          "shasum": "d2bc396da3a1b0110b64a305f09092136e3b10e4cdf99a4f1e013e01ffa6812d"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-metal_3.2.1_linux_386.zip",
+          "download_url": "https://github.com/equinix/terraform-provider-metal/releases/download/v3.2.1/terraform-provider-metal_3.2.1_linux_386.zip",
+          "shasum": "6b31691a28f1e6877e5c48894acdcc463f0baa74ae254a2acf6e148971f87810"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-metal_3.2.1_darwin_amd64.zip",
+          "download_url": "https://github.com/equinix/terraform-provider-metal/releases/download/v3.2.1/terraform-provider-metal_3.2.1_darwin_amd64.zip",
+          "shasum": "fde39924aa0de90b7d19da2dd4f561a7a8c92efb9e19ea1c319957ccd6019fdd"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-metal_3.2.1_darwin_arm64.zip",
+          "download_url": "https://github.com/equinix/terraform-provider-metal/releases/download/v3.2.1/terraform-provider-metal_3.2.1_darwin_arm64.zip",
+          "shasum": "57309a5d762744588c4a9ff3592fa446e123e62bd1ec6e502671375075d35647"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-metal_3.2.1_freebsd_arm.zip",
+          "download_url": "https://github.com/equinix/terraform-provider-metal/releases/download/v3.2.1/terraform-provider-metal_3.2.1_freebsd_arm.zip",
+          "shasum": "2a6b6cfb08a52f32e66142b21c3df72da3e66d5158a61e4fd1d56f29772b5460"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-metal_3.2.1_freebsd_arm64.zip",
+          "download_url": "https://github.com/equinix/terraform-provider-metal/releases/download/v3.2.1/terraform-provider-metal_3.2.1_freebsd_arm64.zip",
+          "shasum": "ed783f06adc8702ce6c171a23f918c998c89836a6fe8f4e4c7cd15b84b8708a5"
+        }
+      ]
+    },
+    {
+      "version": "3.2.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/equinix/terraform-provider-metal/releases/download/v3.2.0/terraform-provider-metal_3.2.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/equinix/terraform-provider-metal/releases/download/v3.2.0/terraform-provider-metal_3.2.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-metal_3.2.0_windows_386.zip",
+          "download_url": "https://github.com/equinix/terraform-provider-metal/releases/download/v3.2.0/terraform-provider-metal_3.2.0_windows_386.zip",
+          "shasum": "79dd26afcc0846864ede59e79ae07fdf6cc084315cd9e50f4e09c700d9d8dfb4"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-metal_3.2.0_windows_arm.zip",
+          "download_url": "https://github.com/equinix/terraform-provider-metal/releases/download/v3.2.0/terraform-provider-metal_3.2.0_windows_arm.zip",
+          "shasum": "4a53b56d7cab5a75dca16c4a285438f13fe07a37c45967668dae8e4a70b78a85"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-metal_3.2.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/equinix/terraform-provider-metal/releases/download/v3.2.0/terraform-provider-metal_3.2.0_freebsd_arm64.zip",
+          "shasum": "fcae7646861ccf3393828ac53d05487ba8547cf9f8a9da13553dcedf8dd2646e"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-metal_3.2.0_linux_386.zip",
+          "download_url": "https://github.com/equinix/terraform-provider-metal/releases/download/v3.2.0/terraform-provider-metal_3.2.0_linux_386.zip",
+          "shasum": "5c906ee75fbd1daa63dc40221015bfdcea7cec24ed7aa3687fcc18265556e379"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-metal_3.2.0_linux_amd64.zip",
+          "download_url": "https://github.com/equinix/terraform-provider-metal/releases/download/v3.2.0/terraform-provider-metal_3.2.0_linux_amd64.zip",
+          "shasum": "9e52d2d008846cb6db8d0cd0aac7e1c6c635fc65c192b0217b2e673d165def0f"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-metal_3.2.0_linux_arm64.zip",
+          "download_url": "https://github.com/equinix/terraform-provider-metal/releases/download/v3.2.0/terraform-provider-metal_3.2.0_linux_arm64.zip",
+          "shasum": "525b0f6d977437388b7ee7428bccd351e46af39a0883ce08f624b4dd173de8c2"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-metal_3.2.0_darwin_amd64.zip",
+          "download_url": "https://github.com/equinix/terraform-provider-metal/releases/download/v3.2.0/terraform-provider-metal_3.2.0_darwin_amd64.zip",
+          "shasum": "4fa88d43bd2370e420de6238f02f8ad668a0cd9e7f010a24a8bc0a76982ff3bc"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-metal_3.2.0_linux_arm.zip",
+          "download_url": "https://github.com/equinix/terraform-provider-metal/releases/download/v3.2.0/terraform-provider-metal_3.2.0_linux_arm.zip",
+          "shasum": "ecf34c7c8b3eb8cd61b381d8f26ec61b3d8b5d57a87fff97cb24331230286fef"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-metal_3.2.0_darwin_arm64.zip",
+          "download_url": "https://github.com/equinix/terraform-provider-metal/releases/download/v3.2.0/terraform-provider-metal_3.2.0_darwin_arm64.zip",
+          "shasum": "992e410067995537565f38ad9f93f4d66fabdc25a8303a1be418aefaf172daae"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-metal_3.2.0_freebsd_386.zip",
+          "download_url": "https://github.com/equinix/terraform-provider-metal/releases/download/v3.2.0/terraform-provider-metal_3.2.0_freebsd_386.zip",
+          "shasum": "6153771a66d1f5058e977a686e706f3ced64cbcb7cd623a9adf7e8ed3f0d08d8"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-metal_3.2.0_freebsd_arm.zip",
+          "download_url": "https://github.com/equinix/terraform-provider-metal/releases/download/v3.2.0/terraform-provider-metal_3.2.0_freebsd_arm.zip",
+          "shasum": "c2ca5c36358c03c996d97b8baca6809675f54010c021d5704124bd3815660c86"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-metal_3.2.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/equinix/terraform-provider-metal/releases/download/v3.2.0/terraform-provider-metal_3.2.0_freebsd_amd64.zip",
+          "shasum": "e2d4bfae4489142cfac31fb7939047226335c0fddf59c3544faeb1f3029a36d8"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-metal_3.2.0_windows_amd64.zip",
+          "download_url": "https://github.com/equinix/terraform-provider-metal/releases/download/v3.2.0/terraform-provider-metal_3.2.0_windows_amd64.zip",
+          "shasum": "e5c6727b6404beb3aa54bbc7eb3145bac29bab8135771f21754e093c178ee23f"
+        }
+      ]
+    },
+    {
+      "version": "3.1.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/equinix/terraform-provider-metal/releases/download/v3.1.0/terraform-provider-metal_3.1.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/equinix/terraform-provider-metal/releases/download/v3.1.0/terraform-provider-metal_3.1.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-metal_3.1.0_linux_amd64.zip",
+          "download_url": "https://github.com/equinix/terraform-provider-metal/releases/download/v3.1.0/terraform-provider-metal_3.1.0_linux_amd64.zip",
+          "shasum": "7d3b2f2e2d1a0073ae54070e5dee37713726f6401f26d046db8a5cf58c80cebc"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-metal_3.1.0_linux_386.zip",
+          "download_url": "https://github.com/equinix/terraform-provider-metal/releases/download/v3.1.0/terraform-provider-metal_3.1.0_linux_386.zip",
+          "shasum": "bd7000a809e2e96f87ac7ef90c953a05a8813feb220f27cccc50232f1ae02a50"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-metal_3.1.0_linux_arm64.zip",
+          "download_url": "https://github.com/equinix/terraform-provider-metal/releases/download/v3.1.0/terraform-provider-metal_3.1.0_linux_arm64.zip",
+          "shasum": "070b77456a3de02b623be29f1752b48c17100533a98661b7c6555ad2b60aeb1b"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-metal_3.1.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/equinix/terraform-provider-metal/releases/download/v3.1.0/terraform-provider-metal_3.1.0_freebsd_amd64.zip",
+          "shasum": "7fe35422891a14ed233080303468221d8a9f98cd74b0fe73688569cbfc19ff4c"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-metal_3.1.0_freebsd_386.zip",
+          "download_url": "https://github.com/equinix/terraform-provider-metal/releases/download/v3.1.0/terraform-provider-metal_3.1.0_freebsd_386.zip",
+          "shasum": "a9bb9bfe0928bbc15c132004b3ef573983bb14cc59af9fb492b4f59f2d159054"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-metal_3.1.0_freebsd_arm.zip",
+          "download_url": "https://github.com/equinix/terraform-provider-metal/releases/download/v3.1.0/terraform-provider-metal_3.1.0_freebsd_arm.zip",
+          "shasum": "1d9bf5ba1e05b55af6f5d3e37fa9c0dd4c9fed02e0d47112945c16561f10fe38"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-metal_3.1.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/equinix/terraform-provider-metal/releases/download/v3.1.0/terraform-provider-metal_3.1.0_freebsd_arm64.zip",
+          "shasum": "2b380fb077bb21296e1560c37efd051a7bb31fa488fbe525f54a166ace8cccc8"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-metal_3.1.0_windows_386.zip",
+          "download_url": "https://github.com/equinix/terraform-provider-metal/releases/download/v3.1.0/terraform-provider-metal_3.1.0_windows_386.zip",
+          "shasum": "140b4bfb72810b2e977e7fe442a5b69096db93fe3daff6e307574a541079eb42"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-metal_3.1.0_linux_arm.zip",
+          "download_url": "https://github.com/equinix/terraform-provider-metal/releases/download/v3.1.0/terraform-provider-metal_3.1.0_linux_arm.zip",
+          "shasum": "7d40ec64e8a3f77c272c9e0cfc8bb6fc148e11a130ef0f022291947313798ec1"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-metal_3.1.0_windows_arm.zip",
+          "download_url": "https://github.com/equinix/terraform-provider-metal/releases/download/v3.1.0/terraform-provider-metal_3.1.0_windows_arm.zip",
+          "shasum": "5b131619662a36af7f0691c9505d24462533965391039b5664855e50b64db7c4"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-metal_3.1.0_darwin_arm64.zip",
+          "download_url": "https://github.com/equinix/terraform-provider-metal/releases/download/v3.1.0/terraform-provider-metal_3.1.0_darwin_arm64.zip",
+          "shasum": "5120fd9f3164e06473d813206e4f06d3b330a351ef6f59114546e0170a49f542"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-metal_3.1.0_darwin_amd64.zip",
+          "download_url": "https://github.com/equinix/terraform-provider-metal/releases/download/v3.1.0/terraform-provider-metal_3.1.0_darwin_amd64.zip",
+          "shasum": "f1c755853d4c988fc616e8b1cf8407ed425a0e9ef35a441c0e9eb37657aa9907"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-metal_3.1.0_windows_amd64.zip",
+          "download_url": "https://github.com/equinix/terraform-provider-metal/releases/download/v3.1.0/terraform-provider-metal_3.1.0_windows_amd64.zip",
+          "shasum": "c0656d79d71b893fabcc8420774b8c2d5e2c77feb2b7fecd5dfb9be24228d392"
+        }
+      ]
+    },
+    {
+      "version": "3.0.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/equinix/terraform-provider-metal/releases/download/v3.0.0/terraform-provider-metal_3.0.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/equinix/terraform-provider-metal/releases/download/v3.0.0/terraform-provider-metal_3.0.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-metal_3.0.0_linux_arm.zip",
+          "download_url": "https://github.com/equinix/terraform-provider-metal/releases/download/v3.0.0/terraform-provider-metal_3.0.0_linux_arm.zip",
+          "shasum": "1772a889549adeb9c5fd4c3e353877150b6fa424946d02af3c64c9d96c90a54c"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-metal_3.0.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/equinix/terraform-provider-metal/releases/download/v3.0.0/terraform-provider-metal_3.0.0_freebsd_arm64.zip",
+          "shasum": "ce147ebe72ba8aea6422425e3a5703a568b5c0d1a7c9fda5c08eb53a2a6a74e3"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-metal_3.0.0_windows_arm.zip",
+          "download_url": "https://github.com/equinix/terraform-provider-metal/releases/download/v3.0.0/terraform-provider-metal_3.0.0_windows_arm.zip",
+          "shasum": "4cebd968c6ea578613d2f81af24b207139cd0fc96aec6e99a6de77d5d46d6c15"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-metal_3.0.0_windows_386.zip",
+          "download_url": "https://github.com/equinix/terraform-provider-metal/releases/download/v3.0.0/terraform-provider-metal_3.0.0_windows_386.zip",
+          "shasum": "d5d6becdf121cd37c602894bbe5038e35829d15c3a86b907ad941efaee8cfb67"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-metal_3.0.0_freebsd_386.zip",
+          "download_url": "https://github.com/equinix/terraform-provider-metal/releases/download/v3.0.0/terraform-provider-metal_3.0.0_freebsd_386.zip",
+          "shasum": "864dbd452d252ce6cfb2bef30ecb32c59d70e37999e99063350ca40003c1ddf2"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-metal_3.0.0_darwin_amd64.zip",
+          "download_url": "https://github.com/equinix/terraform-provider-metal/releases/download/v3.0.0/terraform-provider-metal_3.0.0_darwin_amd64.zip",
+          "shasum": "fc4fbb2d7a08ddd4dbb515ea721a6252bae4fb2135d97307ac00e27418460165"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-metal_3.0.0_linux_amd64.zip",
+          "download_url": "https://github.com/equinix/terraform-provider-metal/releases/download/v3.0.0/terraform-provider-metal_3.0.0_linux_amd64.zip",
+          "shasum": "7a56f097742a42b2fde6a641b65397404064c562581549599b2f7036bdc4839f"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-metal_3.0.0_linux_386.zip",
+          "download_url": "https://github.com/equinix/terraform-provider-metal/releases/download/v3.0.0/terraform-provider-metal_3.0.0_linux_386.zip",
+          "shasum": "52d5502f58daf66c3b253812ed3e0143d3718d25cef5efff96c90ec19242f89c"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-metal_3.0.0_linux_arm64.zip",
+          "download_url": "https://github.com/equinix/terraform-provider-metal/releases/download/v3.0.0/terraform-provider-metal_3.0.0_linux_arm64.zip",
+          "shasum": "e6f93caaccbd337ac4212232cbb6a2da6f4e3695a55048886bc3d4a78575b4dc"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-metal_3.0.0_windows_amd64.zip",
+          "download_url": "https://github.com/equinix/terraform-provider-metal/releases/download/v3.0.0/terraform-provider-metal_3.0.0_windows_amd64.zip",
+          "shasum": "93c5357f526fe85d269bc18baf1b818f90567e252a5ea9d9fbcfd98d6d6e60ca"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-metal_3.0.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/equinix/terraform-provider-metal/releases/download/v3.0.0/terraform-provider-metal_3.0.0_freebsd_amd64.zip",
+          "shasum": "e42222a4772aa0b00c229a5503652e5eadfe0fa9e76351636ad3696824528aeb"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-metal_3.0.0_darwin_arm64.zip",
+          "download_url": "https://github.com/equinix/terraform-provider-metal/releases/download/v3.0.0/terraform-provider-metal_3.0.0_darwin_arm64.zip",
+          "shasum": "f5b744eec7718b5eaae343c4f0ffbd47ec921106451ae6048b5882d097ef82c1"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-metal_3.0.0_freebsd_arm.zip",
+          "download_url": "https://github.com/equinix/terraform-provider-metal/releases/download/v3.0.0/terraform-provider-metal_3.0.0_freebsd_arm.zip",
+          "shasum": "69a015c5252376c313a1e0f1918a815562a4e0cee2ade938a469787331dd7121"
+        }
+      ]
+    },
+    {
+      "version": "2.1.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/equinix/terraform-provider-metal/releases/download/v2.1.0/terraform-provider-metal_2.1.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/equinix/terraform-provider-metal/releases/download/v2.1.0/terraform-provider-metal_2.1.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-metal_2.1.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/equinix/terraform-provider-metal/releases/download/v2.1.0/terraform-provider-metal_2.1.0_freebsd_arm64.zip",
+          "shasum": "8b9d8f1af726909dc4516da8a296ec9a208768841b1f5e9b4079a798646d61af"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-metal_2.1.0_freebsd_386.zip",
+          "download_url": "https://github.com/equinix/terraform-provider-metal/releases/download/v2.1.0/terraform-provider-metal_2.1.0_freebsd_386.zip",
+          "shasum": "b60ec31d3f987358d8cb7d17a61845a44aaa0d0406b4571a6b21f3924427873b"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-metal_2.1.0_linux_arm64.zip",
+          "download_url": "https://github.com/equinix/terraform-provider-metal/releases/download/v2.1.0/terraform-provider-metal_2.1.0_linux_arm64.zip",
+          "shasum": "c46a591a00aa74d025f9631744ec5b36b28e821498627afb1625f9e06453577c"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-metal_2.1.0_darwin_arm64.zip",
+          "download_url": "https://github.com/equinix/terraform-provider-metal/releases/download/v2.1.0/terraform-provider-metal_2.1.0_darwin_arm64.zip",
+          "shasum": "9af1d61ddb4f465380a3707a0f96b3fb4b2c8ff348c5d655d01b699f70fec0ad"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-metal_2.1.0_freebsd_arm.zip",
+          "download_url": "https://github.com/equinix/terraform-provider-metal/releases/download/v2.1.0/terraform-provider-metal_2.1.0_freebsd_arm.zip",
+          "shasum": "73854e1a62aad365d76024af68acc7c6851498c04fbc0ee761660dc1971fd8f1"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-metal_2.1.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/equinix/terraform-provider-metal/releases/download/v2.1.0/terraform-provider-metal_2.1.0_freebsd_amd64.zip",
+          "shasum": "c6728a4b9e800d0b52c1c7d21be05bd7e4f1825670864dcf0771d3d71d7097ee"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-metal_2.1.0_windows_arm.zip",
+          "download_url": "https://github.com/equinix/terraform-provider-metal/releases/download/v2.1.0/terraform-provider-metal_2.1.0_windows_arm.zip",
+          "shasum": "6f8526e064901eb7d3b8a9a1cb3dcd8de5f62711a585c982762e3ec8e5654c19"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-metal_2.1.0_linux_arm.zip",
+          "download_url": "https://github.com/equinix/terraform-provider-metal/releases/download/v2.1.0/terraform-provider-metal_2.1.0_linux_arm.zip",
+          "shasum": "38b3535286f3ff9d52ed61932f4d02dcda7a500b5bce27799f580be6b8339d78"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-metal_2.1.0_linux_386.zip",
+          "download_url": "https://github.com/equinix/terraform-provider-metal/releases/download/v2.1.0/terraform-provider-metal_2.1.0_linux_386.zip",
+          "shasum": "33cd3180fbd711e2b91a284ec2b7647ab03f0b1123d595f2b0d4a3ac98ba112c"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-metal_2.1.0_linux_amd64.zip",
+          "download_url": "https://github.com/equinix/terraform-provider-metal/releases/download/v2.1.0/terraform-provider-metal_2.1.0_linux_amd64.zip",
+          "shasum": "ec9766c03dbf2d1dd92110374fc0bb0727380d37f7a7618ad3311f372ecc38a9"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-metal_2.1.0_windows_386.zip",
+          "download_url": "https://github.com/equinix/terraform-provider-metal/releases/download/v2.1.0/terraform-provider-metal_2.1.0_windows_386.zip",
+          "shasum": "29069c0a6254120d08963fe0b4a3155981d4d713c8d02ae024ed4a80757a3e3e"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-metal_2.1.0_darwin_amd64.zip",
+          "download_url": "https://github.com/equinix/terraform-provider-metal/releases/download/v2.1.0/terraform-provider-metal_2.1.0_darwin_amd64.zip",
+          "shasum": "e1de1f161e2b22f7f7d5a9abda30a48f68ca394a4a6d79045b5e035f3daa31c9"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-metal_2.1.0_windows_amd64.zip",
+          "download_url": "https://github.com/equinix/terraform-provider-metal/releases/download/v2.1.0/terraform-provider-metal_2.1.0_windows_amd64.zip",
+          "shasum": "0ccaad1f995f97ce680ca4a2d0a301becd1b6cc929010e3abeb919eead849097"
+        }
+      ]
+    },
+    {
+      "version": "2.0.1",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/equinix/terraform-provider-metal/releases/download/v2.0.1/terraform-provider-metal_2.0.1_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/equinix/terraform-provider-metal/releases/download/v2.0.1/terraform-provider-metal_2.0.1_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-metal_2.0.1_linux_amd64.zip",
+          "download_url": "https://github.com/equinix/terraform-provider-metal/releases/download/v2.0.1/terraform-provider-metal_2.0.1_linux_amd64.zip",
+          "shasum": "a50282178e96f8c9aa36d7f9d625b30804991029b8900b69d999606b1403a9b3"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-metal_2.0.1_darwin_amd64.zip",
+          "download_url": "https://github.com/equinix/terraform-provider-metal/releases/download/v2.0.1/terraform-provider-metal_2.0.1_darwin_amd64.zip",
+          "shasum": "055d27d0b5a5eee7f48d948b2e2ea8204954fa4e45ffd203bab8593fb66291aa"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-metal_2.0.1_windows_386.zip",
+          "download_url": "https://github.com/equinix/terraform-provider-metal/releases/download/v2.0.1/terraform-provider-metal_2.0.1_windows_386.zip",
+          "shasum": "d589808da4d9311918580f1ca0029fb2dd166b05b19e927ba03520cef9bc4f80"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-metal_2.0.1_freebsd_arm.zip",
+          "download_url": "https://github.com/equinix/terraform-provider-metal/releases/download/v2.0.1/terraform-provider-metal_2.0.1_freebsd_arm.zip",
+          "shasum": "b02691dcb6d488b16976a27cb80b6cbefabd58aab2cb54cb0267aaf1c663b8b3"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-metal_2.0.1_freebsd_amd64.zip",
+          "download_url": "https://github.com/equinix/terraform-provider-metal/releases/download/v2.0.1/terraform-provider-metal_2.0.1_freebsd_amd64.zip",
+          "shasum": "df16e461d7f52b18ecd403c45107f090e792b6a5e3b0a68e3c7876d37fd6d931"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-metal_2.0.1_windows_arm.zip",
+          "download_url": "https://github.com/equinix/terraform-provider-metal/releases/download/v2.0.1/terraform-provider-metal_2.0.1_windows_arm.zip",
+          "shasum": "2dc856db0829147480922a0584c3f72894cd015699cb7b712ace02a18c19b0f5"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-metal_2.0.1_windows_amd64.zip",
+          "download_url": "https://github.com/equinix/terraform-provider-metal/releases/download/v2.0.1/terraform-provider-metal_2.0.1_windows_amd64.zip",
+          "shasum": "7835807eacfc8d1f4a81d9c9cf8d3db4f5a04770c8f5ee9fc670d0e7a352cc32"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-metal_2.0.1_freebsd_386.zip",
+          "download_url": "https://github.com/equinix/terraform-provider-metal/releases/download/v2.0.1/terraform-provider-metal_2.0.1_freebsd_386.zip",
+          "shasum": "c47df9ff3a6f4312f9d6695c3635a2bd849f548de5a2805b056a1d316f0bef5f"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-metal_2.0.1_linux_386.zip",
+          "download_url": "https://github.com/equinix/terraform-provider-metal/releases/download/v2.0.1/terraform-provider-metal_2.0.1_linux_386.zip",
+          "shasum": "2da94f3a92c859d88dc417f2301a4a343f74c24596e05a47fcfd7d7b31ac9786"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-metal_2.0.1_linux_arm64.zip",
+          "download_url": "https://github.com/equinix/terraform-provider-metal/releases/download/v2.0.1/terraform-provider-metal_2.0.1_linux_arm64.zip",
+          "shasum": "2be9be63f0b1dc6f7701fab349d23ac85dac0140e3618223f856fc875a7612a5"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-metal_2.0.1_linux_arm.zip",
+          "download_url": "https://github.com/equinix/terraform-provider-metal/releases/download/v2.0.1/terraform-provider-metal_2.0.1_linux_arm.zip",
+          "shasum": "6452e22cdb13f8150f8b22c973776ec69489a5b17b2a1b30cea20c00387393bc"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-metal_2.0.1_darwin_arm64.zip",
+          "download_url": "https://github.com/equinix/terraform-provider-metal/releases/download/v2.0.1/terraform-provider-metal_2.0.1_darwin_arm64.zip",
+          "shasum": "073ba05ca30ec92ac2eacb1b8539b154380999a15fffed0944d757e0f0a7e27b"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-metal_2.0.1_freebsd_arm64.zip",
+          "download_url": "https://github.com/equinix/terraform-provider-metal/releases/download/v2.0.1/terraform-provider-metal_2.0.1_freebsd_arm64.zip",
+          "shasum": "653186e06a141f8ecc4584ad45524e05dd6b8f2baf4893bae36d7d231359696c"
+        }
+      ]
+    },
+    {
+      "version": "2.0.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/equinix/terraform-provider-metal/releases/download/v2.0.0/terraform-provider-metal_2.0.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/equinix/terraform-provider-metal/releases/download/v2.0.0/terraform-provider-metal_2.0.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-metal_2.0.0_windows_arm.zip",
+          "download_url": "https://github.com/equinix/terraform-provider-metal/releases/download/v2.0.0/terraform-provider-metal_2.0.0_windows_arm.zip",
+          "shasum": "db3a53cabb48207679cfadf6c69fde3b3f859f255220ce7c74051af17b494b39"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-metal_2.0.0_freebsd_arm.zip",
+          "download_url": "https://github.com/equinix/terraform-provider-metal/releases/download/v2.0.0/terraform-provider-metal_2.0.0_freebsd_arm.zip",
+          "shasum": "cc7c5d6a88e865d4b0b56f79ec8a0e89694a6c2f3a2611ac67d86aaf09db961a"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-metal_2.0.0_linux_386.zip",
+          "download_url": "https://github.com/equinix/terraform-provider-metal/releases/download/v2.0.0/terraform-provider-metal_2.0.0_linux_386.zip",
+          "shasum": "88dfe77e0ce5ce02f0768e837cc13ddad3b84ea234fe5f89eb8191a24024ba80"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-metal_2.0.0_linux_arm64.zip",
+          "download_url": "https://github.com/equinix/terraform-provider-metal/releases/download/v2.0.0/terraform-provider-metal_2.0.0_linux_arm64.zip",
+          "shasum": "e5a0af05f0378c66196114375d77460b30984c2d3976f39ebf6c5f7aaa16189b"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-metal_2.0.0_darwin_amd64.zip",
+          "download_url": "https://github.com/equinix/terraform-provider-metal/releases/download/v2.0.0/terraform-provider-metal_2.0.0_darwin_amd64.zip",
+          "shasum": "948526837d111279dfa19ec6de4d20bc9f365fac13d00c2887ef7988fc700a38"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-metal_2.0.0_freebsd_386.zip",
+          "download_url": "https://github.com/equinix/terraform-provider-metal/releases/download/v2.0.0/terraform-provider-metal_2.0.0_freebsd_386.zip",
+          "shasum": "d8ea83c19a56feb6b398b34d457263e3f767ba259e8804181f8a11e48e646b27"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-metal_2.0.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/equinix/terraform-provider-metal/releases/download/v2.0.0/terraform-provider-metal_2.0.0_freebsd_arm64.zip",
+          "shasum": "d70c3fe6abb1fbb44e022924218aaf8927fa06e2ee08c7add343d7c1a45aa848"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-metal_2.0.0_linux_amd64.zip",
+          "download_url": "https://github.com/equinix/terraform-provider-metal/releases/download/v2.0.0/terraform-provider-metal_2.0.0_linux_amd64.zip",
+          "shasum": "4161dba0f8e1e1051c590e4ebb59236c17766624f390e4eb2586e02659fb3017"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-metal_2.0.0_windows_amd64.zip",
+          "download_url": "https://github.com/equinix/terraform-provider-metal/releases/download/v2.0.0/terraform-provider-metal_2.0.0_windows_amd64.zip",
+          "shasum": "88b0a2a705746ee97e7f086aae0f7c557f83c9f42d2778a2d0249b7b2500b9cf"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-metal_2.0.0_linux_arm.zip",
+          "download_url": "https://github.com/equinix/terraform-provider-metal/releases/download/v2.0.0/terraform-provider-metal_2.0.0_linux_arm.zip",
+          "shasum": "fe3cd482722eeb52b15f0b86d6074fbc799cc18bd7594f5d622631788deb87e4"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-metal_2.0.0_windows_386.zip",
+          "download_url": "https://github.com/equinix/terraform-provider-metal/releases/download/v2.0.0/terraform-provider-metal_2.0.0_windows_386.zip",
+          "shasum": "4465cd0aa5dbd044940ec460681de99e08f7dbb7f427e7ab107d4db0281a7929"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-metal_2.0.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/equinix/terraform-provider-metal/releases/download/v2.0.0/terraform-provider-metal_2.0.0_freebsd_amd64.zip",
+          "shasum": "95f3e05485266632024ab8e8bb08b19fe4593e8495f524adced24d2e40b728b5"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-metal_2.0.0_darwin_arm64.zip",
+          "download_url": "https://github.com/equinix/terraform-provider-metal/releases/download/v2.0.0/terraform-provider-metal_2.0.0_darwin_arm64.zip",
+          "shasum": "fca7c67c27aa1dbc7612ee1d726d926cdff20c0d5871355feda49ac1c416f65e"
+        }
+      ]
+    },
+    {
+      "version": "1.1.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/equinix/terraform-provider-metal/releases/download/v1.1.0/terraform-provider-metal_1.1.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/equinix/terraform-provider-metal/releases/download/v1.1.0/terraform-provider-metal_1.1.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-metal_1.1.0_linux_arm.zip",
+          "download_url": "https://github.com/equinix/terraform-provider-metal/releases/download/v1.1.0/terraform-provider-metal_1.1.0_linux_arm.zip",
+          "shasum": "f6edceb76ca69359cce2064f70dcf08144de998e559eaceba8dfd0846a761e43"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-metal_1.1.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/equinix/terraform-provider-metal/releases/download/v1.1.0/terraform-provider-metal_1.1.0_freebsd_arm64.zip",
+          "shasum": "a9e2f1596f472693a66cc1b3571e8a1325de233c78e6a548d1adacd5b7c934b8"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-metal_1.1.0_linux_arm64.zip",
+          "download_url": "https://github.com/equinix/terraform-provider-metal/releases/download/v1.1.0/terraform-provider-metal_1.1.0_linux_arm64.zip",
+          "shasum": "582d0e81455f12759e8e9ca17ce75323b51c661d187367cfed21e9f4277c86a0"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-metal_1.1.0_windows_386.zip",
+          "download_url": "https://github.com/equinix/terraform-provider-metal/releases/download/v1.1.0/terraform-provider-metal_1.1.0_windows_386.zip",
+          "shasum": "7a61c7cf256b47621b4407d16cce964a50c7b75674952fb812d2e2cb04fdda6e"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-metal_1.1.0_windows_amd64.zip",
+          "download_url": "https://github.com/equinix/terraform-provider-metal/releases/download/v1.1.0/terraform-provider-metal_1.1.0_windows_amd64.zip",
+          "shasum": "68bab42ebdefb86da5374e16897be743ccbd4cdd5968cf0c1cf0a16791a99a5e"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-metal_1.1.0_freebsd_arm.zip",
+          "download_url": "https://github.com/equinix/terraform-provider-metal/releases/download/v1.1.0/terraform-provider-metal_1.1.0_freebsd_arm.zip",
+          "shasum": "3fa3f8d7d7098a70c02f866ea45c718a0a2bec611730595c41b94251eed6f445"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-metal_1.1.0_darwin_amd64.zip",
+          "download_url": "https://github.com/equinix/terraform-provider-metal/releases/download/v1.1.0/terraform-provider-metal_1.1.0_darwin_amd64.zip",
+          "shasum": "400c107fa0e9a5e31a7e330295a2e48e70503fd908296aba33d1008ddb7840bd"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-metal_1.1.0_linux_386.zip",
+          "download_url": "https://github.com/equinix/terraform-provider-metal/releases/download/v1.1.0/terraform-provider-metal_1.1.0_linux_386.zip",
+          "shasum": "b420f328e78a645a5d362b078a07ff0223b9bc285a301fed5a9e36b625ef0aae"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-metal_1.1.0_linux_amd64.zip",
+          "download_url": "https://github.com/equinix/terraform-provider-metal/releases/download/v1.1.0/terraform-provider-metal_1.1.0_linux_amd64.zip",
+          "shasum": "fd2746ea1a4a192a9ea8d91eef92351d7feffba982b2645d0c9a9eb5a2cd97ba"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-metal_1.1.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/equinix/terraform-provider-metal/releases/download/v1.1.0/terraform-provider-metal_1.1.0_freebsd_amd64.zip",
+          "shasum": "95feee424de8de1f1612e633267bfbcfc0dedc82d841eb8abd0b0cc671418a05"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-metal_1.1.0_freebsd_386.zip",
+          "download_url": "https://github.com/equinix/terraform-provider-metal/releases/download/v1.1.0/terraform-provider-metal_1.1.0_freebsd_386.zip",
+          "shasum": "4998994a71aeb88a3d5e909c30e3aa70a56a26a6764d266a1493958352157e73"
+        }
+      ]
+    },
+    {
+      "version": "1.0.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/equinix/terraform-provider-metal/releases/download/v1.0.0/terraform-provider-metal_1.0.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/equinix/terraform-provider-metal/releases/download/v1.0.0/terraform-provider-metal_1.0.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-metal_1.0.0_freebsd_386.zip",
+          "download_url": "https://github.com/equinix/terraform-provider-metal/releases/download/v1.0.0/terraform-provider-metal_1.0.0_freebsd_386.zip",
+          "shasum": "b530619842716e48342fc79b04b2b261c89bc26019c9bac4993ea532b17b3b89"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-metal_1.0.0_windows_386.zip",
+          "download_url": "https://github.com/equinix/terraform-provider-metal/releases/download/v1.0.0/terraform-provider-metal_1.0.0_windows_386.zip",
+          "shasum": "7bc75f9b60928d8b843e4342b069724e224ff051c54e606efaa1b080d25e8f6e"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-metal_1.0.0_linux_arm.zip",
+          "download_url": "https://github.com/equinix/terraform-provider-metal/releases/download/v1.0.0/terraform-provider-metal_1.0.0_linux_arm.zip",
+          "shasum": "0fb605b2271883a8a76d330ca479687f8ee001f47594ff289f7aeb9df4d2265a"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-metal_1.0.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/equinix/terraform-provider-metal/releases/download/v1.0.0/terraform-provider-metal_1.0.0_freebsd_amd64.zip",
+          "shasum": "0d866ece81ff174d5a25890ed18672e15a5ddd88834335289b62541690076ab8"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-metal_1.0.0_freebsd_arm.zip",
+          "download_url": "https://github.com/equinix/terraform-provider-metal/releases/download/v1.0.0/terraform-provider-metal_1.0.0_freebsd_arm.zip",
+          "shasum": "c3321a23259cbdb0488a0450a85197db4a467776287e96cf67c5731d9f83c58e"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-metal_1.0.0_darwin_amd64.zip",
+          "download_url": "https://github.com/equinix/terraform-provider-metal/releases/download/v1.0.0/terraform-provider-metal_1.0.0_darwin_amd64.zip",
+          "shasum": "06bf3f257e490891a9470e6b559d27b4136c2a699d05eb5690cad5fec98d7d4d"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-metal_1.0.0_windows_amd64.zip",
+          "download_url": "https://github.com/equinix/terraform-provider-metal/releases/download/v1.0.0/terraform-provider-metal_1.0.0_windows_amd64.zip",
+          "shasum": "6528716f0fdd24b4eada6ca5b526f12f19bdf987e998abc2ec5942d59986be6a"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-metal_1.0.0_linux_386.zip",
+          "download_url": "https://github.com/equinix/terraform-provider-metal/releases/download/v1.0.0/terraform-provider-metal_1.0.0_linux_386.zip",
+          "shasum": "0d1312af7461a3ee6def3f91e82ac0b06c66667423c459791cf52dda75527428"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-metal_1.0.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/equinix/terraform-provider-metal/releases/download/v1.0.0/terraform-provider-metal_1.0.0_freebsd_arm64.zip",
+          "shasum": "6045a87e5b74c90fbe07352aedab1ec3175c421b36caebeaacc1f7446bede27c"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-metal_1.0.0_linux_arm64.zip",
+          "download_url": "https://github.com/equinix/terraform-provider-metal/releases/download/v1.0.0/terraform-provider-metal_1.0.0_linux_arm64.zip",
+          "shasum": "3d12c99b463f732eb5f4a81f38b6eeba4314892669f4ce3ced8d91cd2b9209a3"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-metal_1.0.0_linux_amd64.zip",
+          "download_url": "https://github.com/equinix/terraform-provider-metal/releases/download/v1.0.0/terraform-provider-metal_1.0.0_linux_amd64.zip",
+          "shasum": "2f5f6f582bd11a24cca99fbde1da31999dd8c3d1117f17ee2d5f9eb048e02100"
+        }
+      ]
+    }
+  ]
+}

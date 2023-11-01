@@ -1,0 +1,611 @@
+{
+  "repository": "https://github.com/granular-oss/terraform-provider-credstash",
+  "versions": [
+    {
+      "version": "0.7.1",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/granular-oss/terraform-provider-credstash/releases/download/v0.7.1/terraform-provider-credstash_0.7.1_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/granular-oss/terraform-provider-credstash/releases/download/v0.7.1/terraform-provider-credstash_0.7.1_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-credstash_0.7.1_linux_arm64.zip",
+          "download_url": "https://github.com/granular-oss/terraform-provider-credstash/releases/download/v0.7.1/terraform-provider-credstash_0.7.1_linux_arm64.zip",
+          "shasum": "3bc1fed63ceb2007c8f9326985adb506509023a76f823b67544167f246668651"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-credstash_0.7.1_freebsd_arm64.zip",
+          "download_url": "https://github.com/granular-oss/terraform-provider-credstash/releases/download/v0.7.1/terraform-provider-credstash_0.7.1_freebsd_arm64.zip",
+          "shasum": "161fdf0172d1369d491d1e3acb00cf40a7d7f040e559c5024d306c63fa12eaa3"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-credstash_0.7.1_freebsd_386.zip",
+          "download_url": "https://github.com/granular-oss/terraform-provider-credstash/releases/download/v0.7.1/terraform-provider-credstash_0.7.1_freebsd_386.zip",
+          "shasum": "bff02b82e4fed47926c26f22039cc0d5d8e4e4d6bd530d30eaca9ad7d9f50e83"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-credstash_0.7.1_freebsd_arm.zip",
+          "download_url": "https://github.com/granular-oss/terraform-provider-credstash/releases/download/v0.7.1/terraform-provider-credstash_0.7.1_freebsd_arm.zip",
+          "shasum": "d89f42caf61904cc7a9a8363c23391a891d06be8a48799a9440711f159cfb0d9"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-credstash_0.7.1_darwin_amd64.zip",
+          "download_url": "https://github.com/granular-oss/terraform-provider-credstash/releases/download/v0.7.1/terraform-provider-credstash_0.7.1_darwin_amd64.zip",
+          "shasum": "5365d5d8caa00d405689a4b72ee234acaaf25fdc1c509cb2e6f4d433baf7dd59"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-credstash_0.7.1_windows_386.zip",
+          "download_url": "https://github.com/granular-oss/terraform-provider-credstash/releases/download/v0.7.1/terraform-provider-credstash_0.7.1_windows_386.zip",
+          "shasum": "14a465befb974eaaf6b5d0783cef1c0f968214d033acf33005c511b87ee9aa0e"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-credstash_0.7.1_windows_amd64.zip",
+          "download_url": "https://github.com/granular-oss/terraform-provider-credstash/releases/download/v0.7.1/terraform-provider-credstash_0.7.1_windows_amd64.zip",
+          "shasum": "8c0d5be9092da1c6e6f27bc4d1faf2092ee4306b06a40a58766ca9191331edbc"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-credstash_0.7.1_windows_arm.zip",
+          "download_url": "https://github.com/granular-oss/terraform-provider-credstash/releases/download/v0.7.1/terraform-provider-credstash_0.7.1_windows_arm.zip",
+          "shasum": "7aa8fcfcf868be2d95991d341319df53da1353da40efff5e67aaee8d812a8040"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-credstash_0.7.1_linux_386.zip",
+          "download_url": "https://github.com/granular-oss/terraform-provider-credstash/releases/download/v0.7.1/terraform-provider-credstash_0.7.1_linux_386.zip",
+          "shasum": "59d309cefaca89999d05b557b54a7c0b6b62bff5a95e0785f89ba36367f30ada"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-credstash_0.7.1_linux_arm.zip",
+          "download_url": "https://github.com/granular-oss/terraform-provider-credstash/releases/download/v0.7.1/terraform-provider-credstash_0.7.1_linux_arm.zip",
+          "shasum": "21cec8fd454f0005025a7974b75211a52334b2cf3971c5faf61b01f6949c7313"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-credstash_0.7.1_linux_amd64.zip",
+          "download_url": "https://github.com/granular-oss/terraform-provider-credstash/releases/download/v0.7.1/terraform-provider-credstash_0.7.1_linux_amd64.zip",
+          "shasum": "c2f247f24eaf5b1491ba12d08bc9a4a46080dba0c265a88a2910e3253da35b29"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-credstash_0.7.1_darwin_arm64.zip",
+          "download_url": "https://github.com/granular-oss/terraform-provider-credstash/releases/download/v0.7.1/terraform-provider-credstash_0.7.1_darwin_arm64.zip",
+          "shasum": "0b89e9edc6aff9436b340a836251cec3b44b0ad2045387f825e8ec3d0b8d15ad"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-credstash_0.7.1_freebsd_amd64.zip",
+          "download_url": "https://github.com/granular-oss/terraform-provider-credstash/releases/download/v0.7.1/terraform-provider-credstash_0.7.1_freebsd_amd64.zip",
+          "shasum": "38821f4e06e663e7ea7f0ae5f501ff059facd4c59fd7b3e55f98afb10ba36253"
+        }
+      ]
+    },
+    {
+      "version": "0.7.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/granular-oss/terraform-provider-credstash/releases/download/v0.7.0/terraform-provider-credstash_0.7.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/granular-oss/terraform-provider-credstash/releases/download/v0.7.0/terraform-provider-credstash_0.7.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-credstash_0.7.0_windows_386.zip",
+          "download_url": "https://github.com/granular-oss/terraform-provider-credstash/releases/download/v0.7.0/terraform-provider-credstash_0.7.0_windows_386.zip",
+          "shasum": "ceb559121091701ae574d6d1bcce12034433fe69e9734dfde4fc303610f3e37d"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-credstash_0.7.0_linux_386.zip",
+          "download_url": "https://github.com/granular-oss/terraform-provider-credstash/releases/download/v0.7.0/terraform-provider-credstash_0.7.0_linux_386.zip",
+          "shasum": "96a663fdb0fbd153747fc584f53832898d71bdd3092a69c7b245e0e25a000d26"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-credstash_0.7.0_freebsd_arm.zip",
+          "download_url": "https://github.com/granular-oss/terraform-provider-credstash/releases/download/v0.7.0/terraform-provider-credstash_0.7.0_freebsd_arm.zip",
+          "shasum": "4b8b7e22a82bf6eed2f865a339de19e6da96ef15181c0d7b965ddd757760bfaf"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-credstash_0.7.0_linux_arm64.zip",
+          "download_url": "https://github.com/granular-oss/terraform-provider-credstash/releases/download/v0.7.0/terraform-provider-credstash_0.7.0_linux_arm64.zip",
+          "shasum": "1968efa56425cd085cbe79d870d080f47b8cd0232b65a22aacef368939464fef"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-credstash_0.7.0_windows_amd64.zip",
+          "download_url": "https://github.com/granular-oss/terraform-provider-credstash/releases/download/v0.7.0/terraform-provider-credstash_0.7.0_windows_amd64.zip",
+          "shasum": "d6a18617677890fb1a2c036a7314415022def245495c3d7c3273623d7c1e02c7"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-credstash_0.7.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/granular-oss/terraform-provider-credstash/releases/download/v0.7.0/terraform-provider-credstash_0.7.0_freebsd_arm64.zip",
+          "shasum": "046a3ec10801ed2b0ba0e8f702df3554e8ac201fb7f9fac924c1a63f343fb284"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-credstash_0.7.0_windows_arm.zip",
+          "download_url": "https://github.com/granular-oss/terraform-provider-credstash/releases/download/v0.7.0/terraform-provider-credstash_0.7.0_windows_arm.zip",
+          "shasum": "8baaa48b4f1ea6308895d92119a3b4d50eb420dc28999fe49ffa228d4b580927"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-credstash_0.7.0_linux_arm.zip",
+          "download_url": "https://github.com/granular-oss/terraform-provider-credstash/releases/download/v0.7.0/terraform-provider-credstash_0.7.0_linux_arm.zip",
+          "shasum": "f215f76fca8aaeed987d8fe4cf7f748f678ebb418b4dc398e9e54c12830d4b35"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-credstash_0.7.0_linux_amd64.zip",
+          "download_url": "https://github.com/granular-oss/terraform-provider-credstash/releases/download/v0.7.0/terraform-provider-credstash_0.7.0_linux_amd64.zip",
+          "shasum": "a1f2e60a424e5e08ded870bbcf28c2a1f8db273618de3ae73504fe5de38caa2a"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-credstash_0.7.0_darwin_amd64.zip",
+          "download_url": "https://github.com/granular-oss/terraform-provider-credstash/releases/download/v0.7.0/terraform-provider-credstash_0.7.0_darwin_amd64.zip",
+          "shasum": "4a70b18dbf20b0ea06b840479a4eef277a10aafefc4e0a7bb512cca68a3b4799"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-credstash_0.7.0_darwin_arm64.zip",
+          "download_url": "https://github.com/granular-oss/terraform-provider-credstash/releases/download/v0.7.0/terraform-provider-credstash_0.7.0_darwin_arm64.zip",
+          "shasum": "db45104056c4a0cf30c54268c4f28fd039447a42c826cfbf88a41cd88f5c07bc"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-credstash_0.7.0_freebsd_386.zip",
+          "download_url": "https://github.com/granular-oss/terraform-provider-credstash/releases/download/v0.7.0/terraform-provider-credstash_0.7.0_freebsd_386.zip",
+          "shasum": "6ba8a4f8f47cde8de601659bb4dd16b5161188441d9c57cc113d7897db336baa"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-credstash_0.7.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/granular-oss/terraform-provider-credstash/releases/download/v0.7.0/terraform-provider-credstash_0.7.0_freebsd_amd64.zip",
+          "shasum": "689485d2e329386521f689ab5369ce99d97d477e0ed336442ad9c65fbd40f8a2"
+        }
+      ]
+    },
+    {
+      "version": "0.6.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/granular-oss/terraform-provider-credstash/releases/download/v0.6.0/terraform-provider-credstash_0.6.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/granular-oss/terraform-provider-credstash/releases/download/v0.6.0/terraform-provider-credstash_0.6.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-credstash_0.6.0_darwin_amd64.zip",
+          "download_url": "https://github.com/granular-oss/terraform-provider-credstash/releases/download/v0.6.0/terraform-provider-credstash_0.6.0_darwin_amd64.zip",
+          "shasum": "2cd7348ebda70d3cbfa75bb7cf75e6be27789cc393fb8834e3e62d6b6cde0d95"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-credstash_0.6.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/granular-oss/terraform-provider-credstash/releases/download/v0.6.0/terraform-provider-credstash_0.6.0_freebsd_arm64.zip",
+          "shasum": "010e5e3917670e097cc8160756354939ef7495c8028a40607f8725c68ddadd27"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-credstash_0.6.0_darwin_arm64.zip",
+          "download_url": "https://github.com/granular-oss/terraform-provider-credstash/releases/download/v0.6.0/terraform-provider-credstash_0.6.0_darwin_arm64.zip",
+          "shasum": "daf795359213048dd702e13d63bc9a110a391c4105bf889443418a783bfcc457"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-credstash_0.6.0_linux_arm.zip",
+          "download_url": "https://github.com/granular-oss/terraform-provider-credstash/releases/download/v0.6.0/terraform-provider-credstash_0.6.0_linux_arm.zip",
+          "shasum": "edf7c4b4c51483338a2235f2b7a98324ce96f86578d0a50f1046549611becf8c"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-credstash_0.6.0_windows_amd64.zip",
+          "download_url": "https://github.com/granular-oss/terraform-provider-credstash/releases/download/v0.6.0/terraform-provider-credstash_0.6.0_windows_amd64.zip",
+          "shasum": "a41e6c215683042967a6467c93284340bd1dfbe0efa39faa29a0ab92dc0e1a24"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-credstash_0.6.0_linux_386.zip",
+          "download_url": "https://github.com/granular-oss/terraform-provider-credstash/releases/download/v0.6.0/terraform-provider-credstash_0.6.0_linux_386.zip",
+          "shasum": "5bd9805dce3f5e046ecde87aa283257c65654a463229cb55ee62231bc3f2e331"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-credstash_0.6.0_linux_amd64.zip",
+          "download_url": "https://github.com/granular-oss/terraform-provider-credstash/releases/download/v0.6.0/terraform-provider-credstash_0.6.0_linux_amd64.zip",
+          "shasum": "1186991d77a6a1cd54e14eb19ca864aad25485a69944918b5e04e7bdc7b30c36"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-credstash_0.6.0_windows_arm.zip",
+          "download_url": "https://github.com/granular-oss/terraform-provider-credstash/releases/download/v0.6.0/terraform-provider-credstash_0.6.0_windows_arm.zip",
+          "shasum": "992e363972fda1dadfc573a6fec770ec091f3dd1ebc10e19095b8524a8e6f18b"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-credstash_0.6.0_windows_386.zip",
+          "download_url": "https://github.com/granular-oss/terraform-provider-credstash/releases/download/v0.6.0/terraform-provider-credstash_0.6.0_windows_386.zip",
+          "shasum": "1ac6f310095d73a3741c0e0e69e4d660b3de4f7fd52583b3fd7696084b6edbbd"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-credstash_0.6.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/granular-oss/terraform-provider-credstash/releases/download/v0.6.0/terraform-provider-credstash_0.6.0_freebsd_amd64.zip",
+          "shasum": "dfd3542ea78a41e273b6d5489b78c5a8d0f198b8560f152a78f7c8f259ef95ec"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-credstash_0.6.0_freebsd_386.zip",
+          "download_url": "https://github.com/granular-oss/terraform-provider-credstash/releases/download/v0.6.0/terraform-provider-credstash_0.6.0_freebsd_386.zip",
+          "shasum": "7d1128f0957600996953f3d33cd115f2f77995767cac4ae2c2a24beed9ec84a0"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-credstash_0.6.0_freebsd_arm.zip",
+          "download_url": "https://github.com/granular-oss/terraform-provider-credstash/releases/download/v0.6.0/terraform-provider-credstash_0.6.0_freebsd_arm.zip",
+          "shasum": "e2bedf1d3d176c7fcccedb940799a73dfd95b00799f6a4151b11175d316eff07"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-credstash_0.6.0_linux_arm64.zip",
+          "download_url": "https://github.com/granular-oss/terraform-provider-credstash/releases/download/v0.6.0/terraform-provider-credstash_0.6.0_linux_arm64.zip",
+          "shasum": "eac266b11c814f1ec7250400f49d23e7c8bdf0b9739bf99a66d9f88c46700553"
+        }
+      ]
+    },
+    {
+      "version": "0.6.1",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/granular-oss/terraform-provider-credstash/releases/download/v0.6.1/terraform-provider-credstash_0.6.1_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/granular-oss/terraform-provider-credstash/releases/download/v0.6.1/terraform-provider-credstash_0.6.1_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-credstash_0.6.1_darwin_arm64.zip",
+          "download_url": "https://github.com/granular-oss/terraform-provider-credstash/releases/download/v0.6.1/terraform-provider-credstash_0.6.1_darwin_arm64.zip",
+          "shasum": "b7f913a3338af18a00b79ab1ae9fcac60ea86b6c937ec37a9f4a38fa1db92b28"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-credstash_0.6.1_linux_arm64.zip",
+          "download_url": "https://github.com/granular-oss/terraform-provider-credstash/releases/download/v0.6.1/terraform-provider-credstash_0.6.1_linux_arm64.zip",
+          "shasum": "35828e3a2db7f2880e28e40711a5676e70eda60a22f743c524036edc36c762e6"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-credstash_0.6.1_freebsd_amd64.zip",
+          "download_url": "https://github.com/granular-oss/terraform-provider-credstash/releases/download/v0.6.1/terraform-provider-credstash_0.6.1_freebsd_amd64.zip",
+          "shasum": "6fb6878d605f39e61921967fad2657298136935a82fab23411e5b3d770d13f25"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-credstash_0.6.1_windows_386.zip",
+          "download_url": "https://github.com/granular-oss/terraform-provider-credstash/releases/download/v0.6.1/terraform-provider-credstash_0.6.1_windows_386.zip",
+          "shasum": "680eecd8a2029a70d10e20bdaaae280b1d8dceffc5165beb40874e7abd7abcc4"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-credstash_0.6.1_freebsd_arm64.zip",
+          "download_url": "https://github.com/granular-oss/terraform-provider-credstash/releases/download/v0.6.1/terraform-provider-credstash_0.6.1_freebsd_arm64.zip",
+          "shasum": "36a45a26792d121aa4777aa2fb63146c45b663db58e614650b3e21afc50fe95b"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-credstash_0.6.1_linux_386.zip",
+          "download_url": "https://github.com/granular-oss/terraform-provider-credstash/releases/download/v0.6.1/terraform-provider-credstash_0.6.1_linux_386.zip",
+          "shasum": "dc7d45b079354f25068fc4d991bbde0fe94461ffd2310720425a209b4b73fade"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-credstash_0.6.1_linux_amd64.zip",
+          "download_url": "https://github.com/granular-oss/terraform-provider-credstash/releases/download/v0.6.1/terraform-provider-credstash_0.6.1_linux_amd64.zip",
+          "shasum": "d45d99f8ffd13ea2d65ca2b4972d2070dbc044f5c0ccd34ffc0f1acf45a4780d"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-credstash_0.6.1_linux_arm.zip",
+          "download_url": "https://github.com/granular-oss/terraform-provider-credstash/releases/download/v0.6.1/terraform-provider-credstash_0.6.1_linux_arm.zip",
+          "shasum": "99fea283e6ca26da2013b73acb0c955f25cc549b1998d11f0c0cb29d3fa0f392"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-credstash_0.6.1_freebsd_386.zip",
+          "download_url": "https://github.com/granular-oss/terraform-provider-credstash/releases/download/v0.6.1/terraform-provider-credstash_0.6.1_freebsd_386.zip",
+          "shasum": "1d44c66e55b23e773b91a53614253cb94fa62a950532313ffab77768a22258c4"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-credstash_0.6.1_windows_amd64.zip",
+          "download_url": "https://github.com/granular-oss/terraform-provider-credstash/releases/download/v0.6.1/terraform-provider-credstash_0.6.1_windows_amd64.zip",
+          "shasum": "22a6696002af68f49b76aa943c74c6f701d34fb311bf143675d38930f1290548"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-credstash_0.6.1_freebsd_arm.zip",
+          "download_url": "https://github.com/granular-oss/terraform-provider-credstash/releases/download/v0.6.1/terraform-provider-credstash_0.6.1_freebsd_arm.zip",
+          "shasum": "5aef6b814cf3534498dd76c955ccf0114b7177256ecb76883ad736e4c2338559"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-credstash_0.6.1_darwin_amd64.zip",
+          "download_url": "https://github.com/granular-oss/terraform-provider-credstash/releases/download/v0.6.1/terraform-provider-credstash_0.6.1_darwin_amd64.zip",
+          "shasum": "724e9c16cba3e9370958b0596f7c7ff445e64eda7122ad1ba09b9869a4f18d4c"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-credstash_0.6.1_windows_arm.zip",
+          "download_url": "https://github.com/granular-oss/terraform-provider-credstash/releases/download/v0.6.1/terraform-provider-credstash_0.6.1_windows_arm.zip",
+          "shasum": "8e0d2f212c3230fc657e5be961190b58d160d9dc5a4902e5630e469dca58181a"
+        }
+      ]
+    },
+    {
+      "version": "0.6.0-alpha.2",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/granular-oss/terraform-provider-credstash/releases/download/v0.6.0-alpha.2/terraform-provider-credstash_0.6.0-alpha.2_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/granular-oss/terraform-provider-credstash/releases/download/v0.6.0-alpha.2/terraform-provider-credstash_0.6.0-alpha.2_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-credstash_0.6.0-alpha.2_windows_arm.zip",
+          "download_url": "https://github.com/granular-oss/terraform-provider-credstash/releases/download/v0.6.0-alpha.2/terraform-provider-credstash_0.6.0-alpha.2_windows_arm.zip",
+          "shasum": "907967a65745b5a08fcbccc17a758076ae7f77a82893f84ce77e9095455a686c"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-credstash_0.6.0-alpha.2_freebsd_amd64.zip",
+          "download_url": "https://github.com/granular-oss/terraform-provider-credstash/releases/download/v0.6.0-alpha.2/terraform-provider-credstash_0.6.0-alpha.2_freebsd_amd64.zip",
+          "shasum": "dee3c8688ab5234435162cfbff648915f889f73643ab708420d57da881a6a7be"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-credstash_0.6.0-alpha.2_windows_amd64.zip",
+          "download_url": "https://github.com/granular-oss/terraform-provider-credstash/releases/download/v0.6.0-alpha.2/terraform-provider-credstash_0.6.0-alpha.2_windows_amd64.zip",
+          "shasum": "95db3af3210913f3ead063283b7dd5d65dee5a4676af87adf15c526792a97680"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-credstash_0.6.0-alpha.2_linux_386.zip",
+          "download_url": "https://github.com/granular-oss/terraform-provider-credstash/releases/download/v0.6.0-alpha.2/terraform-provider-credstash_0.6.0-alpha.2_linux_386.zip",
+          "shasum": "c37280d6d4cac63a4a104cdddd6f66e851d90dcc46400e8f5497efd41b03658a"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-credstash_0.6.0-alpha.2_darwin_amd64.zip",
+          "download_url": "https://github.com/granular-oss/terraform-provider-credstash/releases/download/v0.6.0-alpha.2/terraform-provider-credstash_0.6.0-alpha.2_darwin_amd64.zip",
+          "shasum": "6733485cb156b96b827b2ffe018a43ba5ea5d16e6095572c33e1287baa9287df"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-credstash_0.6.0-alpha.2_linux_arm64.zip",
+          "download_url": "https://github.com/granular-oss/terraform-provider-credstash/releases/download/v0.6.0-alpha.2/terraform-provider-credstash_0.6.0-alpha.2_linux_arm64.zip",
+          "shasum": "44c234a74ed9d6ef3c2cb9c31e2c06c2405f0063fa03830259c31d2004896fc7"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-credstash_0.6.0-alpha.2_windows_386.zip",
+          "download_url": "https://github.com/granular-oss/terraform-provider-credstash/releases/download/v0.6.0-alpha.2/terraform-provider-credstash_0.6.0-alpha.2_windows_386.zip",
+          "shasum": "48a971b698f299d678990592e204a90049079ed4668c7d24fc7c2296880aa778"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-credstash_0.6.0-alpha.2_linux_arm.zip",
+          "download_url": "https://github.com/granular-oss/terraform-provider-credstash/releases/download/v0.6.0-alpha.2/terraform-provider-credstash_0.6.0-alpha.2_linux_arm.zip",
+          "shasum": "3889ebb745a524d48eb93e3c6edea8ec52ebb6aaf5631d5ee7845e57978d7473"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-credstash_0.6.0-alpha.2_darwin_arm64.zip",
+          "download_url": "https://github.com/granular-oss/terraform-provider-credstash/releases/download/v0.6.0-alpha.2/terraform-provider-credstash_0.6.0-alpha.2_darwin_arm64.zip",
+          "shasum": "d874ea8c904cf7ca5700332f0d7523b3affdcf2be0306c9383cae4795ed8e720"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-credstash_0.6.0-alpha.2_freebsd_386.zip",
+          "download_url": "https://github.com/granular-oss/terraform-provider-credstash/releases/download/v0.6.0-alpha.2/terraform-provider-credstash_0.6.0-alpha.2_freebsd_386.zip",
+          "shasum": "3a5fa7a30c173f2c880a4caafc9cdccbf7f7ed6050fab55289effd06900a8341"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-credstash_0.6.0-alpha.2_linux_amd64.zip",
+          "download_url": "https://github.com/granular-oss/terraform-provider-credstash/releases/download/v0.6.0-alpha.2/terraform-provider-credstash_0.6.0-alpha.2_linux_amd64.zip",
+          "shasum": "e0e2908e45126e9cde45ed02abaa0169140957bedbf6fb3d04b1016698e21b9b"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-credstash_0.6.0-alpha.2_freebsd_arm.zip",
+          "download_url": "https://github.com/granular-oss/terraform-provider-credstash/releases/download/v0.6.0-alpha.2/terraform-provider-credstash_0.6.0-alpha.2_freebsd_arm.zip",
+          "shasum": "9794fe337190b6efd88c5a71d56db8ed43b022eee8d7614d36bf177bfd12c626"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-credstash_0.6.0-alpha.2_freebsd_arm64.zip",
+          "download_url": "https://github.com/granular-oss/terraform-provider-credstash/releases/download/v0.6.0-alpha.2/terraform-provider-credstash_0.6.0-alpha.2_freebsd_arm64.zip",
+          "shasum": "e7589acc7685cbee1b55d1eae00d18aca90f743ff87332dac8902796094feb0e"
+        }
+      ]
+    },
+    {
+      "version": "0.5.2",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/granular-oss/terraform-provider-credstash/releases/download/v0.5.2/terraform-provider-credstash_0.5.2_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/granular-oss/terraform-provider-credstash/releases/download/v0.5.2/terraform-provider-credstash_0.5.2_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-credstash_0.5.2_freebsd_arm.zip",
+          "download_url": "https://github.com/granular-oss/terraform-provider-credstash/releases/download/v0.5.2/terraform-provider-credstash_0.5.2_freebsd_arm.zip",
+          "shasum": "28003bbaa1e8ad42e68d530d69fa3eff62eb96090c649bec32b4fc4534636001"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-credstash_0.5.2_freebsd_386.zip",
+          "download_url": "https://github.com/granular-oss/terraform-provider-credstash/releases/download/v0.5.2/terraform-provider-credstash_0.5.2_freebsd_386.zip",
+          "shasum": "efb1b64a65e5b16751724869aaa213b810010dd83100c9ff601e07b731c94fa4"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-credstash_0.5.2_linux_386.zip",
+          "download_url": "https://github.com/granular-oss/terraform-provider-credstash/releases/download/v0.5.2/terraform-provider-credstash_0.5.2_linux_386.zip",
+          "shasum": "170bd898c966dfbd2d49db4e1183bc5cdefdcd423e6243eb4702b3079b12d3da"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-credstash_0.5.2_windows_386.zip",
+          "download_url": "https://github.com/granular-oss/terraform-provider-credstash/releases/download/v0.5.2/terraform-provider-credstash_0.5.2_windows_386.zip",
+          "shasum": "df249ba0dd9f86299e0beb2f1f350cbfb044248d2fb285fe687f516925a5a758"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-credstash_0.5.2_linux_amd64.zip",
+          "download_url": "https://github.com/granular-oss/terraform-provider-credstash/releases/download/v0.5.2/terraform-provider-credstash_0.5.2_linux_amd64.zip",
+          "shasum": "d3c97021957df1e5233e504bd9aa3ea3808a376778de648aae722cce27c3e8ed"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-credstash_0.5.2_darwin_arm64.zip",
+          "download_url": "https://github.com/granular-oss/terraform-provider-credstash/releases/download/v0.5.2/terraform-provider-credstash_0.5.2_darwin_arm64.zip",
+          "shasum": "b366523874712a5e4cd7d3df33649fbacde8628a3246892fd33566ab796c7992"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-credstash_0.5.2_freebsd_amd64.zip",
+          "download_url": "https://github.com/granular-oss/terraform-provider-credstash/releases/download/v0.5.2/terraform-provider-credstash_0.5.2_freebsd_amd64.zip",
+          "shasum": "856bdf82d3f484daa9fe1753edf91a5081e0b3348b86dad62f56d24f7e84bcf3"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-credstash_0.5.2_windows_amd64.zip",
+          "download_url": "https://github.com/granular-oss/terraform-provider-credstash/releases/download/v0.5.2/terraform-provider-credstash_0.5.2_windows_amd64.zip",
+          "shasum": "7e1a5f876aad5372236451ea75ada6b55f967ac7a1187e1721fe0c457ced58dc"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-credstash_0.5.2_freebsd_arm64.zip",
+          "download_url": "https://github.com/granular-oss/terraform-provider-credstash/releases/download/v0.5.2/terraform-provider-credstash_0.5.2_freebsd_arm64.zip",
+          "shasum": "19e42f4fabad6e18fdb210d71f24282578e5315f440574e67ad72dbd7a7a3891"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-credstash_0.5.2_linux_arm64.zip",
+          "download_url": "https://github.com/granular-oss/terraform-provider-credstash/releases/download/v0.5.2/terraform-provider-credstash_0.5.2_linux_arm64.zip",
+          "shasum": "b980e60941565374269a786a0516c7b44c0680166afaecfa3d79648ec2e8415d"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-credstash_0.5.2_windows_arm.zip",
+          "download_url": "https://github.com/granular-oss/terraform-provider-credstash/releases/download/v0.5.2/terraform-provider-credstash_0.5.2_windows_arm.zip",
+          "shasum": "70ae163a8be96b9e0f26b2b3b36a775ca1780c1a87306bae9d25387e0b67610f"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-credstash_0.5.2_darwin_amd64.zip",
+          "download_url": "https://github.com/granular-oss/terraform-provider-credstash/releases/download/v0.5.2/terraform-provider-credstash_0.5.2_darwin_amd64.zip",
+          "shasum": "7627753a42a2dbd9ce04d1f63fe701f35fceffad1f399d37bd623a1aeccf5a62"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-credstash_0.5.2_linux_arm.zip",
+          "download_url": "https://github.com/granular-oss/terraform-provider-credstash/releases/download/v0.5.2/terraform-provider-credstash_0.5.2_linux_arm.zip",
+          "shasum": "0ae74d5ed39cae9e5ad54f967a888c9c7cf406023ffde5996bc3ec1befd19e80"
+        }
+      ]
+    }
+  ]
+}

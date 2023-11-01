@@ -1,0 +1,757 @@
+{
+  "repository": "https://github.com/terraform-coop/terraform-provider-foreman",
+  "versions": [
+    {
+      "version": "0.6.2",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/terraform-coop/terraform-provider-foreman/releases/download/v0.6.2/terraform-provider-foreman_0.6.2_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/terraform-coop/terraform-provider-foreman/releases/download/v0.6.2/terraform-provider-foreman_0.6.2_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-foreman_0.6.2_windows_386.zip",
+          "download_url": "https://github.com/terraform-coop/terraform-provider-foreman/releases/download/v0.6.2/terraform-provider-foreman_0.6.2_windows_386.zip",
+          "shasum": "a5e11109934a63c07740e4b091451cf39d999d3e47d56bb61e6a7e4e305703b9"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-foreman_0.6.2_freebsd_386.zip",
+          "download_url": "https://github.com/terraform-coop/terraform-provider-foreman/releases/download/v0.6.2/terraform-provider-foreman_0.6.2_freebsd_386.zip",
+          "shasum": "3ca8dbfcb8d5dd37e9952ed1aa1bb778237ee1d4c4395b07b0261da59324e41b"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-foreman_0.6.2_windows_arm.zip",
+          "download_url": "https://github.com/terraform-coop/terraform-provider-foreman/releases/download/v0.6.2/terraform-provider-foreman_0.6.2_windows_arm.zip",
+          "shasum": "0d0e1e327a5210aefb0a7866e510323cc74e90b585a70ca1adf43545dad45855"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-foreman_0.6.2_linux_amd64.zip",
+          "download_url": "https://github.com/terraform-coop/terraform-provider-foreman/releases/download/v0.6.2/terraform-provider-foreman_0.6.2_linux_amd64.zip",
+          "shasum": "d416d1d9ed6fbba8902990e32d1b1b9d96676f2c0712b03d0f3450060ba0e1f6"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-foreman_0.6.2_linux_arm.zip",
+          "download_url": "https://github.com/terraform-coop/terraform-provider-foreman/releases/download/v0.6.2/terraform-provider-foreman_0.6.2_linux_arm.zip",
+          "shasum": "f337c3356f695df3b0ade00177f44dfe4de4d048d9037e827e69303a1d02b7f4"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-foreman_0.6.2_linux_arm64.zip",
+          "download_url": "https://github.com/terraform-coop/terraform-provider-foreman/releases/download/v0.6.2/terraform-provider-foreman_0.6.2_linux_arm64.zip",
+          "shasum": "f2ca6274cd446af4f65a5fddf25f508956b991832b2ae120b7175b0292a8404a"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-foreman_0.6.2_freebsd_amd64.zip",
+          "download_url": "https://github.com/terraform-coop/terraform-provider-foreman/releases/download/v0.6.2/terraform-provider-foreman_0.6.2_freebsd_amd64.zip",
+          "shasum": "85f19a533c16c33a64f46c4e45c18ce8c32a92d0c5b5a9e492de4d0e7e3fb867"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-foreman_0.6.2_freebsd_arm.zip",
+          "download_url": "https://github.com/terraform-coop/terraform-provider-foreman/releases/download/v0.6.2/terraform-provider-foreman_0.6.2_freebsd_arm.zip",
+          "shasum": "704c05c7ec60a09162544284522a43ce41c71f54c895286b9c835254904cedc1"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-foreman_0.6.2_freebsd_arm64.zip",
+          "download_url": "https://github.com/terraform-coop/terraform-provider-foreman/releases/download/v0.6.2/terraform-provider-foreman_0.6.2_freebsd_arm64.zip",
+          "shasum": "668761e3bf10585c8e337f2e4db5ea3ed25ba9f28bb89fa1ebe8068f19bc209a"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-foreman_0.6.2_windows_amd64.zip",
+          "download_url": "https://github.com/terraform-coop/terraform-provider-foreman/releases/download/v0.6.2/terraform-provider-foreman_0.6.2_windows_amd64.zip",
+          "shasum": "09f8f7225fbc10245f84d11b670fe544e6e2af2f293bd0e17909fbe3cbd909b0"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-foreman_0.6.2_linux_386.zip",
+          "download_url": "https://github.com/terraform-coop/terraform-provider-foreman/releases/download/v0.6.2/terraform-provider-foreman_0.6.2_linux_386.zip",
+          "shasum": "f4a0efaa5ba9fa405b80ca838580b9fffc2fdb339aa64becf2eb12057ff59391"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-foreman_0.6.2_windows_arm64.zip",
+          "download_url": "https://github.com/terraform-coop/terraform-provider-foreman/releases/download/v0.6.2/terraform-provider-foreman_0.6.2_windows_arm64.zip",
+          "shasum": "43ff71465f7e0794baa3837c5c05bdba12ea19ba992333732cb53e7718be0418"
+        }
+      ]
+    },
+    {
+      "version": "0.6.1",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/terraform-coop/terraform-provider-foreman/releases/download/v0.6.1/terraform-provider-foreman_0.6.1_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/terraform-coop/terraform-provider-foreman/releases/download/v0.6.1/terraform-provider-foreman_0.6.1_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-foreman_0.6.1_windows_amd64.zip",
+          "download_url": "https://github.com/terraform-coop/terraform-provider-foreman/releases/download/v0.6.1/terraform-provider-foreman_0.6.1_windows_amd64.zip",
+          "shasum": "0fb3a2fbf3e9660d3128cd689e62a0599726aeecb193cadb27c0796d01c744b4"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-foreman_0.6.1_windows_arm64.zip",
+          "download_url": "https://github.com/terraform-coop/terraform-provider-foreman/releases/download/v0.6.1/terraform-provider-foreman_0.6.1_windows_arm64.zip",
+          "shasum": "74a7c8ebbf098bd79d45108c402483aed3607a2611c09c4068329917661369ac"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-foreman_0.6.1_windows_386.zip",
+          "download_url": "https://github.com/terraform-coop/terraform-provider-foreman/releases/download/v0.6.1/terraform-provider-foreman_0.6.1_windows_386.zip",
+          "shasum": "9d84f08ec7c06d82cdec15e5813604ca25ab12b8adfbc1beecca4ccb15c752a2"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-foreman_0.6.1_windows_arm.zip",
+          "download_url": "https://github.com/terraform-coop/terraform-provider-foreman/releases/download/v0.6.1/terraform-provider-foreman_0.6.1_windows_arm.zip",
+          "shasum": "8d22c85bae262c408728fc6e38c9a949fafafd549ed12956a957e3f95cdbef53"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-foreman_0.6.1_linux_386.zip",
+          "download_url": "https://github.com/terraform-coop/terraform-provider-foreman/releases/download/v0.6.1/terraform-provider-foreman_0.6.1_linux_386.zip",
+          "shasum": "92480db133d990d52857b873aeaf1f1a5681a59b0fd9e9eca36fd137b076556b"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-foreman_0.6.1_linux_amd64.zip",
+          "download_url": "https://github.com/terraform-coop/terraform-provider-foreman/releases/download/v0.6.1/terraform-provider-foreman_0.6.1_linux_amd64.zip",
+          "shasum": "250c540b692f7c07215507872f9031d98d8bfd894e9806265a81b7b40ea400c2"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-foreman_0.6.1_freebsd_386.zip",
+          "download_url": "https://github.com/terraform-coop/terraform-provider-foreman/releases/download/v0.6.1/terraform-provider-foreman_0.6.1_freebsd_386.zip",
+          "shasum": "646d515a84b9a4fc50e885a98f25ecd2856f16c8bef0105a8b79c45b3f647400"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-foreman_0.6.1_freebsd_amd64.zip",
+          "download_url": "https://github.com/terraform-coop/terraform-provider-foreman/releases/download/v0.6.1/terraform-provider-foreman_0.6.1_freebsd_amd64.zip",
+          "shasum": "537e544f3803e6b0b0c82858cdf6facc9ae927b24f0db57f6922b9a893326a8a"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-foreman_0.6.1_freebsd_arm.zip",
+          "download_url": "https://github.com/terraform-coop/terraform-provider-foreman/releases/download/v0.6.1/terraform-provider-foreman_0.6.1_freebsd_arm.zip",
+          "shasum": "3e8732d0b4311508d2519690b134e590db35bef4af43d239de3500e519fadad3"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-foreman_0.6.1_linux_arm.zip",
+          "download_url": "https://github.com/terraform-coop/terraform-provider-foreman/releases/download/v0.6.1/terraform-provider-foreman_0.6.1_linux_arm.zip",
+          "shasum": "8b0fa131ffc724c6729a289f89d0e68287e14e704e41d78eb5c4f2e979676e1d"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-foreman_0.6.1_freebsd_arm64.zip",
+          "download_url": "https://github.com/terraform-coop/terraform-provider-foreman/releases/download/v0.6.1/terraform-provider-foreman_0.6.1_freebsd_arm64.zip",
+          "shasum": "c357c560b31357fe65845c8774db33c482f73e29b5df6928cebca15f10ba4ed3"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-foreman_0.6.1_linux_arm64.zip",
+          "download_url": "https://github.com/terraform-coop/terraform-provider-foreman/releases/download/v0.6.1/terraform-provider-foreman_0.6.1_linux_arm64.zip",
+          "shasum": "f4336e8cdf24a483102fd0b3f9dce7a38f866babf1a49be4643ef447e16249fe"
+        }
+      ]
+    },
+    {
+      "version": "0.6.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/terraform-coop/terraform-provider-foreman/releases/download/v0.6.0/terraform-provider-foreman_0.6.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/terraform-coop/terraform-provider-foreman/releases/download/v0.6.0/terraform-provider-foreman_0.6.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-foreman_0.6.0_windows_amd64.zip",
+          "download_url": "https://github.com/terraform-coop/terraform-provider-foreman/releases/download/v0.6.0/terraform-provider-foreman_0.6.0_windows_amd64.zip",
+          "shasum": "e4efaeb2aa362543c8035dd10ae58e7ab19c5e7bda58f9388200a6c0ce0a42e4"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-foreman_0.6.0_linux_arm64.zip",
+          "download_url": "https://github.com/terraform-coop/terraform-provider-foreman/releases/download/v0.6.0/terraform-provider-foreman_0.6.0_linux_arm64.zip",
+          "shasum": "54cc0d99a77b984a0060d8aca15d91119e5c2dfbf43adb3f1f1f0b0a7b2cda1d"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-foreman_0.6.0_freebsd_arm.zip",
+          "download_url": "https://github.com/terraform-coop/terraform-provider-foreman/releases/download/v0.6.0/terraform-provider-foreman_0.6.0_freebsd_arm.zip",
+          "shasum": "c22782828d2fba6f4ba4adc3ea6985039926839e3ab841e8fd6c0168c4dfa7d4"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-foreman_0.6.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/terraform-coop/terraform-provider-foreman/releases/download/v0.6.0/terraform-provider-foreman_0.6.0_freebsd_arm64.zip",
+          "shasum": "fbd9fb4e27bde30d92b8e9ac9e0bbea31f6c8e63c4d21f8b29b2892db93b8e26"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-foreman_0.6.0_windows_386.zip",
+          "download_url": "https://github.com/terraform-coop/terraform-provider-foreman/releases/download/v0.6.0/terraform-provider-foreman_0.6.0_windows_386.zip",
+          "shasum": "7c36fad38af29ece0882f3806a6fa251acaad032082624b4207dc493a4b6c213"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-foreman_0.6.0_windows_arm.zip",
+          "download_url": "https://github.com/terraform-coop/terraform-provider-foreman/releases/download/v0.6.0/terraform-provider-foreman_0.6.0_windows_arm.zip",
+          "shasum": "4153dea2f8dbf21b59f31a4cde9a1c48fc144c603296a66a2913c74f4de4b4c1"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-foreman_0.6.0_windows_arm64.zip",
+          "download_url": "https://github.com/terraform-coop/terraform-provider-foreman/releases/download/v0.6.0/terraform-provider-foreman_0.6.0_windows_arm64.zip",
+          "shasum": "5c48fbebd9c7f24169d8554a8f871658bdf357d4609b03c8d6f8ccd4c9e36cf9"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-foreman_0.6.0_linux_386.zip",
+          "download_url": "https://github.com/terraform-coop/terraform-provider-foreman/releases/download/v0.6.0/terraform-provider-foreman_0.6.0_linux_386.zip",
+          "shasum": "795e77717b8a3193f954cc8332eebeb246e4a21bcec6495ee644db53e32898ac"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-foreman_0.6.0_linux_arm.zip",
+          "download_url": "https://github.com/terraform-coop/terraform-provider-foreman/releases/download/v0.6.0/terraform-provider-foreman_0.6.0_linux_arm.zip",
+          "shasum": "69beb873c53cf497663cd251ef62472453fafaf96e40bd5169eff46100b04e6c"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-foreman_0.6.0_linux_amd64.zip",
+          "download_url": "https://github.com/terraform-coop/terraform-provider-foreman/releases/download/v0.6.0/terraform-provider-foreman_0.6.0_linux_amd64.zip",
+          "shasum": "233ae33cb1f422599b7716172a773079e3f3e5d9b0e51230e9d12db392917450"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-foreman_0.6.0_freebsd_386.zip",
+          "download_url": "https://github.com/terraform-coop/terraform-provider-foreman/releases/download/v0.6.0/terraform-provider-foreman_0.6.0_freebsd_386.zip",
+          "shasum": "15cba1725a7d6280e27a2ac07510a889fde7c9ec42995de534d09f07aa9aa4cd"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-foreman_0.6.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/terraform-coop/terraform-provider-foreman/releases/download/v0.6.0/terraform-provider-foreman_0.6.0_freebsd_amd64.zip",
+          "shasum": "cdce1e25a6ea951e89444d67e6c404e2df5380bdb7a6a26b0b158e791965bf06"
+        }
+      ]
+    },
+    {
+      "version": "0.5.8",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/terraform-coop/terraform-provider-foreman/releases/download/v0.5.8/terraform-provider-foreman_0.5.8_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/terraform-coop/terraform-provider-foreman/releases/download/v0.5.8/terraform-provider-foreman_0.5.8_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-foreman_0.5.8_freebsd_386.zip",
+          "download_url": "https://github.com/terraform-coop/terraform-provider-foreman/releases/download/v0.5.8/terraform-provider-foreman_0.5.8_freebsd_386.zip",
+          "shasum": "33974f23cec349bd96a11e454f84fc900da99a92dded895a99861a88f4ef4334"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-foreman_0.5.8_linux_amd64.zip",
+          "download_url": "https://github.com/terraform-coop/terraform-provider-foreman/releases/download/v0.5.8/terraform-provider-foreman_0.5.8_linux_amd64.zip",
+          "shasum": "3e314426833e918e6fa357ce154d877b87ea5dbdf0eac8fff4ccc6b679b37df6"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-foreman_0.5.8_freebsd_arm64.zip",
+          "download_url": "https://github.com/terraform-coop/terraform-provider-foreman/releases/download/v0.5.8/terraform-provider-foreman_0.5.8_freebsd_arm64.zip",
+          "shasum": "d0e0ccc16b1532585a971990fadecf4352cb1e9494dbb706a44ab93b5e761a8a"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-foreman_0.5.8_windows_386.zip",
+          "download_url": "https://github.com/terraform-coop/terraform-provider-foreman/releases/download/v0.5.8/terraform-provider-foreman_0.5.8_windows_386.zip",
+          "shasum": "1809774197ac5da1fd646175e84cc7a43df30860d51dac828379cb473278d5ab"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-foreman_0.5.8_windows_arm64.zip",
+          "download_url": "https://github.com/terraform-coop/terraform-provider-foreman/releases/download/v0.5.8/terraform-provider-foreman_0.5.8_windows_arm64.zip",
+          "shasum": "ded07b84e294b1a0163c1e0846e51c2dff986a031ff9f2a85953857521495eac"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-foreman_0.5.8_linux_386.zip",
+          "download_url": "https://github.com/terraform-coop/terraform-provider-foreman/releases/download/v0.5.8/terraform-provider-foreman_0.5.8_linux_386.zip",
+          "shasum": "55d1341a624ff19353c2f84d82a36ff7592460f341d4d65d538441776ce30198"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-foreman_0.5.8_linux_arm64.zip",
+          "download_url": "https://github.com/terraform-coop/terraform-provider-foreman/releases/download/v0.5.8/terraform-provider-foreman_0.5.8_linux_arm64.zip",
+          "shasum": "0146ab8711bb5719f0dfaa8809bd1a0ed58546f73bf3bb8b6624fa776ad5649f"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-foreman_0.5.8_freebsd_amd64.zip",
+          "download_url": "https://github.com/terraform-coop/terraform-provider-foreman/releases/download/v0.5.8/terraform-provider-foreman_0.5.8_freebsd_amd64.zip",
+          "shasum": "c27a92b5e37971fccb94d76db139909ba105e412594f379848a8bcd766667024"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-foreman_0.5.8_freebsd_arm.zip",
+          "download_url": "https://github.com/terraform-coop/terraform-provider-foreman/releases/download/v0.5.8/terraform-provider-foreman_0.5.8_freebsd_arm.zip",
+          "shasum": "670c1532c29fdf4b605d76e262ea5f373201ad79b10da258fa5f8538c483f482"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-foreman_0.5.8_windows_arm.zip",
+          "download_url": "https://github.com/terraform-coop/terraform-provider-foreman/releases/download/v0.5.8/terraform-provider-foreman_0.5.8_windows_arm.zip",
+          "shasum": "f50236f334bdc69fc059571a294aea2a3ce0a2a75fa3d39899fb9f9339ed744f"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-foreman_0.5.8_windows_amd64.zip",
+          "download_url": "https://github.com/terraform-coop/terraform-provider-foreman/releases/download/v0.5.8/terraform-provider-foreman_0.5.8_windows_amd64.zip",
+          "shasum": "a32b8e0348100021039037fbc8d2cd4746aea2a8f798274dbfd72377d8485afe"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-foreman_0.5.8_linux_arm.zip",
+          "download_url": "https://github.com/terraform-coop/terraform-provider-foreman/releases/download/v0.5.8/terraform-provider-foreman_0.5.8_linux_arm.zip",
+          "shasum": "c80f4947294a1a0023264288822dce88173bc85bedde408a6bf5ce0b8551ac05"
+        }
+      ]
+    },
+    {
+      "version": "0.5.7",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/terraform-coop/terraform-provider-foreman/releases/download/v0.5.7/terraform-provider-foreman_0.5.7_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/terraform-coop/terraform-provider-foreman/releases/download/v0.5.7/terraform-provider-foreman_0.5.7_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-foreman_0.5.7_freebsd_amd64.zip",
+          "download_url": "https://github.com/terraform-coop/terraform-provider-foreman/releases/download/v0.5.7/terraform-provider-foreman_0.5.7_freebsd_amd64.zip",
+          "shasum": "981ea51b2bdf04ec2bc325ec4e5027e41060d43b735813b9c9af08490820fec4"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-foreman_0.5.7_freebsd_arm64.zip",
+          "download_url": "https://github.com/terraform-coop/terraform-provider-foreman/releases/download/v0.5.7/terraform-provider-foreman_0.5.7_freebsd_arm64.zip",
+          "shasum": "5d31b216d9c1b0d413908c924d6072f5ced7fb4719b929aea17c62ed4af2be5a"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-foreman_0.5.7_windows_arm.zip",
+          "download_url": "https://github.com/terraform-coop/terraform-provider-foreman/releases/download/v0.5.7/terraform-provider-foreman_0.5.7_windows_arm.zip",
+          "shasum": "79b1c3fd6fe31697769b62fb9ea7fd23fbdb300e4c3450aa1532016f2de66bf9"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-foreman_0.5.7_linux_amd64.zip",
+          "download_url": "https://github.com/terraform-coop/terraform-provider-foreman/releases/download/v0.5.7/terraform-provider-foreman_0.5.7_linux_amd64.zip",
+          "shasum": "68fdcea8b70eeceda33ecfe3c8e654738e140e4090c9efe9f438d2969dfb8286"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-foreman_0.5.7_linux_arm64.zip",
+          "download_url": "https://github.com/terraform-coop/terraform-provider-foreman/releases/download/v0.5.7/terraform-provider-foreman_0.5.7_linux_arm64.zip",
+          "shasum": "68a48d75225131738c13e4e299e8e3b97f33bc8219f6b9f915f7ec335f755a24"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-foreman_0.5.7_freebsd_386.zip",
+          "download_url": "https://github.com/terraform-coop/terraform-provider-foreman/releases/download/v0.5.7/terraform-provider-foreman_0.5.7_freebsd_386.zip",
+          "shasum": "3be2dcf6bb01209ae93271d4cc42e762397fdafc0a6d3668b679a62408a14817"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-foreman_0.5.7_freebsd_arm.zip",
+          "download_url": "https://github.com/terraform-coop/terraform-provider-foreman/releases/download/v0.5.7/terraform-provider-foreman_0.5.7_freebsd_arm.zip",
+          "shasum": "ea2b1851297246e9e813f1c8dc881a503d92a80067784a185237de604179c85e"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-foreman_0.5.7_windows_386.zip",
+          "download_url": "https://github.com/terraform-coop/terraform-provider-foreman/releases/download/v0.5.7/terraform-provider-foreman_0.5.7_windows_386.zip",
+          "shasum": "0bee827b697e19cb4aad8a74a9dcf4be08b5dc5261f70b48436233c4d166efdb"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-foreman_0.5.7_windows_amd64.zip",
+          "download_url": "https://github.com/terraform-coop/terraform-provider-foreman/releases/download/v0.5.7/terraform-provider-foreman_0.5.7_windows_amd64.zip",
+          "shasum": "85437e464efa7a5dbf5aca6c683eb78e12cd6a1199f3f39291d6865955d696fa"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-foreman_0.5.7_windows_arm64.zip",
+          "download_url": "https://github.com/terraform-coop/terraform-provider-foreman/releases/download/v0.5.7/terraform-provider-foreman_0.5.7_windows_arm64.zip",
+          "shasum": "037542f7cc43270cee8ab74c9b0482f2b1422f7cf209677a6d111659d4850116"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-foreman_0.5.7_linux_386.zip",
+          "download_url": "https://github.com/terraform-coop/terraform-provider-foreman/releases/download/v0.5.7/terraform-provider-foreman_0.5.7_linux_386.zip",
+          "shasum": "a6704d5afce958661e0267d7427aaec6ff2ffe26228bfe5600ca14902d73e561"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-foreman_0.5.7_linux_arm.zip",
+          "download_url": "https://github.com/terraform-coop/terraform-provider-foreman/releases/download/v0.5.7/terraform-provider-foreman_0.5.7_linux_arm.zip",
+          "shasum": "cb0ccc5a9306bb9d13cb6a441bab810e16a4ba94fb9428b40231852ea46e57df"
+        }
+      ]
+    },
+    {
+      "version": "0.5.6",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/terraform-coop/terraform-provider-foreman/releases/download/v0.5.6/terraform-provider-foreman_0.5.6_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/terraform-coop/terraform-provider-foreman/releases/download/v0.5.6/terraform-provider-foreman_0.5.6_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-foreman_0.5.6_freebsd_arm.zip",
+          "download_url": "https://github.com/terraform-coop/terraform-provider-foreman/releases/download/v0.5.6/terraform-provider-foreman_0.5.6_freebsd_arm.zip",
+          "shasum": "2cce27aef3db371a9def77c7ba4a7379322f69f6c626fbf38824ff7f55048818"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-foreman_0.5.6_windows_amd64.zip",
+          "download_url": "https://github.com/terraform-coop/terraform-provider-foreman/releases/download/v0.5.6/terraform-provider-foreman_0.5.6_windows_amd64.zip",
+          "shasum": "c206079a67654988dcfe7701bcb31209834e8b66ce4517c1a550d9f505f3892e"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-foreman_0.5.6_windows_arm.zip",
+          "download_url": "https://github.com/terraform-coop/terraform-provider-foreman/releases/download/v0.5.6/terraform-provider-foreman_0.5.6_windows_arm.zip",
+          "shasum": "2887981370039a8e0ec65239b4572d9d5dd6261b724523c1692ce1075d6e3c03"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-foreman_0.5.6_linux_arm.zip",
+          "download_url": "https://github.com/terraform-coop/terraform-provider-foreman/releases/download/v0.5.6/terraform-provider-foreman_0.5.6_linux_arm.zip",
+          "shasum": "61437fe93bd6c9e055f44b437b8a09b69228e5e0791ab476eb0840e84b6e0eb2"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-foreman_0.5.6_linux_arm64.zip",
+          "download_url": "https://github.com/terraform-coop/terraform-provider-foreman/releases/download/v0.5.6/terraform-provider-foreman_0.5.6_linux_arm64.zip",
+          "shasum": "5e6c6e93a7c0796dbc4a7962c3a5e8a1fd9040623c63eae11e0ff886f1a32c68"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-foreman_0.5.6_freebsd_amd64.zip",
+          "download_url": "https://github.com/terraform-coop/terraform-provider-foreman/releases/download/v0.5.6/terraform-provider-foreman_0.5.6_freebsd_amd64.zip",
+          "shasum": "9f539213661f71f267978f96b0d9f68d33e62bc81e646dc90452ec4346e28b7e"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-foreman_0.5.6_freebsd_386.zip",
+          "download_url": "https://github.com/terraform-coop/terraform-provider-foreman/releases/download/v0.5.6/terraform-provider-foreman_0.5.6_freebsd_386.zip",
+          "shasum": "b9f2f2a082a26fc3784e4edd6e9fcd34a9370abcbae0d37ef6ca51328880fb9e"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-foreman_0.5.6_windows_arm64.zip",
+          "download_url": "https://github.com/terraform-coop/terraform-provider-foreman/releases/download/v0.5.6/terraform-provider-foreman_0.5.6_windows_arm64.zip",
+          "shasum": "6370368f460b12cf6bf001a438cf855a7136ae4df099d675581a52d53353e6ce"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-foreman_0.5.6_linux_386.zip",
+          "download_url": "https://github.com/terraform-coop/terraform-provider-foreman/releases/download/v0.5.6/terraform-provider-foreman_0.5.6_linux_386.zip",
+          "shasum": "fc2138474bf7902f6df360f445cdc81c6ce49da44a48f95b7320115c1c0e4ff4"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-foreman_0.5.6_freebsd_arm64.zip",
+          "download_url": "https://github.com/terraform-coop/terraform-provider-foreman/releases/download/v0.5.6/terraform-provider-foreman_0.5.6_freebsd_arm64.zip",
+          "shasum": "c961850388dd0a45d2498e9700466c92759ff26bc2c7e819c19d0bfbebf5c115"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-foreman_0.5.6_linux_amd64.zip",
+          "download_url": "https://github.com/terraform-coop/terraform-provider-foreman/releases/download/v0.5.6/terraform-provider-foreman_0.5.6_linux_amd64.zip",
+          "shasum": "515838505b1ad5862674e1e8d5bbab8fa514b1482939450c2e3c211e5125fc4b"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-foreman_0.5.6_windows_386.zip",
+          "download_url": "https://github.com/terraform-coop/terraform-provider-foreman/releases/download/v0.5.6/terraform-provider-foreman_0.5.6_windows_386.zip",
+          "shasum": "61328f9998de49c6c07f2ee9f398651ed151346e2c7a020b756330038b8b794f"
+        }
+      ]
+    },
+    {
+      "version": "0.5.4",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/terraform-coop/terraform-provider-foreman/releases/download/v0.5.4/terraform-provider-foreman_0.5.4_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/terraform-coop/terraform-provider-foreman/releases/download/v0.5.4/terraform-provider-foreman_0.5.4_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-foreman_0.5.4_freebsd_amd64.zip",
+          "download_url": "https://github.com/terraform-coop/terraform-provider-foreman/releases/download/v0.5.4/terraform-provider-foreman_0.5.4_freebsd_amd64.zip",
+          "shasum": "176fd84176cc4055dfad49249063613b538105f9359c06a3bd870ec776e84456"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-foreman_0.5.4_freebsd_arm.zip",
+          "download_url": "https://github.com/terraform-coop/terraform-provider-foreman/releases/download/v0.5.4/terraform-provider-foreman_0.5.4_freebsd_arm.zip",
+          "shasum": "1b4e45a1a5549d0bd4fe9fe19bc427cbfc62c9714735472c45482b5c851d08a0"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-foreman_0.5.4_freebsd_arm64.zip",
+          "download_url": "https://github.com/terraform-coop/terraform-provider-foreman/releases/download/v0.5.4/terraform-provider-foreman_0.5.4_freebsd_arm64.zip",
+          "shasum": "d9ee15d7a3ae51a6ef83feb27bcedcdb694538a8966f30e98796ebe126a8b490"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-foreman_0.5.4_windows_386.zip",
+          "download_url": "https://github.com/terraform-coop/terraform-provider-foreman/releases/download/v0.5.4/terraform-provider-foreman_0.5.4_windows_386.zip",
+          "shasum": "1286c5afa63d56ed03c292e1349045590b12d73c045c08c680f5610b4bfe0a74"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-foreman_0.5.4_windows_arm64.zip",
+          "download_url": "https://github.com/terraform-coop/terraform-provider-foreman/releases/download/v0.5.4/terraform-provider-foreman_0.5.4_windows_arm64.zip",
+          "shasum": "4e16c5be2b4f81d773ffb1d23e5c09d763554685257603de4ffafc6733bc7367"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-foreman_0.5.4_windows_amd64.zip",
+          "download_url": "https://github.com/terraform-coop/terraform-provider-foreman/releases/download/v0.5.4/terraform-provider-foreman_0.5.4_windows_amd64.zip",
+          "shasum": "3d14705ae8c8ebb0edb846b062e11877e32631d6132a2b849b512e4d27751e5d"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-foreman_0.5.4_linux_arm.zip",
+          "download_url": "https://github.com/terraform-coop/terraform-provider-foreman/releases/download/v0.5.4/terraform-provider-foreman_0.5.4_linux_arm.zip",
+          "shasum": "4fc901912a9da127ab6e5b85f39fc610acb823c9a5d432c84ada52247e0c2f18"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-foreman_0.5.4_freebsd_386.zip",
+          "download_url": "https://github.com/terraform-coop/terraform-provider-foreman/releases/download/v0.5.4/terraform-provider-foreman_0.5.4_freebsd_386.zip",
+          "shasum": "6ee25c26d00c591899d4ff04a55f93c9328fe09ff401b2db66e052537ca14156"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-foreman_0.5.4_windows_arm.zip",
+          "download_url": "https://github.com/terraform-coop/terraform-provider-foreman/releases/download/v0.5.4/terraform-provider-foreman_0.5.4_windows_arm.zip",
+          "shasum": "554a2ccf12ac1630f4adf7656175c097ad3065af56f70bf6f985048a6237f028"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-foreman_0.5.4_linux_amd64.zip",
+          "download_url": "https://github.com/terraform-coop/terraform-provider-foreman/releases/download/v0.5.4/terraform-provider-foreman_0.5.4_linux_amd64.zip",
+          "shasum": "3701d77808aad53720d98d4f86158f817420207d8572fe99fd2f08b069a5e54a"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-foreman_0.5.4_linux_386.zip",
+          "download_url": "https://github.com/terraform-coop/terraform-provider-foreman/releases/download/v0.5.4/terraform-provider-foreman_0.5.4_linux_386.zip",
+          "shasum": "c9e68e0527a9e0ac4eadb8282628e784fdec909a6bdd1c2dda284ebb1019eabf"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-foreman_0.5.4_linux_arm64.zip",
+          "download_url": "https://github.com/terraform-coop/terraform-provider-foreman/releases/download/v0.5.4/terraform-provider-foreman_0.5.4_linux_arm64.zip",
+          "shasum": "ab1a309251b8a49bc3ab10e4e7764b328f69224e1c453dabd96aff27259491ad"
+        }
+      ]
+    },
+    {
+      "version": "0.5.1",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/terraform-coop/terraform-provider-foreman/releases/download/v0.5.1/terraform-provider-foreman_0.5.1_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/terraform-coop/terraform-provider-foreman/releases/download/v0.5.1/terraform-provider-foreman_0.5.1_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-foreman_0.5.1_freebsd_386.zip",
+          "download_url": "https://github.com/terraform-coop/terraform-provider-foreman/releases/download/v0.5.1/terraform-provider-foreman_0.5.1_freebsd_386.zip",
+          "shasum": "ff7c623a9a012e7afcc0d2d428474de3100675a74783704630637b6ab25afaee"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-foreman_0.5.1_freebsd_arm.zip",
+          "download_url": "https://github.com/terraform-coop/terraform-provider-foreman/releases/download/v0.5.1/terraform-provider-foreman_0.5.1_freebsd_arm.zip",
+          "shasum": "287d0d9f9a243d66dec335f1bf6cbd9b992b915eb69e12d13d83e12a69a25814"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-foreman_0.5.1_freebsd_arm64.zip",
+          "download_url": "https://github.com/terraform-coop/terraform-provider-foreman/releases/download/v0.5.1/terraform-provider-foreman_0.5.1_freebsd_arm64.zip",
+          "shasum": "ca0632d78c75ded6fbace1dfdb7858d1ed3933a92ce92efdfd78b264d70adf8e"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-foreman_0.5.1_windows_arm64.zip",
+          "download_url": "https://github.com/terraform-coop/terraform-provider-foreman/releases/download/v0.5.1/terraform-provider-foreman_0.5.1_windows_arm64.zip",
+          "shasum": "821c435d95703919983d679c65a21f6761575c8a32671a7bb964f0b73bed732e"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-foreman_0.5.1_linux_arm.zip",
+          "download_url": "https://github.com/terraform-coop/terraform-provider-foreman/releases/download/v0.5.1/terraform-provider-foreman_0.5.1_linux_arm.zip",
+          "shasum": "8d9295e70c881c68b210109d51c7fd062cd4038a55e7bd0f1c818e69a4f3e38b"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-foreman_0.5.1_linux_arm64.zip",
+          "download_url": "https://github.com/terraform-coop/terraform-provider-foreman/releases/download/v0.5.1/terraform-provider-foreman_0.5.1_linux_arm64.zip",
+          "shasum": "0c9af9101a7c4d708a5f7518e462ceaea4426ea2a39367fa3d8c376be63db5db"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-foreman_0.5.1_linux_amd64.zip",
+          "download_url": "https://github.com/terraform-coop/terraform-provider-foreman/releases/download/v0.5.1/terraform-provider-foreman_0.5.1_linux_amd64.zip",
+          "shasum": "2432fd8c72cbf867ac8be7f540e1d5f7412e244222c6c3b46dc98bc148ae0ff7"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-foreman_0.5.1_linux_386.zip",
+          "download_url": "https://github.com/terraform-coop/terraform-provider-foreman/releases/download/v0.5.1/terraform-provider-foreman_0.5.1_linux_386.zip",
+          "shasum": "b10d58dabb7a0048d0b6f557008d129e6caf8fe483a70b9878728cc5698c05b4"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-foreman_0.5.1_windows_amd64.zip",
+          "download_url": "https://github.com/terraform-coop/terraform-provider-foreman/releases/download/v0.5.1/terraform-provider-foreman_0.5.1_windows_amd64.zip",
+          "shasum": "17c1daf46d2dda3e4c7bcb44ccf9bdd9f4921fa64fca7306a8d04549fd1bccf3"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-foreman_0.5.1_windows_386.zip",
+          "download_url": "https://github.com/terraform-coop/terraform-provider-foreman/releases/download/v0.5.1/terraform-provider-foreman_0.5.1_windows_386.zip",
+          "shasum": "d2f412ad2dd67d7f7bcb328245385d0be7baec03114f5a005ba788e1e421ce6c"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-foreman_0.5.1_freebsd_amd64.zip",
+          "download_url": "https://github.com/terraform-coop/terraform-provider-foreman/releases/download/v0.5.1/terraform-provider-foreman_0.5.1_freebsd_amd64.zip",
+          "shasum": "f5be5053e4cdce1635889bbfca6b9518e753d8e1183a46d80845d3fb647bcca7"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-foreman_0.5.1_windows_arm.zip",
+          "download_url": "https://github.com/terraform-coop/terraform-provider-foreman/releases/download/v0.5.1/terraform-provider-foreman_0.5.1_windows_arm.zip",
+          "shasum": "e219a301a33dbd97d83929d4a46d8fc00a0007891883f3eb0db1b7013244687f"
+        }
+      ]
+    }
+  ]
+}

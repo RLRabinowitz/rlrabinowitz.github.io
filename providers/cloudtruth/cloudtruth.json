@@ -1,0 +1,869 @@
+{
+  "repository": "https://github.com/cloudtruth/terraform-provider-cloudtruth",
+  "versions": [
+    {
+      "version": "0.5.11",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/cloudtruth/terraform-provider-cloudtruth/releases/download/v0.5.11/terraform-provider-cloudtruth_0.5.11_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/cloudtruth/terraform-provider-cloudtruth/releases/download/v0.5.11/terraform-provider-cloudtruth_0.5.11_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-cloudtruth_0.5.11_freebsd_amd64.zip",
+          "download_url": "https://github.com/cloudtruth/terraform-provider-cloudtruth/releases/download/v0.5.11/terraform-provider-cloudtruth_0.5.11_freebsd_amd64.zip",
+          "shasum": "7367929db28a283acd39b79137aa66b978054eeb8a753d984fba3d60f5655fec"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-cloudtruth_0.5.11_freebsd_arm64.zip",
+          "download_url": "https://github.com/cloudtruth/terraform-provider-cloudtruth/releases/download/v0.5.11/terraform-provider-cloudtruth_0.5.11_freebsd_arm64.zip",
+          "shasum": "84d8ae65206908cd41beca0a242d75e300c66ed850e0ef46036505f0a9e3747b"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-cloudtruth_0.5.11_linux_arm.zip",
+          "download_url": "https://github.com/cloudtruth/terraform-provider-cloudtruth/releases/download/v0.5.11/terraform-provider-cloudtruth_0.5.11_linux_arm.zip",
+          "shasum": "73b3dcfb948f42bef57adbe9ff3cc8c91b0d2698b52da70600e43d8268e3571b"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-cloudtruth_0.5.11_darwin_amd64.zip",
+          "download_url": "https://github.com/cloudtruth/terraform-provider-cloudtruth/releases/download/v0.5.11/terraform-provider-cloudtruth_0.5.11_darwin_amd64.zip",
+          "shasum": "cca5d17852f1c6056832ec2063d02ab9782bfc175d57d647a57f4ca93d093abc"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-cloudtruth_0.5.11_freebsd_386.zip",
+          "download_url": "https://github.com/cloudtruth/terraform-provider-cloudtruth/releases/download/v0.5.11/terraform-provider-cloudtruth_0.5.11_freebsd_386.zip",
+          "shasum": "46a0f328a6bd437be49e7cd8efa881515490c4b0a50ee7c0a224415ae3cbd540"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-cloudtruth_0.5.11_windows_arm.zip",
+          "download_url": "https://github.com/cloudtruth/terraform-provider-cloudtruth/releases/download/v0.5.11/terraform-provider-cloudtruth_0.5.11_windows_arm.zip",
+          "shasum": "baee925a2368aa99155cfb600e86470ed2e6eea01c936f11205e852e9eba3573"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-cloudtruth_0.5.11_windows_amd64.zip",
+          "download_url": "https://github.com/cloudtruth/terraform-provider-cloudtruth/releases/download/v0.5.11/terraform-provider-cloudtruth_0.5.11_windows_amd64.zip",
+          "shasum": "19b936655119432988860cf114709c95c582591118b3830458d706226378a4c2"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-cloudtruth_0.5.11_windows_arm64.zip",
+          "download_url": "https://github.com/cloudtruth/terraform-provider-cloudtruth/releases/download/v0.5.11/terraform-provider-cloudtruth_0.5.11_windows_arm64.zip",
+          "shasum": "13df047f48c9cd50fc486354bc7d393c05879e046996d849e70f6788b9e38046"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-cloudtruth_0.5.11_linux_386.zip",
+          "download_url": "https://github.com/cloudtruth/terraform-provider-cloudtruth/releases/download/v0.5.11/terraform-provider-cloudtruth_0.5.11_linux_386.zip",
+          "shasum": "82a9497c8c5e92c536224d835bef5468ed5292db745e0279f39043f34d6fdd28"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-cloudtruth_0.5.11_linux_arm64.zip",
+          "download_url": "https://github.com/cloudtruth/terraform-provider-cloudtruth/releases/download/v0.5.11/terraform-provider-cloudtruth_0.5.11_linux_arm64.zip",
+          "shasum": "b2035d1357aba1b3e0413cb91cfa8c60d8fbc038fe53b5d7f63a70e590a42f9e"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-cloudtruth_0.5.11_linux_amd64.zip",
+          "download_url": "https://github.com/cloudtruth/terraform-provider-cloudtruth/releases/download/v0.5.11/terraform-provider-cloudtruth_0.5.11_linux_amd64.zip",
+          "shasum": "8b8879d95b73721fb4a8b662b9a99910ee14172ef3b2beda7112ad196400c7ac"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-cloudtruth_0.5.11_freebsd_arm.zip",
+          "download_url": "https://github.com/cloudtruth/terraform-provider-cloudtruth/releases/download/v0.5.11/terraform-provider-cloudtruth_0.5.11_freebsd_arm.zip",
+          "shasum": "d3b5b996da9c1480728a60697776b5443532e7b319751e9147c7d6ded9d69014"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-cloudtruth_0.5.11_darwin_arm64.zip",
+          "download_url": "https://github.com/cloudtruth/terraform-provider-cloudtruth/releases/download/v0.5.11/terraform-provider-cloudtruth_0.5.11_darwin_arm64.zip",
+          "shasum": "9d241d9abed5df7552357fffe041d1b2178d5f8e99da2b4e816b5130f51dd6b8"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-cloudtruth_0.5.11_windows_386.zip",
+          "download_url": "https://github.com/cloudtruth/terraform-provider-cloudtruth/releases/download/v0.5.11/terraform-provider-cloudtruth_0.5.11_windows_386.zip",
+          "shasum": "ff2f57d87e3d39842a3a7191e8f91a1b334ea7f750e5bbab31fb65b679c4429f"
+        }
+      ]
+    },
+    {
+      "version": "0.5.10",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/cloudtruth/terraform-provider-cloudtruth/releases/download/v0.5.10/terraform-provider-cloudtruth_0.5.10_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/cloudtruth/terraform-provider-cloudtruth/releases/download/v0.5.10/terraform-provider-cloudtruth_0.5.10_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-cloudtruth_0.5.10_windows_amd64.zip",
+          "download_url": "https://github.com/cloudtruth/terraform-provider-cloudtruth/releases/download/v0.5.10/terraform-provider-cloudtruth_0.5.10_windows_amd64.zip",
+          "shasum": "396b50d9cef2f9ed60c4f930affd756a1acab9bd63e8738b007397aaf9251af2"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-cloudtruth_0.5.10_freebsd_arm64.zip",
+          "download_url": "https://github.com/cloudtruth/terraform-provider-cloudtruth/releases/download/v0.5.10/terraform-provider-cloudtruth_0.5.10_freebsd_arm64.zip",
+          "shasum": "3f556ff36a3ea493fa664c4111bdda9f4cda7180687dd6add20da6f864fa9a26"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-cloudtruth_0.5.10_windows_386.zip",
+          "download_url": "https://github.com/cloudtruth/terraform-provider-cloudtruth/releases/download/v0.5.10/terraform-provider-cloudtruth_0.5.10_windows_386.zip",
+          "shasum": "66c74ec8f4b0b93081b8f64a231c9877bc594dec788b3c7cc46ce5e05f7b074f"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-cloudtruth_0.5.10_windows_arm64.zip",
+          "download_url": "https://github.com/cloudtruth/terraform-provider-cloudtruth/releases/download/v0.5.10/terraform-provider-cloudtruth_0.5.10_windows_arm64.zip",
+          "shasum": "3ec0ecf1e607385d9ffc4d397e53a8f736d192e75d0ec325e69d3152916b6535"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-cloudtruth_0.5.10_linux_arm64.zip",
+          "download_url": "https://github.com/cloudtruth/terraform-provider-cloudtruth/releases/download/v0.5.10/terraform-provider-cloudtruth_0.5.10_linux_arm64.zip",
+          "shasum": "2212fbeca58d39ef21ff5b9ac70b147f452661117966a42255b894d6842c6942"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-cloudtruth_0.5.10_freebsd_amd64.zip",
+          "download_url": "https://github.com/cloudtruth/terraform-provider-cloudtruth/releases/download/v0.5.10/terraform-provider-cloudtruth_0.5.10_freebsd_amd64.zip",
+          "shasum": "ed00391b1789be49ebac219824e79bfdbaa6fab949ef4af58f0e662adfe9f59c"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-cloudtruth_0.5.10_freebsd_arm.zip",
+          "download_url": "https://github.com/cloudtruth/terraform-provider-cloudtruth/releases/download/v0.5.10/terraform-provider-cloudtruth_0.5.10_freebsd_arm.zip",
+          "shasum": "c130f408a2b007727aaff0f9e9abb6092a9ffca1cc417bfd2513caecf1f3f8b9"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-cloudtruth_0.5.10_linux_386.zip",
+          "download_url": "https://github.com/cloudtruth/terraform-provider-cloudtruth/releases/download/v0.5.10/terraform-provider-cloudtruth_0.5.10_linux_386.zip",
+          "shasum": "af4e9c5b1933d21e100944cb13e8e3be974f53c3977fd8840c8c619589476127"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-cloudtruth_0.5.10_linux_amd64.zip",
+          "download_url": "https://github.com/cloudtruth/terraform-provider-cloudtruth/releases/download/v0.5.10/terraform-provider-cloudtruth_0.5.10_linux_amd64.zip",
+          "shasum": "9d703ad5d740838da471590e33b30c9737440f0923c4e2686117a79a4a45a792"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-cloudtruth_0.5.10_linux_arm.zip",
+          "download_url": "https://github.com/cloudtruth/terraform-provider-cloudtruth/releases/download/v0.5.10/terraform-provider-cloudtruth_0.5.10_linux_arm.zip",
+          "shasum": "db2e7b1cf94fb19bac1580df15eaded8f2b08e8a1c22b5e68fa909a9955f732f"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-cloudtruth_0.5.10_freebsd_386.zip",
+          "download_url": "https://github.com/cloudtruth/terraform-provider-cloudtruth/releases/download/v0.5.10/terraform-provider-cloudtruth_0.5.10_freebsd_386.zip",
+          "shasum": "377ca2b9d343ca297ae000565d32116d0205b1081fdfa23ba171e06913c6dacc"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-cloudtruth_0.5.10_darwin_amd64.zip",
+          "download_url": "https://github.com/cloudtruth/terraform-provider-cloudtruth/releases/download/v0.5.10/terraform-provider-cloudtruth_0.5.10_darwin_amd64.zip",
+          "shasum": "1ba612ff7be923697b8123b8bdfdc02977f4e3d004d02f4ed7285ab30ddc718d"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-cloudtruth_0.5.10_darwin_arm64.zip",
+          "download_url": "https://github.com/cloudtruth/terraform-provider-cloudtruth/releases/download/v0.5.10/terraform-provider-cloudtruth_0.5.10_darwin_arm64.zip",
+          "shasum": "564acf8d581997f9ccdfeb07178cb68899daf095552902023ea5538d796e22d6"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-cloudtruth_0.5.10_windows_arm.zip",
+          "download_url": "https://github.com/cloudtruth/terraform-provider-cloudtruth/releases/download/v0.5.10/terraform-provider-cloudtruth_0.5.10_windows_arm.zip",
+          "shasum": "8c6f5497bc1bc3d12707b61770da3e64ed54c4b76f79e0fac0edcda8ed5d2871"
+        }
+      ]
+    },
+    {
+      "version": "0.5.9",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/cloudtruth/terraform-provider-cloudtruth/releases/download/v0.5.9/terraform-provider-cloudtruth_0.5.9_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/cloudtruth/terraform-provider-cloudtruth/releases/download/v0.5.9/terraform-provider-cloudtruth_0.5.9_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-cloudtruth_0.5.9_darwin_arm64.zip",
+          "download_url": "https://github.com/cloudtruth/terraform-provider-cloudtruth/releases/download/v0.5.9/terraform-provider-cloudtruth_0.5.9_darwin_arm64.zip",
+          "shasum": "deb37591344b5edcc3f41ffd3ab063c229ff574a58a8ca8f4927b83ce0fcc4eb"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-cloudtruth_0.5.9_windows_amd64.zip",
+          "download_url": "https://github.com/cloudtruth/terraform-provider-cloudtruth/releases/download/v0.5.9/terraform-provider-cloudtruth_0.5.9_windows_amd64.zip",
+          "shasum": "62ed5b0cb2cc7889492ea885ed24ab7b2165cb71b44236be7f2a02b0359d9bc1"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-cloudtruth_0.5.9_linux_386.zip",
+          "download_url": "https://github.com/cloudtruth/terraform-provider-cloudtruth/releases/download/v0.5.9/terraform-provider-cloudtruth_0.5.9_linux_386.zip",
+          "shasum": "755a2826b607db6247fc244c9fd09b99c4d47fb2e7fb7667bf175b8a8f77cee5"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-cloudtruth_0.5.9_windows_arm64.zip",
+          "download_url": "https://github.com/cloudtruth/terraform-provider-cloudtruth/releases/download/v0.5.9/terraform-provider-cloudtruth_0.5.9_windows_arm64.zip",
+          "shasum": "4db457a25df4c3933b2b08ceae86bd4409621e2a9b274974124385961d0dee23"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-cloudtruth_0.5.9_freebsd_386.zip",
+          "download_url": "https://github.com/cloudtruth/terraform-provider-cloudtruth/releases/download/v0.5.9/terraform-provider-cloudtruth_0.5.9_freebsd_386.zip",
+          "shasum": "09c3e4c79b434b59ddaacbed140bfbb30fb16dfbd521501d15895f9887c36309"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-cloudtruth_0.5.9_freebsd_arm64.zip",
+          "download_url": "https://github.com/cloudtruth/terraform-provider-cloudtruth/releases/download/v0.5.9/terraform-provider-cloudtruth_0.5.9_freebsd_arm64.zip",
+          "shasum": "a2e0ff60fd482a6698ae7da60c9d9a6d95a41c518c8f434ac9455de914b3813a"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-cloudtruth_0.5.9_linux_arm.zip",
+          "download_url": "https://github.com/cloudtruth/terraform-provider-cloudtruth/releases/download/v0.5.9/terraform-provider-cloudtruth_0.5.9_linux_arm.zip",
+          "shasum": "d82806cd20bd1e4bf3f6445e259b35de012e3beb35e324b4247734a309271fb0"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-cloudtruth_0.5.9_freebsd_amd64.zip",
+          "download_url": "https://github.com/cloudtruth/terraform-provider-cloudtruth/releases/download/v0.5.9/terraform-provider-cloudtruth_0.5.9_freebsd_amd64.zip",
+          "shasum": "843948801f270c46ddd67060b2f1bef9fa0ba1dbf1c3d2467ce550380942b856"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-cloudtruth_0.5.9_windows_386.zip",
+          "download_url": "https://github.com/cloudtruth/terraform-provider-cloudtruth/releases/download/v0.5.9/terraform-provider-cloudtruth_0.5.9_windows_386.zip",
+          "shasum": "460d0014f027c791526126b87abcb4c79be53922602ef2ea802cd0394aca23b8"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-cloudtruth_0.5.9_windows_arm.zip",
+          "download_url": "https://github.com/cloudtruth/terraform-provider-cloudtruth/releases/download/v0.5.9/terraform-provider-cloudtruth_0.5.9_windows_arm.zip",
+          "shasum": "13a5d1632424e1dd01d425287d44538e0d2bf31fd4204c700a807dc45d6b9ec8"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-cloudtruth_0.5.9_darwin_amd64.zip",
+          "download_url": "https://github.com/cloudtruth/terraform-provider-cloudtruth/releases/download/v0.5.9/terraform-provider-cloudtruth_0.5.9_darwin_amd64.zip",
+          "shasum": "0245c247c13e433226fde4ea33b7de9e9cf25ae4bcdff102b99361c295c64e1c"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-cloudtruth_0.5.9_freebsd_arm.zip",
+          "download_url": "https://github.com/cloudtruth/terraform-provider-cloudtruth/releases/download/v0.5.9/terraform-provider-cloudtruth_0.5.9_freebsd_arm.zip",
+          "shasum": "f96186ad98aefa4a6e948eb286bb816ab43e921e963a316e71939319d56e42d7"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-cloudtruth_0.5.9_linux_arm64.zip",
+          "download_url": "https://github.com/cloudtruth/terraform-provider-cloudtruth/releases/download/v0.5.9/terraform-provider-cloudtruth_0.5.9_linux_arm64.zip",
+          "shasum": "942155c4cd8dfd5100ed577aba6a1178891bd46116ceb5d1fac995b3a44adb35"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-cloudtruth_0.5.9_linux_amd64.zip",
+          "download_url": "https://github.com/cloudtruth/terraform-provider-cloudtruth/releases/download/v0.5.9/terraform-provider-cloudtruth_0.5.9_linux_amd64.zip",
+          "shasum": "2761ba868bfe935cbdd187bf6976971ec53f4bf77f4564e20ed6359d1e9a14f3"
+        }
+      ]
+    },
+    {
+      "version": "0.5.5",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/cloudtruth/terraform-provider-cloudtruth/releases/download/v0.5.5/terraform-provider-cloudtruth_0.5.5_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/cloudtruth/terraform-provider-cloudtruth/releases/download/v0.5.5/terraform-provider-cloudtruth_0.5.5_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-cloudtruth_0.5.5_windows_arm.zip",
+          "download_url": "https://github.com/cloudtruth/terraform-provider-cloudtruth/releases/download/v0.5.5/terraform-provider-cloudtruth_0.5.5_windows_arm.zip",
+          "shasum": "0a313a21aad598612119017638688a4b97bfb3b6933a82d89055deb2a29710e5"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-cloudtruth_0.5.5_windows_amd64.zip",
+          "download_url": "https://github.com/cloudtruth/terraform-provider-cloudtruth/releases/download/v0.5.5/terraform-provider-cloudtruth_0.5.5_windows_amd64.zip",
+          "shasum": "6c6c30a4a3d76c33a55bc7c13a629066f6799886dde1243b04e1e26be5a3d57f"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-cloudtruth_0.5.5_linux_386.zip",
+          "download_url": "https://github.com/cloudtruth/terraform-provider-cloudtruth/releases/download/v0.5.5/terraform-provider-cloudtruth_0.5.5_linux_386.zip",
+          "shasum": "92edaca3e123df12cf61cbfbe16f9fb5bac3036cda08bb958fb59fc77edbf2f6"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-cloudtruth_0.5.5_freebsd_amd64.zip",
+          "download_url": "https://github.com/cloudtruth/terraform-provider-cloudtruth/releases/download/v0.5.5/terraform-provider-cloudtruth_0.5.5_freebsd_amd64.zip",
+          "shasum": "9f49cdc1059bae59f7ee0a9ca63653e4ac58af7d7c279446edf5cb81009bf0dc"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-cloudtruth_0.5.5_linux_amd64.zip",
+          "download_url": "https://github.com/cloudtruth/terraform-provider-cloudtruth/releases/download/v0.5.5/terraform-provider-cloudtruth_0.5.5_linux_amd64.zip",
+          "shasum": "0d354d157d8bacadcc6f9e848dbe61bd659e06f521ef9298ebbfdd59782de65d"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-cloudtruth_0.5.5_linux_arm64.zip",
+          "download_url": "https://github.com/cloudtruth/terraform-provider-cloudtruth/releases/download/v0.5.5/terraform-provider-cloudtruth_0.5.5_linux_arm64.zip",
+          "shasum": "c20f3d984748ba36b942117d30c169e24336552e49567d8ad2b2c88bdd57f9a6"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-cloudtruth_0.5.5_freebsd_386.zip",
+          "download_url": "https://github.com/cloudtruth/terraform-provider-cloudtruth/releases/download/v0.5.5/terraform-provider-cloudtruth_0.5.5_freebsd_386.zip",
+          "shasum": "bdbe5178cda9fd28123c77bc6d6c69152bffceb9785c93f25d9974ec6964c1a8"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-cloudtruth_0.5.5_freebsd_arm.zip",
+          "download_url": "https://github.com/cloudtruth/terraform-provider-cloudtruth/releases/download/v0.5.5/terraform-provider-cloudtruth_0.5.5_freebsd_arm.zip",
+          "shasum": "1e2c15cc656b09fe3abbf6121e1105387a0a3cbb6ba86a418066770dabebc550"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-cloudtruth_0.5.5_darwin_amd64.zip",
+          "download_url": "https://github.com/cloudtruth/terraform-provider-cloudtruth/releases/download/v0.5.5/terraform-provider-cloudtruth_0.5.5_darwin_amd64.zip",
+          "shasum": "2465449083c7c9877bab5d7ab88f91367e384f834d6b81ace9fa65ffada5b2fc"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-cloudtruth_0.5.5_freebsd_arm64.zip",
+          "download_url": "https://github.com/cloudtruth/terraform-provider-cloudtruth/releases/download/v0.5.5/terraform-provider-cloudtruth_0.5.5_freebsd_arm64.zip",
+          "shasum": "1c9e18db88cdbd4e277d69d08c62b5a6fa006c8f6840a85b92559e2ac8197531"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-cloudtruth_0.5.5_windows_386.zip",
+          "download_url": "https://github.com/cloudtruth/terraform-provider-cloudtruth/releases/download/v0.5.5/terraform-provider-cloudtruth_0.5.5_windows_386.zip",
+          "shasum": "bc477209207b5927f57dea9e49868f4686c3f09f659740536042578531c7a98d"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-cloudtruth_0.5.5_windows_arm64.zip",
+          "download_url": "https://github.com/cloudtruth/terraform-provider-cloudtruth/releases/download/v0.5.5/terraform-provider-cloudtruth_0.5.5_windows_arm64.zip",
+          "shasum": "0dc69f2d597c30196cfb3a8b7372942759a69280cb1ade0c8f218b4fb33e4fbc"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-cloudtruth_0.5.5_linux_arm.zip",
+          "download_url": "https://github.com/cloudtruth/terraform-provider-cloudtruth/releases/download/v0.5.5/terraform-provider-cloudtruth_0.5.5_linux_arm.zip",
+          "shasum": "248be0db12339310e216d8102aa3b3be6ba713211ccfd6c730a1bcc8fad2bf41"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-cloudtruth_0.5.5_darwin_arm64.zip",
+          "download_url": "https://github.com/cloudtruth/terraform-provider-cloudtruth/releases/download/v0.5.5/terraform-provider-cloudtruth_0.5.5_darwin_arm64.zip",
+          "shasum": "f546b4d859993f790fadd57c531f78f05f8a62fda2d53fb9a305fe57171b013f"
+        }
+      ]
+    },
+    {
+      "version": "0.5.2",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/cloudtruth/terraform-provider-cloudtruth/releases/download/v0.5.2/terraform-provider-cloudtruth_0.5.2_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/cloudtruth/terraform-provider-cloudtruth/releases/download/v0.5.2/terraform-provider-cloudtruth_0.5.2_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-cloudtruth_0.5.2_linux_386.zip",
+          "download_url": "https://github.com/cloudtruth/terraform-provider-cloudtruth/releases/download/v0.5.2/terraform-provider-cloudtruth_0.5.2_linux_386.zip",
+          "shasum": "3f2f056a2c7f5baee29a131c36b801286ce0d1741a6ee5ed94a3af2b0280fe0e"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-cloudtruth_0.5.2_freebsd_amd64.zip",
+          "download_url": "https://github.com/cloudtruth/terraform-provider-cloudtruth/releases/download/v0.5.2/terraform-provider-cloudtruth_0.5.2_freebsd_amd64.zip",
+          "shasum": "a9a5af9f6cb620fd323ae17d8dd102ba5d2cdba1cb106545bc4eafddceb26470"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-cloudtruth_0.5.2_linux_arm64.zip",
+          "download_url": "https://github.com/cloudtruth/terraform-provider-cloudtruth/releases/download/v0.5.2/terraform-provider-cloudtruth_0.5.2_linux_arm64.zip",
+          "shasum": "0ab40b613a3a0d895cf8b581a7d98b185cb3029e9629ad0d29cf05b543a26bf6"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-cloudtruth_0.5.2_freebsd_386.zip",
+          "download_url": "https://github.com/cloudtruth/terraform-provider-cloudtruth/releases/download/v0.5.2/terraform-provider-cloudtruth_0.5.2_freebsd_386.zip",
+          "shasum": "18886902616d0e7c014ed3524a7598c55a42df39bc861b8654abe3273eb03a9e"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-cloudtruth_0.5.2_freebsd_arm.zip",
+          "download_url": "https://github.com/cloudtruth/terraform-provider-cloudtruth/releases/download/v0.5.2/terraform-provider-cloudtruth_0.5.2_freebsd_arm.zip",
+          "shasum": "e67bfc1bcb17eed61b8c2a28b283ae71e39febe6b6d165a3adaa9534e073e328"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-cloudtruth_0.5.2_freebsd_arm64.zip",
+          "download_url": "https://github.com/cloudtruth/terraform-provider-cloudtruth/releases/download/v0.5.2/terraform-provider-cloudtruth_0.5.2_freebsd_arm64.zip",
+          "shasum": "14a0b27d9bc61b1ffa588aa4b0bba5fec1896e277c580399210b732e483b9e82"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-cloudtruth_0.5.2_windows_arm.zip",
+          "download_url": "https://github.com/cloudtruth/terraform-provider-cloudtruth/releases/download/v0.5.2/terraform-provider-cloudtruth_0.5.2_windows_arm.zip",
+          "shasum": "dd23a6cc7b2ea9d91ad128b2ad44f81464658a28a21de7ebc227a98bc12b27c9"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-cloudtruth_0.5.2_linux_arm.zip",
+          "download_url": "https://github.com/cloudtruth/terraform-provider-cloudtruth/releases/download/v0.5.2/terraform-provider-cloudtruth_0.5.2_linux_arm.zip",
+          "shasum": "b36b19ec760dab1245e0978ad73affedb7815d3dc748c62cf9da58e217146a3d"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-cloudtruth_0.5.2_windows_arm64.zip",
+          "download_url": "https://github.com/cloudtruth/terraform-provider-cloudtruth/releases/download/v0.5.2/terraform-provider-cloudtruth_0.5.2_windows_arm64.zip",
+          "shasum": "ccd0f0d3ca159e5636528eceec3deaeb3e71f2a011c26d1ed60b992ee527b8b7"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-cloudtruth_0.5.2_windows_amd64.zip",
+          "download_url": "https://github.com/cloudtruth/terraform-provider-cloudtruth/releases/download/v0.5.2/terraform-provider-cloudtruth_0.5.2_windows_amd64.zip",
+          "shasum": "0294211be27ac703c82198d3d4a1a24d909adb2e97661111c46e2f6baccb33a0"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-cloudtruth_0.5.2_windows_386.zip",
+          "download_url": "https://github.com/cloudtruth/terraform-provider-cloudtruth/releases/download/v0.5.2/terraform-provider-cloudtruth_0.5.2_windows_386.zip",
+          "shasum": "dc349a1c43e51ef4d2790aee40710bd362027450c51347cb9b9426f491a65d1f"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-cloudtruth_0.5.2_linux_amd64.zip",
+          "download_url": "https://github.com/cloudtruth/terraform-provider-cloudtruth/releases/download/v0.5.2/terraform-provider-cloudtruth_0.5.2_linux_amd64.zip",
+          "shasum": "70588f1a695385caaaa5112e122f92c0f59030a16f8187fe0fe80c27c4187201"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-cloudtruth_0.5.2_darwin_amd64.zip",
+          "download_url": "https://github.com/cloudtruth/terraform-provider-cloudtruth/releases/download/v0.5.2/terraform-provider-cloudtruth_0.5.2_darwin_amd64.zip",
+          "shasum": "d266144609be30969c0057d109dbea2a7db91fc6a2cdbeb65c3af7d76216296a"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-cloudtruth_0.5.2_darwin_arm64.zip",
+          "download_url": "https://github.com/cloudtruth/terraform-provider-cloudtruth/releases/download/v0.5.2/terraform-provider-cloudtruth_0.5.2_darwin_arm64.zip",
+          "shasum": "a9a647134f02fa3cf90d9fbe1c0010db3942079204f5629e76ba507c3954d3a5"
+        }
+      ]
+    },
+    {
+      "version": "0.5.1",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/cloudtruth/terraform-provider-cloudtruth/releases/download/v0.5.1/terraform-provider-cloudtruth_0.5.1_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/cloudtruth/terraform-provider-cloudtruth/releases/download/v0.5.1/terraform-provider-cloudtruth_0.5.1_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-cloudtruth_0.5.1_freebsd_arm64.zip",
+          "download_url": "https://github.com/cloudtruth/terraform-provider-cloudtruth/releases/download/v0.5.1/terraform-provider-cloudtruth_0.5.1_freebsd_arm64.zip",
+          "shasum": "f4007b9b58eb79dd05ad585dc04a2c1f1ba8cbe973c1befa65e8202d727244b9"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-cloudtruth_0.5.1_windows_amd64.zip",
+          "download_url": "https://github.com/cloudtruth/terraform-provider-cloudtruth/releases/download/v0.5.1/terraform-provider-cloudtruth_0.5.1_windows_amd64.zip",
+          "shasum": "c26e5d3d3b0db7a92a64cb83070f5a642f37beff29bc588046b9a844d219aebb"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-cloudtruth_0.5.1_windows_arm64.zip",
+          "download_url": "https://github.com/cloudtruth/terraform-provider-cloudtruth/releases/download/v0.5.1/terraform-provider-cloudtruth_0.5.1_windows_arm64.zip",
+          "shasum": "39efc425ca22a1e210ad1a02acabfc0cc428466eaffe516213a289de76b862df"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-cloudtruth_0.5.1_linux_386.zip",
+          "download_url": "https://github.com/cloudtruth/terraform-provider-cloudtruth/releases/download/v0.5.1/terraform-provider-cloudtruth_0.5.1_linux_386.zip",
+          "shasum": "c9f8a5657852725321ce26f1aebf5e79e84805bdeba27b348a8291f7371a26de"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-cloudtruth_0.5.1_freebsd_arm.zip",
+          "download_url": "https://github.com/cloudtruth/terraform-provider-cloudtruth/releases/download/v0.5.1/terraform-provider-cloudtruth_0.5.1_freebsd_arm.zip",
+          "shasum": "b54efd955d77a0503c46702816d39f3af939d384c860f0d88ffe008528320a59"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-cloudtruth_0.5.1_darwin_amd64.zip",
+          "download_url": "https://github.com/cloudtruth/terraform-provider-cloudtruth/releases/download/v0.5.1/terraform-provider-cloudtruth_0.5.1_darwin_amd64.zip",
+          "shasum": "ca4cf66c244902253b107c91aee011ed6aea6f8c9212c6fbf88fe018f0854607"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-cloudtruth_0.5.1_windows_arm.zip",
+          "download_url": "https://github.com/cloudtruth/terraform-provider-cloudtruth/releases/download/v0.5.1/terraform-provider-cloudtruth_0.5.1_windows_arm.zip",
+          "shasum": "433ff03ec610cab19fca2f4fef4fef2e75ff7e00876835baa5e53cd239afbdc9"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-cloudtruth_0.5.1_freebsd_386.zip",
+          "download_url": "https://github.com/cloudtruth/terraform-provider-cloudtruth/releases/download/v0.5.1/terraform-provider-cloudtruth_0.5.1_freebsd_386.zip",
+          "shasum": "ed2a6811215ca31c205b010959d33f5ddac2b7de7455b0d59aa8eba1866cc8dc"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-cloudtruth_0.5.1_linux_amd64.zip",
+          "download_url": "https://github.com/cloudtruth/terraform-provider-cloudtruth/releases/download/v0.5.1/terraform-provider-cloudtruth_0.5.1_linux_amd64.zip",
+          "shasum": "703e6eb5eabfe0a3166e55355d335e003ec97cb02cd206c4efcaa8c218dac7cb"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-cloudtruth_0.5.1_windows_386.zip",
+          "download_url": "https://github.com/cloudtruth/terraform-provider-cloudtruth/releases/download/v0.5.1/terraform-provider-cloudtruth_0.5.1_windows_386.zip",
+          "shasum": "5958b2a1c084771d82a1c4291075fdf18fa7e70ca75fa922a889da0d8c656b5b"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-cloudtruth_0.5.1_freebsd_amd64.zip",
+          "download_url": "https://github.com/cloudtruth/terraform-provider-cloudtruth/releases/download/v0.5.1/terraform-provider-cloudtruth_0.5.1_freebsd_amd64.zip",
+          "shasum": "5d14cdf02fa24c4207a0235e714b0e3860c354492d03acb81ff7889a86b9788a"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-cloudtruth_0.5.1_linux_arm.zip",
+          "download_url": "https://github.com/cloudtruth/terraform-provider-cloudtruth/releases/download/v0.5.1/terraform-provider-cloudtruth_0.5.1_linux_arm.zip",
+          "shasum": "bc0239e6e5e36e9effbcbb7ba36718b835ecee365710408b9f8e62853398b9dd"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-cloudtruth_0.5.1_linux_arm64.zip",
+          "download_url": "https://github.com/cloudtruth/terraform-provider-cloudtruth/releases/download/v0.5.1/terraform-provider-cloudtruth_0.5.1_linux_arm64.zip",
+          "shasum": "e3a1b48094644174b7704d2ce577ba845ae63b772bfb87e4d00d341c029e6916"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-cloudtruth_0.5.1_darwin_arm64.zip",
+          "download_url": "https://github.com/cloudtruth/terraform-provider-cloudtruth/releases/download/v0.5.1/terraform-provider-cloudtruth_0.5.1_darwin_arm64.zip",
+          "shasum": "2d26c57482c07a17b9ba8e8c78df9690d0a302d80e85288cac10b4ffd28e1285"
+        }
+      ]
+    },
+    {
+      "version": "0.5.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/cloudtruth/terraform-provider-cloudtruth/releases/download/v0.5.0/terraform-provider-cloudtruth_0.5.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/cloudtruth/terraform-provider-cloudtruth/releases/download/v0.5.0/terraform-provider-cloudtruth_0.5.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-cloudtruth_0.5.0_darwin_amd64.zip",
+          "download_url": "https://github.com/cloudtruth/terraform-provider-cloudtruth/releases/download/v0.5.0/terraform-provider-cloudtruth_0.5.0_darwin_amd64.zip",
+          "shasum": "93e1b779a8759ccf31cb68732a84abdc17931d09d1deb59a872c7980db53019d"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-cloudtruth_0.5.0_windows_amd64.zip",
+          "download_url": "https://github.com/cloudtruth/terraform-provider-cloudtruth/releases/download/v0.5.0/terraform-provider-cloudtruth_0.5.0_windows_amd64.zip",
+          "shasum": "3a288a27fb6f0b2bde7b5b8069d456273bd076f0096d50e9035f545438da9ddd"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-cloudtruth_0.5.0_linux_386.zip",
+          "download_url": "https://github.com/cloudtruth/terraform-provider-cloudtruth/releases/download/v0.5.0/terraform-provider-cloudtruth_0.5.0_linux_386.zip",
+          "shasum": "eaa0ac75526c9f6470cfb025e9bad3cddddd9d04ab8885544ba602c24d7fe768"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-cloudtruth_0.5.0_linux_arm.zip",
+          "download_url": "https://github.com/cloudtruth/terraform-provider-cloudtruth/releases/download/v0.5.0/terraform-provider-cloudtruth_0.5.0_linux_arm.zip",
+          "shasum": "b0681ab766c6fb268c733173d5476ebb3b5fb0e2a98ec8cc64046e6134bd104e"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-cloudtruth_0.5.0_linux_amd64.zip",
+          "download_url": "https://github.com/cloudtruth/terraform-provider-cloudtruth/releases/download/v0.5.0/terraform-provider-cloudtruth_0.5.0_linux_amd64.zip",
+          "shasum": "e6f35c83585a931a9f2d9d719cf1be976f3902fb383b08b3985c5813aa239be8"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-cloudtruth_0.5.0_freebsd_arm.zip",
+          "download_url": "https://github.com/cloudtruth/terraform-provider-cloudtruth/releases/download/v0.5.0/terraform-provider-cloudtruth_0.5.0_freebsd_arm.zip",
+          "shasum": "76b6180d40b7262c5451c1bf9c8073bf32e62dec3f1c45ab7059a73a5032ca0e"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-cloudtruth_0.5.0_linux_arm64.zip",
+          "download_url": "https://github.com/cloudtruth/terraform-provider-cloudtruth/releases/download/v0.5.0/terraform-provider-cloudtruth_0.5.0_linux_arm64.zip",
+          "shasum": "522e8227bba3b0186eac20ec602105dfe00d22aef134d42bf7e58b27c92ced6c"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-cloudtruth_0.5.0_windows_arm.zip",
+          "download_url": "https://github.com/cloudtruth/terraform-provider-cloudtruth/releases/download/v0.5.0/terraform-provider-cloudtruth_0.5.0_windows_arm.zip",
+          "shasum": "38dfdb8b8cd4e2b4107d958b176c690a9f306c2b677a6e9ca2f42c98e1a5678d"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-cloudtruth_0.5.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/cloudtruth/terraform-provider-cloudtruth/releases/download/v0.5.0/terraform-provider-cloudtruth_0.5.0_freebsd_arm64.zip",
+          "shasum": "6e40eb77a3faa5a664c1fbf3d3159582e910d83d5cb6c7ba2c114e754faf0fe4"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-cloudtruth_0.5.0_windows_386.zip",
+          "download_url": "https://github.com/cloudtruth/terraform-provider-cloudtruth/releases/download/v0.5.0/terraform-provider-cloudtruth_0.5.0_windows_386.zip",
+          "shasum": "97b34148de333f469f242222cdf3d792fa73f6e5fc0a1059a75741747ef3a1f8"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-cloudtruth_0.5.0_windows_arm64.zip",
+          "download_url": "https://github.com/cloudtruth/terraform-provider-cloudtruth/releases/download/v0.5.0/terraform-provider-cloudtruth_0.5.0_windows_arm64.zip",
+          "shasum": "cc882df713dee16c26bef9b640c8b34721b76a9e0abf8cbb2163ddd894bca85e"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-cloudtruth_0.5.0_darwin_arm64.zip",
+          "download_url": "https://github.com/cloudtruth/terraform-provider-cloudtruth/releases/download/v0.5.0/terraform-provider-cloudtruth_0.5.0_darwin_arm64.zip",
+          "shasum": "b42029e523409542e72c7b451a9dcd845ddd63760ace2f46eda600768d25587a"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-cloudtruth_0.5.0_freebsd_386.zip",
+          "download_url": "https://github.com/cloudtruth/terraform-provider-cloudtruth/releases/download/v0.5.0/terraform-provider-cloudtruth_0.5.0_freebsd_386.zip",
+          "shasum": "fe5f506b41934cdf7b48718e2562c5c9e75315eb434ea1cff9cb3869960265cf"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-cloudtruth_0.5.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/cloudtruth/terraform-provider-cloudtruth/releases/download/v0.5.0/terraform-provider-cloudtruth_0.5.0_freebsd_amd64.zip",
+          "shasum": "1bc5cdba8ed5941caac127b6070fe21cdce18d09ce63f15af099284216f29302"
+        }
+      ]
+    },
+    {
+      "version": "0.4.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/cloudtruth/terraform-provider-cloudtruth/releases/download/v0.4.0/terraform-provider-cloudtruth_0.4.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/cloudtruth/terraform-provider-cloudtruth/releases/download/v0.4.0/terraform-provider-cloudtruth_0.4.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-cloudtruth_0.4.0_windows_386.zip",
+          "download_url": "https://github.com/cloudtruth/terraform-provider-cloudtruth/releases/download/v0.4.0/terraform-provider-cloudtruth_0.4.0_windows_386.zip",
+          "shasum": "73abc58a3674a5f40155b777ae2b0738c0e7240656aa53434cc8b42488807352"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-cloudtruth_0.4.0_freebsd_arm.zip",
+          "download_url": "https://github.com/cloudtruth/terraform-provider-cloudtruth/releases/download/v0.4.0/terraform-provider-cloudtruth_0.4.0_freebsd_arm.zip",
+          "shasum": "f6957fc4c65aba5967aa315eb2a572f9fcd649c8de3e5e1a149558e0404e580f"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-cloudtruth_0.4.0_windows_arm64.zip",
+          "download_url": "https://github.com/cloudtruth/terraform-provider-cloudtruth/releases/download/v0.4.0/terraform-provider-cloudtruth_0.4.0_windows_arm64.zip",
+          "shasum": "d5f813dc23820b2d77b45ae997a0963a37fe12ee7058f276e607b4847ce4bc66"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-cloudtruth_0.4.0_linux_arm64.zip",
+          "download_url": "https://github.com/cloudtruth/terraform-provider-cloudtruth/releases/download/v0.4.0/terraform-provider-cloudtruth_0.4.0_linux_arm64.zip",
+          "shasum": "015636ab1fdf7a4ff69c3a8446b38dc26d62522c2e5c5ed6a19ac1474e5b5462"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-cloudtruth_0.4.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/cloudtruth/terraform-provider-cloudtruth/releases/download/v0.4.0/terraform-provider-cloudtruth_0.4.0_freebsd_arm64.zip",
+          "shasum": "d005849ad811ae0af67e07ad0ce116dd43ccc4bf16638ae40fd889453fe7f47c"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-cloudtruth_0.4.0_darwin_amd64.zip",
+          "download_url": "https://github.com/cloudtruth/terraform-provider-cloudtruth/releases/download/v0.4.0/terraform-provider-cloudtruth_0.4.0_darwin_amd64.zip",
+          "shasum": "bbcfb59f5ecf180f68737fc6f3a00b3c381daa2641c0c926d0987bb241fdc9ac"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-cloudtruth_0.4.0_linux_arm.zip",
+          "download_url": "https://github.com/cloudtruth/terraform-provider-cloudtruth/releases/download/v0.4.0/terraform-provider-cloudtruth_0.4.0_linux_arm.zip",
+          "shasum": "2a16e3e7cbd9bf81229e3709dbe530bf6d49132446e74ef45e387b0eafb2a7d2"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-cloudtruth_0.4.0_windows_amd64.zip",
+          "download_url": "https://github.com/cloudtruth/terraform-provider-cloudtruth/releases/download/v0.4.0/terraform-provider-cloudtruth_0.4.0_windows_amd64.zip",
+          "shasum": "065f19e7b82ea5b2fb0d70462725270c1acad834129b84182e701d8d2af6817a"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-cloudtruth_0.4.0_windows_arm.zip",
+          "download_url": "https://github.com/cloudtruth/terraform-provider-cloudtruth/releases/download/v0.4.0/terraform-provider-cloudtruth_0.4.0_windows_arm.zip",
+          "shasum": "64ce2b7bae2721e0002273482210b2ea4277f1965e7d324017aa1692e3360eb5"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-cloudtruth_0.4.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/cloudtruth/terraform-provider-cloudtruth/releases/download/v0.4.0/terraform-provider-cloudtruth_0.4.0_freebsd_amd64.zip",
+          "shasum": "c817f7794ce6566ea55d4f1c4ce7c3321cf489687a6976dfaf00a1eebc120439"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-cloudtruth_0.4.0_linux_386.zip",
+          "download_url": "https://github.com/cloudtruth/terraform-provider-cloudtruth/releases/download/v0.4.0/terraform-provider-cloudtruth_0.4.0_linux_386.zip",
+          "shasum": "72fab89a213430953ff63dad0ac5e486c4283c794dcee805bb78b67d8468d4fa"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-cloudtruth_0.4.0_darwin_arm64.zip",
+          "download_url": "https://github.com/cloudtruth/terraform-provider-cloudtruth/releases/download/v0.4.0/terraform-provider-cloudtruth_0.4.0_darwin_arm64.zip",
+          "shasum": "ba0821645e6f0ebce5f4103629142fe483e581dccda2e01e08d9a54374958d2c"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-cloudtruth_0.4.0_freebsd_386.zip",
+          "download_url": "https://github.com/cloudtruth/terraform-provider-cloudtruth/releases/download/v0.4.0/terraform-provider-cloudtruth_0.4.0_freebsd_386.zip",
+          "shasum": "4eb34105afb9a63e08d12134d03d336d3b1db05f3a2ca3b76d1d4585b0639067"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-cloudtruth_0.4.0_linux_amd64.zip",
+          "download_url": "https://github.com/cloudtruth/terraform-provider-cloudtruth/releases/download/v0.4.0/terraform-provider-cloudtruth_0.4.0_linux_amd64.zip",
+          "shasum": "212bd4a71105f4ac34177e5310f5fdf854bdd2549382a8cdf12ae40ca4d51602"
+        }
+      ]
+    }
+  ]
+}

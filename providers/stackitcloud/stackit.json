@@ -1,0 +1,869 @@
+{
+  "repository": "https://github.com/stackitcloud/terraform-provider-stackit",
+  "versions": [
+    {
+      "version": "0.6.2",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/stackitcloud/terraform-provider-stackit/releases/download/v0.6.2/terraform-provider-stackit_0.6.2_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/stackitcloud/terraform-provider-stackit/releases/download/v0.6.2/terraform-provider-stackit_0.6.2_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-stackit_0.6.2_linux_386.zip",
+          "download_url": "https://github.com/stackitcloud/terraform-provider-stackit/releases/download/v0.6.2/terraform-provider-stackit_0.6.2_linux_386.zip",
+          "shasum": "0cbfc900c7c2e2dd70f93fcbf74aad1164edbf66faa1a213f3fb182e9fbfd47f"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-stackit_0.6.2_linux_arm64.zip",
+          "download_url": "https://github.com/stackitcloud/terraform-provider-stackit/releases/download/v0.6.2/terraform-provider-stackit_0.6.2_linux_arm64.zip",
+          "shasum": "1c81a9716ceb9b2b7d87d2c250fbf3cb83b01320bdf53ca7da0908253c45cdd9"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-stackit_0.6.2_freebsd_386.zip",
+          "download_url": "https://github.com/stackitcloud/terraform-provider-stackit/releases/download/v0.6.2/terraform-provider-stackit_0.6.2_freebsd_386.zip",
+          "shasum": "4b75a4b0e064970439cb573fc2e1cf45c249677c0a3732e285c35a8ee17ab45e"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-stackit_0.6.2_darwin_amd64.zip",
+          "download_url": "https://github.com/stackitcloud/terraform-provider-stackit/releases/download/v0.6.2/terraform-provider-stackit_0.6.2_darwin_amd64.zip",
+          "shasum": "511fc1c76fcfd7ad2326a7fa6199afee5d6c0cc40c80f9745db29bb3835bfdb9"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-stackit_0.6.2_freebsd_amd64.zip",
+          "download_url": "https://github.com/stackitcloud/terraform-provider-stackit/releases/download/v0.6.2/terraform-provider-stackit_0.6.2_freebsd_amd64.zip",
+          "shasum": "0891faf1ec00c35be7d1e4f2fa2eedbbf3d4e69cbbf0eb117d1115d66cf795ef"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-stackit_0.6.2_freebsd_arm64.zip",
+          "download_url": "https://github.com/stackitcloud/terraform-provider-stackit/releases/download/v0.6.2/terraform-provider-stackit_0.6.2_freebsd_arm64.zip",
+          "shasum": "7122efb1bb5fe1111d67e32b20c9b1dfe08253efeb4a6cd81be07f850c8d857e"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-stackit_0.6.2_linux_arm.zip",
+          "download_url": "https://github.com/stackitcloud/terraform-provider-stackit/releases/download/v0.6.2/terraform-provider-stackit_0.6.2_linux_arm.zip",
+          "shasum": "e40488dc7a2c818f865a430895d769e159b504b856af873ad54d1d107baf58bc"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-stackit_0.6.2_windows_amd64.zip",
+          "download_url": "https://github.com/stackitcloud/terraform-provider-stackit/releases/download/v0.6.2/terraform-provider-stackit_0.6.2_windows_amd64.zip",
+          "shasum": "0c42931d6e4bcd15809e059370b0011be8835bc0e1fb8876ca5f95c61805fbb1"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-stackit_0.6.2_windows_arm64.zip",
+          "download_url": "https://github.com/stackitcloud/terraform-provider-stackit/releases/download/v0.6.2/terraform-provider-stackit_0.6.2_windows_arm64.zip",
+          "shasum": "c61285c6c472d2ae290cf64459ee8f2e9ad542bbeeec9fc052344c37a451c508"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-stackit_0.6.2_freebsd_arm.zip",
+          "download_url": "https://github.com/stackitcloud/terraform-provider-stackit/releases/download/v0.6.2/terraform-provider-stackit_0.6.2_freebsd_arm.zip",
+          "shasum": "fd14e097128d41fa4e6bceed84c834292993ceb7536295372709776855e1bc48"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-stackit_0.6.2_linux_amd64.zip",
+          "download_url": "https://github.com/stackitcloud/terraform-provider-stackit/releases/download/v0.6.2/terraform-provider-stackit_0.6.2_linux_amd64.zip",
+          "shasum": "eb7511dc9f7c058760380a6392e431f532d8792e5772dac5240d3a2a442e5cd3"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-stackit_0.6.2_windows_arm.zip",
+          "download_url": "https://github.com/stackitcloud/terraform-provider-stackit/releases/download/v0.6.2/terraform-provider-stackit_0.6.2_windows_arm.zip",
+          "shasum": "badc35b17f196b5dd89079db1e91a554daab0e1bd0dc358e3a185c4bc1dc6c32"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-stackit_0.6.2_windows_386.zip",
+          "download_url": "https://github.com/stackitcloud/terraform-provider-stackit/releases/download/v0.6.2/terraform-provider-stackit_0.6.2_windows_386.zip",
+          "shasum": "8f60b80b5d79c82d17f4f77f6c1f6534e1d85af52da028aa21b04040d8d58a39"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-stackit_0.6.2_darwin_arm64.zip",
+          "download_url": "https://github.com/stackitcloud/terraform-provider-stackit/releases/download/v0.6.2/terraform-provider-stackit_0.6.2_darwin_arm64.zip",
+          "shasum": "d78196656f317700857df6a77520db82a65ac489d8b0252b8375cba9b29f8441"
+        }
+      ]
+    },
+    {
+      "version": "0.6.1",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/stackitcloud/terraform-provider-stackit/releases/download/v0.6.1/terraform-provider-stackit_0.6.1_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/stackitcloud/terraform-provider-stackit/releases/download/v0.6.1/terraform-provider-stackit_0.6.1_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-stackit_0.6.1_freebsd_amd64.zip",
+          "download_url": "https://github.com/stackitcloud/terraform-provider-stackit/releases/download/v0.6.1/terraform-provider-stackit_0.6.1_freebsd_amd64.zip",
+          "shasum": "feb08d0c5c9d24e5f4842106dc100738b5579e21a6ab0177a4f6f96e153ff3c9"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-stackit_0.6.1_darwin_arm64.zip",
+          "download_url": "https://github.com/stackitcloud/terraform-provider-stackit/releases/download/v0.6.1/terraform-provider-stackit_0.6.1_darwin_arm64.zip",
+          "shasum": "2745e12a11cae3614df37412984c3061af290a075d1adda62027cce81a0ebe5c"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-stackit_0.6.1_windows_arm.zip",
+          "download_url": "https://github.com/stackitcloud/terraform-provider-stackit/releases/download/v0.6.1/terraform-provider-stackit_0.6.1_windows_arm.zip",
+          "shasum": "47ff863f84e61f8997bba9b6574e2c4fe702bbbc5f92ea4e9e00c4c66640004a"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-stackit_0.6.1_linux_amd64.zip",
+          "download_url": "https://github.com/stackitcloud/terraform-provider-stackit/releases/download/v0.6.1/terraform-provider-stackit_0.6.1_linux_amd64.zip",
+          "shasum": "ba39840da21f1578e1ef609ac3940863558b51af0258d7795b286d78c0a6791f"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-stackit_0.6.1_linux_arm64.zip",
+          "download_url": "https://github.com/stackitcloud/terraform-provider-stackit/releases/download/v0.6.1/terraform-provider-stackit_0.6.1_linux_arm64.zip",
+          "shasum": "3230c023c951d38d9e355427a976d6db4df78409a3b8e1597704ff36ad31a2a4"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-stackit_0.6.1_linux_386.zip",
+          "download_url": "https://github.com/stackitcloud/terraform-provider-stackit/releases/download/v0.6.1/terraform-provider-stackit_0.6.1_linux_386.zip",
+          "shasum": "2d888df7804fc33ad5db64e8094357e52fd8923e99c715f092792d295a98f639"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-stackit_0.6.1_freebsd_386.zip",
+          "download_url": "https://github.com/stackitcloud/terraform-provider-stackit/releases/download/v0.6.1/terraform-provider-stackit_0.6.1_freebsd_386.zip",
+          "shasum": "5ed7480998fc565163ce5967a2bb0a1c78265160ca9dc45a835ad645eb8e9a9d"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-stackit_0.6.1_darwin_amd64.zip",
+          "download_url": "https://github.com/stackitcloud/terraform-provider-stackit/releases/download/v0.6.1/terraform-provider-stackit_0.6.1_darwin_amd64.zip",
+          "shasum": "8ac7f3d8f815f36571dfc096c697e059fbcea74d945e333533d51790797453b8"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-stackit_0.6.1_freebsd_arm64.zip",
+          "download_url": "https://github.com/stackitcloud/terraform-provider-stackit/releases/download/v0.6.1/terraform-provider-stackit_0.6.1_freebsd_arm64.zip",
+          "shasum": "e40e0b54e4ac6325b25a39acecba93884cce91793d7b3c028d93a3d1d6d62fd6"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-stackit_0.6.1_windows_amd64.zip",
+          "download_url": "https://github.com/stackitcloud/terraform-provider-stackit/releases/download/v0.6.1/terraform-provider-stackit_0.6.1_windows_amd64.zip",
+          "shasum": "b1ee0ae726ad765fb7c2469d5e6e9737b7bb744d6dbfdff6053680681e4fa77a"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-stackit_0.6.1_windows_arm64.zip",
+          "download_url": "https://github.com/stackitcloud/terraform-provider-stackit/releases/download/v0.6.1/terraform-provider-stackit_0.6.1_windows_arm64.zip",
+          "shasum": "1a9091b7028cb850ac0ebf1726a9f7a68d7ada4804030b0324c8ddb30d45fbb8"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-stackit_0.6.1_freebsd_arm.zip",
+          "download_url": "https://github.com/stackitcloud/terraform-provider-stackit/releases/download/v0.6.1/terraform-provider-stackit_0.6.1_freebsd_arm.zip",
+          "shasum": "825f515c0008ec89481d675de9ad5f9d2bb7dc05dd181646632ce2c2a835a9ee"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-stackit_0.6.1_windows_386.zip",
+          "download_url": "https://github.com/stackitcloud/terraform-provider-stackit/releases/download/v0.6.1/terraform-provider-stackit_0.6.1_windows_386.zip",
+          "shasum": "b1e7eeb6c443d6c3e64eea9c95f16363c041ca1d1400c339a51381a0fcc14060"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-stackit_0.6.1_linux_arm.zip",
+          "download_url": "https://github.com/stackitcloud/terraform-provider-stackit/releases/download/v0.6.1/terraform-provider-stackit_0.6.1_linux_arm.zip",
+          "shasum": "d343045397f688766285b27d77fc01ed1f599a48e94bdd457e5a021b719d7941"
+        }
+      ]
+    },
+    {
+      "version": "0.6.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/stackitcloud/terraform-provider-stackit/releases/download/v0.6.0/terraform-provider-stackit_0.6.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/stackitcloud/terraform-provider-stackit/releases/download/v0.6.0/terraform-provider-stackit_0.6.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-stackit_0.6.0_freebsd_386.zip",
+          "download_url": "https://github.com/stackitcloud/terraform-provider-stackit/releases/download/v0.6.0/terraform-provider-stackit_0.6.0_freebsd_386.zip",
+          "shasum": "e8517d06c9626997e5d016a12b14060c86a9c09896411db9441e35c082eef4d2"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-stackit_0.6.0_windows_arm64.zip",
+          "download_url": "https://github.com/stackitcloud/terraform-provider-stackit/releases/download/v0.6.0/terraform-provider-stackit_0.6.0_windows_arm64.zip",
+          "shasum": "24c41c3a3004dc127670d024bf9150c0ad175f590993c3fc13977e8e507f081d"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-stackit_0.6.0_linux_amd64.zip",
+          "download_url": "https://github.com/stackitcloud/terraform-provider-stackit/releases/download/v0.6.0/terraform-provider-stackit_0.6.0_linux_amd64.zip",
+          "shasum": "c11271e3d36b11beb505cd16a00fa949373c733b44b7b0ef9b08caef3ded4b30"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-stackit_0.6.0_darwin_amd64.zip",
+          "download_url": "https://github.com/stackitcloud/terraform-provider-stackit/releases/download/v0.6.0/terraform-provider-stackit_0.6.0_darwin_amd64.zip",
+          "shasum": "e5655ab960bd6effedfaa526f238895ab10141a81a02d061df0dcbe7728b9057"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-stackit_0.6.0_freebsd_arm.zip",
+          "download_url": "https://github.com/stackitcloud/terraform-provider-stackit/releases/download/v0.6.0/terraform-provider-stackit_0.6.0_freebsd_arm.zip",
+          "shasum": "8dc4272ba5a7f0baaf85a981c351818c41632483d7f7c90eafc2a13b4d2dfee8"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-stackit_0.6.0_darwin_arm64.zip",
+          "download_url": "https://github.com/stackitcloud/terraform-provider-stackit/releases/download/v0.6.0/terraform-provider-stackit_0.6.0_darwin_arm64.zip",
+          "shasum": "7bb801e4ba33b34bfed525e806b5c7b47a68e55455d13f196a14443d9a78de36"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-stackit_0.6.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/stackitcloud/terraform-provider-stackit/releases/download/v0.6.0/terraform-provider-stackit_0.6.0_freebsd_arm64.zip",
+          "shasum": "d03ee84dfa992b4a4e8b0694c5d58af085144bc93527249f246de4cb7b080476"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-stackit_0.6.0_windows_amd64.zip",
+          "download_url": "https://github.com/stackitcloud/terraform-provider-stackit/releases/download/v0.6.0/terraform-provider-stackit_0.6.0_windows_amd64.zip",
+          "shasum": "df90f8b17c44ba88123fb2370b5d7b66a3a10d6ba224afe9090e667dff82bfbd"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-stackit_0.6.0_linux_arm.zip",
+          "download_url": "https://github.com/stackitcloud/terraform-provider-stackit/releases/download/v0.6.0/terraform-provider-stackit_0.6.0_linux_arm.zip",
+          "shasum": "49e2eda8d4f5f25eeb98239e835a8a41956207d0957847331024dc6c096b0384"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-stackit_0.6.0_linux_arm64.zip",
+          "download_url": "https://github.com/stackitcloud/terraform-provider-stackit/releases/download/v0.6.0/terraform-provider-stackit_0.6.0_linux_arm64.zip",
+          "shasum": "0d020671ca5f341e7a6ac1021b9e615ac0dfddbc5f1dddc178a1cae6439179be"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-stackit_0.6.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/stackitcloud/terraform-provider-stackit/releases/download/v0.6.0/terraform-provider-stackit_0.6.0_freebsd_amd64.zip",
+          "shasum": "079581634d3648d36d2a61d99c2600212c8ad8401b4666fcefc7739e75807686"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-stackit_0.6.0_windows_386.zip",
+          "download_url": "https://github.com/stackitcloud/terraform-provider-stackit/releases/download/v0.6.0/terraform-provider-stackit_0.6.0_windows_386.zip",
+          "shasum": "b0f220ec1cf882c52896238c0d0ff47d9440c5c12f77f7594b2d90113721d1b3"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-stackit_0.6.0_windows_arm.zip",
+          "download_url": "https://github.com/stackitcloud/terraform-provider-stackit/releases/download/v0.6.0/terraform-provider-stackit_0.6.0_windows_arm.zip",
+          "shasum": "2007588777d3a728871d4f25200cad2adfc7a01bf72ad10fe7f4164073b77c20"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-stackit_0.6.0_linux_386.zip",
+          "download_url": "https://github.com/stackitcloud/terraform-provider-stackit/releases/download/v0.6.0/terraform-provider-stackit_0.6.0_linux_386.zip",
+          "shasum": "02e8f6fd39d3729f965d2d9c9612604605d74e2de4126e1df0d090bbb1fafb60"
+        }
+      ]
+    },
+    {
+      "version": "0.5.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/stackitcloud/terraform-provider-stackit/releases/download/v0.5.0/terraform-provider-stackit_0.5.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/stackitcloud/terraform-provider-stackit/releases/download/v0.5.0/terraform-provider-stackit_0.5.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-stackit_0.5.0_linux_386.zip",
+          "download_url": "https://github.com/stackitcloud/terraform-provider-stackit/releases/download/v0.5.0/terraform-provider-stackit_0.5.0_linux_386.zip",
+          "shasum": "2c9ac7aad2b906c9d2fb8d3437c8c7120dc70a4d3d0d0c75c58844229687dfdc"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-stackit_0.5.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/stackitcloud/terraform-provider-stackit/releases/download/v0.5.0/terraform-provider-stackit_0.5.0_freebsd_arm64.zip",
+          "shasum": "3bcc9b8804965acfbf649953c8b9841b611f62eab5fe613cef7e98a2c915d241"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-stackit_0.5.0_darwin_amd64.zip",
+          "download_url": "https://github.com/stackitcloud/terraform-provider-stackit/releases/download/v0.5.0/terraform-provider-stackit_0.5.0_darwin_amd64.zip",
+          "shasum": "a80df3473f430e5ae949fdaf4d14a6b226c762124292f53cad08a6b9240a4d22"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-stackit_0.5.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/stackitcloud/terraform-provider-stackit/releases/download/v0.5.0/terraform-provider-stackit_0.5.0_freebsd_amd64.zip",
+          "shasum": "b1c1e4576c5d54e7cbb8206bf93ce231def189275d198d3dca466ec008b0cfcb"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-stackit_0.5.0_windows_arm64.zip",
+          "download_url": "https://github.com/stackitcloud/terraform-provider-stackit/releases/download/v0.5.0/terraform-provider-stackit_0.5.0_windows_arm64.zip",
+          "shasum": "362649cae662d7c19f4812f88d7b9572a9af85695bda21862c6cf9133642729c"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-stackit_0.5.0_linux_amd64.zip",
+          "download_url": "https://github.com/stackitcloud/terraform-provider-stackit/releases/download/v0.5.0/terraform-provider-stackit_0.5.0_linux_amd64.zip",
+          "shasum": "65d2610f765c282386f78e92b25f6058fcd5732b89893aec102dc8504977b7a0"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-stackit_0.5.0_windows_arm.zip",
+          "download_url": "https://github.com/stackitcloud/terraform-provider-stackit/releases/download/v0.5.0/terraform-provider-stackit_0.5.0_windows_arm.zip",
+          "shasum": "7c967f50a7add573d673a18b7c9df7acbada4b612d0d82d92521b0f47af42973"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-stackit_0.5.0_windows_amd64.zip",
+          "download_url": "https://github.com/stackitcloud/terraform-provider-stackit/releases/download/v0.5.0/terraform-provider-stackit_0.5.0_windows_amd64.zip",
+          "shasum": "ad615d4d899298e6002e9f7a74ce128c5dc4256683a4d0da34e00865439fcc53"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-stackit_0.5.0_linux_arm.zip",
+          "download_url": "https://github.com/stackitcloud/terraform-provider-stackit/releases/download/v0.5.0/terraform-provider-stackit_0.5.0_linux_arm.zip",
+          "shasum": "b56d8a2bf72f28336cdfa1d1a77acade877aaac24a3fef1c742d2d6753e5bb42"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-stackit_0.5.0_linux_arm64.zip",
+          "download_url": "https://github.com/stackitcloud/terraform-provider-stackit/releases/download/v0.5.0/terraform-provider-stackit_0.5.0_linux_arm64.zip",
+          "shasum": "ecf93120d21cf0d67a842e356e259036471c06ffcd6da730359058a05953b355"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-stackit_0.5.0_darwin_arm64.zip",
+          "download_url": "https://github.com/stackitcloud/terraform-provider-stackit/releases/download/v0.5.0/terraform-provider-stackit_0.5.0_darwin_arm64.zip",
+          "shasum": "7d5a2126ec1fb5e3a15013cbab0c182b5ab002436afe194efb0801935f7893dc"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-stackit_0.5.0_freebsd_386.zip",
+          "download_url": "https://github.com/stackitcloud/terraform-provider-stackit/releases/download/v0.5.0/terraform-provider-stackit_0.5.0_freebsd_386.zip",
+          "shasum": "28ab6aec6577c4446f5219e9392d49fd5daf08229e9d2a854e9f154cb8c23497"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-stackit_0.5.0_freebsd_arm.zip",
+          "download_url": "https://github.com/stackitcloud/terraform-provider-stackit/releases/download/v0.5.0/terraform-provider-stackit_0.5.0_freebsd_arm.zip",
+          "shasum": "d7b4015eac8f5c6824d1a8b2349fa3fc4a69f863d5f4404614171df0e85a3344"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-stackit_0.5.0_windows_386.zip",
+          "download_url": "https://github.com/stackitcloud/terraform-provider-stackit/releases/download/v0.5.0/terraform-provider-stackit_0.5.0_windows_386.zip",
+          "shasum": "5e9632600f7e1329b52c36f7d0b375ac7edc6a383fcfe3c8a1954f86d829823e"
+        }
+      ]
+    },
+    {
+      "version": "0.4.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/stackitcloud/terraform-provider-stackit/releases/download/v0.4.0/terraform-provider-stackit_0.4.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/stackitcloud/terraform-provider-stackit/releases/download/v0.4.0/terraform-provider-stackit_0.4.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-stackit_0.4.0_darwin_amd64.zip",
+          "download_url": "https://github.com/stackitcloud/terraform-provider-stackit/releases/download/v0.4.0/terraform-provider-stackit_0.4.0_darwin_amd64.zip",
+          "shasum": "3c2833eca3fd7880fd918663e65bbc452ff7a0061409ec02c686d1be45d414eb"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-stackit_0.4.0_linux_arm64.zip",
+          "download_url": "https://github.com/stackitcloud/terraform-provider-stackit/releases/download/v0.4.0/terraform-provider-stackit_0.4.0_linux_arm64.zip",
+          "shasum": "74c0e4a625992a051a4cebd34b8a0b0bda9178d371a7090a564206ebcf180550"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-stackit_0.4.0_linux_386.zip",
+          "download_url": "https://github.com/stackitcloud/terraform-provider-stackit/releases/download/v0.4.0/terraform-provider-stackit_0.4.0_linux_386.zip",
+          "shasum": "76e287ff469f15f2af091ac987dd24f8f620fd6e7aa27fab385f5a52476d52c0"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-stackit_0.4.0_freebsd_386.zip",
+          "download_url": "https://github.com/stackitcloud/terraform-provider-stackit/releases/download/v0.4.0/terraform-provider-stackit_0.4.0_freebsd_386.zip",
+          "shasum": "25d3ebf155ef25244d04c44612642d29783509e6e2339c00367b9073879eab7c"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-stackit_0.4.0_windows_amd64.zip",
+          "download_url": "https://github.com/stackitcloud/terraform-provider-stackit/releases/download/v0.4.0/terraform-provider-stackit_0.4.0_windows_amd64.zip",
+          "shasum": "4efacf39153a95a106b9191083e55739a70e943f663f06a7cf1ecd2492036695"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-stackit_0.4.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/stackitcloud/terraform-provider-stackit/releases/download/v0.4.0/terraform-provider-stackit_0.4.0_freebsd_arm64.zip",
+          "shasum": "2471ff906f5fcd84da917f515f9203d226107722ad721e278db06b885f2092b0"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-stackit_0.4.0_windows_386.zip",
+          "download_url": "https://github.com/stackitcloud/terraform-provider-stackit/releases/download/v0.4.0/terraform-provider-stackit_0.4.0_windows_386.zip",
+          "shasum": "8f61bd64dba816944ef767ad33bd1ccdf840b6287bb1b68068eef42c70ef3c95"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-stackit_0.4.0_windows_arm64.zip",
+          "download_url": "https://github.com/stackitcloud/terraform-provider-stackit/releases/download/v0.4.0/terraform-provider-stackit_0.4.0_windows_arm64.zip",
+          "shasum": "12580495d4d92c3115cb1c4aed362e833c1343cb12481025e57a339986b8070e"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-stackit_0.4.0_linux_amd64.zip",
+          "download_url": "https://github.com/stackitcloud/terraform-provider-stackit/releases/download/v0.4.0/terraform-provider-stackit_0.4.0_linux_amd64.zip",
+          "shasum": "d87e381573ce6c0f172565eba9e6b6cd4e32d5d741e77f68d320f335409c3178"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-stackit_0.4.0_linux_arm.zip",
+          "download_url": "https://github.com/stackitcloud/terraform-provider-stackit/releases/download/v0.4.0/terraform-provider-stackit_0.4.0_linux_arm.zip",
+          "shasum": "9a214f862b2f189e64674c2a8b6f817a5b2167028618633b34d639fdf5b05c57"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-stackit_0.4.0_darwin_arm64.zip",
+          "download_url": "https://github.com/stackitcloud/terraform-provider-stackit/releases/download/v0.4.0/terraform-provider-stackit_0.4.0_darwin_arm64.zip",
+          "shasum": "847762e2dcb4b2253042cc68dcd4c960e5db4d3ab46bccc0850cc750b16bad2c"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-stackit_0.4.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/stackitcloud/terraform-provider-stackit/releases/download/v0.4.0/terraform-provider-stackit_0.4.0_freebsd_amd64.zip",
+          "shasum": "ef9a1f042b7ae5246b9ff761136099f3ec2d7799b2d432ebd1357c524a9b31d0"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-stackit_0.4.0_windows_arm.zip",
+          "download_url": "https://github.com/stackitcloud/terraform-provider-stackit/releases/download/v0.4.0/terraform-provider-stackit_0.4.0_windows_arm.zip",
+          "shasum": "def8455dddb3baf78aa7d18e67cd57e9d6b306bf03cea490ab6e9bdeb6a5f9a3"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-stackit_0.4.0_freebsd_arm.zip",
+          "download_url": "https://github.com/stackitcloud/terraform-provider-stackit/releases/download/v0.4.0/terraform-provider-stackit_0.4.0_freebsd_arm.zip",
+          "shasum": "946c10d384356cb6b0d825aefdc891a3b3e612e0c31863da1f010db58a237ad1"
+        }
+      ]
+    },
+    {
+      "version": "0.2.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/stackitcloud/terraform-provider-stackit/releases/download/v0.2.0/terraform-provider-stackit_0.2.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/stackitcloud/terraform-provider-stackit/releases/download/v0.2.0/terraform-provider-stackit_0.2.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-stackit_0.2.0_freebsd_arm.zip",
+          "download_url": "https://github.com/stackitcloud/terraform-provider-stackit/releases/download/v0.2.0/terraform-provider-stackit_0.2.0_freebsd_arm.zip",
+          "shasum": "b3dce548658a7d0d0a146558494585181826b608cf6fcb9c1f7b7feb3e3ee892"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-stackit_0.2.0_linux_amd64.zip",
+          "download_url": "https://github.com/stackitcloud/terraform-provider-stackit/releases/download/v0.2.0/terraform-provider-stackit_0.2.0_linux_amd64.zip",
+          "shasum": "810896d96dda6d691d46e84b712234c260c17d34d324af1d63249c468a44473b"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-stackit_0.2.0_linux_arm64.zip",
+          "download_url": "https://github.com/stackitcloud/terraform-provider-stackit/releases/download/v0.2.0/terraform-provider-stackit_0.2.0_linux_arm64.zip",
+          "shasum": "151c3d05dbbf29156098bcb485c494cb4d3506e849565a1b28438e20c2e55286"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-stackit_0.2.0_darwin_amd64.zip",
+          "download_url": "https://github.com/stackitcloud/terraform-provider-stackit/releases/download/v0.2.0/terraform-provider-stackit_0.2.0_darwin_amd64.zip",
+          "shasum": "043f8656bf3a0a32989516f9ec8579df5143aa63b236bb54243a4d2851de60c2"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-stackit_0.2.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/stackitcloud/terraform-provider-stackit/releases/download/v0.2.0/terraform-provider-stackit_0.2.0_freebsd_arm64.zip",
+          "shasum": "b60a7d08c6712976a8fb191beb6ce911b3368d78c6a6a2f0c4b600e844746470"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-stackit_0.2.0_windows_386.zip",
+          "download_url": "https://github.com/stackitcloud/terraform-provider-stackit/releases/download/v0.2.0/terraform-provider-stackit_0.2.0_windows_386.zip",
+          "shasum": "a2bd6122414c7a3fc55457b217bbd47ef2b5af080c60d76e484589a008ea41f5"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-stackit_0.2.0_windows_arm64.zip",
+          "download_url": "https://github.com/stackitcloud/terraform-provider-stackit/releases/download/v0.2.0/terraform-provider-stackit_0.2.0_windows_arm64.zip",
+          "shasum": "50108c71968f57cfbd6ae4a1aef10261b9eafef6f33bc423835124aa28337aa3"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-stackit_0.2.0_linux_386.zip",
+          "download_url": "https://github.com/stackitcloud/terraform-provider-stackit/releases/download/v0.2.0/terraform-provider-stackit_0.2.0_linux_386.zip",
+          "shasum": "3b9d7ae00be236b67e0cd0f21794560838c8db23e1b49b431c43eeb67db0df13"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-stackit_0.2.0_linux_arm.zip",
+          "download_url": "https://github.com/stackitcloud/terraform-provider-stackit/releases/download/v0.2.0/terraform-provider-stackit_0.2.0_linux_arm.zip",
+          "shasum": "f249c04b3afaba097ddbafbe12c09603b1072718751467d0917396edb4bd55a3"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-stackit_0.2.0_darwin_arm64.zip",
+          "download_url": "https://github.com/stackitcloud/terraform-provider-stackit/releases/download/v0.2.0/terraform-provider-stackit_0.2.0_darwin_arm64.zip",
+          "shasum": "0cd5f1c61aae08226b514a2df62f47069a55d8ee70d3fe3915ec432145c228e2"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-stackit_0.2.0_freebsd_386.zip",
+          "download_url": "https://github.com/stackitcloud/terraform-provider-stackit/releases/download/v0.2.0/terraform-provider-stackit_0.2.0_freebsd_386.zip",
+          "shasum": "463b4a322895815caa661951c1f54758eb488b890618fead67dc3eb10c27a587"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-stackit_0.2.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/stackitcloud/terraform-provider-stackit/releases/download/v0.2.0/terraform-provider-stackit_0.2.0_freebsd_amd64.zip",
+          "shasum": "d9b667ec9fb25d1902fd2a1477dae2e282827debdfc107b72193ba13ca0b76bd"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-stackit_0.2.0_windows_amd64.zip",
+          "download_url": "https://github.com/stackitcloud/terraform-provider-stackit/releases/download/v0.2.0/terraform-provider-stackit_0.2.0_windows_amd64.zip",
+          "shasum": "aa64b4a55ed752fd64a21557418bfd6135bd77b66c5942d431d228b49cf7313b"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-stackit_0.2.0_windows_arm.zip",
+          "download_url": "https://github.com/stackitcloud/terraform-provider-stackit/releases/download/v0.2.0/terraform-provider-stackit_0.2.0_windows_arm.zip",
+          "shasum": "07385a486694ff84ddd2982e49d840884269f74a0d19dd25dbad4d7e063781b3"
+        }
+      ]
+    },
+    {
+      "version": "0.1.1",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/stackitcloud/terraform-provider-stackit/releases/download/v0.1.1/terraform-provider-stackit_0.1.1_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/stackitcloud/terraform-provider-stackit/releases/download/v0.1.1/terraform-provider-stackit_0.1.1_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-stackit_0.1.1_windows_arm64.zip",
+          "download_url": "https://github.com/stackitcloud/terraform-provider-stackit/releases/download/v0.1.1/terraform-provider-stackit_0.1.1_windows_arm64.zip",
+          "shasum": "0a5b2a05f0a618fa198f02268e133be6460a9ce6155d55fcc981464dcdb57645"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-stackit_0.1.1_linux_386.zip",
+          "download_url": "https://github.com/stackitcloud/terraform-provider-stackit/releases/download/v0.1.1/terraform-provider-stackit_0.1.1_linux_386.zip",
+          "shasum": "2595dfed1f56740da341a7117f71d973d459f6b6eb7fa6226d7a48744a162157"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-stackit_0.1.1_freebsd_386.zip",
+          "download_url": "https://github.com/stackitcloud/terraform-provider-stackit/releases/download/v0.1.1/terraform-provider-stackit_0.1.1_freebsd_386.zip",
+          "shasum": "8208a7a1b2a9893419d10bbd455d91fd1d165a4018e39de33434300193dcc5c9"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-stackit_0.1.1_linux_arm64.zip",
+          "download_url": "https://github.com/stackitcloud/terraform-provider-stackit/releases/download/v0.1.1/terraform-provider-stackit_0.1.1_linux_arm64.zip",
+          "shasum": "0277d8df06fad569806cd0562d9ff66f42cb18fd7d595461691338de262e1122"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-stackit_0.1.1_freebsd_arm.zip",
+          "download_url": "https://github.com/stackitcloud/terraform-provider-stackit/releases/download/v0.1.1/terraform-provider-stackit_0.1.1_freebsd_arm.zip",
+          "shasum": "e93cfcbad77e284971d703428b2e4cd5937fbb661e089b2f65ba8556704bdb88"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-stackit_0.1.1_linux_arm.zip",
+          "download_url": "https://github.com/stackitcloud/terraform-provider-stackit/releases/download/v0.1.1/terraform-provider-stackit_0.1.1_linux_arm.zip",
+          "shasum": "9c7a5bdd21b62c65585afa0bc013ada34bb069d138a7116eb7cee3076fe15928"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-stackit_0.1.1_freebsd_amd64.zip",
+          "download_url": "https://github.com/stackitcloud/terraform-provider-stackit/releases/download/v0.1.1/terraform-provider-stackit_0.1.1_freebsd_amd64.zip",
+          "shasum": "f9cd9e7561654cfae8e72a58bd755c60005a01831e8ff553aa086725b531898c"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-stackit_0.1.1_darwin_amd64.zip",
+          "download_url": "https://github.com/stackitcloud/terraform-provider-stackit/releases/download/v0.1.1/terraform-provider-stackit_0.1.1_darwin_amd64.zip",
+          "shasum": "ac3296b0d9494fb289edb773e5279140601c14dc0d94c88a0d73a8cbb61e718e"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-stackit_0.1.1_windows_arm.zip",
+          "download_url": "https://github.com/stackitcloud/terraform-provider-stackit/releases/download/v0.1.1/terraform-provider-stackit_0.1.1_windows_arm.zip",
+          "shasum": "7c22b189d3db1953be3c5cdc30a08755a5842b019324aeb525d019f52806c2c7"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-stackit_0.1.1_freebsd_arm64.zip",
+          "download_url": "https://github.com/stackitcloud/terraform-provider-stackit/releases/download/v0.1.1/terraform-provider-stackit_0.1.1_freebsd_arm64.zip",
+          "shasum": "317cfa7ea68e48321aa2c5219cefe01494df8a6dd93ce8107389adad96a032d2"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-stackit_0.1.1_windows_amd64.zip",
+          "download_url": "https://github.com/stackitcloud/terraform-provider-stackit/releases/download/v0.1.1/terraform-provider-stackit_0.1.1_windows_amd64.zip",
+          "shasum": "01d1b2b7cd03b59b9145f7a3af366b326e67278c8e53b18a26f0cf69cf3f1d88"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-stackit_0.1.1_darwin_arm64.zip",
+          "download_url": "https://github.com/stackitcloud/terraform-provider-stackit/releases/download/v0.1.1/terraform-provider-stackit_0.1.1_darwin_arm64.zip",
+          "shasum": "2b3cc0e0da89b1e95073488f6f2be615052023902988e9ac1c6fa7cbfe9860dd"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-stackit_0.1.1_windows_386.zip",
+          "download_url": "https://github.com/stackitcloud/terraform-provider-stackit/releases/download/v0.1.1/terraform-provider-stackit_0.1.1_windows_386.zip",
+          "shasum": "c21f6e93982df75067b759475d54c7615df00a23f5be955cc7842e862abf2903"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-stackit_0.1.1_linux_amd64.zip",
+          "download_url": "https://github.com/stackitcloud/terraform-provider-stackit/releases/download/v0.1.1/terraform-provider-stackit_0.1.1_linux_amd64.zip",
+          "shasum": "f38c82224f31b4d215a931a4608c09dddd8412299e247e43df0fa90a1d3b1920"
+        }
+      ]
+    },
+    {
+      "version": "0.1.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/stackitcloud/terraform-provider-stackit/releases/download/v0.1.0/terraform-provider-stackit_0.1.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/stackitcloud/terraform-provider-stackit/releases/download/v0.1.0/terraform-provider-stackit_0.1.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-stackit_0.1.0_windows_arm.zip",
+          "download_url": "https://github.com/stackitcloud/terraform-provider-stackit/releases/download/v0.1.0/terraform-provider-stackit_0.1.0_windows_arm.zip",
+          "shasum": "7538226f5fabfee1841ddd61c57d7395637854a946cd9338355d36520e1ae635"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-stackit_0.1.0_linux_386.zip",
+          "download_url": "https://github.com/stackitcloud/terraform-provider-stackit/releases/download/v0.1.0/terraform-provider-stackit_0.1.0_linux_386.zip",
+          "shasum": "caf8d13be75a3f453bce00f82643ac568f3174713161f9523a2de973dee229ab"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-stackit_0.1.0_windows_386.zip",
+          "download_url": "https://github.com/stackitcloud/terraform-provider-stackit/releases/download/v0.1.0/terraform-provider-stackit_0.1.0_windows_386.zip",
+          "shasum": "a604db34e956186e7f4c2b09bec0a4c71bd661e932b23ab58768475ca42fc6e4"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-stackit_0.1.0_linux_amd64.zip",
+          "download_url": "https://github.com/stackitcloud/terraform-provider-stackit/releases/download/v0.1.0/terraform-provider-stackit_0.1.0_linux_amd64.zip",
+          "shasum": "e4c360d4096973191c70a5fd8ec374992e08de554570eee96c45c5f57a420879"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-stackit_0.1.0_linux_arm.zip",
+          "download_url": "https://github.com/stackitcloud/terraform-provider-stackit/releases/download/v0.1.0/terraform-provider-stackit_0.1.0_linux_arm.zip",
+          "shasum": "006fd3f4010371aa985b80dec1d00dab4c62d45f1cfc571e7e64306e41d139cc"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-stackit_0.1.0_windows_arm64.zip",
+          "download_url": "https://github.com/stackitcloud/terraform-provider-stackit/releases/download/v0.1.0/terraform-provider-stackit_0.1.0_windows_arm64.zip",
+          "shasum": "d3b28c9f3582e56d98e803db8f2cae20a3bb457b30490fcfa95c4da4a1704b3e"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-stackit_0.1.0_freebsd_arm.zip",
+          "download_url": "https://github.com/stackitcloud/terraform-provider-stackit/releases/download/v0.1.0/terraform-provider-stackit_0.1.0_freebsd_arm.zip",
+          "shasum": "c02417597a38faf1d0250d18c8c54cbb29ed0471cf5910da99cce6c5e84a15fc"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-stackit_0.1.0_darwin_amd64.zip",
+          "download_url": "https://github.com/stackitcloud/terraform-provider-stackit/releases/download/v0.1.0/terraform-provider-stackit_0.1.0_darwin_amd64.zip",
+          "shasum": "074a22f054da312f1cbf322a2a7b65cbc01de6f94845fd5623a75cc8bd6cefec"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-stackit_0.1.0_darwin_arm64.zip",
+          "download_url": "https://github.com/stackitcloud/terraform-provider-stackit/releases/download/v0.1.0/terraform-provider-stackit_0.1.0_darwin_arm64.zip",
+          "shasum": "8b69701d6659243e945672521741c1ae32fee4ad800a75f588348b01cd4110e6"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-stackit_0.1.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/stackitcloud/terraform-provider-stackit/releases/download/v0.1.0/terraform-provider-stackit_0.1.0_freebsd_arm64.zip",
+          "shasum": "17549bb91f25eca5f549c9baec6bdbf9323ba3573a5d7084f63271a098405394"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-stackit_0.1.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/stackitcloud/terraform-provider-stackit/releases/download/v0.1.0/terraform-provider-stackit_0.1.0_freebsd_amd64.zip",
+          "shasum": "d90bd62a108f57e9abe0c7873e8917a7c65a09622e0cf0ca8792c47105d26523"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-stackit_0.1.0_linux_arm64.zip",
+          "download_url": "https://github.com/stackitcloud/terraform-provider-stackit/releases/download/v0.1.0/terraform-provider-stackit_0.1.0_linux_arm64.zip",
+          "shasum": "0b563a3347c9d4adc6e46da87907aade5a3fafe4024b0d3f0d9a13baa746f908"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-stackit_0.1.0_windows_amd64.zip",
+          "download_url": "https://github.com/stackitcloud/terraform-provider-stackit/releases/download/v0.1.0/terraform-provider-stackit_0.1.0_windows_amd64.zip",
+          "shasum": "b11d07aeda82f96bcc737237c53c600c30498b6dd0455c0d16e90929d4a4c937"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-stackit_0.1.0_freebsd_386.zip",
+          "download_url": "https://github.com/stackitcloud/terraform-provider-stackit/releases/download/v0.1.0/terraform-provider-stackit_0.1.0_freebsd_386.zip",
+          "shasum": "79db0ac96fd5b5604466fe40d58bf280b86059055e4215d8059631dfc3709740"
+        }
+      ]
+    }
+  ]
+}
