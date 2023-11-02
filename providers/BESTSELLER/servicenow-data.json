@@ -2,6 +2,114 @@
   "repository": "https://github.com/BESTSELLER/terraform-provider-servicenow-data",
   "versions": [
     {
+      "version": "0.5.1",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/BESTSELLER/terraform-provider-servicenow-data/releases/download/v0.5.1/terraform-provider-servicenow-data_0.5.1_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/BESTSELLER/terraform-provider-servicenow-data/releases/download/v0.5.1/terraform-provider-servicenow-data_0.5.1_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-servicenow-data_0.5.1_freebsd_amd64.zip",
+          "download_url": "https://github.com/BESTSELLER/terraform-provider-servicenow-data/releases/download/v0.5.1/terraform-provider-servicenow-data_0.5.1_freebsd_amd64.zip",
+          "shasum": "bd5cac786d63d82c29e8ff9fd28850ff76a43afdc2de0f95eb08b55786785bba"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-servicenow-data_0.5.1_freebsd_386.zip",
+          "download_url": "https://github.com/BESTSELLER/terraform-provider-servicenow-data/releases/download/v0.5.1/terraform-provider-servicenow-data_0.5.1_freebsd_386.zip",
+          "shasum": "f894c90422811a9190ee784e3da44f30e344db704659bd923b70716735dae331"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-servicenow-data_0.5.1_windows_386.zip",
+          "download_url": "https://github.com/BESTSELLER/terraform-provider-servicenow-data/releases/download/v0.5.1/terraform-provider-servicenow-data_0.5.1_windows_386.zip",
+          "shasum": "5d06d118526b7645026506356616ac2c89b34e9b9338209d85301fe5741b3351"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-servicenow-data_0.5.1_freebsd_arm.zip",
+          "download_url": "https://github.com/BESTSELLER/terraform-provider-servicenow-data/releases/download/v0.5.1/terraform-provider-servicenow-data_0.5.1_freebsd_arm.zip",
+          "shasum": "c388483e09bc9ffeb335a42ac97691b67edb386e719d03a27f9f57021ff8544b"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-servicenow-data_0.5.1_linux_386.zip",
+          "download_url": "https://github.com/BESTSELLER/terraform-provider-servicenow-data/releases/download/v0.5.1/terraform-provider-servicenow-data_0.5.1_linux_386.zip",
+          "shasum": "10e0ff38395e4b5c3f389ed008f25e7906e0dbe6cba0d295a9dbd3983f3013c9"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-servicenow-data_0.5.1_windows_amd64.zip",
+          "download_url": "https://github.com/BESTSELLER/terraform-provider-servicenow-data/releases/download/v0.5.1/terraform-provider-servicenow-data_0.5.1_windows_amd64.zip",
+          "shasum": "0a2cd852d53de675b0a865ab23b6b049aaf329b2a2b3508d10256bdd7c181f9b"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-servicenow-data_0.5.1_linux_arm.zip",
+          "download_url": "https://github.com/BESTSELLER/terraform-provider-servicenow-data/releases/download/v0.5.1/terraform-provider-servicenow-data_0.5.1_linux_arm.zip",
+          "shasum": "76be953f77256f91a913feb52b4fa50e00763eeff13080a4e302f05ae2fe5ef4"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-servicenow-data_0.5.1_darwin_arm64.zip",
+          "download_url": "https://github.com/BESTSELLER/terraform-provider-servicenow-data/releases/download/v0.5.1/terraform-provider-servicenow-data_0.5.1_darwin_arm64.zip",
+          "shasum": "827caea57838077d0f6379332457a72eb83b8954aa835798994d3fd5a6678b78"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-servicenow-data_0.5.1_windows_arm.zip",
+          "download_url": "https://github.com/BESTSELLER/terraform-provider-servicenow-data/releases/download/v0.5.1/terraform-provider-servicenow-data_0.5.1_windows_arm.zip",
+          "shasum": "d769f0c3f53e22ddd1c459c64193b427aca6f5b7e986bca3a1a1f9672be104e7"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-servicenow-data_0.5.1_windows_arm64.zip",
+          "download_url": "https://github.com/BESTSELLER/terraform-provider-servicenow-data/releases/download/v0.5.1/terraform-provider-servicenow-data_0.5.1_windows_arm64.zip",
+          "shasum": "1b09dc8b33471200d329ddc6ae419184652c88bc7b3644177e92a1490892c758"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-servicenow-data_0.5.1_linux_amd64.zip",
+          "download_url": "https://github.com/BESTSELLER/terraform-provider-servicenow-data/releases/download/v0.5.1/terraform-provider-servicenow-data_0.5.1_linux_amd64.zip",
+          "shasum": "2f172632f60ec4a6afd6ca138f4d84a5bc368e67b275d8cdf7b1af94cde1bc98"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-servicenow-data_0.5.1_freebsd_arm64.zip",
+          "download_url": "https://github.com/BESTSELLER/terraform-provider-servicenow-data/releases/download/v0.5.1/terraform-provider-servicenow-data_0.5.1_freebsd_arm64.zip",
+          "shasum": "63c18c7b31b648563b13015345f2e23f1825855a92ae04b019cf40966734fe8e"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-servicenow-data_0.5.1_linux_arm64.zip",
+          "download_url": "https://github.com/BESTSELLER/terraform-provider-servicenow-data/releases/download/v0.5.1/terraform-provider-servicenow-data_0.5.1_linux_arm64.zip",
+          "shasum": "d5e01c2327a9096d05de61dfe21e905b7f08358d3f6de8658999531d732f0f9c"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-servicenow-data_0.5.1_darwin_amd64.zip",
+          "download_url": "https://github.com/BESTSELLER/terraform-provider-servicenow-data/releases/download/v0.5.1/terraform-provider-servicenow-data_0.5.1_darwin_amd64.zip",
+          "shasum": "190ff1476d28cb173713f6fe9c0f024abf864cbc90c74292d1bd114522cc44bd"
+        }
+      ]
+    },
+    {
       "version": "0.5.0",
       "protocols": [
         "5.0"

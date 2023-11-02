@@ -2,6 +2,114 @@
   "repository": "https://github.com/CleverCloud/terraform-provider-clevercloud",
   "versions": [
     {
+      "version": "0.0.13",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/CleverCloud/terraform-provider-clevercloud/releases/download/v0.0.13/terraform-provider-clevercloud_0.0.13_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/CleverCloud/terraform-provider-clevercloud/releases/download/v0.0.13/terraform-provider-clevercloud_0.0.13_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-clevercloud_0.0.13_linux_arm.zip",
+          "download_url": "https://github.com/CleverCloud/terraform-provider-clevercloud/releases/download/v0.0.13/terraform-provider-clevercloud_0.0.13_linux_arm.zip",
+          "shasum": "6ae8bc765b351c52ecda5b27d29f41c02b30a5de5ac62bbf60b4415ec4069530"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-clevercloud_0.0.13_freebsd_386.zip",
+          "download_url": "https://github.com/CleverCloud/terraform-provider-clevercloud/releases/download/v0.0.13/terraform-provider-clevercloud_0.0.13_freebsd_386.zip",
+          "shasum": "99ed013e7a9d488d5d1226af28436ef8f43c357304eb1aef9d21a93f500208cb"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-clevercloud_0.0.13_linux_amd64.zip",
+          "download_url": "https://github.com/CleverCloud/terraform-provider-clevercloud/releases/download/v0.0.13/terraform-provider-clevercloud_0.0.13_linux_amd64.zip",
+          "shasum": "ebdb763a205699475a25a8326152806b7adf6dcfb374b2b1e8654d82c8149166"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-clevercloud_0.0.13_windows_386.zip",
+          "download_url": "https://github.com/CleverCloud/terraform-provider-clevercloud/releases/download/v0.0.13/terraform-provider-clevercloud_0.0.13_windows_386.zip",
+          "shasum": "b131ef7d54548578e60d6e0ac6d9c57af88c15cf85c467226e0db12709aa4d35"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-clevercloud_0.0.13_linux_386.zip",
+          "download_url": "https://github.com/CleverCloud/terraform-provider-clevercloud/releases/download/v0.0.13/terraform-provider-clevercloud_0.0.13_linux_386.zip",
+          "shasum": "33621583ee8a22c26470af55821abb480e21c7806ea56cd3b8d768704ad9d1f0"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-clevercloud_0.0.13_freebsd_arm.zip",
+          "download_url": "https://github.com/CleverCloud/terraform-provider-clevercloud/releases/download/v0.0.13/terraform-provider-clevercloud_0.0.13_freebsd_arm.zip",
+          "shasum": "6f16c1759a5983ed7c09effd345951f47b1d98bc1de4c241f4671a634693d1fd"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-clevercloud_0.0.13_darwin_amd64.zip",
+          "download_url": "https://github.com/CleverCloud/terraform-provider-clevercloud/releases/download/v0.0.13/terraform-provider-clevercloud_0.0.13_darwin_amd64.zip",
+          "shasum": "e3a5b2688f31d3f73759c8cee1022a88c99c1e62683c312f549f33fdba52d70d"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-clevercloud_0.0.13_windows_amd64.zip",
+          "download_url": "https://github.com/CleverCloud/terraform-provider-clevercloud/releases/download/v0.0.13/terraform-provider-clevercloud_0.0.13_windows_amd64.zip",
+          "shasum": "a9ce8930c7d4430ea2afd6d85849264792e655633b9a7def1f47795b69285bce"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-clevercloud_0.0.13_darwin_arm64.zip",
+          "download_url": "https://github.com/CleverCloud/terraform-provider-clevercloud/releases/download/v0.0.13/terraform-provider-clevercloud_0.0.13_darwin_arm64.zip",
+          "shasum": "c0deef9a793dc0343d7d9130905adfc5a160e69b4c5879854d21d81273472ff5"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-clevercloud_0.0.13_freebsd_arm64.zip",
+          "download_url": "https://github.com/CleverCloud/terraform-provider-clevercloud/releases/download/v0.0.13/terraform-provider-clevercloud_0.0.13_freebsd_arm64.zip",
+          "shasum": "12f48e732ce487086c7a0d5680ccf3d6100232385bfd3b4801cd5c6faf1541b8"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-clevercloud_0.0.13_freebsd_amd64.zip",
+          "download_url": "https://github.com/CleverCloud/terraform-provider-clevercloud/releases/download/v0.0.13/terraform-provider-clevercloud_0.0.13_freebsd_amd64.zip",
+          "shasum": "2b4f4eee8e91ab3552122ceeb7883af529bdfc1d9cb1390382dbfb098336738c"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-clevercloud_0.0.13_windows_arm.zip",
+          "download_url": "https://github.com/CleverCloud/terraform-provider-clevercloud/releases/download/v0.0.13/terraform-provider-clevercloud_0.0.13_windows_arm.zip",
+          "shasum": "3dce47d88559f8bd97f34a6e5a95941cbc9c9e2a5641889cc4342991fbd603a1"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-clevercloud_0.0.13_windows_arm64.zip",
+          "download_url": "https://github.com/CleverCloud/terraform-provider-clevercloud/releases/download/v0.0.13/terraform-provider-clevercloud_0.0.13_windows_arm64.zip",
+          "shasum": "a531869f283e7f74edf1f3e07277ecc2ce10878274613e0de16738f434e1b162"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-clevercloud_0.0.13_linux_arm64.zip",
+          "download_url": "https://github.com/CleverCloud/terraform-provider-clevercloud/releases/download/v0.0.13/terraform-provider-clevercloud_0.0.13_linux_arm64.zip",
+          "shasum": "17b04182ebdadf258b16c8da42b504fb9dd188e4398adaf50303d8975a6dcd8b"
+        }
+      ]
+    },
+    {
       "version": "0.0.12",
       "protocols": [
         "5.0"
