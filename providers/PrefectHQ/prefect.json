@@ -2,6 +2,149 @@
   "repository": "https://github.com/PrefectHQ/terraform-provider-prefect",
   "versions": [
     {
+      "version": "0.0.0-alpha3",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/PrefectHQ/terraform-provider-prefect/releases/download/v0.0.0-alpha3/terraform-provider-prefect_0.0.0-alpha3_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/PrefectHQ/terraform-provider-prefect/releases/download/v0.0.0-alpha3/terraform-provider-prefect_0.0.0-alpha3_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-prefect_0.0.0-alpha3_windows_386.zip",
+          "download_url": "https://github.com/PrefectHQ/terraform-provider-prefect/releases/download/v0.0.0-alpha3/terraform-provider-prefect_0.0.0-alpha3_windows_386.zip",
+          "shasum": "a0509053d3d6c86c4b6dd00d46a5c499b391e6d52f2c6bce77a4af355e680f36"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-prefect_0.0.0-alpha3_freebsd_amd64.zip",
+          "download_url": "https://github.com/PrefectHQ/terraform-provider-prefect/releases/download/v0.0.0-alpha3/terraform-provider-prefect_0.0.0-alpha3_freebsd_amd64.zip",
+          "shasum": "cdec2ad6c45389123a277f37eb16992d39a42321743ae720a2275e3d08a350cd"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-prefect_0.0.0-alpha3_linux_386.zip",
+          "download_url": "https://github.com/PrefectHQ/terraform-provider-prefect/releases/download/v0.0.0-alpha3/terraform-provider-prefect_0.0.0-alpha3_linux_386.zip",
+          "shasum": "c695d5eac7cecc6aacfff2995aeef79377cbe29958ad2687b9d0432807b29387"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-prefect_0.0.0-alpha3_darwin_arm64.zip",
+          "download_url": "https://github.com/PrefectHQ/terraform-provider-prefect/releases/download/v0.0.0-alpha3/terraform-provider-prefect_0.0.0-alpha3_darwin_arm64.zip",
+          "shasum": "08e773c1e73447c8a75f2895f45cc182b4391114e4532cd27a0a0b0087633b62"
+        },
+        {
+          "os": "openbsd",
+          "arch": "386",
+          "filename": "terraform-provider-prefect_0.0.0-alpha3_openbsd_386.zip",
+          "download_url": "https://github.com/PrefectHQ/terraform-provider-prefect/releases/download/v0.0.0-alpha3/terraform-provider-prefect_0.0.0-alpha3_openbsd_386.zip",
+          "shasum": "3585961b363f41c702e0eade31bd102c4305706875ce56353553e239b798de92"
+        },
+        {
+          "os": "openbsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-prefect_0.0.0-alpha3_openbsd_arm64.zip",
+          "download_url": "https://github.com/PrefectHQ/terraform-provider-prefect/releases/download/v0.0.0-alpha3/terraform-provider-prefect_0.0.0-alpha3_openbsd_arm64.zip",
+          "shasum": "2cd90ec4683a6993285d7e98107f8dd476b292bfa79848f83d370c4cd56c88bf"
+        },
+        {
+          "os": "solaris",
+          "arch": "amd64",
+          "filename": "terraform-provider-prefect_0.0.0-alpha3_solaris_amd64.zip",
+          "download_url": "https://github.com/PrefectHQ/terraform-provider-prefect/releases/download/v0.0.0-alpha3/terraform-provider-prefect_0.0.0-alpha3_solaris_amd64.zip",
+          "shasum": "ab60cb3eb5303fd04214f3274a126df4490cd13ba8a84fc2d91a2a4e9faa44a4"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-prefect_0.0.0-alpha3_windows_arm.zip",
+          "download_url": "https://github.com/PrefectHQ/terraform-provider-prefect/releases/download/v0.0.0-alpha3/terraform-provider-prefect_0.0.0-alpha3_windows_arm.zip",
+          "shasum": "f9768668da6fce0f10812786863be1e20e3e60125d41e8519db4c584540a8c45"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-prefect_0.0.0-alpha3_linux_arm64.zip",
+          "download_url": "https://github.com/PrefectHQ/terraform-provider-prefect/releases/download/v0.0.0-alpha3/terraform-provider-prefect_0.0.0-alpha3_linux_arm64.zip",
+          "shasum": "11e2f9770baf89e7386485481b18db30ee0ec8d76024d5e8c80c89350ba29a19"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-prefect_0.0.0-alpha3_freebsd_arm.zip",
+          "download_url": "https://github.com/PrefectHQ/terraform-provider-prefect/releases/download/v0.0.0-alpha3/terraform-provider-prefect_0.0.0-alpha3_freebsd_arm.zip",
+          "shasum": "dc3acb30981d033602ab6fcfd124b69cceb40a7adcb4c4c97db29f69b548bbb5"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-prefect_0.0.0-alpha3_freebsd_arm64.zip",
+          "download_url": "https://github.com/PrefectHQ/terraform-provider-prefect/releases/download/v0.0.0-alpha3/terraform-provider-prefect_0.0.0-alpha3_freebsd_arm64.zip",
+          "shasum": "2f0d9d5d56a5c35a7ac2043bbb59a559205e988ccaf5428bed64df154bfbe81a"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-prefect_0.0.0-alpha3_linux_amd64.zip",
+          "download_url": "https://github.com/PrefectHQ/terraform-provider-prefect/releases/download/v0.0.0-alpha3/terraform-provider-prefect_0.0.0-alpha3_linux_amd64.zip",
+          "shasum": "6ad406e75b02489276921aa2a9c4028e955b027cc2cb460cc91086de6563a819"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-prefect_0.0.0-alpha3_linux_arm.zip",
+          "download_url": "https://github.com/PrefectHQ/terraform-provider-prefect/releases/download/v0.0.0-alpha3/terraform-provider-prefect_0.0.0-alpha3_linux_arm.zip",
+          "shasum": "86aedad40718f66c67e141e87ca0e828c91f8eb79d5f462ecaa148187569bab5"
+        },
+        {
+          "os": "openbsd",
+          "arch": "arm",
+          "filename": "terraform-provider-prefect_0.0.0-alpha3_openbsd_arm.zip",
+          "download_url": "https://github.com/PrefectHQ/terraform-provider-prefect/releases/download/v0.0.0-alpha3/terraform-provider-prefect_0.0.0-alpha3_openbsd_arm.zip",
+          "shasum": "e6e0c7ed88b0659af68972a6bc9cd78fca6977181579632b09abe6a6458b4bc2"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-prefect_0.0.0-alpha3_darwin_amd64.zip",
+          "download_url": "https://github.com/PrefectHQ/terraform-provider-prefect/releases/download/v0.0.0-alpha3/terraform-provider-prefect_0.0.0-alpha3_darwin_amd64.zip",
+          "shasum": "a9b4845bdb7c0b752036f844d731c6a1d0c32b2c9ffe9afc246705174bab403b"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-prefect_0.0.0-alpha3_freebsd_386.zip",
+          "download_url": "https://github.com/PrefectHQ/terraform-provider-prefect/releases/download/v0.0.0-alpha3/terraform-provider-prefect_0.0.0-alpha3_freebsd_386.zip",
+          "shasum": "963a15fbe29c28d124b15d63a7b3980615215446a47b56b4eec382bfcb55f8f1"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-prefect_0.0.0-alpha3_windows_arm64.zip",
+          "download_url": "https://github.com/PrefectHQ/terraform-provider-prefect/releases/download/v0.0.0-alpha3/terraform-provider-prefect_0.0.0-alpha3_windows_arm64.zip",
+          "shasum": "0fa37e99249c0dff17821ae223c93bc1e919e5dac45448cf05c3ec995a645022"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-prefect_0.0.0-alpha3_windows_amd64.zip",
+          "download_url": "https://github.com/PrefectHQ/terraform-provider-prefect/releases/download/v0.0.0-alpha3/terraform-provider-prefect_0.0.0-alpha3_windows_amd64.zip",
+          "shasum": "90fd3900effce881622d3bba6f2977bc6af24b592df13c2088b1fb80a92cb9a4"
+        },
+        {
+          "os": "openbsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-prefect_0.0.0-alpha3_openbsd_amd64.zip",
+          "download_url": "https://github.com/PrefectHQ/terraform-provider-prefect/releases/download/v0.0.0-alpha3/terraform-provider-prefect_0.0.0-alpha3_openbsd_amd64.zip",
+          "shasum": "930b9a74de1832ae8514308f859c23b7bdacdb167c0aebf969664a7dec81efe1"
+        }
+      ]
+    },
+    {
       "version": "0.0.0-alpha2",
       "protocols": [
         "5.0"
