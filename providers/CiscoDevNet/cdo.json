@@ -2,6 +2,114 @@
   "repository": "https://github.com/CiscoDevNet/terraform-provider-cdo",
   "versions": [
     {
+      "version": "0.12.13",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/CiscoDevNet/terraform-provider-cdo/releases/download/v0.12.13/terraform-provider-cdo_0.12.13_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/CiscoDevNet/terraform-provider-cdo/releases/download/v0.12.13/terraform-provider-cdo_0.12.13_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-cdo_0.12.13_freebsd_arm64.zip",
+          "download_url": "https://github.com/CiscoDevNet/terraform-provider-cdo/releases/download/v0.12.13/terraform-provider-cdo_0.12.13_freebsd_arm64.zip",
+          "shasum": "9ebc8d36bf37fed8eea98262ca02ad59c16380082c18cb01a5606563a10320a6"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-cdo_0.12.13_windows_386.zip",
+          "download_url": "https://github.com/CiscoDevNet/terraform-provider-cdo/releases/download/v0.12.13/terraform-provider-cdo_0.12.13_windows_386.zip",
+          "shasum": "df0103d5f87d6cb2644e9dac159edeb392eadd8d871d4f732c11e8cff9bf535e"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-cdo_0.12.13_linux_386.zip",
+          "download_url": "https://github.com/CiscoDevNet/terraform-provider-cdo/releases/download/v0.12.13/terraform-provider-cdo_0.12.13_linux_386.zip",
+          "shasum": "da69406f8836fd53e171a99809975f766df8c773daf5fe8234bb7a44ac840a85"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-cdo_0.12.13_linux_arm.zip",
+          "download_url": "https://github.com/CiscoDevNet/terraform-provider-cdo/releases/download/v0.12.13/terraform-provider-cdo_0.12.13_linux_arm.zip",
+          "shasum": "276127f8da461a0ed8f38f5826c472eb9a6c98269031cf3c79e2bb46e3e2f33d"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-cdo_0.12.13_windows_arm.zip",
+          "download_url": "https://github.com/CiscoDevNet/terraform-provider-cdo/releases/download/v0.12.13/terraform-provider-cdo_0.12.13_windows_arm.zip",
+          "shasum": "24022a8f6f8bddfc6ba107b3d8856c068bd5fe6bdbb9c4abbc8a115e11b683ee"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-cdo_0.12.13_linux_arm64.zip",
+          "download_url": "https://github.com/CiscoDevNet/terraform-provider-cdo/releases/download/v0.12.13/terraform-provider-cdo_0.12.13_linux_arm64.zip",
+          "shasum": "c6ec1284b669b57dcf1a66646cd2c762b55fb184f92b53e20d47a2122d591d41"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-cdo_0.12.13_windows_arm64.zip",
+          "download_url": "https://github.com/CiscoDevNet/terraform-provider-cdo/releases/download/v0.12.13/terraform-provider-cdo_0.12.13_windows_arm64.zip",
+          "shasum": "3be0017039eb9db43434f98f2632a593bef1967bc58a7c9ef0cd470aa27a5751"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-cdo_0.12.13_darwin_arm64.zip",
+          "download_url": "https://github.com/CiscoDevNet/terraform-provider-cdo/releases/download/v0.12.13/terraform-provider-cdo_0.12.13_darwin_arm64.zip",
+          "shasum": "8cf4b1c57748da193819c2351b6f302b132c3e3a97868e2dfea0b2b25f55f807"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-cdo_0.12.13_freebsd_386.zip",
+          "download_url": "https://github.com/CiscoDevNet/terraform-provider-cdo/releases/download/v0.12.13/terraform-provider-cdo_0.12.13_freebsd_386.zip",
+          "shasum": "9f4413100796bba76cb5b1e569511673c77c2757bd3c7702a13f8442b264462f"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-cdo_0.12.13_freebsd_amd64.zip",
+          "download_url": "https://github.com/CiscoDevNet/terraform-provider-cdo/releases/download/v0.12.13/terraform-provider-cdo_0.12.13_freebsd_amd64.zip",
+          "shasum": "127cae6e9cbeff40794497b3c4712ec818f5517057e5a323c1d2a0a4012571c3"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-cdo_0.12.13_freebsd_arm.zip",
+          "download_url": "https://github.com/CiscoDevNet/terraform-provider-cdo/releases/download/v0.12.13/terraform-provider-cdo_0.12.13_freebsd_arm.zip",
+          "shasum": "ac6b39f1eb40330dfced7f841422ef529d20225157367e704bcdea704ae1f302"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-cdo_0.12.13_windows_amd64.zip",
+          "download_url": "https://github.com/CiscoDevNet/terraform-provider-cdo/releases/download/v0.12.13/terraform-provider-cdo_0.12.13_windows_amd64.zip",
+          "shasum": "27631b2b056e24a0509ccab61e17adec2b9d20665b5fb2ad6d159d2c54e73725"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-cdo_0.12.13_linux_amd64.zip",
+          "download_url": "https://github.com/CiscoDevNet/terraform-provider-cdo/releases/download/v0.12.13/terraform-provider-cdo_0.12.13_linux_amd64.zip",
+          "shasum": "73fa6805295d18975e937416d6d02615b42ca87f255c337e9915890a174dcaad"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-cdo_0.12.13_darwin_amd64.zip",
+          "download_url": "https://github.com/CiscoDevNet/terraform-provider-cdo/releases/download/v0.12.13/terraform-provider-cdo_0.12.13_darwin_amd64.zip",
+          "shasum": "7dd26750024d44d207d2ba63e6a40cbb8e5bd29f8b8708cdc93be5125f66a45a"
+        }
+      ]
+    },
+    {
       "version": "0.12.12",
       "protocols": [
         "5.0"

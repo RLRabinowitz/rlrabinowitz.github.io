@@ -2,6 +2,114 @@
   "repository": "https://github.com/kislerdm/terraform-provider-neon",
   "versions": [
     {
+      "version": "0.2.5",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/kislerdm/terraform-provider-neon/releases/download/v0.2.5/terraform-provider-neon_0.2.5_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/kislerdm/terraform-provider-neon/releases/download/v0.2.5/terraform-provider-neon_0.2.5_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-neon_0.2.5_linux_arm64.zip",
+          "download_url": "https://github.com/kislerdm/terraform-provider-neon/releases/download/v0.2.5/terraform-provider-neon_0.2.5_linux_arm64.zip",
+          "shasum": "90dfb1a340680599c148ac0e881ec7fa5ab0c0aa27fb4aa0ee4815b40a88b50f"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-neon_0.2.5_linux_386.zip",
+          "download_url": "https://github.com/kislerdm/terraform-provider-neon/releases/download/v0.2.5/terraform-provider-neon_0.2.5_linux_386.zip",
+          "shasum": "06258d74a26db114162f391a58df91bcdf65346571c914c133fd2e628fbab530"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-neon_0.2.5_freebsd_arm.zip",
+          "download_url": "https://github.com/kislerdm/terraform-provider-neon/releases/download/v0.2.5/terraform-provider-neon_0.2.5_freebsd_arm.zip",
+          "shasum": "61b7846143925ab3fdca93bad0143c76f022e61a078828ad043593829650ccd6"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-neon_0.2.5_freebsd_386.zip",
+          "download_url": "https://github.com/kislerdm/terraform-provider-neon/releases/download/v0.2.5/terraform-provider-neon_0.2.5_freebsd_386.zip",
+          "shasum": "9e394b44ad96e5dc3d25c610745675be21e8d3cc0760c6d7b53b0d6706ae25d1"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-neon_0.2.5_windows_amd64.zip",
+          "download_url": "https://github.com/kislerdm/terraform-provider-neon/releases/download/v0.2.5/terraform-provider-neon_0.2.5_windows_amd64.zip",
+          "shasum": "c9df22a8152ad1eaca7bdf5bb4fa3ce36840e62dc5795938934e32049b0344e0"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-neon_0.2.5_linux_arm.zip",
+          "download_url": "https://github.com/kislerdm/terraform-provider-neon/releases/download/v0.2.5/terraform-provider-neon_0.2.5_linux_arm.zip",
+          "shasum": "928a8dd5f0de3631d6e7d0ad0091f4140260f291df5a33cab6c95c46d4d8e4d1"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-neon_0.2.5_windows_arm64.zip",
+          "download_url": "https://github.com/kislerdm/terraform-provider-neon/releases/download/v0.2.5/terraform-provider-neon_0.2.5_windows_arm64.zip",
+          "shasum": "87bbd231cf8f806957888364608f5805f96af71c157b2d12d415d628344fa517"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-neon_0.2.5_linux_amd64.zip",
+          "download_url": "https://github.com/kislerdm/terraform-provider-neon/releases/download/v0.2.5/terraform-provider-neon_0.2.5_linux_amd64.zip",
+          "shasum": "c532e3aaf1449063a25d0c49852c53f88a3e4d0a1e76250e845e3bda00cd1402"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-neon_0.2.5_darwin_amd64.zip",
+          "download_url": "https://github.com/kislerdm/terraform-provider-neon/releases/download/v0.2.5/terraform-provider-neon_0.2.5_darwin_amd64.zip",
+          "shasum": "9363752facee602ba2a7b04f78aa0b0bc55e4960382d37a826d7144077076e63"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-neon_0.2.5_darwin_arm64.zip",
+          "download_url": "https://github.com/kislerdm/terraform-provider-neon/releases/download/v0.2.5/terraform-provider-neon_0.2.5_darwin_arm64.zip",
+          "shasum": "bfcd975b9e12634c2327560d3ffef1640ed9a9741f8ef8102031e7cd404d02b9"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-neon_0.2.5_freebsd_arm64.zip",
+          "download_url": "https://github.com/kislerdm/terraform-provider-neon/releases/download/v0.2.5/terraform-provider-neon_0.2.5_freebsd_arm64.zip",
+          "shasum": "61d2659228a7f0dbfb364a568a5d3b8f96a90b5d74aabf677238b0509ccb5015"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-neon_0.2.5_windows_arm.zip",
+          "download_url": "https://github.com/kislerdm/terraform-provider-neon/releases/download/v0.2.5/terraform-provider-neon_0.2.5_windows_arm.zip",
+          "shasum": "7ec9141cacb214f62adf8b70e35fef39ae22d0983dc8764f03dfd4d0a7661b11"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-neon_0.2.5_freebsd_amd64.zip",
+          "download_url": "https://github.com/kislerdm/terraform-provider-neon/releases/download/v0.2.5/terraform-provider-neon_0.2.5_freebsd_amd64.zip",
+          "shasum": "8523250429b79d4bc8f43e1d15915dc55e78e4df574aef88ef27ead943c82342"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-neon_0.2.5_windows_386.zip",
+          "download_url": "https://github.com/kislerdm/terraform-provider-neon/releases/download/v0.2.5/terraform-provider-neon_0.2.5_windows_386.zip",
+          "shasum": "3070be22d395bae82117ca0e6964b00b5135630de5cfd3cd0827e5cbe20baaa3"
+        }
+      ]
+    },
+    {
       "version": "0.2.4",
       "protocols": [
         "5.0"
