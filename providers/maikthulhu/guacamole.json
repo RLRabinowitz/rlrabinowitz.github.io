@@ -2,6 +2,114 @@
   "repository": "https://github.com/maikthulhu/terraform-provider-guacamole",
   "versions": [
     {
+      "version": "1.5.2",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/maikthulhu/terraform-provider-guacamole/releases/download/v1.5.2/terraform-provider-guacamole_1.5.2_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/maikthulhu/terraform-provider-guacamole/releases/download/v1.5.2/terraform-provider-guacamole_1.5.2_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-guacamole_1.5.2_windows_amd64.zip",
+          "download_url": "https://github.com/maikthulhu/terraform-provider-guacamole/releases/download/v1.5.2/terraform-provider-guacamole_1.5.2_windows_amd64.zip",
+          "shasum": "7f891f5d817ba5e721d41c1d97f68b4924599cecc10694b4063fe98c7a563ca0"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-guacamole_1.5.2_freebsd_arm64.zip",
+          "download_url": "https://github.com/maikthulhu/terraform-provider-guacamole/releases/download/v1.5.2/terraform-provider-guacamole_1.5.2_freebsd_arm64.zip",
+          "shasum": "e8284a4db7c98619f23168e38e259541f156da2b9f60af9bf6248d345ac1af5f"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-guacamole_1.5.2_windows_arm64.zip",
+          "download_url": "https://github.com/maikthulhu/terraform-provider-guacamole/releases/download/v1.5.2/terraform-provider-guacamole_1.5.2_windows_arm64.zip",
+          "shasum": "116c1d5b7d4e4c83c9b66ddd229ca105dbf9140a96fdbc14d9797397dd0a56c7"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-guacamole_1.5.2_linux_386.zip",
+          "download_url": "https://github.com/maikthulhu/terraform-provider-guacamole/releases/download/v1.5.2/terraform-provider-guacamole_1.5.2_linux_386.zip",
+          "shasum": "9f7feb6bf8bc59765212b7b2791e70663d087f8a83e7f8233d4cb911f6e23383"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-guacamole_1.5.2_darwin_amd64.zip",
+          "download_url": "https://github.com/maikthulhu/terraform-provider-guacamole/releases/download/v1.5.2/terraform-provider-guacamole_1.5.2_darwin_amd64.zip",
+          "shasum": "63bde87e4310ba68c761405e26cb5e60d2757184411d3332b39af16c70ef6b3a"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-guacamole_1.5.2_windows_386.zip",
+          "download_url": "https://github.com/maikthulhu/terraform-provider-guacamole/releases/download/v1.5.2/terraform-provider-guacamole_1.5.2_windows_386.zip",
+          "shasum": "800bac85b7d29fcbf2f408e1e16d9fa3b941e7fd24202c104524d042a60e07a5"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-guacamole_1.5.2_linux_arm64.zip",
+          "download_url": "https://github.com/maikthulhu/terraform-provider-guacamole/releases/download/v1.5.2/terraform-provider-guacamole_1.5.2_linux_arm64.zip",
+          "shasum": "6671b8f0257aded346d7821687e24c6da7ce87df9aaea1738725945d62fcc91d"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-guacamole_1.5.2_darwin_arm64.zip",
+          "download_url": "https://github.com/maikthulhu/terraform-provider-guacamole/releases/download/v1.5.2/terraform-provider-guacamole_1.5.2_darwin_arm64.zip",
+          "shasum": "bd3e71bbec46739d211644e0cf27795d4291baf199a166b6c52f149fb80d7723"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-guacamole_1.5.2_freebsd_amd64.zip",
+          "download_url": "https://github.com/maikthulhu/terraform-provider-guacamole/releases/download/v1.5.2/terraform-provider-guacamole_1.5.2_freebsd_amd64.zip",
+          "shasum": "7151fec6993dbb674801dc43fcd5243aa1e6df29ab285360c60c526492bd0f5c"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-guacamole_1.5.2_freebsd_arm.zip",
+          "download_url": "https://github.com/maikthulhu/terraform-provider-guacamole/releases/download/v1.5.2/terraform-provider-guacamole_1.5.2_freebsd_arm.zip",
+          "shasum": "7901c78c6053ef5a24bc6085085fff371de5cde4b3638432560c52adb66bd991"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-guacamole_1.5.2_freebsd_386.zip",
+          "download_url": "https://github.com/maikthulhu/terraform-provider-guacamole/releases/download/v1.5.2/terraform-provider-guacamole_1.5.2_freebsd_386.zip",
+          "shasum": "72127c7986762bd72761d52b88e18788a19f4f78b1ee06098f63b190886400bf"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-guacamole_1.5.2_linux_amd64.zip",
+          "download_url": "https://github.com/maikthulhu/terraform-provider-guacamole/releases/download/v1.5.2/terraform-provider-guacamole_1.5.2_linux_amd64.zip",
+          "shasum": "5e9f1fa39b68d415c17e5547d898e48b43810d0a43497387eaaea16a1601e027"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-guacamole_1.5.2_linux_arm.zip",
+          "download_url": "https://github.com/maikthulhu/terraform-provider-guacamole/releases/download/v1.5.2/terraform-provider-guacamole_1.5.2_linux_arm.zip",
+          "shasum": "0cd327d4904b01334a6412a9c866855ea8b4056e728a41056cf2d0167d25fcac"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-guacamole_1.5.2_windows_arm.zip",
+          "download_url": "https://github.com/maikthulhu/terraform-provider-guacamole/releases/download/v1.5.2/terraform-provider-guacamole_1.5.2_windows_arm.zip",
+          "shasum": "e716d2da052c1c23cfa616b97d13edc169cb14f7e2452fd12a487190b44d5736"
+        }
+      ]
+    },
+    {
       "version": "1.5.1",
       "protocols": [
         "5.0"
