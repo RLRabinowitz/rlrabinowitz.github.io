@@ -25,8 +25,7 @@ func Update(pathToFile string) error {
 
 	highestSemverTag, err := getHighestSemverTag(p)
 	if err != nil {
-		log.Printf("Skipping update of %s, as there was an error finding semver tags: %s", pathToFile, err)
-		return nil
+		return err
 	}
 
 	fileContent, err := getProviderFileContent(pathToFile)
