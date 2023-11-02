@@ -3,16 +3,22 @@ package github
 import (
 	"bytes"
 	"fmt"
+	"log"
 	"os/exec"
 	"strings"
 )
 
 func GetTags(repositoryUrl string) ([]string, error) {
+	log.Printf("Getting tags for repository %s", repositoryUrl)
+
 	var buf bytes.Buffer
+	var bufErr bytes.Buffer
 	cmd := exec.Command("git", "ls-remote", "--tags", repositoryUrl)
 	cmd.Stdout = &buf
+	cmd.Stderr = &bufErr
 	if err := cmd.Run(); err != nil {
-		return nil, nil
+		log.Printf("Could not get tags for repository %s: %s", repositoryUrl, bufErr.String())
+		return nil, err
 	}
 
 	tags := make([]string, 0)
@@ -34,6 +40,8 @@ func GetTags(repositoryUrl string) ([]string, error) {
 		}
 		tags = append(tags, tag)
 	}
+
+	log.Printf("Found %d tags for repository %s", len(tags), repositoryUrl)
 
 	return tags, nil
 }
