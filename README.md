@@ -29,3 +29,21 @@ There are a couple of possible approaches:
   - We could provide a GH Action that could be incorporated in the GH release process, to automatically create a bump PR
   - We could also provide a CLI (possible under OpenTofu CLI itself) that could also create the bump PR for you
 - A hybrid of both approaches is possible (Periodically updating all providers/modules + allowing manual update for faster version bump / Only periodically update some providers/modules + other providers/modules would require manual bumps)
+
+# How to test the Registry out
+
+- Install a slightly altered version of OpenTofu (recognizes rlrabinowitz.github.io as a first-party registry + accepts module download link in response body as well as the header):
+  - Clone OpenTofu and switch to branch `poc-hombrew-registry`
+  - Build the tofu binary `go install ./cmd/tofu`
+  - Done! You now have an OpenTofu version that works with the Registry PoC
+- When defining a provider/module, add `rlrabinowitz.github.io/` as a prefix to the source. For example:
+```hcl
+terraform {
+  required_providers {
+    aws = {
+      source  = "rlrabinowitz.github.io/hashicorp/aws"
+      version = "3.40.0"
+    }
+  }
+}
+```
