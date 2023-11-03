@@ -2,6 +2,114 @@
   "repository": "https://github.com/aziontech/terraform-provider-azion",
   "versions": [
     {
+      "version": "1.18.2",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/aziontech/terraform-provider-azion/releases/download/v1.18.2/terraform-provider-azion_1.18.2_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/aziontech/terraform-provider-azion/releases/download/v1.18.2/terraform-provider-azion_1.18.2_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-azion_1.18.2_darwin_arm64.zip",
+          "download_url": "https://github.com/aziontech/terraform-provider-azion/releases/download/v1.18.2/terraform-provider-azion_1.18.2_darwin_arm64.zip",
+          "shasum": "1cac61bf81fc26e5d477cd4d2ea3722588ec6fe36dbd627678bdf47bd37b5ca3"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-azion_1.18.2_linux_arm64.zip",
+          "download_url": "https://github.com/aziontech/terraform-provider-azion/releases/download/v1.18.2/terraform-provider-azion_1.18.2_linux_arm64.zip",
+          "shasum": "afb2acb3748b56fd62700f023dbe67ef4874afe647b0562adaa5be2815c13ffd"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-azion_1.18.2_linux_386.zip",
+          "download_url": "https://github.com/aziontech/terraform-provider-azion/releases/download/v1.18.2/terraform-provider-azion_1.18.2_linux_386.zip",
+          "shasum": "9e4e69a8036f744ed9463eac277a59b4f3d5946bb11c7f5998d057960a1276c7"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-azion_1.18.2_linux_arm.zip",
+          "download_url": "https://github.com/aziontech/terraform-provider-azion/releases/download/v1.18.2/terraform-provider-azion_1.18.2_linux_arm.zip",
+          "shasum": "41051155af7c8912ae466447c6b1e4cc5b7494a9c06f52d52f53e3616d4dc758"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-azion_1.18.2_windows_386.zip",
+          "download_url": "https://github.com/aziontech/terraform-provider-azion/releases/download/v1.18.2/terraform-provider-azion_1.18.2_windows_386.zip",
+          "shasum": "f08b591dc4db4ae5bea5fd28a78ec2c94084f2cfd5c7b1531f2dcf00f4c93b1e"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-azion_1.18.2_darwin_amd64.zip",
+          "download_url": "https://github.com/aziontech/terraform-provider-azion/releases/download/v1.18.2/terraform-provider-azion_1.18.2_darwin_amd64.zip",
+          "shasum": "39c358f8c260ecb1fd602a8f4213ba52ac26765c9015774da3fa2eac05100688"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-azion_1.18.2_freebsd_arm64.zip",
+          "download_url": "https://github.com/aziontech/terraform-provider-azion/releases/download/v1.18.2/terraform-provider-azion_1.18.2_freebsd_arm64.zip",
+          "shasum": "97051ef55483b4ab3c5a6ace8d148726d6d859bfd1ac8373c962cb8c150ffd4a"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-azion_1.18.2_windows_amd64.zip",
+          "download_url": "https://github.com/aziontech/terraform-provider-azion/releases/download/v1.18.2/terraform-provider-azion_1.18.2_windows_amd64.zip",
+          "shasum": "ba3b5bbadf739142f206847ac9285121258f6f944f68fea0d50a885a7cafcb04"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-azion_1.18.2_freebsd_arm.zip",
+          "download_url": "https://github.com/aziontech/terraform-provider-azion/releases/download/v1.18.2/terraform-provider-azion_1.18.2_freebsd_arm.zip",
+          "shasum": "4932efd75a0ca7d0fd188933fc381445637b6ecbf19dd309be5c79940ad653ab"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-azion_1.18.2_windows_arm.zip",
+          "download_url": "https://github.com/aziontech/terraform-provider-azion/releases/download/v1.18.2/terraform-provider-azion_1.18.2_windows_arm.zip",
+          "shasum": "9e535fcc7afe872e3c5dd848ff4dae84088dacd5ba9217ca8a0bf3f676c91ee8"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-azion_1.18.2_linux_amd64.zip",
+          "download_url": "https://github.com/aziontech/terraform-provider-azion/releases/download/v1.18.2/terraform-provider-azion_1.18.2_linux_amd64.zip",
+          "shasum": "b028f0d27e0aa1576012513d027630c7293bea82357d52794120290d5eafa89f"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-azion_1.18.2_windows_arm64.zip",
+          "download_url": "https://github.com/aziontech/terraform-provider-azion/releases/download/v1.18.2/terraform-provider-azion_1.18.2_windows_arm64.zip",
+          "shasum": "38e1c5544e378386d7a0e2734099bf895381b42899f76b1284c600013535926a"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-azion_1.18.2_freebsd_amd64.zip",
+          "download_url": "https://github.com/aziontech/terraform-provider-azion/releases/download/v1.18.2/terraform-provider-azion_1.18.2_freebsd_amd64.zip",
+          "shasum": "45d60c027ddd65e140611d7879f01dfad9131162ccc63ae6964f0385130613b5"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-azion_1.18.2_freebsd_386.zip",
+          "download_url": "https://github.com/aziontech/terraform-provider-azion/releases/download/v1.18.2/terraform-provider-azion_1.18.2_freebsd_386.zip",
+          "shasum": "11472d9451cfebdc5c892023a96524baab40cd552a63c63515759118579dbc73"
+        }
+      ]
+    },
+    {
       "version": "1.18.1",
       "protocols": [
         "5.0"
