@@ -2,6 +2,100 @@
   "repository": "https://github.com/Azure/terraform-provider-azapi",
   "versions": [
     {
+      "version": "1.10.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/Azure/terraform-provider-azapi/releases/download/v1.10.0/terraform-provider-azapi_1.10.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/Azure/terraform-provider-azapi/releases/download/v1.10.0/terraform-provider-azapi_1.10.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-azapi_v1.10.0_darwin_amd64.zip",
+          "download_url": "https://github.com/Azure/terraform-provider-azapi/releases/download/v1.10.0/terraform-provider-azapi_v1.10.0_darwin_amd64.zip",
+          "shasum": "6b345207665080642dedc4387e9affefbd9093d4812cf7a57f8009a7ab8f2383"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-azapi_v1.10.0_darwin_arm64.zip",
+          "download_url": "https://github.com/Azure/terraform-provider-azapi/releases/download/v1.10.0/terraform-provider-azapi_v1.10.0_darwin_arm64.zip",
+          "shasum": "2c243d610e522acbecf6193653226c322e6ee35f3a7f95d11373533de9eeae2e"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-azapi_v1.10.0_freebsd_386.zip",
+          "download_url": "https://github.com/Azure/terraform-provider-azapi/releases/download/v1.10.0/terraform-provider-azapi_v1.10.0_freebsd_386.zip",
+          "shasum": "7bfb6d9940d7ddd1e7b9851fb54c5157c118b7d83b870f7db3e0743a284c5453"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-azapi_v1.10.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/Azure/terraform-provider-azapi/releases/download/v1.10.0/terraform-provider-azapi_v1.10.0_freebsd_amd64.zip",
+          "shasum": "a92b399c488d767ad0375141a0c4c75a1a829d18442fd78097d1a91bf55264d0"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-azapi_v1.10.0_freebsd_arm.zip",
+          "download_url": "https://github.com/Azure/terraform-provider-azapi/releases/download/v1.10.0/terraform-provider-azapi_v1.10.0_freebsd_arm.zip",
+          "shasum": "096ca824ab7ce61a3825335352a41e443b3355979dafb37eeded8d829ae6a6ba"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-azapi_v1.10.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/Azure/terraform-provider-azapi/releases/download/v1.10.0/terraform-provider-azapi_v1.10.0_freebsd_arm64.zip",
+          "shasum": "6f42952c5e77eb3ed59480817b220fe16768cb593740386c20e3dec90c5feee2"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-azapi_v1.10.0_linux_386.zip",
+          "download_url": "https://github.com/Azure/terraform-provider-azapi/releases/download/v1.10.0/terraform-provider-azapi_v1.10.0_linux_386.zip",
+          "shasum": "f7e08ee1e69f500bdb7d0b349d4489c989b415044765ae10a8ba329b76e64731"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-azapi_v1.10.0_linux_amd64.zip",
+          "download_url": "https://github.com/Azure/terraform-provider-azapi/releases/download/v1.10.0/terraform-provider-azapi_v1.10.0_linux_amd64.zip",
+          "shasum": "bc8ba158f7495cb2ac1d25d8b7217780d9d2d070afc69b4148b457a1ea5c3f14"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-azapi_v1.10.0_linux_arm.zip",
+          "download_url": "https://github.com/Azure/terraform-provider-azapi/releases/download/v1.10.0/terraform-provider-azapi_v1.10.0_linux_arm.zip",
+          "shasum": "38dc218eba4f426aff1a3ed9ff8e93bf753fea84423b198fa66a6438d8c9b36c"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-azapi_v1.10.0_linux_arm64.zip",
+          "download_url": "https://github.com/Azure/terraform-provider-azapi/releases/download/v1.10.0/terraform-provider-azapi_v1.10.0_linux_arm64.zip",
+          "shasum": "5072dd8d446aa00aafc3b007b4947e2cde87c1fe6449ec21cfe360b07e8d3dc2"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-azapi_v1.10.0_windows_386.zip",
+          "download_url": "https://github.com/Azure/terraform-provider-azapi/releases/download/v1.10.0/terraform-provider-azapi_v1.10.0_windows_386.zip",
+          "shasum": "f542964189f21e2fc4250756dcfd798a336bd1bac8eb7e707fe9836ac7b790b6"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-azapi_v1.10.0_windows_amd64.zip",
+          "download_url": "https://github.com/Azure/terraform-provider-azapi/releases/download/v1.10.0/terraform-provider-azapi_v1.10.0_windows_amd64.zip",
+          "shasum": "0852c7e4701a420be84380351bcc3b8b41a1f550916deb6b927fbd97a376a8aa"
+        }
+      ]
+    },
+    {
       "version": "1.9.0",
       "protocols": [
         "5.0"

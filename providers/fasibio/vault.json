@@ -2,6 +2,114 @@
   "repository": "https://github.com/fasibio/terraform-provider-vault",
   "versions": [
     {
+      "version": "0.0.5",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/cryptvault-cloud/terraform-provider-cryptvault/releases/download/v0.0.5/terraform-provider-cryptvault_0.0.5_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/cryptvault-cloud/terraform-provider-cryptvault/releases/download/v0.0.5/terraform-provider-cryptvault_0.0.5_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-cryptvault_0.0.5_freebsd_arm.zip",
+          "download_url": "https://github.com/cryptvault-cloud/terraform-provider-cryptvault/releases/download/v0.0.5/terraform-provider-cryptvault_0.0.5_freebsd_arm.zip",
+          "shasum": "e9076f541933d3f271b8db515f5b35f708f4d6a129482ec35f405584d4be9d9a"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-cryptvault_0.0.5_freebsd_amd64.zip",
+          "download_url": "https://github.com/cryptvault-cloud/terraform-provider-cryptvault/releases/download/v0.0.5/terraform-provider-cryptvault_0.0.5_freebsd_amd64.zip",
+          "shasum": "03a1dd95b90606d1b6597d410d7612b02938b7439e8afa4f4dd0799c7038a123"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-cryptvault_0.0.5_windows_386.zip",
+          "download_url": "https://github.com/cryptvault-cloud/terraform-provider-cryptvault/releases/download/v0.0.5/terraform-provider-cryptvault_0.0.5_windows_386.zip",
+          "shasum": "39ec41ead51585e5902a66a86fee3c0d201967cf29a448d09e990f3ba671f931"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-cryptvault_0.0.5_windows_arm64.zip",
+          "download_url": "https://github.com/cryptvault-cloud/terraform-provider-cryptvault/releases/download/v0.0.5/terraform-provider-cryptvault_0.0.5_windows_arm64.zip",
+          "shasum": "2e3a3b1a8490cfad680ffcbf2f76a93f7064e6b484be18f06359277751eaf588"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-cryptvault_0.0.5_linux_arm.zip",
+          "download_url": "https://github.com/cryptvault-cloud/terraform-provider-cryptvault/releases/download/v0.0.5/terraform-provider-cryptvault_0.0.5_linux_arm.zip",
+          "shasum": "c8c2189233086f845ce4d9c229b04930ecafcbcbb168e811ffe702d373ec14de"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-cryptvault_0.0.5_windows_amd64.zip",
+          "download_url": "https://github.com/cryptvault-cloud/terraform-provider-cryptvault/releases/download/v0.0.5/terraform-provider-cryptvault_0.0.5_windows_amd64.zip",
+          "shasum": "b59e7194f0c1faef60413a82878c1d08f320b13892c973ad5260b54622bcb778"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-cryptvault_0.0.5_linux_amd64.zip",
+          "download_url": "https://github.com/cryptvault-cloud/terraform-provider-cryptvault/releases/download/v0.0.5/terraform-provider-cryptvault_0.0.5_linux_amd64.zip",
+          "shasum": "423af04e32d9af45984f618eb649d174bf94f92d07fa2b85dfa79be94ed58b2e"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-cryptvault_0.0.5_linux_arm64.zip",
+          "download_url": "https://github.com/cryptvault-cloud/terraform-provider-cryptvault/releases/download/v0.0.5/terraform-provider-cryptvault_0.0.5_linux_arm64.zip",
+          "shasum": "945b678fda22b1f0f80dfe2c9abd1790af05c78937f0c90bb4f18c75759c5e06"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-cryptvault_0.0.5_darwin_amd64.zip",
+          "download_url": "https://github.com/cryptvault-cloud/terraform-provider-cryptvault/releases/download/v0.0.5/terraform-provider-cryptvault_0.0.5_darwin_amd64.zip",
+          "shasum": "67a5d1c3db4045319cc4d965070ee8065155304657b7d020fbad706bfd9384be"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-cryptvault_0.0.5_freebsd_386.zip",
+          "download_url": "https://github.com/cryptvault-cloud/terraform-provider-cryptvault/releases/download/v0.0.5/terraform-provider-cryptvault_0.0.5_freebsd_386.zip",
+          "shasum": "67597ddc6286f77ed9e2339fa8755bb31d1f1681400b53c3a0c575559946a848"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-cryptvault_0.0.5_freebsd_arm64.zip",
+          "download_url": "https://github.com/cryptvault-cloud/terraform-provider-cryptvault/releases/download/v0.0.5/terraform-provider-cryptvault_0.0.5_freebsd_arm64.zip",
+          "shasum": "5bb1d1a901846329ded6b5deee9a4e1aa34d441dbf7311dae234d083b5758e1a"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-cryptvault_0.0.5_windows_arm.zip",
+          "download_url": "https://github.com/cryptvault-cloud/terraform-provider-cryptvault/releases/download/v0.0.5/terraform-provider-cryptvault_0.0.5_windows_arm.zip",
+          "shasum": "416a4f445c2ad2cc985fc0fcda0f63e360d20f13c1080561f2a67d5e37db460b"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-cryptvault_0.0.5_linux_386.zip",
+          "download_url": "https://github.com/cryptvault-cloud/terraform-provider-cryptvault/releases/download/v0.0.5/terraform-provider-cryptvault_0.0.5_linux_386.zip",
+          "shasum": "f769ec0e91b4859b45c7787f2dd40b2cadb39086dfeef8a2f33265bccbb42e53"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-cryptvault_0.0.5_darwin_arm64.zip",
+          "download_url": "https://github.com/cryptvault-cloud/terraform-provider-cryptvault/releases/download/v0.0.5/terraform-provider-cryptvault_0.0.5_darwin_arm64.zip",
+          "shasum": "94b62553f93b04ddc2af2435efea9e364b11c95de10fcfee6d9ca0da6a63d1f4"
+        }
+      ]
+    },
+    {
       "version": "0.0.4",
       "protocols": [
         "5.0"
