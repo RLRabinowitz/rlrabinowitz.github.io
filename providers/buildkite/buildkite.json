@@ -2,6 +2,114 @@
   "repository": "https://github.com/buildkite/terraform-provider-buildkite",
   "versions": [
     {
+      "version": "1.0.6",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/buildkite/terraform-provider-buildkite/releases/download/v1.0.6/terraform-provider-buildkite_1.0.6_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/buildkite/terraform-provider-buildkite/releases/download/v1.0.6/terraform-provider-buildkite_1.0.6_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-buildkite_1.0.6_linux_arm.zip",
+          "download_url": "https://github.com/buildkite/terraform-provider-buildkite/releases/download/v1.0.6/terraform-provider-buildkite_1.0.6_linux_arm.zip",
+          "shasum": "3a7fbbb7edb2fe5bd4bc4edb26e34e3a469775383e598a1510d11468fe78c509"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-buildkite_1.0.6_freebsd_arm.zip",
+          "download_url": "https://github.com/buildkite/terraform-provider-buildkite/releases/download/v1.0.6/terraform-provider-buildkite_1.0.6_freebsd_arm.zip",
+          "shasum": "fb524a85e1caf91a58970cbb7746a6769289dfd0f3eacfa559e34e7060e517db"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-buildkite_1.0.6_linux_386.zip",
+          "download_url": "https://github.com/buildkite/terraform-provider-buildkite/releases/download/v1.0.6/terraform-provider-buildkite_1.0.6_linux_386.zip",
+          "shasum": "cc2d3b2fe9e6d02d093cc9951de980005319fe6f3452e7aa1f2c679bbd9efe2c"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-buildkite_1.0.6_windows_386.zip",
+          "download_url": "https://github.com/buildkite/terraform-provider-buildkite/releases/download/v1.0.6/terraform-provider-buildkite_1.0.6_windows_386.zip",
+          "shasum": "24d534cf2272727b91ef0a482ae02c763c1624270558307b4ef298bdc0f2a4d6"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-buildkite_1.0.6_windows_amd64.zip",
+          "download_url": "https://github.com/buildkite/terraform-provider-buildkite/releases/download/v1.0.6/terraform-provider-buildkite_1.0.6_windows_amd64.zip",
+          "shasum": "df3a390a20636a191027cdd3444cd8dfa0ccbf133503a18cd6574551b5398c22"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-buildkite_1.0.6_linux_amd64.zip",
+          "download_url": "https://github.com/buildkite/terraform-provider-buildkite/releases/download/v1.0.6/terraform-provider-buildkite_1.0.6_linux_amd64.zip",
+          "shasum": "773eb0e73c290d25edea5f30273255c1007571024c357c8d14da216565a2b3fa"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-buildkite_1.0.6_darwin_arm64.zip",
+          "download_url": "https://github.com/buildkite/terraform-provider-buildkite/releases/download/v1.0.6/terraform-provider-buildkite_1.0.6_darwin_arm64.zip",
+          "shasum": "992ae583f98d066ff63b1bee8e8260c00c7e13b1ec20257b418acdbb72b0fca8"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-buildkite_1.0.6_windows_arm.zip",
+          "download_url": "https://github.com/buildkite/terraform-provider-buildkite/releases/download/v1.0.6/terraform-provider-buildkite_1.0.6_windows_arm.zip",
+          "shasum": "0f4c25a8adb8db94c3abc91fa53a91d1b4c331d9f39d0c8008596f9361b0a7e9"
+        },
+        {
+          "os": "linux",
+          "arch": "ppc64le",
+          "filename": "terraform-provider-buildkite_1.0.6_linux_ppc64le.zip",
+          "download_url": "https://github.com/buildkite/terraform-provider-buildkite/releases/download/v1.0.6/terraform-provider-buildkite_1.0.6_linux_ppc64le.zip",
+          "shasum": "f4bdbc4bc2c82577498f8941d6a5efb5bff91fa44a7a08ddffcd137916bdc7b1"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-buildkite_1.0.6_freebsd_386.zip",
+          "download_url": "https://github.com/buildkite/terraform-provider-buildkite/releases/download/v1.0.6/terraform-provider-buildkite_1.0.6_freebsd_386.zip",
+          "shasum": "92536fcae34b158af1e0aae1109dd91ae5ac1a6dd83cf2f482952898860c3db8"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-buildkite_1.0.6_freebsd_amd64.zip",
+          "download_url": "https://github.com/buildkite/terraform-provider-buildkite/releases/download/v1.0.6/terraform-provider-buildkite_1.0.6_freebsd_amd64.zip",
+          "shasum": "ce5641f6d51107238b7a190d250e9857ec223c0ae5a9d67149f3079e117bdf24"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-buildkite_1.0.6_freebsd_arm64.zip",
+          "download_url": "https://github.com/buildkite/terraform-provider-buildkite/releases/download/v1.0.6/terraform-provider-buildkite_1.0.6_freebsd_arm64.zip",
+          "shasum": "6a37f4d6106d67087c53d552957deb5571781c6d20624a39fd7a34a10d179e47"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-buildkite_1.0.6_darwin_amd64.zip",
+          "download_url": "https://github.com/buildkite/terraform-provider-buildkite/releases/download/v1.0.6/terraform-provider-buildkite_1.0.6_darwin_amd64.zip",
+          "shasum": "a226895747f26b8f6bfdb68ecb736215015be90f9aca3e3c238461a1af93fe6b"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-buildkite_1.0.6_linux_arm64.zip",
+          "download_url": "https://github.com/buildkite/terraform-provider-buildkite/releases/download/v1.0.6/terraform-provider-buildkite_1.0.6_linux_arm64.zip",
+          "shasum": "6ab0f8169e106b218d408f7973e19db006d49c374eb2a00b85a62100b136fd5d"
+        }
+      ]
+    },
+    {
       "version": "1.0.5",
       "protocols": [
         "5.0"
