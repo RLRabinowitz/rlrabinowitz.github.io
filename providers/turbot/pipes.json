@@ -2,6 +2,114 @@
   "repository": "https://github.com/turbot/terraform-provider-pipes",
   "versions": [
     {
+      "version": "0.12.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/turbot/terraform-provider-pipes/releases/download/v0.12.0/terraform-provider-pipes_0.12.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/turbot/terraform-provider-pipes/releases/download/v0.12.0/terraform-provider-pipes_0.12.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-pipes_0.12.0_linux_amd64.zip",
+          "download_url": "https://github.com/turbot/terraform-provider-pipes/releases/download/v0.12.0/terraform-provider-pipes_0.12.0_linux_amd64.zip",
+          "shasum": "4f196f3d793bb6b3886c65bc700e00fc66f5605a2b14b65a7444b0321be807eb"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-pipes_0.12.0_windows_amd64.zip",
+          "download_url": "https://github.com/turbot/terraform-provider-pipes/releases/download/v0.12.0/terraform-provider-pipes_0.12.0_windows_amd64.zip",
+          "shasum": "4e6830d6e645ead1eca154a62fd9e7be05c87afd8367f498ad98cb93d3c7e0a8"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-pipes_0.12.0_windows_arm.zip",
+          "download_url": "https://github.com/turbot/terraform-provider-pipes/releases/download/v0.12.0/terraform-provider-pipes_0.12.0_windows_arm.zip",
+          "shasum": "cfa0f0dc0e0305fdb98f56579c8f67042e98ccf435c9499a24195531d258094f"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-pipes_0.12.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/turbot/terraform-provider-pipes/releases/download/v0.12.0/terraform-provider-pipes_0.12.0_freebsd_arm64.zip",
+          "shasum": "10f5ab2141fbca29940fb3b3a0cab74a19854427ef5cca35aa754867a09b31d1"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-pipes_0.12.0_linux_386.zip",
+          "download_url": "https://github.com/turbot/terraform-provider-pipes/releases/download/v0.12.0/terraform-provider-pipes_0.12.0_linux_386.zip",
+          "shasum": "6edae6da068a8c0d72f4b82eba7159e73f3ab42aa7651385e8c70e28a99d04af"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-pipes_0.12.0_freebsd_386.zip",
+          "download_url": "https://github.com/turbot/terraform-provider-pipes/releases/download/v0.12.0/terraform-provider-pipes_0.12.0_freebsd_386.zip",
+          "shasum": "5b213d7ef0b6438c557370c53b01736be6436134f4ae5819f89313fabc0550d4"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-pipes_0.12.0_windows_arm64.zip",
+          "download_url": "https://github.com/turbot/terraform-provider-pipes/releases/download/v0.12.0/terraform-provider-pipes_0.12.0_windows_arm64.zip",
+          "shasum": "c360830e364cd73fcc760b9683b6a40279b78c1ecb55f6fc71faef03b4ee7698"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-pipes_0.12.0_freebsd_arm.zip",
+          "download_url": "https://github.com/turbot/terraform-provider-pipes/releases/download/v0.12.0/terraform-provider-pipes_0.12.0_freebsd_arm.zip",
+          "shasum": "4542c71aab943617ddfac890a741392b50a88dda6496ab4145aa0fff9064ead2"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-pipes_0.12.0_darwin_arm64.zip",
+          "download_url": "https://github.com/turbot/terraform-provider-pipes/releases/download/v0.12.0/terraform-provider-pipes_0.12.0_darwin_arm64.zip",
+          "shasum": "943615cfa77c0149a51fc7332d67fd230bd0bb6835c2c75d093527a9da18104b"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-pipes_0.12.0_linux_arm.zip",
+          "download_url": "https://github.com/turbot/terraform-provider-pipes/releases/download/v0.12.0/terraform-provider-pipes_0.12.0_linux_arm.zip",
+          "shasum": "059b8de02466efbfe244d491e7b9a5ea342de874c870abbda6094822e6c3cb0d"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-pipes_0.12.0_windows_386.zip",
+          "download_url": "https://github.com/turbot/terraform-provider-pipes/releases/download/v0.12.0/terraform-provider-pipes_0.12.0_windows_386.zip",
+          "shasum": "2109bc17a31db3ebe7ea505137e13b2c56bf8fb58ac9e3a8a729bcf03e458dc8"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-pipes_0.12.0_linux_arm64.zip",
+          "download_url": "https://github.com/turbot/terraform-provider-pipes/releases/download/v0.12.0/terraform-provider-pipes_0.12.0_linux_arm64.zip",
+          "shasum": "2e9aebaca801ebb2bce60a4c3c4ad7e6ed136a9668240858e62e5054acb98621"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-pipes_0.12.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/turbot/terraform-provider-pipes/releases/download/v0.12.0/terraform-provider-pipes_0.12.0_freebsd_amd64.zip",
+          "shasum": "9939ac852b4c0fd39613bb827f049605dd0b792df6d9e559c6a45f1e25dd341d"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-pipes_0.12.0_darwin_amd64.zip",
+          "download_url": "https://github.com/turbot/terraform-provider-pipes/releases/download/v0.12.0/terraform-provider-pipes_0.12.0_darwin_amd64.zip",
+          "shasum": "8d82eacbb152ccfcf2b726a6134ef91ecf17c9a9266d084df32e923974ff35b9"
+        }
+      ]
+    },
+    {
       "version": "0.11.0",
       "protocols": [
         "5.0"
