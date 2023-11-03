@@ -2,6 +2,114 @@
   "repository": "https://github.com/FlexibleEngineCloud/terraform-provider-flexibleengine",
   "versions": [
     {
+      "version": "1.43.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/FlexibleEngineCloud/terraform-provider-flexibleengine/releases/download/v1.43.0/terraform-provider-flexibleengine_1.43.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/FlexibleEngineCloud/terraform-provider-flexibleengine/releases/download/v1.43.0/terraform-provider-flexibleengine_1.43.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-flexibleengine_1.43.0_darwin_arm64.zip",
+          "download_url": "https://github.com/FlexibleEngineCloud/terraform-provider-flexibleengine/releases/download/v1.43.0/terraform-provider-flexibleengine_1.43.0_darwin_arm64.zip",
+          "shasum": "ab2523b942c33e0dff59bc3c6d70e76e9d51d28238cbc6234282c95dcce9d9c0"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-flexibleengine_1.43.0_freebsd_386.zip",
+          "download_url": "https://github.com/FlexibleEngineCloud/terraform-provider-flexibleengine/releases/download/v1.43.0/terraform-provider-flexibleengine_1.43.0_freebsd_386.zip",
+          "shasum": "53c7566759aba356936bf18cdd1e900c2a42255f325e3ee29e0f21ebba058094"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-flexibleengine_1.43.0_freebsd_arm.zip",
+          "download_url": "https://github.com/FlexibleEngineCloud/terraform-provider-flexibleengine/releases/download/v1.43.0/terraform-provider-flexibleengine_1.43.0_freebsd_arm.zip",
+          "shasum": "ff007a8072c9af4fb783ba9785cc5fa86c552225d73141d8e17a5a98b2ea959d"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-flexibleengine_1.43.0_linux_arm64.zip",
+          "download_url": "https://github.com/FlexibleEngineCloud/terraform-provider-flexibleengine/releases/download/v1.43.0/terraform-provider-flexibleengine_1.43.0_linux_arm64.zip",
+          "shasum": "22403f43d1b5dd5fba548076683f743716d81b83425697ce267b5027c7f88085"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-flexibleengine_1.43.0_windows_arm.zip",
+          "download_url": "https://github.com/FlexibleEngineCloud/terraform-provider-flexibleengine/releases/download/v1.43.0/terraform-provider-flexibleengine_1.43.0_windows_arm.zip",
+          "shasum": "73d18552fe2bf6470aeb8d496c57150b495307212ae3e4632bb1bc07665d1535"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-flexibleengine_1.43.0_linux_arm.zip",
+          "download_url": "https://github.com/FlexibleEngineCloud/terraform-provider-flexibleengine/releases/download/v1.43.0/terraform-provider-flexibleengine_1.43.0_linux_arm.zip",
+          "shasum": "75113a5f7062508f56838890a8bf622f76047a545ae0427037f9d315f3939001"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-flexibleengine_1.43.0_windows_amd64.zip",
+          "download_url": "https://github.com/FlexibleEngineCloud/terraform-provider-flexibleengine/releases/download/v1.43.0/terraform-provider-flexibleengine_1.43.0_windows_amd64.zip",
+          "shasum": "a8bd9595befa15281c5e416600465677d6c9b45c5da2048aabcf18ac0150704e"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-flexibleengine_1.43.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/FlexibleEngineCloud/terraform-provider-flexibleengine/releases/download/v1.43.0/terraform-provider-flexibleengine_1.43.0_freebsd_arm64.zip",
+          "shasum": "e0bde9f90b94237167c6b4954a1ee99c8dedb466011fc80a9305ed84f7fa0d80"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-flexibleengine_1.43.0_linux_amd64.zip",
+          "download_url": "https://github.com/FlexibleEngineCloud/terraform-provider-flexibleengine/releases/download/v1.43.0/terraform-provider-flexibleengine_1.43.0_linux_amd64.zip",
+          "shasum": "00fd4a22ffe6a2f0ef9069743185a32c5d1b663c3fc0d5202042ac5ce79400ea"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-flexibleengine_1.43.0_linux_386.zip",
+          "download_url": "https://github.com/FlexibleEngineCloud/terraform-provider-flexibleengine/releases/download/v1.43.0/terraform-provider-flexibleengine_1.43.0_linux_386.zip",
+          "shasum": "b0e1ff02272ddfd90186936734910840a6c4c8f1ca1960da62c920f5677a7ca2"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-flexibleengine_1.43.0_darwin_amd64.zip",
+          "download_url": "https://github.com/FlexibleEngineCloud/terraform-provider-flexibleengine/releases/download/v1.43.0/terraform-provider-flexibleengine_1.43.0_darwin_amd64.zip",
+          "shasum": "f9e1017cf88d251ccb46a70641ed13857dfa3aeda2f7c3cb074a986510f66c45"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-flexibleengine_1.43.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/FlexibleEngineCloud/terraform-provider-flexibleengine/releases/download/v1.43.0/terraform-provider-flexibleengine_1.43.0_freebsd_amd64.zip",
+          "shasum": "1fce4db2f960108d0220ef2b60cce8269b748401f43567fe4d92745b7ddc21dd"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-flexibleengine_1.43.0_windows_386.zip",
+          "download_url": "https://github.com/FlexibleEngineCloud/terraform-provider-flexibleengine/releases/download/v1.43.0/terraform-provider-flexibleengine_1.43.0_windows_386.zip",
+          "shasum": "2d7d9eedaea63b150074643367f8033b146301dbed003ab2e45d1278590f8e01"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-flexibleengine_1.43.0_windows_arm64.zip",
+          "download_url": "https://github.com/FlexibleEngineCloud/terraform-provider-flexibleengine/releases/download/v1.43.0/terraform-provider-flexibleengine_1.43.0_windows_arm64.zip",
+          "shasum": "5dd468b2ffe37e1ae42e7d7d549a0ab77091ce443b492583d6d24dc90a38e364"
+        }
+      ]
+    },
+    {
       "version": "1.42.0",
       "protocols": [
         "5.0"
