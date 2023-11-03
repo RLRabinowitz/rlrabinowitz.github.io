@@ -2,6 +2,114 @@
   "repository": "https://github.com/ultradns/terraform-provider-ultradns",
   "versions": [
     {
+      "version": "1.9.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/ultradns/terraform-provider-ultradns/releases/download/v1.9.0/terraform-provider-ultradns_1.9.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/ultradns/terraform-provider-ultradns/releases/download/v1.9.0/terraform-provider-ultradns_1.9.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-ultradns_1.9.0_linux_arm.zip",
+          "download_url": "https://github.com/ultradns/terraform-provider-ultradns/releases/download/v1.9.0/terraform-provider-ultradns_1.9.0_linux_arm.zip",
+          "shasum": "7bff3e6666398662582482278e33ea2db59bcd1c5f34674ddf41f3e03a4bd4a7"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-ultradns_1.9.0_linux_386.zip",
+          "download_url": "https://github.com/ultradns/terraform-provider-ultradns/releases/download/v1.9.0/terraform-provider-ultradns_1.9.0_linux_386.zip",
+          "shasum": "b50cd150dd4dfa941cdb41ddff8a5c54c57ef616fe47e6bc2da4a4f3f4be8477"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-ultradns_1.9.0_freebsd_arm.zip",
+          "download_url": "https://github.com/ultradns/terraform-provider-ultradns/releases/download/v1.9.0/terraform-provider-ultradns_1.9.0_freebsd_arm.zip",
+          "shasum": "300ff5ea4b498b3c4a7199ef7114a6e6b1c60ba56b6f23037568ef4ab2aae2ed"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-ultradns_1.9.0_linux_arm64.zip",
+          "download_url": "https://github.com/ultradns/terraform-provider-ultradns/releases/download/v1.9.0/terraform-provider-ultradns_1.9.0_linux_arm64.zip",
+          "shasum": "b5dc1dc900cd63bdde96735148e6a195b1419c66f340b8ce7ab4de769b47049c"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-ultradns_1.9.0_windows_386.zip",
+          "download_url": "https://github.com/ultradns/terraform-provider-ultradns/releases/download/v1.9.0/terraform-provider-ultradns_1.9.0_windows_386.zip",
+          "shasum": "deaf619907291aaeec9a87b4476357f3f170264d4121ca0e9db46fed02f9e3ee"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-ultradns_1.9.0_windows_arm.zip",
+          "download_url": "https://github.com/ultradns/terraform-provider-ultradns/releases/download/v1.9.0/terraform-provider-ultradns_1.9.0_windows_arm.zip",
+          "shasum": "b00ce8193b0ac4f14f4a46d4f1af6259648d9793907b7b747959bac85be015c6"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-ultradns_1.9.0_linux_amd64.zip",
+          "download_url": "https://github.com/ultradns/terraform-provider-ultradns/releases/download/v1.9.0/terraform-provider-ultradns_1.9.0_linux_amd64.zip",
+          "shasum": "469997a7e5f0025c7622e9702327aa8a2a9289a4cc524a5c846ac56422cde4d6"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-ultradns_1.9.0_windows_amd64.zip",
+          "download_url": "https://github.com/ultradns/terraform-provider-ultradns/releases/download/v1.9.0/terraform-provider-ultradns_1.9.0_windows_amd64.zip",
+          "shasum": "d317c28386309688848b39117f73c4a8ec46757fb1245523932fe07b3b725811"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-ultradns_1.9.0_darwin_arm64.zip",
+          "download_url": "https://github.com/ultradns/terraform-provider-ultradns/releases/download/v1.9.0/terraform-provider-ultradns_1.9.0_darwin_arm64.zip",
+          "shasum": "dea9ac5c71e1f9e2a7fb37f38d8fff99d7e507d7b292ff82dfaa477178a2f9ec"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-ultradns_1.9.0_darwin_amd64.zip",
+          "download_url": "https://github.com/ultradns/terraform-provider-ultradns/releases/download/v1.9.0/terraform-provider-ultradns_1.9.0_darwin_amd64.zip",
+          "shasum": "19990583886d3f93ad106b68ee42eb10937915c66c8cab4c9a2f6563eab3271e"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-ultradns_1.9.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/ultradns/terraform-provider-ultradns/releases/download/v1.9.0/terraform-provider-ultradns_1.9.0_freebsd_arm64.zip",
+          "shasum": "a23a00b680f5bbcdd82e08f030c67dac8b6d78036663231666b0076223b7493f"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-ultradns_1.9.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/ultradns/terraform-provider-ultradns/releases/download/v1.9.0/terraform-provider-ultradns_1.9.0_freebsd_amd64.zip",
+          "shasum": "83699284a5b53e4775104be9896c841d63b22f61ad72c513ba83c5528567dca6"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-ultradns_1.9.0_windows_arm64.zip",
+          "download_url": "https://github.com/ultradns/terraform-provider-ultradns/releases/download/v1.9.0/terraform-provider-ultradns_1.9.0_windows_arm64.zip",
+          "shasum": "403ac4a6e63996bbdacf1df32e836b67dd0e1dcb9430821d33f75437008f25ac"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-ultradns_1.9.0_freebsd_386.zip",
+          "download_url": "https://github.com/ultradns/terraform-provider-ultradns/releases/download/v1.9.0/terraform-provider-ultradns_1.9.0_freebsd_386.zip",
+          "shasum": "a64b97084c64643685d1d419d10bce82d495cfc48d3ba50f0bdacb38197d065b"
+        }
+      ]
+    },
+    {
       "version": "1.8.1",
       "protocols": [
         "5.0"
