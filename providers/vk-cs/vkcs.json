@@ -2,6 +2,114 @@
   "repository": "https://github.com/vk-cs/terraform-provider-vkcs",
   "versions": [
     {
+      "version": "0.5.2",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/vk-cs/terraform-provider-vkcs/releases/download/v0.5.2/terraform-provider-vkcs_0.5.2_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/vk-cs/terraform-provider-vkcs/releases/download/v0.5.2/terraform-provider-vkcs_0.5.2_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-vkcs_0.5.2_darwin_amd64.zip",
+          "download_url": "https://github.com/vk-cs/terraform-provider-vkcs/releases/download/v0.5.2/terraform-provider-vkcs_0.5.2_darwin_amd64.zip",
+          "shasum": "0a21364e41f189bd442b257838a82856023727efa844992ddbc8d30c0a096d96"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-vkcs_0.5.2_windows_arm.zip",
+          "download_url": "https://github.com/vk-cs/terraform-provider-vkcs/releases/download/v0.5.2/terraform-provider-vkcs_0.5.2_windows_arm.zip",
+          "shasum": "7579596e89c859752290af10d1f282001ad7629a74fe0d05b36346d5a067d5b1"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-vkcs_0.5.2_freebsd_amd64.zip",
+          "download_url": "https://github.com/vk-cs/terraform-provider-vkcs/releases/download/v0.5.2/terraform-provider-vkcs_0.5.2_freebsd_amd64.zip",
+          "shasum": "57bf29c4134dd044160a607764d7b80f43d70c699f8c4b20c690346c82694bec"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-vkcs_0.5.2_windows_386.zip",
+          "download_url": "https://github.com/vk-cs/terraform-provider-vkcs/releases/download/v0.5.2/terraform-provider-vkcs_0.5.2_windows_386.zip",
+          "shasum": "5f84bd9d9d4cb9d63c3daf9f7e3daf77a56e67b374ac7c5395ddf63e6da90596"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-vkcs_0.5.2_freebsd_386.zip",
+          "download_url": "https://github.com/vk-cs/terraform-provider-vkcs/releases/download/v0.5.2/terraform-provider-vkcs_0.5.2_freebsd_386.zip",
+          "shasum": "f9f4a21b07c378b709ab69049fceead5a415c3d7fb3691e3c3da09b7e3f1edfe"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-vkcs_0.5.2_linux_386.zip",
+          "download_url": "https://github.com/vk-cs/terraform-provider-vkcs/releases/download/v0.5.2/terraform-provider-vkcs_0.5.2_linux_386.zip",
+          "shasum": "f3d0a36af9683a119092d8f8991b1425c5ccc2bdc8987f998014664dd2aaecc1"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-vkcs_0.5.2_linux_amd64.zip",
+          "download_url": "https://github.com/vk-cs/terraform-provider-vkcs/releases/download/v0.5.2/terraform-provider-vkcs_0.5.2_linux_amd64.zip",
+          "shasum": "39ee7cfd39371c4bf136037f8b967f6638b63b7d5789ab3455fcc655debcbceb"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-vkcs_0.5.2_freebsd_arm.zip",
+          "download_url": "https://github.com/vk-cs/terraform-provider-vkcs/releases/download/v0.5.2/terraform-provider-vkcs_0.5.2_freebsd_arm.zip",
+          "shasum": "b7ad9750afbea09943006b9fc4345523f12b9c19a553c587e76077c90a496ecb"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-vkcs_0.5.2_windows_amd64.zip",
+          "download_url": "https://github.com/vk-cs/terraform-provider-vkcs/releases/download/v0.5.2/terraform-provider-vkcs_0.5.2_windows_amd64.zip",
+          "shasum": "5ab75c24a63e90480e678ae0c0eb2d55afbbca6ef021cd4a6f8cbf3da5be57e7"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-vkcs_0.5.2_freebsd_arm64.zip",
+          "download_url": "https://github.com/vk-cs/terraform-provider-vkcs/releases/download/v0.5.2/terraform-provider-vkcs_0.5.2_freebsd_arm64.zip",
+          "shasum": "a3a50e7a41de7d4af1d21fa73d643fd58eae55b8da52a384e8d7998d8d298e38"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-vkcs_0.5.2_linux_arm.zip",
+          "download_url": "https://github.com/vk-cs/terraform-provider-vkcs/releases/download/v0.5.2/terraform-provider-vkcs_0.5.2_linux_arm.zip",
+          "shasum": "d2a4af588cc4fde55c358eac5c65913d9378f6b805472a8b1d659f81cc27c72f"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-vkcs_0.5.2_windows_arm64.zip",
+          "download_url": "https://github.com/vk-cs/terraform-provider-vkcs/releases/download/v0.5.2/terraform-provider-vkcs_0.5.2_windows_arm64.zip",
+          "shasum": "d8fc70e9f04e0320b77238ca6bada2a2dddddbcdd091f419e4deb201306eb474"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-vkcs_0.5.2_linux_arm64.zip",
+          "download_url": "https://github.com/vk-cs/terraform-provider-vkcs/releases/download/v0.5.2/terraform-provider-vkcs_0.5.2_linux_arm64.zip",
+          "shasum": "e84907b6f415b7e3d8c1fff58be6f9df950d992750b7a75d5d0f3b9c7c350c18"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-vkcs_0.5.2_darwin_arm64.zip",
+          "download_url": "https://github.com/vk-cs/terraform-provider-vkcs/releases/download/v0.5.2/terraform-provider-vkcs_0.5.2_darwin_arm64.zip",
+          "shasum": "d06b909d212b6fee0affc2766e90c788e68b4c55284ec1f3f1781b6a88056a7d"
+        }
+      ]
+    },
+    {
       "version": "0.5.1",
       "protocols": [
         "5.0"
