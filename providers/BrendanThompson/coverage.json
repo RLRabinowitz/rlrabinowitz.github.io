@@ -2,6 +2,114 @@
   "repository": "https://github.com/BrendanThompson/terraform-provider-coverage",
   "versions": [
     {
+      "version": "1.0.1",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/BrendanThompson/terraform-provider-coverage/releases/download/v1.0.1/terraform-provider-coverage_1.0.1_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/BrendanThompson/terraform-provider-coverage/releases/download/v1.0.1/terraform-provider-coverage_1.0.1_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-coverage_1.0.1_freebsd_386.zip",
+          "download_url": "https://github.com/BrendanThompson/terraform-provider-coverage/releases/download/v1.0.1/terraform-provider-coverage_1.0.1_freebsd_386.zip",
+          "shasum": "cccbce6985ce83112718d7dd52b20651589381712b3d2ac37be5396ad023dda6"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-coverage_1.0.1_freebsd_arm64.zip",
+          "download_url": "https://github.com/BrendanThompson/terraform-provider-coverage/releases/download/v1.0.1/terraform-provider-coverage_1.0.1_freebsd_arm64.zip",
+          "shasum": "ee9e9c59bde913309c8dc1f18091b699f7c840816db45568d367cd55ae8ff942"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-coverage_1.0.1_windows_arm64.zip",
+          "download_url": "https://github.com/BrendanThompson/terraform-provider-coverage/releases/download/v1.0.1/terraform-provider-coverage_1.0.1_windows_arm64.zip",
+          "shasum": "f968dd8a10d74026a8de6a67c6436589d8d9e36d8674f35fc1b2936a19d4c9fd"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-coverage_1.0.1_windows_arm.zip",
+          "download_url": "https://github.com/BrendanThompson/terraform-provider-coverage/releases/download/v1.0.1/terraform-provider-coverage_1.0.1_windows_arm.zip",
+          "shasum": "218cdbaf2cf364900fc09b83a1d59bad7df11e5a48fb8f6a5f78445fd310da69"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-coverage_1.0.1_freebsd_arm.zip",
+          "download_url": "https://github.com/BrendanThompson/terraform-provider-coverage/releases/download/v1.0.1/terraform-provider-coverage_1.0.1_freebsd_arm.zip",
+          "shasum": "ae9d81bb7d5726e3d5e35de1fa2eecd75bcddb11c8a0db21dc896575ac4caf4b"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-coverage_1.0.1_linux_386.zip",
+          "download_url": "https://github.com/BrendanThompson/terraform-provider-coverage/releases/download/v1.0.1/terraform-provider-coverage_1.0.1_linux_386.zip",
+          "shasum": "8867fa48b35446c5584d3d8c1cceb652f61ab405350e9b9e3c32561f553548e2"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-coverage_1.0.1_windows_amd64.zip",
+          "download_url": "https://github.com/BrendanThompson/terraform-provider-coverage/releases/download/v1.0.1/terraform-provider-coverage_1.0.1_windows_amd64.zip",
+          "shasum": "0b85036c1600fca1029363790fbec7ee83918c41871c334ff01e6f9f8d6fc822"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-coverage_1.0.1_darwin_arm64.zip",
+          "download_url": "https://github.com/BrendanThompson/terraform-provider-coverage/releases/download/v1.0.1/terraform-provider-coverage_1.0.1_darwin_arm64.zip",
+          "shasum": "6170381fb8fffa7f7de24cdc95280a433da0fb10c698410cb342dc9be27c9460"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-coverage_1.0.1_freebsd_amd64.zip",
+          "download_url": "https://github.com/BrendanThompson/terraform-provider-coverage/releases/download/v1.0.1/terraform-provider-coverage_1.0.1_freebsd_amd64.zip",
+          "shasum": "39e98c0f876e6b2987e3c7e406e5930a043b2e99ce4e03cabd5bb5f1391cb77c"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-coverage_1.0.1_windows_386.zip",
+          "download_url": "https://github.com/BrendanThompson/terraform-provider-coverage/releases/download/v1.0.1/terraform-provider-coverage_1.0.1_windows_386.zip",
+          "shasum": "cbc09d7ebde5b9f77506c307edc5da5e7ed9e016396b8c97936f63541408e975"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-coverage_1.0.1_linux_amd64.zip",
+          "download_url": "https://github.com/BrendanThompson/terraform-provider-coverage/releases/download/v1.0.1/terraform-provider-coverage_1.0.1_linux_amd64.zip",
+          "shasum": "e2d10b1bba645d5f46db2cc9b99bacf664f54617f061a4204197e8524822c7ba"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-coverage_1.0.1_darwin_amd64.zip",
+          "download_url": "https://github.com/BrendanThompson/terraform-provider-coverage/releases/download/v1.0.1/terraform-provider-coverage_1.0.1_darwin_amd64.zip",
+          "shasum": "b8b3e6ad951c8041cf6d1b25ca8c668ede8805e4484c0961c2b8cd296f8b9129"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-coverage_1.0.1_linux_arm.zip",
+          "download_url": "https://github.com/BrendanThompson/terraform-provider-coverage/releases/download/v1.0.1/terraform-provider-coverage_1.0.1_linux_arm.zip",
+          "shasum": "34c4a5c53e5c7a00fa9dd52333db7600ccc6f5bcc4dd63f4618853b2d31d7d1c"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-coverage_1.0.1_linux_arm64.zip",
+          "download_url": "https://github.com/BrendanThompson/terraform-provider-coverage/releases/download/v1.0.1/terraform-provider-coverage_1.0.1_linux_arm64.zip",
+          "shasum": "f8ba532fa55caa60b0f5725e9131bdc00cfa5d80fb62dd9ff3d0392a8dbc95aa"
+        }
+      ]
+    },
+    {
       "version": "1.0.0",
       "protocols": [
         "5.0"

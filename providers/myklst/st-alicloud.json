@@ -2,6 +2,114 @@
   "repository": "https://github.com/myklst/terraform-provider-st-alicloud",
   "versions": [
     {
+      "version": "0.14.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/myklst/terraform-provider-st-alicloud/releases/download/v0.14.0/terraform-provider-st-alicloud_0.14.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/myklst/terraform-provider-st-alicloud/releases/download/v0.14.0/terraform-provider-st-alicloud_0.14.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-st-alicloud_0.14.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/myklst/terraform-provider-st-alicloud/releases/download/v0.14.0/terraform-provider-st-alicloud_0.14.0_freebsd_arm64.zip",
+          "shasum": "7932096d27a141cff2d4637dff24a9dcb650fe2983874db9b27422455a051cba"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-st-alicloud_0.14.0_freebsd_386.zip",
+          "download_url": "https://github.com/myklst/terraform-provider-st-alicloud/releases/download/v0.14.0/terraform-provider-st-alicloud_0.14.0_freebsd_386.zip",
+          "shasum": "26957053573ee052dc370addefea1b4d842907cf2b74acd1e32bd14c606a9681"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-st-alicloud_0.14.0_windows_amd64.zip",
+          "download_url": "https://github.com/myklst/terraform-provider-st-alicloud/releases/download/v0.14.0/terraform-provider-st-alicloud_0.14.0_windows_amd64.zip",
+          "shasum": "a330eeb64e5222b448ab79d7cd8f2251982afa3ebb03e32fbb442f752548962b"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-st-alicloud_0.14.0_linux_amd64.zip",
+          "download_url": "https://github.com/myklst/terraform-provider-st-alicloud/releases/download/v0.14.0/terraform-provider-st-alicloud_0.14.0_linux_amd64.zip",
+          "shasum": "435d863bb9ce5d43958abd59ff3be4a17e51add081f5ce4e8e23cd61b178f4d7"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-st-alicloud_0.14.0_linux_arm64.zip",
+          "download_url": "https://github.com/myklst/terraform-provider-st-alicloud/releases/download/v0.14.0/terraform-provider-st-alicloud_0.14.0_linux_arm64.zip",
+          "shasum": "0272a1ff411f9ff73daf91ff863840db00dcb359d046673cde6fea01bd7c0d6b"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-st-alicloud_0.14.0_darwin_amd64.zip",
+          "download_url": "https://github.com/myklst/terraform-provider-st-alicloud/releases/download/v0.14.0/terraform-provider-st-alicloud_0.14.0_darwin_amd64.zip",
+          "shasum": "1581ac71836cb2c920b0badd58406c31738b3a14f49d1f49263dadaa8cfe9050"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-st-alicloud_0.14.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/myklst/terraform-provider-st-alicloud/releases/download/v0.14.0/terraform-provider-st-alicloud_0.14.0_freebsd_amd64.zip",
+          "shasum": "405e206510b7cc93998f5169e9663166a28b7ca2860c184d59387bde868f6258"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-st-alicloud_0.14.0_freebsd_arm.zip",
+          "download_url": "https://github.com/myklst/terraform-provider-st-alicloud/releases/download/v0.14.0/terraform-provider-st-alicloud_0.14.0_freebsd_arm.zip",
+          "shasum": "ad363d93188d8a51a1b06af37600556ebe713e38bac730d06b00ca37a519b9a1"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-st-alicloud_0.14.0_windows_arm64.zip",
+          "download_url": "https://github.com/myklst/terraform-provider-st-alicloud/releases/download/v0.14.0/terraform-provider-st-alicloud_0.14.0_windows_arm64.zip",
+          "shasum": "5be49940637f5424c23586ff2e86efa1ad8de6c5023ceb904d0d03379c059c44"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-st-alicloud_0.14.0_linux_386.zip",
+          "download_url": "https://github.com/myklst/terraform-provider-st-alicloud/releases/download/v0.14.0/terraform-provider-st-alicloud_0.14.0_linux_386.zip",
+          "shasum": "3a3776e5a3cfc25d7c080221a7372be2611ed578ff909f9f533f6836437ecacc"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-st-alicloud_0.14.0_windows_386.zip",
+          "download_url": "https://github.com/myklst/terraform-provider-st-alicloud/releases/download/v0.14.0/terraform-provider-st-alicloud_0.14.0_windows_386.zip",
+          "shasum": "cf415813c102679cc5f194842939ce680e4e078100a811f1aebc1a1301ea82cc"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-st-alicloud_0.14.0_darwin_arm64.zip",
+          "download_url": "https://github.com/myklst/terraform-provider-st-alicloud/releases/download/v0.14.0/terraform-provider-st-alicloud_0.14.0_darwin_arm64.zip",
+          "shasum": "95b1c55eae7e0ab3252a462ef5ca147899364444f23541c92ec4384b208fe8a9"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-st-alicloud_0.14.0_windows_arm.zip",
+          "download_url": "https://github.com/myklst/terraform-provider-st-alicloud/releases/download/v0.14.0/terraform-provider-st-alicloud_0.14.0_windows_arm.zip",
+          "shasum": "4325f35c5d0f987c6d10b746c33feb7b56ac1fffe28a8d5cf7b845613b6374b2"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-st-alicloud_0.14.0_linux_arm.zip",
+          "download_url": "https://github.com/myklst/terraform-provider-st-alicloud/releases/download/v0.14.0/terraform-provider-st-alicloud_0.14.0_linux_arm.zip",
+          "shasum": "259c6b3cb2656cd7ed6a68b7ab75b9e43f71dbcf1484ef8b913c626ebc1e93db"
+        }
+      ]
+    },
+    {
       "version": "0.13.2",
       "protocols": [
         "5.0"
