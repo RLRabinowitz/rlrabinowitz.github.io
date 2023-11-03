@@ -2,6 +2,114 @@
   "repository": "https://github.com/sysdiglabs/terraform-provider-sysdig",
   "versions": [
     {
+      "version": "1.17.1",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/sysdiglabs/terraform-provider-sysdig/releases/download/v1.17.1/terraform-provider-sysdig_1.17.1_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/sysdiglabs/terraform-provider-sysdig/releases/download/v1.17.1/terraform-provider-sysdig_1.17.1_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-sysdig_1.17.1_freebsd_arm.zip",
+          "download_url": "https://github.com/sysdiglabs/terraform-provider-sysdig/releases/download/v1.17.1/terraform-provider-sysdig_1.17.1_freebsd_arm.zip",
+          "shasum": "3af6e518c73e960031ff7e1fe6c1f63868050eade1bc4cba88466f309826e4b7"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-sysdig_1.17.1_darwin_amd64.zip",
+          "download_url": "https://github.com/sysdiglabs/terraform-provider-sysdig/releases/download/v1.17.1/terraform-provider-sysdig_1.17.1_darwin_amd64.zip",
+          "shasum": "5c62de98a5460c40e5249d6a68e67c3a1a5b415d4586f60b11d3696eb604c6ab"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-sysdig_1.17.1_darwin_arm64.zip",
+          "download_url": "https://github.com/sysdiglabs/terraform-provider-sysdig/releases/download/v1.17.1/terraform-provider-sysdig_1.17.1_darwin_arm64.zip",
+          "shasum": "4b316a7670982657faffe3b2d5bdfb8c2163dcfda45aa370908eeeb631c7e7d7"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-sysdig_1.17.1_freebsd_amd64.zip",
+          "download_url": "https://github.com/sysdiglabs/terraform-provider-sysdig/releases/download/v1.17.1/terraform-provider-sysdig_1.17.1_freebsd_amd64.zip",
+          "shasum": "2f5f8b57e954055b00bf8c9fb0847988b388dab6cb182c1001709c8591f55bd9"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-sysdig_1.17.1_windows_arm.zip",
+          "download_url": "https://github.com/sysdiglabs/terraform-provider-sysdig/releases/download/v1.17.1/terraform-provider-sysdig_1.17.1_windows_arm.zip",
+          "shasum": "5a5f0c6aa5213b1671f6f01375074092076cb5bb24294ab519ad98a87f1f5d92"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-sysdig_1.17.1_windows_arm64.zip",
+          "download_url": "https://github.com/sysdiglabs/terraform-provider-sysdig/releases/download/v1.17.1/terraform-provider-sysdig_1.17.1_windows_arm64.zip",
+          "shasum": "22ad2891226e58a8e417f58f4da76aeab9b1a003f1bfaf0220304771e153a13d"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-sysdig_1.17.1_linux_amd64.zip",
+          "download_url": "https://github.com/sysdiglabs/terraform-provider-sysdig/releases/download/v1.17.1/terraform-provider-sysdig_1.17.1_linux_amd64.zip",
+          "shasum": "f0b0d9afa87513b730fae2f982ab8c2190cc06b7a2d0617db4441d8a2af6e21b"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-sysdig_1.17.1_linux_arm64.zip",
+          "download_url": "https://github.com/sysdiglabs/terraform-provider-sysdig/releases/download/v1.17.1/terraform-provider-sysdig_1.17.1_linux_arm64.zip",
+          "shasum": "1faf6249027e4d43de68cdfe19cc9942c62634ced2718b9e03ce8ac9bf714a34"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-sysdig_1.17.1_freebsd_arm64.zip",
+          "download_url": "https://github.com/sysdiglabs/terraform-provider-sysdig/releases/download/v1.17.1/terraform-provider-sysdig_1.17.1_freebsd_arm64.zip",
+          "shasum": "deae071741b635f961b12ca4866710898d605848e671328f273adf43b5147676"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-sysdig_1.17.1_freebsd_386.zip",
+          "download_url": "https://github.com/sysdiglabs/terraform-provider-sysdig/releases/download/v1.17.1/terraform-provider-sysdig_1.17.1_freebsd_386.zip",
+          "shasum": "fb785c153777c8171abe83c47f56baa2ed80e5c7d04794d0af999067abc9faf8"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-sysdig_1.17.1_windows_386.zip",
+          "download_url": "https://github.com/sysdiglabs/terraform-provider-sysdig/releases/download/v1.17.1/terraform-provider-sysdig_1.17.1_windows_386.zip",
+          "shasum": "cf3d8ec9fd9fad604c54eabf1aa6b27c200335d0ca0aa36d9c38f73a48eea90f"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-sysdig_1.17.1_windows_amd64.zip",
+          "download_url": "https://github.com/sysdiglabs/terraform-provider-sysdig/releases/download/v1.17.1/terraform-provider-sysdig_1.17.1_windows_amd64.zip",
+          "shasum": "bb936acc9621312d8531330ddbbba67d018d9ea883a0bf747a1df499f4db744c"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-sysdig_1.17.1_linux_arm.zip",
+          "download_url": "https://github.com/sysdiglabs/terraform-provider-sysdig/releases/download/v1.17.1/terraform-provider-sysdig_1.17.1_linux_arm.zip",
+          "shasum": "23d593431a2ee41edb9c6fbebba2ae6b23aebfc467baba53eba4e6efd612cfb5"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-sysdig_1.17.1_linux_386.zip",
+          "download_url": "https://github.com/sysdiglabs/terraform-provider-sysdig/releases/download/v1.17.1/terraform-provider-sysdig_1.17.1_linux_386.zip",
+          "shasum": "ea178ac131405143d573457a8d26b98f63070243328ef0bb308a52197a92aa82"
+        }
+      ]
+    },
+    {
       "version": "1.17.0",
       "protocols": [
         "5.0"
