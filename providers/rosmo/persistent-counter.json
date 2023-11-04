@@ -2,6 +2,222 @@
   "repository": "https://github.com/rosmo/terraform-provider-persistent-counter",
   "versions": [
     {
+      "version": "0.1.11",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/rosmo/terraform-provider-persistent/releases/download/v0.1.11/terraform-provider-persistent_0.1.11_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/rosmo/terraform-provider-persistent/releases/download/v0.1.11/terraform-provider-persistent_0.1.11_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-persistent_0.1.11_darwin_arm64.zip",
+          "download_url": "https://github.com/rosmo/terraform-provider-persistent/releases/download/v0.1.11/terraform-provider-persistent_0.1.11_darwin_arm64.zip",
+          "shasum": "4252b28890d7ecccc4e559594ca1a8b30f28d6ab479f05120f19b09d7043bf1c"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-persistent_0.1.11_linux_amd64.zip",
+          "download_url": "https://github.com/rosmo/terraform-provider-persistent/releases/download/v0.1.11/terraform-provider-persistent_0.1.11_linux_amd64.zip",
+          "shasum": "437107275522698c4459851eb16b7c615fe7a6663dc33d644af695c42c3efe2e"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-persistent_0.1.11_freebsd_arm.zip",
+          "download_url": "https://github.com/rosmo/terraform-provider-persistent/releases/download/v0.1.11/terraform-provider-persistent_0.1.11_freebsd_arm.zip",
+          "shasum": "483a9c62a270d575ef1537c42759db8f7f0de78ef7305cc6f835110e7bedfbaf"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-persistent_0.1.11_freebsd_amd64.zip",
+          "download_url": "https://github.com/rosmo/terraform-provider-persistent/releases/download/v0.1.11/terraform-provider-persistent_0.1.11_freebsd_amd64.zip",
+          "shasum": "f459dbedd72244cc39bff668f70b5749fd8adc67338b931129462bebfefee4e7"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-persistent_0.1.11_windows_amd64.zip",
+          "download_url": "https://github.com/rosmo/terraform-provider-persistent/releases/download/v0.1.11/terraform-provider-persistent_0.1.11_windows_amd64.zip",
+          "shasum": "a08cb48767d987bf7b49a4092f2c23ff36d19d711f69e6f6ddeb2270bfa316aa"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-persistent_0.1.11_darwin_amd64.zip",
+          "download_url": "https://github.com/rosmo/terraform-provider-persistent/releases/download/v0.1.11/terraform-provider-persistent_0.1.11_darwin_amd64.zip",
+          "shasum": "8a646c0f2f87c76a3f9e920aa32db8ba8083fdf3c813c6deb7fdc2c9944f0678"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-persistent_0.1.11_freebsd_386.zip",
+          "download_url": "https://github.com/rosmo/terraform-provider-persistent/releases/download/v0.1.11/terraform-provider-persistent_0.1.11_freebsd_386.zip",
+          "shasum": "bd9df95585a81b20eb77eb6bb965c69f8d46cef95568bcb15f8991ddcea5e332"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-persistent_0.1.11_windows_386.zip",
+          "download_url": "https://github.com/rosmo/terraform-provider-persistent/releases/download/v0.1.11/terraform-provider-persistent_0.1.11_windows_386.zip",
+          "shasum": "be600f01b392a0374e8f51b25145197bc4ef66ab9f80d3bc72b441768bdfbe3a"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-persistent_0.1.11_linux_arm64.zip",
+          "download_url": "https://github.com/rosmo/terraform-provider-persistent/releases/download/v0.1.11/terraform-provider-persistent_0.1.11_linux_arm64.zip",
+          "shasum": "482198cf04bf390d08efc3ce2980869687b65589aad5d6e8c8f2d978a0ae1c2c"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-persistent_0.1.11_freebsd_arm64.zip",
+          "download_url": "https://github.com/rosmo/terraform-provider-persistent/releases/download/v0.1.11/terraform-provider-persistent_0.1.11_freebsd_arm64.zip",
+          "shasum": "5d8e7015c715f51b7808b2664700fce3deea45522bdf896aaae159cd9fb36438"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-persistent_0.1.11_linux_arm.zip",
+          "download_url": "https://github.com/rosmo/terraform-provider-persistent/releases/download/v0.1.11/terraform-provider-persistent_0.1.11_linux_arm.zip",
+          "shasum": "c77fbc1873fe714bd72efb615bac4d4b3eae3eee60af2bc4b16b167ace3f99e2"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-persistent_0.1.11_linux_386.zip",
+          "download_url": "https://github.com/rosmo/terraform-provider-persistent/releases/download/v0.1.11/terraform-provider-persistent_0.1.11_linux_386.zip",
+          "shasum": "a72c4e8f5f999a61359dcc543aec2192c1e4f205ea541528bfadcd256b7eff86"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-persistent_0.1.11_windows_arm.zip",
+          "download_url": "https://github.com/rosmo/terraform-provider-persistent/releases/download/v0.1.11/terraform-provider-persistent_0.1.11_windows_arm.zip",
+          "shasum": "e2b5d777a5e5979359c21680664c3cac4a80c2cb2117977c97bb4cc85ceb20a4"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-persistent_0.1.11_windows_arm64.zip",
+          "download_url": "https://github.com/rosmo/terraform-provider-persistent/releases/download/v0.1.11/terraform-provider-persistent_0.1.11_windows_arm64.zip",
+          "shasum": "acc7f019220618f710f466bc914b99d2b638022d59a4cec92ca34eff80300de3"
+        }
+      ]
+    },
+    {
+      "version": "0.1.10",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/rosmo/terraform-provider-persistent/releases/download/v0.1.10/terraform-provider-persistent_0.1.10_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/rosmo/terraform-provider-persistent/releases/download/v0.1.10/terraform-provider-persistent_0.1.10_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-persistent_0.1.10_linux_arm.zip",
+          "download_url": "https://github.com/rosmo/terraform-provider-persistent/releases/download/v0.1.10/terraform-provider-persistent_0.1.10_linux_arm.zip",
+          "shasum": "741605b0395316b813ed272326ad46545ffbfb3d676323e5b277f993ea4899c8"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-persistent_0.1.10_freebsd_arm64.zip",
+          "download_url": "https://github.com/rosmo/terraform-provider-persistent/releases/download/v0.1.10/terraform-provider-persistent_0.1.10_freebsd_arm64.zip",
+          "shasum": "dc9cfd4a1389e7a59935a901580f8c4637298e049791e61c285a026edcbade94"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-persistent_0.1.10_windows_arm.zip",
+          "download_url": "https://github.com/rosmo/terraform-provider-persistent/releases/download/v0.1.10/terraform-provider-persistent_0.1.10_windows_arm.zip",
+          "shasum": "a0a6105c08dc64c3aca6cc434f5c3d9657254f957a78d727f8e591f15a07d8f7"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-persistent_0.1.10_windows_arm64.zip",
+          "download_url": "https://github.com/rosmo/terraform-provider-persistent/releases/download/v0.1.10/terraform-provider-persistent_0.1.10_windows_arm64.zip",
+          "shasum": "17cd910c56adbb214f6cd06aff0f5be49b63351707e24155814b73416fcd0926"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-persistent_0.1.10_linux_386.zip",
+          "download_url": "https://github.com/rosmo/terraform-provider-persistent/releases/download/v0.1.10/terraform-provider-persistent_0.1.10_linux_386.zip",
+          "shasum": "974b77b0d1d5e3aec9958446904f99f245628f25bf2448b5066163bb54cc6c9c"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-persistent_0.1.10_freebsd_arm.zip",
+          "download_url": "https://github.com/rosmo/terraform-provider-persistent/releases/download/v0.1.10/terraform-provider-persistent_0.1.10_freebsd_arm.zip",
+          "shasum": "0aa40618be476ab2b409e2d12ae0c83b6e34b3b241e5ce9baeb793b414be33a5"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-persistent_0.1.10_linux_amd64.zip",
+          "download_url": "https://github.com/rosmo/terraform-provider-persistent/releases/download/v0.1.10/terraform-provider-persistent_0.1.10_linux_amd64.zip",
+          "shasum": "02a8785f03d62de6b1fad7c406a34afa9fa2f5ec1f6bcffe45225bb0dc31d86b"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-persistent_0.1.10_darwin_amd64.zip",
+          "download_url": "https://github.com/rosmo/terraform-provider-persistent/releases/download/v0.1.10/terraform-provider-persistent_0.1.10_darwin_amd64.zip",
+          "shasum": "794f15ddcce5d1c91af97a0ffbe9360f1a31c443f6314d6b0fa598d63cd32506"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-persistent_0.1.10_freebsd_amd64.zip",
+          "download_url": "https://github.com/rosmo/terraform-provider-persistent/releases/download/v0.1.10/terraform-provider-persistent_0.1.10_freebsd_amd64.zip",
+          "shasum": "286414e8aaafac86ca63a120b25f5cf092e655d408c7b1cebaf08ae57b04a888"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-persistent_0.1.10_windows_amd64.zip",
+          "download_url": "https://github.com/rosmo/terraform-provider-persistent/releases/download/v0.1.10/terraform-provider-persistent_0.1.10_windows_amd64.zip",
+          "shasum": "b8709444be4248ee9eb0781208c50f1b74b6ece9a9d4ba7be09570b74d690ef4"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-persistent_0.1.10_windows_386.zip",
+          "download_url": "https://github.com/rosmo/terraform-provider-persistent/releases/download/v0.1.10/terraform-provider-persistent_0.1.10_windows_386.zip",
+          "shasum": "778d0905db1fa411bd9bd1f24865104eb031a2970753f430a8678bb7422ab440"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-persistent_0.1.10_freebsd_386.zip",
+          "download_url": "https://github.com/rosmo/terraform-provider-persistent/releases/download/v0.1.10/terraform-provider-persistent_0.1.10_freebsd_386.zip",
+          "shasum": "b94f11b76fba029ae5d56ed5f26ff044ef5801e4113a3b02cecd2fdb6516a5e5"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-persistent_0.1.10_linux_arm64.zip",
+          "download_url": "https://github.com/rosmo/terraform-provider-persistent/releases/download/v0.1.10/terraform-provider-persistent_0.1.10_linux_arm64.zip",
+          "shasum": "82d2ec01b64f9720d6b86f66372191bda961fc7a243d5dc3bc62f1c9415c3ef4"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-persistent_0.1.10_darwin_arm64.zip",
+          "download_url": "https://github.com/rosmo/terraform-provider-persistent/releases/download/v0.1.10/terraform-provider-persistent_0.1.10_darwin_arm64.zip",
+          "shasum": "fe855b0aabb43160d77c6ef8d1e9490541d30ba206245e719087d786dcff87f6"
+        }
+      ]
+    },
+    {
       "version": "0.1.9",
       "protocols": [
         "5.0"
