@@ -2,6 +2,72 @@
   "repository": "https://github.com/adyxax/terraform-provider-eventline",
   "versions": [
     {
+      "version": "0.2.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/adyxax/terraform-provider-eventline/releases/download/v0.2.0/terraform-provider-eventline_0.2.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/adyxax/terraform-provider-eventline/releases/download/v0.2.0/terraform-provider-eventline_0.2.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-eventline_0.2.0_linux_amd64.zip",
+          "download_url": "https://github.com/adyxax/terraform-provider-eventline/releases/download/v0.2.0/terraform-provider-eventline_0.2.0_linux_amd64.zip",
+          "shasum": "c6acb5404f89838c3c8ffa40f53ba06279c22bdac1b43c7dd0ce267c8f2d68ae"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-eventline_0.2.0_windows_amd64.zip",
+          "download_url": "https://github.com/adyxax/terraform-provider-eventline/releases/download/v0.2.0/terraform-provider-eventline_0.2.0_windows_amd64.zip",
+          "shasum": "a5eac7f92f2dc8e66e837e96bf28906121e051c712f931434f66b2eb20ff1f00"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-eventline_0.2.0_linux_arm64.zip",
+          "download_url": "https://github.com/adyxax/terraform-provider-eventline/releases/download/v0.2.0/terraform-provider-eventline_0.2.0_linux_arm64.zip",
+          "shasum": "0f64c67248ce1c24b7648cf3edc00628189876d4c417bff2adb9f977ebc41d56"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-eventline_0.2.0_darwin_amd64.zip",
+          "download_url": "https://github.com/adyxax/terraform-provider-eventline/releases/download/v0.2.0/terraform-provider-eventline_0.2.0_darwin_amd64.zip",
+          "shasum": "0f66eeab21b980dcf773461e9c419484e606979b85a0bc73875d2b2fa1ecf334"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-eventline_0.2.0_darwin_arm64.zip",
+          "download_url": "https://github.com/adyxax/terraform-provider-eventline/releases/download/v0.2.0/terraform-provider-eventline_0.2.0_darwin_arm64.zip",
+          "shasum": "3a346eddd99e38bdf3876ad61b92fa566f11681761d580ac3def65c3849b955c"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-eventline_0.2.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/adyxax/terraform-provider-eventline/releases/download/v0.2.0/terraform-provider-eventline_0.2.0_freebsd_arm64.zip",
+          "shasum": "802f40ac80506264da20a150307752c10b846ad1aebb7d3c751855125f8e14b7"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-eventline_0.2.0_windows_arm64.zip",
+          "download_url": "https://github.com/adyxax/terraform-provider-eventline/releases/download/v0.2.0/terraform-provider-eventline_0.2.0_windows_arm64.zip",
+          "shasum": "fc920633ee3de09fb8e369b3ccc8b20243a447276a6b0d8b683f55236fd1616f"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-eventline_0.2.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/adyxax/terraform-provider-eventline/releases/download/v0.2.0/terraform-provider-eventline_0.2.0_freebsd_amd64.zip",
+          "shasum": "9108b4847145c94d74377efdc1050464261ae46210f3b571a7a15fde196dd8c1"
+        }
+      ]
+    },
+    {
       "version": "0.1.3",
       "protocols": [
         "5.0"
