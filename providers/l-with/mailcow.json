@@ -2,6 +2,114 @@
   "repository": "https://github.com/l-with/terraform-provider-mailcow",
   "versions": [
     {
+      "version": "0.6.9",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/l-with/terraform-provider-mailcow/releases/download/v0.6.9/terraform-provider-mailcow_0.6.9_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/l-with/terraform-provider-mailcow/releases/download/v0.6.9/terraform-provider-mailcow_0.6.9_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-mailcow_0.6.9_windows_amd64.zip",
+          "download_url": "https://github.com/l-with/terraform-provider-mailcow/releases/download/v0.6.9/terraform-provider-mailcow_0.6.9_windows_amd64.zip",
+          "shasum": "53479d6378782ac5e6dbc5d426358d1b9572164595b85d45ab24f55eb1979434"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-mailcow_0.6.9_freebsd_amd64.zip",
+          "download_url": "https://github.com/l-with/terraform-provider-mailcow/releases/download/v0.6.9/terraform-provider-mailcow_0.6.9_freebsd_amd64.zip",
+          "shasum": "52c3526fcfd93012b1016593730f2605a3fc66f5aa1d7b424ccb411d2a489704"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-mailcow_0.6.9_linux_arm64.zip",
+          "download_url": "https://github.com/l-with/terraform-provider-mailcow/releases/download/v0.6.9/terraform-provider-mailcow_0.6.9_linux_arm64.zip",
+          "shasum": "7a899af5d53ebba217fdb3bf65cb909d77ecd4c9e3df44fb01a276e5065c4629"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-mailcow_0.6.9_darwin_amd64.zip",
+          "download_url": "https://github.com/l-with/terraform-provider-mailcow/releases/download/v0.6.9/terraform-provider-mailcow_0.6.9_darwin_amd64.zip",
+          "shasum": "a2ed0479fa89f107e07e0cd46604097fa704aa0d1dabf4e04066a099a48c476e"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-mailcow_0.6.9_freebsd_arm.zip",
+          "download_url": "https://github.com/l-with/terraform-provider-mailcow/releases/download/v0.6.9/terraform-provider-mailcow_0.6.9_freebsd_arm.zip",
+          "shasum": "24780ef4869d31d34b6ef8057c835096ca8b0549d4fc2344849d5b0a5080f095"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-mailcow_0.6.9_windows_arm64.zip",
+          "download_url": "https://github.com/l-with/terraform-provider-mailcow/releases/download/v0.6.9/terraform-provider-mailcow_0.6.9_windows_arm64.zip",
+          "shasum": "54e35dd23b7cdfc635c7e3e9443b6cbef35de29bc606cb6b65f0732ed059ca9a"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-mailcow_0.6.9_darwin_arm64.zip",
+          "download_url": "https://github.com/l-with/terraform-provider-mailcow/releases/download/v0.6.9/terraform-provider-mailcow_0.6.9_darwin_arm64.zip",
+          "shasum": "bbced76483ea1cde4e8b5ae6726a67a91c2421a7920481691148d4aa5ab4ad53"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-mailcow_0.6.9_freebsd_386.zip",
+          "download_url": "https://github.com/l-with/terraform-provider-mailcow/releases/download/v0.6.9/terraform-provider-mailcow_0.6.9_freebsd_386.zip",
+          "shasum": "a7a93d3f9886ca317bfc99c429955cf3fe1985ab7307c98e1f6966105ecb2788"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-mailcow_0.6.9_windows_arm.zip",
+          "download_url": "https://github.com/l-with/terraform-provider-mailcow/releases/download/v0.6.9/terraform-provider-mailcow_0.6.9_windows_arm.zip",
+          "shasum": "235965b196bfefb87199e39600ef29a9a103f978f13f379fddc9f8129c995c10"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-mailcow_0.6.9_freebsd_arm64.zip",
+          "download_url": "https://github.com/l-with/terraform-provider-mailcow/releases/download/v0.6.9/terraform-provider-mailcow_0.6.9_freebsd_arm64.zip",
+          "shasum": "6b1a3ced92be7a1f50914fa700287e4f0bd49db9fb9858659bcda7c71266087c"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-mailcow_0.6.9_linux_386.zip",
+          "download_url": "https://github.com/l-with/terraform-provider-mailcow/releases/download/v0.6.9/terraform-provider-mailcow_0.6.9_linux_386.zip",
+          "shasum": "acc353d002acad50d19bcb4c9b008abca3809135d1db8087a2558b04153a51ad"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-mailcow_0.6.9_linux_amd64.zip",
+          "download_url": "https://github.com/l-with/terraform-provider-mailcow/releases/download/v0.6.9/terraform-provider-mailcow_0.6.9_linux_amd64.zip",
+          "shasum": "3e26c3bd9d1f99d960830dea712f95ad52f2d3f5894923fd7d8b756eb20c915e"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-mailcow_0.6.9_windows_386.zip",
+          "download_url": "https://github.com/l-with/terraform-provider-mailcow/releases/download/v0.6.9/terraform-provider-mailcow_0.6.9_windows_386.zip",
+          "shasum": "a3c6c1b0bf99064b384942d7413b63f1821778f93ea1998d428359435cbe847a"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-mailcow_0.6.9_linux_arm.zip",
+          "download_url": "https://github.com/l-with/terraform-provider-mailcow/releases/download/v0.6.9/terraform-provider-mailcow_0.6.9_linux_arm.zip",
+          "shasum": "0e20610540fd5d39d9c02a39ff1d3b3cccdb16761c2f5ce4377b68278a66b2eb"
+        }
+      ]
+    },
+    {
       "version": "0.6.8",
       "protocols": [
         "5.0"
