@@ -2,6 +2,114 @@
   "repository": "https://github.com/shmyer/terraform-provider-ksqldb",
   "versions": [
     {
+      "version": "0.3.1",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/shmyer/terraform-provider-ksqldb/releases/download/v0.3.1/terraform-provider-ksqldb_0.3.1_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/shmyer/terraform-provider-ksqldb/releases/download/v0.3.1/terraform-provider-ksqldb_0.3.1_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-ksqldb_0.3.1_windows_arm64.zip",
+          "download_url": "https://github.com/shmyer/terraform-provider-ksqldb/releases/download/v0.3.1/terraform-provider-ksqldb_0.3.1_windows_arm64.zip",
+          "shasum": "3d919cecd375ac60e83d27da9a837479319414cbe252fffc4ee345d2dcb3bbd5"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-ksqldb_0.3.1_freebsd_386.zip",
+          "download_url": "https://github.com/shmyer/terraform-provider-ksqldb/releases/download/v0.3.1/terraform-provider-ksqldb_0.3.1_freebsd_386.zip",
+          "shasum": "a687ff86e080daf08d52b6d8e824bf26c51900197ba0b49add9314c86fc5521b"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-ksqldb_0.3.1_freebsd_arm64.zip",
+          "download_url": "https://github.com/shmyer/terraform-provider-ksqldb/releases/download/v0.3.1/terraform-provider-ksqldb_0.3.1_freebsd_arm64.zip",
+          "shasum": "1d1293857277d557b29d4a72dad9d4951a7c3caa72b6d7db68f54e84e5a79067"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-ksqldb_0.3.1_freebsd_amd64.zip",
+          "download_url": "https://github.com/shmyer/terraform-provider-ksqldb/releases/download/v0.3.1/terraform-provider-ksqldb_0.3.1_freebsd_amd64.zip",
+          "shasum": "0f708c4642909dfac1339aaa544143578eb9ebcc29ad598998ff73d46b851ac0"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-ksqldb_0.3.1_windows_386.zip",
+          "download_url": "https://github.com/shmyer/terraform-provider-ksqldb/releases/download/v0.3.1/terraform-provider-ksqldb_0.3.1_windows_386.zip",
+          "shasum": "f0dc5391434e3bc5c8f1ca762e32dbc09f9f04c95c0b13404c8fbfda6f06fd4c"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-ksqldb_0.3.1_linux_arm.zip",
+          "download_url": "https://github.com/shmyer/terraform-provider-ksqldb/releases/download/v0.3.1/terraform-provider-ksqldb_0.3.1_linux_arm.zip",
+          "shasum": "a7375cc08679ecc63b69c87a4cd26f17660be225299a6960096ee494e758d995"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-ksqldb_0.3.1_linux_386.zip",
+          "download_url": "https://github.com/shmyer/terraform-provider-ksqldb/releases/download/v0.3.1/terraform-provider-ksqldb_0.3.1_linux_386.zip",
+          "shasum": "90a81ce4796f745d73900b04af5261fd8d8b2420878c854d558252901583099b"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-ksqldb_0.3.1_linux_amd64.zip",
+          "download_url": "https://github.com/shmyer/terraform-provider-ksqldb/releases/download/v0.3.1/terraform-provider-ksqldb_0.3.1_linux_amd64.zip",
+          "shasum": "9b528759931b542edb242f1d6940770b1b19e98ad57bf53f83f7efe679f2a71b"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-ksqldb_0.3.1_freebsd_arm.zip",
+          "download_url": "https://github.com/shmyer/terraform-provider-ksqldb/releases/download/v0.3.1/terraform-provider-ksqldb_0.3.1_freebsd_arm.zip",
+          "shasum": "5453c4dc524c6488c9c18268cace7694e52d747fe0c668fd6e0c7b3236d97b72"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-ksqldb_0.3.1_windows_amd64.zip",
+          "download_url": "https://github.com/shmyer/terraform-provider-ksqldb/releases/download/v0.3.1/terraform-provider-ksqldb_0.3.1_windows_amd64.zip",
+          "shasum": "fe0897b56c3b85f2a38882061c0c38ddb3923f69b00e1b6c51bbc59d2b7a4193"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-ksqldb_0.3.1_linux_arm64.zip",
+          "download_url": "https://github.com/shmyer/terraform-provider-ksqldb/releases/download/v0.3.1/terraform-provider-ksqldb_0.3.1_linux_arm64.zip",
+          "shasum": "24a2331d17d7a9c05b45f405218b090b3adbd25ba006f646c58feda2379e6d05"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-ksqldb_0.3.1_windows_arm.zip",
+          "download_url": "https://github.com/shmyer/terraform-provider-ksqldb/releases/download/v0.3.1/terraform-provider-ksqldb_0.3.1_windows_arm.zip",
+          "shasum": "216b316eefef44e776dbdb161e82d78d4206f4009d39455742f70e9ad92399c6"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-ksqldb_0.3.1_darwin_amd64.zip",
+          "download_url": "https://github.com/shmyer/terraform-provider-ksqldb/releases/download/v0.3.1/terraform-provider-ksqldb_0.3.1_darwin_amd64.zip",
+          "shasum": "bd79dadfac79ac1938d4ccf03688c3197fed9d7c4959ca163e2b4efea5cf9df4"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-ksqldb_0.3.1_darwin_arm64.zip",
+          "download_url": "https://github.com/shmyer/terraform-provider-ksqldb/releases/download/v0.3.1/terraform-provider-ksqldb_0.3.1_darwin_arm64.zip",
+          "shasum": "939dc5812e42f9b501a1486ae54b6086e80f26e15fbf5500373de6ea4b62db3f"
+        }
+      ]
+    },
+    {
       "version": "0.2.2",
       "protocols": [
         "5.0"
