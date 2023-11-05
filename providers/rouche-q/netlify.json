@@ -2,6 +2,114 @@
   "repository": "https://github.com/rouche-q/terraform-provider-netlify",
   "versions": [
     {
+      "version": "0.3.1",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/rouche-q/terraform-provider-netlify/releases/download/v0.3.1/terraform-provider-netlify_0.3.1_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/rouche-q/terraform-provider-netlify/releases/download/v0.3.1/terraform-provider-netlify_0.3.1_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-netlify_0.3.1_freebsd_arm.zip",
+          "download_url": "https://github.com/rouche-q/terraform-provider-netlify/releases/download/v0.3.1/terraform-provider-netlify_0.3.1_freebsd_arm.zip",
+          "shasum": "e817214efe2c1f29fd92e121620109e50dce758226d2b16b6de204178cdbd743"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-netlify_0.3.1_freebsd_386.zip",
+          "download_url": "https://github.com/rouche-q/terraform-provider-netlify/releases/download/v0.3.1/terraform-provider-netlify_0.3.1_freebsd_386.zip",
+          "shasum": "8fbc665442a2b25575a37e6ff0b524da46f989eee4ebfa778e6373d40532f68f"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-netlify_0.3.1_linux_arm.zip",
+          "download_url": "https://github.com/rouche-q/terraform-provider-netlify/releases/download/v0.3.1/terraform-provider-netlify_0.3.1_linux_arm.zip",
+          "shasum": "f2de8c073290e89be94339775b19027bb52395e9c1f1cd3fd2b6a4cea6be018c"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-netlify_0.3.1_windows_amd64.zip",
+          "download_url": "https://github.com/rouche-q/terraform-provider-netlify/releases/download/v0.3.1/terraform-provider-netlify_0.3.1_windows_amd64.zip",
+          "shasum": "39777c08d272dff9974e49b752da0ef42ecd0853b0446588c6f9d1ccb3428aa3"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-netlify_0.3.1_darwin_arm64.zip",
+          "download_url": "https://github.com/rouche-q/terraform-provider-netlify/releases/download/v0.3.1/terraform-provider-netlify_0.3.1_darwin_arm64.zip",
+          "shasum": "8f6efab7ab02d1ed531bd117088a94958ae8fe8ca9ae1ecb89c54df5d2289231"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-netlify_0.3.1_freebsd_arm64.zip",
+          "download_url": "https://github.com/rouche-q/terraform-provider-netlify/releases/download/v0.3.1/terraform-provider-netlify_0.3.1_freebsd_arm64.zip",
+          "shasum": "8dd91778432e2d2ca3d87a91a609c3fbfe5aaebbc68d45843a5020af900f3915"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-netlify_0.3.1_linux_386.zip",
+          "download_url": "https://github.com/rouche-q/terraform-provider-netlify/releases/download/v0.3.1/terraform-provider-netlify_0.3.1_linux_386.zip",
+          "shasum": "85d691ebb9665bed612c4bf26fc549c84533e388580d627085da2a6b2891e8c0"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-netlify_0.3.1_windows_arm.zip",
+          "download_url": "https://github.com/rouche-q/terraform-provider-netlify/releases/download/v0.3.1/terraform-provider-netlify_0.3.1_windows_arm.zip",
+          "shasum": "892e970c1820529b519dfae69399c0d48eac3a182a191ffcfd0d1c35273a25b8"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-netlify_0.3.1_windows_386.zip",
+          "download_url": "https://github.com/rouche-q/terraform-provider-netlify/releases/download/v0.3.1/terraform-provider-netlify_0.3.1_windows_386.zip",
+          "shasum": "33fa85e2ae1a043beb85ec337ef1a99ab248408a7413889af297ee92c871f7a3"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-netlify_0.3.1_freebsd_amd64.zip",
+          "download_url": "https://github.com/rouche-q/terraform-provider-netlify/releases/download/v0.3.1/terraform-provider-netlify_0.3.1_freebsd_amd64.zip",
+          "shasum": "c9b876966e7f37d9cbe3bf25ffd9527327492a51b1e9bb2ad4d43f9c0e42ac1f"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-netlify_0.3.1_windows_arm64.zip",
+          "download_url": "https://github.com/rouche-q/terraform-provider-netlify/releases/download/v0.3.1/terraform-provider-netlify_0.3.1_windows_arm64.zip",
+          "shasum": "98784fd7bec6c715f9c1bb08d348624191cd86ae6980d4e96d229e40e9b544e2"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-netlify_0.3.1_linux_amd64.zip",
+          "download_url": "https://github.com/rouche-q/terraform-provider-netlify/releases/download/v0.3.1/terraform-provider-netlify_0.3.1_linux_amd64.zip",
+          "shasum": "e110ac789f2d6ccc942eb5c25c657e15e2ec80e9648053ad39e897bea9ed1a1b"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-netlify_0.3.1_linux_arm64.zip",
+          "download_url": "https://github.com/rouche-q/terraform-provider-netlify/releases/download/v0.3.1/terraform-provider-netlify_0.3.1_linux_arm64.zip",
+          "shasum": "6414ed9bccb9c1d66bd1d669e1b24d951eb73089ab2d0ae05a3fde80e99e4680"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-netlify_0.3.1_darwin_amd64.zip",
+          "download_url": "https://github.com/rouche-q/terraform-provider-netlify/releases/download/v0.3.1/terraform-provider-netlify_0.3.1_darwin_amd64.zip",
+          "shasum": "bf0fe3a626500eae2d3905903b2e3ed8abadfbbb187cac2153196371ab5c6699"
+        }
+      ]
+    },
+    {
       "version": "0.3.0",
       "protocols": [
         "5.0"
