@@ -2,6 +2,114 @@
   "repository": "https://github.com/ikorchynskyi/terraform-provider-codedeploy",
   "versions": [
     {
+      "version": "0.1.3",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/ikorchynskyi/terraform-provider-codedeploy/releases/download/v0.1.3/terraform-provider-codedeploy_0.1.3_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/ikorchynskyi/terraform-provider-codedeploy/releases/download/v0.1.3/terraform-provider-codedeploy_0.1.3_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-codedeploy_0.1.3_linux_amd64.zip",
+          "download_url": "https://github.com/ikorchynskyi/terraform-provider-codedeploy/releases/download/v0.1.3/terraform-provider-codedeploy_0.1.3_linux_amd64.zip",
+          "shasum": "7aeae6191f3dc9891b50f535cff527090c08ab34936b25114e6645b62cc092e4"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-codedeploy_0.1.3_freebsd_386.zip",
+          "download_url": "https://github.com/ikorchynskyi/terraform-provider-codedeploy/releases/download/v0.1.3/terraform-provider-codedeploy_0.1.3_freebsd_386.zip",
+          "shasum": "62b971b4d39b8b1088b1a618218efe6f40778407770569ee5cd72f7c432fa24c"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-codedeploy_0.1.3_windows_arm64.zip",
+          "download_url": "https://github.com/ikorchynskyi/terraform-provider-codedeploy/releases/download/v0.1.3/terraform-provider-codedeploy_0.1.3_windows_arm64.zip",
+          "shasum": "419ac0065ea9339d3612a8d37eb6eb20a0ff81bbdd2ef4edd3ee3ea8f455ec2e"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-codedeploy_0.1.3_darwin_arm64.zip",
+          "download_url": "https://github.com/ikorchynskyi/terraform-provider-codedeploy/releases/download/v0.1.3/terraform-provider-codedeploy_0.1.3_darwin_arm64.zip",
+          "shasum": "2e9447db1fb3825d5cc683d00f6505c8a4b6dc8297adb2b3070d30f1dce164ae"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-codedeploy_0.1.3_linux_arm.zip",
+          "download_url": "https://github.com/ikorchynskyi/terraform-provider-codedeploy/releases/download/v0.1.3/terraform-provider-codedeploy_0.1.3_linux_arm.zip",
+          "shasum": "63ae0143d5acd17da9cb10c07c1ce58a4eb44fb7c94e288e49dbf892a3437cd2"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-codedeploy_0.1.3_linux_386.zip",
+          "download_url": "https://github.com/ikorchynskyi/terraform-provider-codedeploy/releases/download/v0.1.3/terraform-provider-codedeploy_0.1.3_linux_386.zip",
+          "shasum": "67f98c7c90f49a6049fc74b109ba02cdfeda6201c71af36f66934750bbd33ab8"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-codedeploy_0.1.3_linux_arm64.zip",
+          "download_url": "https://github.com/ikorchynskyi/terraform-provider-codedeploy/releases/download/v0.1.3/terraform-provider-codedeploy_0.1.3_linux_arm64.zip",
+          "shasum": "7ca3802722092023a047691d975b9018d029377404201a38566753d4156fc741"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-codedeploy_0.1.3_freebsd_arm.zip",
+          "download_url": "https://github.com/ikorchynskyi/terraform-provider-codedeploy/releases/download/v0.1.3/terraform-provider-codedeploy_0.1.3_freebsd_arm.zip",
+          "shasum": "3d8dd3b62563d3cec7ee8e19267649d071f9fe1d943543c41208429cf08c2306"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-codedeploy_0.1.3_freebsd_amd64.zip",
+          "download_url": "https://github.com/ikorchynskyi/terraform-provider-codedeploy/releases/download/v0.1.3/terraform-provider-codedeploy_0.1.3_freebsd_amd64.zip",
+          "shasum": "7b680f3250149219ba14e2a4c22a34054f9b66b6c6608c25a706bf6214fc28c9"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-codedeploy_0.1.3_darwin_amd64.zip",
+          "download_url": "https://github.com/ikorchynskyi/terraform-provider-codedeploy/releases/download/v0.1.3/terraform-provider-codedeploy_0.1.3_darwin_amd64.zip",
+          "shasum": "01e7ef7eea865c2215f20386f8954cd7035a2f331742643b2dcdcf866436ef2d"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-codedeploy_0.1.3_windows_386.zip",
+          "download_url": "https://github.com/ikorchynskyi/terraform-provider-codedeploy/releases/download/v0.1.3/terraform-provider-codedeploy_0.1.3_windows_386.zip",
+          "shasum": "b231326616645c4d18da049cb00ee2e531a5486b039fcf47bf821eb4f052da26"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-codedeploy_0.1.3_freebsd_arm64.zip",
+          "download_url": "https://github.com/ikorchynskyi/terraform-provider-codedeploy/releases/download/v0.1.3/terraform-provider-codedeploy_0.1.3_freebsd_arm64.zip",
+          "shasum": "c1231ffe5c8ff39cf409f066c782e8cf3fff4f1d2fdab766c43bb4e4a416e0b4"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-codedeploy_0.1.3_windows_amd64.zip",
+          "download_url": "https://github.com/ikorchynskyi/terraform-provider-codedeploy/releases/download/v0.1.3/terraform-provider-codedeploy_0.1.3_windows_amd64.zip",
+          "shasum": "11ae8b8156ce881fa6f027c9d8d810a394d76ad5b03c165ef77dac6c114bf9b0"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-codedeploy_0.1.3_windows_arm.zip",
+          "download_url": "https://github.com/ikorchynskyi/terraform-provider-codedeploy/releases/download/v0.1.3/terraform-provider-codedeploy_0.1.3_windows_arm.zip",
+          "shasum": "0b7bb2413c042e69465876585d0265f5576e7922eee21a4646a8a0e74669a800"
+        }
+      ]
+    },
+    {
       "version": "0.1.2",
       "protocols": [
         "5.0"
