@@ -2,6 +2,86 @@
   "repository": "https://github.com/opentofu/terraform-provider-google-beta",
   "versions": [
     {
+      "version": "5.5.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/opentofu/terraform-provider-google-beta/releases/download/v5.5.0/terraform-provider-google-beta_5.5.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/opentofu/terraform-provider-google-beta/releases/download/v5.5.0/terraform-provider-google-beta_5.5.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-google-beta_5.5.0_darwin_arm64.zip",
+          "download_url": "https://github.com/opentofu/terraform-provider-google-beta/releases/download/v5.5.0/terraform-provider-google-beta_5.5.0_darwin_arm64.zip",
+          "shasum": "3ed898e213e55cf4fadd7fbc0841a0152e74f9aaff41f24ab11ad0ec8594c080"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-google-beta_5.5.0_darwin_amd64.zip",
+          "download_url": "https://github.com/opentofu/terraform-provider-google-beta/releases/download/v5.5.0/terraform-provider-google-beta_5.5.0_darwin_amd64.zip",
+          "shasum": "0b21c3b9fa1e5ea2f335185b4f08ede928f871c16ce551646e73641264ce73e2"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-google-beta_5.5.0_linux_386.zip",
+          "download_url": "https://github.com/opentofu/terraform-provider-google-beta/releases/download/v5.5.0/terraform-provider-google-beta_5.5.0_linux_386.zip",
+          "shasum": "28d80222bb3441039204628a85db3a53ae52bc0c374d94d67ca7de27c311913e"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-google-beta_5.5.0_linux_amd64.zip",
+          "download_url": "https://github.com/opentofu/terraform-provider-google-beta/releases/download/v5.5.0/terraform-provider-google-beta_5.5.0_linux_amd64.zip",
+          "shasum": "a20c65387788a1bc3a8b5e2c8e64b4f7685c9dec07cbda7adbef2753a99ebf4f"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-google-beta_5.5.0_linux_arm.zip",
+          "download_url": "https://github.com/opentofu/terraform-provider-google-beta/releases/download/v5.5.0/terraform-provider-google-beta_5.5.0_linux_arm.zip",
+          "shasum": "3d71230e71aed9355761b0b1cbb7919b4f4d3e1d3e3e2880989c34df752404fd"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-google-beta_5.5.0_linux_arm64.zip",
+          "download_url": "https://github.com/opentofu/terraform-provider-google-beta/releases/download/v5.5.0/terraform-provider-google-beta_5.5.0_linux_arm64.zip",
+          "shasum": "f8b93950b8aef76871e903da89a5bbc6a80eb6f708265eba50fbad5f35d06979"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-google-beta_5.5.0_windows_386.zip",
+          "download_url": "https://github.com/opentofu/terraform-provider-google-beta/releases/download/v5.5.0/terraform-provider-google-beta_5.5.0_windows_386.zip",
+          "shasum": "c8551054ba25f9b20c2345ca580cfcd9affaec70ce58ad704b74853f94039d92"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-google-beta_5.5.0_windows_amd64.zip",
+          "download_url": "https://github.com/opentofu/terraform-provider-google-beta/releases/download/v5.5.0/terraform-provider-google-beta_5.5.0_windows_amd64.zip",
+          "shasum": "9d7e36c5c4430c8d5ce7fbe07dffbf38d178c7c27b501e766bd9f692c2ad48b0"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-google-beta_5.5.0_windows_arm.zip",
+          "download_url": "https://github.com/opentofu/terraform-provider-google-beta/releases/download/v5.5.0/terraform-provider-google-beta_5.5.0_windows_arm.zip",
+          "shasum": "024143d2f2e2d7d378a7fbbd700f2124511e5af7d574f6f515a2d59a82d8b392"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-google-beta_5.5.0_windows_arm64.zip",
+          "download_url": "https://github.com/opentofu/terraform-provider-google-beta/releases/download/v5.5.0/terraform-provider-google-beta_5.5.0_windows_arm64.zip",
+          "shasum": "31d3b2f07b2181df42c9a95a0bac1af87c9d1a80530b487664329165f2de687b"
+        }
+      ]
+    },
+    {
       "version": "5.4.0",
       "protocols": [
         "5.0"
