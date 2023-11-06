@@ -2,6 +2,107 @@
   "repository": "https://github.com/fgouteroux/terraform-provider-mimir",
   "versions": [
     {
+      "version": "0.2.3",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/fgouteroux/terraform-provider-mimir/releases/download/v0.2.3/terraform-provider-mimir_0.2.3_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/fgouteroux/terraform-provider-mimir/releases/download/v0.2.3/terraform-provider-mimir_0.2.3_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-mimir_0.2.3_darwin_amd64.zip",
+          "download_url": "https://github.com/fgouteroux/terraform-provider-mimir/releases/download/v0.2.3/terraform-provider-mimir_0.2.3_darwin_amd64.zip",
+          "shasum": "13bfdee7e8993e75befe7fae180f7b1989558a7a6239b21043a5d971c530bbe8"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-mimir_0.2.3_windows_amd64.zip",
+          "download_url": "https://github.com/fgouteroux/terraform-provider-mimir/releases/download/v0.2.3/terraform-provider-mimir_0.2.3_windows_amd64.zip",
+          "shasum": "380f307ba71a53ea4f020690b10f08a63137419e3095ed6fd622af7d3277e245"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-mimir_0.2.3_freebsd_386.zip",
+          "download_url": "https://github.com/fgouteroux/terraform-provider-mimir/releases/download/v0.2.3/terraform-provider-mimir_0.2.3_freebsd_386.zip",
+          "shasum": "5bc31569053e034c1a580483f703b73a203e8e75718e1c945fc3146fddeb964c"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-mimir_0.2.3_windows_386.zip",
+          "download_url": "https://github.com/fgouteroux/terraform-provider-mimir/releases/download/v0.2.3/terraform-provider-mimir_0.2.3_windows_386.zip",
+          "shasum": "6e5dc1a524600922102d8447267c7dcab1bda14fcbcd2f965bcbb27a32ca2f70"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-mimir_0.2.3_linux_386.zip",
+          "download_url": "https://github.com/fgouteroux/terraform-provider-mimir/releases/download/v0.2.3/terraform-provider-mimir_0.2.3_linux_386.zip",
+          "shasum": "637c0015e0f60f5e10834a4ab33b898aaeca75937f641646298cb69e207b886d"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-mimir_0.2.3_linux_arm.zip",
+          "download_url": "https://github.com/fgouteroux/terraform-provider-mimir/releases/download/v0.2.3/terraform-provider-mimir_0.2.3_linux_arm.zip",
+          "shasum": "f08742ca1d5d83c00cf0bb5bed4c87319df5924ff354ba9685d86c9a179ff427"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-mimir_0.2.3_freebsd_arm.zip",
+          "download_url": "https://github.com/fgouteroux/terraform-provider-mimir/releases/download/v0.2.3/terraform-provider-mimir_0.2.3_freebsd_arm.zip",
+          "shasum": "eab3b3de1a49186f90bf6a8aa553000bdc631e117d9d8ebff6e3c40c47ba3249"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-mimir_0.2.3_linux_arm64.zip",
+          "download_url": "https://github.com/fgouteroux/terraform-provider-mimir/releases/download/v0.2.3/terraform-provider-mimir_0.2.3_linux_arm64.zip",
+          "shasum": "588acfc0d69ff6dd3d40551c1273a69c0ccd779ac8dd35f766c723cfb23e3b38"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-mimir_0.2.3_darwin_arm64.zip",
+          "download_url": "https://github.com/fgouteroux/terraform-provider-mimir/releases/download/v0.2.3/terraform-provider-mimir_0.2.3_darwin_arm64.zip",
+          "shasum": "ab873f78903b704756c07a9649e88fb10d80b903f4101b3ed814b247d6c6c0bd"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-mimir_0.2.3_linux_amd64.zip",
+          "download_url": "https://github.com/fgouteroux/terraform-provider-mimir/releases/download/v0.2.3/terraform-provider-mimir_0.2.3_linux_amd64.zip",
+          "shasum": "d179f5a6fd1ef828f58520a363e080c7e71af29ac5fe1dde13d31070859e1416"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-mimir_0.2.3_freebsd_arm64.zip",
+          "download_url": "https://github.com/fgouteroux/terraform-provider-mimir/releases/download/v0.2.3/terraform-provider-mimir_0.2.3_freebsd_arm64.zip",
+          "shasum": "8b91dfe6c81ccc348fd0d0c118134a6ff9d6df50694485c58fbcca081fa9ea17"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-mimir_0.2.3_windows_arm64.zip",
+          "download_url": "https://github.com/fgouteroux/terraform-provider-mimir/releases/download/v0.2.3/terraform-provider-mimir_0.2.3_windows_arm64.zip",
+          "shasum": "2c1dfedfa256dc72a8edda0281f789c947745a6b0faefad9895561f1d202b56f"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-mimir_0.2.3_freebsd_amd64.zip",
+          "download_url": "https://github.com/fgouteroux/terraform-provider-mimir/releases/download/v0.2.3/terraform-provider-mimir_0.2.3_freebsd_amd64.zip",
+          "shasum": "263144438dbb6eee36f600a26bf99946e34d5b0fe2b0b0ba2423f23076c8fb15"
+        }
+      ]
+    },
+    {
       "version": "0.2.2",
       "protocols": [
         "5.0"
