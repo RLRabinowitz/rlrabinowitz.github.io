@@ -2,6 +2,114 @@
   "repository": "https://github.com/Zenduty/terraform-provider-zenduty",
   "versions": [
     {
+      "version": "0.2.3",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/Zenduty/terraform-provider-zenduty/releases/download/v0.2.3/terraform-provider-zenduty_0.2.3_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/Zenduty/terraform-provider-zenduty/releases/download/v0.2.3/terraform-provider-zenduty_0.2.3_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-zenduty_0.2.3_windows_arm.zip",
+          "download_url": "https://github.com/Zenduty/terraform-provider-zenduty/releases/download/v0.2.3/terraform-provider-zenduty_0.2.3_windows_arm.zip",
+          "shasum": "9e20e02edf9b7c1e0fa24cb7eae21f935ee41f304eddd96e809aacf274604fde"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-zenduty_0.2.3_freebsd_arm.zip",
+          "download_url": "https://github.com/Zenduty/terraform-provider-zenduty/releases/download/v0.2.3/terraform-provider-zenduty_0.2.3_freebsd_arm.zip",
+          "shasum": "620b1d1edd201bcbe9d352e41d149cb92a9cf845cebe7df4048d8ba97b3b9e54"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-zenduty_0.2.3_linux_arm.zip",
+          "download_url": "https://github.com/Zenduty/terraform-provider-zenduty/releases/download/v0.2.3/terraform-provider-zenduty_0.2.3_linux_arm.zip",
+          "shasum": "e05dae086561478b1699ea11c9d997b486263439d04589436f928a5086a4949d"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-zenduty_0.2.3_freebsd_386.zip",
+          "download_url": "https://github.com/Zenduty/terraform-provider-zenduty/releases/download/v0.2.3/terraform-provider-zenduty_0.2.3_freebsd_386.zip",
+          "shasum": "b058c9b36ac02417dfbc216650e250e2810714d6a78d70a0ac3f5cf1a55e8d98"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-zenduty_0.2.3_linux_amd64.zip",
+          "download_url": "https://github.com/Zenduty/terraform-provider-zenduty/releases/download/v0.2.3/terraform-provider-zenduty_0.2.3_linux_amd64.zip",
+          "shasum": "32d1a5c94f16dac6f993248777183edcd82ace01b1f4e202fc6f84261e0ce6d2"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-zenduty_0.2.3_darwin_arm64.zip",
+          "download_url": "https://github.com/Zenduty/terraform-provider-zenduty/releases/download/v0.2.3/terraform-provider-zenduty_0.2.3_darwin_arm64.zip",
+          "shasum": "9cf80904e0519e8e89312a575187c3685e00f562590b3707da8fbd873afdb8fe"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-zenduty_0.2.3_freebsd_amd64.zip",
+          "download_url": "https://github.com/Zenduty/terraform-provider-zenduty/releases/download/v0.2.3/terraform-provider-zenduty_0.2.3_freebsd_amd64.zip",
+          "shasum": "e0340b2300190ab6046c32e1c3540110ecc081965b89e17e8716bc5adcebb88a"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-zenduty_0.2.3_linux_386.zip",
+          "download_url": "https://github.com/Zenduty/terraform-provider-zenduty/releases/download/v0.2.3/terraform-provider-zenduty_0.2.3_linux_386.zip",
+          "shasum": "0ea274f2aabb05d74b7233270930023966a84d81dbc760cea5e1b58f8627ac88"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-zenduty_0.2.3_windows_arm64.zip",
+          "download_url": "https://github.com/Zenduty/terraform-provider-zenduty/releases/download/v0.2.3/terraform-provider-zenduty_0.2.3_windows_arm64.zip",
+          "shasum": "55c40a58fdcb819e3b12a2ee4b27cc65cf46935795d88ff46df6456ea21a6ca8"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-zenduty_0.2.3_windows_386.zip",
+          "download_url": "https://github.com/Zenduty/terraform-provider-zenduty/releases/download/v0.2.3/terraform-provider-zenduty_0.2.3_windows_386.zip",
+          "shasum": "2b5019222edc534d83bbcb7c20c0292ad12508f8fb31e2b48f1bd8f652f2127a"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-zenduty_0.2.3_linux_arm64.zip",
+          "download_url": "https://github.com/Zenduty/terraform-provider-zenduty/releases/download/v0.2.3/terraform-provider-zenduty_0.2.3_linux_arm64.zip",
+          "shasum": "e113db9c05c62ecbdd08f0d341b5ab60df9619e7e9feef98bc5df5c4e2503ab0"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-zenduty_0.2.3_darwin_amd64.zip",
+          "download_url": "https://github.com/Zenduty/terraform-provider-zenduty/releases/download/v0.2.3/terraform-provider-zenduty_0.2.3_darwin_amd64.zip",
+          "shasum": "0ff2ee779dcc6532d5c1327cfbb35cc0f7b39b5e97255726df86b543ed517665"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-zenduty_0.2.3_freebsd_arm64.zip",
+          "download_url": "https://github.com/Zenduty/terraform-provider-zenduty/releases/download/v0.2.3/terraform-provider-zenduty_0.2.3_freebsd_arm64.zip",
+          "shasum": "0cb31a2c63a3fccade4cfc8b93a04403f186f3a35fb6e4ac7317512875fa99b7"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-zenduty_0.2.3_windows_amd64.zip",
+          "download_url": "https://github.com/Zenduty/terraform-provider-zenduty/releases/download/v0.2.3/terraform-provider-zenduty_0.2.3_windows_amd64.zip",
+          "shasum": "e9936bfc60d0d329717e7de4762087bd1e8e0a46cc27c3292845d3f42a278a33"
+        }
+      ]
+    },
+    {
       "version": "0.2.2",
       "protocols": [
         "5.0"
