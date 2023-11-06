@@ -2,6 +2,114 @@
   "repository": "https://github.com/stackitcloud/terraform-provider-stackit",
   "versions": [
     {
+      "version": "0.6.5",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/stackitcloud/terraform-provider-stackit/releases/download/v0.6.5/terraform-provider-stackit_0.6.5_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/stackitcloud/terraform-provider-stackit/releases/download/v0.6.5/terraform-provider-stackit_0.6.5_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-stackit_0.6.5_darwin_arm64.zip",
+          "download_url": "https://github.com/stackitcloud/terraform-provider-stackit/releases/download/v0.6.5/terraform-provider-stackit_0.6.5_darwin_arm64.zip",
+          "shasum": "3af3ff372fcca69e2c7d0709c9bd6b4d04c42987cc75aaa4f1d2f2bd522975f5"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-stackit_0.6.5_linux_386.zip",
+          "download_url": "https://github.com/stackitcloud/terraform-provider-stackit/releases/download/v0.6.5/terraform-provider-stackit_0.6.5_linux_386.zip",
+          "shasum": "8c27b72d4f8e8be3b748e912a68820b38baccb21cdf5e0288fe26d3070131385"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-stackit_0.6.5_freebsd_386.zip",
+          "download_url": "https://github.com/stackitcloud/terraform-provider-stackit/releases/download/v0.6.5/terraform-provider-stackit_0.6.5_freebsd_386.zip",
+          "shasum": "8d5e389758597ac1271332cc4c435cb046613bb9b4b3b2765271f75ab94d75bb"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-stackit_0.6.5_freebsd_arm.zip",
+          "download_url": "https://github.com/stackitcloud/terraform-provider-stackit/releases/download/v0.6.5/terraform-provider-stackit_0.6.5_freebsd_arm.zip",
+          "shasum": "34176d25676843edf578a19f5d11c25ada68df237181e8610a02f4b39923a1b3"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-stackit_0.6.5_windows_amd64.zip",
+          "download_url": "https://github.com/stackitcloud/terraform-provider-stackit/releases/download/v0.6.5/terraform-provider-stackit_0.6.5_windows_amd64.zip",
+          "shasum": "369e5bc656b23bf95841b8eb271821e45be384617041fea0709c1640ad982235"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-stackit_0.6.5_linux_arm64.zip",
+          "download_url": "https://github.com/stackitcloud/terraform-provider-stackit/releases/download/v0.6.5/terraform-provider-stackit_0.6.5_linux_arm64.zip",
+          "shasum": "470e24ced3ad4bd2e2f15e16a1d6abf8f845b7700c4f355d7671e3004a9a85cf"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-stackit_0.6.5_windows_386.zip",
+          "download_url": "https://github.com/stackitcloud/terraform-provider-stackit/releases/download/v0.6.5/terraform-provider-stackit_0.6.5_windows_386.zip",
+          "shasum": "2bb88a31d9440bb415735c0ca50151336ff44646a2cebe521b3e29307aac5b1b"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-stackit_0.6.5_freebsd_amd64.zip",
+          "download_url": "https://github.com/stackitcloud/terraform-provider-stackit/releases/download/v0.6.5/terraform-provider-stackit_0.6.5_freebsd_amd64.zip",
+          "shasum": "fa71b9b236f7cb464aad11eb77699c82f2a8ec1bf938790ae60b56993d3acfe5"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-stackit_0.6.5_linux_arm.zip",
+          "download_url": "https://github.com/stackitcloud/terraform-provider-stackit/releases/download/v0.6.5/terraform-provider-stackit_0.6.5_linux_arm.zip",
+          "shasum": "0f7a65142f4c71ecadb78b1950bd4a316366162512d2e4908b35cd9113777d7a"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-stackit_0.6.5_linux_amd64.zip",
+          "download_url": "https://github.com/stackitcloud/terraform-provider-stackit/releases/download/v0.6.5/terraform-provider-stackit_0.6.5_linux_amd64.zip",
+          "shasum": "61bfb545a191a17b3456b0323e20c56a2963ec47c135572629732f8006cfbab8"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-stackit_0.6.5_darwin_amd64.zip",
+          "download_url": "https://github.com/stackitcloud/terraform-provider-stackit/releases/download/v0.6.5/terraform-provider-stackit_0.6.5_darwin_amd64.zip",
+          "shasum": "890f42102d7610db77b7e1d7e57c5d571c2695c0249ac6121265c5603abff51e"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-stackit_0.6.5_freebsd_arm64.zip",
+          "download_url": "https://github.com/stackitcloud/terraform-provider-stackit/releases/download/v0.6.5/terraform-provider-stackit_0.6.5_freebsd_arm64.zip",
+          "shasum": "90cfd0a9f1cd8a0c4c1f9029fd4d8fc24a2c6bbbe3c1d5e8eb451f7dbdbf1103"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-stackit_0.6.5_windows_arm.zip",
+          "download_url": "https://github.com/stackitcloud/terraform-provider-stackit/releases/download/v0.6.5/terraform-provider-stackit_0.6.5_windows_arm.zip",
+          "shasum": "a5bc13beb9727c8695c29d12600c5a9f5bcd664598399ce989d62f214fc73fd8"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-stackit_0.6.5_windows_arm64.zip",
+          "download_url": "https://github.com/stackitcloud/terraform-provider-stackit/releases/download/v0.6.5/terraform-provider-stackit_0.6.5_windows_arm64.zip",
+          "shasum": "7e1538c0fa832b86d4d3eef299d5005d374f191b14239dbba27dff0b6708fba7"
+        }
+      ]
+    },
+    {
       "version": "0.6.4",
       "protocols": [
         "5.0"
