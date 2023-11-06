@@ -2,6 +2,114 @@
   "repository": "https://github.com/trendmicro/terraform-provider-conformity",
   "versions": [
     {
+      "version": "0.5.6",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/trendmicro/terraform-provider-conformity/releases/download/v0.5.6/terraform-provider-conformity_0.5.6_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/trendmicro/terraform-provider-conformity/releases/download/v0.5.6/terraform-provider-conformity_0.5.6_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-conformity_0.5.6_windows_386.zip",
+          "download_url": "https://github.com/trendmicro/terraform-provider-conformity/releases/download/v0.5.6/terraform-provider-conformity_0.5.6_windows_386.zip",
+          "shasum": "cc9a34804266951f13a0b41c900b6dbdce759117d2ad669873bd9693845a470b"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-conformity_0.5.6_linux_arm64.zip",
+          "download_url": "https://github.com/trendmicro/terraform-provider-conformity/releases/download/v0.5.6/terraform-provider-conformity_0.5.6_linux_arm64.zip",
+          "shasum": "a1270a7a50b5bb3a2015fdd7412f58ae70d8ae7263b8a4c5d4079149572d1304"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-conformity_0.5.6_darwin_amd64.zip",
+          "download_url": "https://github.com/trendmicro/terraform-provider-conformity/releases/download/v0.5.6/terraform-provider-conformity_0.5.6_darwin_amd64.zip",
+          "shasum": "0a266f708f7297cdafb4fdb6adb687ae8a15197258d1d878fb4ac18b17c26452"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-conformity_0.5.6_linux_arm.zip",
+          "download_url": "https://github.com/trendmicro/terraform-provider-conformity/releases/download/v0.5.6/terraform-provider-conformity_0.5.6_linux_arm.zip",
+          "shasum": "24f87bb4d68695e88ed48635b746dba384f5bb9659f1a2ce2b8d67a93cb17576"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-conformity_0.5.6_freebsd_arm64.zip",
+          "download_url": "https://github.com/trendmicro/terraform-provider-conformity/releases/download/v0.5.6/terraform-provider-conformity_0.5.6_freebsd_arm64.zip",
+          "shasum": "b2c705c92632648b89df4943be98d4e2a8738dfc510cc2ac40d8917eea55820a"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-conformity_0.5.6_freebsd_amd64.zip",
+          "download_url": "https://github.com/trendmicro/terraform-provider-conformity/releases/download/v0.5.6/terraform-provider-conformity_0.5.6_freebsd_amd64.zip",
+          "shasum": "13ad1b56918a543bc34dfd40f3b2bef8a2a1a0fc697efdd7ef554ed5157de990"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-conformity_0.5.6_windows_arm.zip",
+          "download_url": "https://github.com/trendmicro/terraform-provider-conformity/releases/download/v0.5.6/terraform-provider-conformity_0.5.6_windows_arm.zip",
+          "shasum": "829a448e5b54ebe9282e243bce9dec604a62ed06c60adb53035d6ca23be82a66"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-conformity_0.5.6_freebsd_386.zip",
+          "download_url": "https://github.com/trendmicro/terraform-provider-conformity/releases/download/v0.5.6/terraform-provider-conformity_0.5.6_freebsd_386.zip",
+          "shasum": "98c760b1496ff402c6343379980efe2486b5212e881683d442990ac64c38c1ed"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-conformity_0.5.6_linux_amd64.zip",
+          "download_url": "https://github.com/trendmicro/terraform-provider-conformity/releases/download/v0.5.6/terraform-provider-conformity_0.5.6_linux_amd64.zip",
+          "shasum": "13a867b3c1274d8d006f9d5a21363a35a1acb385c7d8a68d6b97803efae84672"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-conformity_0.5.6_linux_386.zip",
+          "download_url": "https://github.com/trendmicro/terraform-provider-conformity/releases/download/v0.5.6/terraform-provider-conformity_0.5.6_linux_386.zip",
+          "shasum": "5d1d06d08bad74290a5ae609db75c66170877a8fa2a6193c24c522321b0b3885"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-conformity_0.5.6_freebsd_arm.zip",
+          "download_url": "https://github.com/trendmicro/terraform-provider-conformity/releases/download/v0.5.6/terraform-provider-conformity_0.5.6_freebsd_arm.zip",
+          "shasum": "70a2a08cb2b6865bf9679350b105dc730c9b8e63db6c24a938839e0ec19c8339"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-conformity_0.5.6_windows_arm64.zip",
+          "download_url": "https://github.com/trendmicro/terraform-provider-conformity/releases/download/v0.5.6/terraform-provider-conformity_0.5.6_windows_arm64.zip",
+          "shasum": "a04fa9f835e29a10db8018b08c6bc0538e532c57a1130e64523a5f19cfeb763e"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-conformity_0.5.6_windows_amd64.zip",
+          "download_url": "https://github.com/trendmicro/terraform-provider-conformity/releases/download/v0.5.6/terraform-provider-conformity_0.5.6_windows_amd64.zip",
+          "shasum": "b47d02e47bce6453533f610404ed683c24680a593802cb28d742fa5345ea818b"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-conformity_0.5.6_darwin_arm64.zip",
+          "download_url": "https://github.com/trendmicro/terraform-provider-conformity/releases/download/v0.5.6/terraform-provider-conformity_0.5.6_darwin_arm64.zip",
+          "shasum": "3b570b5d33310a1dad03aeb54995461881363255060eba801eed2f5d004f5652"
+        }
+      ]
+    },
+    {
       "version": "0.5.5",
       "protocols": [
         "5.0"
