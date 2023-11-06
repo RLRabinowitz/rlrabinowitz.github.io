@@ -2,6 +2,114 @@
   "repository": "https://github.com/Echo-Stream/terraform-provider-echostream",
   "versions": [
     {
+      "version": "1.4.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/Echo-Stream/terraform-provider-echostream/releases/download/v1.4.0/terraform-provider-echostream_1.4.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/Echo-Stream/terraform-provider-echostream/releases/download/v1.4.0/terraform-provider-echostream_1.4.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-echostream_1.4.0_linux_386.zip",
+          "download_url": "https://github.com/Echo-Stream/terraform-provider-echostream/releases/download/v1.4.0/terraform-provider-echostream_1.4.0_linux_386.zip",
+          "shasum": "cb628238de69181d0d455ca4984ae3f451109cca879161e4a1b2c70c18ea7518"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-echostream_1.4.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/Echo-Stream/terraform-provider-echostream/releases/download/v1.4.0/terraform-provider-echostream_1.4.0_freebsd_arm64.zip",
+          "shasum": "a269797fec24aba1167faee8b3512440a3d7d15ef87da4cb20c7c7885b509c03"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-echostream_1.4.0_freebsd_386.zip",
+          "download_url": "https://github.com/Echo-Stream/terraform-provider-echostream/releases/download/v1.4.0/terraform-provider-echostream_1.4.0_freebsd_386.zip",
+          "shasum": "c38231275c80709867cb4e4acc82c56aa9d4ac9e9201f199bc0e088d28537581"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-echostream_1.4.0_windows_386.zip",
+          "download_url": "https://github.com/Echo-Stream/terraform-provider-echostream/releases/download/v1.4.0/terraform-provider-echostream_1.4.0_windows_386.zip",
+          "shasum": "6dd590826750d251b81d8e5da5018a43ef505589aa44e01b53ca43ab0c24b887"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-echostream_1.4.0_linux_arm.zip",
+          "download_url": "https://github.com/Echo-Stream/terraform-provider-echostream/releases/download/v1.4.0/terraform-provider-echostream_1.4.0_linux_arm.zip",
+          "shasum": "08de0992c65bb04bc15240696d0e23cf3666ce0eacd6de4aeb72c7bf169495ab"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-echostream_1.4.0_freebsd_arm.zip",
+          "download_url": "https://github.com/Echo-Stream/terraform-provider-echostream/releases/download/v1.4.0/terraform-provider-echostream_1.4.0_freebsd_arm.zip",
+          "shasum": "41915eb5438e675427c8fa41c9bb95b96fcc4f6097a6dbaebafb1ba677109b91"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-echostream_1.4.0_linux_amd64.zip",
+          "download_url": "https://github.com/Echo-Stream/terraform-provider-echostream/releases/download/v1.4.0/terraform-provider-echostream_1.4.0_linux_amd64.zip",
+          "shasum": "6abd55a663b8da1d4276266e9eaae367ff65df0dce401f79ec1a2c13972bb88a"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-echostream_1.4.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/Echo-Stream/terraform-provider-echostream/releases/download/v1.4.0/terraform-provider-echostream_1.4.0_freebsd_amd64.zip",
+          "shasum": "d7f2edc3cd1b643138d561a783615386883cb7de878b8f8482a239103c0a7793"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-echostream_1.4.0_windows_arm64.zip",
+          "download_url": "https://github.com/Echo-Stream/terraform-provider-echostream/releases/download/v1.4.0/terraform-provider-echostream_1.4.0_windows_arm64.zip",
+          "shasum": "be10bd300f01110caa40fa31bf24d43b4b4a67b54477ce3d5cd9368e0f239772"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-echostream_1.4.0_darwin_amd64.zip",
+          "download_url": "https://github.com/Echo-Stream/terraform-provider-echostream/releases/download/v1.4.0/terraform-provider-echostream_1.4.0_darwin_amd64.zip",
+          "shasum": "0f9e50505b4e777ac5be520131a5e21e8758ec63a4cc491857c413dc4cfb8c88"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-echostream_1.4.0_windows_arm.zip",
+          "download_url": "https://github.com/Echo-Stream/terraform-provider-echostream/releases/download/v1.4.0/terraform-provider-echostream_1.4.0_windows_arm.zip",
+          "shasum": "c97c0cb1a0cda884a085f7dcfad3c0d235464969d4a0400307573d5a47bc7e05"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-echostream_1.4.0_linux_arm64.zip",
+          "download_url": "https://github.com/Echo-Stream/terraform-provider-echostream/releases/download/v1.4.0/terraform-provider-echostream_1.4.0_linux_arm64.zip",
+          "shasum": "a7edfb566c927d4d63f5aa4c6a4f9f737a8d7b5988d797ba3dec712446852425"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-echostream_1.4.0_windows_amd64.zip",
+          "download_url": "https://github.com/Echo-Stream/terraform-provider-echostream/releases/download/v1.4.0/terraform-provider-echostream_1.4.0_windows_amd64.zip",
+          "shasum": "223c545d1afe845f0430140a93445ce0dac2fc92628ce35137e9568fe579bc3e"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-echostream_1.4.0_darwin_arm64.zip",
+          "download_url": "https://github.com/Echo-Stream/terraform-provider-echostream/releases/download/v1.4.0/terraform-provider-echostream_1.4.0_darwin_arm64.zip",
+          "shasum": "4a37235049ce49ce3bfe55dcdefc4d2f10bf003ca026236b6a5eec6646541f3d"
+        }
+      ]
+    },
+    {
       "version": "1.3.1",
       "protocols": [
         "5.0"
