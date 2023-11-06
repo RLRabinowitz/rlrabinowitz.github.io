@@ -2,6 +2,107 @@
   "repository": "https://github.com/opsgenie/terraform-provider-opsgenie",
   "versions": [
     {
+      "version": "0.6.34",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/opsgenie/terraform-provider-opsgenie/releases/download/v0.6.34/terraform-provider-opsgenie_0.6.34_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/opsgenie/terraform-provider-opsgenie/releases/download/v0.6.34/terraform-provider-opsgenie_0.6.34_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-opsgenie_0.6.34_freebsd_386.zip",
+          "download_url": "https://github.com/opsgenie/terraform-provider-opsgenie/releases/download/v0.6.34/terraform-provider-opsgenie_0.6.34_freebsd_386.zip",
+          "shasum": "515e782c7fc07658c65a5aa0e3a4f60b4ee9fa2485c31603764c7b1d00888e58"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-opsgenie_0.6.34_linux_amd64.zip",
+          "download_url": "https://github.com/opsgenie/terraform-provider-opsgenie/releases/download/v0.6.34/terraform-provider-opsgenie_0.6.34_linux_amd64.zip",
+          "shasum": "ad2315a359e831b25e556bc39b5fbbda6168a50ee5445bbe4ec8a6d82bf9bc4b"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-opsgenie_0.6.34_linux_arm64.zip",
+          "download_url": "https://github.com/opsgenie/terraform-provider-opsgenie/releases/download/v0.6.34/terraform-provider-opsgenie_0.6.34_linux_arm64.zip",
+          "shasum": "ba44c1392981b1da74d631f51f3d09801dead16d7da1d1029e5b4e965fcbdfc9"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-opsgenie_0.6.34_windows_386.zip",
+          "download_url": "https://github.com/opsgenie/terraform-provider-opsgenie/releases/download/v0.6.34/terraform-provider-opsgenie_0.6.34_windows_386.zip",
+          "shasum": "9c0cd0f8060b07eec026a4bd95c2e400953fa32ce0c88c43a565b4c9b2b3798e"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-opsgenie_0.6.34_freebsd_arm.zip",
+          "download_url": "https://github.com/opsgenie/terraform-provider-opsgenie/releases/download/v0.6.34/terraform-provider-opsgenie_0.6.34_freebsd_arm.zip",
+          "shasum": "f95e477ccc43121d08888428e8b0ecdf46466c1ec64bfd1cb1226f409542c726"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-opsgenie_0.6.34_linux_386.zip",
+          "download_url": "https://github.com/opsgenie/terraform-provider-opsgenie/releases/download/v0.6.34/terraform-provider-opsgenie_0.6.34_linux_386.zip",
+          "shasum": "35d689297a9998c1e064f8ad00d89397c8fa7a64fe71c9865571fd7746419374"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-opsgenie_0.6.34_darwin_amd64.zip",
+          "download_url": "https://github.com/opsgenie/terraform-provider-opsgenie/releases/download/v0.6.34/terraform-provider-opsgenie_0.6.34_darwin_amd64.zip",
+          "shasum": "e5b8602906a22a88c0a6758b042ac8b8d0e7d242a1d53f3bdbcaefec281cac99"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-opsgenie_0.6.34_linux_arm.zip",
+          "download_url": "https://github.com/opsgenie/terraform-provider-opsgenie/releases/download/v0.6.34/terraform-provider-opsgenie_0.6.34_linux_arm.zip",
+          "shasum": "e743c54f2f269e2f720d025f730f0d5b83c2fabd90990887d1f3510ec078b031"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-opsgenie_0.6.34_windows_amd64.zip",
+          "download_url": "https://github.com/opsgenie/terraform-provider-opsgenie/releases/download/v0.6.34/terraform-provider-opsgenie_0.6.34_windows_amd64.zip",
+          "shasum": "78ac37423a891f4e4351e7872547c40bdb92ffed7d979caad4b70a72a02fcc83"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-opsgenie_0.6.34_windows_arm.zip",
+          "download_url": "https://github.com/opsgenie/terraform-provider-opsgenie/releases/download/v0.6.34/terraform-provider-opsgenie_0.6.34_windows_arm.zip",
+          "shasum": "6fb8ba18e98114660530528225e6455553af6647587946d71e4640bf89c45d33"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-opsgenie_0.6.34_darwin_arm64.zip",
+          "download_url": "https://github.com/opsgenie/terraform-provider-opsgenie/releases/download/v0.6.34/terraform-provider-opsgenie_0.6.34_darwin_arm64.zip",
+          "shasum": "2ab99ba48ee63c9862822f12f0fe6b47bf762878e8a2e522ffebcc106d5ad745"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-opsgenie_0.6.34_freebsd_amd64.zip",
+          "download_url": "https://github.com/opsgenie/terraform-provider-opsgenie/releases/download/v0.6.34/terraform-provider-opsgenie_0.6.34_freebsd_amd64.zip",
+          "shasum": "29cdf6604176c7cecc56142916d00fba12455b8fdb8c834c99e5cfdf59c74638"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-opsgenie_0.6.34_freebsd_arm64.zip",
+          "download_url": "https://github.com/opsgenie/terraform-provider-opsgenie/releases/download/v0.6.34/terraform-provider-opsgenie_0.6.34_freebsd_arm64.zip",
+          "shasum": "1416e5428eed348a22e65d8abd259db66b7fda4bdf697cd91a09dd49fcd3f439"
+        }
+      ]
+    },
+    {
       "version": "0.6.33",
       "protocols": [
         "5.0"
