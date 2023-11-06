@@ -2,6 +2,114 @@
   "repository": "https://github.com/mezmo/terraform-provider-mezmo",
   "versions": [
     {
+      "version": "1.0.2",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/mezmo/terraform-provider-mezmo/releases/download/v1.0.2/terraform-provider-mezmo_1.0.2_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/mezmo/terraform-provider-mezmo/releases/download/v1.0.2/terraform-provider-mezmo_1.0.2_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-mezmo_1.0.2_linux_386.zip",
+          "download_url": "https://github.com/mezmo/terraform-provider-mezmo/releases/download/v1.0.2/terraform-provider-mezmo_1.0.2_linux_386.zip",
+          "shasum": "57a02603be05aba05545a27330333b2dfdb91b59909ec0bedb27d40e42f1c9a9"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-mezmo_1.0.2_freebsd_arm64.zip",
+          "download_url": "https://github.com/mezmo/terraform-provider-mezmo/releases/download/v1.0.2/terraform-provider-mezmo_1.0.2_freebsd_arm64.zip",
+          "shasum": "dc57fb2a5809f2f65b406d5cc1666a4fbf0f656d2907a835e1429f039f7778be"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-mezmo_1.0.2_freebsd_amd64.zip",
+          "download_url": "https://github.com/mezmo/terraform-provider-mezmo/releases/download/v1.0.2/terraform-provider-mezmo_1.0.2_freebsd_amd64.zip",
+          "shasum": "b20dc4e1fb5517b16abd09459c4dbde939cc60ddd72b454b064e9d2e1607bb86"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-mezmo_1.0.2_linux_amd64.zip",
+          "download_url": "https://github.com/mezmo/terraform-provider-mezmo/releases/download/v1.0.2/terraform-provider-mezmo_1.0.2_linux_amd64.zip",
+          "shasum": "836cd43cb33b64f9a0c2b050dabbb9f356defded8cd6ad9e0173992c1ab65444"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-mezmo_1.0.2_windows_amd64.zip",
+          "download_url": "https://github.com/mezmo/terraform-provider-mezmo/releases/download/v1.0.2/terraform-provider-mezmo_1.0.2_windows_amd64.zip",
+          "shasum": "8d8fc459b0a830564a61c77f88eadf1c583d3a3d3fc526a6a7f06799ad95ce69"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-mezmo_1.0.2_freebsd_386.zip",
+          "download_url": "https://github.com/mezmo/terraform-provider-mezmo/releases/download/v1.0.2/terraform-provider-mezmo_1.0.2_freebsd_386.zip",
+          "shasum": "94db1bdcb012ea14cbc95e8c9a1c33ae9a518485561412d5a64ed94c55dd87f4"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-mezmo_1.0.2_darwin_amd64.zip",
+          "download_url": "https://github.com/mezmo/terraform-provider-mezmo/releases/download/v1.0.2/terraform-provider-mezmo_1.0.2_darwin_amd64.zip",
+          "shasum": "4661496bd9f640926b26f3febffe967234e8a64deb11eae14fd5e037f87cd712"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-mezmo_1.0.2_windows_arm.zip",
+          "download_url": "https://github.com/mezmo/terraform-provider-mezmo/releases/download/v1.0.2/terraform-provider-mezmo_1.0.2_windows_arm.zip",
+          "shasum": "11aad7a32584e19f12044339843e8460cc30d8b11286ccb8a0e10aae74538c1e"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-mezmo_1.0.2_linux_arm.zip",
+          "download_url": "https://github.com/mezmo/terraform-provider-mezmo/releases/download/v1.0.2/terraform-provider-mezmo_1.0.2_linux_arm.zip",
+          "shasum": "85db9fee8ce9808b76554a43bd8d97b75903d81c599b0f3349c33ac959da57f9"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-mezmo_1.0.2_windows_arm64.zip",
+          "download_url": "https://github.com/mezmo/terraform-provider-mezmo/releases/download/v1.0.2/terraform-provider-mezmo_1.0.2_windows_arm64.zip",
+          "shasum": "f3becd2cc58b266e517b8a177b565f6a23e53eb16b12a127fc496b4d2350e7cf"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-mezmo_1.0.2_freebsd_arm.zip",
+          "download_url": "https://github.com/mezmo/terraform-provider-mezmo/releases/download/v1.0.2/terraform-provider-mezmo_1.0.2_freebsd_arm.zip",
+          "shasum": "9e1a6f66bbe7cea4bc55de097fef2cb9aeb7e98b94bb9761cb4c0cfcd7badec4"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-mezmo_1.0.2_linux_arm64.zip",
+          "download_url": "https://github.com/mezmo/terraform-provider-mezmo/releases/download/v1.0.2/terraform-provider-mezmo_1.0.2_linux_arm64.zip",
+          "shasum": "ebefccf1ede693e26b9ca9bf8e6960f9a36e0c2bcf0baec900caa37c9dc8c7e8"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-mezmo_1.0.2_darwin_arm64.zip",
+          "download_url": "https://github.com/mezmo/terraform-provider-mezmo/releases/download/v1.0.2/terraform-provider-mezmo_1.0.2_darwin_arm64.zip",
+          "shasum": "86cb6baa7b17a221eb8e193f04843bc0d4bbb26943f399798590181f9afa500b"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-mezmo_1.0.2_windows_386.zip",
+          "download_url": "https://github.com/mezmo/terraform-provider-mezmo/releases/download/v1.0.2/terraform-provider-mezmo_1.0.2_windows_386.zip",
+          "shasum": "388d1c21312a05b9f256493eab30aab0a7f7dda1689f780770bffb98606d93c9"
+        }
+      ]
+    },
+    {
       "version": "1.0.1",
       "protocols": [
         "5.0"
