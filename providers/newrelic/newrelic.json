@@ -2,6 +2,135 @@
   "repository": "https://github.com/newrelic/terraform-provider-newrelic",
   "versions": [
     {
+      "version": "3.27.5",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/newrelic/terraform-provider-newrelic/releases/download/v3.27.5/terraform-provider-newrelic_3.27.5_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/newrelic/terraform-provider-newrelic/releases/download/v3.27.5/terraform-provider-newrelic_3.27.5_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-newrelic_3.27.5_linux_386.zip",
+          "download_url": "https://github.com/newrelic/terraform-provider-newrelic/releases/download/v3.27.5/terraform-provider-newrelic_3.27.5_linux_386.zip",
+          "shasum": "8bef95c1e83c6d0ec6d9a70c2074d253946527751dde41bfe0111d573ec8d17e"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-newrelic_3.27.5_freebsd_arm.zip",
+          "download_url": "https://github.com/newrelic/terraform-provider-newrelic/releases/download/v3.27.5/terraform-provider-newrelic_3.27.5_freebsd_arm.zip",
+          "shasum": "e0914370b66fe3a5ec20006fd6009ca0d07869dd1decf94ceb91786b9eff1832"
+        },
+        {
+          "os": "openbsd",
+          "arch": "386",
+          "filename": "terraform-provider-newrelic_3.27.5_openbsd_386.zip",
+          "download_url": "https://github.com/newrelic/terraform-provider-newrelic/releases/download/v3.27.5/terraform-provider-newrelic_3.27.5_openbsd_386.zip",
+          "shasum": "bc94c451926c4bd4725c2d01239651626f8c355c453ab2ac760bb6e29a111419"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-newrelic_3.27.5_windows_arm64.zip",
+          "download_url": "https://github.com/newrelic/terraform-provider-newrelic/releases/download/v3.27.5/terraform-provider-newrelic_3.27.5_windows_arm64.zip",
+          "shasum": "d276ed6a210ad042e93abcf6f1790424e691bed7e019c4676230c61d15a52c5a"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-newrelic_3.27.5_linux_amd64.zip",
+          "download_url": "https://github.com/newrelic/terraform-provider-newrelic/releases/download/v3.27.5/terraform-provider-newrelic_3.27.5_linux_amd64.zip",
+          "shasum": "1186ba4ea429f65b646ffffbbea2ab67866dca509643cfac0cf0bf502c5cb9ee"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-newrelic_3.27.5_darwin_amd64.zip",
+          "download_url": "https://github.com/newrelic/terraform-provider-newrelic/releases/download/v3.27.5/terraform-provider-newrelic_3.27.5_darwin_amd64.zip",
+          "shasum": "380370a9c0c98f0ae150355394a6e52b9c4a235408022cba7dcf897883743ed7"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-newrelic_3.27.5_freebsd_386.zip",
+          "download_url": "https://github.com/newrelic/terraform-provider-newrelic/releases/download/v3.27.5/terraform-provider-newrelic_3.27.5_freebsd_386.zip",
+          "shasum": "5f24c8e0502f0a9fedddc30e76c5892f7c33e2252d7c52a76ba9e5c2e7c72b84"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-newrelic_3.27.5_windows_arm.zip",
+          "download_url": "https://github.com/newrelic/terraform-provider-newrelic/releases/download/v3.27.5/terraform-provider-newrelic_3.27.5_windows_arm.zip",
+          "shasum": "190d3808553ad5ffa1f2cca53633720d216cdf8e262f725ab4c1f82f47a335e2"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-newrelic_3.27.5_windows_386.zip",
+          "download_url": "https://github.com/newrelic/terraform-provider-newrelic/releases/download/v3.27.5/terraform-provider-newrelic_3.27.5_windows_386.zip",
+          "shasum": "4f973d6d9059ba62aef9449f4aa34dc94abeaa00237de94b19438e98062410d5"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-newrelic_3.27.5_linux_arm64.zip",
+          "download_url": "https://github.com/newrelic/terraform-provider-newrelic/releases/download/v3.27.5/terraform-provider-newrelic_3.27.5_linux_arm64.zip",
+          "shasum": "e996f01d4373d787ce9670f34b46f79b3eec8e14d8786e36675b949857faeef2"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-newrelic_3.27.5_linux_arm.zip",
+          "download_url": "https://github.com/newrelic/terraform-provider-newrelic/releases/download/v3.27.5/terraform-provider-newrelic_3.27.5_linux_arm.zip",
+          "shasum": "9b8ff382770aa64fac4951d8dcbde0b6fcca851f0e98a2a1305a97d5dde03dfb"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-newrelic_3.27.5_windows_amd64.zip",
+          "download_url": "https://github.com/newrelic/terraform-provider-newrelic/releases/download/v3.27.5/terraform-provider-newrelic_3.27.5_windows_amd64.zip",
+          "shasum": "b57e20819465bded59793dfe2fa5777b9e061fe6e30e5c049aaaf232d3dcd10a"
+        },
+        {
+          "os": "solaris",
+          "arch": "amd64",
+          "filename": "terraform-provider-newrelic_3.27.5_solaris_amd64.zip",
+          "download_url": "https://github.com/newrelic/terraform-provider-newrelic/releases/download/v3.27.5/terraform-provider-newrelic_3.27.5_solaris_amd64.zip",
+          "shasum": "8cf5616ceb30dcba082a2333f4425929547f1d6356a2f1a49cb23a405c0bb056"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-newrelic_3.27.5_darwin_arm64.zip",
+          "download_url": "https://github.com/newrelic/terraform-provider-newrelic/releases/download/v3.27.5/terraform-provider-newrelic_3.27.5_darwin_arm64.zip",
+          "shasum": "8a0c393ae2d6207a3393c396eaf5a86defebfbe96ec5a68b07efd826724e96bf"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-newrelic_3.27.5_freebsd_amd64.zip",
+          "download_url": "https://github.com/newrelic/terraform-provider-newrelic/releases/download/v3.27.5/terraform-provider-newrelic_3.27.5_freebsd_amd64.zip",
+          "shasum": "b8a6b5ac64b3ba5489ee7a43fcf73287c8d00219f1cda00ff8f95bb2f6ab6d8b"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-newrelic_3.27.5_freebsd_arm64.zip",
+          "download_url": "https://github.com/newrelic/terraform-provider-newrelic/releases/download/v3.27.5/terraform-provider-newrelic_3.27.5_freebsd_arm64.zip",
+          "shasum": "1a31235ed015ce8d8ed225e7067af8aa4020ea01144ef33a9643b8a1f47e85ae"
+        },
+        {
+          "os": "openbsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-newrelic_3.27.5_openbsd_amd64.zip",
+          "download_url": "https://github.com/newrelic/terraform-provider-newrelic/releases/download/v3.27.5/terraform-provider-newrelic_3.27.5_openbsd_amd64.zip",
+          "shasum": "1e6c6e0d36b7ab123416d05bdeec1e36efd8329e6afb7a9ee5b0491d20f04f2e"
+        }
+      ]
+    },
+    {
       "version": "3.27.4",
       "protocols": [
         "5.0"
