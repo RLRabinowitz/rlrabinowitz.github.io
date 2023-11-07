@@ -2,6 +2,114 @@
   "repository": "https://github.com/alxrem/terraform-provider-jsonnet",
   "versions": [
     {
+      "version": "2.3.1",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/alxrem/terraform-provider-jsonnet/releases/download/v2.3.1/terraform-provider-jsonnet_2.3.1_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/alxrem/terraform-provider-jsonnet/releases/download/v2.3.1/terraform-provider-jsonnet_2.3.1_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-jsonnet_2.3.1_darwin_amd64.zip",
+          "download_url": "https://github.com/alxrem/terraform-provider-jsonnet/releases/download/v2.3.1/terraform-provider-jsonnet_2.3.1_darwin_amd64.zip",
+          "shasum": "0b8eba2be9a162f0cc78a5911f760dfefdd78b50ecc785710a98e86f933b53a4"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-jsonnet_2.3.1_darwin_arm64.zip",
+          "download_url": "https://github.com/alxrem/terraform-provider-jsonnet/releases/download/v2.3.1/terraform-provider-jsonnet_2.3.1_darwin_arm64.zip",
+          "shasum": "70768655d9f24aba48ccacdbd1ea4318c0dc1f0077f8f7c4e7edb6f2edb90b6d"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-jsonnet_2.3.1_freebsd_386.zip",
+          "download_url": "https://github.com/alxrem/terraform-provider-jsonnet/releases/download/v2.3.1/terraform-provider-jsonnet_2.3.1_freebsd_386.zip",
+          "shasum": "e82ffb1c7aff7bc9cf8f4ff7452207c690a19294844653900b6a3b7e73bf68ea"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-jsonnet_2.3.1_linux_arm.zip",
+          "download_url": "https://github.com/alxrem/terraform-provider-jsonnet/releases/download/v2.3.1/terraform-provider-jsonnet_2.3.1_linux_arm.zip",
+          "shasum": "07479550eb7604605d943cc31fa96b002624be63a1c0c04d3bed350af9ef3543"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-jsonnet_2.3.1_windows_arm64.zip",
+          "download_url": "https://github.com/alxrem/terraform-provider-jsonnet/releases/download/v2.3.1/terraform-provider-jsonnet_2.3.1_windows_arm64.zip",
+          "shasum": "0e320d005a8730a0c1ed65a3bf3bb4bb8c35d4a19005f43e0442cfa3b62622e5"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-jsonnet_2.3.1_linux_386.zip",
+          "download_url": "https://github.com/alxrem/terraform-provider-jsonnet/releases/download/v2.3.1/terraform-provider-jsonnet_2.3.1_linux_386.zip",
+          "shasum": "10861809d729f74acb773d71d251160449b1acc728a3710d43ddc2b31b3f09f7"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-jsonnet_2.3.1_freebsd_amd64.zip",
+          "download_url": "https://github.com/alxrem/terraform-provider-jsonnet/releases/download/v2.3.1/terraform-provider-jsonnet_2.3.1_freebsd_amd64.zip",
+          "shasum": "ff9c40d558b7782370bf4147a78600e7a430fbf44a4bdde89c33475336bc9a53"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-jsonnet_2.3.1_windows_amd64.zip",
+          "download_url": "https://github.com/alxrem/terraform-provider-jsonnet/releases/download/v2.3.1/terraform-provider-jsonnet_2.3.1_windows_amd64.zip",
+          "shasum": "2a9bca30f084fa992ef614ebf0ceaf83145890fdef005220541d4c889e935cc0"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-jsonnet_2.3.1_freebsd_arm.zip",
+          "download_url": "https://github.com/alxrem/terraform-provider-jsonnet/releases/download/v2.3.1/terraform-provider-jsonnet_2.3.1_freebsd_arm.zip",
+          "shasum": "24fad4bd096d8386b1dc27e6d4296086fb275c0dc6f25814077eb6cdc8146389"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-jsonnet_2.3.1_linux_arm64.zip",
+          "download_url": "https://github.com/alxrem/terraform-provider-jsonnet/releases/download/v2.3.1/terraform-provider-jsonnet_2.3.1_linux_arm64.zip",
+          "shasum": "73d84e10ce8211c18342aebd89eab8f3085ddcb48ec846d7368c80d94b8ebe4e"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-jsonnet_2.3.1_linux_amd64.zip",
+          "download_url": "https://github.com/alxrem/terraform-provider-jsonnet/releases/download/v2.3.1/terraform-provider-jsonnet_2.3.1_linux_amd64.zip",
+          "shasum": "3602b01d339a322d8366f23ff1836ca9438091c6bc3de12a0f7679b9650ceaa6"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-jsonnet_2.3.1_windows_386.zip",
+          "download_url": "https://github.com/alxrem/terraform-provider-jsonnet/releases/download/v2.3.1/terraform-provider-jsonnet_2.3.1_windows_386.zip",
+          "shasum": "bc350b6529bf07e72479ef3098382e89464a68d956af397414a8ef6c66482048"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-jsonnet_2.3.1_freebsd_arm64.zip",
+          "download_url": "https://github.com/alxrem/terraform-provider-jsonnet/releases/download/v2.3.1/terraform-provider-jsonnet_2.3.1_freebsd_arm64.zip",
+          "shasum": "402adf2f5bb2d6724405b22f2a81a6cff3059598fb8dbc93aa1d2a4cf09aa888"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-jsonnet_2.3.1_windows_arm.zip",
+          "download_url": "https://github.com/alxrem/terraform-provider-jsonnet/releases/download/v2.3.1/terraform-provider-jsonnet_2.3.1_windows_arm.zip",
+          "shasum": "775540195cb6e94b23459dd51e6b9d33c2992040be86d4db227a295ca0b5023a"
+        }
+      ]
+    },
+    {
       "version": "2.3.0",
       "protocols": [
         "5.0"
