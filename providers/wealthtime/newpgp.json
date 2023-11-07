@@ -2,109 +2,325 @@
   "repository": "https://github.com/wealthtime/terraform-provider-newpgp",
   "versions": [
     {
+      "version": "1.0.10",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/novia-financial/terraform-provider-openpgp/releases/download/v1.0.10/terraform-provider-testingpgp_1.0.10_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/novia-financial/terraform-provider-openpgp/releases/download/v1.0.10/terraform-provider-testingpgp_1.0.10_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-testingpgp_1.0.10_linux_arm64.zip",
+          "download_url": "https://github.com/novia-financial/terraform-provider-openpgp/releases/download/v1.0.10/terraform-provider-testingpgp_1.0.10_linux_arm64.zip",
+          "shasum": "f960e8917a995be7233cc732dabe37666e538e39217bb3ed6b26f54a8789ebce"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-testingpgp_1.0.10_linux_amd64.zip",
+          "download_url": "https://github.com/novia-financial/terraform-provider-openpgp/releases/download/v1.0.10/terraform-provider-testingpgp_1.0.10_linux_amd64.zip",
+          "shasum": "bfc16715cee344fc35bae3357e389f2354ea044b26a598d1dc2ac89f59e6c5b0"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-testingpgp_1.0.10_freebsd_386.zip",
+          "download_url": "https://github.com/novia-financial/terraform-provider-openpgp/releases/download/v1.0.10/terraform-provider-testingpgp_1.0.10_freebsd_386.zip",
+          "shasum": "6f0d8b0e635ce929cf2eafdb3d7bcac0c1daf5fb4811f8f9a0a556cffc44fb4e"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-testingpgp_1.0.10_darwin_arm64.zip",
+          "download_url": "https://github.com/novia-financial/terraform-provider-openpgp/releases/download/v1.0.10/terraform-provider-testingpgp_1.0.10_darwin_arm64.zip",
+          "shasum": "3553db6fa91ccb7f307cc49b016859d983c3f2bae1c3c3be92236da0511f57ae"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-testingpgp_1.0.10_freebsd_arm.zip",
+          "download_url": "https://github.com/novia-financial/terraform-provider-openpgp/releases/download/v1.0.10/terraform-provider-testingpgp_1.0.10_freebsd_arm.zip",
+          "shasum": "e6353876156338c8824c6f1ca007e94e8611307bf1eb30cab358e8ea39f8937d"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-testingpgp_1.0.10_freebsd_amd64.zip",
+          "download_url": "https://github.com/novia-financial/terraform-provider-openpgp/releases/download/v1.0.10/terraform-provider-testingpgp_1.0.10_freebsd_amd64.zip",
+          "shasum": "452f3fc182cc311ec6c405b34e513ac3f42026ab5d9a15b9c3a71f5e4643ec00"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-testingpgp_1.0.10_linux_arm.zip",
+          "download_url": "https://github.com/novia-financial/terraform-provider-openpgp/releases/download/v1.0.10/terraform-provider-testingpgp_1.0.10_linux_arm.zip",
+          "shasum": "01832b5bf0dd2c0411c49b162b3fc233b085adfffc2724c8733e64c226ec0ce1"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-testingpgp_1.0.10_windows_arm.zip",
+          "download_url": "https://github.com/novia-financial/terraform-provider-openpgp/releases/download/v1.0.10/terraform-provider-testingpgp_1.0.10_windows_arm.zip",
+          "shasum": "7738a386d3eb67f43f7263ae096e0ec14f677e4d6ff3daa6cf426436159a12a0"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-testingpgp_1.0.10_darwin_amd64.zip",
+          "download_url": "https://github.com/novia-financial/terraform-provider-openpgp/releases/download/v1.0.10/terraform-provider-testingpgp_1.0.10_darwin_amd64.zip",
+          "shasum": "f4c165c5a11a57c3db9ef3c0a07de13927fda3c35f55d7502f3cfb317ce95db1"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-testingpgp_1.0.10_windows_arm64.zip",
+          "download_url": "https://github.com/novia-financial/terraform-provider-openpgp/releases/download/v1.0.10/terraform-provider-testingpgp_1.0.10_windows_arm64.zip",
+          "shasum": "e7ad1dd718ec683d202cade46f80159b0f4a1ea2f94ae1155bd1d42262a6ac4f"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-testingpgp_1.0.10_linux_386.zip",
+          "download_url": "https://github.com/novia-financial/terraform-provider-openpgp/releases/download/v1.0.10/terraform-provider-testingpgp_1.0.10_linux_386.zip",
+          "shasum": "5a67a8b638fc94cbf46e94b498d4d5c01adbc31872d4b40899347937434d384f"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-testingpgp_1.0.10_freebsd_arm64.zip",
+          "download_url": "https://github.com/novia-financial/terraform-provider-openpgp/releases/download/v1.0.10/terraform-provider-testingpgp_1.0.10_freebsd_arm64.zip",
+          "shasum": "cae658ab639711ac3495cb774d7821434bd3522a6c015d1c7e284e5ca50132bc"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-testingpgp_1.0.10_windows_amd64.zip",
+          "download_url": "https://github.com/novia-financial/terraform-provider-openpgp/releases/download/v1.0.10/terraform-provider-testingpgp_1.0.10_windows_amd64.zip",
+          "shasum": "1c4d5dc6b672efa844c679303eed8309a65a7aabd218ee0b0d35c11dfb457bca"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-testingpgp_1.0.10_windows_386.zip",
+          "download_url": "https://github.com/novia-financial/terraform-provider-openpgp/releases/download/v1.0.10/terraform-provider-testingpgp_1.0.10_windows_386.zip",
+          "shasum": "2705f60b2a08f6be240a9166c37c3c3a375e5257ca70bbf167b7f7cbe56465e4"
+        }
+      ]
+    },
+    {
+      "version": "1.0.9",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/novia-financial/terraform-provider-openpgp/releases/download/v1.0.9/terraform-provider-_pgp_1.0.9_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/novia-financial/terraform-provider-openpgp/releases/download/v1.0.9/terraform-provider-_pgp_1.0.9_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-_pgp_1.0.9_windows_arm.zip",
+          "download_url": "https://github.com/novia-financial/terraform-provider-openpgp/releases/download/v1.0.9/terraform-provider-_pgp_1.0.9_windows_arm.zip",
+          "shasum": "e051ef380ff99c2990114c6fcb3e905a85b77d59f6bf251d228aa0c8aa653820"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-_pgp_1.0.9_darwin_arm64.zip",
+          "download_url": "https://github.com/novia-financial/terraform-provider-openpgp/releases/download/v1.0.9/terraform-provider-_pgp_1.0.9_darwin_arm64.zip",
+          "shasum": "d96f7905be72c12fc515d8d10352f5acb9e2bc426ba680f2f6278538f9705110"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-_pgp_1.0.9_windows_amd64.zip",
+          "download_url": "https://github.com/novia-financial/terraform-provider-openpgp/releases/download/v1.0.9/terraform-provider-_pgp_1.0.9_windows_amd64.zip",
+          "shasum": "fcca556b4995562dae6f8e504441f770e1d32485d9d90e6827823cf30dff6eda"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-_pgp_1.0.9_linux_arm.zip",
+          "download_url": "https://github.com/novia-financial/terraform-provider-openpgp/releases/download/v1.0.9/terraform-provider-_pgp_1.0.9_linux_arm.zip",
+          "shasum": "80dc472e95253fd12bfcf26d85721872faf17e4a7a4491d11a4476c36332a728"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-_pgp_1.0.9_freebsd_arm.zip",
+          "download_url": "https://github.com/novia-financial/terraform-provider-openpgp/releases/download/v1.0.9/terraform-provider-_pgp_1.0.9_freebsd_arm.zip",
+          "shasum": "e9dbfa75d45d3820427bed8e99bb0098d5888db8dd45e29daaf47af2a9829394"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-_pgp_1.0.9_freebsd_arm64.zip",
+          "download_url": "https://github.com/novia-financial/terraform-provider-openpgp/releases/download/v1.0.9/terraform-provider-_pgp_1.0.9_freebsd_arm64.zip",
+          "shasum": "36cbcf80f162b18d2cc46b1c4b6a99933adc86b541e63683e2add7f491064aeb"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-_pgp_1.0.9_windows_386.zip",
+          "download_url": "https://github.com/novia-financial/terraform-provider-openpgp/releases/download/v1.0.9/terraform-provider-_pgp_1.0.9_windows_386.zip",
+          "shasum": "16782b9feecf7aba7d89f04128f19b150baac8c7d4c262ba0c231c7009231f0d"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-_pgp_1.0.9_linux_amd64.zip",
+          "download_url": "https://github.com/novia-financial/terraform-provider-openpgp/releases/download/v1.0.9/terraform-provider-_pgp_1.0.9_linux_amd64.zip",
+          "shasum": "c7949f5c2d93a1ef48cf03aa66a2ba9ba961a7d39b67c0479368f8d4500e3f77"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-_pgp_1.0.9_linux_386.zip",
+          "download_url": "https://github.com/novia-financial/terraform-provider-openpgp/releases/download/v1.0.9/terraform-provider-_pgp_1.0.9_linux_386.zip",
+          "shasum": "07bd263e299fc789ba424ea63ed0d3b7660b013942ca96a5c29ce02703ba609f"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-_pgp_1.0.9_freebsd_amd64.zip",
+          "download_url": "https://github.com/novia-financial/terraform-provider-openpgp/releases/download/v1.0.9/terraform-provider-_pgp_1.0.9_freebsd_amd64.zip",
+          "shasum": "5e0fecdd9c89fedc415f3bb058b89ba1162a5db8253fb5d27f96095a0bdb5a27"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-_pgp_1.0.9_windows_arm64.zip",
+          "download_url": "https://github.com/novia-financial/terraform-provider-openpgp/releases/download/v1.0.9/terraform-provider-_pgp_1.0.9_windows_arm64.zip",
+          "shasum": "06a6751239ece0d26e44a4e0628db1eea4a65433ec06454b7a786d576bfe4eff"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-_pgp_1.0.9_freebsd_386.zip",
+          "download_url": "https://github.com/novia-financial/terraform-provider-openpgp/releases/download/v1.0.9/terraform-provider-_pgp_1.0.9_freebsd_386.zip",
+          "shasum": "5fb53ec3d47e72878301c42bc9d22cad8e691e86766ae0fe2ce15b16bdff43f9"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-_pgp_1.0.9_linux_arm64.zip",
+          "download_url": "https://github.com/novia-financial/terraform-provider-openpgp/releases/download/v1.0.9/terraform-provider-_pgp_1.0.9_linux_arm64.zip",
+          "shasum": "8d91189b5de9b4fad14788e6210a4425e4fd26d8be585e66b789272b87f290eb"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-_pgp_1.0.9_darwin_amd64.zip",
+          "download_url": "https://github.com/novia-financial/terraform-provider-openpgp/releases/download/v1.0.9/terraform-provider-_pgp_1.0.9_darwin_amd64.zip",
+          "shasum": "202f072f4a22c7ef38b909c6078867f2427c401e03614bc6da85b39fa40dd99a"
+        }
+      ]
+    },
+    {
       "version": "1.0.8",
       "protocols": [
         "5.0"
       ],
-      "shasums_url": "https://github.com/novia-financial/terraform-provider-pgp/releases/download/v1.0.8/terraform-provider-pgp_1.0.8_SHA256SUMS",
-      "shasums_signature_url": "https://github.com/novia-financial/terraform-provider-pgp/releases/download/v1.0.8/terraform-provider-pgp_1.0.8_SHA256SUMS.sig",
+      "shasums_url": "https://github.com/novia-financial/terraform-provider-openpgp/releases/download/v1.0.8/terraform-provider-pgp_1.0.8_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/novia-financial/terraform-provider-openpgp/releases/download/v1.0.8/terraform-provider-pgp_1.0.8_SHA256SUMS.sig",
       "targets": [
         {
           "os": "freebsd",
           "arch": "arm",
           "filename": "terraform-provider-pgp_1.0.8_freebsd_arm.zip",
-          "download_url": "https://github.com/novia-financial/terraform-provider-pgp/releases/download/v1.0.8/terraform-provider-pgp_1.0.8_freebsd_arm.zip",
+          "download_url": "https://github.com/novia-financial/terraform-provider-openpgp/releases/download/v1.0.8/terraform-provider-pgp_1.0.8_freebsd_arm.zip",
           "shasum": "c0bab2d2e3d1d1991af7cd64782dca993baf0c56b73dbb50fe95ea3f78a9ad0c"
         },
         {
           "os": "freebsd",
           "arch": "arm64",
           "filename": "terraform-provider-pgp_1.0.8_freebsd_arm64.zip",
-          "download_url": "https://github.com/novia-financial/terraform-provider-pgp/releases/download/v1.0.8/terraform-provider-pgp_1.0.8_freebsd_arm64.zip",
+          "download_url": "https://github.com/novia-financial/terraform-provider-openpgp/releases/download/v1.0.8/terraform-provider-pgp_1.0.8_freebsd_arm64.zip",
           "shasum": "f3cfdfbaec4c2239ce17a743de739b4198b77b8fae7674a2f2d20da22659e623"
         },
         {
           "os": "windows",
           "arch": "arm64",
           "filename": "terraform-provider-pgp_1.0.8_windows_arm64.zip",
-          "download_url": "https://github.com/novia-financial/terraform-provider-pgp/releases/download/v1.0.8/terraform-provider-pgp_1.0.8_windows_arm64.zip",
+          "download_url": "https://github.com/novia-financial/terraform-provider-openpgp/releases/download/v1.0.8/terraform-provider-pgp_1.0.8_windows_arm64.zip",
           "shasum": "87cfe109d296c58506f2a65fcc847f2c10724357322d510d601ce9a77cbdc679"
         },
         {
           "os": "linux",
           "arch": "386",
           "filename": "terraform-provider-pgp_1.0.8_linux_386.zip",
-          "download_url": "https://github.com/novia-financial/terraform-provider-pgp/releases/download/v1.0.8/terraform-provider-pgp_1.0.8_linux_386.zip",
+          "download_url": "https://github.com/novia-financial/terraform-provider-openpgp/releases/download/v1.0.8/terraform-provider-pgp_1.0.8_linux_386.zip",
           "shasum": "17e49663d134fc00c1fa4d9eb7cc8bf34bc91f173b99b2b1c0347f46ea784f01"
         },
         {
           "os": "linux",
           "arch": "arm64",
           "filename": "terraform-provider-pgp_1.0.8_linux_arm64.zip",
-          "download_url": "https://github.com/novia-financial/terraform-provider-pgp/releases/download/v1.0.8/terraform-provider-pgp_1.0.8_linux_arm64.zip",
+          "download_url": "https://github.com/novia-financial/terraform-provider-openpgp/releases/download/v1.0.8/terraform-provider-pgp_1.0.8_linux_arm64.zip",
           "shasum": "130c9f2c2dacf98980cd1403b41008ceb78fb79397952a2df0957a4d5a1ecdfa"
         },
         {
           "os": "darwin",
           "arch": "amd64",
           "filename": "terraform-provider-pgp_1.0.8_darwin_amd64.zip",
-          "download_url": "https://github.com/novia-financial/terraform-provider-pgp/releases/download/v1.0.8/terraform-provider-pgp_1.0.8_darwin_amd64.zip",
+          "download_url": "https://github.com/novia-financial/terraform-provider-openpgp/releases/download/v1.0.8/terraform-provider-pgp_1.0.8_darwin_amd64.zip",
           "shasum": "cde850934ac8d4d3bc7b1eafa407ac8dc2ae5fd076f8e134d23b23ba4e647258"
         },
         {
           "os": "linux",
           "arch": "arm",
           "filename": "terraform-provider-pgp_1.0.8_linux_arm.zip",
-          "download_url": "https://github.com/novia-financial/terraform-provider-pgp/releases/download/v1.0.8/terraform-provider-pgp_1.0.8_linux_arm.zip",
+          "download_url": "https://github.com/novia-financial/terraform-provider-openpgp/releases/download/v1.0.8/terraform-provider-pgp_1.0.8_linux_arm.zip",
           "shasum": "37750ced6336bdd4da6c3b69b2f282d15522322b4a81e2ec97c7c4d97205e6ba"
         },
         {
           "os": "darwin",
           "arch": "arm64",
           "filename": "terraform-provider-pgp_1.0.8_darwin_arm64.zip",
-          "download_url": "https://github.com/novia-financial/terraform-provider-pgp/releases/download/v1.0.8/terraform-provider-pgp_1.0.8_darwin_arm64.zip",
+          "download_url": "https://github.com/novia-financial/terraform-provider-openpgp/releases/download/v1.0.8/terraform-provider-pgp_1.0.8_darwin_arm64.zip",
           "shasum": "78b834c1686ef0bd33ba64705cefedd89f56c4848c2a58e63fab45dc96a674ee"
         },
         {
           "os": "windows",
           "arch": "386",
           "filename": "terraform-provider-pgp_1.0.8_windows_386.zip",
-          "download_url": "https://github.com/novia-financial/terraform-provider-pgp/releases/download/v1.0.8/terraform-provider-pgp_1.0.8_windows_386.zip",
+          "download_url": "https://github.com/novia-financial/terraform-provider-openpgp/releases/download/v1.0.8/terraform-provider-pgp_1.0.8_windows_386.zip",
           "shasum": "de9bfcbe79ef1b35c682139aa8f97cada8d398abba837c1be473f9d8615913b1"
         },
         {
           "os": "freebsd",
           "arch": "386",
           "filename": "terraform-provider-pgp_1.0.8_freebsd_386.zip",
-          "download_url": "https://github.com/novia-financial/terraform-provider-pgp/releases/download/v1.0.8/terraform-provider-pgp_1.0.8_freebsd_386.zip",
+          "download_url": "https://github.com/novia-financial/terraform-provider-openpgp/releases/download/v1.0.8/terraform-provider-pgp_1.0.8_freebsd_386.zip",
           "shasum": "15ecf174a33c9a6c830b07ac54a92636ef60edfaf86ca5ef69023f0b3d444af7"
         },
         {
           "os": "linux",
           "arch": "amd64",
           "filename": "terraform-provider-pgp_1.0.8_linux_amd64.zip",
-          "download_url": "https://github.com/novia-financial/terraform-provider-pgp/releases/download/v1.0.8/terraform-provider-pgp_1.0.8_linux_amd64.zip",
+          "download_url": "https://github.com/novia-financial/terraform-provider-openpgp/releases/download/v1.0.8/terraform-provider-pgp_1.0.8_linux_amd64.zip",
           "shasum": "e4fe309e1fcb9aab59d21c5521a2167f95f507f2b5a06fb6ae4299c0c42995c7"
         },
         {
           "os": "freebsd",
           "arch": "amd64",
           "filename": "terraform-provider-pgp_1.0.8_freebsd_amd64.zip",
-          "download_url": "https://github.com/novia-financial/terraform-provider-pgp/releases/download/v1.0.8/terraform-provider-pgp_1.0.8_freebsd_amd64.zip",
+          "download_url": "https://github.com/novia-financial/terraform-provider-openpgp/releases/download/v1.0.8/terraform-provider-pgp_1.0.8_freebsd_amd64.zip",
           "shasum": "2eae073c3d48bb8871863299670da18b6be3f03b06177ae343f4f77496df77b9"
         },
         {
           "os": "windows",
           "arch": "amd64",
           "filename": "terraform-provider-pgp_1.0.8_windows_amd64.zip",
-          "download_url": "https://github.com/novia-financial/terraform-provider-pgp/releases/download/v1.0.8/terraform-provider-pgp_1.0.8_windows_amd64.zip",
+          "download_url": "https://github.com/novia-financial/terraform-provider-openpgp/releases/download/v1.0.8/terraform-provider-pgp_1.0.8_windows_amd64.zip",
           "shasum": "8dcb1bc625619c4b6d9a6cdae39b2b3d1af902c7c408829de8bfa56e5dbd7e1f"
         },
         {
           "os": "windows",
           "arch": "arm",
           "filename": "terraform-provider-pgp_1.0.8_windows_arm.zip",
-          "download_url": "https://github.com/novia-financial/terraform-provider-pgp/releases/download/v1.0.8/terraform-provider-pgp_1.0.8_windows_arm.zip",
+          "download_url": "https://github.com/novia-financial/terraform-provider-openpgp/releases/download/v1.0.8/terraform-provider-pgp_1.0.8_windows_arm.zip",
           "shasum": "da17a2a4dd7f14ce3d89ca04bfe7da6e376bf2538e3ccc2dc1f905ae527857a3"
         }
       ]
@@ -114,105 +330,105 @@
       "protocols": [
         "5.0"
       ],
-      "shasums_url": "https://github.com/novia-financial/terraform-provider-pgp/releases/download/v1.0.7/terraform-provider-pgp_1.0.7_SHA256SUMS",
-      "shasums_signature_url": "https://github.com/novia-financial/terraform-provider-pgp/releases/download/v1.0.7/terraform-provider-pgp_1.0.7_SHA256SUMS.sig",
+      "shasums_url": "https://github.com/novia-financial/terraform-provider-openpgp/releases/download/v1.0.7/terraform-provider-pgp_1.0.7_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/novia-financial/terraform-provider-openpgp/releases/download/v1.0.7/terraform-provider-pgp_1.0.7_SHA256SUMS.sig",
       "targets": [
         {
           "os": "linux",
           "arch": "arm64",
           "filename": "terraform-provider-pgp_1.0.7_linux_arm64.zip",
-          "download_url": "https://github.com/novia-financial/terraform-provider-pgp/releases/download/v1.0.7/terraform-provider-pgp_1.0.7_linux_arm64.zip",
+          "download_url": "https://github.com/novia-financial/terraform-provider-openpgp/releases/download/v1.0.7/terraform-provider-pgp_1.0.7_linux_arm64.zip",
           "shasum": "1bcc0620838f3d7d407bf98ed854c62f530d44968c039716c0ef69de120a13da"
         },
         {
           "os": "freebsd",
           "arch": "arm64",
           "filename": "terraform-provider-pgp_1.0.7_freebsd_arm64.zip",
-          "download_url": "https://github.com/novia-financial/terraform-provider-pgp/releases/download/v1.0.7/terraform-provider-pgp_1.0.7_freebsd_arm64.zip",
+          "download_url": "https://github.com/novia-financial/terraform-provider-openpgp/releases/download/v1.0.7/terraform-provider-pgp_1.0.7_freebsd_arm64.zip",
           "shasum": "43bc0ed956d0687164fd2631db242c2191c9c3de75077e263e9e05e498326d60"
         },
         {
           "os": "windows",
           "arch": "386",
           "filename": "terraform-provider-pgp_1.0.7_windows_386.zip",
-          "download_url": "https://github.com/novia-financial/terraform-provider-pgp/releases/download/v1.0.7/terraform-provider-pgp_1.0.7_windows_386.zip",
+          "download_url": "https://github.com/novia-financial/terraform-provider-openpgp/releases/download/v1.0.7/terraform-provider-pgp_1.0.7_windows_386.zip",
           "shasum": "087fe915bd89ea6ff9591bbfb48b69111aad576534c78b56a1dd628bd9c9bfcd"
         },
         {
           "os": "freebsd",
           "arch": "amd64",
           "filename": "terraform-provider-pgp_1.0.7_freebsd_amd64.zip",
-          "download_url": "https://github.com/novia-financial/terraform-provider-pgp/releases/download/v1.0.7/terraform-provider-pgp_1.0.7_freebsd_amd64.zip",
+          "download_url": "https://github.com/novia-financial/terraform-provider-openpgp/releases/download/v1.0.7/terraform-provider-pgp_1.0.7_freebsd_amd64.zip",
           "shasum": "87c3e9d5e617e9cb5aa81c41f360492494d8bdb024f87b7125a230b375436db9"
         },
         {
           "os": "windows",
           "arch": "amd64",
           "filename": "terraform-provider-pgp_1.0.7_windows_amd64.zip",
-          "download_url": "https://github.com/novia-financial/terraform-provider-pgp/releases/download/v1.0.7/terraform-provider-pgp_1.0.7_windows_amd64.zip",
+          "download_url": "https://github.com/novia-financial/terraform-provider-openpgp/releases/download/v1.0.7/terraform-provider-pgp_1.0.7_windows_amd64.zip",
           "shasum": "2975b6b19f81b324f43a38cdc9523e4968fe1d5744a8fbae318d863109584d66"
         },
         {
           "os": "windows",
           "arch": "arm",
           "filename": "terraform-provider-pgp_1.0.7_windows_arm.zip",
-          "download_url": "https://github.com/novia-financial/terraform-provider-pgp/releases/download/v1.0.7/terraform-provider-pgp_1.0.7_windows_arm.zip",
+          "download_url": "https://github.com/novia-financial/terraform-provider-openpgp/releases/download/v1.0.7/terraform-provider-pgp_1.0.7_windows_arm.zip",
           "shasum": "25596b75db619b29a53b9eb86c6177d1ba246c8021f0c5e9e233bd0c56536392"
         },
         {
           "os": "windows",
           "arch": "arm64",
           "filename": "terraform-provider-pgp_1.0.7_windows_arm64.zip",
-          "download_url": "https://github.com/novia-financial/terraform-provider-pgp/releases/download/v1.0.7/terraform-provider-pgp_1.0.7_windows_arm64.zip",
+          "download_url": "https://github.com/novia-financial/terraform-provider-openpgp/releases/download/v1.0.7/terraform-provider-pgp_1.0.7_windows_arm64.zip",
           "shasum": "b37d294caeccc0fa9b14a90e11fed1a0f845e94c0ad97dc1db819f7cef1ab33e"
         },
         {
           "os": "linux",
           "arch": "amd64",
           "filename": "terraform-provider-pgp_1.0.7_linux_amd64.zip",
-          "download_url": "https://github.com/novia-financial/terraform-provider-pgp/releases/download/v1.0.7/terraform-provider-pgp_1.0.7_linux_amd64.zip",
+          "download_url": "https://github.com/novia-financial/terraform-provider-openpgp/releases/download/v1.0.7/terraform-provider-pgp_1.0.7_linux_amd64.zip",
           "shasum": "f47c1fa218dbaa00c843b215bcef184dc37c0c7a8dd095a3110d43d04c13a018"
         },
         {
           "os": "freebsd",
           "arch": "386",
           "filename": "terraform-provider-pgp_1.0.7_freebsd_386.zip",
-          "download_url": "https://github.com/novia-financial/terraform-provider-pgp/releases/download/v1.0.7/terraform-provider-pgp_1.0.7_freebsd_386.zip",
+          "download_url": "https://github.com/novia-financial/terraform-provider-openpgp/releases/download/v1.0.7/terraform-provider-pgp_1.0.7_freebsd_386.zip",
           "shasum": "b0ba42326ba771a22016f804cadcc5594122e20c1e24e63185947ff8e061eb03"
         },
         {
           "os": "darwin",
           "arch": "amd64",
           "filename": "terraform-provider-pgp_1.0.7_darwin_amd64.zip",
-          "download_url": "https://github.com/novia-financial/terraform-provider-pgp/releases/download/v1.0.7/terraform-provider-pgp_1.0.7_darwin_amd64.zip",
+          "download_url": "https://github.com/novia-financial/terraform-provider-openpgp/releases/download/v1.0.7/terraform-provider-pgp_1.0.7_darwin_amd64.zip",
           "shasum": "2cad9fbb6d558fecaf88cdb5ec759ed8599a1f9f4afdb792694e2e7f3da8b8a7"
         },
         {
           "os": "freebsd",
           "arch": "arm",
           "filename": "terraform-provider-pgp_1.0.7_freebsd_arm.zip",
-          "download_url": "https://github.com/novia-financial/terraform-provider-pgp/releases/download/v1.0.7/terraform-provider-pgp_1.0.7_freebsd_arm.zip",
+          "download_url": "https://github.com/novia-financial/terraform-provider-openpgp/releases/download/v1.0.7/terraform-provider-pgp_1.0.7_freebsd_arm.zip",
           "shasum": "b71e0c79d826453d6de193bb7f6fa1dd92313407fd7f08fd8b8109c06533dd09"
         },
         {
           "os": "linux",
           "arch": "386",
           "filename": "terraform-provider-pgp_1.0.7_linux_386.zip",
-          "download_url": "https://github.com/novia-financial/terraform-provider-pgp/releases/download/v1.0.7/terraform-provider-pgp_1.0.7_linux_386.zip",
+          "download_url": "https://github.com/novia-financial/terraform-provider-openpgp/releases/download/v1.0.7/terraform-provider-pgp_1.0.7_linux_386.zip",
           "shasum": "74d2f76ad3adace7531eeb520b685472d864a1718707e6e5889d41a920e59e18"
         },
         {
           "os": "linux",
           "arch": "arm",
           "filename": "terraform-provider-pgp_1.0.7_linux_arm.zip",
-          "download_url": "https://github.com/novia-financial/terraform-provider-pgp/releases/download/v1.0.7/terraform-provider-pgp_1.0.7_linux_arm.zip",
+          "download_url": "https://github.com/novia-financial/terraform-provider-openpgp/releases/download/v1.0.7/terraform-provider-pgp_1.0.7_linux_arm.zip",
           "shasum": "01ddd64c91bf47d33823d34b328815f6064060de8d06a900ff1cf3b8d113fd7f"
         },
         {
           "os": "darwin",
           "arch": "arm64",
           "filename": "terraform-provider-pgp_1.0.7_darwin_arm64.zip",
-          "download_url": "https://github.com/novia-financial/terraform-provider-pgp/releases/download/v1.0.7/terraform-provider-pgp_1.0.7_darwin_arm64.zip",
+          "download_url": "https://github.com/novia-financial/terraform-provider-openpgp/releases/download/v1.0.7/terraform-provider-pgp_1.0.7_darwin_arm64.zip",
           "shasum": "f3d6a8b479bb0da6cdbadc6f9fe08fddb369cc6861afbfb4952ebacbce98faff"
         }
       ]
@@ -222,105 +438,105 @@
       "protocols": [
         "5.0"
       ],
-      "shasums_url": "https://github.com/novia-financial/terraform-provider-pgp/releases/download/v1.0.6/terraform-provider-newpgp2_1.0.6_SHA256SUMS",
-      "shasums_signature_url": "https://github.com/novia-financial/terraform-provider-pgp/releases/download/v1.0.6/terraform-provider-newpgp2_1.0.6_SHA256SUMS.sig",
+      "shasums_url": "https://github.com/novia-financial/terraform-provider-openpgp/releases/download/v1.0.6/terraform-provider-newpgp2_1.0.6_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/novia-financial/terraform-provider-openpgp/releases/download/v1.0.6/terraform-provider-newpgp2_1.0.6_SHA256SUMS.sig",
       "targets": [
         {
           "os": "linux",
           "arch": "386",
           "filename": "terraform-provider-newpgp2_1.0.6_linux_386.zip",
-          "download_url": "https://github.com/novia-financial/terraform-provider-pgp/releases/download/v1.0.6/terraform-provider-newpgp2_1.0.6_linux_386.zip",
+          "download_url": "https://github.com/novia-financial/terraform-provider-openpgp/releases/download/v1.0.6/terraform-provider-newpgp2_1.0.6_linux_386.zip",
           "shasum": "dc68c8bb4db1c83f454f4f3dd5dcf41f3a5f1801e4258e8e1f9b94a12c36cd64"
         },
         {
           "os": "freebsd",
           "arch": "arm",
           "filename": "terraform-provider-newpgp2_1.0.6_freebsd_arm.zip",
-          "download_url": "https://github.com/novia-financial/terraform-provider-pgp/releases/download/v1.0.6/terraform-provider-newpgp2_1.0.6_freebsd_arm.zip",
+          "download_url": "https://github.com/novia-financial/terraform-provider-openpgp/releases/download/v1.0.6/terraform-provider-newpgp2_1.0.6_freebsd_arm.zip",
           "shasum": "9303abc7df1d0213fcc783457eaf29e0f44348bbcf543d48231543615f9cb39a"
         },
         {
           "os": "darwin",
           "arch": "arm64",
           "filename": "terraform-provider-newpgp2_1.0.6_darwin_arm64.zip",
-          "download_url": "https://github.com/novia-financial/terraform-provider-pgp/releases/download/v1.0.6/terraform-provider-newpgp2_1.0.6_darwin_arm64.zip",
+          "download_url": "https://github.com/novia-financial/terraform-provider-openpgp/releases/download/v1.0.6/terraform-provider-newpgp2_1.0.6_darwin_arm64.zip",
           "shasum": "a379d0679453478aaa5f992dc1ea22c24c61f67f583450ae593854ac1cbf6186"
         },
         {
           "os": "freebsd",
           "arch": "amd64",
           "filename": "terraform-provider-newpgp2_1.0.6_freebsd_amd64.zip",
-          "download_url": "https://github.com/novia-financial/terraform-provider-pgp/releases/download/v1.0.6/terraform-provider-newpgp2_1.0.6_freebsd_amd64.zip",
+          "download_url": "https://github.com/novia-financial/terraform-provider-openpgp/releases/download/v1.0.6/terraform-provider-newpgp2_1.0.6_freebsd_amd64.zip",
           "shasum": "1a5aebbd1c225f4a4f19666c9b6711aaa76d93f8371789c05f778a777b71dd92"
         },
         {
           "os": "freebsd",
           "arch": "arm64",
           "filename": "terraform-provider-newpgp2_1.0.6_freebsd_arm64.zip",
-          "download_url": "https://github.com/novia-financial/terraform-provider-pgp/releases/download/v1.0.6/terraform-provider-newpgp2_1.0.6_freebsd_arm64.zip",
+          "download_url": "https://github.com/novia-financial/terraform-provider-openpgp/releases/download/v1.0.6/terraform-provider-newpgp2_1.0.6_freebsd_arm64.zip",
           "shasum": "09f0e50e8664f680f04717c51892646212755290a79aa8d612ced1bf9124d5e4"
         },
         {
           "os": "darwin",
           "arch": "amd64",
           "filename": "terraform-provider-newpgp2_1.0.6_darwin_amd64.zip",
-          "download_url": "https://github.com/novia-financial/terraform-provider-pgp/releases/download/v1.0.6/terraform-provider-newpgp2_1.0.6_darwin_amd64.zip",
+          "download_url": "https://github.com/novia-financial/terraform-provider-openpgp/releases/download/v1.0.6/terraform-provider-newpgp2_1.0.6_darwin_amd64.zip",
           "shasum": "44aa5d837289dae3c671dfcbf12b1f1dea7afec5bd397ee52a72a94b1f8d119e"
         },
         {
           "os": "windows",
           "arch": "386",
           "filename": "terraform-provider-newpgp2_1.0.6_windows_386.zip",
-          "download_url": "https://github.com/novia-financial/terraform-provider-pgp/releases/download/v1.0.6/terraform-provider-newpgp2_1.0.6_windows_386.zip",
+          "download_url": "https://github.com/novia-financial/terraform-provider-openpgp/releases/download/v1.0.6/terraform-provider-newpgp2_1.0.6_windows_386.zip",
           "shasum": "846b05d5fc855326641433107d2e59cc6193a5b79d0c47c784def4a3dbf3475d"
         },
         {
           "os": "windows",
           "arch": "amd64",
           "filename": "terraform-provider-newpgp2_1.0.6_windows_amd64.zip",
-          "download_url": "https://github.com/novia-financial/terraform-provider-pgp/releases/download/v1.0.6/terraform-provider-newpgp2_1.0.6_windows_amd64.zip",
+          "download_url": "https://github.com/novia-financial/terraform-provider-openpgp/releases/download/v1.0.6/terraform-provider-newpgp2_1.0.6_windows_amd64.zip",
           "shasum": "15d34288aada051ab39d227dd39451b54dbe2760fc62a111d4ac19340bc30e7c"
         },
         {
           "os": "windows",
           "arch": "arm64",
           "filename": "terraform-provider-newpgp2_1.0.6_windows_arm64.zip",
-          "download_url": "https://github.com/novia-financial/terraform-provider-pgp/releases/download/v1.0.6/terraform-provider-newpgp2_1.0.6_windows_arm64.zip",
+          "download_url": "https://github.com/novia-financial/terraform-provider-openpgp/releases/download/v1.0.6/terraform-provider-newpgp2_1.0.6_windows_arm64.zip",
           "shasum": "84cc7926c13012a91eacd1d2cbe36048cbe665920f3480331f2d29ba31dfd115"
         },
         {
           "os": "linux",
           "arch": "amd64",
           "filename": "terraform-provider-newpgp2_1.0.6_linux_amd64.zip",
-          "download_url": "https://github.com/novia-financial/terraform-provider-pgp/releases/download/v1.0.6/terraform-provider-newpgp2_1.0.6_linux_amd64.zip",
+          "download_url": "https://github.com/novia-financial/terraform-provider-openpgp/releases/download/v1.0.6/terraform-provider-newpgp2_1.0.6_linux_amd64.zip",
           "shasum": "41f0b7b47bd8494048757a9769a9ac4c9096114b7d775ac65dc680dcb2beca87"
         },
         {
           "os": "linux",
           "arch": "arm",
           "filename": "terraform-provider-newpgp2_1.0.6_linux_arm.zip",
-          "download_url": "https://github.com/novia-financial/terraform-provider-pgp/releases/download/v1.0.6/terraform-provider-newpgp2_1.0.6_linux_arm.zip",
+          "download_url": "https://github.com/novia-financial/terraform-provider-openpgp/releases/download/v1.0.6/terraform-provider-newpgp2_1.0.6_linux_arm.zip",
           "shasum": "40bc64429c17ed7777f848df74c56ec1f17802d01ccf87f742563d825384cb6f"
         },
         {
           "os": "freebsd",
           "arch": "386",
           "filename": "terraform-provider-newpgp2_1.0.6_freebsd_386.zip",
-          "download_url": "https://github.com/novia-financial/terraform-provider-pgp/releases/download/v1.0.6/terraform-provider-newpgp2_1.0.6_freebsd_386.zip",
+          "download_url": "https://github.com/novia-financial/terraform-provider-openpgp/releases/download/v1.0.6/terraform-provider-newpgp2_1.0.6_freebsd_386.zip",
           "shasum": "413fc58fc2fefc490a64fdcfad97e7431551b6309bbded58730493eff4fa6968"
         },
         {
           "os": "linux",
           "arch": "arm64",
           "filename": "terraform-provider-newpgp2_1.0.6_linux_arm64.zip",
-          "download_url": "https://github.com/novia-financial/terraform-provider-pgp/releases/download/v1.0.6/terraform-provider-newpgp2_1.0.6_linux_arm64.zip",
+          "download_url": "https://github.com/novia-financial/terraform-provider-openpgp/releases/download/v1.0.6/terraform-provider-newpgp2_1.0.6_linux_arm64.zip",
           "shasum": "bf544464ac0baf635dc969f00e9434619105b381598588bb4afd09a722ad09b5"
         },
         {
           "os": "windows",
           "arch": "arm",
           "filename": "terraform-provider-newpgp2_1.0.6_windows_arm.zip",
-          "download_url": "https://github.com/novia-financial/terraform-provider-pgp/releases/download/v1.0.6/terraform-provider-newpgp2_1.0.6_windows_arm.zip",
+          "download_url": "https://github.com/novia-financial/terraform-provider-openpgp/releases/download/v1.0.6/terraform-provider-newpgp2_1.0.6_windows_arm.zip",
           "shasum": "5b04d63f9ebda25ee97ba052b2e3306c02160a5a1791e209727d527c6b62166a"
         }
       ]
@@ -330,105 +546,105 @@
       "protocols": [
         "5.0"
       ],
-      "shasums_url": "https://github.com/novia-financial/terraform-provider-pgp/releases/download/v1.0.5/terraform-provider-newpgp2_1.0.5_SHA256SUMS",
-      "shasums_signature_url": "https://github.com/novia-financial/terraform-provider-pgp/releases/download/v1.0.5/terraform-provider-newpgp2_1.0.5_SHA256SUMS.sig",
+      "shasums_url": "https://github.com/novia-financial/terraform-provider-openpgp/releases/download/v1.0.5/terraform-provider-newpgp2_1.0.5_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/novia-financial/terraform-provider-openpgp/releases/download/v1.0.5/terraform-provider-newpgp2_1.0.5_SHA256SUMS.sig",
       "targets": [
         {
           "os": "freebsd",
           "arch": "386",
           "filename": "terraform-provider-newpgp2_1.0.5_freebsd_386.zip",
-          "download_url": "https://github.com/novia-financial/terraform-provider-pgp/releases/download/v1.0.5/terraform-provider-newpgp2_1.0.5_freebsd_386.zip",
+          "download_url": "https://github.com/novia-financial/terraform-provider-openpgp/releases/download/v1.0.5/terraform-provider-newpgp2_1.0.5_freebsd_386.zip",
           "shasum": "c87109cdaf73a562e133e743dc16ab0bd314ca1d3093d72c38add2334a1c5797"
         },
         {
           "os": "freebsd",
           "arch": "arm",
           "filename": "terraform-provider-newpgp2_1.0.5_freebsd_arm.zip",
-          "download_url": "https://github.com/novia-financial/terraform-provider-pgp/releases/download/v1.0.5/terraform-provider-newpgp2_1.0.5_freebsd_arm.zip",
+          "download_url": "https://github.com/novia-financial/terraform-provider-openpgp/releases/download/v1.0.5/terraform-provider-newpgp2_1.0.5_freebsd_arm.zip",
           "shasum": "83927cbeeb73a25bb48827fab4bc87d253484935025e537b3a96ab98ffab17b8"
         },
         {
           "os": "windows",
           "arch": "arm64",
           "filename": "terraform-provider-newpgp2_1.0.5_windows_arm64.zip",
-          "download_url": "https://github.com/novia-financial/terraform-provider-pgp/releases/download/v1.0.5/terraform-provider-newpgp2_1.0.5_windows_arm64.zip",
+          "download_url": "https://github.com/novia-financial/terraform-provider-openpgp/releases/download/v1.0.5/terraform-provider-newpgp2_1.0.5_windows_arm64.zip",
           "shasum": "344f5fcb21801e8d4162eb18d47e7bd4d78b260c7b636d1ef54fbc70da60c368"
         },
         {
           "os": "darwin",
           "arch": "amd64",
           "filename": "terraform-provider-newpgp2_1.0.5_darwin_amd64.zip",
-          "download_url": "https://github.com/novia-financial/terraform-provider-pgp/releases/download/v1.0.5/terraform-provider-newpgp2_1.0.5_darwin_amd64.zip",
+          "download_url": "https://github.com/novia-financial/terraform-provider-openpgp/releases/download/v1.0.5/terraform-provider-newpgp2_1.0.5_darwin_amd64.zip",
           "shasum": "13527a88deb058a5b501ecfb5927abea35d4d66e4e328a8d8fb9ddd1433080d1"
         },
         {
           "os": "windows",
           "arch": "386",
           "filename": "terraform-provider-newpgp2_1.0.5_windows_386.zip",
-          "download_url": "https://github.com/novia-financial/terraform-provider-pgp/releases/download/v1.0.5/terraform-provider-newpgp2_1.0.5_windows_386.zip",
+          "download_url": "https://github.com/novia-financial/terraform-provider-openpgp/releases/download/v1.0.5/terraform-provider-newpgp2_1.0.5_windows_386.zip",
           "shasum": "12e68dd56169876a6ba8c18d751a72901afc3c3a53af019b454709d4b4fdecab"
         },
         {
           "os": "freebsd",
           "arch": "arm64",
           "filename": "terraform-provider-newpgp2_1.0.5_freebsd_arm64.zip",
-          "download_url": "https://github.com/novia-financial/terraform-provider-pgp/releases/download/v1.0.5/terraform-provider-newpgp2_1.0.5_freebsd_arm64.zip",
+          "download_url": "https://github.com/novia-financial/terraform-provider-openpgp/releases/download/v1.0.5/terraform-provider-newpgp2_1.0.5_freebsd_arm64.zip",
           "shasum": "0cf0367c7fb26a0db7e888b5324530f6a60ade665fb6195a2dcc5253da2773c8"
         },
         {
           "os": "windows",
           "arch": "arm",
           "filename": "terraform-provider-newpgp2_1.0.5_windows_arm.zip",
-          "download_url": "https://github.com/novia-financial/terraform-provider-pgp/releases/download/v1.0.5/terraform-provider-newpgp2_1.0.5_windows_arm.zip",
+          "download_url": "https://github.com/novia-financial/terraform-provider-openpgp/releases/download/v1.0.5/terraform-provider-newpgp2_1.0.5_windows_arm.zip",
           "shasum": "469e3283888fbb09e094cbaf3007734d142e7f513f01118c87b922c97fcc9fcb"
         },
         {
           "os": "windows",
           "arch": "amd64",
           "filename": "terraform-provider-newpgp2_1.0.5_windows_amd64.zip",
-          "download_url": "https://github.com/novia-financial/terraform-provider-pgp/releases/download/v1.0.5/terraform-provider-newpgp2_1.0.5_windows_amd64.zip",
+          "download_url": "https://github.com/novia-financial/terraform-provider-openpgp/releases/download/v1.0.5/terraform-provider-newpgp2_1.0.5_windows_amd64.zip",
           "shasum": "c324d22a12f1b6a5727f8cc2d5c00d5beb710f4b0fd410bc27c8ef9531bb8cc7"
         },
         {
           "os": "linux",
           "arch": "386",
           "filename": "terraform-provider-newpgp2_1.0.5_linux_386.zip",
-          "download_url": "https://github.com/novia-financial/terraform-provider-pgp/releases/download/v1.0.5/terraform-provider-newpgp2_1.0.5_linux_386.zip",
+          "download_url": "https://github.com/novia-financial/terraform-provider-openpgp/releases/download/v1.0.5/terraform-provider-newpgp2_1.0.5_linux_386.zip",
           "shasum": "8e7cb46cae1fbd808550b38e116c3b664fea3868d239c6e44ef593467adb21a1"
         },
         {
           "os": "linux",
           "arch": "arm64",
           "filename": "terraform-provider-newpgp2_1.0.5_linux_arm64.zip",
-          "download_url": "https://github.com/novia-financial/terraform-provider-pgp/releases/download/v1.0.5/terraform-provider-newpgp2_1.0.5_linux_arm64.zip",
+          "download_url": "https://github.com/novia-financial/terraform-provider-openpgp/releases/download/v1.0.5/terraform-provider-newpgp2_1.0.5_linux_arm64.zip",
           "shasum": "dcc7689a5ebf9917d45c252181ef40d459a84a70ae6cd16a5af8204237bd5ad1"
         },
         {
           "os": "freebsd",
           "arch": "amd64",
           "filename": "terraform-provider-newpgp2_1.0.5_freebsd_amd64.zip",
-          "download_url": "https://github.com/novia-financial/terraform-provider-pgp/releases/download/v1.0.5/terraform-provider-newpgp2_1.0.5_freebsd_amd64.zip",
+          "download_url": "https://github.com/novia-financial/terraform-provider-openpgp/releases/download/v1.0.5/terraform-provider-newpgp2_1.0.5_freebsd_amd64.zip",
           "shasum": "579edbef64b68eb838577771ec3833b137407e806a5ca82af49b4ff5a7016258"
         },
         {
           "os": "linux",
           "arch": "arm",
           "filename": "terraform-provider-newpgp2_1.0.5_linux_arm.zip",
-          "download_url": "https://github.com/novia-financial/terraform-provider-pgp/releases/download/v1.0.5/terraform-provider-newpgp2_1.0.5_linux_arm.zip",
+          "download_url": "https://github.com/novia-financial/terraform-provider-openpgp/releases/download/v1.0.5/terraform-provider-newpgp2_1.0.5_linux_arm.zip",
           "shasum": "c7259a83fcd20706956e04d663a836ead62458d27d02d47b0fa8c7bcc7f09b3e"
         },
         {
           "os": "linux",
           "arch": "amd64",
           "filename": "terraform-provider-newpgp2_1.0.5_linux_amd64.zip",
-          "download_url": "https://github.com/novia-financial/terraform-provider-pgp/releases/download/v1.0.5/terraform-provider-newpgp2_1.0.5_linux_amd64.zip",
+          "download_url": "https://github.com/novia-financial/terraform-provider-openpgp/releases/download/v1.0.5/terraform-provider-newpgp2_1.0.5_linux_amd64.zip",
           "shasum": "470d5beaf33187d58e1c33f7602501649e0917f63b3c11577bb47a2f658c9483"
         },
         {
           "os": "darwin",
           "arch": "arm64",
           "filename": "terraform-provider-newpgp2_1.0.5_darwin_arm64.zip",
-          "download_url": "https://github.com/novia-financial/terraform-provider-pgp/releases/download/v1.0.5/terraform-provider-newpgp2_1.0.5_darwin_arm64.zip",
+          "download_url": "https://github.com/novia-financial/terraform-provider-openpgp/releases/download/v1.0.5/terraform-provider-newpgp2_1.0.5_darwin_arm64.zip",
           "shasum": "109c79841338d69652d368e0d3fd801013c8f29b48287f7ebae0b49a1a4f075e"
         }
       ]
@@ -438,105 +654,105 @@
       "protocols": [
         "5.0"
       ],
-      "shasums_url": "https://github.com/novia-financial/terraform-provider-pgp/releases/download/v1.0.4/terraform-provider-pgp_1.0.4_SHA256SUMS",
-      "shasums_signature_url": "https://github.com/novia-financial/terraform-provider-pgp/releases/download/v1.0.4/terraform-provider-pgp_1.0.4_SHA256SUMS.sig",
+      "shasums_url": "https://github.com/novia-financial/terraform-provider-openpgp/releases/download/v1.0.4/terraform-provider-pgp_1.0.4_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/novia-financial/terraform-provider-openpgp/releases/download/v1.0.4/terraform-provider-pgp_1.0.4_SHA256SUMS.sig",
       "targets": [
         {
           "os": "freebsd",
           "arch": "386",
           "filename": "terraform-provider-pgp_1.0.4_freebsd_386.zip",
-          "download_url": "https://github.com/novia-financial/terraform-provider-pgp/releases/download/v1.0.4/terraform-provider-pgp_1.0.4_freebsd_386.zip",
+          "download_url": "https://github.com/novia-financial/terraform-provider-openpgp/releases/download/v1.0.4/terraform-provider-pgp_1.0.4_freebsd_386.zip",
           "shasum": "8a22ca401c01c6c36d4449d628854ed678f7c7c477db53496b3c351a9315b8a9"
         },
         {
           "os": "darwin",
           "arch": "arm64",
           "filename": "terraform-provider-pgp_1.0.4_darwin_arm64.zip",
-          "download_url": "https://github.com/novia-financial/terraform-provider-pgp/releases/download/v1.0.4/terraform-provider-pgp_1.0.4_darwin_arm64.zip",
+          "download_url": "https://github.com/novia-financial/terraform-provider-openpgp/releases/download/v1.0.4/terraform-provider-pgp_1.0.4_darwin_arm64.zip",
           "shasum": "2afb862da01d244c1610b61969d5f51dacda8ee0056596534359a83a99a08ca3"
         },
         {
           "os": "linux",
           "arch": "arm",
           "filename": "terraform-provider-pgp_1.0.4_linux_arm.zip",
-          "download_url": "https://github.com/novia-financial/terraform-provider-pgp/releases/download/v1.0.4/terraform-provider-pgp_1.0.4_linux_arm.zip",
+          "download_url": "https://github.com/novia-financial/terraform-provider-openpgp/releases/download/v1.0.4/terraform-provider-pgp_1.0.4_linux_arm.zip",
           "shasum": "98a6077aea14f4da334de37bb0680b50cfc8cc998405c70c07656771f9d9da3a"
         },
         {
           "os": "linux",
           "arch": "amd64",
           "filename": "terraform-provider-pgp_1.0.4_linux_amd64.zip",
-          "download_url": "https://github.com/novia-financial/terraform-provider-pgp/releases/download/v1.0.4/terraform-provider-pgp_1.0.4_linux_amd64.zip",
+          "download_url": "https://github.com/novia-financial/terraform-provider-openpgp/releases/download/v1.0.4/terraform-provider-pgp_1.0.4_linux_amd64.zip",
           "shasum": "c89c13998a704860e84956f32b27b5fa1096e03ade3010b993cc4b53cd7ab546"
         },
         {
           "os": "windows",
           "arch": "386",
           "filename": "terraform-provider-pgp_1.0.4_windows_386.zip",
-          "download_url": "https://github.com/novia-financial/terraform-provider-pgp/releases/download/v1.0.4/terraform-provider-pgp_1.0.4_windows_386.zip",
+          "download_url": "https://github.com/novia-financial/terraform-provider-openpgp/releases/download/v1.0.4/terraform-provider-pgp_1.0.4_windows_386.zip",
           "shasum": "ef6e6cae4fb427dfdde3a4999633ee1b7927291cbd1c6063cb61877de99ae235"
         },
         {
           "os": "darwin",
           "arch": "amd64",
           "filename": "terraform-provider-pgp_1.0.4_darwin_amd64.zip",
-          "download_url": "https://github.com/novia-financial/terraform-provider-pgp/releases/download/v1.0.4/terraform-provider-pgp_1.0.4_darwin_amd64.zip",
+          "download_url": "https://github.com/novia-financial/terraform-provider-openpgp/releases/download/v1.0.4/terraform-provider-pgp_1.0.4_darwin_amd64.zip",
           "shasum": "54d90a4ecb851c08bf0d926ca85c75ec53882236740a9c1ec2b6fa42189de3f6"
         },
         {
           "os": "windows",
           "arch": "amd64",
           "filename": "terraform-provider-pgp_1.0.4_windows_amd64.zip",
-          "download_url": "https://github.com/novia-financial/terraform-provider-pgp/releases/download/v1.0.4/terraform-provider-pgp_1.0.4_windows_amd64.zip",
+          "download_url": "https://github.com/novia-financial/terraform-provider-openpgp/releases/download/v1.0.4/terraform-provider-pgp_1.0.4_windows_amd64.zip",
           "shasum": "1cc561983220a5fc9740d6d483e1e68d3a8577123f4bf740289095d7d4b88225"
         },
         {
           "os": "freebsd",
           "arch": "arm64",
           "filename": "terraform-provider-pgp_1.0.4_freebsd_arm64.zip",
-          "download_url": "https://github.com/novia-financial/terraform-provider-pgp/releases/download/v1.0.4/terraform-provider-pgp_1.0.4_freebsd_arm64.zip",
+          "download_url": "https://github.com/novia-financial/terraform-provider-openpgp/releases/download/v1.0.4/terraform-provider-pgp_1.0.4_freebsd_arm64.zip",
           "shasum": "f6cad097c4acb1f4045251c4ebf9a26597b97d495bb4e952505b90301c09b836"
         },
         {
           "os": "windows",
           "arch": "arm",
           "filename": "terraform-provider-pgp_1.0.4_windows_arm.zip",
-          "download_url": "https://github.com/novia-financial/terraform-provider-pgp/releases/download/v1.0.4/terraform-provider-pgp_1.0.4_windows_arm.zip",
+          "download_url": "https://github.com/novia-financial/terraform-provider-openpgp/releases/download/v1.0.4/terraform-provider-pgp_1.0.4_windows_arm.zip",
           "shasum": "993c37d933cada0c46b18801c053c49b7975e7e7b5bc286b84b65cc0ec95c533"
         },
         {
           "os": "freebsd",
           "arch": "arm",
           "filename": "terraform-provider-pgp_1.0.4_freebsd_arm.zip",
-          "download_url": "https://github.com/novia-financial/terraform-provider-pgp/releases/download/v1.0.4/terraform-provider-pgp_1.0.4_freebsd_arm.zip",
+          "download_url": "https://github.com/novia-financial/terraform-provider-openpgp/releases/download/v1.0.4/terraform-provider-pgp_1.0.4_freebsd_arm.zip",
           "shasum": "4def2ded6aa0dc5d7f962ee11b79e0c9585ba729542d4e1e45f6d531f85ee996"
         },
         {
           "os": "linux",
           "arch": "arm64",
           "filename": "terraform-provider-pgp_1.0.4_linux_arm64.zip",
-          "download_url": "https://github.com/novia-financial/terraform-provider-pgp/releases/download/v1.0.4/terraform-provider-pgp_1.0.4_linux_arm64.zip",
+          "download_url": "https://github.com/novia-financial/terraform-provider-openpgp/releases/download/v1.0.4/terraform-provider-pgp_1.0.4_linux_arm64.zip",
           "shasum": "76a7050e31355faf0ee53a53da9b13c292a2047447c16374cbc3b496db7e955d"
         },
         {
           "os": "freebsd",
           "arch": "amd64",
           "filename": "terraform-provider-pgp_1.0.4_freebsd_amd64.zip",
-          "download_url": "https://github.com/novia-financial/terraform-provider-pgp/releases/download/v1.0.4/terraform-provider-pgp_1.0.4_freebsd_amd64.zip",
+          "download_url": "https://github.com/novia-financial/terraform-provider-openpgp/releases/download/v1.0.4/terraform-provider-pgp_1.0.4_freebsd_amd64.zip",
           "shasum": "fcfaaa4b2797435df7c9cb1bffcb90e872f8e607d32490f93b968bb1b6e41689"
         },
         {
           "os": "windows",
           "arch": "arm64",
           "filename": "terraform-provider-pgp_1.0.4_windows_arm64.zip",
-          "download_url": "https://github.com/novia-financial/terraform-provider-pgp/releases/download/v1.0.4/terraform-provider-pgp_1.0.4_windows_arm64.zip",
+          "download_url": "https://github.com/novia-financial/terraform-provider-openpgp/releases/download/v1.0.4/terraform-provider-pgp_1.0.4_windows_arm64.zip",
           "shasum": "62466c86c4b1e0dace13de729af52d9dc7052749bf5a810d3fbcd122c52799b0"
         },
         {
           "os": "linux",
           "arch": "386",
           "filename": "terraform-provider-pgp_1.0.4_linux_386.zip",
-          "download_url": "https://github.com/novia-financial/terraform-provider-pgp/releases/download/v1.0.4/terraform-provider-pgp_1.0.4_linux_386.zip",
+          "download_url": "https://github.com/novia-financial/terraform-provider-openpgp/releases/download/v1.0.4/terraform-provider-pgp_1.0.4_linux_386.zip",
           "shasum": "65c1e0a5cb4368729eae9822309612cb6306ac9d2a6aef84e8aaba625621c58e"
         }
       ]
@@ -546,105 +762,105 @@
       "protocols": [
         "5.0"
       ],
-      "shasums_url": "https://github.com/novia-financial/terraform-provider-pgp/releases/download/v1.0.3/terraform-provider-newpgp_1.0.3_SHA256SUMS",
-      "shasums_signature_url": "https://github.com/novia-financial/terraform-provider-pgp/releases/download/v1.0.3/terraform-provider-newpgp_1.0.3_SHA256SUMS.sig",
+      "shasums_url": "https://github.com/novia-financial/terraform-provider-openpgp/releases/download/v1.0.3/terraform-provider-newpgp_1.0.3_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/novia-financial/terraform-provider-openpgp/releases/download/v1.0.3/terraform-provider-newpgp_1.0.3_SHA256SUMS.sig",
       "targets": [
         {
           "os": "linux",
           "arch": "arm64",
           "filename": "terraform-provider-newpgp_1.0.3_linux_arm64.zip",
-          "download_url": "https://github.com/novia-financial/terraform-provider-pgp/releases/download/v1.0.3/terraform-provider-newpgp_1.0.3_linux_arm64.zip",
+          "download_url": "https://github.com/novia-financial/terraform-provider-openpgp/releases/download/v1.0.3/terraform-provider-newpgp_1.0.3_linux_arm64.zip",
           "shasum": "ab9544478041b3296dfc80030c8ff8fd459521c3b5129cb9ac4ee54c080223b5"
         },
         {
           "os": "windows",
           "arch": "arm",
           "filename": "terraform-provider-newpgp_1.0.3_windows_arm.zip",
-          "download_url": "https://github.com/novia-financial/terraform-provider-pgp/releases/download/v1.0.3/terraform-provider-newpgp_1.0.3_windows_arm.zip",
+          "download_url": "https://github.com/novia-financial/terraform-provider-openpgp/releases/download/v1.0.3/terraform-provider-newpgp_1.0.3_windows_arm.zip",
           "shasum": "0e03f0a78ac93a4f02c2542b13c44f6d16a021c2abd01acd2ba8e1ee201f4332"
         },
         {
           "os": "linux",
           "arch": "amd64",
           "filename": "terraform-provider-newpgp_1.0.3_linux_amd64.zip",
-          "download_url": "https://github.com/novia-financial/terraform-provider-pgp/releases/download/v1.0.3/terraform-provider-newpgp_1.0.3_linux_amd64.zip",
+          "download_url": "https://github.com/novia-financial/terraform-provider-openpgp/releases/download/v1.0.3/terraform-provider-newpgp_1.0.3_linux_amd64.zip",
           "shasum": "3be8698be3aac3027d7c48efb31b25c10f5df8da87a848deee39157623412c90"
         },
         {
           "os": "darwin",
           "arch": "amd64",
           "filename": "terraform-provider-newpgp_1.0.3_darwin_amd64.zip",
-          "download_url": "https://github.com/novia-financial/terraform-provider-pgp/releases/download/v1.0.3/terraform-provider-newpgp_1.0.3_darwin_amd64.zip",
+          "download_url": "https://github.com/novia-financial/terraform-provider-openpgp/releases/download/v1.0.3/terraform-provider-newpgp_1.0.3_darwin_amd64.zip",
           "shasum": "55427aee7344c60d9e062ea144b746ac308c337ac6ac4addb865b796931afc89"
         },
         {
           "os": "darwin",
           "arch": "arm64",
           "filename": "terraform-provider-newpgp_1.0.3_darwin_arm64.zip",
-          "download_url": "https://github.com/novia-financial/terraform-provider-pgp/releases/download/v1.0.3/terraform-provider-newpgp_1.0.3_darwin_arm64.zip",
+          "download_url": "https://github.com/novia-financial/terraform-provider-openpgp/releases/download/v1.0.3/terraform-provider-newpgp_1.0.3_darwin_arm64.zip",
           "shasum": "ef3d444cd0f9be5ffd69d8700393057e51a34bd7b31147f6bba3685f684a8367"
         },
         {
           "os": "freebsd",
           "arch": "arm64",
           "filename": "terraform-provider-newpgp_1.0.3_freebsd_arm64.zip",
-          "download_url": "https://github.com/novia-financial/terraform-provider-pgp/releases/download/v1.0.3/terraform-provider-newpgp_1.0.3_freebsd_arm64.zip",
+          "download_url": "https://github.com/novia-financial/terraform-provider-openpgp/releases/download/v1.0.3/terraform-provider-newpgp_1.0.3_freebsd_arm64.zip",
           "shasum": "b90d9262aa4fd53743ca0064d7df368e84760609120bec5984e96c92a5abd5e9"
         },
         {
           "os": "freebsd",
           "arch": "arm",
           "filename": "terraform-provider-newpgp_1.0.3_freebsd_arm.zip",
-          "download_url": "https://github.com/novia-financial/terraform-provider-pgp/releases/download/v1.0.3/terraform-provider-newpgp_1.0.3_freebsd_arm.zip",
+          "download_url": "https://github.com/novia-financial/terraform-provider-openpgp/releases/download/v1.0.3/terraform-provider-newpgp_1.0.3_freebsd_arm.zip",
           "shasum": "3cf1696f6b0d6c0483394915d2fff8b06ec62a1fab7f18bcd32a930ab324cb39"
         },
         {
           "os": "windows",
           "arch": "arm64",
           "filename": "terraform-provider-newpgp_1.0.3_windows_arm64.zip",
-          "download_url": "https://github.com/novia-financial/terraform-provider-pgp/releases/download/v1.0.3/terraform-provider-newpgp_1.0.3_windows_arm64.zip",
+          "download_url": "https://github.com/novia-financial/terraform-provider-openpgp/releases/download/v1.0.3/terraform-provider-newpgp_1.0.3_windows_arm64.zip",
           "shasum": "0348fdb8f76f769a6b39b535a7afb74f646b80cef05aa853362e3dec3726f730"
         },
         {
           "os": "windows",
           "arch": "amd64",
           "filename": "terraform-provider-newpgp_1.0.3_windows_amd64.zip",
-          "download_url": "https://github.com/novia-financial/terraform-provider-pgp/releases/download/v1.0.3/terraform-provider-newpgp_1.0.3_windows_amd64.zip",
+          "download_url": "https://github.com/novia-financial/terraform-provider-openpgp/releases/download/v1.0.3/terraform-provider-newpgp_1.0.3_windows_amd64.zip",
           "shasum": "9ec0c9a31d412cb9b86cc7e53c8c3afa8007635305bd5f7d68ea397de7a1ad5a"
         },
         {
           "os": "linux",
           "arch": "386",
           "filename": "terraform-provider-newpgp_1.0.3_linux_386.zip",
-          "download_url": "https://github.com/novia-financial/terraform-provider-pgp/releases/download/v1.0.3/terraform-provider-newpgp_1.0.3_linux_386.zip",
+          "download_url": "https://github.com/novia-financial/terraform-provider-openpgp/releases/download/v1.0.3/terraform-provider-newpgp_1.0.3_linux_386.zip",
           "shasum": "717a24f8da1a1efe07b6e3926f2bc85d4996adcc712d0b43b04db8d953ab8ce6"
         },
         {
           "os": "windows",
           "arch": "386",
           "filename": "terraform-provider-newpgp_1.0.3_windows_386.zip",
-          "download_url": "https://github.com/novia-financial/terraform-provider-pgp/releases/download/v1.0.3/terraform-provider-newpgp_1.0.3_windows_386.zip",
+          "download_url": "https://github.com/novia-financial/terraform-provider-openpgp/releases/download/v1.0.3/terraform-provider-newpgp_1.0.3_windows_386.zip",
           "shasum": "7cc626f9a5ffb526228921a6cf1effbf0c79a42b271e7d616d9c855858522152"
         },
         {
           "os": "freebsd",
           "arch": "amd64",
           "filename": "terraform-provider-newpgp_1.0.3_freebsd_amd64.zip",
-          "download_url": "https://github.com/novia-financial/terraform-provider-pgp/releases/download/v1.0.3/terraform-provider-newpgp_1.0.3_freebsd_amd64.zip",
+          "download_url": "https://github.com/novia-financial/terraform-provider-openpgp/releases/download/v1.0.3/terraform-provider-newpgp_1.0.3_freebsd_amd64.zip",
           "shasum": "2795127339b37cc50d4bb45da88de1009d589cd7202fd5ae301215fca2429a3c"
         },
         {
           "os": "freebsd",
           "arch": "386",
           "filename": "terraform-provider-newpgp_1.0.3_freebsd_386.zip",
-          "download_url": "https://github.com/novia-financial/terraform-provider-pgp/releases/download/v1.0.3/terraform-provider-newpgp_1.0.3_freebsd_386.zip",
+          "download_url": "https://github.com/novia-financial/terraform-provider-openpgp/releases/download/v1.0.3/terraform-provider-newpgp_1.0.3_freebsd_386.zip",
           "shasum": "23ed8693fdd5bbdc6604f84f8f346dae2213e9ae3dd0a7e2aa9e80f912bfa6e0"
         },
         {
           "os": "linux",
           "arch": "arm",
           "filename": "terraform-provider-newpgp_1.0.3_linux_arm.zip",
-          "download_url": "https://github.com/novia-financial/terraform-provider-pgp/releases/download/v1.0.3/terraform-provider-newpgp_1.0.3_linux_arm.zip",
+          "download_url": "https://github.com/novia-financial/terraform-provider-openpgp/releases/download/v1.0.3/terraform-provider-newpgp_1.0.3_linux_arm.zip",
           "shasum": "6441f64f6871719b4e032b4cf00fa564caa3cd5206cb5236648840c6ff410050"
         }
       ]
@@ -654,105 +870,105 @@
       "protocols": [
         "5.0"
       ],
-      "shasums_url": "https://github.com/novia-financial/terraform-provider-pgp/releases/download/v1.0.2/terraform-provider-newpgp_1.0.2_SHA256SUMS",
-      "shasums_signature_url": "https://github.com/novia-financial/terraform-provider-pgp/releases/download/v1.0.2/terraform-provider-newpgp_1.0.2_SHA256SUMS.sig",
+      "shasums_url": "https://github.com/novia-financial/terraform-provider-openpgp/releases/download/v1.0.2/terraform-provider-newpgp_1.0.2_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/novia-financial/terraform-provider-openpgp/releases/download/v1.0.2/terraform-provider-newpgp_1.0.2_SHA256SUMS.sig",
       "targets": [
         {
           "os": "freebsd",
           "arch": "amd64",
           "filename": "terraform-provider-newpgp_1.0.2_freebsd_amd64.zip",
-          "download_url": "https://github.com/novia-financial/terraform-provider-pgp/releases/download/v1.0.2/terraform-provider-newpgp_1.0.2_freebsd_amd64.zip",
+          "download_url": "https://github.com/novia-financial/terraform-provider-openpgp/releases/download/v1.0.2/terraform-provider-newpgp_1.0.2_freebsd_amd64.zip",
           "shasum": "5a706df26df42e3692fa29601af301485721f9310253a3d77c6b475a563b5f78"
         },
         {
           "os": "freebsd",
           "arch": "arm",
           "filename": "terraform-provider-newpgp_1.0.2_freebsd_arm.zip",
-          "download_url": "https://github.com/novia-financial/terraform-provider-pgp/releases/download/v1.0.2/terraform-provider-newpgp_1.0.2_freebsd_arm.zip",
+          "download_url": "https://github.com/novia-financial/terraform-provider-openpgp/releases/download/v1.0.2/terraform-provider-newpgp_1.0.2_freebsd_arm.zip",
           "shasum": "22e5379034af2d376c84c3d052a2588401e41ce9eb643eaf7653d0e58336f5ba"
         },
         {
           "os": "darwin",
           "arch": "amd64",
           "filename": "terraform-provider-newpgp_1.0.2_darwin_amd64.zip",
-          "download_url": "https://github.com/novia-financial/terraform-provider-pgp/releases/download/v1.0.2/terraform-provider-newpgp_1.0.2_darwin_amd64.zip",
+          "download_url": "https://github.com/novia-financial/terraform-provider-openpgp/releases/download/v1.0.2/terraform-provider-newpgp_1.0.2_darwin_amd64.zip",
           "shasum": "cf67dff62705e666c420cdb0330eb8b713c0ad94acfb1ae44fdc49a82b8b06f0"
         },
         {
           "os": "freebsd",
           "arch": "386",
           "filename": "terraform-provider-newpgp_1.0.2_freebsd_386.zip",
-          "download_url": "https://github.com/novia-financial/terraform-provider-pgp/releases/download/v1.0.2/terraform-provider-newpgp_1.0.2_freebsd_386.zip",
+          "download_url": "https://github.com/novia-financial/terraform-provider-openpgp/releases/download/v1.0.2/terraform-provider-newpgp_1.0.2_freebsd_386.zip",
           "shasum": "816ec058ed9f4a35cb9d3feb9e87646678af464d3e88e6d75c33dd0be28a6f36"
         },
         {
           "os": "darwin",
           "arch": "arm64",
           "filename": "terraform-provider-newpgp_1.0.2_darwin_arm64.zip",
-          "download_url": "https://github.com/novia-financial/terraform-provider-pgp/releases/download/v1.0.2/terraform-provider-newpgp_1.0.2_darwin_arm64.zip",
+          "download_url": "https://github.com/novia-financial/terraform-provider-openpgp/releases/download/v1.0.2/terraform-provider-newpgp_1.0.2_darwin_arm64.zip",
           "shasum": "8e0ed51d3cdfde1275a0b6567c99a835e02d393003bb27ebf1714e083f413cc1"
         },
         {
           "os": "windows",
           "arch": "386",
           "filename": "terraform-provider-newpgp_1.0.2_windows_386.zip",
-          "download_url": "https://github.com/novia-financial/terraform-provider-pgp/releases/download/v1.0.2/terraform-provider-newpgp_1.0.2_windows_386.zip",
+          "download_url": "https://github.com/novia-financial/terraform-provider-openpgp/releases/download/v1.0.2/terraform-provider-newpgp_1.0.2_windows_386.zip",
           "shasum": "19828e6c8a6befe2c4f9a6e6235d60e7d7bb9c4fc8bf3946d35bbf7c6bc056a4"
         },
         {
           "os": "freebsd",
           "arch": "arm64",
           "filename": "terraform-provider-newpgp_1.0.2_freebsd_arm64.zip",
-          "download_url": "https://github.com/novia-financial/terraform-provider-pgp/releases/download/v1.0.2/terraform-provider-newpgp_1.0.2_freebsd_arm64.zip",
+          "download_url": "https://github.com/novia-financial/terraform-provider-openpgp/releases/download/v1.0.2/terraform-provider-newpgp_1.0.2_freebsd_arm64.zip",
           "shasum": "5d34860808c5bf965ad34a4aefce5892b62e1d4814a45e8c4db7a5c6975a7c32"
         },
         {
           "os": "linux",
           "arch": "arm",
           "filename": "terraform-provider-newpgp_1.0.2_linux_arm.zip",
-          "download_url": "https://github.com/novia-financial/terraform-provider-pgp/releases/download/v1.0.2/terraform-provider-newpgp_1.0.2_linux_arm.zip",
+          "download_url": "https://github.com/novia-financial/terraform-provider-openpgp/releases/download/v1.0.2/terraform-provider-newpgp_1.0.2_linux_arm.zip",
           "shasum": "afc7a5f5ebb77b43f879bceb1db8378f36818e895ba010b67adf1579e694e329"
         },
         {
           "os": "linux",
           "arch": "amd64",
           "filename": "terraform-provider-newpgp_1.0.2_linux_amd64.zip",
-          "download_url": "https://github.com/novia-financial/terraform-provider-pgp/releases/download/v1.0.2/terraform-provider-newpgp_1.0.2_linux_amd64.zip",
+          "download_url": "https://github.com/novia-financial/terraform-provider-openpgp/releases/download/v1.0.2/terraform-provider-newpgp_1.0.2_linux_amd64.zip",
           "shasum": "4149d411588daf5c52ff8728789a7aea8aa17159feed4ec0c8fa8f9b41ead8c4"
         },
         {
           "os": "windows",
           "arch": "arm64",
           "filename": "terraform-provider-newpgp_1.0.2_windows_arm64.zip",
-          "download_url": "https://github.com/novia-financial/terraform-provider-pgp/releases/download/v1.0.2/terraform-provider-newpgp_1.0.2_windows_arm64.zip",
+          "download_url": "https://github.com/novia-financial/terraform-provider-openpgp/releases/download/v1.0.2/terraform-provider-newpgp_1.0.2_windows_arm64.zip",
           "shasum": "0866b7f714aca32ea3b6da81ff8b1a41870f0904cf2f973aad65a5f953569905"
         },
         {
           "os": "windows",
           "arch": "amd64",
           "filename": "terraform-provider-newpgp_1.0.2_windows_amd64.zip",
-          "download_url": "https://github.com/novia-financial/terraform-provider-pgp/releases/download/v1.0.2/terraform-provider-newpgp_1.0.2_windows_amd64.zip",
+          "download_url": "https://github.com/novia-financial/terraform-provider-openpgp/releases/download/v1.0.2/terraform-provider-newpgp_1.0.2_windows_amd64.zip",
           "shasum": "ccae57fba2505a74efdce311d0559fbf0fe9221d1abef675a2542cf60cf0c155"
         },
         {
           "os": "linux",
           "arch": "386",
           "filename": "terraform-provider-newpgp_1.0.2_linux_386.zip",
-          "download_url": "https://github.com/novia-financial/terraform-provider-pgp/releases/download/v1.0.2/terraform-provider-newpgp_1.0.2_linux_386.zip",
+          "download_url": "https://github.com/novia-financial/terraform-provider-openpgp/releases/download/v1.0.2/terraform-provider-newpgp_1.0.2_linux_386.zip",
           "shasum": "dc5584dcc0e6622d15dbdd35863f5b17f76242187e2a231bde75e8bcb4844252"
         },
         {
           "os": "linux",
           "arch": "arm64",
           "filename": "terraform-provider-newpgp_1.0.2_linux_arm64.zip",
-          "download_url": "https://github.com/novia-financial/terraform-provider-pgp/releases/download/v1.0.2/terraform-provider-newpgp_1.0.2_linux_arm64.zip",
+          "download_url": "https://github.com/novia-financial/terraform-provider-openpgp/releases/download/v1.0.2/terraform-provider-newpgp_1.0.2_linux_arm64.zip",
           "shasum": "11f94bbe628cbbc0347751ac8a1c444ca6def6d107940db3cc74d28f916e2066"
         },
         {
           "os": "windows",
           "arch": "arm",
           "filename": "terraform-provider-newpgp_1.0.2_windows_arm.zip",
-          "download_url": "https://github.com/novia-financial/terraform-provider-pgp/releases/download/v1.0.2/terraform-provider-newpgp_1.0.2_windows_arm.zip",
+          "download_url": "https://github.com/novia-financial/terraform-provider-openpgp/releases/download/v1.0.2/terraform-provider-newpgp_1.0.2_windows_arm.zip",
           "shasum": "ddc1451e99c22349d0253975b60766b48b66ffb6438ca3a0761a40a2f0c81e72"
         }
       ]
@@ -762,105 +978,105 @@
       "protocols": [
         "5.0"
       ],
-      "shasums_url": "https://github.com/novia-financial/terraform-provider-pgp/releases/download/v1.0.1/terraform-provider-pgp_1.0.1_SHA256SUMS",
-      "shasums_signature_url": "https://github.com/novia-financial/terraform-provider-pgp/releases/download/v1.0.1/terraform-provider-pgp_1.0.1_SHA256SUMS.sig",
+      "shasums_url": "https://github.com/novia-financial/terraform-provider-openpgp/releases/download/v1.0.1/terraform-provider-pgp_1.0.1_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/novia-financial/terraform-provider-openpgp/releases/download/v1.0.1/terraform-provider-pgp_1.0.1_SHA256SUMS.sig",
       "targets": [
         {
           "os": "windows",
           "arch": "arm",
           "filename": "terraform-provider-pgp_1.0.1_windows_arm.zip",
-          "download_url": "https://github.com/novia-financial/terraform-provider-pgp/releases/download/v1.0.1/terraform-provider-pgp_1.0.1_windows_arm.zip",
+          "download_url": "https://github.com/novia-financial/terraform-provider-openpgp/releases/download/v1.0.1/terraform-provider-pgp_1.0.1_windows_arm.zip",
           "shasum": "49d2b9cccb20309ad76badade6256e029630c1021a4458de98a0bfb5a2570991"
         },
         {
           "os": "freebsd",
           "arch": "386",
           "filename": "terraform-provider-pgp_1.0.1_freebsd_386.zip",
-          "download_url": "https://github.com/novia-financial/terraform-provider-pgp/releases/download/v1.0.1/terraform-provider-pgp_1.0.1_freebsd_386.zip",
+          "download_url": "https://github.com/novia-financial/terraform-provider-openpgp/releases/download/v1.0.1/terraform-provider-pgp_1.0.1_freebsd_386.zip",
           "shasum": "2801e8942f4f9b5bfa0bbc7c8ca699b8e350a75f14580ce8072bd2cb441a5cbe"
         },
         {
           "os": "freebsd",
           "arch": "amd64",
           "filename": "terraform-provider-pgp_1.0.1_freebsd_amd64.zip",
-          "download_url": "https://github.com/novia-financial/terraform-provider-pgp/releases/download/v1.0.1/terraform-provider-pgp_1.0.1_freebsd_amd64.zip",
+          "download_url": "https://github.com/novia-financial/terraform-provider-openpgp/releases/download/v1.0.1/terraform-provider-pgp_1.0.1_freebsd_amd64.zip",
           "shasum": "8a73e5dab4f5b32a41979c97f60aa02fe4961af589d261310dbd6d1490bc6424"
         },
         {
           "os": "linux",
           "arch": "arm64",
           "filename": "terraform-provider-pgp_1.0.1_linux_arm64.zip",
-          "download_url": "https://github.com/novia-financial/terraform-provider-pgp/releases/download/v1.0.1/terraform-provider-pgp_1.0.1_linux_arm64.zip",
+          "download_url": "https://github.com/novia-financial/terraform-provider-openpgp/releases/download/v1.0.1/terraform-provider-pgp_1.0.1_linux_arm64.zip",
           "shasum": "030f1023c49c822eb21bf91c5eff2672f17391bb29ec9540fa31fe30495b2ba1"
         },
         {
           "os": "windows",
           "arch": "amd64",
           "filename": "terraform-provider-pgp_1.0.1_windows_amd64.zip",
-          "download_url": "https://github.com/novia-financial/terraform-provider-pgp/releases/download/v1.0.1/terraform-provider-pgp_1.0.1_windows_amd64.zip",
+          "download_url": "https://github.com/novia-financial/terraform-provider-openpgp/releases/download/v1.0.1/terraform-provider-pgp_1.0.1_windows_amd64.zip",
           "shasum": "59e3005d373bb6f1bc1123c766718ae2e20909b2ec06c57ca9703a29a6c919b9"
         },
         {
           "os": "freebsd",
           "arch": "arm",
           "filename": "terraform-provider-pgp_1.0.1_freebsd_arm.zip",
-          "download_url": "https://github.com/novia-financial/terraform-provider-pgp/releases/download/v1.0.1/terraform-provider-pgp_1.0.1_freebsd_arm.zip",
+          "download_url": "https://github.com/novia-financial/terraform-provider-openpgp/releases/download/v1.0.1/terraform-provider-pgp_1.0.1_freebsd_arm.zip",
           "shasum": "14a0f93ea8900988cbd3d283a5c7a5c0c1647cbeeb3b2b51c3045d7af6f98172"
         },
         {
           "os": "darwin",
           "arch": "arm64",
           "filename": "terraform-provider-pgp_1.0.1_darwin_arm64.zip",
-          "download_url": "https://github.com/novia-financial/terraform-provider-pgp/releases/download/v1.0.1/terraform-provider-pgp_1.0.1_darwin_arm64.zip",
+          "download_url": "https://github.com/novia-financial/terraform-provider-openpgp/releases/download/v1.0.1/terraform-provider-pgp_1.0.1_darwin_arm64.zip",
           "shasum": "7c3d3703a7bfa776067f6a2c7603041d31857ffa1402466ffe094964776293c4"
         },
         {
           "os": "freebsd",
           "arch": "arm64",
           "filename": "terraform-provider-pgp_1.0.1_freebsd_arm64.zip",
-          "download_url": "https://github.com/novia-financial/terraform-provider-pgp/releases/download/v1.0.1/terraform-provider-pgp_1.0.1_freebsd_arm64.zip",
+          "download_url": "https://github.com/novia-financial/terraform-provider-openpgp/releases/download/v1.0.1/terraform-provider-pgp_1.0.1_freebsd_arm64.zip",
           "shasum": "e061d04c3382051ebe035ad3a95bb8d4f99f566333ba0aee284027ac5b25819b"
         },
         {
           "os": "windows",
           "arch": "arm64",
           "filename": "terraform-provider-pgp_1.0.1_windows_arm64.zip",
-          "download_url": "https://github.com/novia-financial/terraform-provider-pgp/releases/download/v1.0.1/terraform-provider-pgp_1.0.1_windows_arm64.zip",
+          "download_url": "https://github.com/novia-financial/terraform-provider-openpgp/releases/download/v1.0.1/terraform-provider-pgp_1.0.1_windows_arm64.zip",
           "shasum": "202bbc6b18662f45a9a9ec6d026a8578b642c5870303b622992338f04a055c28"
         },
         {
           "os": "linux",
           "arch": "arm",
           "filename": "terraform-provider-pgp_1.0.1_linux_arm.zip",
-          "download_url": "https://github.com/novia-financial/terraform-provider-pgp/releases/download/v1.0.1/terraform-provider-pgp_1.0.1_linux_arm.zip",
+          "download_url": "https://github.com/novia-financial/terraform-provider-openpgp/releases/download/v1.0.1/terraform-provider-pgp_1.0.1_linux_arm.zip",
           "shasum": "a3e873a6f658ebb0557b87a495aa13b9bf78f7a23e98be1812ed197ca4fcd363"
         },
         {
           "os": "linux",
           "arch": "amd64",
           "filename": "terraform-provider-pgp_1.0.1_linux_amd64.zip",
-          "download_url": "https://github.com/novia-financial/terraform-provider-pgp/releases/download/v1.0.1/terraform-provider-pgp_1.0.1_linux_amd64.zip",
+          "download_url": "https://github.com/novia-financial/terraform-provider-openpgp/releases/download/v1.0.1/terraform-provider-pgp_1.0.1_linux_amd64.zip",
           "shasum": "b0cd70c30810141c58e912dbdf9bc3cdef240815fd7d84803e1619327cc9b943"
         },
         {
           "os": "windows",
           "arch": "386",
           "filename": "terraform-provider-pgp_1.0.1_windows_386.zip",
-          "download_url": "https://github.com/novia-financial/terraform-provider-pgp/releases/download/v1.0.1/terraform-provider-pgp_1.0.1_windows_386.zip",
+          "download_url": "https://github.com/novia-financial/terraform-provider-openpgp/releases/download/v1.0.1/terraform-provider-pgp_1.0.1_windows_386.zip",
           "shasum": "db9e8e13d3dae1cc742f9430a9bdfe7a14c380d5cee9e0a789bd49eac8163404"
         },
         {
           "os": "linux",
           "arch": "386",
           "filename": "terraform-provider-pgp_1.0.1_linux_386.zip",
-          "download_url": "https://github.com/novia-financial/terraform-provider-pgp/releases/download/v1.0.1/terraform-provider-pgp_1.0.1_linux_386.zip",
+          "download_url": "https://github.com/novia-financial/terraform-provider-openpgp/releases/download/v1.0.1/terraform-provider-pgp_1.0.1_linux_386.zip",
           "shasum": "b7cc88241bbb5677ec6b16a6494d85e0cf22d3b90c7dc7e4e5e0e478ab17ec89"
         },
         {
           "os": "darwin",
           "arch": "amd64",
           "filename": "terraform-provider-pgp_1.0.1_darwin_amd64.zip",
-          "download_url": "https://github.com/novia-financial/terraform-provider-pgp/releases/download/v1.0.1/terraform-provider-pgp_1.0.1_darwin_amd64.zip",
+          "download_url": "https://github.com/novia-financial/terraform-provider-openpgp/releases/download/v1.0.1/terraform-provider-pgp_1.0.1_darwin_amd64.zip",
           "shasum": "cad2a91d895e8375ab1eda335d8ab14a245409ddf8608f5a349ad8375700beb4"
         }
       ]
