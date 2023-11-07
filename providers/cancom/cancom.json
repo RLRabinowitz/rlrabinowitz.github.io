@@ -2,6 +2,114 @@
   "repository": "https://github.com/cancom/terraform-provider-cancom",
   "versions": [
     {
+      "version": "0.0.1-pre8",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/cancom/terraform-provider-cancom/releases/download/v0.0.1-pre8/terraform-provider-cancom_0.0.1-pre8_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/cancom/terraform-provider-cancom/releases/download/v0.0.1-pre8/terraform-provider-cancom_0.0.1-pre8_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-cancom_0.0.1-pre8_linux_amd64.zip",
+          "download_url": "https://github.com/cancom/terraform-provider-cancom/releases/download/v0.0.1-pre8/terraform-provider-cancom_0.0.1-pre8_linux_amd64.zip",
+          "shasum": "20db4e8f8d1f591e55904c6c3cb59bfa1e300f4b427de4c9666093b7dad1c288"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-cancom_0.0.1-pre8_freebsd_arm64.zip",
+          "download_url": "https://github.com/cancom/terraform-provider-cancom/releases/download/v0.0.1-pre8/terraform-provider-cancom_0.0.1-pre8_freebsd_arm64.zip",
+          "shasum": "f8b4bbcb1bb4fc9a3dac68b494730597fcc87a0705f89b662e22a2ef3c2db6c6"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-cancom_0.0.1-pre8_windows_arm64.zip",
+          "download_url": "https://github.com/cancom/terraform-provider-cancom/releases/download/v0.0.1-pre8/terraform-provider-cancom_0.0.1-pre8_windows_arm64.zip",
+          "shasum": "f0ead11c0ca559fea8bf69f51b0e73587f8aea3e2dc4b10137d6081ef5a452f6"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-cancom_0.0.1-pre8_darwin_amd64.zip",
+          "download_url": "https://github.com/cancom/terraform-provider-cancom/releases/download/v0.0.1-pre8/terraform-provider-cancom_0.0.1-pre8_darwin_amd64.zip",
+          "shasum": "5ab496c746e1a72d75c46782d3eefff31511eebeaba9660e782cf189467c6316"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-cancom_0.0.1-pre8_linux_arm.zip",
+          "download_url": "https://github.com/cancom/terraform-provider-cancom/releases/download/v0.0.1-pre8/terraform-provider-cancom_0.0.1-pre8_linux_arm.zip",
+          "shasum": "405430dbc27b90b655c8196fddb6d7e62c63126ad35b4c66ce9688e668bb922f"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-cancom_0.0.1-pre8_linux_arm64.zip",
+          "download_url": "https://github.com/cancom/terraform-provider-cancom/releases/download/v0.0.1-pre8/terraform-provider-cancom_0.0.1-pre8_linux_arm64.zip",
+          "shasum": "5b5d1c1238ad31629e8df892b516adca477e4a0c7070839d2c76ec6f7ceed047"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-cancom_0.0.1-pre8_windows_386.zip",
+          "download_url": "https://github.com/cancom/terraform-provider-cancom/releases/download/v0.0.1-pre8/terraform-provider-cancom_0.0.1-pre8_windows_386.zip",
+          "shasum": "75f6d809518429a72b9dde855f11d20e92cb062de2f342444a1a6124295644b1"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-cancom_0.0.1-pre8_freebsd_386.zip",
+          "download_url": "https://github.com/cancom/terraform-provider-cancom/releases/download/v0.0.1-pre8/terraform-provider-cancom_0.0.1-pre8_freebsd_386.zip",
+          "shasum": "2e6bf28fb99d5d68122eb9738c3c70c5d6a88144913fb2e48bd3f27d5a429cd6"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-cancom_0.0.1-pre8_linux_386.zip",
+          "download_url": "https://github.com/cancom/terraform-provider-cancom/releases/download/v0.0.1-pre8/terraform-provider-cancom_0.0.1-pre8_linux_386.zip",
+          "shasum": "d7a13e36627206a01123a983918d3ebc94c9c8923f65513adaad23e746085f83"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-cancom_0.0.1-pre8_freebsd_arm.zip",
+          "download_url": "https://github.com/cancom/terraform-provider-cancom/releases/download/v0.0.1-pre8/terraform-provider-cancom_0.0.1-pre8_freebsd_arm.zip",
+          "shasum": "1c0b6a8d574981d1a669408dd09ca866534b3ee88a338601fe43d53eefa0b3c4"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-cancom_0.0.1-pre8_darwin_arm64.zip",
+          "download_url": "https://github.com/cancom/terraform-provider-cancom/releases/download/v0.0.1-pre8/terraform-provider-cancom_0.0.1-pre8_darwin_arm64.zip",
+          "shasum": "8d64e2a3704ac8d6e22818cc9cb6f401fb619c08608963a7712c3d78c73e6a49"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-cancom_0.0.1-pre8_windows_amd64.zip",
+          "download_url": "https://github.com/cancom/terraform-provider-cancom/releases/download/v0.0.1-pre8/terraform-provider-cancom_0.0.1-pre8_windows_amd64.zip",
+          "shasum": "c2b75b98ad8183cb0426fc90d5db24f6aaecdaa0091ba24a7b9506ba31d63604"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-cancom_0.0.1-pre8_windows_arm.zip",
+          "download_url": "https://github.com/cancom/terraform-provider-cancom/releases/download/v0.0.1-pre8/terraform-provider-cancom_0.0.1-pre8_windows_arm.zip",
+          "shasum": "531853513dfe82b00e8d4538cbe78a27bbd2df32fa2f3f621444f0afec07ba5b"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-cancom_0.0.1-pre8_freebsd_amd64.zip",
+          "download_url": "https://github.com/cancom/terraform-provider-cancom/releases/download/v0.0.1-pre8/terraform-provider-cancom_0.0.1-pre8_freebsd_amd64.zip",
+          "shasum": "6ee6bf5efb2912d4ce4ff73c97965f12067bf82cb7944b633e639445667e19a6"
+        }
+      ]
+    },
+    {
       "version": "0.0.1-pre7",
       "protocols": [
         "5.0"
