@@ -2,6 +2,100 @@
   "repository": "https://github.com/imperva/terraform-provider-incapsula",
   "versions": [
     {
+      "version": "3.20.7",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/imperva/terraform-provider-incapsula/releases/download/v3.20.7/terraform-provider-incapsula_3.20.7_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/imperva/terraform-provider-incapsula/releases/download/v3.20.7/terraform-provider-incapsula_3.20.7_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-incapsula_3.20.7_linux_386.zip",
+          "download_url": "https://github.com/imperva/terraform-provider-incapsula/releases/download/v3.20.7/terraform-provider-incapsula_3.20.7_linux_386.zip",
+          "shasum": "27c65708e7376a09ed4c56564f761b9620264b429ec3a83960c13f03c37bbca8"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-incapsula_3.20.7_freebsd_386.zip",
+          "download_url": "https://github.com/imperva/terraform-provider-incapsula/releases/download/v3.20.7/terraform-provider-incapsula_3.20.7_freebsd_386.zip",
+          "shasum": "03e8dff0b86aa3e5b3a583225ea5b0ad68a87568d4f96966e29e98f48fd663d5"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-incapsula_3.20.7_linux_amd64.zip",
+          "download_url": "https://github.com/imperva/terraform-provider-incapsula/releases/download/v3.20.7/terraform-provider-incapsula_3.20.7_linux_amd64.zip",
+          "shasum": "ff28c3779a6daec5a5ca7604b7aa363a0068acdc2d4afcc63ce91e09a5e9d5bc"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-incapsula_3.20.7_linux_arm64.zip",
+          "download_url": "https://github.com/imperva/terraform-provider-incapsula/releases/download/v3.20.7/terraform-provider-incapsula_3.20.7_linux_arm64.zip",
+          "shasum": "b6a71cc2ff2cb69131c4f91dcf9925eea2701e2b2e856eb11487add5bda47f6d"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-incapsula_3.20.7_darwin_arm64.zip",
+          "download_url": "https://github.com/imperva/terraform-provider-incapsula/releases/download/v3.20.7/terraform-provider-incapsula_3.20.7_darwin_arm64.zip",
+          "shasum": "8dd770280fea06a4e93cfc448a6ed5125c74d2398c4517b385b41fd65872c55c"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-incapsula_3.20.7_darwin_amd64.zip",
+          "download_url": "https://github.com/imperva/terraform-provider-incapsula/releases/download/v3.20.7/terraform-provider-incapsula_3.20.7_darwin_amd64.zip",
+          "shasum": "160e0ba250e5580bc024e1c8f62c64f415bcf69e7a0f2904b7c13ce7d57da6b3"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-incapsula_3.20.7_windows_amd64.zip",
+          "download_url": "https://github.com/imperva/terraform-provider-incapsula/releases/download/v3.20.7/terraform-provider-incapsula_3.20.7_windows_amd64.zip",
+          "shasum": "7c13080c05d8fae4844b443609b990c204f9396e6fa52b4dd98bfe2182f3dc95"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-incapsula_3.20.7_freebsd_amd64.zip",
+          "download_url": "https://github.com/imperva/terraform-provider-incapsula/releases/download/v3.20.7/terraform-provider-incapsula_3.20.7_freebsd_amd64.zip",
+          "shasum": "89979f807889684c84d91850932d5619cb227bff65957587c976f99ace35706e"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-incapsula_3.20.7_windows_386.zip",
+          "download_url": "https://github.com/imperva/terraform-provider-incapsula/releases/download/v3.20.7/terraform-provider-incapsula_3.20.7_windows_386.zip",
+          "shasum": "50b63de97b31572ea3f9cea964757882e8bb3662fc6307e9fc45f73b9af425ce"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-incapsula_3.20.7_freebsd_arm.zip",
+          "download_url": "https://github.com/imperva/terraform-provider-incapsula/releases/download/v3.20.7/terraform-provider-incapsula_3.20.7_freebsd_arm.zip",
+          "shasum": "e1904cf50e5cb56415779a403edbfc78c0463aa0239ae015d128fe8c9bdc0d66"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-incapsula_3.20.7_linux_arm.zip",
+          "download_url": "https://github.com/imperva/terraform-provider-incapsula/releases/download/v3.20.7/terraform-provider-incapsula_3.20.7_linux_arm.zip",
+          "shasum": "6c0ae75011f5bb115f3aaba7e38b1299fcb1afa596ed442a4d8d060c9fabbcfb"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-incapsula_3.20.7_windows_arm.zip",
+          "download_url": "https://github.com/imperva/terraform-provider-incapsula/releases/download/v3.20.7/terraform-provider-incapsula_3.20.7_windows_arm.zip",
+          "shasum": "673dc8aace474a256d914431a78c35bc35629b759db0021fd2888cdf62c5a2f1"
+        }
+      ]
+    },
+    {
       "version": "3.20.6",
       "protocols": [
         "5.0"
