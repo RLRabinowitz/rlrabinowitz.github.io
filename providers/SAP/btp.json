@@ -2,6 +2,114 @@
   "repository": "https://github.com/SAP/terraform-provider-btp",
   "versions": [
     {
+      "version": "0.6.0-beta1",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/SAP/terraform-provider-btp/releases/download/v0.6.0-beta1/terraform-provider-btp_0.6.0-beta1_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/SAP/terraform-provider-btp/releases/download/v0.6.0-beta1/terraform-provider-btp_0.6.0-beta1_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-btp_0.6.0-beta1_windows_amd64.zip",
+          "download_url": "https://github.com/SAP/terraform-provider-btp/releases/download/v0.6.0-beta1/terraform-provider-btp_0.6.0-beta1_windows_amd64.zip",
+          "shasum": "90cec8585b8511656395a651cf537c019d1607b545724f7c71659a0605b8b1ab"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-btp_0.6.0-beta1_linux_amd64.zip",
+          "download_url": "https://github.com/SAP/terraform-provider-btp/releases/download/v0.6.0-beta1/terraform-provider-btp_0.6.0-beta1_linux_amd64.zip",
+          "shasum": "9679f8135e214682f66dd26378bc6c966d72db1187eead790da8f28730cb2143"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-btp_0.6.0-beta1_linux_arm.zip",
+          "download_url": "https://github.com/SAP/terraform-provider-btp/releases/download/v0.6.0-beta1/terraform-provider-btp_0.6.0-beta1_linux_arm.zip",
+          "shasum": "4e2c6a1e446c012c9e6c5d353658969d803d220ee9986f5e537af441cfaeaf9b"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-btp_0.6.0-beta1_freebsd_arm64.zip",
+          "download_url": "https://github.com/SAP/terraform-provider-btp/releases/download/v0.6.0-beta1/terraform-provider-btp_0.6.0-beta1_freebsd_arm64.zip",
+          "shasum": "25253def124afedd79a75c5d3447e882a3658c131238235052558eadef670fbc"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-btp_0.6.0-beta1_freebsd_arm.zip",
+          "download_url": "https://github.com/SAP/terraform-provider-btp/releases/download/v0.6.0-beta1/terraform-provider-btp_0.6.0-beta1_freebsd_arm.zip",
+          "shasum": "cdbf6a670cbcd075e8dc03e814b642fe46e5af275d7ebe546ab8d8985137c1ba"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-btp_0.6.0-beta1_freebsd_386.zip",
+          "download_url": "https://github.com/SAP/terraform-provider-btp/releases/download/v0.6.0-beta1/terraform-provider-btp_0.6.0-beta1_freebsd_386.zip",
+          "shasum": "0c7be9304a3b3993985f163750787c061dde0547e11d9b40971a9e56310f654b"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-btp_0.6.0-beta1_windows_arm.zip",
+          "download_url": "https://github.com/SAP/terraform-provider-btp/releases/download/v0.6.0-beta1/terraform-provider-btp_0.6.0-beta1_windows_arm.zip",
+          "shasum": "e1d972375c17ec079396aed7a64e0fdbf25c15a06ddcda1d93f762117fbd9fd3"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-btp_0.6.0-beta1_windows_386.zip",
+          "download_url": "https://github.com/SAP/terraform-provider-btp/releases/download/v0.6.0-beta1/terraform-provider-btp_0.6.0-beta1_windows_386.zip",
+          "shasum": "5dd6d6f6417db6abf15ae437abc1716f67c817ab83e3ed7af9cd0fb80063d99b"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-btp_0.6.0-beta1_darwin_arm64.zip",
+          "download_url": "https://github.com/SAP/terraform-provider-btp/releases/download/v0.6.0-beta1/terraform-provider-btp_0.6.0-beta1_darwin_arm64.zip",
+          "shasum": "e427e0031abade9f0bd184f3798fdff31a568fbe149fac9c02aa73ebb86fca4a"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-btp_0.6.0-beta1_freebsd_amd64.zip",
+          "download_url": "https://github.com/SAP/terraform-provider-btp/releases/download/v0.6.0-beta1/terraform-provider-btp_0.6.0-beta1_freebsd_amd64.zip",
+          "shasum": "008c614eb88ccd18beaff8fda9b75f6f234a2c9221609458cc3fdd6ef51cf814"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-btp_0.6.0-beta1_windows_arm64.zip",
+          "download_url": "https://github.com/SAP/terraform-provider-btp/releases/download/v0.6.0-beta1/terraform-provider-btp_0.6.0-beta1_windows_arm64.zip",
+          "shasum": "59a169b3bd7753f744cfdf37a2b68358be9947e06fe594b5b8f8e0992d55cc40"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-btp_0.6.0-beta1_linux_arm64.zip",
+          "download_url": "https://github.com/SAP/terraform-provider-btp/releases/download/v0.6.0-beta1/terraform-provider-btp_0.6.0-beta1_linux_arm64.zip",
+          "shasum": "68b3b40fd09d91eaf13425233df67216808f783c06dcd56022f40b4e566f1578"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-btp_0.6.0-beta1_linux_386.zip",
+          "download_url": "https://github.com/SAP/terraform-provider-btp/releases/download/v0.6.0-beta1/terraform-provider-btp_0.6.0-beta1_linux_386.zip",
+          "shasum": "802e02c9f5c84cd3899d452c8927a8c4c808958330302e29fe1592efef79ec82"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-btp_0.6.0-beta1_darwin_amd64.zip",
+          "download_url": "https://github.com/SAP/terraform-provider-btp/releases/download/v0.6.0-beta1/terraform-provider-btp_0.6.0-beta1_darwin_amd64.zip",
+          "shasum": "ba23e0feae2a5f0157ee90553fea32f77527e8fc6138677d7077d3147b504b0c"
+        }
+      ]
+    },
+    {
       "version": "0.5.0-beta1",
       "protocols": [
         "5.0"

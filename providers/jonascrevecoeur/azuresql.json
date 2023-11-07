@@ -2,6 +2,222 @@
   "repository": "https://github.com/jonascrevecoeur/terraform-provider-azuresql",
   "versions": [
     {
+      "version": "0.3.1",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/jonascrevecoeur/terraform-provider-azuresql/releases/download/v0.3.1/terraform-provider-azuresql_0.3.1_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/jonascrevecoeur/terraform-provider-azuresql/releases/download/v0.3.1/terraform-provider-azuresql_0.3.1_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-azuresql_0.3.1_linux_amd64.zip",
+          "download_url": "https://github.com/jonascrevecoeur/terraform-provider-azuresql/releases/download/v0.3.1/terraform-provider-azuresql_0.3.1_linux_amd64.zip",
+          "shasum": "b1b5d7680f568afdc11224a6ac55273c258828ffc477b86482c1d3d497776e23"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-azuresql_0.3.1_linux_386.zip",
+          "download_url": "https://github.com/jonascrevecoeur/terraform-provider-azuresql/releases/download/v0.3.1/terraform-provider-azuresql_0.3.1_linux_386.zip",
+          "shasum": "6aeaabb7290ce59f1094b621e506af8e54de90ade8ddddc3f21baa54c9b0aacb"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-azuresql_0.3.1_freebsd_386.zip",
+          "download_url": "https://github.com/jonascrevecoeur/terraform-provider-azuresql/releases/download/v0.3.1/terraform-provider-azuresql_0.3.1_freebsd_386.zip",
+          "shasum": "23a5c3828b7c07cb469366c5323db1296bc0b929fd51c2cae13b7ea60e165a9f"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-azuresql_0.3.1_windows_amd64.zip",
+          "download_url": "https://github.com/jonascrevecoeur/terraform-provider-azuresql/releases/download/v0.3.1/terraform-provider-azuresql_0.3.1_windows_amd64.zip",
+          "shasum": "ee4c96de2365159d89af9c15899569be5514acd62af6dc11d57304a757902319"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-azuresql_0.3.1_freebsd_arm.zip",
+          "download_url": "https://github.com/jonascrevecoeur/terraform-provider-azuresql/releases/download/v0.3.1/terraform-provider-azuresql_0.3.1_freebsd_arm.zip",
+          "shasum": "30e8fcba20398a6318079bb43740e4e0df93c92199151e56e56c00a352a5a061"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-azuresql_0.3.1_windows_386.zip",
+          "download_url": "https://github.com/jonascrevecoeur/terraform-provider-azuresql/releases/download/v0.3.1/terraform-provider-azuresql_0.3.1_windows_386.zip",
+          "shasum": "182b515328687794f4c2540948f8d866e82fd516694a21bc006702a77954a696"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-azuresql_0.3.1_windows_arm.zip",
+          "download_url": "https://github.com/jonascrevecoeur/terraform-provider-azuresql/releases/download/v0.3.1/terraform-provider-azuresql_0.3.1_windows_arm.zip",
+          "shasum": "5b5075f11b3a78cedca8640fe1dab1b5f1995b00b1e2c28d05afff549617ea81"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-azuresql_0.3.1_linux_arm.zip",
+          "download_url": "https://github.com/jonascrevecoeur/terraform-provider-azuresql/releases/download/v0.3.1/terraform-provider-azuresql_0.3.1_linux_arm.zip",
+          "shasum": "7ac84e7936d97ef7515eb474d5f1c84b30e69c776cf0d695f214d11ca1b757b7"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-azuresql_0.3.1_windows_arm64.zip",
+          "download_url": "https://github.com/jonascrevecoeur/terraform-provider-azuresql/releases/download/v0.3.1/terraform-provider-azuresql_0.3.1_windows_arm64.zip",
+          "shasum": "f32bf37b12b9291aa0da4adaed47c0f16b5232e98e904ad358b5ca88b0f24629"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-azuresql_0.3.1_darwin_amd64.zip",
+          "download_url": "https://github.com/jonascrevecoeur/terraform-provider-azuresql/releases/download/v0.3.1/terraform-provider-azuresql_0.3.1_darwin_amd64.zip",
+          "shasum": "83adbe950603dc8aeb3f0fc9d042bf0cc33f22557ab9255725ff95a6065e4e4c"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-azuresql_0.3.1_freebsd_arm64.zip",
+          "download_url": "https://github.com/jonascrevecoeur/terraform-provider-azuresql/releases/download/v0.3.1/terraform-provider-azuresql_0.3.1_freebsd_arm64.zip",
+          "shasum": "1357dc9e0dcd2deea862e850294685df098f04e6b7deb445bfa0ab1f48d15616"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-azuresql_0.3.1_freebsd_amd64.zip",
+          "download_url": "https://github.com/jonascrevecoeur/terraform-provider-azuresql/releases/download/v0.3.1/terraform-provider-azuresql_0.3.1_freebsd_amd64.zip",
+          "shasum": "c853b1fe424d1eb644a927f79186e7c4e56c3e5faf3d21642103d37ec8d98297"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-azuresql_0.3.1_linux_arm64.zip",
+          "download_url": "https://github.com/jonascrevecoeur/terraform-provider-azuresql/releases/download/v0.3.1/terraform-provider-azuresql_0.3.1_linux_arm64.zip",
+          "shasum": "8f7b2aa761656f5c27e830cff463f03fb0fb4a13d6dc25a634cae8568c32aca3"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-azuresql_0.3.1_darwin_arm64.zip",
+          "download_url": "https://github.com/jonascrevecoeur/terraform-provider-azuresql/releases/download/v0.3.1/terraform-provider-azuresql_0.3.1_darwin_arm64.zip",
+          "shasum": "c553e1cbf59fac67af73159b8ad61833601c58cf82eb20bfe28602651fd3e2a3"
+        }
+      ]
+    },
+    {
+      "version": "0.3.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/jonascrevecoeur/terraform-provider-azuresql/releases/download/v0.3.0/terraform-provider-azuresql_0.3.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/jonascrevecoeur/terraform-provider-azuresql/releases/download/v0.3.0/terraform-provider-azuresql_0.3.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-azuresql_0.3.0_freebsd_386.zip",
+          "download_url": "https://github.com/jonascrevecoeur/terraform-provider-azuresql/releases/download/v0.3.0/terraform-provider-azuresql_0.3.0_freebsd_386.zip",
+          "shasum": "2d1f43934511f924134516befaa92535f0969c03a103a504eea8553e02119b60"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-azuresql_0.3.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/jonascrevecoeur/terraform-provider-azuresql/releases/download/v0.3.0/terraform-provider-azuresql_0.3.0_freebsd_arm64.zip",
+          "shasum": "ac95b289e2fb188e7722c2599346d10f23f49249c64c1e252087743b9eb842fa"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-azuresql_0.3.0_windows_arm.zip",
+          "download_url": "https://github.com/jonascrevecoeur/terraform-provider-azuresql/releases/download/v0.3.0/terraform-provider-azuresql_0.3.0_windows_arm.zip",
+          "shasum": "8464d6df8941c2a29b733e10c7605559f946ebbc470505fb5793882212e661c1"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-azuresql_0.3.0_linux_386.zip",
+          "download_url": "https://github.com/jonascrevecoeur/terraform-provider-azuresql/releases/download/v0.3.0/terraform-provider-azuresql_0.3.0_linux_386.zip",
+          "shasum": "416cdf5246fedf3abfcfe9492c07447f3912b8986ef2b77896198a25641f2595"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-azuresql_0.3.0_windows_arm64.zip",
+          "download_url": "https://github.com/jonascrevecoeur/terraform-provider-azuresql/releases/download/v0.3.0/terraform-provider-azuresql_0.3.0_windows_arm64.zip",
+          "shasum": "7c91b6c35fea07022995b10dfefd6f6a0f27059f02fa9edb1ac3434534ee4489"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-azuresql_0.3.0_windows_386.zip",
+          "download_url": "https://github.com/jonascrevecoeur/terraform-provider-azuresql/releases/download/v0.3.0/terraform-provider-azuresql_0.3.0_windows_386.zip",
+          "shasum": "791cea47caf70e9087c4be5496d0377ce81eda266bd4168b368a4ef52833bd86"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-azuresql_0.3.0_linux_arm64.zip",
+          "download_url": "https://github.com/jonascrevecoeur/terraform-provider-azuresql/releases/download/v0.3.0/terraform-provider-azuresql_0.3.0_linux_arm64.zip",
+          "shasum": "841d5d7d920d32c48a317043a3fbefaa7c4557ac8394441566145af1325a9bb0"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-azuresql_0.3.0_linux_amd64.zip",
+          "download_url": "https://github.com/jonascrevecoeur/terraform-provider-azuresql/releases/download/v0.3.0/terraform-provider-azuresql_0.3.0_linux_amd64.zip",
+          "shasum": "c67ee2bb282ca0abaf549f342dfe61e8dd0ad81237539bf409230f7904b0c1b5"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-azuresql_0.3.0_linux_arm.zip",
+          "download_url": "https://github.com/jonascrevecoeur/terraform-provider-azuresql/releases/download/v0.3.0/terraform-provider-azuresql_0.3.0_linux_arm.zip",
+          "shasum": "325a327460174f94ec242b8719cb161e809b8e5079875554fdf53b5876bc1b06"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-azuresql_0.3.0_darwin_arm64.zip",
+          "download_url": "https://github.com/jonascrevecoeur/terraform-provider-azuresql/releases/download/v0.3.0/terraform-provider-azuresql_0.3.0_darwin_arm64.zip",
+          "shasum": "af7fdabf561315d3ec0ed04d01ed0587c9919ecf23941d15233d512b4a83459c"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-azuresql_0.3.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/jonascrevecoeur/terraform-provider-azuresql/releases/download/v0.3.0/terraform-provider-azuresql_0.3.0_freebsd_amd64.zip",
+          "shasum": "2ec8a362df2b121ca5b4e8da0294430d686b2521ee44f16e3eeab31107d06c55"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-azuresql_0.3.0_freebsd_arm.zip",
+          "download_url": "https://github.com/jonascrevecoeur/terraform-provider-azuresql/releases/download/v0.3.0/terraform-provider-azuresql_0.3.0_freebsd_arm.zip",
+          "shasum": "7713e6b31885d77387cbdf0f25210dddae137aaeb9e2f08ca5b9477c98f32e7c"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-azuresql_0.3.0_windows_amd64.zip",
+          "download_url": "https://github.com/jonascrevecoeur/terraform-provider-azuresql/releases/download/v0.3.0/terraform-provider-azuresql_0.3.0_windows_amd64.zip",
+          "shasum": "2c5cfc0b8032bd2703a2cc28850987f0f2b5d60914bede62e3c1738ee6d31da5"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-azuresql_0.3.0_darwin_amd64.zip",
+          "download_url": "https://github.com/jonascrevecoeur/terraform-provider-azuresql/releases/download/v0.3.0/terraform-provider-azuresql_0.3.0_darwin_amd64.zip",
+          "shasum": "20d6ce1f4cdd7ac9c26d6a19ca897d0cee92e1f38ee123382d4546a8dfda1dbe"
+        }
+      ]
+    },
+    {
       "version": "0.2.0",
       "protocols": [
         "5.0"
