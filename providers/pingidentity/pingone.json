@@ -2,6 +2,114 @@
   "repository": "https://github.com/pingidentity/terraform-provider-pingone",
   "versions": [
     {
+      "version": "0.23.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/pingidentity/terraform-provider-pingone/releases/download/v0.23.0/terraform-provider-pingone_0.23.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/pingidentity/terraform-provider-pingone/releases/download/v0.23.0/terraform-provider-pingone_0.23.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-pingone_0.23.0_windows_arm64.zip",
+          "download_url": "https://github.com/pingidentity/terraform-provider-pingone/releases/download/v0.23.0/terraform-provider-pingone_0.23.0_windows_arm64.zip",
+          "shasum": "1285c5403873ded6daa4eab09a4fb1662f16cfe2bc040bc780ea53a9bc37d119"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-pingone_0.23.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/pingidentity/terraform-provider-pingone/releases/download/v0.23.0/terraform-provider-pingone_0.23.0_freebsd_amd64.zip",
+          "shasum": "96929d9f1027f2b412f0c3ddc231d7c66efb03f865a896f45fd7244b303659ae"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-pingone_0.23.0_linux_386.zip",
+          "download_url": "https://github.com/pingidentity/terraform-provider-pingone/releases/download/v0.23.0/terraform-provider-pingone_0.23.0_linux_386.zip",
+          "shasum": "75fbd8dff60f31439ef237197017830d96a1a0a62d85dc466617fbe70d9772b6"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-pingone_0.23.0_darwin_arm64.zip",
+          "download_url": "https://github.com/pingidentity/terraform-provider-pingone/releases/download/v0.23.0/terraform-provider-pingone_0.23.0_darwin_arm64.zip",
+          "shasum": "f016cbe69465a1208d8cab63d4d81089142e3de1d05fd8832c61e4a1f9238f54"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-pingone_0.23.0_freebsd_386.zip",
+          "download_url": "https://github.com/pingidentity/terraform-provider-pingone/releases/download/v0.23.0/terraform-provider-pingone_0.23.0_freebsd_386.zip",
+          "shasum": "68da8feff80f951e05492199e19545b6b93b767ae079f374a25904c76b1fe111"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-pingone_0.23.0_freebsd_arm.zip",
+          "download_url": "https://github.com/pingidentity/terraform-provider-pingone/releases/download/v0.23.0/terraform-provider-pingone_0.23.0_freebsd_arm.zip",
+          "shasum": "0addaeb2dab92d0fa327279a9c926bb69b72c65d52cd015baa980b02a4860eb9"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-pingone_0.23.0_windows_amd64.zip",
+          "download_url": "https://github.com/pingidentity/terraform-provider-pingone/releases/download/v0.23.0/terraform-provider-pingone_0.23.0_windows_amd64.zip",
+          "shasum": "c9401995d55169ccfcba9960edee155e83c8f454ed130b71b2f4f3432cd361b5"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-pingone_0.23.0_linux_arm.zip",
+          "download_url": "https://github.com/pingidentity/terraform-provider-pingone/releases/download/v0.23.0/terraform-provider-pingone_0.23.0_linux_arm.zip",
+          "shasum": "7aa0af0374ff399f47bdcaa2ff4c72ad957e4234cbaf481e9af4fec83c98fc9f"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-pingone_0.23.0_windows_386.zip",
+          "download_url": "https://github.com/pingidentity/terraform-provider-pingone/releases/download/v0.23.0/terraform-provider-pingone_0.23.0_windows_386.zip",
+          "shasum": "9524209528a883fc7c1c225941553d292255154e1677178fd12524853fa2a4c5"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-pingone_0.23.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/pingidentity/terraform-provider-pingone/releases/download/v0.23.0/terraform-provider-pingone_0.23.0_freebsd_arm64.zip",
+          "shasum": "8e12974495cb482cf12242ca4aced716c337e3a791f1fa0f6042e271b97432e7"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-pingone_0.23.0_windows_arm.zip",
+          "download_url": "https://github.com/pingidentity/terraform-provider-pingone/releases/download/v0.23.0/terraform-provider-pingone_0.23.0_windows_arm.zip",
+          "shasum": "129a8c0b1ddc0b38a6f010df93100a78f69079351e35d503ce9e0622bacf68b2"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-pingone_0.23.0_linux_amd64.zip",
+          "download_url": "https://github.com/pingidentity/terraform-provider-pingone/releases/download/v0.23.0/terraform-provider-pingone_0.23.0_linux_amd64.zip",
+          "shasum": "550c422648e7c454ab26f24da830b8926fa3b9fcde35d4349b9a9c2e32d7b479"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-pingone_0.23.0_linux_arm64.zip",
+          "download_url": "https://github.com/pingidentity/terraform-provider-pingone/releases/download/v0.23.0/terraform-provider-pingone_0.23.0_linux_arm64.zip",
+          "shasum": "1b24c47cc129665e9ac6bcdf81b0505f06686dddf81e9c61b25fe3f9acb463f1"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-pingone_0.23.0_darwin_amd64.zip",
+          "download_url": "https://github.com/pingidentity/terraform-provider-pingone/releases/download/v0.23.0/terraform-provider-pingone_0.23.0_darwin_amd64.zip",
+          "shasum": "93889a91aff1f33eb2570761e7e53f5d99f490d6d5d04a342adea8941dacc022"
+        }
+      ]
+    },
+    {
       "version": "0.22.0",
       "protocols": [
         "5.0"
