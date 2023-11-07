@@ -2,6 +2,114 @@
   "repository": "https://github.com/ori-edge/terraform-provider-ogc",
   "versions": [
     {
+      "version": "0.2.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/ori-edge/terraform-provider-ogc/releases/download/v0.2.0/terraform-provider-ogc_0.2.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/ori-edge/terraform-provider-ogc/releases/download/v0.2.0/terraform-provider-ogc_0.2.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-ogc_0.2.0_freebsd_arm.zip",
+          "download_url": "https://github.com/ori-edge/terraform-provider-ogc/releases/download/v0.2.0/terraform-provider-ogc_0.2.0_freebsd_arm.zip",
+          "shasum": "05ad56094e0840051c3bc00d328f589b9ae5c8d0913c4c957dcee592c5532c30"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-ogc_0.2.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/ori-edge/terraform-provider-ogc/releases/download/v0.2.0/terraform-provider-ogc_0.2.0_freebsd_arm64.zip",
+          "shasum": "52e4db717d2193c6afd2d28e122f28b29f30ecaf1c2e74647444f0b69916483d"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-ogc_0.2.0_windows_arm64.zip",
+          "download_url": "https://github.com/ori-edge/terraform-provider-ogc/releases/download/v0.2.0/terraform-provider-ogc_0.2.0_windows_arm64.zip",
+          "shasum": "179d4e3a9d36f1da658ac1ef2be9ba3856624e5ab0ef77f1bb9de44bcadabecf"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-ogc_0.2.0_freebsd_386.zip",
+          "download_url": "https://github.com/ori-edge/terraform-provider-ogc/releases/download/v0.2.0/terraform-provider-ogc_0.2.0_freebsd_386.zip",
+          "shasum": "5f8c1a382ffc0ee57ceba1c5223fa95be2233ddf1431475a0c6a5a3940658af0"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-ogc_0.2.0_windows_386.zip",
+          "download_url": "https://github.com/ori-edge/terraform-provider-ogc/releases/download/v0.2.0/terraform-provider-ogc_0.2.0_windows_386.zip",
+          "shasum": "97dd2722f64e6c4dcfaf8d2d851f54a7e7ac023c471e16ccbb402e43f074c516"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-ogc_0.2.0_linux_386.zip",
+          "download_url": "https://github.com/ori-edge/terraform-provider-ogc/releases/download/v0.2.0/terraform-provider-ogc_0.2.0_linux_386.zip",
+          "shasum": "41f35aa48b8180024c78f01d4303f326e97e2bc7e7360075ce88b31ea8fb733f"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-ogc_0.2.0_windows_arm.zip",
+          "download_url": "https://github.com/ori-edge/terraform-provider-ogc/releases/download/v0.2.0/terraform-provider-ogc_0.2.0_windows_arm.zip",
+          "shasum": "a8487696cd95f60b700d4f55fd939a3e0d56e048c2d531871b952f364cd4dad7"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-ogc_0.2.0_linux_amd64.zip",
+          "download_url": "https://github.com/ori-edge/terraform-provider-ogc/releases/download/v0.2.0/terraform-provider-ogc_0.2.0_linux_amd64.zip",
+          "shasum": "1626dce14349d8d05f5f0ac549cbf908e46a81f288673fe141b6772075861f3c"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-ogc_0.2.0_linux_arm.zip",
+          "download_url": "https://github.com/ori-edge/terraform-provider-ogc/releases/download/v0.2.0/terraform-provider-ogc_0.2.0_linux_arm.zip",
+          "shasum": "c957faf31dd590d77facc4af83a8f2675260d54a4b9ca0279f55ec5584a8a0ee"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-ogc_0.2.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/ori-edge/terraform-provider-ogc/releases/download/v0.2.0/terraform-provider-ogc_0.2.0_freebsd_amd64.zip",
+          "shasum": "f1fcfc992f525002d699fb79a0c0656ea1b2af57f2f511d616b46c1691fe5188"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-ogc_0.2.0_darwin_amd64.zip",
+          "download_url": "https://github.com/ori-edge/terraform-provider-ogc/releases/download/v0.2.0/terraform-provider-ogc_0.2.0_darwin_amd64.zip",
+          "shasum": "bf73d4c8c7580bc617d30df1b9a3c188cbb5ba7ec98c45fe45a14e8a80886a1d"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-ogc_0.2.0_linux_arm64.zip",
+          "download_url": "https://github.com/ori-edge/terraform-provider-ogc/releases/download/v0.2.0/terraform-provider-ogc_0.2.0_linux_arm64.zip",
+          "shasum": "ff1854970fbc768ac3a7458f251e9702dba037ce51b31f04a0a561b0b9f582cf"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-ogc_0.2.0_windows_amd64.zip",
+          "download_url": "https://github.com/ori-edge/terraform-provider-ogc/releases/download/v0.2.0/terraform-provider-ogc_0.2.0_windows_amd64.zip",
+          "shasum": "f319b8e213b3377ab4c56bcbb4a460d4dc1d4430de3a3a7a2ac764c4623b181b"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-ogc_0.2.0_darwin_arm64.zip",
+          "download_url": "https://github.com/ori-edge/terraform-provider-ogc/releases/download/v0.2.0/terraform-provider-ogc_0.2.0_darwin_arm64.zip",
+          "shasum": "366cc52f2c9087620248ff14eb7fcac5c11cf694af1fdb4ae93ac69ee708d077"
+        }
+      ]
+    },
+    {
       "version": "0.1.0",
       "protocols": [
         "5.0"
