@@ -2,6 +2,37 @@
   "repository": "https://github.com/valtix-security/terraform-provider-valtix",
   "versions": [
     {
+      "version": "23.10.1",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/valtix-security/terraform-provider-valtix/releases/download/v23.10.1/terraform-provider-valtix_23.10.1_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/valtix-security/terraform-provider-valtix/releases/download/v23.10.1/terraform-provider-valtix_23.10.1_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-valtix_23.10.1_windows_amd64.zip",
+          "download_url": "https://github.com/valtix-security/terraform-provider-valtix/releases/download/v23.10.1/terraform-provider-valtix_23.10.1_windows_amd64.zip",
+          "shasum": "99d8428dbd63b76e904c09918265fd72febc71bfd15a08a26cb0e4014b5e41c8"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-valtix_23.10.1_darwin_amd64.zip",
+          "download_url": "https://github.com/valtix-security/terraform-provider-valtix/releases/download/v23.10.1/terraform-provider-valtix_23.10.1_darwin_amd64.zip",
+          "shasum": "b17234a02aa52e7ea675122421eff42b5250c2db0419d784df01c9ea3324b127"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-valtix_23.10.1_linux_amd64.zip",
+          "download_url": "https://github.com/valtix-security/terraform-provider-valtix/releases/download/v23.10.1/terraform-provider-valtix_23.10.1_linux_amd64.zip",
+          "shasum": "4a271d96030bddbfbce0fdfc4b958c135ae351bbeaef15291d9f6c53a38afa8b"
+        }
+      ]
+    },
+    {
       "version": "23.8.1",
       "protocols": [
         "5.0"
