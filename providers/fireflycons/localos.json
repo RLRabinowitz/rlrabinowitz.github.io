@@ -2,6 +2,114 @@
   "repository": "https://github.com/fireflycons/terraform-provider-localos",
   "versions": [
     {
+      "version": "0.2.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/fireflycons/terraform-provider-localos/releases/download/v0.2.0/terraform-provider-localos_0.2.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/fireflycons/terraform-provider-localos/releases/download/v0.2.0/terraform-provider-localos_0.2.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-localos_0.2.0_linux_arm64.zip",
+          "download_url": "https://github.com/fireflycons/terraform-provider-localos/releases/download/v0.2.0/terraform-provider-localos_0.2.0_linux_arm64.zip",
+          "shasum": "8a34da91ef0df04e115a02141897d55f514e5725942f806d7292a7eef48abdfa"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-localos_0.2.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/fireflycons/terraform-provider-localos/releases/download/v0.2.0/terraform-provider-localos_0.2.0_freebsd_arm64.zip",
+          "shasum": "f8ae73e16a26ea14c719ae48b9af6c65d20e8a505088ab90b4487ca8badf24f0"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-localos_0.2.0_linux_386.zip",
+          "download_url": "https://github.com/fireflycons/terraform-provider-localos/releases/download/v0.2.0/terraform-provider-localos_0.2.0_linux_386.zip",
+          "shasum": "ab5e90a44ad9ae5b5c6b56a6171086d80952935368ef50b3400aaf6c50d53c02"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-localos_0.2.0_windows_amd64.zip",
+          "download_url": "https://github.com/fireflycons/terraform-provider-localos/releases/download/v0.2.0/terraform-provider-localos_0.2.0_windows_amd64.zip",
+          "shasum": "f4c7f304bd8a3c102004a5c311b64555cf1239277eda5a485de1a6df19e84126"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-localos_0.2.0_windows_arm64.zip",
+          "download_url": "https://github.com/fireflycons/terraform-provider-localos/releases/download/v0.2.0/terraform-provider-localos_0.2.0_windows_arm64.zip",
+          "shasum": "a1f2b7bad3a3ec580f0ad0d881c5677c25a9f2f069228d21f80bedb8bc01f195"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-localos_0.2.0_freebsd_386.zip",
+          "download_url": "https://github.com/fireflycons/terraform-provider-localos/releases/download/v0.2.0/terraform-provider-localos_0.2.0_freebsd_386.zip",
+          "shasum": "250513858964796cda17bb993e99cf10537cff38a08d707babdd824830cb17ca"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-localos_0.2.0_linux_amd64.zip",
+          "download_url": "https://github.com/fireflycons/terraform-provider-localos/releases/download/v0.2.0/terraform-provider-localos_0.2.0_linux_amd64.zip",
+          "shasum": "1ae6344bfb7add877e557c1f05bd097cda4f6b42c6a2b39de58fd700689a1fe6"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-localos_0.2.0_freebsd_arm.zip",
+          "download_url": "https://github.com/fireflycons/terraform-provider-localos/releases/download/v0.2.0/terraform-provider-localos_0.2.0_freebsd_arm.zip",
+          "shasum": "c9cbfdef6156537d849e732679dd09aafd58f93b7e1e25bb6a7b13599fc35a44"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-localos_0.2.0_darwin_amd64.zip",
+          "download_url": "https://github.com/fireflycons/terraform-provider-localos/releases/download/v0.2.0/terraform-provider-localos_0.2.0_darwin_amd64.zip",
+          "shasum": "79be1601b919c9ec931c573ce91271530b0fbcbf8b81d751f897b331538aaffe"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-localos_0.2.0_linux_arm.zip",
+          "download_url": "https://github.com/fireflycons/terraform-provider-localos/releases/download/v0.2.0/terraform-provider-localos_0.2.0_linux_arm.zip",
+          "shasum": "f5e39d8dafd0bf2f6cbeb437bce2863ad417d7a3c2398cf924950dc1c5c14e3c"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-localos_0.2.0_windows_arm.zip",
+          "download_url": "https://github.com/fireflycons/terraform-provider-localos/releases/download/v0.2.0/terraform-provider-localos_0.2.0_windows_arm.zip",
+          "shasum": "72acbf6a337a80ab6a5a376ec3b153b9e028ce8a5d7f77efdb721de83431750a"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-localos_0.2.0_darwin_arm64.zip",
+          "download_url": "https://github.com/fireflycons/terraform-provider-localos/releases/download/v0.2.0/terraform-provider-localos_0.2.0_darwin_arm64.zip",
+          "shasum": "7b11ac43ec63c35dbd386732f2a5de6c287a2e5e374eb9de615237ae4166bb0b"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-localos_0.2.0_windows_386.zip",
+          "download_url": "https://github.com/fireflycons/terraform-provider-localos/releases/download/v0.2.0/terraform-provider-localos_0.2.0_windows_386.zip",
+          "shasum": "02ab56b3d05f270b6388e1f06417a19f1feb1bc637f8d5c17802c10a7cd5abc4"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-localos_0.2.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/fireflycons/terraform-provider-localos/releases/download/v0.2.0/terraform-provider-localos_0.2.0_freebsd_amd64.zip",
+          "shasum": "8b7d803bb8ab93602c6da14c2f5ba11811bd2a56c1c977f4ef13bcbf8e37adb6"
+        }
+      ]
+    },
+    {
       "version": "0.1.2",
       "protocols": [
         "5.0"
