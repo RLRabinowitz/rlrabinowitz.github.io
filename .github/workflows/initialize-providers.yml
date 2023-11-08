@@ -30,7 +30,7 @@ jobs:
           echo "files=$files" >> $GITHUB_OUTPUT
 
       - name: Initialize files
-        run: go run ./cmd/main.go update-experimental ${{ steps.list-files.outputs.files }}
+        run: go run ./cmd/main.go update ${{ steps.list-files.outputs.files }}
 
       - uses: stefanzweifel/git-auto-commit-action@v5
         with:

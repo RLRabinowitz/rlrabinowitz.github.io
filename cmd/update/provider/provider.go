@@ -30,7 +30,7 @@ func Update(pathToFile string, experimental bool) error {
 	}
 
 	if !experimental {
-		shouldUpdate, err := shouldUpdateByTags(p, pathToFile)
+		shouldUpdate, err := shouldUpdateByRss(p, pathToFile)
 		if err != nil {
 			return err
 		}
