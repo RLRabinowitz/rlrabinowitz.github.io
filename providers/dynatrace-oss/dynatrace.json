@@ -2,6 +2,114 @@
   "repository": "https://github.com/dynatrace-oss/terraform-provider-dynatrace",
   "versions": [
     {
+      "version": "1.46.1",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/dynatrace-oss/terraform-provider-dynatrace/releases/download/v1.46.1/terraform-provider-dynatrace_1.46.1_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/dynatrace-oss/terraform-provider-dynatrace/releases/download/v1.46.1/terraform-provider-dynatrace_1.46.1_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-dynatrace_1.46.1_darwin_amd64.zip",
+          "download_url": "https://github.com/dynatrace-oss/terraform-provider-dynatrace/releases/download/v1.46.1/terraform-provider-dynatrace_1.46.1_darwin_amd64.zip",
+          "shasum": "6151d9066518d87ff7a3fd05ba3af75901c20a664cfbe71321a7db8f10e371d8"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-dynatrace_1.46.1_windows_arm.zip",
+          "download_url": "https://github.com/dynatrace-oss/terraform-provider-dynatrace/releases/download/v1.46.1/terraform-provider-dynatrace_1.46.1_windows_arm.zip",
+          "shasum": "4cb85831b030531a2c8d0ea61d0e435eceee9df3885595dbf3fb642fc3e13eaa"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-dynatrace_1.46.1_windows_386.zip",
+          "download_url": "https://github.com/dynatrace-oss/terraform-provider-dynatrace/releases/download/v1.46.1/terraform-provider-dynatrace_1.46.1_windows_386.zip",
+          "shasum": "d4a3eb764610353e426ed6b6fa9fe56699ff96d26484771142b70491fb6b09cf"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-dynatrace_1.46.1_linux_386.zip",
+          "download_url": "https://github.com/dynatrace-oss/terraform-provider-dynatrace/releases/download/v1.46.1/terraform-provider-dynatrace_1.46.1_linux_386.zip",
+          "shasum": "833d2325e0dd09c204d8e47bb4821c21b8193e887b165be192bca66d52187e9c"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-dynatrace_1.46.1_windows_amd64.zip",
+          "download_url": "https://github.com/dynatrace-oss/terraform-provider-dynatrace/releases/download/v1.46.1/terraform-provider-dynatrace_1.46.1_windows_amd64.zip",
+          "shasum": "d254395a6696145d9f17b4728fd4ec3969c19a18d745d354e938b82cebcc1556"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-dynatrace_1.46.1_freebsd_arm64.zip",
+          "download_url": "https://github.com/dynatrace-oss/terraform-provider-dynatrace/releases/download/v1.46.1/terraform-provider-dynatrace_1.46.1_freebsd_arm64.zip",
+          "shasum": "a1bc7caf18577070325bdfd0f5a76cbd4aada144a5378b422a37be0c46018b9d"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-dynatrace_1.46.1_linux_arm.zip",
+          "download_url": "https://github.com/dynatrace-oss/terraform-provider-dynatrace/releases/download/v1.46.1/terraform-provider-dynatrace_1.46.1_linux_arm.zip",
+          "shasum": "287b13aaf735dc14064c90373ae441b1b6a94c2b3db6b640d442c2f379a9bbaf"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-dynatrace_1.46.1_darwin_arm64.zip",
+          "download_url": "https://github.com/dynatrace-oss/terraform-provider-dynatrace/releases/download/v1.46.1/terraform-provider-dynatrace_1.46.1_darwin_arm64.zip",
+          "shasum": "b81a2f38d22b9b08bf9dba8cf2aa49f7c73c4c1faa045e900209696c6e5cfe61"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-dynatrace_1.46.1_linux_arm64.zip",
+          "download_url": "https://github.com/dynatrace-oss/terraform-provider-dynatrace/releases/download/v1.46.1/terraform-provider-dynatrace_1.46.1_linux_arm64.zip",
+          "shasum": "aa0b9965996e5312f76d0fd88132fe30eb505cf602457aa80be99f988cfbd8c3"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-dynatrace_1.46.1_freebsd_386.zip",
+          "download_url": "https://github.com/dynatrace-oss/terraform-provider-dynatrace/releases/download/v1.46.1/terraform-provider-dynatrace_1.46.1_freebsd_386.zip",
+          "shasum": "62779dcc65bd9662a89d966f6cf5c45717a51f2aa97ef8b9956632c426c2e361"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-dynatrace_1.46.1_freebsd_arm.zip",
+          "download_url": "https://github.com/dynatrace-oss/terraform-provider-dynatrace/releases/download/v1.46.1/terraform-provider-dynatrace_1.46.1_freebsd_arm.zip",
+          "shasum": "687e68a20c64cd1521a21314e250b3c674055ea55b54f579ab071d8329d01e1e"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-dynatrace_1.46.1_linux_amd64.zip",
+          "download_url": "https://github.com/dynatrace-oss/terraform-provider-dynatrace/releases/download/v1.46.1/terraform-provider-dynatrace_1.46.1_linux_amd64.zip",
+          "shasum": "55d265decc8632db26c9622f4c1c7c32c4113e6817bf2778b6ffcbeb596a1d3d"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-dynatrace_1.46.1_windows_arm64.zip",
+          "download_url": "https://github.com/dynatrace-oss/terraform-provider-dynatrace/releases/download/v1.46.1/terraform-provider-dynatrace_1.46.1_windows_arm64.zip",
+          "shasum": "0a6d5c36eed166576c17bb7e59315660d07d95b597cee13d95066c0b71d10bf1"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-dynatrace_1.46.1_freebsd_amd64.zip",
+          "download_url": "https://github.com/dynatrace-oss/terraform-provider-dynatrace/releases/download/v1.46.1/terraform-provider-dynatrace_1.46.1_freebsd_amd64.zip",
+          "shasum": "f71ae6fc12f99f499140bd3531e6354914b00985b19cd48199fea4a3e44565b0"
+        }
+      ]
+    },
+    {
       "version": "1.46.0",
       "protocols": [
         "5.0"

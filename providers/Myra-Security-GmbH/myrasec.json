@@ -2,6 +2,114 @@
   "repository": "https://github.com/Myra-Security-GmbH/terraform-provider-myrasec",
   "versions": [
     {
+      "version": "1.65.2",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/Myra-Security-GmbH/terraform-provider-myrasec/releases/download/v1.65.2/terraform-provider-myrasec_1.65.2_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/Myra-Security-GmbH/terraform-provider-myrasec/releases/download/v1.65.2/terraform-provider-myrasec_1.65.2_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-myrasec_1.65.2_freebsd_arm.zip",
+          "download_url": "https://github.com/Myra-Security-GmbH/terraform-provider-myrasec/releases/download/v1.65.2/terraform-provider-myrasec_1.65.2_freebsd_arm.zip",
+          "shasum": "8d5afb17fbded566a6ab8914f5523c2a136716782d38e452e75b1df7dea8d209"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-myrasec_1.65.2_windows_386.zip",
+          "download_url": "https://github.com/Myra-Security-GmbH/terraform-provider-myrasec/releases/download/v1.65.2/terraform-provider-myrasec_1.65.2_windows_386.zip",
+          "shasum": "2e42163ef2c8d2111f849f45003ae3ae2bb9f19477f7722502d4836394d824f5"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-myrasec_1.65.2_linux_386.zip",
+          "download_url": "https://github.com/Myra-Security-GmbH/terraform-provider-myrasec/releases/download/v1.65.2/terraform-provider-myrasec_1.65.2_linux_386.zip",
+          "shasum": "1011a19bc22d7727599f655ab4b1971f889318a16cf05cc356c5bd01770f7184"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-myrasec_1.65.2_windows_arm64.zip",
+          "download_url": "https://github.com/Myra-Security-GmbH/terraform-provider-myrasec/releases/download/v1.65.2/terraform-provider-myrasec_1.65.2_windows_arm64.zip",
+          "shasum": "3d753e7c8c34ffe96a2fe017c1c8ce1a588aed4534fe37fd697c14122abb6ef4"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-myrasec_1.65.2_freebsd_arm64.zip",
+          "download_url": "https://github.com/Myra-Security-GmbH/terraform-provider-myrasec/releases/download/v1.65.2/terraform-provider-myrasec_1.65.2_freebsd_arm64.zip",
+          "shasum": "952a86348aa81010cd3660905d5bf221845ebc56e0d843f91c13be5550537546"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-myrasec_1.65.2_linux_arm64.zip",
+          "download_url": "https://github.com/Myra-Security-GmbH/terraform-provider-myrasec/releases/download/v1.65.2/terraform-provider-myrasec_1.65.2_linux_arm64.zip",
+          "shasum": "72783e84c46710d7812795ae9a70f42cc5432c4d3ae853d0ad254a8aa41675a8"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-myrasec_1.65.2_freebsd_amd64.zip",
+          "download_url": "https://github.com/Myra-Security-GmbH/terraform-provider-myrasec/releases/download/v1.65.2/terraform-provider-myrasec_1.65.2_freebsd_amd64.zip",
+          "shasum": "d5d339dc72a45cb46ecb13279191205a10959c5e60e16e393875eb22d026a3af"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-myrasec_1.65.2_windows_amd64.zip",
+          "download_url": "https://github.com/Myra-Security-GmbH/terraform-provider-myrasec/releases/download/v1.65.2/terraform-provider-myrasec_1.65.2_windows_amd64.zip",
+          "shasum": "306024957db03c8289a01572fddc5788bc0e2886ae48643982bb1e0660d78e7a"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-myrasec_1.65.2_windows_arm.zip",
+          "download_url": "https://github.com/Myra-Security-GmbH/terraform-provider-myrasec/releases/download/v1.65.2/terraform-provider-myrasec_1.65.2_windows_arm.zip",
+          "shasum": "9c61d4ad656200dc94e8e30eb0f34566ce98010dbcc849ca3f5c6176812736d3"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-myrasec_1.65.2_freebsd_386.zip",
+          "download_url": "https://github.com/Myra-Security-GmbH/terraform-provider-myrasec/releases/download/v1.65.2/terraform-provider-myrasec_1.65.2_freebsd_386.zip",
+          "shasum": "477f03305c561fca7938aaab31415cfb3ae1eef06d6d5868c680ab0326833770"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-myrasec_1.65.2_darwin_arm64.zip",
+          "download_url": "https://github.com/Myra-Security-GmbH/terraform-provider-myrasec/releases/download/v1.65.2/terraform-provider-myrasec_1.65.2_darwin_arm64.zip",
+          "shasum": "bb9746fd03b503bf5dd56db143f6c3005f1270f85909ba04e074d463a8f1758b"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-myrasec_1.65.2_linux_arm.zip",
+          "download_url": "https://github.com/Myra-Security-GmbH/terraform-provider-myrasec/releases/download/v1.65.2/terraform-provider-myrasec_1.65.2_linux_arm.zip",
+          "shasum": "382a62bd91a17f5e2f86ca1e1d1d7f06a6720ce24a7e241962604115a84e6750"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-myrasec_1.65.2_linux_amd64.zip",
+          "download_url": "https://github.com/Myra-Security-GmbH/terraform-provider-myrasec/releases/download/v1.65.2/terraform-provider-myrasec_1.65.2_linux_amd64.zip",
+          "shasum": "0ac6c169d7bc96406fbe3d02ea82be7afc80d9c96751b96be30a5e54166ab2c4"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-myrasec_1.65.2_darwin_amd64.zip",
+          "download_url": "https://github.com/Myra-Security-GmbH/terraform-provider-myrasec/releases/download/v1.65.2/terraform-provider-myrasec_1.65.2_darwin_amd64.zip",
+          "shasum": "f148fbcda89dce67bf30e7afee3ad937eaf9a429ae65aaeaca660767435c4e58"
+        }
+      ]
+    },
+    {
       "version": "1.64.1",
       "protocols": [
         "5.0"
