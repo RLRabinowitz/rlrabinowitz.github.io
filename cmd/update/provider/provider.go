@@ -1,11 +1,13 @@
 package provider
 
 import (
+	"context"
 	"encoding/json"
 	"fmt"
 	"github.com/mmcdole/gofeed"
 	"golang.org/x/mod/semver"
 	"log"
+	"net/http"
 	providerInitialize "rlrabinowitz.github.io/cmd/initialize/provider"
 	"rlrabinowitz.github.io/internal"
 
@@ -106,10 +108,46 @@ func shouldUpdateByTags(p provider.Provider, pathToFile string) (bool, error) {
 	return true, nil
 }
 
+func getRssFeedAlternative(url string) (*gofeed.Feed, error) {
+	client := http.Client{}
+
+	req, err := http.NewRequestWithContext(context.Background(), "GET", url, nil)
+	if err != nil {
+		return nil, err
+	}
+	req.Header.Set("User-Agent", "Gofeed/1.0")
+
+	token := os.Getenv("GH_TOKEN")
+
+	req.Header.Set("Authorization", fmt.Sprintf("Bearer %s", token))
+
+	resp, err := client.Do(req)
+
+	if err != nil {
+		return nil, err
+	}
+
+	if resp != nil {
+		defer func() {
+			ce := resp.Body.Close()
+			if ce != nil {
+				err = ce
+			}
+		}()
+	}
+
+	if resp.StatusCode < 200 || resp.StatusCode >= 300 {
+		return nil, fmt.Errorf("got error %d", resp.StatusCode)
+	}
+
+	return gofeed.NewParser().Parse(resp.Body)
+}
+
 func shouldUpdateByRss(p provider.Provider, pathToFile string) (bool, error) {
-	fp := gofeed.NewParser()
+	//fp := gofeed.NewParser()
 	rssUrl := getRssUrl(p)
-	feed, err := fp.ParseURL(rssUrl)
+	//feed, err := fp.ParseURL(rssUrl)
+	feed, err := getRssFeedAlternative(rssUrl)
 	if err != nil {
 		return false, err
 	}
