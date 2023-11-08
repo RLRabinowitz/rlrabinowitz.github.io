@@ -2,6 +2,114 @@
   "repository": "https://github.com/rickardgranberg/terraform-provider-vaultoperator",
   "versions": [
     {
+      "version": "0.1.11",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/rickardgranberg/terraform-provider-vaultoperator/releases/download/v0.1.11/terraform-provider-vaultoperator_0.1.11_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/rickardgranberg/terraform-provider-vaultoperator/releases/download/v0.1.11/terraform-provider-vaultoperator_0.1.11_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-vaultoperator_0.1.11_windows_386.zip",
+          "download_url": "https://github.com/rickardgranberg/terraform-provider-vaultoperator/releases/download/v0.1.11/terraform-provider-vaultoperator_0.1.11_windows_386.zip",
+          "shasum": "148770e8a6e721f3c083f24667ec38218f7780746cff1b547b2986f4e9d15cf8"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-vaultoperator_0.1.11_freebsd_386.zip",
+          "download_url": "https://github.com/rickardgranberg/terraform-provider-vaultoperator/releases/download/v0.1.11/terraform-provider-vaultoperator_0.1.11_freebsd_386.zip",
+          "shasum": "46fc8f80ee4d6c2593003590f5c94285d833ce00a4e205a74b1e3d79a724d014"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-vaultoperator_0.1.11_freebsd_amd64.zip",
+          "download_url": "https://github.com/rickardgranberg/terraform-provider-vaultoperator/releases/download/v0.1.11/terraform-provider-vaultoperator_0.1.11_freebsd_amd64.zip",
+          "shasum": "4ca6239c3d3b5caf29df88fedd38dbc269aa7c596899c963b2e9aee5e0c66a73"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-vaultoperator_0.1.11_darwin_arm64.zip",
+          "download_url": "https://github.com/rickardgranberg/terraform-provider-vaultoperator/releases/download/v0.1.11/terraform-provider-vaultoperator_0.1.11_darwin_arm64.zip",
+          "shasum": "c4fb2a0c167e4a60346b897e7ae0da8d89eb22d3952591160a2b49ca5d9b0471"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-vaultoperator_0.1.11_linux_arm.zip",
+          "download_url": "https://github.com/rickardgranberg/terraform-provider-vaultoperator/releases/download/v0.1.11/terraform-provider-vaultoperator_0.1.11_linux_arm.zip",
+          "shasum": "01eb8cb0963e5c5713b173af2777ce7bb8480faaa60ebcdae52a547654e9dbaf"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-vaultoperator_0.1.11_windows_amd64.zip",
+          "download_url": "https://github.com/rickardgranberg/terraform-provider-vaultoperator/releases/download/v0.1.11/terraform-provider-vaultoperator_0.1.11_windows_amd64.zip",
+          "shasum": "aee6317c46e7f74feab318fdc61c9bc1f3a15faa6cf2a4f1ca63d51af4abb338"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-vaultoperator_0.1.11_windows_arm.zip",
+          "download_url": "https://github.com/rickardgranberg/terraform-provider-vaultoperator/releases/download/v0.1.11/terraform-provider-vaultoperator_0.1.11_windows_arm.zip",
+          "shasum": "619788e120071a2290c81d2eadd5d1f22679ade67a5ff52f6e7c3cff60ed57ec"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-vaultoperator_0.1.11_freebsd_arm64.zip",
+          "download_url": "https://github.com/rickardgranberg/terraform-provider-vaultoperator/releases/download/v0.1.11/terraform-provider-vaultoperator_0.1.11_freebsd_arm64.zip",
+          "shasum": "2735f4e9ccdae8fdfe85b625bf5bdd4de5fb51184e47b632861bb1ae51cae400"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-vaultoperator_0.1.11_windows_arm64.zip",
+          "download_url": "https://github.com/rickardgranberg/terraform-provider-vaultoperator/releases/download/v0.1.11/terraform-provider-vaultoperator_0.1.11_windows_arm64.zip",
+          "shasum": "9ce9e2e8012573a0816a672427fd2d1f2e900396f09933816685777a469b50f0"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-vaultoperator_0.1.11_linux_amd64.zip",
+          "download_url": "https://github.com/rickardgranberg/terraform-provider-vaultoperator/releases/download/v0.1.11/terraform-provider-vaultoperator_0.1.11_linux_amd64.zip",
+          "shasum": "bf5b8377cdda490b51401f374a671d3e80a7659c588e8dad79fce0c1c0c17fbc"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-vaultoperator_0.1.11_linux_386.zip",
+          "download_url": "https://github.com/rickardgranberg/terraform-provider-vaultoperator/releases/download/v0.1.11/terraform-provider-vaultoperator_0.1.11_linux_386.zip",
+          "shasum": "b77583da33572ba825afafd360629b2a07e5149f5816183deae1d8dc5d269a27"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-vaultoperator_0.1.11_linux_arm64.zip",
+          "download_url": "https://github.com/rickardgranberg/terraform-provider-vaultoperator/releases/download/v0.1.11/terraform-provider-vaultoperator_0.1.11_linux_arm64.zip",
+          "shasum": "91eaf6e7557349d4c455c2e5c9c4c5b3a44a9ab63d6c67cdae4901ef5a488d10"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-vaultoperator_0.1.11_freebsd_arm.zip",
+          "download_url": "https://github.com/rickardgranberg/terraform-provider-vaultoperator/releases/download/v0.1.11/terraform-provider-vaultoperator_0.1.11_freebsd_arm.zip",
+          "shasum": "a352fd67b303ca3636a085f11b176c63f715dbe93f680117134be13fe614dbc9"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-vaultoperator_0.1.11_darwin_amd64.zip",
+          "download_url": "https://github.com/rickardgranberg/terraform-provider-vaultoperator/releases/download/v0.1.11/terraform-provider-vaultoperator_0.1.11_darwin_amd64.zip",
+          "shasum": "95432d950950fa21a23ae47b85c92a33290b8881c3321f16a0349f63728e28fc"
+        }
+      ]
+    },
+    {
       "version": "0.1.10",
       "protocols": [
         "5.0"
