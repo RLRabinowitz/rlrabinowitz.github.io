@@ -2,6 +2,114 @@
   "repository": "https://github.com/oracle/terraform-provider-oci",
   "versions": [
     {
+      "version": "5.20.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/oracle/terraform-provider-oci/releases/download/v5.20.0/terraform-provider-oci_5.20.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/oracle/terraform-provider-oci/releases/download/v5.20.0/terraform-provider-oci_5.20.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-oci_5.20.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/oracle/terraform-provider-oci/releases/download/v5.20.0/terraform-provider-oci_5.20.0_freebsd_amd64.zip",
+          "shasum": "f42230ebfdf2c51bb7e3a234a0881250605689db75df6248fa1c4502125a2210"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-oci_5.20.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/oracle/terraform-provider-oci/releases/download/v5.20.0/terraform-provider-oci_5.20.0_freebsd_arm64.zip",
+          "shasum": "445e716aa8a16d5c1b9c13cf46d3e79d9d4ce83cccd44be7350e475dfbe4ab0c"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-oci_5.20.0_darwin_amd64.zip",
+          "download_url": "https://github.com/oracle/terraform-provider-oci/releases/download/v5.20.0/terraform-provider-oci_5.20.0_darwin_amd64.zip",
+          "shasum": "fb15ea861a8812d2a9148c77a68deaf28d4b0c1f8d92f1e55dc7d5feb4c74c91"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-oci_5.20.0_windows_amd64.zip",
+          "download_url": "https://github.com/oracle/terraform-provider-oci/releases/download/v5.20.0/terraform-provider-oci_5.20.0_windows_amd64.zip",
+          "shasum": "6cf5b7e066734a0928cc992f48545891b1e7236e0bf0c3206bc21a33570818ff"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-oci_5.20.0_windows_arm.zip",
+          "download_url": "https://github.com/oracle/terraform-provider-oci/releases/download/v5.20.0/terraform-provider-oci_5.20.0_windows_arm.zip",
+          "shasum": "34c89e975af15e7cadd631bb5842d4c6ee7cc965cd5aa074e8f89282d42f7138"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-oci_5.20.0_freebsd_386.zip",
+          "download_url": "https://github.com/oracle/terraform-provider-oci/releases/download/v5.20.0/terraform-provider-oci_5.20.0_freebsd_386.zip",
+          "shasum": "693fb101416ddfae7727532ed6b408c5556bae3f9d3ada26afe5cdd6b23bd70d"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-oci_5.20.0_linux_386.zip",
+          "download_url": "https://github.com/oracle/terraform-provider-oci/releases/download/v5.20.0/terraform-provider-oci_5.20.0_linux_386.zip",
+          "shasum": "a9620464e73b2a773f89506a82340b497cf0ab52ece7fed3c636c0d72cc73fe6"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-oci_5.20.0_windows_arm64.zip",
+          "download_url": "https://github.com/oracle/terraform-provider-oci/releases/download/v5.20.0/terraform-provider-oci_5.20.0_windows_arm64.zip",
+          "shasum": "f3b1b940bcdcfe23cffdf52598e4e82cb9e3e5d2cb30fe1d954882f629f01e25"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-oci_5.20.0_linux_arm.zip",
+          "download_url": "https://github.com/oracle/terraform-provider-oci/releases/download/v5.20.0/terraform-provider-oci_5.20.0_linux_arm.zip",
+          "shasum": "4df88b6c60e621221e2408bcfec882b6ee81ee9df8a23b69edcbbd5e25eb7d93"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-oci_5.20.0_freebsd_arm.zip",
+          "download_url": "https://github.com/oracle/terraform-provider-oci/releases/download/v5.20.0/terraform-provider-oci_5.20.0_freebsd_arm.zip",
+          "shasum": "c4a7fca3b18105741bb1d87558b85713a48e105eeb097da06c064439f3bdfb47"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-oci_5.20.0_linux_arm64.zip",
+          "download_url": "https://github.com/oracle/terraform-provider-oci/releases/download/v5.20.0/terraform-provider-oci_5.20.0_linux_arm64.zip",
+          "shasum": "c7cfb905088b0858446c94bf3075d32fc99a590762811b389634907a5d5a7c7c"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-oci_5.20.0_linux_amd64.zip",
+          "download_url": "https://github.com/oracle/terraform-provider-oci/releases/download/v5.20.0/terraform-provider-oci_5.20.0_linux_amd64.zip",
+          "shasum": "0dba31993acda49457eabf2c0d482e9f8ae83bb1cab6a2843226b26f26798328"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-oci_5.20.0_windows_386.zip",
+          "download_url": "https://github.com/oracle/terraform-provider-oci/releases/download/v5.20.0/terraform-provider-oci_5.20.0_windows_386.zip",
+          "shasum": "e11f3713c58b0b4c2b9449291aa07744a8461f6784882463054eb6e0568e4236"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-oci_5.20.0_darwin_arm64.zip",
+          "download_url": "https://github.com/oracle/terraform-provider-oci/releases/download/v5.20.0/terraform-provider-oci_5.20.0_darwin_arm64.zip",
+          "shasum": "9bab4242cc57f30a544931ec0d5794cedd86ab44f0cbb9c00ad880aaec7f78d5"
+        }
+      ]
+    },
+    {
       "version": "5.19.0",
       "protocols": [
         "5.0"
