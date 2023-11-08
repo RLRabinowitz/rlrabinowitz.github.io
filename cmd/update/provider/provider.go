@@ -8,6 +8,7 @@ import (
 	"golang.org/x/mod/semver"
 	"log"
 	"net/http"
+	"regexp"
 	providerInitialize "rlrabinowitz.github.io/cmd/initialize/provider"
 	"rlrabinowitz.github.io/internal"
 
@@ -143,6 +144,36 @@ func getRssFeedAlternative(url string) (*gofeed.Feed, error) {
 	return gofeed.NewParser().Parse(resp.Body)
 }
 
+func getLastSemverTag(url string, feed *gofeed.Feed) (string, error) {
+	if len(feed.Items) < 1 {
+		log.Printf("No releases found in RSS feed %s", url)
+		return "", fmt.Errorf("no releases found in RSS feed %s", url)
+	}
+
+	for _, item := range feed.Items {
+		tag, err := extractTagFromRssItem(item)
+		if err != nil {
+			return "", err
+		}
+		if semver.IsValid(tag) {
+			return tag, nil
+		}
+	}
+
+	return "", fmt.Errorf("experimental Error: no semver tags found in RSS for provider %s", url)
+}
+
+func extractTagFromRssItem(item *gofeed.Item) (string, error) {
+	pattern := regexp.MustCompile(`.*\/releases\/tag\/(?P<Version>[a-zA-Z0-9\.\-\_]+)`)
+	matches := pattern.FindStringSubmatch(item.Link)
+
+	if matches == nil {
+		return "", fmt.Errorf("could not parse RSS item %s", item.Link)
+	}
+
+	return matches[pattern.SubexpIndex("Version")], nil
+}
+
 func shouldUpdateByRss(p provider.Provider, pathToFile string) (bool, error) {
 	//fp := gofeed.NewParser()
 	rssUrl := getRssUrl(p)
@@ -152,13 +183,14 @@ func shouldUpdateByRss(p provider.Provider, pathToFile string) (bool, error) {
 		return false, err
 	}
 
-	if len(feed.Items) < 1 {
-		log.Printf("No releases found in RSS feed %s", rssUrl)
-	}
-
 	log.Printf("Found %d releases in RSS feed %s", len(feed.Items), rssUrl)
-	latestRelease := feed.Items[0]
-	tagName := latestRelease.Title
+
+	//latestRelease := feed.Items[0]
+	//tagName := latestRelease.Title
+	tagName, err := getLastSemverTag(rssUrl, feed)
+	if err != nil {
+		return false, err
+	}
 
 	fileContent, err := getProviderFileContent(pathToFile)
 	if err != nil {
