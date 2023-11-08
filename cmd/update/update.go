@@ -13,7 +13,7 @@ type ExecutionResult struct {
 	Err      error
 }
 
-func Update(args []string) {
+func Update(args []string, experimental bool) {
 	log.Printf("Starting")
 	filePaths := getFilePathsToMigrate(args)
 
@@ -27,7 +27,7 @@ func Update(args []string) {
 			defer wg.Done()
 			var err error
 			if isProviderPath(filePath) {
-				err = provider.Update(filePath)
+				err = provider.Update(filePath, experimental)
 			} else {
 				// Right now there's no difference between the update and initialize action of modules
 				// as we just go over all tags and create the file from there

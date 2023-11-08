@@ -9,9 +9,10 @@ import (
 )
 
 const (
-	Publish    string = "publish"
-	Initialize        = "initialize"
-	Update            = "update"
+	Publish            string = "publish"
+	Initialize                = "initialize"
+	Update                    = "update"
+	UpdateExperimental        = "update-experimental"
 )
 
 // TODO use 3rd-party for commands
@@ -30,7 +31,9 @@ func main() {
 	} else if command == Initialize {
 		initialize.Run(args)
 	} else if command == Update {
-		update.Update(args)
+		update.Update(args, false)
+	} else if command == UpdateExperimental {
+		update.Update(args, true)
 	} else {
 		panic(fmt.Errorf("unexpected command: %s. Please run one of the following commands: publish, initialize, update", command))
 	}
