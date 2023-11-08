@@ -2,6 +2,114 @@
   "repository": "https://github.com/tabular-io/terraform-provider-tabular",
   "versions": [
     {
+      "version": "0.0.17",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/tabular-io/terraform-provider-tabular/releases/download/v0.0.17/terraform-provider-tabular_0.0.17_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/tabular-io/terraform-provider-tabular/releases/download/v0.0.17/terraform-provider-tabular_0.0.17_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-tabular_0.0.17_linux_arm.zip",
+          "download_url": "https://github.com/tabular-io/terraform-provider-tabular/releases/download/v0.0.17/terraform-provider-tabular_0.0.17_linux_arm.zip",
+          "shasum": "19f6f1876238bc11d1991164e6a07808cf2a9fd176cfd641e72f48496dfaa950"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-tabular_0.0.17_freebsd_amd64.zip",
+          "download_url": "https://github.com/tabular-io/terraform-provider-tabular/releases/download/v0.0.17/terraform-provider-tabular_0.0.17_freebsd_amd64.zip",
+          "shasum": "5866001eba9c911741cdc42c4cbe21d4580122a4ac39d38dfe331bb5101f4c99"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-tabular_0.0.17_windows_arm64.zip",
+          "download_url": "https://github.com/tabular-io/terraform-provider-tabular/releases/download/v0.0.17/terraform-provider-tabular_0.0.17_windows_arm64.zip",
+          "shasum": "e37de9d653aa49ee4ec47c2bca0fb0a08cf4ae295aac6aef05462778b9c8008f"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-tabular_0.0.17_linux_arm64.zip",
+          "download_url": "https://github.com/tabular-io/terraform-provider-tabular/releases/download/v0.0.17/terraform-provider-tabular_0.0.17_linux_arm64.zip",
+          "shasum": "a24576ae7ed67bf0fed8ef3ed10a3746ca63287f31c967ceb4cee428dce01b4d"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-tabular_0.0.17_linux_386.zip",
+          "download_url": "https://github.com/tabular-io/terraform-provider-tabular/releases/download/v0.0.17/terraform-provider-tabular_0.0.17_linux_386.zip",
+          "shasum": "ce80cb4f49b861360654879de53b1b9906d6c81f9332c5edfd9431accbaa5d67"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-tabular_0.0.17_freebsd_arm.zip",
+          "download_url": "https://github.com/tabular-io/terraform-provider-tabular/releases/download/v0.0.17/terraform-provider-tabular_0.0.17_freebsd_arm.zip",
+          "shasum": "13e78f17cdb68045ec69758b3bfa99bb8d0c29c5568aa23ed45eb6b413fcc7de"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-tabular_0.0.17_darwin_amd64.zip",
+          "download_url": "https://github.com/tabular-io/terraform-provider-tabular/releases/download/v0.0.17/terraform-provider-tabular_0.0.17_darwin_amd64.zip",
+          "shasum": "3392e8e0dddc412176f0db912cccb8b1e27fc463d1f6273fb3bb1564a5f58212"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-tabular_0.0.17_freebsd_arm64.zip",
+          "download_url": "https://github.com/tabular-io/terraform-provider-tabular/releases/download/v0.0.17/terraform-provider-tabular_0.0.17_freebsd_arm64.zip",
+          "shasum": "cbec5f2315fcc9a245be307e6c398021afaa58628ed8295ceb847d662d8f3423"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-tabular_0.0.17_windows_386.zip",
+          "download_url": "https://github.com/tabular-io/terraform-provider-tabular/releases/download/v0.0.17/terraform-provider-tabular_0.0.17_windows_386.zip",
+          "shasum": "1b60dabd3e2211f56bae4830c3540add6f6bb9621a4968dcd4e6b6b7b56aba11"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-tabular_0.0.17_windows_arm.zip",
+          "download_url": "https://github.com/tabular-io/terraform-provider-tabular/releases/download/v0.0.17/terraform-provider-tabular_0.0.17_windows_arm.zip",
+          "shasum": "63f7fef7f65fc83a7015e9ed4cf98a0a2175bcbce9e074d309680ea1c709d48f"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-tabular_0.0.17_linux_amd64.zip",
+          "download_url": "https://github.com/tabular-io/terraform-provider-tabular/releases/download/v0.0.17/terraform-provider-tabular_0.0.17_linux_amd64.zip",
+          "shasum": "1fbc1724ba2f1c18a80b338a0b9cadea25174b51c7c8d5d4fed74d00367a63cc"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-tabular_0.0.17_freebsd_386.zip",
+          "download_url": "https://github.com/tabular-io/terraform-provider-tabular/releases/download/v0.0.17/terraform-provider-tabular_0.0.17_freebsd_386.zip",
+          "shasum": "1663454b629a98e4567f23e1d738e919083cacfbac9d6797db3049fd21791030"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-tabular_0.0.17_windows_amd64.zip",
+          "download_url": "https://github.com/tabular-io/terraform-provider-tabular/releases/download/v0.0.17/terraform-provider-tabular_0.0.17_windows_amd64.zip",
+          "shasum": "829269c82398cb1ed2fb552d24280689b4c485c6b1866ef08fafc140c60b788d"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-tabular_0.0.17_darwin_arm64.zip",
+          "download_url": "https://github.com/tabular-io/terraform-provider-tabular/releases/download/v0.0.17/terraform-provider-tabular_0.0.17_darwin_arm64.zip",
+          "shasum": "b6b1f39c746384591b0470705c063553664dc286b693ef4cdbd4cbeb2e0dbf4e"
+        }
+      ]
+    },
+    {
       "version": "0.0.16",
       "protocols": [
         "5.0"
