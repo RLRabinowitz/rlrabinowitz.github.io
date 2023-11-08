@@ -2,6 +2,114 @@
   "repository": "https://github.com/megaport/terraform-provider-megaport",
   "versions": [
     {
+      "version": "0.4.1",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/megaport/terraform-provider-megaport/releases/download/v0.4.1/terraform-provider-megaport_0.4.1_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/megaport/terraform-provider-megaport/releases/download/v0.4.1/terraform-provider-megaport_0.4.1_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-megaport_0.4.1_freebsd_amd64.zip",
+          "download_url": "https://github.com/megaport/terraform-provider-megaport/releases/download/v0.4.1/terraform-provider-megaport_0.4.1_freebsd_amd64.zip",
+          "shasum": "43985d270ae40c8cd502fa0d092f56b0df9404983d25f08835f4a68b8bf65dcd"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-megaport_0.4.1_freebsd_arm.zip",
+          "download_url": "https://github.com/megaport/terraform-provider-megaport/releases/download/v0.4.1/terraform-provider-megaport_0.4.1_freebsd_arm.zip",
+          "shasum": "a0956d48bb3d213c73898e289b2ae0de64619c92ecdc32d78f49d4ac1df0175c"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-megaport_0.4.1_freebsd_arm64.zip",
+          "download_url": "https://github.com/megaport/terraform-provider-megaport/releases/download/v0.4.1/terraform-provider-megaport_0.4.1_freebsd_arm64.zip",
+          "shasum": "e4d162548abb43dd77137014612a6b540c02be26ee8d68615a3143685dde89dc"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-megaport_0.4.1_linux_arm.zip",
+          "download_url": "https://github.com/megaport/terraform-provider-megaport/releases/download/v0.4.1/terraform-provider-megaport_0.4.1_linux_arm.zip",
+          "shasum": "860f0feb87a171bdf5eca125efe89c03027acaa7f5a8c1d852f353099723a984"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-megaport_0.4.1_windows_arm.zip",
+          "download_url": "https://github.com/megaport/terraform-provider-megaport/releases/download/v0.4.1/terraform-provider-megaport_0.4.1_windows_arm.zip",
+          "shasum": "2b778f09aa697848f773015d8009d6080d020351377349c82403cbb22e941c6b"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-megaport_0.4.1_windows_arm64.zip",
+          "download_url": "https://github.com/megaport/terraform-provider-megaport/releases/download/v0.4.1/terraform-provider-megaport_0.4.1_windows_arm64.zip",
+          "shasum": "2b86ee7afc542e3751f7a25822e1490ce22c0207c7e998de54964f5e83ba6275"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-megaport_0.4.1_linux_386.zip",
+          "download_url": "https://github.com/megaport/terraform-provider-megaport/releases/download/v0.4.1/terraform-provider-megaport_0.4.1_linux_386.zip",
+          "shasum": "a2a969bd9356ca4d641905f24276847d5b7bdb80e164b290912b396a5501af99"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-megaport_0.4.1_linux_amd64.zip",
+          "download_url": "https://github.com/megaport/terraform-provider-megaport/releases/download/v0.4.1/terraform-provider-megaport_0.4.1_linux_amd64.zip",
+          "shasum": "504f04e7b763f4388524d764da9e47296d6e8a8391226cd2665d903719cb28c9"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-megaport_0.4.1_darwin_arm64.zip",
+          "download_url": "https://github.com/megaport/terraform-provider-megaport/releases/download/v0.4.1/terraform-provider-megaport_0.4.1_darwin_arm64.zip",
+          "shasum": "245863ad7cf163620d3f90d753a7296caca088b65a17eb16f77d02d3634ff0c7"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-megaport_0.4.1_freebsd_386.zip",
+          "download_url": "https://github.com/megaport/terraform-provider-megaport/releases/download/v0.4.1/terraform-provider-megaport_0.4.1_freebsd_386.zip",
+          "shasum": "ac28b2546ebf36f37479d9067ea88d9b5395e5f5350d977abdf3e38ca8f55cd8"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-megaport_0.4.1_darwin_amd64.zip",
+          "download_url": "https://github.com/megaport/terraform-provider-megaport/releases/download/v0.4.1/terraform-provider-megaport_0.4.1_darwin_amd64.zip",
+          "shasum": "3ad3e41242946a56830ccfcc65f7a1f3b4f8a525be95c09e49753f04698fd98d"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-megaport_0.4.1_windows_386.zip",
+          "download_url": "https://github.com/megaport/terraform-provider-megaport/releases/download/v0.4.1/terraform-provider-megaport_0.4.1_windows_386.zip",
+          "shasum": "973495ac8a3b1305f4ecdb88d809c61798e2dd97d42523303870c507f1045564"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-megaport_0.4.1_linux_arm64.zip",
+          "download_url": "https://github.com/megaport/terraform-provider-megaport/releases/download/v0.4.1/terraform-provider-megaport_0.4.1_linux_arm64.zip",
+          "shasum": "75612f79774cde3a2946d66177fac6906989a5e42f0077768241664e44df4942"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-megaport_0.4.1_windows_amd64.zip",
+          "download_url": "https://github.com/megaport/terraform-provider-megaport/releases/download/v0.4.1/terraform-provider-megaport_0.4.1_windows_amd64.zip",
+          "shasum": "26e0c9ee26202a50f62fbf644cc367a0ef34e020e91eead54d282eeee8e45863"
+        }
+      ]
+    },
+    {
       "version": "0.4.0",
       "protocols": [
         "5.0"
