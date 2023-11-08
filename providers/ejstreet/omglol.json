@@ -2,6 +2,114 @@
   "repository": "https://github.com/ejstreet/terraform-provider-omglol",
   "versions": [
     {
+      "version": "0.2.2",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/ejstreet/terraform-provider-omglol/releases/download/v0.2.2/terraform-provider-omglol_0.2.2_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/ejstreet/terraform-provider-omglol/releases/download/v0.2.2/terraform-provider-omglol_0.2.2_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-omglol_0.2.2_freebsd_arm.zip",
+          "download_url": "https://github.com/ejstreet/terraform-provider-omglol/releases/download/v0.2.2/terraform-provider-omglol_0.2.2_freebsd_arm.zip",
+          "shasum": "675ce90d3433f92475ad673b1f2d0d0329bed0efa4f8de90a639cb2655eb1f2f"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-omglol_0.2.2_linux_amd64.zip",
+          "download_url": "https://github.com/ejstreet/terraform-provider-omglol/releases/download/v0.2.2/terraform-provider-omglol_0.2.2_linux_amd64.zip",
+          "shasum": "6d4dd4c74435ded33416597a4dc722829f4b661ba89abbe7ab66438835973fe3"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-omglol_0.2.2_darwin_arm64.zip",
+          "download_url": "https://github.com/ejstreet/terraform-provider-omglol/releases/download/v0.2.2/terraform-provider-omglol_0.2.2_darwin_arm64.zip",
+          "shasum": "48b6e4a91ede0b5b6f50cff269581a75495efd26d2bdc49cac4ce13158ecb207"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-omglol_0.2.2_windows_arm64.zip",
+          "download_url": "https://github.com/ejstreet/terraform-provider-omglol/releases/download/v0.2.2/terraform-provider-omglol_0.2.2_windows_arm64.zip",
+          "shasum": "9175d2d123fa970e2f6175e84f476fce2cd1e4b4e13a9f638cf9258aff46eace"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-omglol_0.2.2_windows_386.zip",
+          "download_url": "https://github.com/ejstreet/terraform-provider-omglol/releases/download/v0.2.2/terraform-provider-omglol_0.2.2_windows_386.zip",
+          "shasum": "67ea791a3aeb9653c687888baad2fa68e75f6368f164350eab6590d667a6bc10"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-omglol_0.2.2_freebsd_arm64.zip",
+          "download_url": "https://github.com/ejstreet/terraform-provider-omglol/releases/download/v0.2.2/terraform-provider-omglol_0.2.2_freebsd_arm64.zip",
+          "shasum": "bb11c17401c375c6e9bbe960a070074e803fd7a03dc9c4bc9b8b7278b153c5aa"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-omglol_0.2.2_windows_arm.zip",
+          "download_url": "https://github.com/ejstreet/terraform-provider-omglol/releases/download/v0.2.2/terraform-provider-omglol_0.2.2_windows_arm.zip",
+          "shasum": "7648f02006a016f658ec2807231b0cf6ffceaa448f531a92742f659bf992dcc3"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-omglol_0.2.2_windows_amd64.zip",
+          "download_url": "https://github.com/ejstreet/terraform-provider-omglol/releases/download/v0.2.2/terraform-provider-omglol_0.2.2_windows_amd64.zip",
+          "shasum": "790cb4e8a636efa74f0f184b2c3ba287a00d08603c6165bd29ab17f9a3cccd7c"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-omglol_0.2.2_freebsd_386.zip",
+          "download_url": "https://github.com/ejstreet/terraform-provider-omglol/releases/download/v0.2.2/terraform-provider-omglol_0.2.2_freebsd_386.zip",
+          "shasum": "71932093348ef16e14f8a1ef7ce5b3b9748c21c75375aa3b9d6df86d4ce58066"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-omglol_0.2.2_linux_arm64.zip",
+          "download_url": "https://github.com/ejstreet/terraform-provider-omglol/releases/download/v0.2.2/terraform-provider-omglol_0.2.2_linux_arm64.zip",
+          "shasum": "e955853093b0f8643f7c82fe87b1541609bff026886dcc5cecbc8ec2b5696b34"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-omglol_0.2.2_darwin_amd64.zip",
+          "download_url": "https://github.com/ejstreet/terraform-provider-omglol/releases/download/v0.2.2/terraform-provider-omglol_0.2.2_darwin_amd64.zip",
+          "shasum": "f7f6a124be3b48eb6d166c85503eb8e95690376b1ea42892fd741a68115ae4ec"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-omglol_0.2.2_linux_arm.zip",
+          "download_url": "https://github.com/ejstreet/terraform-provider-omglol/releases/download/v0.2.2/terraform-provider-omglol_0.2.2_linux_arm.zip",
+          "shasum": "3eb9b4ce89fa93c60c1b4e02cfdc719b9b0ec5106842a5ecf2b0b820148313b5"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-omglol_0.2.2_linux_386.zip",
+          "download_url": "https://github.com/ejstreet/terraform-provider-omglol/releases/download/v0.2.2/terraform-provider-omglol_0.2.2_linux_386.zip",
+          "shasum": "9f70462d57b205d3e038fb0e8ee83d897e8632d9626a13c44668592b2870f9b7"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-omglol_0.2.2_freebsd_amd64.zip",
+          "download_url": "https://github.com/ejstreet/terraform-provider-omglol/releases/download/v0.2.2/terraform-provider-omglol_0.2.2_freebsd_amd64.zip",
+          "shasum": "f1f5f0bf50d8bf3859d3cd69f819c3dea6197656c21b58867e16f5b393c4f713"
+        }
+      ]
+    },
+    {
       "version": "0.2.1",
       "protocols": [
         "5.0"
