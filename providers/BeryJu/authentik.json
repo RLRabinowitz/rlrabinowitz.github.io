@@ -2,6 +2,114 @@
   "repository": "https://github.com/BeryJu/terraform-provider-authentik",
   "versions": [
     {
+      "version": "2023.10.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/goauthentik/terraform-provider-authentik/releases/download/v2023.10.0/terraform-provider-authentik_2023.10.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/goauthentik/terraform-provider-authentik/releases/download/v2023.10.0/terraform-provider-authentik_2023.10.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-authentik_2023.10.0_linux_amd64.zip",
+          "download_url": "https://github.com/goauthentik/terraform-provider-authentik/releases/download/v2023.10.0/terraform-provider-authentik_2023.10.0_linux_amd64.zip",
+          "shasum": "83d313d68d72019686fb0aa30dc256d6b94397df069efa9af592fc4f7e4ccf6c"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-authentik_2023.10.0_linux_386.zip",
+          "download_url": "https://github.com/goauthentik/terraform-provider-authentik/releases/download/v2023.10.0/terraform-provider-authentik_2023.10.0_linux_386.zip",
+          "shasum": "85f02dd87a27f0ea8c1df98de8077ca3bdeb4e172c2d4493dba4ad22db455103"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-authentik_2023.10.0_freebsd_386.zip",
+          "download_url": "https://github.com/goauthentik/terraform-provider-authentik/releases/download/v2023.10.0/terraform-provider-authentik_2023.10.0_freebsd_386.zip",
+          "shasum": "ae6adcc5b0cf661abbf65f9a585fbffeaa78e84409e028ef12d55b9ae89d0241"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-authentik_2023.10.0_darwin_amd64.zip",
+          "download_url": "https://github.com/goauthentik/terraform-provider-authentik/releases/download/v2023.10.0/terraform-provider-authentik_2023.10.0_darwin_amd64.zip",
+          "shasum": "1d649be216390208d78197c27a63ea3bc467be8b242fb575835671e0adf21523"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-authentik_2023.10.0_freebsd_arm.zip",
+          "download_url": "https://github.com/goauthentik/terraform-provider-authentik/releases/download/v2023.10.0/terraform-provider-authentik_2023.10.0_freebsd_arm.zip",
+          "shasum": "b268363560ebfe8b89ed8e78c9a0b255fceec0d3b480c8e9c84e49d8a7da9c7e"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-authentik_2023.10.0_linux_arm64.zip",
+          "download_url": "https://github.com/goauthentik/terraform-provider-authentik/releases/download/v2023.10.0/terraform-provider-authentik_2023.10.0_linux_arm64.zip",
+          "shasum": "01fa235282d58dfa12550a7ee5a24c9ac0e48892efc7a457a2706af939ede015"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-authentik_2023.10.0_windows_arm.zip",
+          "download_url": "https://github.com/goauthentik/terraform-provider-authentik/releases/download/v2023.10.0/terraform-provider-authentik_2023.10.0_windows_arm.zip",
+          "shasum": "8824471dc63a90fa6c7b98d122d948d040cb4d646640e255248163eaf6a059dc"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-authentik_2023.10.0_windows_386.zip",
+          "download_url": "https://github.com/goauthentik/terraform-provider-authentik/releases/download/v2023.10.0/terraform-provider-authentik_2023.10.0_windows_386.zip",
+          "shasum": "a7f0da13685673a7dfe257bd4ce5200ff8968b8960a5e617346cb4d854127540"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-authentik_2023.10.0_windows_amd64.zip",
+          "download_url": "https://github.com/goauthentik/terraform-provider-authentik/releases/download/v2023.10.0/terraform-provider-authentik_2023.10.0_windows_amd64.zip",
+          "shasum": "dd5cbca3b219caac0b412d12175d96f531f63ae363dabf4178649bf51171c5e9"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-authentik_2023.10.0_windows_arm64.zip",
+          "download_url": "https://github.com/goauthentik/terraform-provider-authentik/releases/download/v2023.10.0/terraform-provider-authentik_2023.10.0_windows_arm64.zip",
+          "shasum": "497f7620d385c074ec72c8c205e8f5c77fcead30931d49d3b2370618b6a4b424"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-authentik_2023.10.0_darwin_arm64.zip",
+          "download_url": "https://github.com/goauthentik/terraform-provider-authentik/releases/download/v2023.10.0/terraform-provider-authentik_2023.10.0_darwin_arm64.zip",
+          "shasum": "774f85fe6f7ab47477c537c86fcf7489c1c710519468ab4fa74a0f79273c38e8"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-authentik_2023.10.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/goauthentik/terraform-provider-authentik/releases/download/v2023.10.0/terraform-provider-authentik_2023.10.0_freebsd_arm64.zip",
+          "shasum": "c747004f9bbc55316c8c16a8a519bcd6fa5a5a183172de408151e9ca453e9e40"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-authentik_2023.10.0_linux_arm.zip",
+          "download_url": "https://github.com/goauthentik/terraform-provider-authentik/releases/download/v2023.10.0/terraform-provider-authentik_2023.10.0_linux_arm.zip",
+          "shasum": "0c33b5596e0fce54f5c2627607c9b2a2e9c40dece4310740fa96bdba7ecd36a9"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-authentik_2023.10.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/goauthentik/terraform-provider-authentik/releases/download/v2023.10.0/terraform-provider-authentik_2023.10.0_freebsd_amd64.zip",
+          "shasum": "360b0d6b77a641f58dfc1df1e52b4c257e0cab8724ed93cba3a53ec34fcc4541"
+        }
+      ]
+    },
+    {
       "version": "2023.8.0",
       "protocols": [
         "5.0"
