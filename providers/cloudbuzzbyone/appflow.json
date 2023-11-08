@@ -2,6 +2,30 @@
   "repository": "https://github.com/cloudbuzzbyone/terraform-provider-appflow",
   "versions": [
     {
+      "version": "0.1.4",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/cloudbuzzbyone/terraform-provider-appflow/releases/download/v0.1.4/terraform-provider-appflow_0.1.4_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/cloudbuzzbyone/terraform-provider-appflow/releases/download/v0.1.4/terraform-provider-appflow_0.1.4_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-appflow_0.1.4_linux_amd64.zip",
+          "download_url": "https://github.com/cloudbuzzbyone/terraform-provider-appflow/releases/download/v0.1.4/terraform-provider-appflow_0.1.4_linux_amd64.zip",
+          "shasum": "c0f351127f3a9fc8390944ee97610021f76be284bb74f18c6c6d7fa7d895332a"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-appflow_0.1.4_linux_arm64.zip",
+          "download_url": "https://github.com/cloudbuzzbyone/terraform-provider-appflow/releases/download/v0.1.4/terraform-provider-appflow_0.1.4_linux_arm64.zip",
+          "shasum": "32a8717575b734925b522a60399286ea89d6c95438cc5b5a0145967c7f09629b"
+        }
+      ]
+    },
+    {
       "version": "0.1.3",
       "protocols": [
         "5.0"
