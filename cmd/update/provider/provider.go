@@ -4,6 +4,7 @@ import (
 	"context"
 	"encoding/json"
 	"fmt"
+	"github.com/hashicorp/go-retryablehttp"
 	"github.com/mmcdole/gofeed"
 	"golang.org/x/mod/semver"
 	"log"
@@ -110,7 +111,11 @@ func shouldUpdateByTags(p provider.Provider, pathToFile string) (bool, error) {
 }
 
 func getRssFeedAlternative(url string) (*gofeed.Feed, error) {
-	client := http.Client{}
+	//client := http.Client{}
+	retryClient := retryablehttp.NewClient()
+	retryClient.RetryMax = 10
+
+	client := retryClient.StandardClient()
 
 	req, err := http.NewRequestWithContext(context.Background(), "GET", url, nil)
 	if err != nil {
