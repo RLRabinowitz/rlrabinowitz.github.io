@@ -2,6 +2,51 @@
   "repository": "https://github.com/ariga/terraform-provider-atlas",
   "versions": [
     {
+      "version": "0.5.8",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/ariga/terraform-provider-atlas/releases/download/v0.5.8/terraform-provider-atlas_0.5.8_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/ariga/terraform-provider-atlas/releases/download/v0.5.8/terraform-provider-atlas_0.5.8_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-atlas_0.5.8_linux_arm64.zip",
+          "download_url": "https://github.com/ariga/terraform-provider-atlas/releases/download/v0.5.8/terraform-provider-atlas_0.5.8_linux_arm64.zip",
+          "shasum": "9de4d8a2c2525688d52b01819d4b30ec34cd1b91dd9f40fd73734e26fedbc98b"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-atlas_0.5.8_linux_amd64.zip",
+          "download_url": "https://github.com/ariga/terraform-provider-atlas/releases/download/v0.5.8/terraform-provider-atlas_0.5.8_linux_amd64.zip",
+          "shasum": "8110796a1ca5a333da618d949ac6f495ae916ff99b3e8e95b3d95fe85e9be75f"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-atlas_0.5.8_darwin_amd64.zip",
+          "download_url": "https://github.com/ariga/terraform-provider-atlas/releases/download/v0.5.8/terraform-provider-atlas_0.5.8_darwin_amd64.zip",
+          "shasum": "dec22799875c4cacb552cd0fdb66538694e6b11536519d878d123c45cbfc69f3"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-atlas_0.5.8_darwin_arm64.zip",
+          "download_url": "https://github.com/ariga/terraform-provider-atlas/releases/download/v0.5.8/terraform-provider-atlas_0.5.8_darwin_arm64.zip",
+          "shasum": "9e3b0b7de2d68d2c04c1871f29cb0d9450191892b75761a416112fc99978b424"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-atlas_0.5.8_windows_amd64.zip",
+          "download_url": "https://github.com/ariga/terraform-provider-atlas/releases/download/v0.5.8/terraform-provider-atlas_0.5.8_windows_amd64.zip",
+          "shasum": "4aebd83c3023c328cd3eebc5ee24566fe3c8386a5916cb7febcd2da7d617549d"
+        }
+      ]
+    },
+    {
       "version": "0.5.7",
       "protocols": [
         "5.0"
