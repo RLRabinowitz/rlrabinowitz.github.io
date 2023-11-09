@@ -2,6 +2,114 @@
   "repository": "https://github.com/eschercloudai/terraform-provider-eck",
   "versions": [
     {
+      "version": "0.0.5",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/eschercloudai/terraform-provider-eck/releases/download/v0.0.5/terraform-provider-eck_0.0.5_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/eschercloudai/terraform-provider-eck/releases/download/v0.0.5/terraform-provider-eck_0.0.5_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-eck_0.0.5_windows_386.zip",
+          "download_url": "https://github.com/eschercloudai/terraform-provider-eck/releases/download/v0.0.5/terraform-provider-eck_0.0.5_windows_386.zip",
+          "shasum": "9c9a90c57a67b036377c04374bee58157af6c05a5806ad1d2a6cb5271a169b31"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-eck_0.0.5_linux_arm64.zip",
+          "download_url": "https://github.com/eschercloudai/terraform-provider-eck/releases/download/v0.0.5/terraform-provider-eck_0.0.5_linux_arm64.zip",
+          "shasum": "a31f4de853224972a07923457474941ef0c933f1712627dfd453b8209b428361"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-eck_0.0.5_freebsd_arm.zip",
+          "download_url": "https://github.com/eschercloudai/terraform-provider-eck/releases/download/v0.0.5/terraform-provider-eck_0.0.5_freebsd_arm.zip",
+          "shasum": "c9f773d06ee555ac26e27f84cc999a6fb4543e49c3f4debe11b4451c9592c3b9"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-eck_0.0.5_darwin_arm64.zip",
+          "download_url": "https://github.com/eschercloudai/terraform-provider-eck/releases/download/v0.0.5/terraform-provider-eck_0.0.5_darwin_arm64.zip",
+          "shasum": "42f4aaf66f86c89a6f36ba3da8c92601ce6612d0363d091b6ec9f55ea93cebd4"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-eck_0.0.5_linux_386.zip",
+          "download_url": "https://github.com/eschercloudai/terraform-provider-eck/releases/download/v0.0.5/terraform-provider-eck_0.0.5_linux_386.zip",
+          "shasum": "f767129dadf9c8cbd757690aee6d9934a29b6a158ee27592553d0e8a6b8d31f1"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-eck_0.0.5_windows_amd64.zip",
+          "download_url": "https://github.com/eschercloudai/terraform-provider-eck/releases/download/v0.0.5/terraform-provider-eck_0.0.5_windows_amd64.zip",
+          "shasum": "a0603d658092e5dce9514015a91076b73b0565c9c3560bbd88a981d54c04d099"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-eck_0.0.5_freebsd_amd64.zip",
+          "download_url": "https://github.com/eschercloudai/terraform-provider-eck/releases/download/v0.0.5/terraform-provider-eck_0.0.5_freebsd_amd64.zip",
+          "shasum": "416c5266ecaaaa00af06888056f0328842ac88b1e0b5dfaebec9a4444b651464"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-eck_0.0.5_windows_arm64.zip",
+          "download_url": "https://github.com/eschercloudai/terraform-provider-eck/releases/download/v0.0.5/terraform-provider-eck_0.0.5_windows_arm64.zip",
+          "shasum": "4976694e6ccfcb54c312d27fe26497147e6065130e57aff202253b87c533773e"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-eck_0.0.5_linux_arm.zip",
+          "download_url": "https://github.com/eschercloudai/terraform-provider-eck/releases/download/v0.0.5/terraform-provider-eck_0.0.5_linux_arm.zip",
+          "shasum": "0cbe54b5311193c32807f2fdc8e8c905618ba27be5cc9031722f7b6494c106a7"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-eck_0.0.5_darwin_amd64.zip",
+          "download_url": "https://github.com/eschercloudai/terraform-provider-eck/releases/download/v0.0.5/terraform-provider-eck_0.0.5_darwin_amd64.zip",
+          "shasum": "69a4e7433a2375b96cedb7a5dacfea8529370e931dfcd3c3fdc6bad611833ee0"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-eck_0.0.5_freebsd_386.zip",
+          "download_url": "https://github.com/eschercloudai/terraform-provider-eck/releases/download/v0.0.5/terraform-provider-eck_0.0.5_freebsd_386.zip",
+          "shasum": "29f95e952cac170626df49e0cd8750ec50734cce57186d761f4e8ef86068a478"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-eck_0.0.5_freebsd_arm64.zip",
+          "download_url": "https://github.com/eschercloudai/terraform-provider-eck/releases/download/v0.0.5/terraform-provider-eck_0.0.5_freebsd_arm64.zip",
+          "shasum": "bb0cc12d63fa5efa079eb0b10ab3b2b2e75ef48311de8ac2638d47daf12ffce3"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-eck_0.0.5_windows_arm.zip",
+          "download_url": "https://github.com/eschercloudai/terraform-provider-eck/releases/download/v0.0.5/terraform-provider-eck_0.0.5_windows_arm.zip",
+          "shasum": "d04e9d663ff3660626c53af7e04287eae7b986b166e86a916ad8075eb86bed84"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-eck_0.0.5_linux_amd64.zip",
+          "download_url": "https://github.com/eschercloudai/terraform-provider-eck/releases/download/v0.0.5/terraform-provider-eck_0.0.5_linux_amd64.zip",
+          "shasum": "f384459113f2f51d42541ea409d5669655e20034c97ed656a7cdab30d4dade58"
+        }
+      ]
+    },
+    {
       "version": "0.0.4",
       "protocols": [
         "5.0"
