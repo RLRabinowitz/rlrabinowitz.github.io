@@ -2,6 +2,128 @@
   "repository": "https://github.com/orange-cloudfoundry/terraform-provider-cfsecurity",
   "versions": [
     {
+      "version": "0.66.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/orange-cloudfoundry/terraform-provider-cfsecurity/releases/download/v0.66.0/terraform-provider-cfsecurity_0.66.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/orange-cloudfoundry/terraform-provider-cfsecurity/releases/download/v0.66.0/terraform-provider-cfsecurity_0.66.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "openbsd",
+          "arch": "386",
+          "filename": "terraform-provider-cfsecurity_0.66.0_openbsd_386.zip",
+          "download_url": "https://github.com/orange-cloudfoundry/terraform-provider-cfsecurity/releases/download/v0.66.0/terraform-provider-cfsecurity_0.66.0_openbsd_386.zip",
+          "shasum": "44d7204fed61bbc7057d1619cdf704c980a4d6fda26c413e661a4364e430ad1e"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-cfsecurity_0.66.0_linux_arm64.zip",
+          "download_url": "https://github.com/orange-cloudfoundry/terraform-provider-cfsecurity/releases/download/v0.66.0/terraform-provider-cfsecurity_0.66.0_linux_arm64.zip",
+          "shasum": "83ac18dcb2720e243d0db9add66c651ca9fa7249b00cadfc66e4d2151324e7ff"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-cfsecurity_0.66.0_darwin_amd64.zip",
+          "download_url": "https://github.com/orange-cloudfoundry/terraform-provider-cfsecurity/releases/download/v0.66.0/terraform-provider-cfsecurity_0.66.0_darwin_amd64.zip",
+          "shasum": "e319c6c3fabfdd6bbf9bab07528bdea71c893c4935fe9c14097ce663d34983d8"
+        },
+        {
+          "os": "openbsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-cfsecurity_0.66.0_openbsd_amd64.zip",
+          "download_url": "https://github.com/orange-cloudfoundry/terraform-provider-cfsecurity/releases/download/v0.66.0/terraform-provider-cfsecurity_0.66.0_openbsd_amd64.zip",
+          "shasum": "ab80676ca7c1b4286544624835a289c734e3690eb6f882e15d15f2b52b99ee04"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-cfsecurity_0.66.0_windows_amd64.zip",
+          "download_url": "https://github.com/orange-cloudfoundry/terraform-provider-cfsecurity/releases/download/v0.66.0/terraform-provider-cfsecurity_0.66.0_windows_amd64.zip",
+          "shasum": "1db12a9017981dfb289c3ad2eed662228694284193e10aa0cbba2f780bab11dd"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-cfsecurity_0.66.0_linux_amd64.zip",
+          "download_url": "https://github.com/orange-cloudfoundry/terraform-provider-cfsecurity/releases/download/v0.66.0/terraform-provider-cfsecurity_0.66.0_linux_amd64.zip",
+          "shasum": "b7c98178f8447da2e4055728ddd3ed6cb67bbb991462a532587dbfa1c30042ca"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-cfsecurity_0.66.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/orange-cloudfoundry/terraform-provider-cfsecurity/releases/download/v0.66.0/terraform-provider-cfsecurity_0.66.0_freebsd_arm64.zip",
+          "shasum": "0beb7427345ae5036cc66293f1c3194fdd53f97f60c102cf8ed01c1c574f9d91"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-cfsecurity_0.66.0_darwin_arm64.zip",
+          "download_url": "https://github.com/orange-cloudfoundry/terraform-provider-cfsecurity/releases/download/v0.66.0/terraform-provider-cfsecurity_0.66.0_darwin_arm64.zip",
+          "shasum": "d7230d1147a01b95ce550593c4759c82cbb639e3ba9430e1e09b15b7a78fc667"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-cfsecurity_0.66.0_windows_386.zip",
+          "download_url": "https://github.com/orange-cloudfoundry/terraform-provider-cfsecurity/releases/download/v0.66.0/terraform-provider-cfsecurity_0.66.0_windows_386.zip",
+          "shasum": "a3f517b2a472dc0b31b555feb6aa27211e8f18cd0dbb6a33277cb7a6f838dd66"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-cfsecurity_0.66.0_windows_arm64.zip",
+          "download_url": "https://github.com/orange-cloudfoundry/terraform-provider-cfsecurity/releases/download/v0.66.0/terraform-provider-cfsecurity_0.66.0_windows_arm64.zip",
+          "shasum": "bcd7dd78936e6eb1490d076ad770a791fbfaf357b11e556e9c0218c810db8d05"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-cfsecurity_0.66.0_linux_arm.zip",
+          "download_url": "https://github.com/orange-cloudfoundry/terraform-provider-cfsecurity/releases/download/v0.66.0/terraform-provider-cfsecurity_0.66.0_linux_arm.zip",
+          "shasum": "5686be0818dd7ad94879b1f1def853f1a460ef82b59dbac05f6a4210bbdce812"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-cfsecurity_0.66.0_freebsd_386.zip",
+          "download_url": "https://github.com/orange-cloudfoundry/terraform-provider-cfsecurity/releases/download/v0.66.0/terraform-provider-cfsecurity_0.66.0_freebsd_386.zip",
+          "shasum": "08f047d75d61c1547fe84da36f9e0bd9649797ba26d25611099dcece81767666"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-cfsecurity_0.66.0_freebsd_arm.zip",
+          "download_url": "https://github.com/orange-cloudfoundry/terraform-provider-cfsecurity/releases/download/v0.66.0/terraform-provider-cfsecurity_0.66.0_freebsd_arm.zip",
+          "shasum": "09fac19b698cbe462c91c20d6a2c4a5fef6812a488f8c91fafb3398b0a248464"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-cfsecurity_0.66.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/orange-cloudfoundry/terraform-provider-cfsecurity/releases/download/v0.66.0/terraform-provider-cfsecurity_0.66.0_freebsd_amd64.zip",
+          "shasum": "512981aa44f4b1ab60f70a551a815d553175454ac05435ce1d7a54a3af445ae5"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-cfsecurity_0.66.0_windows_arm.zip",
+          "download_url": "https://github.com/orange-cloudfoundry/terraform-provider-cfsecurity/releases/download/v0.66.0/terraform-provider-cfsecurity_0.66.0_windows_arm.zip",
+          "shasum": "37154a9a80dcb39cc148c0ad4856910f83d760cf71d4976c34de3cdb83c8a638"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-cfsecurity_0.66.0_linux_386.zip",
+          "download_url": "https://github.com/orange-cloudfoundry/terraform-provider-cfsecurity/releases/download/v0.66.0/terraform-provider-cfsecurity_0.66.0_linux_386.zip",
+          "shasum": "8ab4845848eb337c388a800ef29cafccceeb39942405bfa58ac1a2a477fd4f17"
+        }
+      ]
+    },
+    {
       "version": "0.65.1",
       "protocols": [
         "5.0"
