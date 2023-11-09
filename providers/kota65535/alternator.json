@@ -2,6 +2,114 @@
   "repository": "https://github.com/kota65535/terraform-provider-alternator",
   "versions": [
     {
+      "version": "0.2.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/kota65535/terraform-provider-alternator/releases/download/v0.2.0/terraform-provider-alternator_0.2.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/kota65535/terraform-provider-alternator/releases/download/v0.2.0/terraform-provider-alternator_0.2.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-alternator_0.2.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/kota65535/terraform-provider-alternator/releases/download/v0.2.0/terraform-provider-alternator_0.2.0_freebsd_arm64.zip",
+          "shasum": "60d937f832faa073fb3e522db66e0877e335b515351bdc74e1d811986f669892"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-alternator_0.2.0_freebsd_386.zip",
+          "download_url": "https://github.com/kota65535/terraform-provider-alternator/releases/download/v0.2.0/terraform-provider-alternator_0.2.0_freebsd_386.zip",
+          "shasum": "5cfa60138f86e8d221727d41ef78ce80a969d1d559f141261fc94039e0d95c8e"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-alternator_0.2.0_windows_arm.zip",
+          "download_url": "https://github.com/kota65535/terraform-provider-alternator/releases/download/v0.2.0/terraform-provider-alternator_0.2.0_windows_arm.zip",
+          "shasum": "ad04ee4c753a6dcaea15468a6043de60aaf73d018f8964160fc20f133b5b6abe"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-alternator_0.2.0_darwin_amd64.zip",
+          "download_url": "https://github.com/kota65535/terraform-provider-alternator/releases/download/v0.2.0/terraform-provider-alternator_0.2.0_darwin_amd64.zip",
+          "shasum": "872bb73ffb006849af47e7ef8d3647813f08e2401ac6054d43acce51494dee73"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-alternator_0.2.0_darwin_arm64.zip",
+          "download_url": "https://github.com/kota65535/terraform-provider-alternator/releases/download/v0.2.0/terraform-provider-alternator_0.2.0_darwin_arm64.zip",
+          "shasum": "ff945d524c36d5456e96a0d3867fe1e9444356e1956c0fe87ba14c16003addd6"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-alternator_0.2.0_windows_amd64.zip",
+          "download_url": "https://github.com/kota65535/terraform-provider-alternator/releases/download/v0.2.0/terraform-provider-alternator_0.2.0_windows_amd64.zip",
+          "shasum": "6519432a292c31828d81763c630578920a9f853c6c84fedd7c5f99f39012b438"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-alternator_0.2.0_linux_386.zip",
+          "download_url": "https://github.com/kota65535/terraform-provider-alternator/releases/download/v0.2.0/terraform-provider-alternator_0.2.0_linux_386.zip",
+          "shasum": "7193cae7092bb40329e1a46a822e0d2a75dbc2baf7aa80f18377f67a65423a7c"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-alternator_0.2.0_linux_arm.zip",
+          "download_url": "https://github.com/kota65535/terraform-provider-alternator/releases/download/v0.2.0/terraform-provider-alternator_0.2.0_linux_arm.zip",
+          "shasum": "4c515ef462b03803088db62caec6eec68b14f8ebfdc937ecebfd60033ed853a7"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-alternator_0.2.0_linux_amd64.zip",
+          "download_url": "https://github.com/kota65535/terraform-provider-alternator/releases/download/v0.2.0/terraform-provider-alternator_0.2.0_linux_amd64.zip",
+          "shasum": "c02216c14bc4f8172ccc270def37486c2198a1748eefb80a11c505e6cf729ca5"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-alternator_0.2.0_windows_386.zip",
+          "download_url": "https://github.com/kota65535/terraform-provider-alternator/releases/download/v0.2.0/terraform-provider-alternator_0.2.0_windows_386.zip",
+          "shasum": "aeb6f886e6a287e051f79daa068af6d7f27680a5a392e299dedff76dce68b3c3"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-alternator_0.2.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/kota65535/terraform-provider-alternator/releases/download/v0.2.0/terraform-provider-alternator_0.2.0_freebsd_amd64.zip",
+          "shasum": "2cec571a8484bea61066dd3be6f79b0a9afe534e4ae0b19ce345cb292d6a1f02"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-alternator_0.2.0_windows_arm64.zip",
+          "download_url": "https://github.com/kota65535/terraform-provider-alternator/releases/download/v0.2.0/terraform-provider-alternator_0.2.0_windows_arm64.zip",
+          "shasum": "0d5fda09a1d066c680d7c0a9bdc0d680ede768ba4128af9c7c9da2c1c0bf9ef9"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-alternator_0.2.0_freebsd_arm.zip",
+          "download_url": "https://github.com/kota65535/terraform-provider-alternator/releases/download/v0.2.0/terraform-provider-alternator_0.2.0_freebsd_arm.zip",
+          "shasum": "7610539dbed9f417b200661e8ae8214dcae81b1fdf23379873dfa3b67dfb8fb6"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-alternator_0.2.0_linux_arm64.zip",
+          "download_url": "https://github.com/kota65535/terraform-provider-alternator/releases/download/v0.2.0/terraform-provider-alternator_0.2.0_linux_arm64.zip",
+          "shasum": "0de6e18057ee032d80f3396e84b19a35825fd43697cf5b5a8623f61bc68223b7"
+        }
+      ]
+    },
+    {
       "version": "0.1.5",
       "protocols": [
         "5.0"
