@@ -2,6 +2,114 @@
   "repository": "https://github.com/JanssenProject/terraform-provider-jans",
   "versions": [
     {
+      "version": "0.8.2",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/JanssenProject/terraform-provider-jans/releases/download/v0.8.2/terraform-provider-jans_0.8.2_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/JanssenProject/terraform-provider-jans/releases/download/v0.8.2/terraform-provider-jans_0.8.2_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-jans_0.8.2_freebsd_arm64.zip",
+          "download_url": "https://github.com/JanssenProject/terraform-provider-jans/releases/download/v0.8.2/terraform-provider-jans_0.8.2_freebsd_arm64.zip",
+          "shasum": "abb7e3f832baeadebe721d3b5fd54b0d6e755611634e7c3b30b59e762d44dc7e"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-jans_0.8.2_freebsd_arm.zip",
+          "download_url": "https://github.com/JanssenProject/terraform-provider-jans/releases/download/v0.8.2/terraform-provider-jans_0.8.2_freebsd_arm.zip",
+          "shasum": "ee1c16f28035074bb2090a581d60fb7d5bc26840a1bb27ab6e7ffc642f8e6ad2"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-jans_0.8.2_linux_arm.zip",
+          "download_url": "https://github.com/JanssenProject/terraform-provider-jans/releases/download/v0.8.2/terraform-provider-jans_0.8.2_linux_arm.zip",
+          "shasum": "95bbb21cd3b202257b9468591897d387ffa1700b90661b4cb88f93028223d543"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-jans_0.8.2_freebsd_amd64.zip",
+          "download_url": "https://github.com/JanssenProject/terraform-provider-jans/releases/download/v0.8.2/terraform-provider-jans_0.8.2_freebsd_amd64.zip",
+          "shasum": "68c02889d6b26b36ef54621409192a3e83dc67de7e4fe5b564e7389ec18d94fd"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-jans_0.8.2_linux_amd64.zip",
+          "download_url": "https://github.com/JanssenProject/terraform-provider-jans/releases/download/v0.8.2/terraform-provider-jans_0.8.2_linux_amd64.zip",
+          "shasum": "9df8fd2bca6ea043804bb0a3db27abd9a0e34810040633e0d0b208ff80cd4a0e"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-jans_0.8.2_freebsd_386.zip",
+          "download_url": "https://github.com/JanssenProject/terraform-provider-jans/releases/download/v0.8.2/terraform-provider-jans_0.8.2_freebsd_386.zip",
+          "shasum": "7d52afdafc9135dc018fbef8c50746b6bbd7f400df54bbd34b2523d21434642c"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-jans_0.8.2_windows_arm64.zip",
+          "download_url": "https://github.com/JanssenProject/terraform-provider-jans/releases/download/v0.8.2/terraform-provider-jans_0.8.2_windows_arm64.zip",
+          "shasum": "cf41d95cbcd8caeb064c9d719383fd5cb80a3f929023a7593fc8fa221f7ca4a6"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-jans_0.8.2_windows_386.zip",
+          "download_url": "https://github.com/JanssenProject/terraform-provider-jans/releases/download/v0.8.2/terraform-provider-jans_0.8.2_windows_386.zip",
+          "shasum": "de154d26312e64e5adc201bba3b67cb35599697fc69224535871639e05ac73ea"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-jans_0.8.2_linux_arm64.zip",
+          "download_url": "https://github.com/JanssenProject/terraform-provider-jans/releases/download/v0.8.2/terraform-provider-jans_0.8.2_linux_arm64.zip",
+          "shasum": "1ecc76f3b31c413b5f835c29d7cb16c8e0fdd94c28523e731bbf95240be288b4"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-jans_0.8.2_darwin_arm64.zip",
+          "download_url": "https://github.com/JanssenProject/terraform-provider-jans/releases/download/v0.8.2/terraform-provider-jans_0.8.2_darwin_arm64.zip",
+          "shasum": "567dd83c6d3c3eca32ec3a038a515589a89d8a6960190697bf52be8481230cd6"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-jans_0.8.2_darwin_amd64.zip",
+          "download_url": "https://github.com/JanssenProject/terraform-provider-jans/releases/download/v0.8.2/terraform-provider-jans_0.8.2_darwin_amd64.zip",
+          "shasum": "325b54ac94a68ab497eb331a416eb55d1530283f10f7d514c4752e1b0211d569"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-jans_0.8.2_linux_386.zip",
+          "download_url": "https://github.com/JanssenProject/terraform-provider-jans/releases/download/v0.8.2/terraform-provider-jans_0.8.2_linux_386.zip",
+          "shasum": "0aa35f6c83fdfc417ee2a8b1277caf4ec1f54aa66f4d0b209686ca0074c4125e"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-jans_0.8.2_windows_arm.zip",
+          "download_url": "https://github.com/JanssenProject/terraform-provider-jans/releases/download/v0.8.2/terraform-provider-jans_0.8.2_windows_arm.zip",
+          "shasum": "ec904ed23320953e1f64f904d0ff1acfb2dd261334dc0308965c84a88f9376f1"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-jans_0.8.2_windows_amd64.zip",
+          "download_url": "https://github.com/JanssenProject/terraform-provider-jans/releases/download/v0.8.2/terraform-provider-jans_0.8.2_windows_amd64.zip",
+          "shasum": "c1e2daf7c09db3e6ea36c4d8d6375b5ad3239271563095d0947330d60ba57c5a"
+        }
+      ]
+    },
+    {
       "version": "0.8.1",
       "protocols": [
         "5.0"
