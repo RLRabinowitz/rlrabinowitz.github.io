@@ -2,6 +2,114 @@
   "repository": "https://github.com/datastax/terraform-provider-astra",
   "versions": [
     {
+      "version": "2.2.6",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/datastax/terraform-provider-astra/releases/download/v2.2.6/terraform-provider-astra_2.2.6_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/datastax/terraform-provider-astra/releases/download/v2.2.6/terraform-provider-astra_2.2.6_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-astra_2.2.6_windows_386.zip",
+          "download_url": "https://github.com/datastax/terraform-provider-astra/releases/download/v2.2.6/terraform-provider-astra_2.2.6_windows_386.zip",
+          "shasum": "fbade283b65f350315923a7b868b58bfe6a2b0c3997343ebcc984b23ed9d9951"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-astra_2.2.6_linux_386.zip",
+          "download_url": "https://github.com/datastax/terraform-provider-astra/releases/download/v2.2.6/terraform-provider-astra_2.2.6_linux_386.zip",
+          "shasum": "3b79c2505530942a1c62e3a73733598c634099fe8f27c711c6e816f98eefb18b"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-astra_2.2.6_windows_arm64.zip",
+          "download_url": "https://github.com/datastax/terraform-provider-astra/releases/download/v2.2.6/terraform-provider-astra_2.2.6_windows_arm64.zip",
+          "shasum": "5c57a44b1cdb142ba4c54555e30178109f2e375910ae53af02e7ee9fb6efba93"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-astra_2.2.6_linux_arm64.zip",
+          "download_url": "https://github.com/datastax/terraform-provider-astra/releases/download/v2.2.6/terraform-provider-astra_2.2.6_linux_arm64.zip",
+          "shasum": "532bf734e775910062cf59320af5393782ad6ab1fe63f946867d7b7ea67832f0"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-astra_2.2.6_freebsd_arm.zip",
+          "download_url": "https://github.com/datastax/terraform-provider-astra/releases/download/v2.2.6/terraform-provider-astra_2.2.6_freebsd_arm.zip",
+          "shasum": "600e015363d9bdb12465ec6322b721161962918358496966acdc122283d2715e"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-astra_2.2.6_windows_arm.zip",
+          "download_url": "https://github.com/datastax/terraform-provider-astra/releases/download/v2.2.6/terraform-provider-astra_2.2.6_windows_arm.zip",
+          "shasum": "6ffa08006fbef9f55b7062d3fff9159bdd715143e9c6e18b830d86933654f2a3"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-astra_2.2.6_darwin_arm64.zip",
+          "download_url": "https://github.com/datastax/terraform-provider-astra/releases/download/v2.2.6/terraform-provider-astra_2.2.6_darwin_arm64.zip",
+          "shasum": "c7ca215066585ff690d25b9f1f5b7860bc6cb9fa0911897aaa7ed1ceb02192fb"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-astra_2.2.6_freebsd_arm64.zip",
+          "download_url": "https://github.com/datastax/terraform-provider-astra/releases/download/v2.2.6/terraform-provider-astra_2.2.6_freebsd_arm64.zip",
+          "shasum": "2c07f852b0c75abf227a6d962b751666cb072fce17d22e0c5df46970a1318649"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-astra_2.2.6_freebsd_386.zip",
+          "download_url": "https://github.com/datastax/terraform-provider-astra/releases/download/v2.2.6/terraform-provider-astra_2.2.6_freebsd_386.zip",
+          "shasum": "d2bde0abec1fb732ba86f59f0098bdec4c0ea9eec821562d99600a571c24cf6a"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-astra_2.2.6_linux_arm.zip",
+          "download_url": "https://github.com/datastax/terraform-provider-astra/releases/download/v2.2.6/terraform-provider-astra_2.2.6_linux_arm.zip",
+          "shasum": "7846d3d81bfb7269049c977dbc2ba73bcfab0c1d5e19b0acc683fcfa9f29da17"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-astra_2.2.6_windows_amd64.zip",
+          "download_url": "https://github.com/datastax/terraform-provider-astra/releases/download/v2.2.6/terraform-provider-astra_2.2.6_windows_amd64.zip",
+          "shasum": "85921ee1402ed68c8a7212a8b3cbc7cd1b42888b42664eae1c7f2d3f59612c8b"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-astra_2.2.6_freebsd_amd64.zip",
+          "download_url": "https://github.com/datastax/terraform-provider-astra/releases/download/v2.2.6/terraform-provider-astra_2.2.6_freebsd_amd64.zip",
+          "shasum": "be1289cae27f5edddbc2c159bea659773729bdbefc11e901dc01f2d7d42910a7"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-astra_2.2.6_linux_amd64.zip",
+          "download_url": "https://github.com/datastax/terraform-provider-astra/releases/download/v2.2.6/terraform-provider-astra_2.2.6_linux_amd64.zip",
+          "shasum": "fb93be126dc731c8f9d9f9d70e21106d628918bc1f785316f60f3f810d76f14b"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-astra_2.2.6_darwin_amd64.zip",
+          "download_url": "https://github.com/datastax/terraform-provider-astra/releases/download/v2.2.6/terraform-provider-astra_2.2.6_darwin_amd64.zip",
+          "shasum": "6648842ba33ac58da9d3e8e5fe419befd84f1ab366ee2526fdbf1dad29d5bd97"
+        }
+      ]
+    },
+    {
       "version": "2.2.5",
       "protocols": [
         "5.0"
