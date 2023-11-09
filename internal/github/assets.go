@@ -3,6 +3,7 @@ package github
 import (
 	"context"
 	"fmt"
+	"github.com/hashicorp/go-retryablehttp"
 	"io"
 	"log"
 	"net/http"
@@ -18,7 +19,10 @@ type Platform struct {
 const githubAssetDownloadTimeout = 60 * time.Second
 
 func DownloadAssetContents(ctx context.Context, downloadURL string) (body io.ReadCloser, err error) {
-	httpClient := http.Client{Timeout: githubAssetDownloadTimeout}
+	retryClient := retryablehttp.NewClient()
+	retryClient.RetryMax = 10
+
+	httpClient := retryClient.StandardClient()
 
 	log.Printf("Downloading asset, url: %s", downloadURL)
 	req, reqErr := http.NewRequestWithContext(ctx, http.MethodGet, downloadURL, nil)
