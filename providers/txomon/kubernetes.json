@@ -2,6 +2,93 @@
   "repository": "https://github.com/txomon/terraform-provider-kubernetes",
   "versions": [
     {
+      "version": "2.23.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/txomon/terraform-provider-kubernetes/releases/download/v2.23.0/terraform-provider-kubernetes_2.23.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/txomon/terraform-provider-kubernetes/releases/download/v2.23.0/terraform-provider-kubernetes_2.23.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-kubernetes_2.23.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/txomon/terraform-provider-kubernetes/releases/download/v2.23.0/terraform-provider-kubernetes_2.23.0_freebsd_amd64.zip",
+          "shasum": "8e68df16d444e6c79202e2fceb553cf0d6276cfb88ae28f47712da1e17cdd187"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-kubernetes_2.23.0_linux_amd64.zip",
+          "download_url": "https://github.com/txomon/terraform-provider-kubernetes/releases/download/v2.23.0/terraform-provider-kubernetes_2.23.0_linux_amd64.zip",
+          "shasum": "fa8ff609342707fe48a4e8059cbe5ebec4be686ba740977af28b16fe4e8e56e3"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-kubernetes_2.23.0_windows_386.zip",
+          "download_url": "https://github.com/txomon/terraform-provider-kubernetes/releases/download/v2.23.0/terraform-provider-kubernetes_2.23.0_windows_386.zip",
+          "shasum": "512cdc49f5378a604bb81773872d0fd0b593790b903053af86afbde0b00a3e95"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-kubernetes_2.23.0_darwin_arm64.zip",
+          "download_url": "https://github.com/txomon/terraform-provider-kubernetes/releases/download/v2.23.0/terraform-provider-kubernetes_2.23.0_darwin_arm64.zip",
+          "shasum": "64a88257d0400bd21e5e9ad32eacf732b2da6609b19b81cdac7a74892cceb2bb"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-kubernetes_2.23.0_freebsd_386.zip",
+          "download_url": "https://github.com/txomon/terraform-provider-kubernetes/releases/download/v2.23.0/terraform-provider-kubernetes_2.23.0_freebsd_386.zip",
+          "shasum": "5ecd476cf605de83b76a4917a28721d16c68d489f8905fd8226949889303acac"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-kubernetes_2.23.0_linux_386.zip",
+          "download_url": "https://github.com/txomon/terraform-provider-kubernetes/releases/download/v2.23.0/terraform-provider-kubernetes_2.23.0_linux_386.zip",
+          "shasum": "d30972051ec0f016cc08a08a98ab117ebfefe03b41d10234e9a7d448d2c1f43e"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-kubernetes_2.23.0_linux_arm64.zip",
+          "download_url": "https://github.com/txomon/terraform-provider-kubernetes/releases/download/v2.23.0/terraform-provider-kubernetes_2.23.0_linux_arm64.zip",
+          "shasum": "6cf867f64ac3b30bb1f3af511b73fb38dc64e3c6c6ca0c10e7ef2c434273a193"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-kubernetes_2.23.0_linux_arm.zip",
+          "download_url": "https://github.com/txomon/terraform-provider-kubernetes/releases/download/v2.23.0/terraform-provider-kubernetes_2.23.0_linux_arm.zip",
+          "shasum": "43749cc40ff0d2f71fb32b336d2808caa3acc94a569c463b20393b80bec9a5bd"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-kubernetes_2.23.0_windows_amd64.zip",
+          "download_url": "https://github.com/txomon/terraform-provider-kubernetes/releases/download/v2.23.0/terraform-provider-kubernetes_2.23.0_windows_amd64.zip",
+          "shasum": "62b3c90d1aaf2e22c115a6ddfc51088b6462e768866df884b8d6a528c53d3b3a"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-kubernetes_2.23.0_darwin_amd64.zip",
+          "download_url": "https://github.com/txomon/terraform-provider-kubernetes/releases/download/v2.23.0/terraform-provider-kubernetes_2.23.0_darwin_amd64.zip",
+          "shasum": "91b899b73b6d9fa562d0181dc00e943195352138048813a5eb4768005abb58c1"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-kubernetes_2.23.0_freebsd_arm.zip",
+          "download_url": "https://github.com/txomon/terraform-provider-kubernetes/releases/download/v2.23.0/terraform-provider-kubernetes_2.23.0_freebsd_arm.zip",
+          "shasum": "663d40722cc5c06691fccc9ee2940c32326d4bcb42107d408a17f7bbbce8f770"
+        }
+      ]
+    },
+    {
       "version": "2.17.2",
       "protocols": [
         "5.0"
