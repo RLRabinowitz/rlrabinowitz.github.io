@@ -183,11 +183,7 @@ func shouldUpdateByRss(p provider.Provider, pathToFile string) (bool, error) {
 	//fp := gofeed.NewParser()
 	rssUrl := getRssUrl(p)
 	//feed, err := fp.ParseURL(rssUrl)
-	var feed *gofeed.Feed
-	var err error
-	for i := 0; i < 10; i++ { // Stress test the RSS feed
-		feed, err = getRssFeedAlternative(rssUrl)
-	}
+	feed, err := getRssFeedAlternative(rssUrl)
 	if err != nil {
 		return false, err
 	}
