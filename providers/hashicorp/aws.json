@@ -2,6 +2,86 @@
   "repository": "https://github.com/opentofu/terraform-provider-aws",
   "versions": [
     {
+      "version": "5.25.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/opentofu/terraform-provider-aws/releases/download/v5.25.0/terraform-provider-aws_5.25.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/opentofu/terraform-provider-aws/releases/download/v5.25.0/terraform-provider-aws_5.25.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-aws_5.25.0_darwin_arm64.zip",
+          "download_url": "https://github.com/opentofu/terraform-provider-aws/releases/download/v5.25.0/terraform-provider-aws_5.25.0_darwin_arm64.zip",
+          "shasum": "7f1287580a6e19a65597d6a6ad4cc9bc4534d73c883b1223b56e7f64b527964b"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-aws_5.25.0_darwin_amd64.zip",
+          "download_url": "https://github.com/opentofu/terraform-provider-aws/releases/download/v5.25.0/terraform-provider-aws_5.25.0_darwin_amd64.zip",
+          "shasum": "5f3fc3f220e0203f51753d965b26eb953c26df4e3cbea1ece6f82ddd239b6727"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-aws_5.25.0_linux_amd64.zip",
+          "download_url": "https://github.com/opentofu/terraform-provider-aws/releases/download/v5.25.0/terraform-provider-aws_5.25.0_linux_amd64.zip",
+          "shasum": "8e39750fd2bdc423ad348245ea4846be25ca6f8d9a2ead545e070dfa363836bd"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-aws_5.25.0_linux_386.zip",
+          "download_url": "https://github.com/opentofu/terraform-provider-aws/releases/download/v5.25.0/terraform-provider-aws_5.25.0_linux_386.zip",
+          "shasum": "f413d045ac18825fb83a4121cdc4a19407bfbc0f6fbbda5c760f39e2363b49ee"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-aws_5.25.0_linux_arm.zip",
+          "download_url": "https://github.com/opentofu/terraform-provider-aws/releases/download/v5.25.0/terraform-provider-aws_5.25.0_linux_arm.zip",
+          "shasum": "7df6c49a737697a9a0199141ae598887d0a9e1c14bf5451ee75f0184520d58fe"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-aws_5.25.0_linux_arm64.zip",
+          "download_url": "https://github.com/opentofu/terraform-provider-aws/releases/download/v5.25.0/terraform-provider-aws_5.25.0_linux_arm64.zip",
+          "shasum": "98fa6d472745fe81ade775379746c5ff12bb06b81b7308b668192dde38f4aabf"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-aws_5.25.0_windows_386.zip",
+          "download_url": "https://github.com/opentofu/terraform-provider-aws/releases/download/v5.25.0/terraform-provider-aws_5.25.0_windows_386.zip",
+          "shasum": "9b8a72d9db90c0b350dd546b44da17f4e656047035d1cde18573470021794925"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-aws_5.25.0_windows_amd64.zip",
+          "download_url": "https://github.com/opentofu/terraform-provider-aws/releases/download/v5.25.0/terraform-provider-aws_5.25.0_windows_amd64.zip",
+          "shasum": "11ff0beb9400cce6808d4b90f3cbf22042cfdefa32e541a4d29b1a9734f9766f"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-aws_5.25.0_windows_arm.zip",
+          "download_url": "https://github.com/opentofu/terraform-provider-aws/releases/download/v5.25.0/terraform-provider-aws_5.25.0_windows_arm.zip",
+          "shasum": "7acd41d1f69661dca16b73c12ea484eea55ec938dc6ccb06a5a9398c1883d81c"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-aws_5.25.0_windows_arm64.zip",
+          "download_url": "https://github.com/opentofu/terraform-provider-aws/releases/download/v5.25.0/terraform-provider-aws_5.25.0_windows_arm64.zip",
+          "shasum": "465967f84863a542faca94017aa675ae700f0fc35192eb5defd1ad4d2d525068"
+        }
+      ]
+    },
+    {
       "version": "5.24.0",
       "protocols": [
         "5.0"
