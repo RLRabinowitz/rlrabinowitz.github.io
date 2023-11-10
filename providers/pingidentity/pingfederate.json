@@ -2,6 +2,93 @@
   "repository": "https://github.com/pingidentity/terraform-provider-pingfederate",
   "versions": [
     {
+      "version": "0.2.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/pingidentity/terraform-provider-pingfederate/releases/download/v0.2.0/terraform-provider-pingfederate_0.2.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/pingidentity/terraform-provider-pingfederate/releases/download/v0.2.0/terraform-provider-pingfederate_0.2.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-pingfederate_0.2.0_windows_386.zip",
+          "download_url": "https://github.com/pingidentity/terraform-provider-pingfederate/releases/download/v0.2.0/terraform-provider-pingfederate_0.2.0_windows_386.zip",
+          "shasum": "ca71da21bec58eabbde28a502c47fbbf5d59defac39b66118bb32d13039e43f3"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-pingfederate_0.2.0_linux_amd64.zip",
+          "download_url": "https://github.com/pingidentity/terraform-provider-pingfederate/releases/download/v0.2.0/terraform-provider-pingfederate_0.2.0_linux_amd64.zip",
+          "shasum": "d779f5876180a9d52045d12ec154ca9c3bdccf6a449f2d9368a5fbd0b3d059ef"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-pingfederate_0.2.0_linux_arm.zip",
+          "download_url": "https://github.com/pingidentity/terraform-provider-pingfederate/releases/download/v0.2.0/terraform-provider-pingfederate_0.2.0_linux_arm.zip",
+          "shasum": "d8753a23d49a154ee014978aa3f9ffedb8cfc2ac85f15c5dadc6390f3a49fc24"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-pingfederate_0.2.0_darwin_arm64.zip",
+          "download_url": "https://github.com/pingidentity/terraform-provider-pingfederate/releases/download/v0.2.0/terraform-provider-pingfederate_0.2.0_darwin_arm64.zip",
+          "shasum": "ba8987318f98b5038ebb3b4ac7cc798565100c592b2d86d0528c4683be8f3111"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-pingfederate_0.2.0_freebsd_386.zip",
+          "download_url": "https://github.com/pingidentity/terraform-provider-pingfederate/releases/download/v0.2.0/terraform-provider-pingfederate_0.2.0_freebsd_386.zip",
+          "shasum": "930b1bba68c397274c589f7f00a59f149e03f35ee1fe47afbb315379eb7cad76"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-pingfederate_0.2.0_freebsd_arm.zip",
+          "download_url": "https://github.com/pingidentity/terraform-provider-pingfederate/releases/download/v0.2.0/terraform-provider-pingfederate_0.2.0_freebsd_arm.zip",
+          "shasum": "abed9b109ded9e9e31b98ecdaea9b8e03ad83bee105a99ec42a482937eecf856"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-pingfederate_0.2.0_windows_amd64.zip",
+          "download_url": "https://github.com/pingidentity/terraform-provider-pingfederate/releases/download/v0.2.0/terraform-provider-pingfederate_0.2.0_windows_amd64.zip",
+          "shasum": "27f1ed52c7d72b7ecf8f5142f45eb592d412363053a348cb5f355e8115723396"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-pingfederate_0.2.0_darwin_amd64.zip",
+          "download_url": "https://github.com/pingidentity/terraform-provider-pingfederate/releases/download/v0.2.0/terraform-provider-pingfederate_0.2.0_darwin_amd64.zip",
+          "shasum": "21d7b61520a1ecb9d98dcd5ceec39b384c14a4d53b1527a712cd3b7b95daaa14"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-pingfederate_0.2.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/pingidentity/terraform-provider-pingfederate/releases/download/v0.2.0/terraform-provider-pingfederate_0.2.0_freebsd_amd64.zip",
+          "shasum": "0a7ebc84f2c2b03ec6f03d259408e32981a9238c5f6de9c12d35d9e04d887a6c"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-pingfederate_0.2.0_linux_386.zip",
+          "download_url": "https://github.com/pingidentity/terraform-provider-pingfederate/releases/download/v0.2.0/terraform-provider-pingfederate_0.2.0_linux_386.zip",
+          "shasum": "5465a87aab5b4f1b2cf23c148fe0045f2cb117bd87485eab063dab875cd5426d"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-pingfederate_0.2.0_linux_arm64.zip",
+          "download_url": "https://github.com/pingidentity/terraform-provider-pingfederate/releases/download/v0.2.0/terraform-provider-pingfederate_0.2.0_linux_arm64.zip",
+          "shasum": "a6ab6e1cca414b011246723bfd3b12ed43dce9536f26136c61e2a47a3effaaa9"
+        }
+      ]
+    },
+    {
       "version": "0.1.0",
       "protocols": [
         "5.0"
