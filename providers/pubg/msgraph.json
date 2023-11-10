@@ -2,6 +2,114 @@
   "repository": "https://github.com/pubg/terraform-provider-msgraph",
   "versions": [
     {
+      "version": "0.2.1",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/pubg/terraform-provider-msgraph/releases/download/v0.2.1/terraform-provider-msgraph_0.2.1_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/pubg/terraform-provider-msgraph/releases/download/v0.2.1/terraform-provider-msgraph_0.2.1_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-msgraph_0.2.1_freebsd_arm.zip",
+          "download_url": "https://github.com/pubg/terraform-provider-msgraph/releases/download/v0.2.1/terraform-provider-msgraph_0.2.1_freebsd_arm.zip",
+          "shasum": "e7f9b544c10820548f68a8dd3db18a485a3e6e8e5455d499cc80d2f1fa66fb80"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-msgraph_0.2.1_freebsd_arm64.zip",
+          "download_url": "https://github.com/pubg/terraform-provider-msgraph/releases/download/v0.2.1/terraform-provider-msgraph_0.2.1_freebsd_arm64.zip",
+          "shasum": "b7fe6a3352ebea8017d2ad260dab61ddd1d04820199fe8600ef70dc1b6a5ff94"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-msgraph_0.2.1_freebsd_amd64.zip",
+          "download_url": "https://github.com/pubg/terraform-provider-msgraph/releases/download/v0.2.1/terraform-provider-msgraph_0.2.1_freebsd_amd64.zip",
+          "shasum": "20d990cf0814760342d2d116a10e9b1f69392b470ec3abc2555764d9060d97e6"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-msgraph_0.2.1_freebsd_386.zip",
+          "download_url": "https://github.com/pubg/terraform-provider-msgraph/releases/download/v0.2.1/terraform-provider-msgraph_0.2.1_freebsd_386.zip",
+          "shasum": "a4dbc3dadf87b3945c6991c6f4ec4c58a3579c81d0036a5d8e2b20894b4046ba"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-msgraph_0.2.1_windows_386.zip",
+          "download_url": "https://github.com/pubg/terraform-provider-msgraph/releases/download/v0.2.1/terraform-provider-msgraph_0.2.1_windows_386.zip",
+          "shasum": "844dab7b155e0130358c8af245ce01bde64779116b6c3c8fe50c4cbbd83942b4"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-msgraph_0.2.1_windows_arm64.zip",
+          "download_url": "https://github.com/pubg/terraform-provider-msgraph/releases/download/v0.2.1/terraform-provider-msgraph_0.2.1_windows_arm64.zip",
+          "shasum": "78290fa88042de635547c39ff305ebccf95376f4f6ed8010c900a45502b5c035"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-msgraph_0.2.1_linux_arm.zip",
+          "download_url": "https://github.com/pubg/terraform-provider-msgraph/releases/download/v0.2.1/terraform-provider-msgraph_0.2.1_linux_arm.zip",
+          "shasum": "2f1c85745e2249c1a2ac147a6b6e32a843b980a372a28ffd503f3d04c391250f"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-msgraph_0.2.1_linux_arm64.zip",
+          "download_url": "https://github.com/pubg/terraform-provider-msgraph/releases/download/v0.2.1/terraform-provider-msgraph_0.2.1_linux_arm64.zip",
+          "shasum": "3015a1c2381a717d2275c7de7a5512de9bd49adf94f4f8e2283604153d2a3074"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-msgraph_0.2.1_windows_arm.zip",
+          "download_url": "https://github.com/pubg/terraform-provider-msgraph/releases/download/v0.2.1/terraform-provider-msgraph_0.2.1_windows_arm.zip",
+          "shasum": "32fff9a30e4e5adad385c2c99dfdfd0035137b229d72170c8462c662d8dcaa1d"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-msgraph_0.2.1_linux_amd64.zip",
+          "download_url": "https://github.com/pubg/terraform-provider-msgraph/releases/download/v0.2.1/terraform-provider-msgraph_0.2.1_linux_amd64.zip",
+          "shasum": "158e4c47673e790f86a75036cf0ac2a2c994b8b631ddf7503cf094a86bb0b434"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-msgraph_0.2.1_linux_386.zip",
+          "download_url": "https://github.com/pubg/terraform-provider-msgraph/releases/download/v0.2.1/terraform-provider-msgraph_0.2.1_linux_386.zip",
+          "shasum": "9a1c45c286b4db712124fe4aa2c583c2cbed3ac6023f0ecc24e0102d2a7036d7"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-msgraph_0.2.1_darwin_amd64.zip",
+          "download_url": "https://github.com/pubg/terraform-provider-msgraph/releases/download/v0.2.1/terraform-provider-msgraph_0.2.1_darwin_amd64.zip",
+          "shasum": "d228dcd3e2950cb37b1da6bf1f27c6137b99c951a93a5627f6688b827a8831a0"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-msgraph_0.2.1_windows_amd64.zip",
+          "download_url": "https://github.com/pubg/terraform-provider-msgraph/releases/download/v0.2.1/terraform-provider-msgraph_0.2.1_windows_amd64.zip",
+          "shasum": "64aac7318a0a9ddd87bc3a4fc004a465480d380c6095232e6d0f83a28834c45d"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-msgraph_0.2.1_darwin_arm64.zip",
+          "download_url": "https://github.com/pubg/terraform-provider-msgraph/releases/download/v0.2.1/terraform-provider-msgraph_0.2.1_darwin_arm64.zip",
+          "shasum": "14e6c3a17513a209517ff3a06f355cddd2f8d6a462e2161bb3739e81d91e2dbc"
+        }
+      ]
+    },
+    {
       "version": "0.2.0",
       "protocols": [
         "5.0"
