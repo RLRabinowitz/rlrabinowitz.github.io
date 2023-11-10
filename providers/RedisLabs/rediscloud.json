@@ -2,6 +2,114 @@
   "repository": "https://github.com/RedisLabs/terraform-provider-rediscloud",
   "versions": [
     {
+      "version": "1.3.3",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/RedisLabs/terraform-provider-rediscloud/releases/download/v1.3.3/terraform-provider-rediscloud_1.3.3_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/RedisLabs/terraform-provider-rediscloud/releases/download/v1.3.3/terraform-provider-rediscloud_1.3.3_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-rediscloud_1.3.3_freebsd_amd64.zip",
+          "download_url": "https://github.com/RedisLabs/terraform-provider-rediscloud/releases/download/v1.3.3/terraform-provider-rediscloud_1.3.3_freebsd_amd64.zip",
+          "shasum": "a81fb43dcb6a0265dcee0e6b80b59a08656e4a56ee08b5a3c1bab53812cbb7ac"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-rediscloud_1.3.3_windows_386.zip",
+          "download_url": "https://github.com/RedisLabs/terraform-provider-rediscloud/releases/download/v1.3.3/terraform-provider-rediscloud_1.3.3_windows_386.zip",
+          "shasum": "062a8ef9240ba874983b1e666b15b8a46279bba8752af177a08b4464ed0431c9"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-rediscloud_1.3.3_linux_arm.zip",
+          "download_url": "https://github.com/RedisLabs/terraform-provider-rediscloud/releases/download/v1.3.3/terraform-provider-rediscloud_1.3.3_linux_arm.zip",
+          "shasum": "9f5da28727ead695e6d16d62aaea8d04d37ff6fe42e8fc4b0e49497085531fd6"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-rediscloud_1.3.3_freebsd_arm.zip",
+          "download_url": "https://github.com/RedisLabs/terraform-provider-rediscloud/releases/download/v1.3.3/terraform-provider-rediscloud_1.3.3_freebsd_arm.zip",
+          "shasum": "ea783865b67d90c44eda0d74550a2c80bb320c41105346cbf2e6b3a85d01737d"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-rediscloud_1.3.3_linux_386.zip",
+          "download_url": "https://github.com/RedisLabs/terraform-provider-rediscloud/releases/download/v1.3.3/terraform-provider-rediscloud_1.3.3_linux_386.zip",
+          "shasum": "3fad8c946a12b5d004fc3f1afbec481335841401de7ae4876c256b792d97d64f"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-rediscloud_1.3.3_windows_arm64.zip",
+          "download_url": "https://github.com/RedisLabs/terraform-provider-rediscloud/releases/download/v1.3.3/terraform-provider-rediscloud_1.3.3_windows_arm64.zip",
+          "shasum": "c039a203a024a031c7f74f99f937564557a3a1071fd9201f182e7ceb3c4cb2e6"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-rediscloud_1.3.3_windows_arm.zip",
+          "download_url": "https://github.com/RedisLabs/terraform-provider-rediscloud/releases/download/v1.3.3/terraform-provider-rediscloud_1.3.3_windows_arm.zip",
+          "shasum": "57d45b74400ea747146e8feebf269e9fdbc47f0314f3d8f8b3ea167459d7eb76"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-rediscloud_1.3.3_linux_arm64.zip",
+          "download_url": "https://github.com/RedisLabs/terraform-provider-rediscloud/releases/download/v1.3.3/terraform-provider-rediscloud_1.3.3_linux_arm64.zip",
+          "shasum": "767f9b1692eb3239f0afaec9f3a7a04e821e8b6633cbf94434e15100d13fdbbd"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-rediscloud_1.3.3_freebsd_arm64.zip",
+          "download_url": "https://github.com/RedisLabs/terraform-provider-rediscloud/releases/download/v1.3.3/terraform-provider-rediscloud_1.3.3_freebsd_arm64.zip",
+          "shasum": "c83c373da37faf058e3f83875a93da257315fb5a9275412f2cbf52e8d41a2cdb"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-rediscloud_1.3.3_windows_amd64.zip",
+          "download_url": "https://github.com/RedisLabs/terraform-provider-rediscloud/releases/download/v1.3.3/terraform-provider-rediscloud_1.3.3_windows_amd64.zip",
+          "shasum": "adc32a0e4a31b30a34e0bb532cd92f2dcf0c95f148b970af50f01918f77ad9f8"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-rediscloud_1.3.3_darwin_amd64.zip",
+          "download_url": "https://github.com/RedisLabs/terraform-provider-rediscloud/releases/download/v1.3.3/terraform-provider-rediscloud_1.3.3_darwin_amd64.zip",
+          "shasum": "5e5b280b819dc676b2215940891ba915363a5de8f1c5e97af0154f0c5c6ba33d"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-rediscloud_1.3.3_freebsd_386.zip",
+          "download_url": "https://github.com/RedisLabs/terraform-provider-rediscloud/releases/download/v1.3.3/terraform-provider-rediscloud_1.3.3_freebsd_386.zip",
+          "shasum": "39ab6dfa8896ceec8acc132e333c523a8e5c1a2d21f87641b0636b69dc52829f"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-rediscloud_1.3.3_darwin_arm64.zip",
+          "download_url": "https://github.com/RedisLabs/terraform-provider-rediscloud/releases/download/v1.3.3/terraform-provider-rediscloud_1.3.3_darwin_arm64.zip",
+          "shasum": "dbcc2fd7f1524c85dc840bcce709756623026f53315d36101e6c55ad7f5fbf16"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-rediscloud_1.3.3_linux_amd64.zip",
+          "download_url": "https://github.com/RedisLabs/terraform-provider-rediscloud/releases/download/v1.3.3/terraform-provider-rediscloud_1.3.3_linux_amd64.zip",
+          "shasum": "b31c52015a7cf76569451b5b0b5dc18f6ccc08a21d3afc33bfa3d00c6790a6f7"
+        }
+      ]
+    },
+    {
       "version": "1.3.2",
       "protocols": [
         "5.0"
