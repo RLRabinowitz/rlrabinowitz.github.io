@@ -2,6 +2,114 @@
   "repository": "https://github.com/vmware/terraform-provider-wavefront",
   "versions": [
     {
+      "version": "5.1.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/vmware/terraform-provider-wavefront/releases/download/v5.1.0/terraform-provider-wavefront_5.1.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/vmware/terraform-provider-wavefront/releases/download/v5.1.0/terraform-provider-wavefront_5.1.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-wavefront_5.1.0_freebsd_386.zip",
+          "download_url": "https://github.com/vmware/terraform-provider-wavefront/releases/download/v5.1.0/terraform-provider-wavefront_5.1.0_freebsd_386.zip",
+          "shasum": "2ee0061869ac67a16609c448371d5cc35414691de8f30d672bdc76a46da14b2b"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-wavefront_5.1.0_linux_386.zip",
+          "download_url": "https://github.com/vmware/terraform-provider-wavefront/releases/download/v5.1.0/terraform-provider-wavefront_5.1.0_linux_386.zip",
+          "shasum": "15015cdfe6a9b1fa83d493e39903bbf8dc163f749fd78329bb73f341fe592b30"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-wavefront_5.1.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/vmware/terraform-provider-wavefront/releases/download/v5.1.0/terraform-provider-wavefront_5.1.0_freebsd_amd64.zip",
+          "shasum": "86e1101c2fde03d2f089ddcfb777a86521957793bdef7c2560d15baa097c1bf0"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-wavefront_5.1.0_windows_amd64.zip",
+          "download_url": "https://github.com/vmware/terraform-provider-wavefront/releases/download/v5.1.0/terraform-provider-wavefront_5.1.0_windows_amd64.zip",
+          "shasum": "f938ac18a11846de1346d14964d38a9da2c9a335c9787201cd3e5f7f42e07a47"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-wavefront_5.1.0_freebsd_arm.zip",
+          "download_url": "https://github.com/vmware/terraform-provider-wavefront/releases/download/v5.1.0/terraform-provider-wavefront_5.1.0_freebsd_arm.zip",
+          "shasum": "4415775d2fa7cf789aa9d3d7945ceb769683b14b27213231a551e210a2d40b70"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-wavefront_5.1.0_windows_arm.zip",
+          "download_url": "https://github.com/vmware/terraform-provider-wavefront/releases/download/v5.1.0/terraform-provider-wavefront_5.1.0_windows_arm.zip",
+          "shasum": "fc761be2d5f0acdd8ca5438dc7bfafb838dd4b9ab799a74ea512460ad72f756b"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-wavefront_5.1.0_linux_arm.zip",
+          "download_url": "https://github.com/vmware/terraform-provider-wavefront/releases/download/v5.1.0/terraform-provider-wavefront_5.1.0_linux_arm.zip",
+          "shasum": "e9e86e7d642fa7e13806aa891d282b251bdac15dfa0b2c7093b600a7477f028c"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-wavefront_5.1.0_linux_amd64.zip",
+          "download_url": "https://github.com/vmware/terraform-provider-wavefront/releases/download/v5.1.0/terraform-provider-wavefront_5.1.0_linux_amd64.zip",
+          "shasum": "13e33b32f140d55fb15f6031e69becca3a151af7177b9825a84eb7f30d04c4e8"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-wavefront_5.1.0_linux_arm64.zip",
+          "download_url": "https://github.com/vmware/terraform-provider-wavefront/releases/download/v5.1.0/terraform-provider-wavefront_5.1.0_linux_arm64.zip",
+          "shasum": "da2edf4e903c2811d9c30e3d729b2e20adbdde73d0af2a9c35322287eada6690"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-wavefront_5.1.0_darwin_amd64.zip",
+          "download_url": "https://github.com/vmware/terraform-provider-wavefront/releases/download/v5.1.0/terraform-provider-wavefront_5.1.0_darwin_amd64.zip",
+          "shasum": "6ade905f42a9ada7f453ac9e42b5f11be94fe8d39844ac8bf741fd6cdfe86519"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-wavefront_5.1.0_darwin_arm64.zip",
+          "download_url": "https://github.com/vmware/terraform-provider-wavefront/releases/download/v5.1.0/terraform-provider-wavefront_5.1.0_darwin_arm64.zip",
+          "shasum": "a0947b74a5f70a7535c3aad71c245405df805db90574808da5bb3746bd2881f2"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-wavefront_5.1.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/vmware/terraform-provider-wavefront/releases/download/v5.1.0/terraform-provider-wavefront_5.1.0_freebsd_arm64.zip",
+          "shasum": "884ffbe0ec20202ff0be8b2575d08f1bfbcc901408b72b2e867f33d5b8e19516"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-wavefront_5.1.0_windows_386.zip",
+          "download_url": "https://github.com/vmware/terraform-provider-wavefront/releases/download/v5.1.0/terraform-provider-wavefront_5.1.0_windows_386.zip",
+          "shasum": "ecef5a9e7bf1f880a7f8ab0578b1c209d28d597069faa0f6846e9dd0619fb1b1"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-wavefront_5.1.0_windows_arm64.zip",
+          "download_url": "https://github.com/vmware/terraform-provider-wavefront/releases/download/v5.1.0/terraform-provider-wavefront_5.1.0_windows_arm64.zip",
+          "shasum": "2977cb7aa90e70172e3634ab0b47aa77a291eb0ca162c43ee8807c2c8b364dff"
+        }
+      ]
+    },
+    {
       "version": "5.0.5",
       "protocols": [
         "5.0"

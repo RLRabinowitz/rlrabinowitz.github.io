@@ -2,6 +2,114 @@
   "repository": "https://github.com/ksoclabs/terraform-provider-ksoc",
   "versions": [
     {
+      "version": "0.1.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/ksoclabs/terraform-provider-ksoc/releases/download/v0.1.0/terraform-provider-ksoc_0.1.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/ksoclabs/terraform-provider-ksoc/releases/download/v0.1.0/terraform-provider-ksoc_0.1.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-ksoc_0.1.0_windows_amd64.zip",
+          "download_url": "https://github.com/ksoclabs/terraform-provider-ksoc/releases/download/v0.1.0/terraform-provider-ksoc_0.1.0_windows_amd64.zip",
+          "shasum": "7a5da6e554c3f429f86186f80e34a6762d9ad79a639b7b1c3560d765dcbd18b4"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-ksoc_0.1.0_windows_arm.zip",
+          "download_url": "https://github.com/ksoclabs/terraform-provider-ksoc/releases/download/v0.1.0/terraform-provider-ksoc_0.1.0_windows_arm.zip",
+          "shasum": "13f99d16dad8c20de48fd17331dd1ee35747c2ccf43f4913fdb09301e2be473c"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-ksoc_0.1.0_linux_386.zip",
+          "download_url": "https://github.com/ksoclabs/terraform-provider-ksoc/releases/download/v0.1.0/terraform-provider-ksoc_0.1.0_linux_386.zip",
+          "shasum": "fd17dd05d1fa5810e4b10c1e122cc15985d50461774cfac7bec6962b103e2f2f"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-ksoc_0.1.0_linux_amd64.zip",
+          "download_url": "https://github.com/ksoclabs/terraform-provider-ksoc/releases/download/v0.1.0/terraform-provider-ksoc_0.1.0_linux_amd64.zip",
+          "shasum": "7998426e11c887d7443a29643a764a84229fe58b0c19f94178309ecaf09b7338"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-ksoc_0.1.0_darwin_amd64.zip",
+          "download_url": "https://github.com/ksoclabs/terraform-provider-ksoc/releases/download/v0.1.0/terraform-provider-ksoc_0.1.0_darwin_amd64.zip",
+          "shasum": "2902aed86b695743d3d95c3479a54defe0d48228d5c370addf3209344169ed38"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-ksoc_0.1.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/ksoclabs/terraform-provider-ksoc/releases/download/v0.1.0/terraform-provider-ksoc_0.1.0_freebsd_arm64.zip",
+          "shasum": "fc7aa663834e4d719c0accaadcc2e1591f7a5c0bde13b6a57eaba8e39de29b84"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-ksoc_0.1.0_freebsd_386.zip",
+          "download_url": "https://github.com/ksoclabs/terraform-provider-ksoc/releases/download/v0.1.0/terraform-provider-ksoc_0.1.0_freebsd_386.zip",
+          "shasum": "d0c09fcc513b5fa9bcc804d68b1961222ee4611045a6e87949080f02ab7229d5"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-ksoc_0.1.0_windows_arm64.zip",
+          "download_url": "https://github.com/ksoclabs/terraform-provider-ksoc/releases/download/v0.1.0/terraform-provider-ksoc_0.1.0_windows_arm64.zip",
+          "shasum": "f0d1956e8339396e070552b5891b77a0dfe8423431a765ed3644f89aa94474da"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-ksoc_0.1.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/ksoclabs/terraform-provider-ksoc/releases/download/v0.1.0/terraform-provider-ksoc_0.1.0_freebsd_amd64.zip",
+          "shasum": "ea783f659d8b81dc5b973b698f5ffc14e20badbe1688fd01f62a1f72db6a5e3b"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-ksoc_0.1.0_linux_arm64.zip",
+          "download_url": "https://github.com/ksoclabs/terraform-provider-ksoc/releases/download/v0.1.0/terraform-provider-ksoc_0.1.0_linux_arm64.zip",
+          "shasum": "7b22ebcde406816c98fcef5a52554ff4f571848faf4be37a8f191237cc142653"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-ksoc_0.1.0_freebsd_arm.zip",
+          "download_url": "https://github.com/ksoclabs/terraform-provider-ksoc/releases/download/v0.1.0/terraform-provider-ksoc_0.1.0_freebsd_arm.zip",
+          "shasum": "25352ef8193aaf5f2c590721964002b1b3ecf2021a7405d7d8f17df13a281490"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-ksoc_0.1.0_windows_386.zip",
+          "download_url": "https://github.com/ksoclabs/terraform-provider-ksoc/releases/download/v0.1.0/terraform-provider-ksoc_0.1.0_windows_386.zip",
+          "shasum": "06a1b18c26f16e2275fc77b848a0f4f2e77e269d3871d865febb796df268e5d4"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-ksoc_0.1.0_linux_arm.zip",
+          "download_url": "https://github.com/ksoclabs/terraform-provider-ksoc/releases/download/v0.1.0/terraform-provider-ksoc_0.1.0_linux_arm.zip",
+          "shasum": "4ccf4142dbe2c9473bb0474ef15c86f3d1f0a38fec0288d0e98342e3632296a1"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-ksoc_0.1.0_darwin_arm64.zip",
+          "download_url": "https://github.com/ksoclabs/terraform-provider-ksoc/releases/download/v0.1.0/terraform-provider-ksoc_0.1.0_darwin_arm64.zip",
+          "shasum": "3bc70f9d5305bbcbc5361f43d5d739e452af0cecd8d7143280eb7269dc8805c2"
+        }
+      ]
+    },
+    {
       "version": "0.0.8",
       "protocols": [
         "5.0"
