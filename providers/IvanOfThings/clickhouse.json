@@ -2,6 +2,114 @@
   "repository": "https://github.com/IvanOfThings/terraform-provider-clickhouse",
   "versions": [
     {
+      "version": "3.0.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/IvanOfThings/terraform-provider-clickhouse/releases/download/v3.0.0/terraform-provider-clickhouse_3.0.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/IvanOfThings/terraform-provider-clickhouse/releases/download/v3.0.0/terraform-provider-clickhouse_3.0.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-clickhouse_3.0.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/IvanOfThings/terraform-provider-clickhouse/releases/download/v3.0.0/terraform-provider-clickhouse_3.0.0_freebsd_amd64.zip",
+          "shasum": "c82e01edb4963908160db4482c4a95e079209c51146670a67dc3dab3c59737b3"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-clickhouse_3.0.0_freebsd_arm.zip",
+          "download_url": "https://github.com/IvanOfThings/terraform-provider-clickhouse/releases/download/v3.0.0/terraform-provider-clickhouse_3.0.0_freebsd_arm.zip",
+          "shasum": "817689bb5b28514453ce371cb3473909f9d74193a67d5b631bf93c5befa9d7b3"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-clickhouse_3.0.0_windows_arm.zip",
+          "download_url": "https://github.com/IvanOfThings/terraform-provider-clickhouse/releases/download/v3.0.0/terraform-provider-clickhouse_3.0.0_windows_arm.zip",
+          "shasum": "c0994b48507cef5b7620769eaf2033f15301f869935809bd82b9fdbba411522b"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-clickhouse_3.0.0_linux_386.zip",
+          "download_url": "https://github.com/IvanOfThings/terraform-provider-clickhouse/releases/download/v3.0.0/terraform-provider-clickhouse_3.0.0_linux_386.zip",
+          "shasum": "84e76803c315e5ea78097d12e939195ccee0abc3ef6624329f8bd75ab24e03c4"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-clickhouse_3.0.0_linux_arm.zip",
+          "download_url": "https://github.com/IvanOfThings/terraform-provider-clickhouse/releases/download/v3.0.0/terraform-provider-clickhouse_3.0.0_linux_arm.zip",
+          "shasum": "557b31a9073f8c7621d081da2b0afc1e09f2565a1c76aefc9dabc0a9737904e2"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-clickhouse_3.0.0_windows_arm64.zip",
+          "download_url": "https://github.com/IvanOfThings/terraform-provider-clickhouse/releases/download/v3.0.0/terraform-provider-clickhouse_3.0.0_windows_arm64.zip",
+          "shasum": "004c8e61a2233f53e824e0810482bc8fc6c303f173bc55fd453135f979beea23"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-clickhouse_3.0.0_windows_amd64.zip",
+          "download_url": "https://github.com/IvanOfThings/terraform-provider-clickhouse/releases/download/v3.0.0/terraform-provider-clickhouse_3.0.0_windows_amd64.zip",
+          "shasum": "867bb492545476e8492e75f874dbf1535af9feff6913582bc15c89a065496023"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-clickhouse_3.0.0_linux_amd64.zip",
+          "download_url": "https://github.com/IvanOfThings/terraform-provider-clickhouse/releases/download/v3.0.0/terraform-provider-clickhouse_3.0.0_linux_amd64.zip",
+          "shasum": "b7f6447c396c874d83b8e1e8de0ba6d20074a22186cf6ced96b11713322bf88d"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-clickhouse_3.0.0_darwin_amd64.zip",
+          "download_url": "https://github.com/IvanOfThings/terraform-provider-clickhouse/releases/download/v3.0.0/terraform-provider-clickhouse_3.0.0_darwin_amd64.zip",
+          "shasum": "0dc147ba1a5ec4e940faf7cedf97b9275ce052abdb0fbe0c9927bcd5695197fc"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-clickhouse_3.0.0_freebsd_386.zip",
+          "download_url": "https://github.com/IvanOfThings/terraform-provider-clickhouse/releases/download/v3.0.0/terraform-provider-clickhouse_3.0.0_freebsd_386.zip",
+          "shasum": "01902c99bb5149e6c554b82b8413b7f5f55d4607703e10538a248c033484e0f9"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-clickhouse_3.0.0_darwin_arm64.zip",
+          "download_url": "https://github.com/IvanOfThings/terraform-provider-clickhouse/releases/download/v3.0.0/terraform-provider-clickhouse_3.0.0_darwin_arm64.zip",
+          "shasum": "151c0b749a528324e6ecdd6fff87930617989eb0877cf2147ad31417578c80e8"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-clickhouse_3.0.0_windows_386.zip",
+          "download_url": "https://github.com/IvanOfThings/terraform-provider-clickhouse/releases/download/v3.0.0/terraform-provider-clickhouse_3.0.0_windows_386.zip",
+          "shasum": "c764ecb81b7f5de46e145bcab23d133a3011ebfffc30b1d7061b0a0ad00c40c5"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-clickhouse_3.0.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/IvanOfThings/terraform-provider-clickhouse/releases/download/v3.0.0/terraform-provider-clickhouse_3.0.0_freebsd_arm64.zip",
+          "shasum": "5bac9a93c92e6595d1448998595eb16f955943fc002f9273737239b59cff473a"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-clickhouse_3.0.0_linux_arm64.zip",
+          "download_url": "https://github.com/IvanOfThings/terraform-provider-clickhouse/releases/download/v3.0.0/terraform-provider-clickhouse_3.0.0_linux_arm64.zip",
+          "shasum": "47167c18a0c42c7ab5f0829725cc2d05ae3a0a47c5144f09debd2ed845510003"
+        }
+      ]
+    },
+    {
       "version": "2.1.3",
       "protocols": [
         "5.0"
