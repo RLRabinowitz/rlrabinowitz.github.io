@@ -2,6 +2,114 @@
   "repository": "https://github.com/volcengine/terraform-provider-volcengine",
   "versions": [
     {
+      "version": "0.0.123",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/volcengine/terraform-provider-volcengine/releases/download/v0.0.123/terraform-provider-volcengine_0.0.123_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/volcengine/terraform-provider-volcengine/releases/download/v0.0.123/terraform-provider-volcengine_0.0.123_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-volcengine_0.0.123_windows_arm64.zip",
+          "download_url": "https://github.com/volcengine/terraform-provider-volcengine/releases/download/v0.0.123/terraform-provider-volcengine_0.0.123_windows_arm64.zip",
+          "shasum": "3819b305a1e0ec7055f2ed40cd5fd22e662b3000d25ce6e1bded173930609324"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-volcengine_0.0.123_linux_386.zip",
+          "download_url": "https://github.com/volcengine/terraform-provider-volcengine/releases/download/v0.0.123/terraform-provider-volcengine_0.0.123_linux_386.zip",
+          "shasum": "a198a91262790a2fcc98578308488e22b43658512dee9fe151d4fc5c502d5443"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-volcengine_0.0.123_freebsd_386.zip",
+          "download_url": "https://github.com/volcengine/terraform-provider-volcengine/releases/download/v0.0.123/terraform-provider-volcengine_0.0.123_freebsd_386.zip",
+          "shasum": "90ba73f05a30b1e9561bb881c6f273468332c39f60dfc0b20713dc0e3f83224c"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-volcengine_0.0.123_freebsd_amd64.zip",
+          "download_url": "https://github.com/volcengine/terraform-provider-volcengine/releases/download/v0.0.123/terraform-provider-volcengine_0.0.123_freebsd_amd64.zip",
+          "shasum": "fa6d92c0b93a2117be91ab1399fb50e30e8fb2d1fc1fd72ca773e64ad9fdf896"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-volcengine_0.0.123_freebsd_arm64.zip",
+          "download_url": "https://github.com/volcengine/terraform-provider-volcengine/releases/download/v0.0.123/terraform-provider-volcengine_0.0.123_freebsd_arm64.zip",
+          "shasum": "f4078b5c9acb733f0e07429b47616d0e84ddf6b6ae43ac2896e753d420c7ce19"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-volcengine_0.0.123_windows_386.zip",
+          "download_url": "https://github.com/volcengine/terraform-provider-volcengine/releases/download/v0.0.123/terraform-provider-volcengine_0.0.123_windows_386.zip",
+          "shasum": "7215596494637ee10289d0b856ea30a06518f0e727640638acedf3539e8f5a14"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-volcengine_0.0.123_windows_amd64.zip",
+          "download_url": "https://github.com/volcengine/terraform-provider-volcengine/releases/download/v0.0.123/terraform-provider-volcengine_0.0.123_windows_amd64.zip",
+          "shasum": "a0265c6147d0f0212d90bfa8daf6a20c1e695b1c08bc23f5b89c80b72e80b17f"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-volcengine_0.0.123_darwin_amd64.zip",
+          "download_url": "https://github.com/volcengine/terraform-provider-volcengine/releases/download/v0.0.123/terraform-provider-volcengine_0.0.123_darwin_amd64.zip",
+          "shasum": "2b5a26766c53d3d32489eada914b42ce03bea251fa72ffc45d19bca0202f08af"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-volcengine_0.0.123_linux_amd64.zip",
+          "download_url": "https://github.com/volcengine/terraform-provider-volcengine/releases/download/v0.0.123/terraform-provider-volcengine_0.0.123_linux_amd64.zip",
+          "shasum": "30159ab252c529b76b1d520653b396e15e4abfed39983f0dcaf9ebf03fe75dde"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-volcengine_0.0.123_linux_arm64.zip",
+          "download_url": "https://github.com/volcengine/terraform-provider-volcengine/releases/download/v0.0.123/terraform-provider-volcengine_0.0.123_linux_arm64.zip",
+          "shasum": "baaafb36fcd64b694b14ae85ca22eaa1174e07989a6fd5cdfb2454b58c42ccc1"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-volcengine_0.0.123_freebsd_arm.zip",
+          "download_url": "https://github.com/volcengine/terraform-provider-volcengine/releases/download/v0.0.123/terraform-provider-volcengine_0.0.123_freebsd_arm.zip",
+          "shasum": "7fb1361168c90839b14b5894f1ee52e905d5df44e1e2a58c66b4624d8549e79d"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-volcengine_0.0.123_darwin_arm64.zip",
+          "download_url": "https://github.com/volcengine/terraform-provider-volcengine/releases/download/v0.0.123/terraform-provider-volcengine_0.0.123_darwin_arm64.zip",
+          "shasum": "876b7bd249025085fbbe0ce6af092a6c59e478424142f510438882080560adef"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-volcengine_0.0.123_windows_arm.zip",
+          "download_url": "https://github.com/volcengine/terraform-provider-volcengine/releases/download/v0.0.123/terraform-provider-volcengine_0.0.123_windows_arm.zip",
+          "shasum": "e5a17198a6f8f47c03d0485244c7a756900366931d6e66fd2828170aa3df1d2e"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-volcengine_0.0.123_linux_arm.zip",
+          "download_url": "https://github.com/volcengine/terraform-provider-volcengine/releases/download/v0.0.123/terraform-provider-volcengine_0.0.123_linux_arm.zip",
+          "shasum": "09624e300a6f267ac7071fd14cd9b7fae169fe72e881d7741a8de3b11e34a096"
+        }
+      ]
+    },
+    {
       "version": "0.0.122",
       "protocols": [
         "5.0"
