@@ -2,6 +2,114 @@
   "repository": "https://github.com/TiVo/terraform-provider-splunk-itsi",
   "versions": [
     {
+      "version": "1.1.1",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/TiVo/terraform-provider-splunk-itsi/releases/download/v1.1.1/terraform-provider-splunk-itsi_1.1.1_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/TiVo/terraform-provider-splunk-itsi/releases/download/v1.1.1/terraform-provider-splunk-itsi_1.1.1_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-splunk-itsi_1.1.1_freebsd_arm.zip",
+          "download_url": "https://github.com/TiVo/terraform-provider-splunk-itsi/releases/download/v1.1.1/terraform-provider-splunk-itsi_1.1.1_freebsd_arm.zip",
+          "shasum": "ecd1d156550fd0003a25552d32ed9a2841eb73c09ba74651eb712165761b9902"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-splunk-itsi_1.1.1_darwin_amd64.zip",
+          "download_url": "https://github.com/TiVo/terraform-provider-splunk-itsi/releases/download/v1.1.1/terraform-provider-splunk-itsi_1.1.1_darwin_amd64.zip",
+          "shasum": "5e13980b2002908982c44874dfcc3b7b9902d0c69f8d7b0f9f91d520aa7f20dd"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-splunk-itsi_1.1.1_windows_arm.zip",
+          "download_url": "https://github.com/TiVo/terraform-provider-splunk-itsi/releases/download/v1.1.1/terraform-provider-splunk-itsi_1.1.1_windows_arm.zip",
+          "shasum": "27ab03b831cfaeca30dbf95ba2843ffbb22d47f68a05988660df847850226b07"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-splunk-itsi_1.1.1_windows_amd64.zip",
+          "download_url": "https://github.com/TiVo/terraform-provider-splunk-itsi/releases/download/v1.1.1/terraform-provider-splunk-itsi_1.1.1_windows_amd64.zip",
+          "shasum": "f89eefa15c688b6c5b59c61d485e06764ecc849d988cc1f900e011017f15fc07"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-splunk-itsi_1.1.1_linux_arm.zip",
+          "download_url": "https://github.com/TiVo/terraform-provider-splunk-itsi/releases/download/v1.1.1/terraform-provider-splunk-itsi_1.1.1_linux_arm.zip",
+          "shasum": "958b61c31de41c88fe53d797fe2faff6e56006c0ae5800220d7072c3cb02e4ee"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-splunk-itsi_1.1.1_freebsd_arm64.zip",
+          "download_url": "https://github.com/TiVo/terraform-provider-splunk-itsi/releases/download/v1.1.1/terraform-provider-splunk-itsi_1.1.1_freebsd_arm64.zip",
+          "shasum": "562bb03c558083807caea0091cc8ea5a1bc3db99b373d713c008c439998b9253"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-splunk-itsi_1.1.1_windows_arm64.zip",
+          "download_url": "https://github.com/TiVo/terraform-provider-splunk-itsi/releases/download/v1.1.1/terraform-provider-splunk-itsi_1.1.1_windows_arm64.zip",
+          "shasum": "6eba6aa52143798ef5e59273050d6cfed3dcb76595f6b879182626c9e4f2f5dc"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-splunk-itsi_1.1.1_linux_386.zip",
+          "download_url": "https://github.com/TiVo/terraform-provider-splunk-itsi/releases/download/v1.1.1/terraform-provider-splunk-itsi_1.1.1_linux_386.zip",
+          "shasum": "ae4a47564a48534ea4f2e27022758866115c25c20ec398b082887fa079d1f2b4"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-splunk-itsi_1.1.1_linux_arm64.zip",
+          "download_url": "https://github.com/TiVo/terraform-provider-splunk-itsi/releases/download/v1.1.1/terraform-provider-splunk-itsi_1.1.1_linux_arm64.zip",
+          "shasum": "b0f4458e246d9dbe989c178d939e3e20997bc20d1070304afbf48c2939419b0c"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-splunk-itsi_1.1.1_linux_amd64.zip",
+          "download_url": "https://github.com/TiVo/terraform-provider-splunk-itsi/releases/download/v1.1.1/terraform-provider-splunk-itsi_1.1.1_linux_amd64.zip",
+          "shasum": "7a8982d1050a37103d3e03a846d3f103648cc9c0371bdc6cf689ab70ae99b256"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-splunk-itsi_1.1.1_freebsd_386.zip",
+          "download_url": "https://github.com/TiVo/terraform-provider-splunk-itsi/releases/download/v1.1.1/terraform-provider-splunk-itsi_1.1.1_freebsd_386.zip",
+          "shasum": "acc7b698b74fcc6ff938013120bf3597e343a175147138eeac3a272a6bc61721"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-splunk-itsi_1.1.1_darwin_arm64.zip",
+          "download_url": "https://github.com/TiVo/terraform-provider-splunk-itsi/releases/download/v1.1.1/terraform-provider-splunk-itsi_1.1.1_darwin_arm64.zip",
+          "shasum": "76ce982befc1019b9556e21efa59518b296362e2833436894ae0a3b42c29758b"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-splunk-itsi_1.1.1_freebsd_amd64.zip",
+          "download_url": "https://github.com/TiVo/terraform-provider-splunk-itsi/releases/download/v1.1.1/terraform-provider-splunk-itsi_1.1.1_freebsd_amd64.zip",
+          "shasum": "318bf1006438f8d1db3cfbe0da5efcdfc037b05e3dfbac8938283a0b4b6cbd03"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-splunk-itsi_1.1.1_windows_386.zip",
+          "download_url": "https://github.com/TiVo/terraform-provider-splunk-itsi/releases/download/v1.1.1/terraform-provider-splunk-itsi_1.1.1_windows_386.zip",
+          "shasum": "2c1030f00971d2cd8f2199ad08f1d9b9cb58af9ba44bb4f3c5fb1002e18bee1f"
+        }
+      ]
+    },
+    {
       "version": "1.1.0",
       "protocols": [
         "5.0"
