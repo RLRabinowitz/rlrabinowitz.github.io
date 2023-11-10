@@ -2,6 +2,114 @@
   "repository": "https://github.com/uptime-com/terraform-provider-uptime",
   "versions": [
     {
+      "version": "2.1.0-rc.2",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/uptime-com/terraform-provider-uptime/releases/download/v2.1.0-rc.2/terraform-provider-uptime_2.1.0-rc.2_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/uptime-com/terraform-provider-uptime/releases/download/v2.1.0-rc.2/terraform-provider-uptime_2.1.0-rc.2_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-uptime_2.1.0-rc.2_linux_amd64.zip",
+          "download_url": "https://github.com/uptime-com/terraform-provider-uptime/releases/download/v2.1.0-rc.2/terraform-provider-uptime_2.1.0-rc.2_linux_amd64.zip",
+          "shasum": "1b1158b7af55f0ba3addb770399eb7d917aadf7e942fee1b762f026ecc3b1e0c"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-uptime_2.1.0-rc.2_freebsd_arm.zip",
+          "download_url": "https://github.com/uptime-com/terraform-provider-uptime/releases/download/v2.1.0-rc.2/terraform-provider-uptime_2.1.0-rc.2_freebsd_arm.zip",
+          "shasum": "06508c0c71f5b7a2a79e91d2a5f0f4c1f3b275f2299341b379720985986b769b"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-uptime_2.1.0-rc.2_freebsd_arm64.zip",
+          "download_url": "https://github.com/uptime-com/terraform-provider-uptime/releases/download/v2.1.0-rc.2/terraform-provider-uptime_2.1.0-rc.2_freebsd_arm64.zip",
+          "shasum": "fcab93b85824b9331e38b2f2fb9ca3ea62205646f847606eb16312ed4b84c006"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-uptime_2.1.0-rc.2_windows_amd64.zip",
+          "download_url": "https://github.com/uptime-com/terraform-provider-uptime/releases/download/v2.1.0-rc.2/terraform-provider-uptime_2.1.0-rc.2_windows_amd64.zip",
+          "shasum": "aed1cd5806e68afcf7ee192e9d8385721fd2eced37516d4e18b8f979cf406995"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-uptime_2.1.0-rc.2_windows_arm.zip",
+          "download_url": "https://github.com/uptime-com/terraform-provider-uptime/releases/download/v2.1.0-rc.2/terraform-provider-uptime_2.1.0-rc.2_windows_arm.zip",
+          "shasum": "81d02d01fffac8af66858d9c2c2577f615326704f5dd1a7fc0fffdd504f8733d"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-uptime_2.1.0-rc.2_linux_arm.zip",
+          "download_url": "https://github.com/uptime-com/terraform-provider-uptime/releases/download/v2.1.0-rc.2/terraform-provider-uptime_2.1.0-rc.2_linux_arm.zip",
+          "shasum": "c8c161faba902961852e88807ac881667088efc92eb8d7abe76300db0025ca40"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-uptime_2.1.0-rc.2_freebsd_amd64.zip",
+          "download_url": "https://github.com/uptime-com/terraform-provider-uptime/releases/download/v2.1.0-rc.2/terraform-provider-uptime_2.1.0-rc.2_freebsd_amd64.zip",
+          "shasum": "0f5955e1aea095df6fe6a424e6bf947d212b56a2a04344a82289dee47cd55d7f"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-uptime_2.1.0-rc.2_darwin_amd64.zip",
+          "download_url": "https://github.com/uptime-com/terraform-provider-uptime/releases/download/v2.1.0-rc.2/terraform-provider-uptime_2.1.0-rc.2_darwin_amd64.zip",
+          "shasum": "00ca7e746a362b43e2356b1cd0ea9bc5d48db5bbfd7ee6324df9dcf740c8aa90"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-uptime_2.1.0-rc.2_darwin_arm64.zip",
+          "download_url": "https://github.com/uptime-com/terraform-provider-uptime/releases/download/v2.1.0-rc.2/terraform-provider-uptime_2.1.0-rc.2_darwin_arm64.zip",
+          "shasum": "267947fbc5123ab8bbcd67ffa714fe7c11eb9846ad04172be7254abdfc511032"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-uptime_2.1.0-rc.2_freebsd_386.zip",
+          "download_url": "https://github.com/uptime-com/terraform-provider-uptime/releases/download/v2.1.0-rc.2/terraform-provider-uptime_2.1.0-rc.2_freebsd_386.zip",
+          "shasum": "5ec3198769631adda6caa83efc19aa6798878f914c02211062a32458e03f2048"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-uptime_2.1.0-rc.2_windows_386.zip",
+          "download_url": "https://github.com/uptime-com/terraform-provider-uptime/releases/download/v2.1.0-rc.2/terraform-provider-uptime_2.1.0-rc.2_windows_386.zip",
+          "shasum": "7e7bbf1cbb73a1a505ecd6dfe9f39ac0bc074f828cf91c924c1e418c9b5c7485"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-uptime_2.1.0-rc.2_windows_arm64.zip",
+          "download_url": "https://github.com/uptime-com/terraform-provider-uptime/releases/download/v2.1.0-rc.2/terraform-provider-uptime_2.1.0-rc.2_windows_arm64.zip",
+          "shasum": "6bed200e2e9db1b3ffe232ad0224427c2747f50add3a49c35154bebd02f9f46c"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-uptime_2.1.0-rc.2_linux_386.zip",
+          "download_url": "https://github.com/uptime-com/terraform-provider-uptime/releases/download/v2.1.0-rc.2/terraform-provider-uptime_2.1.0-rc.2_linux_386.zip",
+          "shasum": "590cc45e3a93b7e9cf44fdea722f058956145c168bdfa6f8dbd51ed9b4b5d72f"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-uptime_2.1.0-rc.2_linux_arm64.zip",
+          "download_url": "https://github.com/uptime-com/terraform-provider-uptime/releases/download/v2.1.0-rc.2/terraform-provider-uptime_2.1.0-rc.2_linux_arm64.zip",
+          "shasum": "c38b7d7e7e45d4ec3e2c518a5b188466c8a50e527afab529bb87e21723a8d971"
+        }
+      ]
+    },
+    {
       "version": "2.1.0-rc1",
       "protocols": [
         "5.0"
