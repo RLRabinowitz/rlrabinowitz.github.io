@@ -2,6 +2,100 @@
   "repository": "https://github.com/LumenTech/terraform-provider-lumen",
   "versions": [
     {
+      "version": "0.6.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/LumenTech/terraform-provider-lumen/releases/download/v0.6.0/terraform-provider-lumen_0.6.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/LumenTech/terraform-provider-lumen/releases/download/v0.6.0/terraform-provider-lumen_0.6.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-lumen_0.6.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/LumenTech/terraform-provider-lumen/releases/download/v0.6.0/terraform-provider-lumen_0.6.0_freebsd_amd64.zip",
+          "shasum": "e5a778cb49480a9dd5e3ff03214fd3b018bc5608ef42c15d4c58668d30de0de2"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-lumen_0.6.0_freebsd_arm.zip",
+          "download_url": "https://github.com/LumenTech/terraform-provider-lumen/releases/download/v0.6.0/terraform-provider-lumen_0.6.0_freebsd_arm.zip",
+          "shasum": "fde224fa402e5c7915e61c9291dfaa4eaa4220600f75b58aecf7ef47f3ef2515"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-lumen_0.6.0_windows_amd64.zip",
+          "download_url": "https://github.com/LumenTech/terraform-provider-lumen/releases/download/v0.6.0/terraform-provider-lumen_0.6.0_windows_amd64.zip",
+          "shasum": "a535220eac612f6bbf55f49c9e788f08019348ae5081a43a62cb5beb35bfe92f"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-lumen_0.6.0_linux_arm.zip",
+          "download_url": "https://github.com/LumenTech/terraform-provider-lumen/releases/download/v0.6.0/terraform-provider-lumen_0.6.0_linux_arm.zip",
+          "shasum": "427300c1a72759fda8ec44692227deb7a628487532f6e7177e95c938b58c9eec"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-lumen_0.6.0_linux_amd64.zip",
+          "download_url": "https://github.com/LumenTech/terraform-provider-lumen/releases/download/v0.6.0/terraform-provider-lumen_0.6.0_linux_amd64.zip",
+          "shasum": "f4c7aefc45292472d63698eef7d400f47757be8817284736e80e2eb63078a3d1"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-lumen_0.6.0_freebsd_386.zip",
+          "download_url": "https://github.com/LumenTech/terraform-provider-lumen/releases/download/v0.6.0/terraform-provider-lumen_0.6.0_freebsd_386.zip",
+          "shasum": "21c1d9d571d3a9e363fb0966f6a89255d519c9424ea5042321d576234e2c7ca4"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-lumen_0.6.0_linux_arm64.zip",
+          "download_url": "https://github.com/LumenTech/terraform-provider-lumen/releases/download/v0.6.0/terraform-provider-lumen_0.6.0_linux_arm64.zip",
+          "shasum": "5c73efddcb8aad43f3b58f1bfa63e3f435ae1635305ebd9930354cf3855c7c2c"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-lumen_0.6.0_windows_386.zip",
+          "download_url": "https://github.com/LumenTech/terraform-provider-lumen/releases/download/v0.6.0/terraform-provider-lumen_0.6.0_windows_386.zip",
+          "shasum": "2ec3880a5a44520403efe6178b8970c9d74a1891094fc6d4481c3b87b801e735"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-lumen_0.6.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/LumenTech/terraform-provider-lumen/releases/download/v0.6.0/terraform-provider-lumen_0.6.0_freebsd_arm64.zip",
+          "shasum": "e7ae9bdd7743e8e294aad6661efecab94da720a4528350c94e4ca19f4c5b5e3a"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-lumen_0.6.0_windows_arm.zip",
+          "download_url": "https://github.com/LumenTech/terraform-provider-lumen/releases/download/v0.6.0/terraform-provider-lumen_0.6.0_windows_arm.zip",
+          "shasum": "81a8687e4d6913739c519dce7a5307ac13a950f2f9013c6ba11b4ce6c2573efa"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-lumen_0.6.0_linux_386.zip",
+          "download_url": "https://github.com/LumenTech/terraform-provider-lumen/releases/download/v0.6.0/terraform-provider-lumen_0.6.0_linux_386.zip",
+          "shasum": "fbcb62c91806719d3a9892376417c1ffce65552ea3c2a0544e4fec877af9af1f"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-lumen_0.6.0_darwin_amd64.zip",
+          "download_url": "https://github.com/LumenTech/terraform-provider-lumen/releases/download/v0.6.0/terraform-provider-lumen_0.6.0_darwin_amd64.zip",
+          "shasum": "c9fc09e2bcc562331783b4de5262c908bf40b867a7e0ec581f8cf33f35ebfdf1"
+        }
+      ]
+    },
+    {
       "version": "0.5.2",
       "protocols": [
         "5.0"
