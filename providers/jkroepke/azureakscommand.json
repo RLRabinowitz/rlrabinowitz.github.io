@@ -2,6 +2,114 @@
   "repository": "https://github.com/jkroepke/terraform-provider-azureakscommand",
   "versions": [
     {
+      "version": "1.2.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/jkroepke/terraform-provider-azureakscommand/releases/download/v1.2.0/terraform-provider-azureakscommand_1.2.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/jkroepke/terraform-provider-azureakscommand/releases/download/v1.2.0/terraform-provider-azureakscommand_1.2.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-azureakscommand_1.2.0_windows_arm64.zip",
+          "download_url": "https://github.com/jkroepke/terraform-provider-azureakscommand/releases/download/v1.2.0/terraform-provider-azureakscommand_1.2.0_windows_arm64.zip",
+          "shasum": "f495a8762cc49797782b01cbe0ce51339ca2c9579b4302ee269cb8118a5acc73"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-azureakscommand_1.2.0_freebsd_386.zip",
+          "download_url": "https://github.com/jkroepke/terraform-provider-azureakscommand/releases/download/v1.2.0/terraform-provider-azureakscommand_1.2.0_freebsd_386.zip",
+          "shasum": "d452592260ecde0e48904b783e63a47589e40799f7ef99c0065c83566a067e91"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-azureakscommand_1.2.0_linux_386.zip",
+          "download_url": "https://github.com/jkroepke/terraform-provider-azureakscommand/releases/download/v1.2.0/terraform-provider-azureakscommand_1.2.0_linux_386.zip",
+          "shasum": "94f497efdbef60100c2399d10358ceeaea2393e1adf75e5c02c09b0d6d3274f4"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-azureakscommand_1.2.0_windows_arm.zip",
+          "download_url": "https://github.com/jkroepke/terraform-provider-azureakscommand/releases/download/v1.2.0/terraform-provider-azureakscommand_1.2.0_windows_arm.zip",
+          "shasum": "5d7244c17e5ca7a162c5719ded21c7723c332bfab368475ef62de8e146d5d8ae"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-azureakscommand_1.2.0_linux_arm.zip",
+          "download_url": "https://github.com/jkroepke/terraform-provider-azureakscommand/releases/download/v1.2.0/terraform-provider-azureakscommand_1.2.0_linux_arm.zip",
+          "shasum": "d13fb4a0f34f3d770353881e939735a91be7a2e80a643cfa80aacb7108af222c"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-azureakscommand_1.2.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/jkroepke/terraform-provider-azureakscommand/releases/download/v1.2.0/terraform-provider-azureakscommand_1.2.0_freebsd_arm64.zip",
+          "shasum": "91de82b51635feeb108b6ee419d192d7ce68f77671957de5ff3e770d82dc64da"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-azureakscommand_1.2.0_darwin_amd64.zip",
+          "download_url": "https://github.com/jkroepke/terraform-provider-azureakscommand/releases/download/v1.2.0/terraform-provider-azureakscommand_1.2.0_darwin_amd64.zip",
+          "shasum": "57a30f9250daf83aacbb5ea91cce0a7abfe021c7bdf20cd2b25c33a3f6d40c6e"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-azureakscommand_1.2.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/jkroepke/terraform-provider-azureakscommand/releases/download/v1.2.0/terraform-provider-azureakscommand_1.2.0_freebsd_amd64.zip",
+          "shasum": "6f83fa82f22fd096093b0e907d80c58e5b662f6dc51eda669942f0e37b6f8d21"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-azureakscommand_1.2.0_freebsd_arm.zip",
+          "download_url": "https://github.com/jkroepke/terraform-provider-azureakscommand/releases/download/v1.2.0/terraform-provider-azureakscommand_1.2.0_freebsd_arm.zip",
+          "shasum": "3a0e2bfc8061cb83b9682e592f5399984fcff1336f9cc863055adeef518b6048"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-azureakscommand_1.2.0_windows_386.zip",
+          "download_url": "https://github.com/jkroepke/terraform-provider-azureakscommand/releases/download/v1.2.0/terraform-provider-azureakscommand_1.2.0_windows_386.zip",
+          "shasum": "67efaf1a43860c2eb74e8599c7d850ec43d527d872a28750dd657e8befa37214"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-azureakscommand_1.2.0_windows_amd64.zip",
+          "download_url": "https://github.com/jkroepke/terraform-provider-azureakscommand/releases/download/v1.2.0/terraform-provider-azureakscommand_1.2.0_windows_amd64.zip",
+          "shasum": "bbdff4156d90190555c20bfa93dee693e9f18f7aa7979d80de3c303767213925"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-azureakscommand_1.2.0_linux_arm64.zip",
+          "download_url": "https://github.com/jkroepke/terraform-provider-azureakscommand/releases/download/v1.2.0/terraform-provider-azureakscommand_1.2.0_linux_arm64.zip",
+          "shasum": "a7bff069789a1ae6e867eeac00906de7b4ceeec7a1792dca15bed7164330add2"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-azureakscommand_1.2.0_linux_amd64.zip",
+          "download_url": "https://github.com/jkroepke/terraform-provider-azureakscommand/releases/download/v1.2.0/terraform-provider-azureakscommand_1.2.0_linux_amd64.zip",
+          "shasum": "246f0305567c3505ba867266b0dd4bca6696173e1995a865c43a575447d8c0db"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-azureakscommand_1.2.0_darwin_arm64.zip",
+          "download_url": "https://github.com/jkroepke/terraform-provider-azureakscommand/releases/download/v1.2.0/terraform-provider-azureakscommand_1.2.0_darwin_arm64.zip",
+          "shasum": "49a89039bb9a8590e127aff9fc9a2662324a49c41a04524ab495ffc121bea91b"
+        }
+      ]
+    },
+    {
       "version": "1.1.0",
       "protocols": [
         "5.0"
