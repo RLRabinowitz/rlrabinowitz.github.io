@@ -2,6 +2,114 @@
   "repository": "https://github.com/bpg/terraform-provider-proxmox",
   "versions": [
     {
+      "version": "0.37.1",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/bpg/terraform-provider-proxmox/releases/download/v0.37.1/terraform-provider-proxmox_0.37.1_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/bpg/terraform-provider-proxmox/releases/download/v0.37.1/terraform-provider-proxmox_0.37.1_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-proxmox_0.37.1_windows_386.zip",
+          "download_url": "https://github.com/bpg/terraform-provider-proxmox/releases/download/v0.37.1/terraform-provider-proxmox_0.37.1_windows_386.zip",
+          "shasum": "aabacaab1b3cfc1eea85cbafced49884349c616b3330dd11cc9a642190f9785b"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-proxmox_0.37.1_freebsd_arm.zip",
+          "download_url": "https://github.com/bpg/terraform-provider-proxmox/releases/download/v0.37.1/terraform-provider-proxmox_0.37.1_freebsd_arm.zip",
+          "shasum": "935d3a04b490123a1979fe8663f7943b3aafb224099100cae64dc4686f81656c"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-proxmox_0.37.1_windows_arm64.zip",
+          "download_url": "https://github.com/bpg/terraform-provider-proxmox/releases/download/v0.37.1/terraform-provider-proxmox_0.37.1_windows_arm64.zip",
+          "shasum": "969077ab08147a5337db708d8b0d8211c47d2b11f6816545ddd1f1a418757adb"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-proxmox_0.37.1_darwin_arm64.zip",
+          "download_url": "https://github.com/bpg/terraform-provider-proxmox/releases/download/v0.37.1/terraform-provider-proxmox_0.37.1_darwin_arm64.zip",
+          "shasum": "82af817c65472dee05c7099150c535b6031d435ed8e9f0d6121a6b7bdfd9181e"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-proxmox_0.37.1_windows_arm.zip",
+          "download_url": "https://github.com/bpg/terraform-provider-proxmox/releases/download/v0.37.1/terraform-provider-proxmox_0.37.1_windows_arm.zip",
+          "shasum": "ddf751921ceb670d3f1469d4feda9dc24a76ac02a7a0a54ca596d2f7374ee8db"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-proxmox_0.37.1_freebsd_amd64.zip",
+          "download_url": "https://github.com/bpg/terraform-provider-proxmox/releases/download/v0.37.1/terraform-provider-proxmox_0.37.1_freebsd_amd64.zip",
+          "shasum": "25cdd965ee529fc834cd86dfe0bd0ec16463c588d367299dd54f8d43d2beb992"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-proxmox_0.37.1_freebsd_arm64.zip",
+          "download_url": "https://github.com/bpg/terraform-provider-proxmox/releases/download/v0.37.1/terraform-provider-proxmox_0.37.1_freebsd_arm64.zip",
+          "shasum": "e5b1cc5a65c867c740294c49220a9303f4714f72b5c9e3b55c8c8e3c79259805"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-proxmox_0.37.1_windows_amd64.zip",
+          "download_url": "https://github.com/bpg/terraform-provider-proxmox/releases/download/v0.37.1/terraform-provider-proxmox_0.37.1_windows_amd64.zip",
+          "shasum": "4386baa65aecfa00659306d50bf06d8ea4c2b33093619f3efa95dfaefbdd0151"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-proxmox_0.37.1_linux_arm.zip",
+          "download_url": "https://github.com/bpg/terraform-provider-proxmox/releases/download/v0.37.1/terraform-provider-proxmox_0.37.1_linux_arm.zip",
+          "shasum": "1e5cc79d28c9be1f52e285be9623372b75c83b49c9a6fabf7e212d7f8913aacb"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-proxmox_0.37.1_freebsd_386.zip",
+          "download_url": "https://github.com/bpg/terraform-provider-proxmox/releases/download/v0.37.1/terraform-provider-proxmox_0.37.1_freebsd_386.zip",
+          "shasum": "e8ceff74956dbad8b791bdb82a6599dc302d7d9f97e33d49a9a15a4740aeb807"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-proxmox_0.37.1_linux_386.zip",
+          "download_url": "https://github.com/bpg/terraform-provider-proxmox/releases/download/v0.37.1/terraform-provider-proxmox_0.37.1_linux_386.zip",
+          "shasum": "a5ebc2399ba1d67f2f20117e347564cf69ca05794e6386eb368c7cde7c9e0602"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-proxmox_0.37.1_linux_arm64.zip",
+          "download_url": "https://github.com/bpg/terraform-provider-proxmox/releases/download/v0.37.1/terraform-provider-proxmox_0.37.1_linux_arm64.zip",
+          "shasum": "4c4499d2ff893873b13291db637f717e6a54f8381a8cb0c70b3e51837b5e1ac9"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-proxmox_0.37.1_linux_amd64.zip",
+          "download_url": "https://github.com/bpg/terraform-provider-proxmox/releases/download/v0.37.1/terraform-provider-proxmox_0.37.1_linux_amd64.zip",
+          "shasum": "a1d28706bc3b1f035f8d4b0961d927369b19a28f8c56bfe8848c77841786cd0b"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-proxmox_0.37.1_darwin_amd64.zip",
+          "download_url": "https://github.com/bpg/terraform-provider-proxmox/releases/download/v0.37.1/terraform-provider-proxmox_0.37.1_darwin_amd64.zip",
+          "shasum": "b7f37b53ef0b1416485717c2857543bdfa352e2fa379736d5e5780cef70096e5"
+        }
+      ]
+    },
+    {
       "version": "0.37.0",
       "protocols": [
         "5.0"
