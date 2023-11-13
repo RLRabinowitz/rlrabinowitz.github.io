@@ -13,7 +13,7 @@ func GetTags(repositoryUrl string) ([]string, error) {
 
 	var buf bytes.Buffer
 	var bufErr bytes.Buffer
-	cmd := exec.Command("git", "ls-remote", "--tags", repositoryUrl)
+	cmd := exec.Command("git", "ls-remote", "--tags", "--refs", repositoryUrl)
 	cmd.Stdout = &buf
 	cmd.Stderr = &bufErr
 	if err := cmd.Run(); err != nil {
@@ -32,12 +32,9 @@ func GetTags(repositoryUrl string) ([]string, error) {
 		}
 		ref := fields[1]
 		if !strings.HasPrefix(ref, "refs/tags/") {
-			continue
+			return nil, fmt.Errorf("module tags in wrong format: ref %s does not start with refs/tags/", ref)
 		}
 		tag := strings.TrimPrefix(ref, "refs/tags/")
-		if strings.Contains(tag, "^") {
-			continue
-		}
 		tags = append(tags, tag)
 	}
 
