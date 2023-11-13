@@ -2,6 +2,114 @@
   "repository": "https://github.com/avisi-cloud/terraform-provider-acloud",
   "versions": [
     {
+      "version": "0.2.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/avisi-cloud/terraform-provider-acloud/releases/download/v0.2.0/terraform-provider-acloud_0.2.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/avisi-cloud/terraform-provider-acloud/releases/download/v0.2.0/terraform-provider-acloud_0.2.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-acloud_0.2.0_freebsd_386.zip",
+          "download_url": "https://github.com/avisi-cloud/terraform-provider-acloud/releases/download/v0.2.0/terraform-provider-acloud_0.2.0_freebsd_386.zip",
+          "shasum": "6124a31c992e92222ae0933d59fbe495ddf58b725d8d5ae14dd5157bbc5cc59e"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-acloud_0.2.0_darwin_arm64.zip",
+          "download_url": "https://github.com/avisi-cloud/terraform-provider-acloud/releases/download/v0.2.0/terraform-provider-acloud_0.2.0_darwin_arm64.zip",
+          "shasum": "ad6c99a124238f46b11774cde5711ef614bf03a9a64ad5ddd3f2c7ebbf3c7b5c"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-acloud_0.2.0_freebsd_arm.zip",
+          "download_url": "https://github.com/avisi-cloud/terraform-provider-acloud/releases/download/v0.2.0/terraform-provider-acloud_0.2.0_freebsd_arm.zip",
+          "shasum": "2cf305712ab63a588220b6d8073ad01a3316dbefa6bb4d4d81edbd23d38c69a6"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-acloud_0.2.0_windows_arm64.zip",
+          "download_url": "https://github.com/avisi-cloud/terraform-provider-acloud/releases/download/v0.2.0/terraform-provider-acloud_0.2.0_windows_arm64.zip",
+          "shasum": "14c88ed1ca1d77d14d2efa392dc55124abdc0366d16af5385d3e34103dd041dc"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-acloud_0.2.0_linux_amd64.zip",
+          "download_url": "https://github.com/avisi-cloud/terraform-provider-acloud/releases/download/v0.2.0/terraform-provider-acloud_0.2.0_linux_amd64.zip",
+          "shasum": "192bc8d337f017c4bd58f281f29cc64535a88be0333d57ce65871a4d2e7f67d9"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-acloud_0.2.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/avisi-cloud/terraform-provider-acloud/releases/download/v0.2.0/terraform-provider-acloud_0.2.0_freebsd_amd64.zip",
+          "shasum": "a35fb08e4149e653482f20cb80db098e747a194499c2fc86bd2a14aa23493182"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-acloud_0.2.0_windows_amd64.zip",
+          "download_url": "https://github.com/avisi-cloud/terraform-provider-acloud/releases/download/v0.2.0/terraform-provider-acloud_0.2.0_windows_amd64.zip",
+          "shasum": "f70adc22e1c03f7f4f8179fa22dedd9296d95d1c56d94458433ef226390ffc42"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-acloud_0.2.0_windows_386.zip",
+          "download_url": "https://github.com/avisi-cloud/terraform-provider-acloud/releases/download/v0.2.0/terraform-provider-acloud_0.2.0_windows_386.zip",
+          "shasum": "201bdfbd58e5949661be123772e1cf01e3f528c1a59aea2a52c8b4b53c2f07c5"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-acloud_0.2.0_windows_arm.zip",
+          "download_url": "https://github.com/avisi-cloud/terraform-provider-acloud/releases/download/v0.2.0/terraform-provider-acloud_0.2.0_windows_arm.zip",
+          "shasum": "b9a81fadf5d42ac46144a2efb65b4af592f31c80429bc47e6be95a4aee011d46"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-acloud_0.2.0_darwin_amd64.zip",
+          "download_url": "https://github.com/avisi-cloud/terraform-provider-acloud/releases/download/v0.2.0/terraform-provider-acloud_0.2.0_darwin_amd64.zip",
+          "shasum": "938aacf31a13824e43fc209c62fa26bb2d5b8a2c8dd656d5fdddfa11bdba042b"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-acloud_0.2.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/avisi-cloud/terraform-provider-acloud/releases/download/v0.2.0/terraform-provider-acloud_0.2.0_freebsd_arm64.zip",
+          "shasum": "f30f1d1a2a8abaa04a000379f9f30b34dc45424eea96b9d5ebb686b67d1a3d54"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-acloud_0.2.0_linux_arm.zip",
+          "download_url": "https://github.com/avisi-cloud/terraform-provider-acloud/releases/download/v0.2.0/terraform-provider-acloud_0.2.0_linux_arm.zip",
+          "shasum": "b88297e58f84588eabd6f9b62bf566f8044a1e0bd1248f8eff0ba1727c07bc1d"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-acloud_0.2.0_linux_arm64.zip",
+          "download_url": "https://github.com/avisi-cloud/terraform-provider-acloud/releases/download/v0.2.0/terraform-provider-acloud_0.2.0_linux_arm64.zip",
+          "shasum": "1bd418922b1286974218222452edd30ccf0f0dd953a57567b3f84ade117bb036"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-acloud_0.2.0_linux_386.zip",
+          "download_url": "https://github.com/avisi-cloud/terraform-provider-acloud/releases/download/v0.2.0/terraform-provider-acloud_0.2.0_linux_386.zip",
+          "shasum": "35ab06f9c2a88c2f4ae05e80fee2efd21fdd627aaed06220913081e07393d2e8"
+        }
+      ]
+    },
+    {
       "version": "0.1.5",
       "protocols": [
         "5.0"
