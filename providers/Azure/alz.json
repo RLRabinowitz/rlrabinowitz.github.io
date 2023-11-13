@@ -2,6 +2,114 @@
   "repository": "https://github.com/Azure/terraform-provider-alz",
   "versions": [
     {
+      "version": "0.6.1",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/Azure/terraform-provider-alz/releases/download/v0.6.1/terraform-provider-alz_0.6.1_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/Azure/terraform-provider-alz/releases/download/v0.6.1/terraform-provider-alz_0.6.1_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-alz_0.6.1_darwin_amd64.zip",
+          "download_url": "https://github.com/Azure/terraform-provider-alz/releases/download/v0.6.1/terraform-provider-alz_0.6.1_darwin_amd64.zip",
+          "shasum": "498235fee2929541ab99b8ebfa9aede1c41c32a002927299a9f3eb566eed9c71"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-alz_0.6.1_linux_arm64.zip",
+          "download_url": "https://github.com/Azure/terraform-provider-alz/releases/download/v0.6.1/terraform-provider-alz_0.6.1_linux_arm64.zip",
+          "shasum": "fa03e49864af985fa00a1ce06830179b7868d44ce95a151911b353d25cdfc170"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-alz_0.6.1_freebsd_arm.zip",
+          "download_url": "https://github.com/Azure/terraform-provider-alz/releases/download/v0.6.1/terraform-provider-alz_0.6.1_freebsd_arm.zip",
+          "shasum": "6ac2ee7745b892c9e890b201233c4cfa7f48312146be4a6d12f0e3f91d8c6cd5"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-alz_0.6.1_darwin_arm64.zip",
+          "download_url": "https://github.com/Azure/terraform-provider-alz/releases/download/v0.6.1/terraform-provider-alz_0.6.1_darwin_arm64.zip",
+          "shasum": "10461d2a639bb002719c196b65491357163b38495b8abe1a823263d6d35ec99a"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-alz_0.6.1_linux_386.zip",
+          "download_url": "https://github.com/Azure/terraform-provider-alz/releases/download/v0.6.1/terraform-provider-alz_0.6.1_linux_386.zip",
+          "shasum": "8a713cff61cd2c72ee402cfa9484ce7c4f9024a09d5b72a2f582ff6fac4ebad3"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-alz_0.6.1_linux_amd64.zip",
+          "download_url": "https://github.com/Azure/terraform-provider-alz/releases/download/v0.6.1/terraform-provider-alz_0.6.1_linux_amd64.zip",
+          "shasum": "618ec112aa161dfa691083acb3038fddcbb509f47026a2ec084881ffe6f4cf72"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-alz_0.6.1_linux_arm.zip",
+          "download_url": "https://github.com/Azure/terraform-provider-alz/releases/download/v0.6.1/terraform-provider-alz_0.6.1_linux_arm.zip",
+          "shasum": "3df4bdbf0cc354fa8fd34e01f028c2742ce6e6d7417943d5dae2090de2f52b1c"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-alz_0.6.1_freebsd_amd64.zip",
+          "download_url": "https://github.com/Azure/terraform-provider-alz/releases/download/v0.6.1/terraform-provider-alz_0.6.1_freebsd_amd64.zip",
+          "shasum": "4e2c158e5aec4d88e54daea172cd06679ab22a0a1c74f0e5a6df39ebdd523777"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-alz_0.6.1_windows_amd64.zip",
+          "download_url": "https://github.com/Azure/terraform-provider-alz/releases/download/v0.6.1/terraform-provider-alz_0.6.1_windows_amd64.zip",
+          "shasum": "88ae2b5ef7989e1fac0f920d182075344a6a7c0985bc51280b401760f5e4d9e6"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-alz_0.6.1_windows_arm.zip",
+          "download_url": "https://github.com/Azure/terraform-provider-alz/releases/download/v0.6.1/terraform-provider-alz_0.6.1_windows_arm.zip",
+          "shasum": "96b20727c5221660f79dfd282d367796b5b48f7b5a9cda4ebc18c24cbc8b51a1"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-alz_0.6.1_windows_arm64.zip",
+          "download_url": "https://github.com/Azure/terraform-provider-alz/releases/download/v0.6.1/terraform-provider-alz_0.6.1_windows_arm64.zip",
+          "shasum": "0b24d4f3350f9fd91c343ff8116352f4634d179c1c8cacfa65dfc0b32d5f852e"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-alz_0.6.1_freebsd_386.zip",
+          "download_url": "https://github.com/Azure/terraform-provider-alz/releases/download/v0.6.1/terraform-provider-alz_0.6.1_freebsd_386.zip",
+          "shasum": "009a50345e0f7ca12ff561221a37829766eb7bc97792600488aa6e6a72d30066"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-alz_0.6.1_freebsd_arm64.zip",
+          "download_url": "https://github.com/Azure/terraform-provider-alz/releases/download/v0.6.1/terraform-provider-alz_0.6.1_freebsd_arm64.zip",
+          "shasum": "11eeff3e50caa40266cc797546e4b9d47b67d2a133ae0cea9c77cb14213bee23"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-alz_0.6.1_windows_386.zip",
+          "download_url": "https://github.com/Azure/terraform-provider-alz/releases/download/v0.6.1/terraform-provider-alz_0.6.1_windows_386.zip",
+          "shasum": "06cdcce840ac577f55e63ca276f3a2341472dabf23d6998f39c15f31a5c9cf93"
+        }
+      ]
+    },
+    {
       "version": "0.6.0",
       "protocols": [
         "5.0"
