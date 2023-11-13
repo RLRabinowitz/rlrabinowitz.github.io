@@ -2,6 +2,114 @@
   "repository": "https://github.com/nicoangelo/terraform-provider-personio",
   "versions": [
     {
+      "version": "0.4.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/nicoangelo/terraform-provider-personio/releases/download/v0.4.0/terraform-provider-personio_0.4.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/nicoangelo/terraform-provider-personio/releases/download/v0.4.0/terraform-provider-personio_0.4.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-personio_0.4.0_linux_amd64.zip",
+          "download_url": "https://github.com/nicoangelo/terraform-provider-personio/releases/download/v0.4.0/terraform-provider-personio_0.4.0_linux_amd64.zip",
+          "shasum": "5350d7f50e423f7df772f40a7de6425582d4ffb639da4a409db7fceeb94824d8"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-personio_0.4.0_linux_arm.zip",
+          "download_url": "https://github.com/nicoangelo/terraform-provider-personio/releases/download/v0.4.0/terraform-provider-personio_0.4.0_linux_arm.zip",
+          "shasum": "97565b243e17a9030e8e3bc8a4114cbcac772627d74b49b7666c9294330653ee"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-personio_0.4.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/nicoangelo/terraform-provider-personio/releases/download/v0.4.0/terraform-provider-personio_0.4.0_freebsd_arm64.zip",
+          "shasum": "d3dc440630142bd02b8e594cd26ff8bbeb066f30b48d886e0b91433f27c87b9b"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-personio_0.4.0_windows_amd64.zip",
+          "download_url": "https://github.com/nicoangelo/terraform-provider-personio/releases/download/v0.4.0/terraform-provider-personio_0.4.0_windows_amd64.zip",
+          "shasum": "bca128f903be19875676bdb8bebc0fd3b3f4cc01fac18c34c479579725710fe0"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-personio_0.4.0_linux_386.zip",
+          "download_url": "https://github.com/nicoangelo/terraform-provider-personio/releases/download/v0.4.0/terraform-provider-personio_0.4.0_linux_386.zip",
+          "shasum": "9e533decf65aca17a846d845b70cce610bb6ee497e90853051cfbeec79676650"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-personio_0.4.0_freebsd_386.zip",
+          "download_url": "https://github.com/nicoangelo/terraform-provider-personio/releases/download/v0.4.0/terraform-provider-personio_0.4.0_freebsd_386.zip",
+          "shasum": "28372e2fd1b639a3a10fff9174bd03356f141fa6e42e1aee9facab9bfc6e8015"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-personio_0.4.0_freebsd_arm.zip",
+          "download_url": "https://github.com/nicoangelo/terraform-provider-personio/releases/download/v0.4.0/terraform-provider-personio_0.4.0_freebsd_arm.zip",
+          "shasum": "657e594f2270e43a26c03e4fc45126687dfdbaf420c32670fe265a9c0b9f09df"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-personio_0.4.0_windows_arm.zip",
+          "download_url": "https://github.com/nicoangelo/terraform-provider-personio/releases/download/v0.4.0/terraform-provider-personio_0.4.0_windows_arm.zip",
+          "shasum": "4e21916481efd6014b352755a570c5b6091f9b28c7360b5a4520e248a1b0eb50"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-personio_0.4.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/nicoangelo/terraform-provider-personio/releases/download/v0.4.0/terraform-provider-personio_0.4.0_freebsd_amd64.zip",
+          "shasum": "cde50cdba2d265ee9cdcb3444beba6e64536e9ef6b963d0271ad8ba927028fb9"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-personio_0.4.0_windows_arm64.zip",
+          "download_url": "https://github.com/nicoangelo/terraform-provider-personio/releases/download/v0.4.0/terraform-provider-personio_0.4.0_windows_arm64.zip",
+          "shasum": "cc058eb4d8d4e178602868acb4dbff06d1fbb7d15aa7a2e9f732090a368b2dfa"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-personio_0.4.0_linux_arm64.zip",
+          "download_url": "https://github.com/nicoangelo/terraform-provider-personio/releases/download/v0.4.0/terraform-provider-personio_0.4.0_linux_arm64.zip",
+          "shasum": "fcd026f65d4b3689f210097c230d16c4632cac99595646c5687c356205537655"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-personio_0.4.0_darwin_amd64.zip",
+          "download_url": "https://github.com/nicoangelo/terraform-provider-personio/releases/download/v0.4.0/terraform-provider-personio_0.4.0_darwin_amd64.zip",
+          "shasum": "65180bc1319fd1a35a9db62c2f5b17a92bd9785ace7a25d56831571e1863f89d"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-personio_0.4.0_darwin_arm64.zip",
+          "download_url": "https://github.com/nicoangelo/terraform-provider-personio/releases/download/v0.4.0/terraform-provider-personio_0.4.0_darwin_arm64.zip",
+          "shasum": "52bd4beab756668554448b11bd226689d07b30f3eb3c4f878907643dc7dca7c2"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-personio_0.4.0_windows_386.zip",
+          "download_url": "https://github.com/nicoangelo/terraform-provider-personio/releases/download/v0.4.0/terraform-provider-personio_0.4.0_windows_386.zip",
+          "shasum": "3be8cb8f6eb8c6f7ce9067f2d152bdfe8115c9d59bba4e2b7a260aadf7f4f6f8"
+        }
+      ]
+    },
+    {
       "version": "0.3.0",
       "protocols": [
         "5.0"
