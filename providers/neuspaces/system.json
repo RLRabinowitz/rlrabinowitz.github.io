@@ -2,6 +2,114 @@
   "repository": "https://github.com/neuspaces/terraform-provider-system",
   "versions": [
     {
+      "version": "0.4.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/neuspaces/terraform-provider-system/releases/download/v0.4.0/terraform-provider-system_0.4.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/neuspaces/terraform-provider-system/releases/download/v0.4.0/terraform-provider-system_0.4.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-system_0.4.0_windows_arm64.zip",
+          "download_url": "https://github.com/neuspaces/terraform-provider-system/releases/download/v0.4.0/terraform-provider-system_0.4.0_windows_arm64.zip",
+          "shasum": "ed601fdbf4813d041b3773781e2331c7ea074f8a5b505d2b105059a89b44301c"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-system_0.4.0_linux_arm64.zip",
+          "download_url": "https://github.com/neuspaces/terraform-provider-system/releases/download/v0.4.0/terraform-provider-system_0.4.0_linux_arm64.zip",
+          "shasum": "04862132feb60ff990e15f4b878e96fbcc296720bd31a39e7b0a8fe5788b5b33"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-system_0.4.0_windows_amd64.zip",
+          "download_url": "https://github.com/neuspaces/terraform-provider-system/releases/download/v0.4.0/terraform-provider-system_0.4.0_windows_amd64.zip",
+          "shasum": "ebd2549e8b5b2894efb0ba70f2f6034ae5fb5821d1e2831ba5af8fa5e5870829"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-system_0.4.0_freebsd_386.zip",
+          "download_url": "https://github.com/neuspaces/terraform-provider-system/releases/download/v0.4.0/terraform-provider-system_0.4.0_freebsd_386.zip",
+          "shasum": "9f3fefa30abc39a1073e66b88701b5437f4b04b0082091408c97f6a8e5b64bd3"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-system_0.4.0_windows_arm.zip",
+          "download_url": "https://github.com/neuspaces/terraform-provider-system/releases/download/v0.4.0/terraform-provider-system_0.4.0_windows_arm.zip",
+          "shasum": "e4630f531b59e813fa405942c7648252c741313ccd49bc1be85f2ea964016ed3"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-system_0.4.0_linux_386.zip",
+          "download_url": "https://github.com/neuspaces/terraform-provider-system/releases/download/v0.4.0/terraform-provider-system_0.4.0_linux_386.zip",
+          "shasum": "1d8b6050274b5b915fbf241a66c63fe1b2088bc4720e0ef36a3d75a197a97d78"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-system_0.4.0_darwin_amd64.zip",
+          "download_url": "https://github.com/neuspaces/terraform-provider-system/releases/download/v0.4.0/terraform-provider-system_0.4.0_darwin_amd64.zip",
+          "shasum": "97523ef340365bfaf759cc1eb4a202af7b27ac87e1cb5f0309a585d63e205bbd"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-system_0.4.0_darwin_arm64.zip",
+          "download_url": "https://github.com/neuspaces/terraform-provider-system/releases/download/v0.4.0/terraform-provider-system_0.4.0_darwin_arm64.zip",
+          "shasum": "e16d43079cc894bfb0980ff211ea1787cdb913f24826461a8967ac91fd146ea8"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-system_0.4.0_windows_386.zip",
+          "download_url": "https://github.com/neuspaces/terraform-provider-system/releases/download/v0.4.0/terraform-provider-system_0.4.0_windows_386.zip",
+          "shasum": "fea9e0172235a52343826d77e8331bcfeb785d514b4f5ee39f524d541b1a8749"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-system_0.4.0_linux_arm.zip",
+          "download_url": "https://github.com/neuspaces/terraform-provider-system/releases/download/v0.4.0/terraform-provider-system_0.4.0_linux_arm.zip",
+          "shasum": "5b13d535084dacba3d511d5c815db4b5ae83e9c6226938bbf20a30c4e05116cb"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-system_0.4.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/neuspaces/terraform-provider-system/releases/download/v0.4.0/terraform-provider-system_0.4.0_freebsd_amd64.zip",
+          "shasum": "5263effc40349d48ed458ea5d418e7321db441d7987b35fabbdd3faa53ed114d"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-system_0.4.0_freebsd_arm.zip",
+          "download_url": "https://github.com/neuspaces/terraform-provider-system/releases/download/v0.4.0/terraform-provider-system_0.4.0_freebsd_arm.zip",
+          "shasum": "f08f8e3d05759b72421de4c54f6938396d3e13fdfdbe7505877b1c64342dfa3a"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-system_0.4.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/neuspaces/terraform-provider-system/releases/download/v0.4.0/terraform-provider-system_0.4.0_freebsd_arm64.zip",
+          "shasum": "69da944ea0c86ec4e64ae844f580d13910fd66f1d8a9ecc7890ff0ace29aef36"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-system_0.4.0_linux_amd64.zip",
+          "download_url": "https://github.com/neuspaces/terraform-provider-system/releases/download/v0.4.0/terraform-provider-system_0.4.0_linux_amd64.zip",
+          "shasum": "7fce212ccf0fd267a7f318c793e174605cbaa7814f9b30be16ed1d0526ab398f"
+        }
+      ]
+    },
+    {
       "version": "0.3.0",
       "protocols": [
         "5.0"
