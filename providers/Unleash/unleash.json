@@ -2,6 +2,114 @@
   "repository": "https://github.com/Unleash/terraform-provider-unleash",
   "versions": [
     {
+      "version": "1.0.1",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/Unleash/terraform-provider-unleash/releases/download/v1.0.1/terraform-provider-unleash_1.0.1_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/Unleash/terraform-provider-unleash/releases/download/v1.0.1/terraform-provider-unleash_1.0.1_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-unleash_1.0.1_freebsd_arm.zip",
+          "download_url": "https://github.com/Unleash/terraform-provider-unleash/releases/download/v1.0.1/terraform-provider-unleash_1.0.1_freebsd_arm.zip",
+          "shasum": "3cf93559764e22db71af79af23ae5df31608fc8236e77c3074f500e258c344a5"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-unleash_1.0.1_freebsd_amd64.zip",
+          "download_url": "https://github.com/Unleash/terraform-provider-unleash/releases/download/v1.0.1/terraform-provider-unleash_1.0.1_freebsd_amd64.zip",
+          "shasum": "e4aae399b72610bc1c6468f6274ce02ad53d4d744660d1e8e4ce03d9a74850c2"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-unleash_1.0.1_windows_386.zip",
+          "download_url": "https://github.com/Unleash/terraform-provider-unleash/releases/download/v1.0.1/terraform-provider-unleash_1.0.1_windows_386.zip",
+          "shasum": "bbb29428ea4d16ae5b7543709f386b1d4ee6b4fc38132f2f6253923a623e8e95"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-unleash_1.0.1_darwin_amd64.zip",
+          "download_url": "https://github.com/Unleash/terraform-provider-unleash/releases/download/v1.0.1/terraform-provider-unleash_1.0.1_darwin_amd64.zip",
+          "shasum": "100587b3ce29ceb9b61965676b898e742c1c23009862b840bbb947fae623dacd"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-unleash_1.0.1_freebsd_386.zip",
+          "download_url": "https://github.com/Unleash/terraform-provider-unleash/releases/download/v1.0.1/terraform-provider-unleash_1.0.1_freebsd_386.zip",
+          "shasum": "7b666483230a74366bb2a839c90dcc4baa00abdf4970878405b7b9ff0f0ce6f6"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-unleash_1.0.1_freebsd_arm64.zip",
+          "download_url": "https://github.com/Unleash/terraform-provider-unleash/releases/download/v1.0.1/terraform-provider-unleash_1.0.1_freebsd_arm64.zip",
+          "shasum": "cb968188c84a7bcb87421d99c7931d7deac8d0f700b84ce32f4b36ffeb6776c9"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-unleash_1.0.1_windows_arm.zip",
+          "download_url": "https://github.com/Unleash/terraform-provider-unleash/releases/download/v1.0.1/terraform-provider-unleash_1.0.1_windows_arm.zip",
+          "shasum": "684e205022d780cfd08fae11834606ad7851557faca77cdc3eb5e713997497f6"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-unleash_1.0.1_linux_arm64.zip",
+          "download_url": "https://github.com/Unleash/terraform-provider-unleash/releases/download/v1.0.1/terraform-provider-unleash_1.0.1_linux_arm64.zip",
+          "shasum": "47371cf96a81b70596e7f55d9ae4b9e068884012189cbb26b77a4b7883ca2cbc"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-unleash_1.0.1_linux_386.zip",
+          "download_url": "https://github.com/Unleash/terraform-provider-unleash/releases/download/v1.0.1/terraform-provider-unleash_1.0.1_linux_386.zip",
+          "shasum": "b4c7bf2609b168f47405de580b7656a0b415853ecbd50dfdbc4f003ab7892def"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-unleash_1.0.1_linux_arm.zip",
+          "download_url": "https://github.com/Unleash/terraform-provider-unleash/releases/download/v1.0.1/terraform-provider-unleash_1.0.1_linux_arm.zip",
+          "shasum": "461cea7c3869babc56054363a429ee8e872bb99e5c822120dbd8007cbf26211e"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-unleash_1.0.1_darwin_arm64.zip",
+          "download_url": "https://github.com/Unleash/terraform-provider-unleash/releases/download/v1.0.1/terraform-provider-unleash_1.0.1_darwin_arm64.zip",
+          "shasum": "fd7ac9e2b71e7814ac51bcbb38e776f67607b91bc89764029dbe2fb9dc4a9da9"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-unleash_1.0.1_windows_arm64.zip",
+          "download_url": "https://github.com/Unleash/terraform-provider-unleash/releases/download/v1.0.1/terraform-provider-unleash_1.0.1_windows_arm64.zip",
+          "shasum": "fe679b74f66dc5ede4de633253b4acdadb8d6e267dbdba866dbfaa92a75ed881"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-unleash_1.0.1_windows_amd64.zip",
+          "download_url": "https://github.com/Unleash/terraform-provider-unleash/releases/download/v1.0.1/terraform-provider-unleash_1.0.1_windows_amd64.zip",
+          "shasum": "bed1b298a05acb11b6852a51e86fa0c5a5f9773345a32efd4e1558287c23a1c1"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-unleash_1.0.1_linux_amd64.zip",
+          "download_url": "https://github.com/Unleash/terraform-provider-unleash/releases/download/v1.0.1/terraform-provider-unleash_1.0.1_linux_amd64.zip",
+          "shasum": "d922494b56eda95660b446e1119829a0c540a21b597cbd7ceaeb15465e3c7375"
+        }
+      ]
+    },
+    {
       "version": "1.0.0",
       "protocols": [
         "5.0"
