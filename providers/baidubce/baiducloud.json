@@ -2,6 +2,114 @@
   "repository": "https://github.com/baidubce/terraform-provider-baiducloud",
   "versions": [
     {
+      "version": "1.19.20",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/baidubce/terraform-provider-baiducloud/releases/download/v1.19.20/terraform-provider-baiducloud_1.19.20_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/baidubce/terraform-provider-baiducloud/releases/download/v1.19.20/terraform-provider-baiducloud_1.19.20_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-baiducloud_1.19.20_freebsd_arm64.zip",
+          "download_url": "https://github.com/baidubce/terraform-provider-baiducloud/releases/download/v1.19.20/terraform-provider-baiducloud_1.19.20_freebsd_arm64.zip",
+          "shasum": "5856ba5c88e309af0a9751f3610184db0a698954c9dd21554ef5d6fa33bf4bfd"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-baiducloud_1.19.20_windows_arm.zip",
+          "download_url": "https://github.com/baidubce/terraform-provider-baiducloud/releases/download/v1.19.20/terraform-provider-baiducloud_1.19.20_windows_arm.zip",
+          "shasum": "121de39472fb8473a18dcb54d3bf2ac327d3f0d58a11ab5ec7d937307343523e"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-baiducloud_1.19.20_darwin_amd64.zip",
+          "download_url": "https://github.com/baidubce/terraform-provider-baiducloud/releases/download/v1.19.20/terraform-provider-baiducloud_1.19.20_darwin_amd64.zip",
+          "shasum": "eeba5d70982306c3d15f3098a6a0649978ae8d5346d462edc7d9f03a63cafa8b"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-baiducloud_1.19.20_windows_arm64.zip",
+          "download_url": "https://github.com/baidubce/terraform-provider-baiducloud/releases/download/v1.19.20/terraform-provider-baiducloud_1.19.20_windows_arm64.zip",
+          "shasum": "db183d9dbdf7fe90230423d883eb9afdf08ca39ca802276226ac6d266bcfb4ee"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-baiducloud_1.19.20_linux_arm.zip",
+          "download_url": "https://github.com/baidubce/terraform-provider-baiducloud/releases/download/v1.19.20/terraform-provider-baiducloud_1.19.20_linux_arm.zip",
+          "shasum": "6c463da0514602d8ee0aed1e437adbe90799bd6d5d07165885916dd7a5eb212e"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-baiducloud_1.19.20_linux_amd64.zip",
+          "download_url": "https://github.com/baidubce/terraform-provider-baiducloud/releases/download/v1.19.20/terraform-provider-baiducloud_1.19.20_linux_amd64.zip",
+          "shasum": "e8fbfd09776add691864c1d59418d83cfb2cd95cb804faf60584070b50ccce8d"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-baiducloud_1.19.20_freebsd_arm.zip",
+          "download_url": "https://github.com/baidubce/terraform-provider-baiducloud/releases/download/v1.19.20/terraform-provider-baiducloud_1.19.20_freebsd_arm.zip",
+          "shasum": "aabd356b667bc7f4f545dff47e27f4ac40762da069f24c605e2e327a7fdd508d"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-baiducloud_1.19.20_windows_386.zip",
+          "download_url": "https://github.com/baidubce/terraform-provider-baiducloud/releases/download/v1.19.20/terraform-provider-baiducloud_1.19.20_windows_386.zip",
+          "shasum": "5607e1a02b1100e140d81ad18f6e841a522b4d0c4e96a37e501519b9976b47da"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-baiducloud_1.19.20_windows_amd64.zip",
+          "download_url": "https://github.com/baidubce/terraform-provider-baiducloud/releases/download/v1.19.20/terraform-provider-baiducloud_1.19.20_windows_amd64.zip",
+          "shasum": "de6b48a0973d9931217a0395ae425b2db4c3b649ab0689dbcf4e76e9569284d5"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-baiducloud_1.19.20_darwin_arm64.zip",
+          "download_url": "https://github.com/baidubce/terraform-provider-baiducloud/releases/download/v1.19.20/terraform-provider-baiducloud_1.19.20_darwin_arm64.zip",
+          "shasum": "2c487b9cedc23af175c1830d954576f68cdec817174a4547be1c00aa513ac4d1"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-baiducloud_1.19.20_freebsd_386.zip",
+          "download_url": "https://github.com/baidubce/terraform-provider-baiducloud/releases/download/v1.19.20/terraform-provider-baiducloud_1.19.20_freebsd_386.zip",
+          "shasum": "d1e0365be86e361dce7b4e9be733d8cbf9a7598a05af0fab612901b72d7ac468"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-baiducloud_1.19.20_linux_386.zip",
+          "download_url": "https://github.com/baidubce/terraform-provider-baiducloud/releases/download/v1.19.20/terraform-provider-baiducloud_1.19.20_linux_386.zip",
+          "shasum": "f01fcfa4ca80d2a8884503f9dbdaa855cb9d5ca8abf9529706e9a9ebd767ecd6"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-baiducloud_1.19.20_freebsd_amd64.zip",
+          "download_url": "https://github.com/baidubce/terraform-provider-baiducloud/releases/download/v1.19.20/terraform-provider-baiducloud_1.19.20_freebsd_amd64.zip",
+          "shasum": "25c551ea9d7fc4f47025bb208e0ff0f601b01d8d1a50019f67c2c2b633f24fbb"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-baiducloud_1.19.20_linux_arm64.zip",
+          "download_url": "https://github.com/baidubce/terraform-provider-baiducloud/releases/download/v1.19.20/terraform-provider-baiducloud_1.19.20_linux_arm64.zip",
+          "shasum": "73da79dd07dca6b0e71e8a0d85065272a585a2a00de7c3e5246b7b5c783ca135"
+        }
+      ]
+    },
+    {
       "version": "1.19.19",
       "protocols": [
         "5.0"
