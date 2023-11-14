@@ -2,6 +2,114 @@
   "repository": "https://github.com/Flaconi/terraform-provider-contentful",
   "versions": [
     {
+      "version": "1.2.1",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/Flaconi/terraform-provider-contentful/releases/download/v1.2.1/terraform-provider-contentful_1.2.1_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/Flaconi/terraform-provider-contentful/releases/download/v1.2.1/terraform-provider-contentful_1.2.1_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-contentful_1.2.1_linux_amd64.zip",
+          "download_url": "https://github.com/Flaconi/terraform-provider-contentful/releases/download/v1.2.1/terraform-provider-contentful_1.2.1_linux_amd64.zip",
+          "shasum": "495700583f931de3aa95b90195cbaf14381bc6443605da0d739f5dfec87b4e00"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-contentful_1.2.1_freebsd_amd64.zip",
+          "download_url": "https://github.com/Flaconi/terraform-provider-contentful/releases/download/v1.2.1/terraform-provider-contentful_1.2.1_freebsd_amd64.zip",
+          "shasum": "f36040b76b8d9c4ba75b731b5a7b5884ef7473f2fc07206201a22aefee152be5"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-contentful_1.2.1_linux_386.zip",
+          "download_url": "https://github.com/Flaconi/terraform-provider-contentful/releases/download/v1.2.1/terraform-provider-contentful_1.2.1_linux_386.zip",
+          "shasum": "248a971debcbbca5a1bff6dcb80a0c4390d313765e8335abad5ee5f34639f6e5"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-contentful_1.2.1_freebsd_386.zip",
+          "download_url": "https://github.com/Flaconi/terraform-provider-contentful/releases/download/v1.2.1/terraform-provider-contentful_1.2.1_freebsd_386.zip",
+          "shasum": "4222297b5117f83ccb58b4c7d8246f7dcdf307ec50d5e11b0f12ceb900875f6d"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-contentful_1.2.1_windows_386.zip",
+          "download_url": "https://github.com/Flaconi/terraform-provider-contentful/releases/download/v1.2.1/terraform-provider-contentful_1.2.1_windows_386.zip",
+          "shasum": "d7d8d1aae49e6816dc2015692b07ee5512d7286f64d9407ce55a356de6e44949"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-contentful_1.2.1_windows_arm64.zip",
+          "download_url": "https://github.com/Flaconi/terraform-provider-contentful/releases/download/v1.2.1/terraform-provider-contentful_1.2.1_windows_arm64.zip",
+          "shasum": "e938137098e10775394e67239e01115000ad127bd02597d50ea140001906583f"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-contentful_1.2.1_linux_arm64.zip",
+          "download_url": "https://github.com/Flaconi/terraform-provider-contentful/releases/download/v1.2.1/terraform-provider-contentful_1.2.1_linux_arm64.zip",
+          "shasum": "3d76bfddd59e92f346d0b0f8aa2fa991c8b57cc26cce71c150a678e9f348f888"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-contentful_1.2.1_freebsd_arm64.zip",
+          "download_url": "https://github.com/Flaconi/terraform-provider-contentful/releases/download/v1.2.1/terraform-provider-contentful_1.2.1_freebsd_arm64.zip",
+          "shasum": "f4f1d9e2328d08a583337992befe35630f3f6cf2e610152666dcedfaf46a7338"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-contentful_1.2.1_windows_arm.zip",
+          "download_url": "https://github.com/Flaconi/terraform-provider-contentful/releases/download/v1.2.1/terraform-provider-contentful_1.2.1_windows_arm.zip",
+          "shasum": "bd1f0da40942e5bb48153fbef0035917446cd83632bfd98798d28713056c3746"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-contentful_1.2.1_freebsd_arm.zip",
+          "download_url": "https://github.com/Flaconi/terraform-provider-contentful/releases/download/v1.2.1/terraform-provider-contentful_1.2.1_freebsd_arm.zip",
+          "shasum": "ac0cf7d42232f37b0d43cf8d0740c1ce4826593a15a462361ce13036e4a9391f"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-contentful_1.2.1_darwin_amd64.zip",
+          "download_url": "https://github.com/Flaconi/terraform-provider-contentful/releases/download/v1.2.1/terraform-provider-contentful_1.2.1_darwin_amd64.zip",
+          "shasum": "0efe4d756d56f7e16e73cdbb98404228ddf0f4087b769f3fe21f8261070212b2"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-contentful_1.2.1_darwin_arm64.zip",
+          "download_url": "https://github.com/Flaconi/terraform-provider-contentful/releases/download/v1.2.1/terraform-provider-contentful_1.2.1_darwin_arm64.zip",
+          "shasum": "1c23f63c28d436f8b855cdb9f580950c1c5a2deee306d0f9a32ea0b1ce137b59"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-contentful_1.2.1_windows_amd64.zip",
+          "download_url": "https://github.com/Flaconi/terraform-provider-contentful/releases/download/v1.2.1/terraform-provider-contentful_1.2.1_windows_amd64.zip",
+          "shasum": "980fcc0d0384be146cb4eb3d3d22cb78278525fb4ec2377901377f2208793f52"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-contentful_1.2.1_linux_arm.zip",
+          "download_url": "https://github.com/Flaconi/terraform-provider-contentful/releases/download/v1.2.1/terraform-provider-contentful_1.2.1_linux_arm.zip",
+          "shasum": "a2abe2b01e9d60fa76b57519ec079ba733906a7832d350ae5190df3a86b12167"
+        }
+      ]
+    },
+    {
       "version": "1.2.0",
       "protocols": [
         "5.0"
