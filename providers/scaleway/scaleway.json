@@ -2,6 +2,114 @@
   "repository": "https://github.com/scaleway/terraform-provider-scaleway",
   "versions": [
     {
+      "version": "2.33.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/scaleway/terraform-provider-scaleway/releases/download/v2.33.0/terraform-provider-scaleway_2.33.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/scaleway/terraform-provider-scaleway/releases/download/v2.33.0/terraform-provider-scaleway_2.33.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-scaleway_2.33.0_windows_arm.zip",
+          "download_url": "https://github.com/scaleway/terraform-provider-scaleway/releases/download/v2.33.0/terraform-provider-scaleway_2.33.0_windows_arm.zip",
+          "shasum": "0f72cef68e02de06580dabfbe271c1ea76b096113f0db030ea288090c25087f9"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-scaleway_2.33.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/scaleway/terraform-provider-scaleway/releases/download/v2.33.0/terraform-provider-scaleway_2.33.0_freebsd_arm64.zip",
+          "shasum": "8a928df1ca395d1a97cff69377c5204c868ee43fc106242ddb0d05ff4f672048"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-scaleway_2.33.0_freebsd_arm.zip",
+          "download_url": "https://github.com/scaleway/terraform-provider-scaleway/releases/download/v2.33.0/terraform-provider-scaleway_2.33.0_freebsd_arm.zip",
+          "shasum": "9ab7969d4f25b9ed0a9b63cae305974fe2bb3b3a9d0705ad4655fa8ffe8c1fde"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-scaleway_2.33.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/scaleway/terraform-provider-scaleway/releases/download/v2.33.0/terraform-provider-scaleway_2.33.0_freebsd_amd64.zip",
+          "shasum": "e2b5ef5932e3fa1d6d768ac03207897f0ea9ddb2e872c4f1f3e7627d4a24d5cf"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-scaleway_2.33.0_linux_386.zip",
+          "download_url": "https://github.com/scaleway/terraform-provider-scaleway/releases/download/v2.33.0/terraform-provider-scaleway_2.33.0_linux_386.zip",
+          "shasum": "0bc57607f9f951105dfd7a18501628c7970953afce64cf9ce15e549c51ff60c1"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-scaleway_2.33.0_linux_arm.zip",
+          "download_url": "https://github.com/scaleway/terraform-provider-scaleway/releases/download/v2.33.0/terraform-provider-scaleway_2.33.0_linux_arm.zip",
+          "shasum": "156d05392e86831dda6ec4664e9a5f86ee240bf92cef834cf6de4e8bc56c0b34"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-scaleway_2.33.0_linux_arm64.zip",
+          "download_url": "https://github.com/scaleway/terraform-provider-scaleway/releases/download/v2.33.0/terraform-provider-scaleway_2.33.0_linux_arm64.zip",
+          "shasum": "7aed52c1741d6b941fa0dc6fa1fc8561c17505c85e6f6f0655dde94b38653648"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-scaleway_2.33.0_linux_amd64.zip",
+          "download_url": "https://github.com/scaleway/terraform-provider-scaleway/releases/download/v2.33.0/terraform-provider-scaleway_2.33.0_linux_amd64.zip",
+          "shasum": "4e56ab5d29805115a900fc34e958e89052ea87246544440ad12abdd9708a8ce0"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-scaleway_2.33.0_freebsd_386.zip",
+          "download_url": "https://github.com/scaleway/terraform-provider-scaleway/releases/download/v2.33.0/terraform-provider-scaleway_2.33.0_freebsd_386.zip",
+          "shasum": "dffceb91ef5eed238400d52f8cd259639cd7cdd4488bc0bc3ce39eaa650925d6"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-scaleway_2.33.0_darwin_arm64.zip",
+          "download_url": "https://github.com/scaleway/terraform-provider-scaleway/releases/download/v2.33.0/terraform-provider-scaleway_2.33.0_darwin_arm64.zip",
+          "shasum": "c29578a252d6918080080e45588538ddab56a47db90289720819ae81549237c0"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-scaleway_2.33.0_windows_386.zip",
+          "download_url": "https://github.com/scaleway/terraform-provider-scaleway/releases/download/v2.33.0/terraform-provider-scaleway_2.33.0_windows_386.zip",
+          "shasum": "59933f8aa9e6003052d59900a0a047b6dfedffeac5bb51dc1448aede8414cf5f"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-scaleway_2.33.0_windows_arm64.zip",
+          "download_url": "https://github.com/scaleway/terraform-provider-scaleway/releases/download/v2.33.0/terraform-provider-scaleway_2.33.0_windows_arm64.zip",
+          "shasum": "d22a0ae6101e0cdbb55ea6c0f6154b4e68b89ccab916a466917606e157063383"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-scaleway_2.33.0_windows_amd64.zip",
+          "download_url": "https://github.com/scaleway/terraform-provider-scaleway/releases/download/v2.33.0/terraform-provider-scaleway_2.33.0_windows_amd64.zip",
+          "shasum": "cc85b2eaaf1ef83552bc1280bd4750f23d4e0f1d66fa598c05b78d196702e6e0"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-scaleway_2.33.0_darwin_amd64.zip",
+          "download_url": "https://github.com/scaleway/terraform-provider-scaleway/releases/download/v2.33.0/terraform-provider-scaleway_2.33.0_darwin_amd64.zip",
+          "shasum": "46c5360c85c4b78af7ff2b0e747c15f4a34d092da17fde8be41204519c1ece77"
+        }
+      ]
+    },
+    {
       "version": "2.32.0",
       "protocols": [
         "5.0"
