@@ -2,6 +2,114 @@
   "repository": "https://github.com/cisco-en-programmability/terraform-provider-dnacenter",
   "versions": [
     {
+      "version": "1.1.26-beta",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/cisco-en-programmability/terraform-provider-dnacenter/releases/download/v1.1.26-beta/terraform-provider-dnacenter_1.1.26-beta_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/cisco-en-programmability/terraform-provider-dnacenter/releases/download/v1.1.26-beta/terraform-provider-dnacenter_1.1.26-beta_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-dnacenter_1.1.26-beta_freebsd_arm64.zip",
+          "download_url": "https://github.com/cisco-en-programmability/terraform-provider-dnacenter/releases/download/v1.1.26-beta/terraform-provider-dnacenter_1.1.26-beta_freebsd_arm64.zip",
+          "shasum": "953a591eddcad242191712a4f7911a6551e5f808612da1836f6118ef66aade03"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-dnacenter_1.1.26-beta_freebsd_arm.zip",
+          "download_url": "https://github.com/cisco-en-programmability/terraform-provider-dnacenter/releases/download/v1.1.26-beta/terraform-provider-dnacenter_1.1.26-beta_freebsd_arm.zip",
+          "shasum": "daacf198ed08d43783373ef1e441af844ffc961d0dabc6ad0dcbded5c5d8ece4"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-dnacenter_1.1.26-beta_freebsd_386.zip",
+          "download_url": "https://github.com/cisco-en-programmability/terraform-provider-dnacenter/releases/download/v1.1.26-beta/terraform-provider-dnacenter_1.1.26-beta_freebsd_386.zip",
+          "shasum": "b4e99064e17e098bba933b8103271329966c70e33a1e27c5a469022b172c0713"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-dnacenter_1.1.26-beta_linux_386.zip",
+          "download_url": "https://github.com/cisco-en-programmability/terraform-provider-dnacenter/releases/download/v1.1.26-beta/terraform-provider-dnacenter_1.1.26-beta_linux_386.zip",
+          "shasum": "20d5e52c7fb9a87adadb9859b119f98d56a9e67dbea131dc3cd1958db04f77bb"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-dnacenter_1.1.26-beta_windows_arm.zip",
+          "download_url": "https://github.com/cisco-en-programmability/terraform-provider-dnacenter/releases/download/v1.1.26-beta/terraform-provider-dnacenter_1.1.26-beta_windows_arm.zip",
+          "shasum": "79c96ef328510b74a27fe3d988e4388b824fef391fa2aa1ac2ca0e065b4b9593"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-dnacenter_1.1.26-beta_windows_arm64.zip",
+          "download_url": "https://github.com/cisco-en-programmability/terraform-provider-dnacenter/releases/download/v1.1.26-beta/terraform-provider-dnacenter_1.1.26-beta_windows_arm64.zip",
+          "shasum": "739dba2c1cb8fe02710723eee1a6fb37d8596b3320f125cc5b4eb556592c824a"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-dnacenter_1.1.26-beta_windows_amd64.zip",
+          "download_url": "https://github.com/cisco-en-programmability/terraform-provider-dnacenter/releases/download/v1.1.26-beta/terraform-provider-dnacenter_1.1.26-beta_windows_amd64.zip",
+          "shasum": "94432e49602a0b00ee589cb280ee4f961692bab092760c6053a9a257867c70a1"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-dnacenter_1.1.26-beta_freebsd_amd64.zip",
+          "download_url": "https://github.com/cisco-en-programmability/terraform-provider-dnacenter/releases/download/v1.1.26-beta/terraform-provider-dnacenter_1.1.26-beta_freebsd_amd64.zip",
+          "shasum": "804566611a7dd4f0babb3fe0bf31ea8af4e0817e030d9bc13077a280c14ad471"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-dnacenter_1.1.26-beta_linux_arm64.zip",
+          "download_url": "https://github.com/cisco-en-programmability/terraform-provider-dnacenter/releases/download/v1.1.26-beta/terraform-provider-dnacenter_1.1.26-beta_linux_arm64.zip",
+          "shasum": "08434ff86832c1b5bda5d535afcc8509210ae2d29897cd7b14eb4f2443620d11"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-dnacenter_1.1.26-beta_windows_386.zip",
+          "download_url": "https://github.com/cisco-en-programmability/terraform-provider-dnacenter/releases/download/v1.1.26-beta/terraform-provider-dnacenter_1.1.26-beta_windows_386.zip",
+          "shasum": "aa3e0c49c044879cf443391cdc3e1711ad5bb8ba3246b7151c97280e9497e9e7"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-dnacenter_1.1.26-beta_linux_amd64.zip",
+          "download_url": "https://github.com/cisco-en-programmability/terraform-provider-dnacenter/releases/download/v1.1.26-beta/terraform-provider-dnacenter_1.1.26-beta_linux_amd64.zip",
+          "shasum": "2b2f704c2a708d521ad01a0d4d32e5fe2070698786961ec528d9181e58746831"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-dnacenter_1.1.26-beta_linux_arm.zip",
+          "download_url": "https://github.com/cisco-en-programmability/terraform-provider-dnacenter/releases/download/v1.1.26-beta/terraform-provider-dnacenter_1.1.26-beta_linux_arm.zip",
+          "shasum": "c3faca9a5174b0eb9a39bf336ac2f42f456cdfb3234de25a7e587d72de934f11"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-dnacenter_1.1.26-beta_darwin_arm64.zip",
+          "download_url": "https://github.com/cisco-en-programmability/terraform-provider-dnacenter/releases/download/v1.1.26-beta/terraform-provider-dnacenter_1.1.26-beta_darwin_arm64.zip",
+          "shasum": "8df4105a3d2bc1ea244153a317668dbf3f47f546c6b129d7f9cb77b19e92209d"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-dnacenter_1.1.26-beta_darwin_amd64.zip",
+          "download_url": "https://github.com/cisco-en-programmability/terraform-provider-dnacenter/releases/download/v1.1.26-beta/terraform-provider-dnacenter_1.1.26-beta_darwin_amd64.zip",
+          "shasum": "18b937352b3b7c868d8b20343a446a9d710e4da7f0b1a92fc83fe6f76b58ba42"
+        }
+      ]
+    },
+    {
       "version": "1.1.25-beta",
       "protocols": [
         "5.0"
