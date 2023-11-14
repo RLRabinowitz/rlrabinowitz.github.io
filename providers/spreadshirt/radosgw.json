@@ -2,6 +2,114 @@
   "repository": "https://github.com/spreadshirt/terraform-provider-radosgw",
   "versions": [
     {
+      "version": "0.1.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/spreadshirt/terraform-provider-radosgw/releases/download/v0.1.0/terraform-provider-radosgw_0.1.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/spreadshirt/terraform-provider-radosgw/releases/download/v0.1.0/terraform-provider-radosgw_0.1.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-radosgw_0.1.0_linux_amd64.zip",
+          "download_url": "https://github.com/spreadshirt/terraform-provider-radosgw/releases/download/v0.1.0/terraform-provider-radosgw_0.1.0_linux_amd64.zip",
+          "shasum": "c5895cea7737d3f700bdfa148f43fd86295ca5323681c757477ffc3b1549d8fd"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-radosgw_0.1.0_windows_amd64.zip",
+          "download_url": "https://github.com/spreadshirt/terraform-provider-radosgw/releases/download/v0.1.0/terraform-provider-radosgw_0.1.0_windows_amd64.zip",
+          "shasum": "3fc592c751837f9afd935ad5a1906a5d66cea845168a277388586550fc1b824a"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-radosgw_0.1.0_freebsd_386.zip",
+          "download_url": "https://github.com/spreadshirt/terraform-provider-radosgw/releases/download/v0.1.0/terraform-provider-radosgw_0.1.0_freebsd_386.zip",
+          "shasum": "f18e6a8c24225e1a61f65e204304d8c7a19c60bf6125e2a1db9e9b4e53a4a392"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-radosgw_0.1.0_freebsd_arm.zip",
+          "download_url": "https://github.com/spreadshirt/terraform-provider-radosgw/releases/download/v0.1.0/terraform-provider-radosgw_0.1.0_freebsd_arm.zip",
+          "shasum": "5abe4d937c75a1d8bcafa4b3617fe58e1021d56c506da6666276fddc99b4e877"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-radosgw_0.1.0_linux_arm.zip",
+          "download_url": "https://github.com/spreadshirt/terraform-provider-radosgw/releases/download/v0.1.0/terraform-provider-radosgw_0.1.0_linux_arm.zip",
+          "shasum": "952e5049ca6c56d125905e73c391cee95a79d21c2cb9ff2b14b161cef47d8400"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-radosgw_0.1.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/spreadshirt/terraform-provider-radosgw/releases/download/v0.1.0/terraform-provider-radosgw_0.1.0_freebsd_arm64.zip",
+          "shasum": "9443891154948c9583eb6388b9766fae58043a9618f4c78ec843b45af64637ce"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-radosgw_0.1.0_darwin_amd64.zip",
+          "download_url": "https://github.com/spreadshirt/terraform-provider-radosgw/releases/download/v0.1.0/terraform-provider-radosgw_0.1.0_darwin_amd64.zip",
+          "shasum": "dec916d9a10b83acd15d1c8626be87f38b073a90f3244eafeb4e0edd36e24a14"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-radosgw_0.1.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/spreadshirt/terraform-provider-radosgw/releases/download/v0.1.0/terraform-provider-radosgw_0.1.0_freebsd_amd64.zip",
+          "shasum": "105866e02c78cf58db23e9a1da556c0f771f32cc3fa8c8df00cbf9a4d1211a48"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-radosgw_0.1.0_windows_arm.zip",
+          "download_url": "https://github.com/spreadshirt/terraform-provider-radosgw/releases/download/v0.1.0/terraform-provider-radosgw_0.1.0_windows_arm.zip",
+          "shasum": "ea86f5205067ecda0912f2c97312c7869b884ae29f8122619990a24a1fe8eeba"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-radosgw_0.1.0_linux_386.zip",
+          "download_url": "https://github.com/spreadshirt/terraform-provider-radosgw/releases/download/v0.1.0/terraform-provider-radosgw_0.1.0_linux_386.zip",
+          "shasum": "e05029d09c5f72ebd4a63a27f74a448cb17704c36c9fed22cafa30a2d97047e0"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-radosgw_0.1.0_windows_386.zip",
+          "download_url": "https://github.com/spreadshirt/terraform-provider-radosgw/releases/download/v0.1.0/terraform-provider-radosgw_0.1.0_windows_386.zip",
+          "shasum": "95531e21b4669dc4981f5540382ed02025f3ed9edd584fe9e85e5d34af876391"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-radosgw_0.1.0_darwin_arm64.zip",
+          "download_url": "https://github.com/spreadshirt/terraform-provider-radosgw/releases/download/v0.1.0/terraform-provider-radosgw_0.1.0_darwin_arm64.zip",
+          "shasum": "b9e5d8c52b187cc9bfdbb4e3e65b31bb7160636a1e593107a3a9f44411846bc7"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-radosgw_0.1.0_windows_arm64.zip",
+          "download_url": "https://github.com/spreadshirt/terraform-provider-radosgw/releases/download/v0.1.0/terraform-provider-radosgw_0.1.0_windows_arm64.zip",
+          "shasum": "7305914c23e75e0178a33429a2f697a5ddbac0c84d676b76899e52a22bf5eec9"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-radosgw_0.1.0_linux_arm64.zip",
+          "download_url": "https://github.com/spreadshirt/terraform-provider-radosgw/releases/download/v0.1.0/terraform-provider-radosgw_0.1.0_linux_arm64.zip",
+          "shasum": "bb293877ffd3788d278fad784fd0cddaf4c500b13a2cd16bcc08b405806efc28"
+        }
+      ]
+    },
+    {
       "version": "0.0.1-alpha",
       "protocols": [
         "5.0"
