@@ -2,6 +2,194 @@
   "repository": "https://github.com/imperva/terraform-provider-dsfhub",
   "versions": [
     {
+      "version": "1.2.17",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/imperva/terraform-provider-dsfhub/releases/download/v1.2.17/terraform-provider-dsfhub_1.2.17_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/imperva/terraform-provider-dsfhub/releases/download/v1.2.17/terraform-provider-dsfhub_1.2.17_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-dsfhub_1.2.17_darwin_arm64.zip",
+          "download_url": "https://github.com/imperva/terraform-provider-dsfhub/releases/download/v1.2.17/terraform-provider-dsfhub_1.2.17_darwin_arm64.zip",
+          "shasum": "ec9c240831978f4516c8587352b643cd13a2bfc1c377c112f508673bfa293962"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-dsfhub_1.2.17_linux_arm.zip",
+          "download_url": "https://github.com/imperva/terraform-provider-dsfhub/releases/download/v1.2.17/terraform-provider-dsfhub_1.2.17_linux_arm.zip",
+          "shasum": "8d7a38edc9db07cc5b712120aac6d2b89b020771b12a6cd1758c8955d9e888f0"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-dsfhub_1.2.17_linux_arm64.zip",
+          "download_url": "https://github.com/imperva/terraform-provider-dsfhub/releases/download/v1.2.17/terraform-provider-dsfhub_1.2.17_linux_arm64.zip",
+          "shasum": "0773a2a6d1508cdbc28f4e5b30390e885a20abdb31d60638e588f0a77c13912c"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-dsfhub_1.2.17_windows_amd64.zip",
+          "download_url": "https://github.com/imperva/terraform-provider-dsfhub/releases/download/v1.2.17/terraform-provider-dsfhub_1.2.17_windows_amd64.zip",
+          "shasum": "6e06478b468d893ab188d168bf2a6200c86935e3ee6214fc8e49ee0a3077fe13"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-dsfhub_1.2.17_freebsd_arm.zip",
+          "download_url": "https://github.com/imperva/terraform-provider-dsfhub/releases/download/v1.2.17/terraform-provider-dsfhub_1.2.17_freebsd_arm.zip",
+          "shasum": "e9ebe165a33821e8bf354e0edee19c8bf333bd615a12f098eb1acf996d48267e"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-dsfhub_1.2.17_windows_386.zip",
+          "download_url": "https://github.com/imperva/terraform-provider-dsfhub/releases/download/v1.2.17/terraform-provider-dsfhub_1.2.17_windows_386.zip",
+          "shasum": "e10828d4a38c8946a1ef80bb8e07f69c31520f70a745b4af24b381cf9ce5f645"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-dsfhub_1.2.17_linux_386.zip",
+          "download_url": "https://github.com/imperva/terraform-provider-dsfhub/releases/download/v1.2.17/terraform-provider-dsfhub_1.2.17_linux_386.zip",
+          "shasum": "49467aabd02dca145de8c5b8f5db4104fccb7ba541b19ec082a7cde2eb384ade"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-dsfhub_1.2.17_freebsd_amd64.zip",
+          "download_url": "https://github.com/imperva/terraform-provider-dsfhub/releases/download/v1.2.17/terraform-provider-dsfhub_1.2.17_freebsd_amd64.zip",
+          "shasum": "3eeac0acd0f14c342e751f6e08f29fe3f296f35755608dd6fe0fa83fa8971473"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-dsfhub_1.2.17_linux_amd64.zip",
+          "download_url": "https://github.com/imperva/terraform-provider-dsfhub/releases/download/v1.2.17/terraform-provider-dsfhub_1.2.17_linux_amd64.zip",
+          "shasum": "e9defa4ac71ff4afd7cc77402bd23ec6602d723c9828532b8bee4ba089e16cb9"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-dsfhub_1.2.17_freebsd_386.zip",
+          "download_url": "https://github.com/imperva/terraform-provider-dsfhub/releases/download/v1.2.17/terraform-provider-dsfhub_1.2.17_freebsd_386.zip",
+          "shasum": "f6621678aaa53129182a0152d2364c06b9b2cbd88516d537c410d14c3287e372"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-dsfhub_1.2.17_windows_arm.zip",
+          "download_url": "https://github.com/imperva/terraform-provider-dsfhub/releases/download/v1.2.17/terraform-provider-dsfhub_1.2.17_windows_arm.zip",
+          "shasum": "458f9ecd0979e4aea6d0ded7583a07f03db5722b55eca6bfc33d343a99e774a9"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-dsfhub_1.2.17_darwin_amd64.zip",
+          "download_url": "https://github.com/imperva/terraform-provider-dsfhub/releases/download/v1.2.17/terraform-provider-dsfhub_1.2.17_darwin_amd64.zip",
+          "shasum": "a7b868b6c8470abff80223aa4d91d0af89ac8b6c730229c372d241fe05aee91f"
+        }
+      ]
+    },
+    {
+      "version": "1.2.16",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/imperva/terraform-provider-dsfhub/releases/download/v1.2.16/terraform-provider-dsfhub_1.2.16_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/imperva/terraform-provider-dsfhub/releases/download/v1.2.16/terraform-provider-dsfhub_1.2.16_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-dsfhub_1.2.16_linux_arm64.zip",
+          "download_url": "https://github.com/imperva/terraform-provider-dsfhub/releases/download/v1.2.16/terraform-provider-dsfhub_1.2.16_linux_arm64.zip",
+          "shasum": "dcd7fedb2749b2bdec14abcf4c098f03ef2ab886796b2f13b9f25bf2fa092c11"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-dsfhub_1.2.16_freebsd_amd64.zip",
+          "download_url": "https://github.com/imperva/terraform-provider-dsfhub/releases/download/v1.2.16/terraform-provider-dsfhub_1.2.16_freebsd_amd64.zip",
+          "shasum": "3a0dc42b3b88e45ac60dfe73931bdf9bd5e5834f33759ecdbb8d05087233dc62"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-dsfhub_1.2.16_windows_amd64.zip",
+          "download_url": "https://github.com/imperva/terraform-provider-dsfhub/releases/download/v1.2.16/terraform-provider-dsfhub_1.2.16_windows_amd64.zip",
+          "shasum": "4a33c83a3f94537c04e4570f0d659911f978e905d744064b9c49e82b8a9f3267"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-dsfhub_1.2.16_windows_386.zip",
+          "download_url": "https://github.com/imperva/terraform-provider-dsfhub/releases/download/v1.2.16/terraform-provider-dsfhub_1.2.16_windows_386.zip",
+          "shasum": "678e7f8f7fa987f1e2a14bdade71e50a9446622de2ffb33cfcc3d1b204793e99"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-dsfhub_1.2.16_freebsd_386.zip",
+          "download_url": "https://github.com/imperva/terraform-provider-dsfhub/releases/download/v1.2.16/terraform-provider-dsfhub_1.2.16_freebsd_386.zip",
+          "shasum": "4dfb5d4cf70064b5026bf08b1a6e9b69db84b5f2efaf1eb9f64eeb225444316a"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-dsfhub_1.2.16_freebsd_arm.zip",
+          "download_url": "https://github.com/imperva/terraform-provider-dsfhub/releases/download/v1.2.16/terraform-provider-dsfhub_1.2.16_freebsd_arm.zip",
+          "shasum": "e1d22450dec88e9e20e72d1c191d05433d4a67c3b87a86767609c192c6c146b5"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-dsfhub_1.2.16_linux_amd64.zip",
+          "download_url": "https://github.com/imperva/terraform-provider-dsfhub/releases/download/v1.2.16/terraform-provider-dsfhub_1.2.16_linux_amd64.zip",
+          "shasum": "2f38d64eaab7aca7527b265dac83b4a07356839bd2e45e6079c3a3c61f4c88ee"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-dsfhub_1.2.16_linux_arm.zip",
+          "download_url": "https://github.com/imperva/terraform-provider-dsfhub/releases/download/v1.2.16/terraform-provider-dsfhub_1.2.16_linux_arm.zip",
+          "shasum": "afe2847e435d9b151d0c181a42a66dac1074f349fa7ec2479c6d06c93088f26b"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-dsfhub_1.2.16_windows_arm.zip",
+          "download_url": "https://github.com/imperva/terraform-provider-dsfhub/releases/download/v1.2.16/terraform-provider-dsfhub_1.2.16_windows_arm.zip",
+          "shasum": "5d13f0cbb61e6d3b6296e0986991a3399d0c594a6dc7de617f1de9fe2b1f7520"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-dsfhub_1.2.16_darwin_arm64.zip",
+          "download_url": "https://github.com/imperva/terraform-provider-dsfhub/releases/download/v1.2.16/terraform-provider-dsfhub_1.2.16_darwin_arm64.zip",
+          "shasum": "d8d9f695735626e0f1c62f513990b1febd433d692d096754ad592cdcf3296f31"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-dsfhub_1.2.16_darwin_amd64.zip",
+          "download_url": "https://github.com/imperva/terraform-provider-dsfhub/releases/download/v1.2.16/terraform-provider-dsfhub_1.2.16_darwin_amd64.zip",
+          "shasum": "564999eeb0e83c22a39a52ecc601fefacd79b6480b7d6ee094ee189955f6336c"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-dsfhub_1.2.16_linux_386.zip",
+          "download_url": "https://github.com/imperva/terraform-provider-dsfhub/releases/download/v1.2.16/terraform-provider-dsfhub_1.2.16_linux_386.zip",
+          "shasum": "0d1ef0c2c2245937e3859cb5d9de724c5d2276d142e1840477a682b5a9c104ce"
+        }
+      ]
+    },
+    {
       "version": "1.2.15",
       "protocols": [
         "5.0"
