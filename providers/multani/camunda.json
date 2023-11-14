@@ -2,6 +2,222 @@
   "repository": "https://github.com/multani/terraform-provider-camunda",
   "versions": [
     {
+      "version": "0.0.8",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/camunda-community-hub/terraform-provider-camunda/releases/download/v0.0.8/terraform-provider-camunda_0.0.8_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/camunda-community-hub/terraform-provider-camunda/releases/download/v0.0.8/terraform-provider-camunda_0.0.8_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-camunda_0.0.8_windows_arm64.zip",
+          "download_url": "https://github.com/camunda-community-hub/terraform-provider-camunda/releases/download/v0.0.8/terraform-provider-camunda_0.0.8_windows_arm64.zip",
+          "shasum": "ec5ad3c1d2630ab632571f6becfcd0d7ddc8a0905e321f71ee175146245c71fa"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-camunda_0.0.8_linux_386.zip",
+          "download_url": "https://github.com/camunda-community-hub/terraform-provider-camunda/releases/download/v0.0.8/terraform-provider-camunda_0.0.8_linux_386.zip",
+          "shasum": "4b61a641ed5ae55f1ff9274f09a0546f30a4eb0398a77f069986957b3645d4d9"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-camunda_0.0.8_windows_386.zip",
+          "download_url": "https://github.com/camunda-community-hub/terraform-provider-camunda/releases/download/v0.0.8/terraform-provider-camunda_0.0.8_windows_386.zip",
+          "shasum": "152e2d72a096ba71dd8730388255bd0c74397417b068e4bd391e460a76836060"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-camunda_0.0.8_linux_arm64.zip",
+          "download_url": "https://github.com/camunda-community-hub/terraform-provider-camunda/releases/download/v0.0.8/terraform-provider-camunda_0.0.8_linux_arm64.zip",
+          "shasum": "eb82087bfa5c7b6d84fb6ab40a536aed157aa1b047e765b6093c1a6aabebe5da"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-camunda_0.0.8_freebsd_386.zip",
+          "download_url": "https://github.com/camunda-community-hub/terraform-provider-camunda/releases/download/v0.0.8/terraform-provider-camunda_0.0.8_freebsd_386.zip",
+          "shasum": "c5a6a73601b1a94d904f09940d4f76283ebed37ca1855c925bc71b4a33a8c379"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-camunda_0.0.8_darwin_arm64.zip",
+          "download_url": "https://github.com/camunda-community-hub/terraform-provider-camunda/releases/download/v0.0.8/terraform-provider-camunda_0.0.8_darwin_arm64.zip",
+          "shasum": "11e43f43bc62ca61375631c751a845d9a038a81999483c1db9a3b461d30a597c"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-camunda_0.0.8_freebsd_arm64.zip",
+          "download_url": "https://github.com/camunda-community-hub/terraform-provider-camunda/releases/download/v0.0.8/terraform-provider-camunda_0.0.8_freebsd_arm64.zip",
+          "shasum": "ab0077a39d4c136744b44f41cd459042d32908b1f87c46648cd0c0b12ac0b1ca"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-camunda_0.0.8_windows_arm.zip",
+          "download_url": "https://github.com/camunda-community-hub/terraform-provider-camunda/releases/download/v0.0.8/terraform-provider-camunda_0.0.8_windows_arm.zip",
+          "shasum": "b0823c4c3d6fd8f30ce3df0f0081b8562cd54b5012c59fa9029431b5302fb98b"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-camunda_0.0.8_windows_amd64.zip",
+          "download_url": "https://github.com/camunda-community-hub/terraform-provider-camunda/releases/download/v0.0.8/terraform-provider-camunda_0.0.8_windows_amd64.zip",
+          "shasum": "bdc01e064f3ad1eb90e41874a96df21d5de87a704659ef13fe32029c1ddbaa74"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-camunda_0.0.8_freebsd_arm.zip",
+          "download_url": "https://github.com/camunda-community-hub/terraform-provider-camunda/releases/download/v0.0.8/terraform-provider-camunda_0.0.8_freebsd_arm.zip",
+          "shasum": "d69e5613433954072f1565b800521b7df91a92ff47beb97bf1915f938e57b852"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-camunda_0.0.8_linux_arm.zip",
+          "download_url": "https://github.com/camunda-community-hub/terraform-provider-camunda/releases/download/v0.0.8/terraform-provider-camunda_0.0.8_linux_arm.zip",
+          "shasum": "839a1f8a5043da80085f0f2d336796362d0c4a8a87342ef0c4085dc70a27bc3d"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-camunda_0.0.8_linux_amd64.zip",
+          "download_url": "https://github.com/camunda-community-hub/terraform-provider-camunda/releases/download/v0.0.8/terraform-provider-camunda_0.0.8_linux_amd64.zip",
+          "shasum": "ee0bb21f08cf1a5862b23eadaeff8d2beab1d9e90b9e3d80d22b488f63f7d957"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-camunda_0.0.8_darwin_amd64.zip",
+          "download_url": "https://github.com/camunda-community-hub/terraform-provider-camunda/releases/download/v0.0.8/terraform-provider-camunda_0.0.8_darwin_amd64.zip",
+          "shasum": "f11abefcc1960bd064623d2202aae69cbd153c72f993ba1518414bc716d59356"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-camunda_0.0.8_freebsd_amd64.zip",
+          "download_url": "https://github.com/camunda-community-hub/terraform-provider-camunda/releases/download/v0.0.8/terraform-provider-camunda_0.0.8_freebsd_amd64.zip",
+          "shasum": "052ca95527dd5ee2029eb2fd026a97866922effb0aec892ec1fd1933df17da16"
+        }
+      ]
+    },
+    {
+      "version": "0.0.7",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/camunda-community-hub/terraform-provider-camunda/releases/download/v0.0.7/terraform-provider-camunda_0.0.7_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/camunda-community-hub/terraform-provider-camunda/releases/download/v0.0.7/terraform-provider-camunda_0.0.7_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-camunda_0.0.7_windows_amd64.zip",
+          "download_url": "https://github.com/camunda-community-hub/terraform-provider-camunda/releases/download/v0.0.7/terraform-provider-camunda_0.0.7_windows_amd64.zip",
+          "shasum": "0cd2283940ca48c40bf6ecfed629a7910fc2bb74efdcb81d061bd5d83b520b51"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-camunda_0.0.7_windows_386.zip",
+          "download_url": "https://github.com/camunda-community-hub/terraform-provider-camunda/releases/download/v0.0.7/terraform-provider-camunda_0.0.7_windows_386.zip",
+          "shasum": "1efa93ff6ca92fa7f20ddbf22b91d65788ed6771fb0317e40176228cfbd29573"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-camunda_0.0.7_freebsd_arm64.zip",
+          "download_url": "https://github.com/camunda-community-hub/terraform-provider-camunda/releases/download/v0.0.7/terraform-provider-camunda_0.0.7_freebsd_arm64.zip",
+          "shasum": "018928920caa4b21a28ac09ec5eda4591a10247aa038b7aebead1fe36a3c0369"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-camunda_0.0.7_linux_arm64.zip",
+          "download_url": "https://github.com/camunda-community-hub/terraform-provider-camunda/releases/download/v0.0.7/terraform-provider-camunda_0.0.7_linux_arm64.zip",
+          "shasum": "370b59161cc82f7a738bd8f07261806412962e649ff2831f2b503dd7f342eced"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-camunda_0.0.7_windows_arm.zip",
+          "download_url": "https://github.com/camunda-community-hub/terraform-provider-camunda/releases/download/v0.0.7/terraform-provider-camunda_0.0.7_windows_arm.zip",
+          "shasum": "19f446762c830c3d382b1896a88d62bc1f8b71d4afde781f439278f6d6225367"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-camunda_0.0.7_linux_386.zip",
+          "download_url": "https://github.com/camunda-community-hub/terraform-provider-camunda/releases/download/v0.0.7/terraform-provider-camunda_0.0.7_linux_386.zip",
+          "shasum": "9e7f83da47dc84c63fd35d942557c2966c007d357a6653d3e01b6a78b952d624"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-camunda_0.0.7_linux_amd64.zip",
+          "download_url": "https://github.com/camunda-community-hub/terraform-provider-camunda/releases/download/v0.0.7/terraform-provider-camunda_0.0.7_linux_amd64.zip",
+          "shasum": "93f5d59bdb4ad6b52981ae4e249ed308a51f3f8fca90f83a659097e8555f3fa3"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-camunda_0.0.7_darwin_amd64.zip",
+          "download_url": "https://github.com/camunda-community-hub/terraform-provider-camunda/releases/download/v0.0.7/terraform-provider-camunda_0.0.7_darwin_amd64.zip",
+          "shasum": "6d51d538e933bdfe487b289f7e25e2291e0cd070c428e5bdb5b63b0a9ac021f2"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-camunda_0.0.7_freebsd_arm.zip",
+          "download_url": "https://github.com/camunda-community-hub/terraform-provider-camunda/releases/download/v0.0.7/terraform-provider-camunda_0.0.7_freebsd_arm.zip",
+          "shasum": "b9f1612631a069cb53f7718f921317595b5d8dea6cdeb9dda46166bb398352c7"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-camunda_0.0.7_freebsd_386.zip",
+          "download_url": "https://github.com/camunda-community-hub/terraform-provider-camunda/releases/download/v0.0.7/terraform-provider-camunda_0.0.7_freebsd_386.zip",
+          "shasum": "b43d3c32c55b718642112139bcdfcde811459bcf98f474403291761b6bb3821d"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-camunda_0.0.7_windows_arm64.zip",
+          "download_url": "https://github.com/camunda-community-hub/terraform-provider-camunda/releases/download/v0.0.7/terraform-provider-camunda_0.0.7_windows_arm64.zip",
+          "shasum": "233a126eee1ec78cd0b00663d742f0002225c09a4928e738fbd9d693e52d728f"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-camunda_0.0.7_linux_arm.zip",
+          "download_url": "https://github.com/camunda-community-hub/terraform-provider-camunda/releases/download/v0.0.7/terraform-provider-camunda_0.0.7_linux_arm.zip",
+          "shasum": "f4196b48ff1b681e5b70c005f43d307876174b805536b614acd2e98ac5e64820"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-camunda_0.0.7_freebsd_amd64.zip",
+          "download_url": "https://github.com/camunda-community-hub/terraform-provider-camunda/releases/download/v0.0.7/terraform-provider-camunda_0.0.7_freebsd_amd64.zip",
+          "shasum": "d1d73a4273ca0ec9c7984648898f7ed361c48f9335496b6d0ed27d3c65458cb1"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-camunda_0.0.7_darwin_arm64.zip",
+          "download_url": "https://github.com/camunda-community-hub/terraform-provider-camunda/releases/download/v0.0.7/terraform-provider-camunda_0.0.7_darwin_arm64.zip",
+          "shasum": "d8f91214b92e5df83bd490b55006385907fa1a658f39334a72de6245fc4afc88"
+        }
+      ]
+    },
+    {
       "version": "0.0.6",
       "protocols": [
         "5.0"
