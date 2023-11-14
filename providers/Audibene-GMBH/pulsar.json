@@ -2,6 +2,114 @@
   "repository": "https://github.com/Audibene-GMBH/terraform-provider-pulsar",
   "versions": [
     {
+      "version": "0.4.1",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/Audibene-GMBH/terraform-provider-pulsar/releases/download/v0.4.1/terraform-provider-pulsar_0.4.1_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/Audibene-GMBH/terraform-provider-pulsar/releases/download/v0.4.1/terraform-provider-pulsar_0.4.1_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-pulsar_0.4.1_windows_arm.zip",
+          "download_url": "https://github.com/Audibene-GMBH/terraform-provider-pulsar/releases/download/v0.4.1/terraform-provider-pulsar_0.4.1_windows_arm.zip",
+          "shasum": "7bb0c4a72aa4db94e45bc87aa1b0eb9cf8ec5d73240e8362919441be3e3d845a"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-pulsar_0.4.1_linux_amd64.zip",
+          "download_url": "https://github.com/Audibene-GMBH/terraform-provider-pulsar/releases/download/v0.4.1/terraform-provider-pulsar_0.4.1_linux_amd64.zip",
+          "shasum": "9a9f2e27ac40063726994c672af569b62ed9e43640b69312a3b56c245f025304"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-pulsar_0.4.1_freebsd_386.zip",
+          "download_url": "https://github.com/Audibene-GMBH/terraform-provider-pulsar/releases/download/v0.4.1/terraform-provider-pulsar_0.4.1_freebsd_386.zip",
+          "shasum": "c298156a81df883e9c24f88867d3e9fa67b03374b2dfa48ad6231aa4db78e279"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-pulsar_0.4.1_windows_386.zip",
+          "download_url": "https://github.com/Audibene-GMBH/terraform-provider-pulsar/releases/download/v0.4.1/terraform-provider-pulsar_0.4.1_windows_386.zip",
+          "shasum": "eb33a717d54d53e09764709eb81495e51c1d827d4961c8dad36a932c08e02e22"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-pulsar_0.4.1_freebsd_arm.zip",
+          "download_url": "https://github.com/Audibene-GMBH/terraform-provider-pulsar/releases/download/v0.4.1/terraform-provider-pulsar_0.4.1_freebsd_arm.zip",
+          "shasum": "2a163a0ef9521c13e76781d9a14880d26043587877d1c01076209cd8e18bf789"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-pulsar_0.4.1_darwin_arm64.zip",
+          "download_url": "https://github.com/Audibene-GMBH/terraform-provider-pulsar/releases/download/v0.4.1/terraform-provider-pulsar_0.4.1_darwin_arm64.zip",
+          "shasum": "339bdfdb98a34d45ac81f838126925eb7b07ef9c85262f8bbfae8b78b9e35142"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-pulsar_0.4.1_freebsd_arm64.zip",
+          "download_url": "https://github.com/Audibene-GMBH/terraform-provider-pulsar/releases/download/v0.4.1/terraform-provider-pulsar_0.4.1_freebsd_arm64.zip",
+          "shasum": "9f79489dd3b1776abeb5156935cda678dcb3c3fbcac4905446e28f37b6a6a9e1"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-pulsar_0.4.1_windows_arm64.zip",
+          "download_url": "https://github.com/Audibene-GMBH/terraform-provider-pulsar/releases/download/v0.4.1/terraform-provider-pulsar_0.4.1_windows_arm64.zip",
+          "shasum": "b8d9c5b6b792daa62e2d4fa880e8311bd714210a9691870663699088fe9dde15"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-pulsar_0.4.1_linux_arm64.zip",
+          "download_url": "https://github.com/Audibene-GMBH/terraform-provider-pulsar/releases/download/v0.4.1/terraform-provider-pulsar_0.4.1_linux_arm64.zip",
+          "shasum": "9f2adf38306910d7ca7e3aba3fb1633ed2fdcacb1a33e4e3e615e836afaa1543"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-pulsar_0.4.1_freebsd_amd64.zip",
+          "download_url": "https://github.com/Audibene-GMBH/terraform-provider-pulsar/releases/download/v0.4.1/terraform-provider-pulsar_0.4.1_freebsd_amd64.zip",
+          "shasum": "e463b44c03beae48a29ab3248479abbd7e56c3da4893cdbf6d2dfda38e37af28"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-pulsar_0.4.1_linux_386.zip",
+          "download_url": "https://github.com/Audibene-GMBH/terraform-provider-pulsar/releases/download/v0.4.1/terraform-provider-pulsar_0.4.1_linux_386.zip",
+          "shasum": "64f32d04b889213a49759737ed574b431dfd1b774872afc15241c7e5fba14557"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-pulsar_0.4.1_linux_arm.zip",
+          "download_url": "https://github.com/Audibene-GMBH/terraform-provider-pulsar/releases/download/v0.4.1/terraform-provider-pulsar_0.4.1_linux_arm.zip",
+          "shasum": "4d51804a74630a7d253ad80f07b02702a4e65a36aa4a30dc3de4e54df1c5a5e9"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-pulsar_0.4.1_windows_amd64.zip",
+          "download_url": "https://github.com/Audibene-GMBH/terraform-provider-pulsar/releases/download/v0.4.1/terraform-provider-pulsar_0.4.1_windows_amd64.zip",
+          "shasum": "481599e6447c4b1034dcee7275cfd0cc3e8e57fd2d6f9303e579832e960311aa"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-pulsar_0.4.1_darwin_amd64.zip",
+          "download_url": "https://github.com/Audibene-GMBH/terraform-provider-pulsar/releases/download/v0.4.1/terraform-provider-pulsar_0.4.1_darwin_amd64.zip",
+          "shasum": "0b0afa4e82211d897b08146e73f7b9350fca3fda0616171d0bea70ec36d0e49b"
+        }
+      ]
+    },
+    {
       "version": "0.4.0",
       "protocols": [
         "5.0"

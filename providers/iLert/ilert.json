@@ -2,6 +2,114 @@
   "repository": "https://github.com/iLert/terraform-provider-ilert",
   "versions": [
     {
+      "version": "2.2.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/iLert/terraform-provider-ilert/releases/download/v2.2.0/terraform-provider-ilert_2.2.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/iLert/terraform-provider-ilert/releases/download/v2.2.0/terraform-provider-ilert_2.2.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-ilert_2.2.0_darwin_amd64.zip",
+          "download_url": "https://github.com/iLert/terraform-provider-ilert/releases/download/v2.2.0/terraform-provider-ilert_2.2.0_darwin_amd64.zip",
+          "shasum": "53ac2ee352339dd8e681c951c378e656ac7d851f3bc933258f302a9ab51515a2"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-ilert_2.2.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/iLert/terraform-provider-ilert/releases/download/v2.2.0/terraform-provider-ilert_2.2.0_freebsd_arm64.zip",
+          "shasum": "980f0bc44159425bac89762acf2708c8ba07db6e17ce2b98cdd85e49ae6fa50f"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-ilert_2.2.0_freebsd_386.zip",
+          "download_url": "https://github.com/iLert/terraform-provider-ilert/releases/download/v2.2.0/terraform-provider-ilert_2.2.0_freebsd_386.zip",
+          "shasum": "760b266f3020481c7b4a95686d4add2b00043d057fff257b780b22a1ab013e30"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-ilert_2.2.0_linux_amd64.zip",
+          "download_url": "https://github.com/iLert/terraform-provider-ilert/releases/download/v2.2.0/terraform-provider-ilert_2.2.0_linux_amd64.zip",
+          "shasum": "67475b346b28736321296521dc12c1f2d959a8f8497508cdee0fe288d329a370"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-ilert_2.2.0_linux_386.zip",
+          "download_url": "https://github.com/iLert/terraform-provider-ilert/releases/download/v2.2.0/terraform-provider-ilert_2.2.0_linux_386.zip",
+          "shasum": "41f5f6a40c7015ea55a1f17580e214774e492d529aef03d87a6870764a3e1839"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-ilert_2.2.0_windows_arm64.zip",
+          "download_url": "https://github.com/iLert/terraform-provider-ilert/releases/download/v2.2.0/terraform-provider-ilert_2.2.0_windows_arm64.zip",
+          "shasum": "9fb8fb80c515f07c0cb8cfdc893a6320a46878a54605e240e9108d1cf5f727eb"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-ilert_2.2.0_linux_arm.zip",
+          "download_url": "https://github.com/iLert/terraform-provider-ilert/releases/download/v2.2.0/terraform-provider-ilert_2.2.0_linux_arm.zip",
+          "shasum": "6d5166f0a2a1c4a9e25e8bb04bb7cea2afd012f920b108a3df37fd0e4d45265d"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-ilert_2.2.0_linux_arm64.zip",
+          "download_url": "https://github.com/iLert/terraform-provider-ilert/releases/download/v2.2.0/terraform-provider-ilert_2.2.0_linux_arm64.zip",
+          "shasum": "1a62c7916c8684c97a0f2e7eb6d71ebb7aecbf6478ec0babba012e0b29cfc0fb"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-ilert_2.2.0_darwin_arm64.zip",
+          "download_url": "https://github.com/iLert/terraform-provider-ilert/releases/download/v2.2.0/terraform-provider-ilert_2.2.0_darwin_arm64.zip",
+          "shasum": "36d472c50a7ee20669eb9abe76d2fc3d5be49da9472fd85357a3abff84ccc920"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-ilert_2.2.0_windows_amd64.zip",
+          "download_url": "https://github.com/iLert/terraform-provider-ilert/releases/download/v2.2.0/terraform-provider-ilert_2.2.0_windows_amd64.zip",
+          "shasum": "75c95fa592a5878ae141c03bc2482b218dbe7f42d85f78ed0502c6c44bed8d1f"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-ilert_2.2.0_windows_arm.zip",
+          "download_url": "https://github.com/iLert/terraform-provider-ilert/releases/download/v2.2.0/terraform-provider-ilert_2.2.0_windows_arm.zip",
+          "shasum": "e1fbf2185932e49c71b911a7c95762d26ed792437c146f49bcca9ab00d4554e1"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-ilert_2.2.0_windows_386.zip",
+          "download_url": "https://github.com/iLert/terraform-provider-ilert/releases/download/v2.2.0/terraform-provider-ilert_2.2.0_windows_386.zip",
+          "shasum": "fc6747a7f36cb7437a00bd13d90e833fe66c8bc64a1e5c438f441354346938cd"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-ilert_2.2.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/iLert/terraform-provider-ilert/releases/download/v2.2.0/terraform-provider-ilert_2.2.0_freebsd_amd64.zip",
+          "shasum": "4dc560cf2a06a59a7724eead59f159880e4a8ef05f3b194549c3b158a14f8b5d"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-ilert_2.2.0_freebsd_arm.zip",
+          "download_url": "https://github.com/iLert/terraform-provider-ilert/releases/download/v2.2.0/terraform-provider-ilert_2.2.0_freebsd_arm.zip",
+          "shasum": "bd8e904829f8bbe4bd32b9d981dc0cdfa73ed4b51f9ebb8b1bfc7acfeebe2296"
+        }
+      ]
+    },
+    {
       "version": "2.1.1",
       "protocols": [
         "5.0"

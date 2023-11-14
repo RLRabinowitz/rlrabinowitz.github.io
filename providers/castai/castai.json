@@ -2,6 +2,107 @@
   "repository": "https://github.com/castai/terraform-provider-castai",
   "versions": [
     {
+      "version": "5.10.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/castai/terraform-provider-castai/releases/download/v5.10.0/terraform-provider-castai_5.10.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/castai/terraform-provider-castai/releases/download/v5.10.0/terraform-provider-castai_5.10.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-castai_5.10.0_linux_arm64.zip",
+          "download_url": "https://github.com/castai/terraform-provider-castai/releases/download/v5.10.0/terraform-provider-castai_5.10.0_linux_arm64.zip",
+          "shasum": "0ef6ddabc4da2cc78488890e174c4952fb106b7113a7f87761d8d310f524fbb9"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-castai_5.10.0_linux_amd64.zip",
+          "download_url": "https://github.com/castai/terraform-provider-castai/releases/download/v5.10.0/terraform-provider-castai_5.10.0_linux_amd64.zip",
+          "shasum": "24a9ef28160111ac334255602f5b479160f9df501b81dd8e559cde27f2677d78"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-castai_5.10.0_freebsd_386.zip",
+          "download_url": "https://github.com/castai/terraform-provider-castai/releases/download/v5.10.0/terraform-provider-castai_5.10.0_freebsd_386.zip",
+          "shasum": "61177369b5ae90361b492b8d02bb83ebddb4544971c7929a83136522fc24c2c6"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-castai_5.10.0_linux_386.zip",
+          "download_url": "https://github.com/castai/terraform-provider-castai/releases/download/v5.10.0/terraform-provider-castai_5.10.0_linux_386.zip",
+          "shasum": "f93b5a7ac69fd5a16f1cbb5555e30b8fad9b063b9009d4346b3d5a9a64643722"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-castai_5.10.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/castai/terraform-provider-castai/releases/download/v5.10.0/terraform-provider-castai_5.10.0_freebsd_amd64.zip",
+          "shasum": "284a04c872ef65da7d3905301f324e91054263ea925a3f545fb20499b01144ce"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-castai_5.10.0_darwin_arm64.zip",
+          "download_url": "https://github.com/castai/terraform-provider-castai/releases/download/v5.10.0/terraform-provider-castai_5.10.0_darwin_arm64.zip",
+          "shasum": "6ed7caa48091c6848a456cd9ab334432bea0d198cb41899525c6fdf36ae14fa4"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-castai_5.10.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/castai/terraform-provider-castai/releases/download/v5.10.0/terraform-provider-castai_5.10.0_freebsd_arm64.zip",
+          "shasum": "078c455dad2de09b4fce0654e8c739639702f82b85d3b0fd56e880953d58665c"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-castai_5.10.0_darwin_amd64.zip",
+          "download_url": "https://github.com/castai/terraform-provider-castai/releases/download/v5.10.0/terraform-provider-castai_5.10.0_darwin_amd64.zip",
+          "shasum": "9e950f6c2425f0337f5a2dda53382a4a88dde66822908d172135b7dc35f11e55"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-castai_5.10.0_windows_386.zip",
+          "download_url": "https://github.com/castai/terraform-provider-castai/releases/download/v5.10.0/terraform-provider-castai_5.10.0_windows_386.zip",
+          "shasum": "2ede68dd2bf8acef8252bb635524d3cee8be424598b3c8b582736ba2c4bd41cb"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-castai_5.10.0_windows_arm.zip",
+          "download_url": "https://github.com/castai/terraform-provider-castai/releases/download/v5.10.0/terraform-provider-castai_5.10.0_windows_arm.zip",
+          "shasum": "c2af42bb97fc345dd5934abdfdd719122a9c448ada4cf957f08ce4dab9487af2"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-castai_5.10.0_linux_arm.zip",
+          "download_url": "https://github.com/castai/terraform-provider-castai/releases/download/v5.10.0/terraform-provider-castai_5.10.0_linux_arm.zip",
+          "shasum": "ea98ca56dbe952d24eb6a6578a9378e338ea9a2fc59ef52a044449aab231b04c"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-castai_5.10.0_freebsd_arm.zip",
+          "download_url": "https://github.com/castai/terraform-provider-castai/releases/download/v5.10.0/terraform-provider-castai_5.10.0_freebsd_arm.zip",
+          "shasum": "0bcc86893168efb18e3e25ff67702937d7be8c2af04260b97cd63bf7ebc5c44d"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-castai_5.10.0_windows_amd64.zip",
+          "download_url": "https://github.com/castai/terraform-provider-castai/releases/download/v5.10.0/terraform-provider-castai_5.10.0_windows_amd64.zip",
+          "shasum": "3a33a335cb183c8146fdd58f6f7383516ee10a4368c4ed3e1fdb7fae0ebeb5ce"
+        }
+      ]
+    },
+    {
       "version": "5.9.0",
       "protocols": [
         "5.0"
