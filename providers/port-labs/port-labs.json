@@ -2,6 +2,114 @@
   "repository": "https://github.com/port-labs/terraform-provider-port-labs",
   "versions": [
     {
+      "version": "1.7.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/port-labs/terraform-provider-port-labs/releases/download/v1.7.0/terraform-provider-port-labs_1.7.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/port-labs/terraform-provider-port-labs/releases/download/v1.7.0/terraform-provider-port-labs_1.7.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-port-labs_1.7.0_windows_386.zip",
+          "download_url": "https://github.com/port-labs/terraform-provider-port-labs/releases/download/v1.7.0/terraform-provider-port-labs_1.7.0_windows_386.zip",
+          "shasum": "838812fd94a1d17189a921f8ebf07572657c5ff59ce76d493e9d9490c571aa08"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-port-labs_1.7.0_linux_386.zip",
+          "download_url": "https://github.com/port-labs/terraform-provider-port-labs/releases/download/v1.7.0/terraform-provider-port-labs_1.7.0_linux_386.zip",
+          "shasum": "d4bf0d111ef57681632da4b90cdaad45b7dfc45660b330e57c32d48601cbe7f3"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-port-labs_1.7.0_linux_amd64.zip",
+          "download_url": "https://github.com/port-labs/terraform-provider-port-labs/releases/download/v1.7.0/terraform-provider-port-labs_1.7.0_linux_amd64.zip",
+          "shasum": "699fc68ba19849f2fa68438ece5c3344cb726726a27af3a437c039c794df3022"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-port-labs_1.7.0_freebsd_386.zip",
+          "download_url": "https://github.com/port-labs/terraform-provider-port-labs/releases/download/v1.7.0/terraform-provider-port-labs_1.7.0_freebsd_386.zip",
+          "shasum": "ebf0e6f8030b8eaa58de9628c97b51c55cf9aa263c0b048d42dc8cd6862ad27c"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-port-labs_1.7.0_linux_arm.zip",
+          "download_url": "https://github.com/port-labs/terraform-provider-port-labs/releases/download/v1.7.0/terraform-provider-port-labs_1.7.0_linux_arm.zip",
+          "shasum": "a0dcb40405c3121e43709e9a32e59f038dd0c307efd24a4adc220c035cf6d8e3"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-port-labs_1.7.0_windows_amd64.zip",
+          "download_url": "https://github.com/port-labs/terraform-provider-port-labs/releases/download/v1.7.0/terraform-provider-port-labs_1.7.0_windows_amd64.zip",
+          "shasum": "3b0938b597971e6f0eb4413d979cda6c7a1c367c2c82a0a90bf6b6afa996427a"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-port-labs_1.7.0_darwin_arm64.zip",
+          "download_url": "https://github.com/port-labs/terraform-provider-port-labs/releases/download/v1.7.0/terraform-provider-port-labs_1.7.0_darwin_arm64.zip",
+          "shasum": "c6e17c66194c59664c86cfe8a2de59ebfee5740e5056e6527e82d8a56faf9860"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-port-labs_1.7.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/port-labs/terraform-provider-port-labs/releases/download/v1.7.0/terraform-provider-port-labs_1.7.0_freebsd_arm64.zip",
+          "shasum": "6781d560a1eb5e9b1a3c2ba81bf4d6f8e14b56427c208618822b1a845adbea41"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-port-labs_1.7.0_windows_arm.zip",
+          "download_url": "https://github.com/port-labs/terraform-provider-port-labs/releases/download/v1.7.0/terraform-provider-port-labs_1.7.0_windows_arm.zip",
+          "shasum": "c38e3f9b71dbbce42d3b34f9cc69c9a39cbd96023e6a3c33236dd9af6adab8ad"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-port-labs_1.7.0_freebsd_arm.zip",
+          "download_url": "https://github.com/port-labs/terraform-provider-port-labs/releases/download/v1.7.0/terraform-provider-port-labs_1.7.0_freebsd_arm.zip",
+          "shasum": "0bb9b6e8380cc5276ffe9e4c9903f4230ebf9a0c7761c1429700bd5fb846f47e"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-port-labs_1.7.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/port-labs/terraform-provider-port-labs/releases/download/v1.7.0/terraform-provider-port-labs_1.7.0_freebsd_amd64.zip",
+          "shasum": "c6e78ff16a7b92ea3fad57cf19359d94d2779e38e8fa189173a6dd4395922bdc"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-port-labs_1.7.0_windows_arm64.zip",
+          "download_url": "https://github.com/port-labs/terraform-provider-port-labs/releases/download/v1.7.0/terraform-provider-port-labs_1.7.0_windows_arm64.zip",
+          "shasum": "af2ee6ae3a71aba4517b3510c3e8bc9b6f626fdc55bda67a30271ae5a0d3fa80"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-port-labs_1.7.0_linux_arm64.zip",
+          "download_url": "https://github.com/port-labs/terraform-provider-port-labs/releases/download/v1.7.0/terraform-provider-port-labs_1.7.0_linux_arm64.zip",
+          "shasum": "e7a04297306c26bcc3ed6d6b92897de5838a9422360d6f76397a61898b29a63c"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-port-labs_1.7.0_darwin_amd64.zip",
+          "download_url": "https://github.com/port-labs/terraform-provider-port-labs/releases/download/v1.7.0/terraform-provider-port-labs_1.7.0_darwin_amd64.zip",
+          "shasum": "788fedf3d8772522f36dba21c5a53013b8446796efd54de08ea50f2e9e9b9250"
+        }
+      ]
+    },
+    {
       "version": "1.6.6",
       "protocols": [
         "5.0"

@@ -2,6 +2,114 @@
   "repository": "https://github.com/NefixEstrada/terraform-provider-ansible",
   "versions": [
     {
+      "version": "2.0.4",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/NefixEstrada/terraform-provider-ansible/releases/download/v2.0.4/terraform-provider-ansible_2.0.4_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/NefixEstrada/terraform-provider-ansible/releases/download/v2.0.4/terraform-provider-ansible_2.0.4_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-ansible_2.0.4_freebsd_arm64.zip",
+          "download_url": "https://github.com/NefixEstrada/terraform-provider-ansible/releases/download/v2.0.4/terraform-provider-ansible_2.0.4_freebsd_arm64.zip",
+          "shasum": "a782b760a9127af26d47b7e272e7709e824d16d585eb6bc745ba5c5990e778ab"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-ansible_2.0.4_freebsd_386.zip",
+          "download_url": "https://github.com/NefixEstrada/terraform-provider-ansible/releases/download/v2.0.4/terraform-provider-ansible_2.0.4_freebsd_386.zip",
+          "shasum": "92b548f7b9110e372909a6ff1a14d27c17c456506f327e2c0b67b162dcc27613"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-ansible_2.0.4_windows_386.zip",
+          "download_url": "https://github.com/NefixEstrada/terraform-provider-ansible/releases/download/v2.0.4/terraform-provider-ansible_2.0.4_windows_386.zip",
+          "shasum": "2f7a24ae2baf231aa425f34ff72fefee4cffd8ec0c5d0aa0b017be51a2d60fd7"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-ansible_2.0.4_darwin_arm64.zip",
+          "download_url": "https://github.com/NefixEstrada/terraform-provider-ansible/releases/download/v2.0.4/terraform-provider-ansible_2.0.4_darwin_arm64.zip",
+          "shasum": "d127e45cadc6eb8fdd5dd0a7bf3c64236107d9ab06bd800d15e44f6dc866e6bb"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-ansible_2.0.4_linux_arm64.zip",
+          "download_url": "https://github.com/NefixEstrada/terraform-provider-ansible/releases/download/v2.0.4/terraform-provider-ansible_2.0.4_linux_arm64.zip",
+          "shasum": "1a093ddaaa7963d31cd2a987ee597eab077f38f266438592d160bb09251ccfa7"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-ansible_2.0.4_windows_arm.zip",
+          "download_url": "https://github.com/NefixEstrada/terraform-provider-ansible/releases/download/v2.0.4/terraform-provider-ansible_2.0.4_windows_arm.zip",
+          "shasum": "5d9196a97e8493b7e3b2511298cac8ea9e0999cf62679a0af0cdc468b56204ce"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-ansible_2.0.4_windows_arm64.zip",
+          "download_url": "https://github.com/NefixEstrada/terraform-provider-ansible/releases/download/v2.0.4/terraform-provider-ansible_2.0.4_windows_arm64.zip",
+          "shasum": "df644fbff80ca7b19cfeb8d2845f18e81d317a9962da5120142e34b03badfd22"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-ansible_2.0.4_darwin_amd64.zip",
+          "download_url": "https://github.com/NefixEstrada/terraform-provider-ansible/releases/download/v2.0.4/terraform-provider-ansible_2.0.4_darwin_amd64.zip",
+          "shasum": "dafb3d8ad68fb414e12c952ad9731f44f169857c3dc6298745fd9b2c0f08cb8e"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-ansible_2.0.4_freebsd_arm.zip",
+          "download_url": "https://github.com/NefixEstrada/terraform-provider-ansible/releases/download/v2.0.4/terraform-provider-ansible_2.0.4_freebsd_arm.zip",
+          "shasum": "54d68674e8557b5148833254a21f3f1f5a43d281190f5cf7c0a33321141707e9"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-ansible_2.0.4_windows_amd64.zip",
+          "download_url": "https://github.com/NefixEstrada/terraform-provider-ansible/releases/download/v2.0.4/terraform-provider-ansible_2.0.4_windows_amd64.zip",
+          "shasum": "da593a84fb5dc349361f2d013c9d527d864dd2bc60b546080e43f30a38752c03"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-ansible_2.0.4_linux_386.zip",
+          "download_url": "https://github.com/NefixEstrada/terraform-provider-ansible/releases/download/v2.0.4/terraform-provider-ansible_2.0.4_linux_386.zip",
+          "shasum": "0ae65e5178e29b256a828dc057a2f01739c57a29c65ded865c74b50611825350"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-ansible_2.0.4_freebsd_amd64.zip",
+          "download_url": "https://github.com/NefixEstrada/terraform-provider-ansible/releases/download/v2.0.4/terraform-provider-ansible_2.0.4_freebsd_amd64.zip",
+          "shasum": "16b20bd11f701a6e57e345625036e5a7516920d0d58a534ec99eedad36ba6e55"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-ansible_2.0.4_linux_arm.zip",
+          "download_url": "https://github.com/NefixEstrada/terraform-provider-ansible/releases/download/v2.0.4/terraform-provider-ansible_2.0.4_linux_arm.zip",
+          "shasum": "bf025d155799852b5e69097da482397ec812c26d3f00e1a647ec5d5ef6d46045"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-ansible_2.0.4_linux_amd64.zip",
+          "download_url": "https://github.com/NefixEstrada/terraform-provider-ansible/releases/download/v2.0.4/terraform-provider-ansible_2.0.4_linux_amd64.zip",
+          "shasum": "1a1f13dcd0e8a12449437eb83fed10aa60e39910c2197ae0831c58311352a4bf"
+        }
+      ]
+    },
+    {
       "version": "2.0.3",
       "protocols": [
         "5.0"
