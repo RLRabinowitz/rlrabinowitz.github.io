@@ -2,6 +2,114 @@
   "repository": "https://github.com/cloudflare/terraform-provider-cloudflare",
   "versions": [
     {
+      "version": "4.19.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/cloudflare/terraform-provider-cloudflare/releases/download/v4.19.0/terraform-provider-cloudflare_4.19.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/cloudflare/terraform-provider-cloudflare/releases/download/v4.19.0/terraform-provider-cloudflare_4.19.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-cloudflare_4.19.0_linux_arm64.zip",
+          "download_url": "https://github.com/cloudflare/terraform-provider-cloudflare/releases/download/v4.19.0/terraform-provider-cloudflare_4.19.0_linux_arm64.zip",
+          "shasum": "5c8dd7ff7820fd96f64e37f5611ad8e265a9b54a04d25e03fe589470ad5d2a0f"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-cloudflare_4.19.0_windows_arm.zip",
+          "download_url": "https://github.com/cloudflare/terraform-provider-cloudflare/releases/download/v4.19.0/terraform-provider-cloudflare_4.19.0_windows_arm.zip",
+          "shasum": "58c74a26eef114d59d371f978131d78daa88260df2f75a2b6ec908f61dad2754"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-cloudflare_4.19.0_darwin_amd64.zip",
+          "download_url": "https://github.com/cloudflare/terraform-provider-cloudflare/releases/download/v4.19.0/terraform-provider-cloudflare_4.19.0_darwin_amd64.zip",
+          "shasum": "f6912037890a4777a2f8b55858f38fb3428ac53610fb7297d99ced1e73531d5c"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-cloudflare_4.19.0_windows_arm64.zip",
+          "download_url": "https://github.com/cloudflare/terraform-provider-cloudflare/releases/download/v4.19.0/terraform-provider-cloudflare_4.19.0_windows_arm64.zip",
+          "shasum": "4286969a594396ef09ff6f6840428eef9c7dac037a3a3ef1ccae12a7a21b6655"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-cloudflare_4.19.0_darwin_arm64.zip",
+          "download_url": "https://github.com/cloudflare/terraform-provider-cloudflare/releases/download/v4.19.0/terraform-provider-cloudflare_4.19.0_darwin_arm64.zip",
+          "shasum": "6501f10ee5e73ebe3cfe87d4141942c9c784c4ddcde15c6f500b8a41ca3cb174"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-cloudflare_4.19.0_freebsd_386.zip",
+          "download_url": "https://github.com/cloudflare/terraform-provider-cloudflare/releases/download/v4.19.0/terraform-provider-cloudflare_4.19.0_freebsd_386.zip",
+          "shasum": "55cfe536e4fd76ca9a256b905ffa2823b21b5ab6288245c5295a16b03ac4d0b8"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-cloudflare_4.19.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/cloudflare/terraform-provider-cloudflare/releases/download/v4.19.0/terraform-provider-cloudflare_4.19.0_freebsd_arm64.zip",
+          "shasum": "d0ec9cec6a169b160825b0c585b56d42175871549bb291b9409b36086e9e6756"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-cloudflare_4.19.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/cloudflare/terraform-provider-cloudflare/releases/download/v4.19.0/terraform-provider-cloudflare_4.19.0_freebsd_amd64.zip",
+          "shasum": "97f83ab5ff249bd195cfae3b2521f037dea2ad600d70e2917b35895db67c034f"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-cloudflare_4.19.0_freebsd_arm.zip",
+          "download_url": "https://github.com/cloudflare/terraform-provider-cloudflare/releases/download/v4.19.0/terraform-provider-cloudflare_4.19.0_freebsd_arm.zip",
+          "shasum": "b340b815cc53f197b42d9e64acb6729914706d93dcf60da02e3ac53aeadfde14"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-cloudflare_4.19.0_windows_386.zip",
+          "download_url": "https://github.com/cloudflare/terraform-provider-cloudflare/releases/download/v4.19.0/terraform-provider-cloudflare_4.19.0_windows_386.zip",
+          "shasum": "f95ca4b80b66b02f1762d314172523ad57176369b7b1aaf4e5018a32f4525582"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-cloudflare_4.19.0_linux_386.zip",
+          "download_url": "https://github.com/cloudflare/terraform-provider-cloudflare/releases/download/v4.19.0/terraform-provider-cloudflare_4.19.0_linux_386.zip",
+          "shasum": "308c5690024a1f6797300018456a1ac781c8699fa4bc4892a8c36eb992604a26"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-cloudflare_4.19.0_windows_amd64.zip",
+          "download_url": "https://github.com/cloudflare/terraform-provider-cloudflare/releases/download/v4.19.0/terraform-provider-cloudflare_4.19.0_windows_amd64.zip",
+          "shasum": "2a6e5b2e5072e442b35ce6142172e15afb835e16799d04a0054a79d3067f7560"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-cloudflare_4.19.0_linux_arm.zip",
+          "download_url": "https://github.com/cloudflare/terraform-provider-cloudflare/releases/download/v4.19.0/terraform-provider-cloudflare_4.19.0_linux_arm.zip",
+          "shasum": "1d5315dcbd8187a3a978dc1fb08e80b6cdd353de10afe531b3d1ecb834d0dbae"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-cloudflare_4.19.0_linux_amd64.zip",
+          "download_url": "https://github.com/cloudflare/terraform-provider-cloudflare/releases/download/v4.19.0/terraform-provider-cloudflare_4.19.0_linux_amd64.zip",
+          "shasum": "c49c8f4908b5776f52211e41880a98a18ebf558363b69ed6af461f2c0d5c9e00"
+        }
+      ]
+    },
+    {
       "version": "4.18.0",
       "protocols": [
         "5.0"

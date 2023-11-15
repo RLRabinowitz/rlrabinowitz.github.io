@@ -2,6 +2,86 @@
   "repository": "https://github.com/opentofu/terraform-provider-hcp",
   "versions": [
     {
+      "version": "0.77.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/opentofu/terraform-provider-hcp/releases/download/v0.77.0/terraform-provider-hcp_0.77.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/opentofu/terraform-provider-hcp/releases/download/v0.77.0/terraform-provider-hcp_0.77.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-hcp_0.77.0_darwin_amd64.zip",
+          "download_url": "https://github.com/opentofu/terraform-provider-hcp/releases/download/v0.77.0/terraform-provider-hcp_0.77.0_darwin_amd64.zip",
+          "shasum": "7f129ab6a02140ae93694d602ae2f0a813bf76eb8188a2c7c3869a0a436574e0"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-hcp_0.77.0_darwin_arm64.zip",
+          "download_url": "https://github.com/opentofu/terraform-provider-hcp/releases/download/v0.77.0/terraform-provider-hcp_0.77.0_darwin_arm64.zip",
+          "shasum": "639a1e78db74b92a579054935111d7fe438e142765e1feae91d1495dd0e39020"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-hcp_0.77.0_linux_amd64.zip",
+          "download_url": "https://github.com/opentofu/terraform-provider-hcp/releases/download/v0.77.0/terraform-provider-hcp_0.77.0_linux_amd64.zip",
+          "shasum": "4140e26158d6f1c0a110a7bc98c3675a21a644ef1f166e27e14c36ff0c145818"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-hcp_0.77.0_linux_386.zip",
+          "download_url": "https://github.com/opentofu/terraform-provider-hcp/releases/download/v0.77.0/terraform-provider-hcp_0.77.0_linux_386.zip",
+          "shasum": "ebfc0d1cc0230a56fc387c54033703e9c2a901e14d93b7bb8e5f261d8a1396a7"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-hcp_0.77.0_linux_arm.zip",
+          "download_url": "https://github.com/opentofu/terraform-provider-hcp/releases/download/v0.77.0/terraform-provider-hcp_0.77.0_linux_arm.zip",
+          "shasum": "85d2e8d4b5ee743e5a00752ae68838c27ec65af453a9097cab0949116410aadd"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-hcp_0.77.0_linux_arm64.zip",
+          "download_url": "https://github.com/opentofu/terraform-provider-hcp/releases/download/v0.77.0/terraform-provider-hcp_0.77.0_linux_arm64.zip",
+          "shasum": "bb358812baccda03c853a0fb7b08a160d12bbe3b20608b4ff7198ace924c40a5"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-hcp_0.77.0_windows_amd64.zip",
+          "download_url": "https://github.com/opentofu/terraform-provider-hcp/releases/download/v0.77.0/terraform-provider-hcp_0.77.0_windows_amd64.zip",
+          "shasum": "27cb670481b5c60fb3ebbceda857dea786076bf6b7422f6e1bf5e839fae708b8"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-hcp_0.77.0_windows_386.zip",
+          "download_url": "https://github.com/opentofu/terraform-provider-hcp/releases/download/v0.77.0/terraform-provider-hcp_0.77.0_windows_386.zip",
+          "shasum": "0c78b0aef2c722b60feaf7638844e5942b9789607139f39f26add12439398ff8"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-hcp_0.77.0_windows_arm.zip",
+          "download_url": "https://github.com/opentofu/terraform-provider-hcp/releases/download/v0.77.0/terraform-provider-hcp_0.77.0_windows_arm.zip",
+          "shasum": "eba0ac96527514b1a4f457a52f94721c03d353c2baf025037491e0a86a57f24f"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-hcp_0.77.0_windows_arm64.zip",
+          "download_url": "https://github.com/opentofu/terraform-provider-hcp/releases/download/v0.77.0/terraform-provider-hcp_0.77.0_windows_arm64.zip",
+          "shasum": "2973fcbfeb3591e7682ca864dcaee0d161c5a72bbbc6dd42af834c06a56d8b3d"
+        }
+      ]
+    },
+    {
       "version": "0.76.0",
       "protocols": [
         "5.0"
