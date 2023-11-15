@@ -2,6 +2,114 @@
   "repository": "https://github.com/chanzuckerberg/terraform-provider-happy",
   "versions": [
     {
+      "version": "0.117.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/chanzuckerberg/terraform-provider-happy/releases/download/v0.117.0/terraform-provider-happy_0.117.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/chanzuckerberg/terraform-provider-happy/releases/download/v0.117.0/terraform-provider-happy_0.117.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-happy_0.117.0_darwin_amd64.zip",
+          "download_url": "https://github.com/chanzuckerberg/terraform-provider-happy/releases/download/v0.117.0/terraform-provider-happy_0.117.0_darwin_amd64.zip",
+          "shasum": "d05a5c9533fc83773cdf8f4b5d00a9cc947816405a553468815576f95bccb315"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-happy_0.117.0_freebsd_386.zip",
+          "download_url": "https://github.com/chanzuckerberg/terraform-provider-happy/releases/download/v0.117.0/terraform-provider-happy_0.117.0_freebsd_386.zip",
+          "shasum": "47999cf1960ec4eced87ef89e30492108bbd76041f826a37781223148d60b142"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-happy_0.117.0_darwin_arm64.zip",
+          "download_url": "https://github.com/chanzuckerberg/terraform-provider-happy/releases/download/v0.117.0/terraform-provider-happy_0.117.0_darwin_arm64.zip",
+          "shasum": "80de8eccc498d862d3d92207713bb6676fd84066935ca879691b69bf420919d1"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-happy_0.117.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/chanzuckerberg/terraform-provider-happy/releases/download/v0.117.0/terraform-provider-happy_0.117.0_freebsd_amd64.zip",
+          "shasum": "bdb1479ae8ee8e84def27f78d214fa69c4b79199e8cb63eb8aeda75a978351f0"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-happy_0.117.0_freebsd_arm.zip",
+          "download_url": "https://github.com/chanzuckerberg/terraform-provider-happy/releases/download/v0.117.0/terraform-provider-happy_0.117.0_freebsd_arm.zip",
+          "shasum": "4cced2a25b92821b302cdbd027382a8a2cf83111f68f460432ae693a52165252"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-happy_0.117.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/chanzuckerberg/terraform-provider-happy/releases/download/v0.117.0/terraform-provider-happy_0.117.0_freebsd_arm64.zip",
+          "shasum": "f0c4074f34c62fd0aec1b31b64c3459861670972c401cf952f8c694dea7f350d"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-happy_0.117.0_linux_386.zip",
+          "download_url": "https://github.com/chanzuckerberg/terraform-provider-happy/releases/download/v0.117.0/terraform-provider-happy_0.117.0_linux_386.zip",
+          "shasum": "26a660d5464c152eba61a1b69a1b937d187a0ab4ddead52c271c65a8dda59039"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-happy_0.117.0_linux_amd64.zip",
+          "download_url": "https://github.com/chanzuckerberg/terraform-provider-happy/releases/download/v0.117.0/terraform-provider-happy_0.117.0_linux_amd64.zip",
+          "shasum": "a358efc5338a21b564156b88268d9b0bd8962891e2f120acc941d0e71219d3c4"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-happy_0.117.0_linux_arm.zip",
+          "download_url": "https://github.com/chanzuckerberg/terraform-provider-happy/releases/download/v0.117.0/terraform-provider-happy_0.117.0_linux_arm.zip",
+          "shasum": "705f831696870f5e5113e07bd4f6344d700436d8c46882146d7ca7bbc0daef61"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-happy_0.117.0_linux_arm64.zip",
+          "download_url": "https://github.com/chanzuckerberg/terraform-provider-happy/releases/download/v0.117.0/terraform-provider-happy_0.117.0_linux_arm64.zip",
+          "shasum": "227a931784f939d46830744de37c1364996632ac8c1f639a73f69795d31ad5ed"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-happy_0.117.0_windows_386.zip",
+          "download_url": "https://github.com/chanzuckerberg/terraform-provider-happy/releases/download/v0.117.0/terraform-provider-happy_0.117.0_windows_386.zip",
+          "shasum": "37deb89f0941f8b14135a5f6973e621770db62a79442d03f9a618c91a297d102"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-happy_0.117.0_windows_arm.zip",
+          "download_url": "https://github.com/chanzuckerberg/terraform-provider-happy/releases/download/v0.117.0/terraform-provider-happy_0.117.0_windows_arm.zip",
+          "shasum": "7adc6b08e3ec474dc462c46fd4188643bf480f0ae205a56fbf987b14c2d923bc"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-happy_0.117.0_windows_amd64.zip",
+          "download_url": "https://github.com/chanzuckerberg/terraform-provider-happy/releases/download/v0.117.0/terraform-provider-happy_0.117.0_windows_amd64.zip",
+          "shasum": "b52f6fdd044dcf707bc532e91b20427e7e4cacf5c8f761b414e0c7e8d5bd4824"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-happy_0.117.0_windows_arm64.zip",
+          "download_url": "https://github.com/chanzuckerberg/terraform-provider-happy/releases/download/v0.117.0/terraform-provider-happy_0.117.0_windows_arm64.zip",
+          "shasum": "93651615c4d7ea8f97ab10db42018a5300b2c48d77389c49ea00c0547323c836"
+        }
+      ]
+    },
+    {
       "version": "0.116.0",
       "protocols": [
         "5.0"
