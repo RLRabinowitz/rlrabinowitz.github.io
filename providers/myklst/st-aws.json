@@ -2,6 +2,114 @@
   "repository": "https://github.com/myklst/terraform-provider-st-aws",
   "versions": [
     {
+      "version": "0.3.4",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/myklst/terraform-provider-st-aws/releases/download/v0.3.4/terraform-provider-st-aws_0.3.4_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/myklst/terraform-provider-st-aws/releases/download/v0.3.4/terraform-provider-st-aws_0.3.4_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-st-aws_0.3.4_windows_arm.zip",
+          "download_url": "https://github.com/myklst/terraform-provider-st-aws/releases/download/v0.3.4/terraform-provider-st-aws_0.3.4_windows_arm.zip",
+          "shasum": "52c898ea0bef30be6484ea249ef19f42faabb9aa7996d983b1719f701a8b5b6e"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-st-aws_0.3.4_darwin_amd64.zip",
+          "download_url": "https://github.com/myklst/terraform-provider-st-aws/releases/download/v0.3.4/terraform-provider-st-aws_0.3.4_darwin_amd64.zip",
+          "shasum": "b8bfeb45642b4b6e39fbdc91b877776184f8c4bf0062c1f92e5efcfd37379e92"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-st-aws_0.3.4_darwin_arm64.zip",
+          "download_url": "https://github.com/myklst/terraform-provider-st-aws/releases/download/v0.3.4/terraform-provider-st-aws_0.3.4_darwin_arm64.zip",
+          "shasum": "60fd7d020f36f00766147c97111680c5a912ea90ad37031d69dd3466cc166ddb"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-st-aws_0.3.4_freebsd_arm64.zip",
+          "download_url": "https://github.com/myklst/terraform-provider-st-aws/releases/download/v0.3.4/terraform-provider-st-aws_0.3.4_freebsd_arm64.zip",
+          "shasum": "019c942f3c09a5c2f636a112be22591bdd5e4ef42e4b50a6f3caf7d132e20571"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-st-aws_0.3.4_freebsd_386.zip",
+          "download_url": "https://github.com/myklst/terraform-provider-st-aws/releases/download/v0.3.4/terraform-provider-st-aws_0.3.4_freebsd_386.zip",
+          "shasum": "e4fc3f314015f78fec5c93205a1bb4e7117ea8edce98ab9612fed75737c560da"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-st-aws_0.3.4_windows_386.zip",
+          "download_url": "https://github.com/myklst/terraform-provider-st-aws/releases/download/v0.3.4/terraform-provider-st-aws_0.3.4_windows_386.zip",
+          "shasum": "7a966449007758e7db99bb506abe1f9039355a1f7f660ce18a885625549c2bad"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-st-aws_0.3.4_freebsd_arm.zip",
+          "download_url": "https://github.com/myklst/terraform-provider-st-aws/releases/download/v0.3.4/terraform-provider-st-aws_0.3.4_freebsd_arm.zip",
+          "shasum": "1155301ca92e0b9d350521431c874e5072bc80248e39030ea90fb71677175ec4"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-st-aws_0.3.4_freebsd_amd64.zip",
+          "download_url": "https://github.com/myklst/terraform-provider-st-aws/releases/download/v0.3.4/terraform-provider-st-aws_0.3.4_freebsd_amd64.zip",
+          "shasum": "f6f1a814305dd80cb4a92f1595efdb679f9b5b7d21c6aa927fe586948e0e0ee3"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-st-aws_0.3.4_windows_arm64.zip",
+          "download_url": "https://github.com/myklst/terraform-provider-st-aws/releases/download/v0.3.4/terraform-provider-st-aws_0.3.4_windows_arm64.zip",
+          "shasum": "0c2d0078ca0d3f695c8fc29a30e72758ea56437fb8aa2cca32450cb99e6ab41c"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-st-aws_0.3.4_linux_386.zip",
+          "download_url": "https://github.com/myklst/terraform-provider-st-aws/releases/download/v0.3.4/terraform-provider-st-aws_0.3.4_linux_386.zip",
+          "shasum": "aea07c7dc09e2b059185d508f654cb8b3a5f4162ae912bd8ed92af624c06fb8a"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-st-aws_0.3.4_windows_amd64.zip",
+          "download_url": "https://github.com/myklst/terraform-provider-st-aws/releases/download/v0.3.4/terraform-provider-st-aws_0.3.4_windows_amd64.zip",
+          "shasum": "bb46c001cb199db1a96a4ca3c8bca3892d457b860ad641f2d12c08d7e6b5a240"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-st-aws_0.3.4_linux_arm.zip",
+          "download_url": "https://github.com/myklst/terraform-provider-st-aws/releases/download/v0.3.4/terraform-provider-st-aws_0.3.4_linux_arm.zip",
+          "shasum": "d29ab8033f5b7b70119f68ccbb78dcd97a5c48264c50054134b35a115a2855df"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-st-aws_0.3.4_linux_amd64.zip",
+          "download_url": "https://github.com/myklst/terraform-provider-st-aws/releases/download/v0.3.4/terraform-provider-st-aws_0.3.4_linux_amd64.zip",
+          "shasum": "e587a67b2e82fc03a01724499b3e7306cbac28c6c99790f979c073329e3a4ae3"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-st-aws_0.3.4_linux_arm64.zip",
+          "download_url": "https://github.com/myklst/terraform-provider-st-aws/releases/download/v0.3.4/terraform-provider-st-aws_0.3.4_linux_arm64.zip",
+          "shasum": "4b74b2acda72bb2262f76eec7ceb34e634a4f9b69117a82e4fca0e2fd909230b"
+        }
+      ]
+    },
+    {
       "version": "0.3.3",
       "protocols": [
         "5.0"
