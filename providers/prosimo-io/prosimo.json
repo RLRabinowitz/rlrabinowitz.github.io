@@ -2,6 +2,114 @@
   "repository": "https://github.com/prosimo-io/terraform-provider-prosimo",
   "versions": [
     {
+      "version": "3.9.9",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/prosimo-io/terraform-provider-prosimo/releases/download/v3.9.9/terraform-provider-prosimo_3.9.9_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/prosimo-io/terraform-provider-prosimo/releases/download/v3.9.9/terraform-provider-prosimo_3.9.9_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-prosimo_3.9.9_darwin_arm64.zip",
+          "download_url": "https://github.com/prosimo-io/terraform-provider-prosimo/releases/download/v3.9.9/terraform-provider-prosimo_3.9.9_darwin_arm64.zip",
+          "shasum": "6a2243708af974c317d2c88c25c08b25b4b214844715b52e97f35b6a9cd4662c"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-prosimo_3.9.9_linux_386.zip",
+          "download_url": "https://github.com/prosimo-io/terraform-provider-prosimo/releases/download/v3.9.9/terraform-provider-prosimo_3.9.9_linux_386.zip",
+          "shasum": "2e4728982d1ca75fac76e9e75ca3f4c133ff9bdfc6cfd0cbd795af09bf7efe52"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-prosimo_3.9.9_windows_arm.zip",
+          "download_url": "https://github.com/prosimo-io/terraform-provider-prosimo/releases/download/v3.9.9/terraform-provider-prosimo_3.9.9_windows_arm.zip",
+          "shasum": "18a05b9ed9e8d99a79ca0248eed621728f1a2a18ab238f9ec0d640fa32d111e4"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-prosimo_3.9.9_linux_arm64.zip",
+          "download_url": "https://github.com/prosimo-io/terraform-provider-prosimo/releases/download/v3.9.9/terraform-provider-prosimo_3.9.9_linux_arm64.zip",
+          "shasum": "938da030ee7ec0d244adb3be1fb04b5a23e9ff9ba005872a25e94b4ce77586f1"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-prosimo_3.9.9_darwin_amd64.zip",
+          "download_url": "https://github.com/prosimo-io/terraform-provider-prosimo/releases/download/v3.9.9/terraform-provider-prosimo_3.9.9_darwin_amd64.zip",
+          "shasum": "6c519bf9841898149e6d452632914d49f8cf9d32518c64932feb3e315042a4bb"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-prosimo_3.9.9_windows_386.zip",
+          "download_url": "https://github.com/prosimo-io/terraform-provider-prosimo/releases/download/v3.9.9/terraform-provider-prosimo_3.9.9_windows_386.zip",
+          "shasum": "e31eb44926ae6ee18ce0f16f45240bb88a610363eaa170e2533ed48ed387ae74"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-prosimo_3.9.9_windows_amd64.zip",
+          "download_url": "https://github.com/prosimo-io/terraform-provider-prosimo/releases/download/v3.9.9/terraform-provider-prosimo_3.9.9_windows_amd64.zip",
+          "shasum": "70833575d3f680caa92fe89ec378e6aaf5724ef6604e7be88bea92f05de25cff"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-prosimo_3.9.9_freebsd_amd64.zip",
+          "download_url": "https://github.com/prosimo-io/terraform-provider-prosimo/releases/download/v3.9.9/terraform-provider-prosimo_3.9.9_freebsd_amd64.zip",
+          "shasum": "17aaec9409b06ca42e4a245fc01d909cba76f756a04b055a5b6cf7154559fe78"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-prosimo_3.9.9_linux_arm.zip",
+          "download_url": "https://github.com/prosimo-io/terraform-provider-prosimo/releases/download/v3.9.9/terraform-provider-prosimo_3.9.9_linux_arm.zip",
+          "shasum": "3ff69459fed84b0a663e53747cdcd9c358774505492ba572d0b46ebed99292a5"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-prosimo_3.9.9_freebsd_arm.zip",
+          "download_url": "https://github.com/prosimo-io/terraform-provider-prosimo/releases/download/v3.9.9/terraform-provider-prosimo_3.9.9_freebsd_arm.zip",
+          "shasum": "edfdf2d6781180708f5086817ba0c27cec607c13887bf07f849641d85eda3eac"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-prosimo_3.9.9_freebsd_386.zip",
+          "download_url": "https://github.com/prosimo-io/terraform-provider-prosimo/releases/download/v3.9.9/terraform-provider-prosimo_3.9.9_freebsd_386.zip",
+          "shasum": "f91269928cbb1ffbd3be80c243af6cc2708f324fef6a94d89cdcefcc5bdb6c1d"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-prosimo_3.9.9_linux_amd64.zip",
+          "download_url": "https://github.com/prosimo-io/terraform-provider-prosimo/releases/download/v3.9.9/terraform-provider-prosimo_3.9.9_linux_amd64.zip",
+          "shasum": "b8d64d868cd54880c4df32ba8c0457b654fcfe255e8090a47e4b63340b4465f1"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-prosimo_3.9.9_windows_arm64.zip",
+          "download_url": "https://github.com/prosimo-io/terraform-provider-prosimo/releases/download/v3.9.9/terraform-provider-prosimo_3.9.9_windows_arm64.zip",
+          "shasum": "4748be0625fbc213d337d9ebcd446b947e4b1209c560fcacae72cf5322362c91"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-prosimo_3.9.9_freebsd_arm64.zip",
+          "download_url": "https://github.com/prosimo-io/terraform-provider-prosimo/releases/download/v3.9.9/terraform-provider-prosimo_3.9.9_freebsd_arm64.zip",
+          "shasum": "5c6bae3110f0558be0112f6835cea354472e6aca596c6171c4be7e757741d550"
+        }
+      ]
+    },
+    {
       "version": "3.8.8",
       "protocols": [
         "5.0"
