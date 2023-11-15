@@ -2,6 +2,93 @@
   "repository": "https://github.com/SamuZad/terraform-provider-googleworkspace",
   "versions": [
     {
+      "version": "0.8.2",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/SamuZad/terraform-provider-googleworkspace/releases/download/v0.8.2/terraform-provider-googleworkspace_0.8.2_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/SamuZad/terraform-provider-googleworkspace/releases/download/v0.8.2/terraform-provider-googleworkspace_0.8.2_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-googleworkspace_0.8.2_darwin_amd64.zip",
+          "download_url": "https://github.com/SamuZad/terraform-provider-googleworkspace/releases/download/v0.8.2/terraform-provider-googleworkspace_0.8.2_darwin_amd64.zip",
+          "shasum": "6d8303e2c203f622302361bd80d1d083bda7f4bd1e2d073fd947af09680604a7"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-googleworkspace_0.8.2_linux_arm64.zip",
+          "download_url": "https://github.com/SamuZad/terraform-provider-googleworkspace/releases/download/v0.8.2/terraform-provider-googleworkspace_0.8.2_linux_arm64.zip",
+          "shasum": "3e5096d886a8a76ff52d4d977107d2dce0279a5d178a919d7aa3cc5ae6fa6b8f"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-googleworkspace_0.8.2_linux_arm.zip",
+          "download_url": "https://github.com/SamuZad/terraform-provider-googleworkspace/releases/download/v0.8.2/terraform-provider-googleworkspace_0.8.2_linux_arm.zip",
+          "shasum": "5ae5486f1df05b24e4f77de323edd95e09147f1231e8df9310c99d6f9f16135c"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-googleworkspace_0.8.2_linux_amd64.zip",
+          "download_url": "https://github.com/SamuZad/terraform-provider-googleworkspace/releases/download/v0.8.2/terraform-provider-googleworkspace_0.8.2_linux_amd64.zip",
+          "shasum": "daa054c5f554c3c1d11ad36dc9bdde0bb7b5f1676aab17f2ead7783c9980ac89"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-googleworkspace_0.8.2_darwin_arm64.zip",
+          "download_url": "https://github.com/SamuZad/terraform-provider-googleworkspace/releases/download/v0.8.2/terraform-provider-googleworkspace_0.8.2_darwin_arm64.zip",
+          "shasum": "7bb3b067f989f5abe34a44623b35d20e5ad884eca964a8adf37f3a0f3d35e7af"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-googleworkspace_0.8.2_freebsd_386.zip",
+          "download_url": "https://github.com/SamuZad/terraform-provider-googleworkspace/releases/download/v0.8.2/terraform-provider-googleworkspace_0.8.2_freebsd_386.zip",
+          "shasum": "5f6c555cab73695e32f1735ae939bfa6d377ad7608c3beda4e0f4fb2fdd9dc08"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-googleworkspace_0.8.2_windows_386.zip",
+          "download_url": "https://github.com/SamuZad/terraform-provider-googleworkspace/releases/download/v0.8.2/terraform-provider-googleworkspace_0.8.2_windows_386.zip",
+          "shasum": "3761ed5b602d83e6d46db8753f4800baffd83bcdb466aa5aba6f87ec47539439"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-googleworkspace_0.8.2_windows_amd64.zip",
+          "download_url": "https://github.com/SamuZad/terraform-provider-googleworkspace/releases/download/v0.8.2/terraform-provider-googleworkspace_0.8.2_windows_amd64.zip",
+          "shasum": "fec75f062c5b4db042c569a471d1b12a0e2a4465363bc0b4878eab553c9255e5"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-googleworkspace_0.8.2_linux_386.zip",
+          "download_url": "https://github.com/SamuZad/terraform-provider-googleworkspace/releases/download/v0.8.2/terraform-provider-googleworkspace_0.8.2_linux_386.zip",
+          "shasum": "14455a4f20749a9f8d2a085012e3a4304a8fa7e7cd203eedc09b0ba51a51d61a"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-googleworkspace_0.8.2_freebsd_amd64.zip",
+          "download_url": "https://github.com/SamuZad/terraform-provider-googleworkspace/releases/download/v0.8.2/terraform-provider-googleworkspace_0.8.2_freebsd_amd64.zip",
+          "shasum": "f7bb22f9772f5733971df7c6211038bbbdb0a0ee00b00ae10c5ac0bc3675008a"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-googleworkspace_0.8.2_freebsd_arm.zip",
+          "download_url": "https://github.com/SamuZad/terraform-provider-googleworkspace/releases/download/v0.8.2/terraform-provider-googleworkspace_0.8.2_freebsd_arm.zip",
+          "shasum": "98695a2efd818845430e945d797bec8369b31a1bff11fb933348743f68e9b0a8"
+        }
+      ]
+    },
+    {
       "version": "0.8.1",
       "protocols": [
         "5.0"
