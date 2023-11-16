@@ -2,6 +2,114 @@
   "repository": "https://github.com/cohesive/terraform-provider-cohesivenet",
   "versions": [
     {
+      "version": "1.0.3",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/cohesive/terraform-provider-cohesivenet/releases/download/v1.0.3/terraform-provider-cohesivenet_1.0.3_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/cohesive/terraform-provider-cohesivenet/releases/download/v1.0.3/terraform-provider-cohesivenet_1.0.3_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-cohesivenet_1.0.3_linux_arm.zip",
+          "download_url": "https://github.com/cohesive/terraform-provider-cohesivenet/releases/download/v1.0.3/terraform-provider-cohesivenet_1.0.3_linux_arm.zip",
+          "shasum": "88758fd948c5dcd76af109a415570d024ad689bcc5d7d90da60a2419e3e5e881"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-cohesivenet_1.0.3_freebsd_arm.zip",
+          "download_url": "https://github.com/cohesive/terraform-provider-cohesivenet/releases/download/v1.0.3/terraform-provider-cohesivenet_1.0.3_freebsd_arm.zip",
+          "shasum": "e6e9e82c75383ab085be32ef547aa069e9977779d988cbd416b1b8d2f6e96900"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-cohesivenet_1.0.3_windows_arm.zip",
+          "download_url": "https://github.com/cohesive/terraform-provider-cohesivenet/releases/download/v1.0.3/terraform-provider-cohesivenet_1.0.3_windows_arm.zip",
+          "shasum": "59e2d23ada1dda7690dc21d65ec4994c9f416a4854a8bf4ae373ee7b9ae863c7"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-cohesivenet_1.0.3_linux_386.zip",
+          "download_url": "https://github.com/cohesive/terraform-provider-cohesivenet/releases/download/v1.0.3/terraform-provider-cohesivenet_1.0.3_linux_386.zip",
+          "shasum": "8ee109dfb074632b7b3077e38de86d5b9180ecff6770dac0bc027751271a64ad"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-cohesivenet_1.0.3_freebsd_386.zip",
+          "download_url": "https://github.com/cohesive/terraform-provider-cohesivenet/releases/download/v1.0.3/terraform-provider-cohesivenet_1.0.3_freebsd_386.zip",
+          "shasum": "257c5651fc3fb10ae607cc39f5df2a9693db0ee7e4d161e6b546d69313c97c0e"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-cohesivenet_1.0.3_windows_amd64.zip",
+          "download_url": "https://github.com/cohesive/terraform-provider-cohesivenet/releases/download/v1.0.3/terraform-provider-cohesivenet_1.0.3_windows_amd64.zip",
+          "shasum": "808502dab0136191b0987fc84029635a139c64c932e4c3da7b76f95e260d9f66"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-cohesivenet_1.0.3_darwin_arm64.zip",
+          "download_url": "https://github.com/cohesive/terraform-provider-cohesivenet/releases/download/v1.0.3/terraform-provider-cohesivenet_1.0.3_darwin_arm64.zip",
+          "shasum": "c2da7dd7caeb4491b9ba731d64f649ddad5ac394e837fe5b4496e8309f5e66bb"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-cohesivenet_1.0.3_freebsd_amd64.zip",
+          "download_url": "https://github.com/cohesive/terraform-provider-cohesivenet/releases/download/v1.0.3/terraform-provider-cohesivenet_1.0.3_freebsd_amd64.zip",
+          "shasum": "6fd89d02af7c05011035ce2ecca62064d32283651f9357a374eeebad84b98d8d"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-cohesivenet_1.0.3_windows_arm64.zip",
+          "download_url": "https://github.com/cohesive/terraform-provider-cohesivenet/releases/download/v1.0.3/terraform-provider-cohesivenet_1.0.3_windows_arm64.zip",
+          "shasum": "80260eaa895bf73251780d44ac644545d8879067dd87c2b4742d332c3c5bcc29"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-cohesivenet_1.0.3_freebsd_arm64.zip",
+          "download_url": "https://github.com/cohesive/terraform-provider-cohesivenet/releases/download/v1.0.3/terraform-provider-cohesivenet_1.0.3_freebsd_arm64.zip",
+          "shasum": "45404da389a9d768106a123f56e8c852589fd37f679a05130fcd739e2917e4a6"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-cohesivenet_1.0.3_linux_amd64.zip",
+          "download_url": "https://github.com/cohesive/terraform-provider-cohesivenet/releases/download/v1.0.3/terraform-provider-cohesivenet_1.0.3_linux_amd64.zip",
+          "shasum": "58d3b1ade4b50cb0c4c20f10e8728193359d23c29d1c60ee7ce384a58325c534"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-cohesivenet_1.0.3_darwin_amd64.zip",
+          "download_url": "https://github.com/cohesive/terraform-provider-cohesivenet/releases/download/v1.0.3/terraform-provider-cohesivenet_1.0.3_darwin_amd64.zip",
+          "shasum": "890f4eb8f8d711d4e93101f44ad411207d863b380e367fab2e04d6289806b1c0"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-cohesivenet_1.0.3_windows_386.zip",
+          "download_url": "https://github.com/cohesive/terraform-provider-cohesivenet/releases/download/v1.0.3/terraform-provider-cohesivenet_1.0.3_windows_386.zip",
+          "shasum": "c1318093b9e22f3c2bf988a8f6e3edbce28ae0590fd832c9b282d19c99b8e3c6"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-cohesivenet_1.0.3_linux_arm64.zip",
+          "download_url": "https://github.com/cohesive/terraform-provider-cohesivenet/releases/download/v1.0.3/terraform-provider-cohesivenet_1.0.3_linux_arm64.zip",
+          "shasum": "2ea55de135eb996d80b09cb08dfd41b2ccc6e85f460b1050df3a232956e9b389"
+        }
+      ]
+    },
+    {
       "version": "1.0.2",
       "protocols": [
         "5.0"

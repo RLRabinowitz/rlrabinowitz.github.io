@@ -2,6 +2,114 @@
   "repository": "https://github.com/jfrog/terraform-provider-xray",
   "versions": [
     {
+      "version": "2.0.3",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/jfrog/terraform-provider-xray/releases/download/v2.0.3/terraform-provider-xray_2.0.3_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/jfrog/terraform-provider-xray/releases/download/v2.0.3/terraform-provider-xray_2.0.3_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-xray_2.0.3_linux_amd64.zip",
+          "download_url": "https://github.com/jfrog/terraform-provider-xray/releases/download/v2.0.3/terraform-provider-xray_2.0.3_linux_amd64.zip",
+          "shasum": "b0aa75b1463ef0df499c7da737ac6f9b5a6ce2816e2bb6d2ecab1ba4e65b3a2a"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-xray_2.0.3_linux_arm.zip",
+          "download_url": "https://github.com/jfrog/terraform-provider-xray/releases/download/v2.0.3/terraform-provider-xray_2.0.3_linux_arm.zip",
+          "shasum": "d8fd8bc799e6cf53c7355661f1eb25f956d315fe7c1de02b43abc3127ae9a3cc"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-xray_2.0.3_darwin_arm64.zip",
+          "download_url": "https://github.com/jfrog/terraform-provider-xray/releases/download/v2.0.3/terraform-provider-xray_2.0.3_darwin_arm64.zip",
+          "shasum": "0bff3a8593b4fac898ad557acd0d5769e10f01c70b2b671ad60fee5b4e6ed11a"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-xray_2.0.3_linux_arm64.zip",
+          "download_url": "https://github.com/jfrog/terraform-provider-xray/releases/download/v2.0.3/terraform-provider-xray_2.0.3_linux_arm64.zip",
+          "shasum": "e3018acd9f113caea94e2efca9d0e04f292ecbc3fc06c25c6f9997f2d88ef704"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-xray_2.0.3_windows_arm.zip",
+          "download_url": "https://github.com/jfrog/terraform-provider-xray/releases/download/v2.0.3/terraform-provider-xray_2.0.3_windows_arm.zip",
+          "shasum": "f94842ae167ff5fde1a1a385b86b74577df48e47601ed6a3f4d79e4cb7578acd"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-xray_2.0.3_freebsd_386.zip",
+          "download_url": "https://github.com/jfrog/terraform-provider-xray/releases/download/v2.0.3/terraform-provider-xray_2.0.3_freebsd_386.zip",
+          "shasum": "9f5a2488e4647c926de01f449d7e33479b45080c9e9a1b66d7eb993a177a6110"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-xray_2.0.3_darwin_amd64.zip",
+          "download_url": "https://github.com/jfrog/terraform-provider-xray/releases/download/v2.0.3/terraform-provider-xray_2.0.3_darwin_amd64.zip",
+          "shasum": "1789ac3d378313dfcf10e2457d7dbe986cd162850fe6e796add5ab6a5267e621"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-xray_2.0.3_windows_386.zip",
+          "download_url": "https://github.com/jfrog/terraform-provider-xray/releases/download/v2.0.3/terraform-provider-xray_2.0.3_windows_386.zip",
+          "shasum": "d2604dc0633a1dc6a3422bb4fa65cd788019fc4e3ec936c25f7a18665bcf5c84"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-xray_2.0.3_freebsd_arm.zip",
+          "download_url": "https://github.com/jfrog/terraform-provider-xray/releases/download/v2.0.3/terraform-provider-xray_2.0.3_freebsd_arm.zip",
+          "shasum": "9a91afa99a198d1eefcef085f715746cf1bb0d7459fb886993df719ca18fc54e"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-xray_2.0.3_linux_386.zip",
+          "download_url": "https://github.com/jfrog/terraform-provider-xray/releases/download/v2.0.3/terraform-provider-xray_2.0.3_linux_386.zip",
+          "shasum": "08432f04d12bda6a14d7ba091b77f81b5d66e092d0d8558f622b347e0d065eac"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-xray_2.0.3_windows_arm64.zip",
+          "download_url": "https://github.com/jfrog/terraform-provider-xray/releases/download/v2.0.3/terraform-provider-xray_2.0.3_windows_arm64.zip",
+          "shasum": "c0f05efe47dafe42c5e6a3f1736b81984c83f1af8fcfcacf9cfa48461c4b70f3"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-xray_2.0.3_freebsd_amd64.zip",
+          "download_url": "https://github.com/jfrog/terraform-provider-xray/releases/download/v2.0.3/terraform-provider-xray_2.0.3_freebsd_amd64.zip",
+          "shasum": "7e1753053759bf6169011bfc42ab5a50eb95999f71be16373e662910e748a051"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-xray_2.0.3_windows_amd64.zip",
+          "download_url": "https://github.com/jfrog/terraform-provider-xray/releases/download/v2.0.3/terraform-provider-xray_2.0.3_windows_amd64.zip",
+          "shasum": "ba305d7e3c9bb7667caced2aa22f08b5c9f3725fdfa34efd354bec22b1332479"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-xray_2.0.3_freebsd_arm64.zip",
+          "download_url": "https://github.com/jfrog/terraform-provider-xray/releases/download/v2.0.3/terraform-provider-xray_2.0.3_freebsd_arm64.zip",
+          "shasum": "7e248ad343213531230cefc206e77dcfc1773530fd3e6bec9467ac4a5cad4eb5"
+        }
+      ]
+    },
+    {
       "version": "2.0.2",
       "protocols": [
         "5.0"
