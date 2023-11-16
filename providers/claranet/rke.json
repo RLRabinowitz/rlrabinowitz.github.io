@@ -2,6 +2,65 @@
   "repository": "https://github.com/claranet/terraform-provider-rke",
   "versions": [
     {
+      "version": "1.4.11-claranet0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/claranet/terraform-provider-rke/releases/download/v1.4.11-claranet0/terraform-provider-rke_1.4.11-claranet0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/claranet/terraform-provider-rke/releases/download/v1.4.11-claranet0/terraform-provider-rke_1.4.11-claranet0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-rke_1.4.11-claranet0_windows_386.zip",
+          "download_url": "https://github.com/claranet/terraform-provider-rke/releases/download/v1.4.11-claranet0/terraform-provider-rke_1.4.11-claranet0_windows_386.zip",
+          "shasum": "906673963cd1f32e28bcc6cb8d72cc00307a4015e8f07820325f1ea0165c498e"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-rke_1.4.11-claranet0_linux_amd64.zip",
+          "download_url": "https://github.com/claranet/terraform-provider-rke/releases/download/v1.4.11-claranet0/terraform-provider-rke_1.4.11-claranet0_linux_amd64.zip",
+          "shasum": "264ba8290a2f1e865b17d074639b43bdfaef25bcd4d5d56139b5c5c0aa2dbb4d"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-rke_1.4.11-claranet0_linux_arm.zip",
+          "download_url": "https://github.com/claranet/terraform-provider-rke/releases/download/v1.4.11-claranet0/terraform-provider-rke_1.4.11-claranet0_linux_arm.zip",
+          "shasum": "532e4795bb9378c329066197b5f465426f56e44b4508a3bf2188244d8fae5967"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-rke_1.4.11-claranet0_windows_amd64.zip",
+          "download_url": "https://github.com/claranet/terraform-provider-rke/releases/download/v1.4.11-claranet0/terraform-provider-rke_1.4.11-claranet0_windows_amd64.zip",
+          "shasum": "d9452a81a4af5fa6ee3d0b76b5abaa81dfebec1c36659d9adc1f6ab0ba808d34"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-rke_1.4.11-claranet0_linux_arm64.zip",
+          "download_url": "https://github.com/claranet/terraform-provider-rke/releases/download/v1.4.11-claranet0/terraform-provider-rke_1.4.11-claranet0_linux_arm64.zip",
+          "shasum": "88f99f1658b499813032852a250d6304149a49fba27b676d6b7a501d85ef4857"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-rke_1.4.11-claranet0_darwin_amd64.zip",
+          "download_url": "https://github.com/claranet/terraform-provider-rke/releases/download/v1.4.11-claranet0/terraform-provider-rke_1.4.11-claranet0_darwin_amd64.zip",
+          "shasum": "b0b7816cfb4ee71ccae7f14c08df9ad61e0507ef9e5cd53c98d46cd535129522"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-rke_1.4.11-claranet0_darwin_arm64.zip",
+          "download_url": "https://github.com/claranet/terraform-provider-rke/releases/download/v1.4.11-claranet0/terraform-provider-rke_1.4.11-claranet0_darwin_arm64.zip",
+          "shasum": "fc312f67a9ddf1f4e18b5fdb5a408d239f59b28ed431d2437ee9f813a5681d70"
+        }
+      ]
+    },
+    {
       "version": "1.4.10-claranet0",
       "protocols": [
         "5.0"
