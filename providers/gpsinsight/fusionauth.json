@@ -2,6 +2,114 @@
   "repository": "https://github.com/gpsinsight/terraform-provider-fusionauth",
   "versions": [
     {
+      "version": "0.1.100",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/gpsinsight/terraform-provider-fusionauth/releases/download/v0.1.100/terraform-provider-fusionauth_0.1.100_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/gpsinsight/terraform-provider-fusionauth/releases/download/v0.1.100/terraform-provider-fusionauth_0.1.100_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-fusionauth_0.1.100_freebsd_amd64.zip",
+          "download_url": "https://github.com/gpsinsight/terraform-provider-fusionauth/releases/download/v0.1.100/terraform-provider-fusionauth_0.1.100_freebsd_amd64.zip",
+          "shasum": "9fe960d30cb2c589976b97c6f83e45c4d0368973bdb3da8f595ba7193092528e"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-fusionauth_0.1.100_linux_arm.zip",
+          "download_url": "https://github.com/gpsinsight/terraform-provider-fusionauth/releases/download/v0.1.100/terraform-provider-fusionauth_0.1.100_linux_arm.zip",
+          "shasum": "ab900dd58c857a4ee3649fb2a36d6edc828e474d0f87607db29f56301c67037f"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-fusionauth_0.1.100_freebsd_arm.zip",
+          "download_url": "https://github.com/gpsinsight/terraform-provider-fusionauth/releases/download/v0.1.100/terraform-provider-fusionauth_0.1.100_freebsd_arm.zip",
+          "shasum": "4663cd75e0e7c6dbd0cc8cfc0b35f9ade3f3e536e9624b3ede9301f82bdb296d"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-fusionauth_0.1.100_freebsd_386.zip",
+          "download_url": "https://github.com/gpsinsight/terraform-provider-fusionauth/releases/download/v0.1.100/terraform-provider-fusionauth_0.1.100_freebsd_386.zip",
+          "shasum": "2c0495d4372fa066c8eeac1390547e0c944f6d62a814e908ada1006943f2ad54"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-fusionauth_0.1.100_freebsd_arm64.zip",
+          "download_url": "https://github.com/gpsinsight/terraform-provider-fusionauth/releases/download/v0.1.100/terraform-provider-fusionauth_0.1.100_freebsd_arm64.zip",
+          "shasum": "653b2a010ab2c9879a1039f26923a1989c54ffb178625fa05fef6bd77f206694"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-fusionauth_0.1.100_windows_arm.zip",
+          "download_url": "https://github.com/gpsinsight/terraform-provider-fusionauth/releases/download/v0.1.100/terraform-provider-fusionauth_0.1.100_windows_arm.zip",
+          "shasum": "8f22ba6999820f1a4cb80b9a7a505e47b9324a9b78fd333d984a5024452f910a"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-fusionauth_0.1.100_linux_amd64.zip",
+          "download_url": "https://github.com/gpsinsight/terraform-provider-fusionauth/releases/download/v0.1.100/terraform-provider-fusionauth_0.1.100_linux_amd64.zip",
+          "shasum": "90fad898086b4d1be7cc0cd65677bda19c2c73bde7195c186566c1857d674b99"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-fusionauth_0.1.100_windows_amd64.zip",
+          "download_url": "https://github.com/gpsinsight/terraform-provider-fusionauth/releases/download/v0.1.100/terraform-provider-fusionauth_0.1.100_windows_amd64.zip",
+          "shasum": "9de0fe6440bec6946ec8fd5bdec8d96fc86a1b68247209afe878b99767ea08f8"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-fusionauth_0.1.100_windows_arm64.zip",
+          "download_url": "https://github.com/gpsinsight/terraform-provider-fusionauth/releases/download/v0.1.100/terraform-provider-fusionauth_0.1.100_windows_arm64.zip",
+          "shasum": "a28550f82d702228f6497a8cdbf98c1cc9448657cc83ec62a8819797c57a9c14"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-fusionauth_0.1.100_linux_386.zip",
+          "download_url": "https://github.com/gpsinsight/terraform-provider-fusionauth/releases/download/v0.1.100/terraform-provider-fusionauth_0.1.100_linux_386.zip",
+          "shasum": "e5a6dbd207a73cb8469a141ad300dbb094eeab2e32d14bc6b810c37325a8b553"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-fusionauth_0.1.100_windows_386.zip",
+          "download_url": "https://github.com/gpsinsight/terraform-provider-fusionauth/releases/download/v0.1.100/terraform-provider-fusionauth_0.1.100_windows_386.zip",
+          "shasum": "a856388cb4edd7bc972536a87f6e4656a2732e2d5e5671eee2be15d651157ded"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-fusionauth_0.1.100_linux_arm64.zip",
+          "download_url": "https://github.com/gpsinsight/terraform-provider-fusionauth/releases/download/v0.1.100/terraform-provider-fusionauth_0.1.100_linux_arm64.zip",
+          "shasum": "76e819f9e43b7bfd97ccb54148b9ab7b4866954729db18d5f94d9c84069c211f"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-fusionauth_0.1.100_darwin_arm64.zip",
+          "download_url": "https://github.com/gpsinsight/terraform-provider-fusionauth/releases/download/v0.1.100/terraform-provider-fusionauth_0.1.100_darwin_arm64.zip",
+          "shasum": "bee58e7d0511cfd1b0786d6f1f873bd64cc2cab451e027e8686bf22fc6412e2f"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-fusionauth_0.1.100_darwin_amd64.zip",
+          "download_url": "https://github.com/gpsinsight/terraform-provider-fusionauth/releases/download/v0.1.100/terraform-provider-fusionauth_0.1.100_darwin_amd64.zip",
+          "shasum": "62591db463dc9c9bfa6f91b51b28eb9b39bed9ecab46e7a3c69547d4df79b5d2"
+        }
+      ]
+    },
+    {
       "version": "0.1.99",
       "protocols": [
         "5.0"
