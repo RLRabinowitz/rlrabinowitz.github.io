@@ -2,6 +2,65 @@
   "repository": "https://github.com/jeremmfr/terraform-provider-junos",
   "versions": [
     {
+      "version": "2.3.2",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/jeremmfr/terraform-provider-junos/releases/download/v2.3.2/terraform-provider-junos_2.3.2_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/jeremmfr/terraform-provider-junos/releases/download/v2.3.2/terraform-provider-junos_2.3.2_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-junos_2.3.2_darwin_amd64.zip",
+          "download_url": "https://github.com/jeremmfr/terraform-provider-junos/releases/download/v2.3.2/terraform-provider-junos_2.3.2_darwin_amd64.zip",
+          "shasum": "fdda504accc6d7210fa4a8d728cff5e48f8335b14b98cbae91ed024aa40a9181"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-junos_2.3.2_windows_amd64.zip",
+          "download_url": "https://github.com/jeremmfr/terraform-provider-junos/releases/download/v2.3.2/terraform-provider-junos_2.3.2_windows_amd64.zip",
+          "shasum": "510dbd6c9d8b9c2bbc9d4138c751c016658bfdbbd030778fb7f148affeb327ac"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-junos_2.3.2_freebsd_amd64.zip",
+          "download_url": "https://github.com/jeremmfr/terraform-provider-junos/releases/download/v2.3.2/terraform-provider-junos_2.3.2_freebsd_amd64.zip",
+          "shasum": "bef47e80d8c8a72abd3088ba5911e1e0bedf6722d0f2edb44a047ed8303a1b39"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-junos_2.3.2_linux_amd64.zip",
+          "download_url": "https://github.com/jeremmfr/terraform-provider-junos/releases/download/v2.3.2/terraform-provider-junos_2.3.2_linux_amd64.zip",
+          "shasum": "fa1648daa7af0ead62a3b9a41943e8413a5f69dfa52cedb11428d60f99da68eb"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-junos_2.3.2_freebsd_arm64.zip",
+          "download_url": "https://github.com/jeremmfr/terraform-provider-junos/releases/download/v2.3.2/terraform-provider-junos_2.3.2_freebsd_arm64.zip",
+          "shasum": "ade7fcc23dcf14c8667d7357ddb0d588770f59525a8c0095869b0e8619db8e00"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-junos_2.3.2_linux_arm64.zip",
+          "download_url": "https://github.com/jeremmfr/terraform-provider-junos/releases/download/v2.3.2/terraform-provider-junos_2.3.2_linux_arm64.zip",
+          "shasum": "d19f8ffb0075d4bc8e046eec8ade11fd731d30f444cd6077f590e1336b2bec8c"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-junos_2.3.2_darwin_arm64.zip",
+          "download_url": "https://github.com/jeremmfr/terraform-provider-junos/releases/download/v2.3.2/terraform-provider-junos_2.3.2_darwin_arm64.zip",
+          "shasum": "921ddc044190e85343e5c0cfbe550b538516d9a7e244a8c9ef5515375ddefcaa"
+        }
+      ]
+    },
+    {
       "version": "2.3.1",
       "protocols": [
         "5.0"
