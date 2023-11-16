@@ -2,6 +2,114 @@
   "repository": "https://github.com/equinix/terraform-provider-equinix",
   "versions": [
     {
+      "version": "1.20.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/equinix/terraform-provider-equinix/releases/download/v1.20.0/terraform-provider-equinix_1.20.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/equinix/terraform-provider-equinix/releases/download/v1.20.0/terraform-provider-equinix_1.20.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-equinix_1.20.0_windows_arm64.zip",
+          "download_url": "https://github.com/equinix/terraform-provider-equinix/releases/download/v1.20.0/terraform-provider-equinix_1.20.0_windows_arm64.zip",
+          "shasum": "7f47d4a7adebd1a02d55183ec11f77201408ad2a9099a7ffe74f1fa23bce3dff"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-equinix_1.20.0_darwin_arm64.zip",
+          "download_url": "https://github.com/equinix/terraform-provider-equinix/releases/download/v1.20.0/terraform-provider-equinix_1.20.0_darwin_arm64.zip",
+          "shasum": "415ae53788729f7e76f5c4bc603c307472d35a75aa04b1a8e5afd43bfe89071d"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-equinix_1.20.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/equinix/terraform-provider-equinix/releases/download/v1.20.0/terraform-provider-equinix_1.20.0_freebsd_arm64.zip",
+          "shasum": "db5c0efcee928c7f9eb3dfd03e5b5cb35dde4c5cebe85e9b53eca103665e96ce"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-equinix_1.20.0_freebsd_386.zip",
+          "download_url": "https://github.com/equinix/terraform-provider-equinix/releases/download/v1.20.0/terraform-provider-equinix_1.20.0_freebsd_386.zip",
+          "shasum": "6b8b1eea179f69f571f4159e86432225f306ae78257647efe6c2c0cd1e434fc2"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-equinix_1.20.0_windows_386.zip",
+          "download_url": "https://github.com/equinix/terraform-provider-equinix/releases/download/v1.20.0/terraform-provider-equinix_1.20.0_windows_386.zip",
+          "shasum": "2fa5dbac92cc43f0c9993bb78d6e743f8cea2f6ce86d930a2f17389398a40ca0"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-equinix_1.20.0_freebsd_arm.zip",
+          "download_url": "https://github.com/equinix/terraform-provider-equinix/releases/download/v1.20.0/terraform-provider-equinix_1.20.0_freebsd_arm.zip",
+          "shasum": "78d5ef2965a0601568317abcbd3815ece18460924491cebf64f7e7c14735ecb9"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-equinix_1.20.0_windows_amd64.zip",
+          "download_url": "https://github.com/equinix/terraform-provider-equinix/releases/download/v1.20.0/terraform-provider-equinix_1.20.0_windows_amd64.zip",
+          "shasum": "a8c128c241bd905286728a7c34e07f72cecfe44244ccb96de6dafcac6f016767"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-equinix_1.20.0_linux_arm64.zip",
+          "download_url": "https://github.com/equinix/terraform-provider-equinix/releases/download/v1.20.0/terraform-provider-equinix_1.20.0_linux_arm64.zip",
+          "shasum": "43ebea2b2c923dfbc3168cbbde637fc2f5490114ab4c044ddcf9b890aa0133af"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-equinix_1.20.0_linux_386.zip",
+          "download_url": "https://github.com/equinix/terraform-provider-equinix/releases/download/v1.20.0/terraform-provider-equinix_1.20.0_linux_386.zip",
+          "shasum": "0f08523b577038577086b9f58736732a795574539975c57abf1f086faf8b459e"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-equinix_1.20.0_windows_arm.zip",
+          "download_url": "https://github.com/equinix/terraform-provider-equinix/releases/download/v1.20.0/terraform-provider-equinix_1.20.0_windows_arm.zip",
+          "shasum": "9e0f757214a9a9ecf34e09c89dd201a5a755ee8f721514ca765d58e3ba7f4930"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-equinix_1.20.0_linux_amd64.zip",
+          "download_url": "https://github.com/equinix/terraform-provider-equinix/releases/download/v1.20.0/terraform-provider-equinix_1.20.0_linux_amd64.zip",
+          "shasum": "f0130d847c4b4d921c1218e7218c69830911d2d24cbb5c0b8005baddf16c471a"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-equinix_1.20.0_linux_arm.zip",
+          "download_url": "https://github.com/equinix/terraform-provider-equinix/releases/download/v1.20.0/terraform-provider-equinix_1.20.0_linux_arm.zip",
+          "shasum": "22db2b9f1b5957df9086cf67845652466603bf5fd7983a0838ff72312881d8e6"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-equinix_1.20.0_darwin_amd64.zip",
+          "download_url": "https://github.com/equinix/terraform-provider-equinix/releases/download/v1.20.0/terraform-provider-equinix_1.20.0_darwin_amd64.zip",
+          "shasum": "f3962eb1b1e7d4423d303cd754a5346b9c396f34e1808237a428f1f046fc76c7"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-equinix_1.20.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/equinix/terraform-provider-equinix/releases/download/v1.20.0/terraform-provider-equinix_1.20.0_freebsd_amd64.zip",
+          "shasum": "9669721ca6b0855c3f78c5c77edc018bb301bf2d6a5460769baaeeedd7861a06"
+        }
+      ]
+    },
+    {
       "version": "1.19.0",
       "protocols": [
         "5.0"

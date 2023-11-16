@@ -2,6 +2,114 @@
   "repository": "https://github.com/kestra-io/terraform-provider-kestra",
   "versions": [
     {
+      "version": "0.13.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/kestra-io/terraform-provider-kestra/releases/download/v0.13.0/terraform-provider-kestra_0.13.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/kestra-io/terraform-provider-kestra/releases/download/v0.13.0/terraform-provider-kestra_0.13.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-kestra_0.13.0_linux_arm64.zip",
+          "download_url": "https://github.com/kestra-io/terraform-provider-kestra/releases/download/v0.13.0/terraform-provider-kestra_0.13.0_linux_arm64.zip",
+          "shasum": "aae0a6c98b28e2006fdade2e4e8b2873e1c63290cd49a7fbb45228900113fa26"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-kestra_0.13.0_freebsd_386.zip",
+          "download_url": "https://github.com/kestra-io/terraform-provider-kestra/releases/download/v0.13.0/terraform-provider-kestra_0.13.0_freebsd_386.zip",
+          "shasum": "08914d0350ac04412072702317dd820c87913ef7fbc06a66483cb23a68838d0c"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-kestra_0.13.0_windows_arm64.zip",
+          "download_url": "https://github.com/kestra-io/terraform-provider-kestra/releases/download/v0.13.0/terraform-provider-kestra_0.13.0_windows_arm64.zip",
+          "shasum": "c5d9b7a5d14652d255928f013478f6c71de76c7949ad06a5b5d97e151af5b0b0"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-kestra_0.13.0_freebsd_arm.zip",
+          "download_url": "https://github.com/kestra-io/terraform-provider-kestra/releases/download/v0.13.0/terraform-provider-kestra_0.13.0_freebsd_arm.zip",
+          "shasum": "224597e6f1ca47312200254b263b85f47f1216457d4f9448cdf4de0dd7d9c101"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-kestra_0.13.0_windows_386.zip",
+          "download_url": "https://github.com/kestra-io/terraform-provider-kestra/releases/download/v0.13.0/terraform-provider-kestra_0.13.0_windows_386.zip",
+          "shasum": "69caf814fd94c89ea3e4a6985672e8de57bca95a9b203c2790fbe9f4f2588fc8"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-kestra_0.13.0_darwin_arm64.zip",
+          "download_url": "https://github.com/kestra-io/terraform-provider-kestra/releases/download/v0.13.0/terraform-provider-kestra_0.13.0_darwin_arm64.zip",
+          "shasum": "b490692418e6702bb627714ae3424e640ab96a7c4383f8a8a0159722fd4ba082"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-kestra_0.13.0_linux_amd64.zip",
+          "download_url": "https://github.com/kestra-io/terraform-provider-kestra/releases/download/v0.13.0/terraform-provider-kestra_0.13.0_linux_amd64.zip",
+          "shasum": "c894689473331574c5bae4a540fae7314c7ebafa0cb17b894f446911c95614f6"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-kestra_0.13.0_windows_amd64.zip",
+          "download_url": "https://github.com/kestra-io/terraform-provider-kestra/releases/download/v0.13.0/terraform-provider-kestra_0.13.0_windows_amd64.zip",
+          "shasum": "6383e7db06c5017ace93f7847c4eb5b9b452f26c07f23423d973a0db377113b1"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-kestra_0.13.0_linux_386.zip",
+          "download_url": "https://github.com/kestra-io/terraform-provider-kestra/releases/download/v0.13.0/terraform-provider-kestra_0.13.0_linux_386.zip",
+          "shasum": "2dec1a735bd7888088777a7e73fcce2eeb2ad6d133fde775dbd52837fed01ca9"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-kestra_0.13.0_darwin_amd64.zip",
+          "download_url": "https://github.com/kestra-io/terraform-provider-kestra/releases/download/v0.13.0/terraform-provider-kestra_0.13.0_darwin_amd64.zip",
+          "shasum": "3d78bbefc413428a67b156095c95036afbf54f541c3753577d11e8496de6e384"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-kestra_0.13.0_windows_arm.zip",
+          "download_url": "https://github.com/kestra-io/terraform-provider-kestra/releases/download/v0.13.0/terraform-provider-kestra_0.13.0_windows_arm.zip",
+          "shasum": "ab18f87e726ec0b0587ccc7db608db81de220492f62e705560f3179a7921dd50"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-kestra_0.13.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/kestra-io/terraform-provider-kestra/releases/download/v0.13.0/terraform-provider-kestra_0.13.0_freebsd_arm64.zip",
+          "shasum": "e4df376e4fd72193860f5a642509074a7a30422f4c61165c3fbc5040bea0ff26"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-kestra_0.13.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/kestra-io/terraform-provider-kestra/releases/download/v0.13.0/terraform-provider-kestra_0.13.0_freebsd_amd64.zip",
+          "shasum": "f104524a6784cc9951479724cbeeaacd79273517844eacaed81e316e41bcb6e8"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-kestra_0.13.0_linux_arm.zip",
+          "download_url": "https://github.com/kestra-io/terraform-provider-kestra/releases/download/v0.13.0/terraform-provider-kestra_0.13.0_linux_arm.zip",
+          "shasum": "e7f4327160d4922c57a3ff20f6e24a407f79c349f259aef17c60d4b02c9384a0"
+        }
+      ]
+    },
+    {
       "version": "0.11.1",
       "protocols": [
         "5.0"
