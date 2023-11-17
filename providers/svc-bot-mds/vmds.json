@@ -2,6 +2,114 @@
   "repository": "https://github.com/svc-bot-mds/terraform-provider-vmds",
   "versions": [
     {
+      "version": "0.1.5",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/svc-bot-mds/terraform-provider-vmds/releases/download/v0.1.5/terraform-provider-vmds_0.1.5_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/svc-bot-mds/terraform-provider-vmds/releases/download/v0.1.5/terraform-provider-vmds_0.1.5_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-vmds_0.1.5_windows_amd64.zip",
+          "download_url": "https://github.com/svc-bot-mds/terraform-provider-vmds/releases/download/v0.1.5/terraform-provider-vmds_0.1.5_windows_amd64.zip",
+          "shasum": "86b5a475059b9f3a16ca45148a1999f7d99a210b10b732edcc653cf6cf66dde0"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-vmds_0.1.5_freebsd_arm.zip",
+          "download_url": "https://github.com/svc-bot-mds/terraform-provider-vmds/releases/download/v0.1.5/terraform-provider-vmds_0.1.5_freebsd_arm.zip",
+          "shasum": "e06727a8edec9a6139fe4ce40b20d6462cfae40bfb5e59b4d80d6037490a1109"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-vmds_0.1.5_windows_arm64.zip",
+          "download_url": "https://github.com/svc-bot-mds/terraform-provider-vmds/releases/download/v0.1.5/terraform-provider-vmds_0.1.5_windows_arm64.zip",
+          "shasum": "baf83b06bf9653faf9291a326f9d0ccd9861efc8034134d91b3cda0ad08bc6ea"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-vmds_0.1.5_windows_arm.zip",
+          "download_url": "https://github.com/svc-bot-mds/terraform-provider-vmds/releases/download/v0.1.5/terraform-provider-vmds_0.1.5_windows_arm.zip",
+          "shasum": "de130de315eae76b346aaab63147c99736442fc6d8a34ba345ddd8fcd11cb822"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-vmds_0.1.5_linux_386.zip",
+          "download_url": "https://github.com/svc-bot-mds/terraform-provider-vmds/releases/download/v0.1.5/terraform-provider-vmds_0.1.5_linux_386.zip",
+          "shasum": "853acda423cb3436af7c8dcbf58a6156d0dd9b80b3fb3fe951fd88557a6566eb"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-vmds_0.1.5_darwin_amd64.zip",
+          "download_url": "https://github.com/svc-bot-mds/terraform-provider-vmds/releases/download/v0.1.5/terraform-provider-vmds_0.1.5_darwin_amd64.zip",
+          "shasum": "7caa195689fa9b97e27c661827d065fb1a15d6319832b49872975a00d74afbed"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-vmds_0.1.5_freebsd_amd64.zip",
+          "download_url": "https://github.com/svc-bot-mds/terraform-provider-vmds/releases/download/v0.1.5/terraform-provider-vmds_0.1.5_freebsd_amd64.zip",
+          "shasum": "804dc7c01d0a6d3df22c8bec4e713103cf3e8e456be928f65ac932259b1bfa67"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-vmds_0.1.5_linux_arm64.zip",
+          "download_url": "https://github.com/svc-bot-mds/terraform-provider-vmds/releases/download/v0.1.5/terraform-provider-vmds_0.1.5_linux_arm64.zip",
+          "shasum": "b3507d441a5909ff12c2b693f2c15070eed2af43063c99027ef8892da758defa"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-vmds_0.1.5_freebsd_386.zip",
+          "download_url": "https://github.com/svc-bot-mds/terraform-provider-vmds/releases/download/v0.1.5/terraform-provider-vmds_0.1.5_freebsd_386.zip",
+          "shasum": "246a6f2deb2684aefde2ffa84e2d407b304695339ac4daf3aa7ecfc4dff58ae5"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-vmds_0.1.5_windows_386.zip",
+          "download_url": "https://github.com/svc-bot-mds/terraform-provider-vmds/releases/download/v0.1.5/terraform-provider-vmds_0.1.5_windows_386.zip",
+          "shasum": "26c72d8bb1cf3d24c38da204d3c1b46e182ddca681e0f3adb1bb70def7ec2961"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-vmds_0.1.5_freebsd_arm64.zip",
+          "download_url": "https://github.com/svc-bot-mds/terraform-provider-vmds/releases/download/v0.1.5/terraform-provider-vmds_0.1.5_freebsd_arm64.zip",
+          "shasum": "9b2299359fd5612e36d268e7a1233766e2eea9fac7d49b70eb1cee8ed4cbd5b4"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-vmds_0.1.5_linux_arm.zip",
+          "download_url": "https://github.com/svc-bot-mds/terraform-provider-vmds/releases/download/v0.1.5/terraform-provider-vmds_0.1.5_linux_arm.zip",
+          "shasum": "0c211f67c5f57fa8ec27925e040e31478882d50959334aabaea180bfd5422b7f"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-vmds_0.1.5_linux_amd64.zip",
+          "download_url": "https://github.com/svc-bot-mds/terraform-provider-vmds/releases/download/v0.1.5/terraform-provider-vmds_0.1.5_linux_amd64.zip",
+          "shasum": "dd0d89290377ffeee6e35e0ae55c7d8c02f654a6fd223d7eb7f941ea1ef0a360"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-vmds_0.1.5_darwin_arm64.zip",
+          "download_url": "https://github.com/svc-bot-mds/terraform-provider-vmds/releases/download/v0.1.5/terraform-provider-vmds_0.1.5_darwin_arm64.zip",
+          "shasum": "1ae52f84bb66de9d8d0ac8730364216f0717f21bfdb0c683692cd212ea089a3e"
+        }
+      ]
+    },
+    {
       "version": "0.1.4",
       "protocols": [
         "5.0"
