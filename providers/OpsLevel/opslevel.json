@@ -2,6 +2,114 @@
   "repository": "https://github.com/OpsLevel/terraform-provider-opslevel",
   "versions": [
     {
+      "version": "0.8.13",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/OpsLevel/terraform-provider-opslevel/releases/download/v0.8.13/terraform-provider-opslevel_0.8.13_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/OpsLevel/terraform-provider-opslevel/releases/download/v0.8.13/terraform-provider-opslevel_0.8.13_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-opslevel_0.8.13_linux_386.zip",
+          "download_url": "https://github.com/OpsLevel/terraform-provider-opslevel/releases/download/v0.8.13/terraform-provider-opslevel_0.8.13_linux_386.zip",
+          "shasum": "90111285255296926013901da6d621a87eb2035220744dd694cdd86e0ca5256e"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-opslevel_0.8.13_freebsd_amd64.zip",
+          "download_url": "https://github.com/OpsLevel/terraform-provider-opslevel/releases/download/v0.8.13/terraform-provider-opslevel_0.8.13_freebsd_amd64.zip",
+          "shasum": "deb52e70fa75c9dfdb387b60f7403d4add06232b718cfbd86e95f7dac40fb51c"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-opslevel_0.8.13_linux_arm.zip",
+          "download_url": "https://github.com/OpsLevel/terraform-provider-opslevel/releases/download/v0.8.13/terraform-provider-opslevel_0.8.13_linux_arm.zip",
+          "shasum": "8076831e3bd6d18174dc0900611b771f7adc08d35f95cfd064173f2cb66e6f19"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-opslevel_0.8.13_darwin_arm64.zip",
+          "download_url": "https://github.com/OpsLevel/terraform-provider-opslevel/releases/download/v0.8.13/terraform-provider-opslevel_0.8.13_darwin_arm64.zip",
+          "shasum": "0ae1030a86692a8b63c60d93fb17fbc7581391e461ccdebe701a5d03d53af1e3"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-opslevel_0.8.13_freebsd_arm64.zip",
+          "download_url": "https://github.com/OpsLevel/terraform-provider-opslevel/releases/download/v0.8.13/terraform-provider-opslevel_0.8.13_freebsd_arm64.zip",
+          "shasum": "f6a66ad5f10e385ad8e66a46aa1300153298d79cf11e6c933684e1540f609cef"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-opslevel_0.8.13_windows_arm64.zip",
+          "download_url": "https://github.com/OpsLevel/terraform-provider-opslevel/releases/download/v0.8.13/terraform-provider-opslevel_0.8.13_windows_arm64.zip",
+          "shasum": "145805410a5febc6902cf99d54d8491ef46bbaf7925c8e9af0770239120fd902"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-opslevel_0.8.13_linux_arm64.zip",
+          "download_url": "https://github.com/OpsLevel/terraform-provider-opslevel/releases/download/v0.8.13/terraform-provider-opslevel_0.8.13_linux_arm64.zip",
+          "shasum": "d267ed74417d68510d2287c54bbf4098b0c61e434935813e6693c4cf3c52b1f3"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-opslevel_0.8.13_linux_amd64.zip",
+          "download_url": "https://github.com/OpsLevel/terraform-provider-opslevel/releases/download/v0.8.13/terraform-provider-opslevel_0.8.13_linux_amd64.zip",
+          "shasum": "20f58fa8c0ac39ec4c8bb95eb2ae4e6d0b89f23f9da5623ef6a42fedd6e825cb"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-opslevel_0.8.13_freebsd_386.zip",
+          "download_url": "https://github.com/OpsLevel/terraform-provider-opslevel/releases/download/v0.8.13/terraform-provider-opslevel_0.8.13_freebsd_386.zip",
+          "shasum": "c1ebe64089674a73eb290c548be88bfe2c0fd970704f0d17c5df09a011bd3b66"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-opslevel_0.8.13_windows_arm.zip",
+          "download_url": "https://github.com/OpsLevel/terraform-provider-opslevel/releases/download/v0.8.13/terraform-provider-opslevel_0.8.13_windows_arm.zip",
+          "shasum": "c05866daa8f086d7263e856ce8a00d6dc7e71ccbd514e07591bc8fe4e4ce9aaf"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-opslevel_0.8.13_darwin_amd64.zip",
+          "download_url": "https://github.com/OpsLevel/terraform-provider-opslevel/releases/download/v0.8.13/terraform-provider-opslevel_0.8.13_darwin_amd64.zip",
+          "shasum": "1713985362410d418c7a6c9d959bb206aeea0810e31d005ae56eba5400ded3c6"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-opslevel_0.8.13_windows_amd64.zip",
+          "download_url": "https://github.com/OpsLevel/terraform-provider-opslevel/releases/download/v0.8.13/terraform-provider-opslevel_0.8.13_windows_amd64.zip",
+          "shasum": "470fe656a0056a8acdc08a40efc14ae3dfcf979ee839c82d1c363774a532a81d"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-opslevel_0.8.13_windows_386.zip",
+          "download_url": "https://github.com/OpsLevel/terraform-provider-opslevel/releases/download/v0.8.13/terraform-provider-opslevel_0.8.13_windows_386.zip",
+          "shasum": "32f3d3cac67bb19b7c7e88d2171f4f0b61b0f0937077de5725504bb9d52db23e"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-opslevel_0.8.13_freebsd_arm.zip",
+          "download_url": "https://github.com/OpsLevel/terraform-provider-opslevel/releases/download/v0.8.13/terraform-provider-opslevel_0.8.13_freebsd_arm.zip",
+          "shasum": "570a5e43499591904b36fc9865c2b632243b5c67e2ebb4fdd0be387fb3d6da96"
+        }
+      ]
+    },
+    {
       "version": "0.8.12",
       "protocols": [
         "5.0"
