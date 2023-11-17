@@ -2,6 +2,114 @@
   "repository": "https://github.com/RafaySystems/terraform-provider-rafay",
   "versions": [
     {
+      "version": "1.1.20",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/RafaySystems/terraform-provider-rafay/releases/download/v1.1.20/terraform-provider-rafay_1.1.20_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/RafaySystems/terraform-provider-rafay/releases/download/v1.1.20/terraform-provider-rafay_1.1.20_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-rafay_1.1.20_windows_arm64.zip",
+          "download_url": "https://github.com/RafaySystems/terraform-provider-rafay/releases/download/v1.1.20/terraform-provider-rafay_1.1.20_windows_arm64.zip",
+          "shasum": "a342239a301a8230ca4faa32dd96b392f03ca5d7f67908090b42ecf3ef4c0b4a"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-rafay_1.1.20_windows_386.zip",
+          "download_url": "https://github.com/RafaySystems/terraform-provider-rafay/releases/download/v1.1.20/terraform-provider-rafay_1.1.20_windows_386.zip",
+          "shasum": "312d701fdc540ae9f4603939e0f8a7f9da8dfda9804b37bafa71f5814e3f3b71"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-rafay_1.1.20_freebsd_amd64.zip",
+          "download_url": "https://github.com/RafaySystems/terraform-provider-rafay/releases/download/v1.1.20/terraform-provider-rafay_1.1.20_freebsd_amd64.zip",
+          "shasum": "de62e58020b4bfcd532595c132e7bce4e5b6da054ffb537d87461f8184dc9417"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-rafay_1.1.20_freebsd_386.zip",
+          "download_url": "https://github.com/RafaySystems/terraform-provider-rafay/releases/download/v1.1.20/terraform-provider-rafay_1.1.20_freebsd_386.zip",
+          "shasum": "5358740c07ef24ab13650ba28d850a236040172eac14e27b55ced0ea5f3dde4d"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-rafay_1.1.20_freebsd_arm64.zip",
+          "download_url": "https://github.com/RafaySystems/terraform-provider-rafay/releases/download/v1.1.20/terraform-provider-rafay_1.1.20_freebsd_arm64.zip",
+          "shasum": "820b5f21c8a1569580ed35948f5db4f32aa894de54601f598d733ccca9bcddbe"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-rafay_1.1.20_darwin_arm64.zip",
+          "download_url": "https://github.com/RafaySystems/terraform-provider-rafay/releases/download/v1.1.20/terraform-provider-rafay_1.1.20_darwin_arm64.zip",
+          "shasum": "b8cd07acaf6ea4c3802da793d265ed1edc2f7c632e209322518fe0a7c4455587"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-rafay_1.1.20_linux_amd64.zip",
+          "download_url": "https://github.com/RafaySystems/terraform-provider-rafay/releases/download/v1.1.20/terraform-provider-rafay_1.1.20_linux_amd64.zip",
+          "shasum": "1a7c1c3aac58629feaaffd4f10d43c9051eeaaa4ea01690208dc55d64ecc7007"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-rafay_1.1.20_linux_arm64.zip",
+          "download_url": "https://github.com/RafaySystems/terraform-provider-rafay/releases/download/v1.1.20/terraform-provider-rafay_1.1.20_linux_arm64.zip",
+          "shasum": "3b80f7dd1743f056de138b6727c24943ad35f3a61be149e54f363125ef838c10"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-rafay_1.1.20_freebsd_arm.zip",
+          "download_url": "https://github.com/RafaySystems/terraform-provider-rafay/releases/download/v1.1.20/terraform-provider-rafay_1.1.20_freebsd_arm.zip",
+          "shasum": "f8a9e5fd41d1e57f052d720e2b4364b290395cbd3e5408add4530340b9988cf8"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-rafay_1.1.20_windows_arm.zip",
+          "download_url": "https://github.com/RafaySystems/terraform-provider-rafay/releases/download/v1.1.20/terraform-provider-rafay_1.1.20_windows_arm.zip",
+          "shasum": "97df9a5d925789f34611da3de35dc4efe9292d881173529139c4d553287d22bd"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-rafay_1.1.20_linux_386.zip",
+          "download_url": "https://github.com/RafaySystems/terraform-provider-rafay/releases/download/v1.1.20/terraform-provider-rafay_1.1.20_linux_386.zip",
+          "shasum": "dff815a2f1106fa45a85921cf4ac14699e999c651a55def3f6154d9b7b2496ff"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-rafay_1.1.20_windows_amd64.zip",
+          "download_url": "https://github.com/RafaySystems/terraform-provider-rafay/releases/download/v1.1.20/terraform-provider-rafay_1.1.20_windows_amd64.zip",
+          "shasum": "339a5993722c6015e35b202da6d17885e6b1a7acd4f3c755a3f98b8e285d0d0d"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-rafay_1.1.20_darwin_amd64.zip",
+          "download_url": "https://github.com/RafaySystems/terraform-provider-rafay/releases/download/v1.1.20/terraform-provider-rafay_1.1.20_darwin_amd64.zip",
+          "shasum": "a888333e51add07a5a0343ee2a1141720dfe070908b59677db48720b308de6b0"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-rafay_1.1.20_linux_arm.zip",
+          "download_url": "https://github.com/RafaySystems/terraform-provider-rafay/releases/download/v1.1.20/terraform-provider-rafay_1.1.20_linux_arm.zip",
+          "shasum": "1ea7f4c80695b2f4098fa989945b063ac2516a1aefd9cf4eb7f3662b2086b4ba"
+        }
+      ]
+    },
+    {
       "version": "1.1.19",
       "protocols": [
         "5.0"

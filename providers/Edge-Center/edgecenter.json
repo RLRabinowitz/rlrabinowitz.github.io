@@ -2,6 +2,114 @@
   "repository": "https://github.com/Edge-Center/terraform-provider-edgecenter",
   "versions": [
     {
+      "version": "0.1.26",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/Edge-Center/terraform-provider-edgecenter/releases/download/v0.1.26/terraform-provider-edgecenter_0.1.26_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/Edge-Center/terraform-provider-edgecenter/releases/download/v0.1.26/terraform-provider-edgecenter_0.1.26_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-edgecenter_0.1.26_windows_arm64.zip",
+          "download_url": "https://github.com/Edge-Center/terraform-provider-edgecenter/releases/download/v0.1.26/terraform-provider-edgecenter_0.1.26_windows_arm64.zip",
+          "shasum": "0b28fc424d0b87c3bb654e903b6db99dfaf6d079138e0c5e91e145ce692588c0"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-edgecenter_0.1.26_windows_amd64.zip",
+          "download_url": "https://github.com/Edge-Center/terraform-provider-edgecenter/releases/download/v0.1.26/terraform-provider-edgecenter_0.1.26_windows_amd64.zip",
+          "shasum": "e1775212020dce5508871f101b882546da9450b8096f1fe0d52bc21aefe4e9a1"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-edgecenter_0.1.26_darwin_amd64.zip",
+          "download_url": "https://github.com/Edge-Center/terraform-provider-edgecenter/releases/download/v0.1.26/terraform-provider-edgecenter_0.1.26_darwin_amd64.zip",
+          "shasum": "15c1db4bd316cbfd383521f9e04d012fb2f8dc4ed710a00aec486b14d578bf3f"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-edgecenter_0.1.26_linux_arm.zip",
+          "download_url": "https://github.com/Edge-Center/terraform-provider-edgecenter/releases/download/v0.1.26/terraform-provider-edgecenter_0.1.26_linux_arm.zip",
+          "shasum": "acf7a02f3e7d6da863530cadb2c1880cca6623e885c1b90b76073d01153ec9e8"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-edgecenter_0.1.26_freebsd_386.zip",
+          "download_url": "https://github.com/Edge-Center/terraform-provider-edgecenter/releases/download/v0.1.26/terraform-provider-edgecenter_0.1.26_freebsd_386.zip",
+          "shasum": "bbf911e929c808985a4a48105751a6e12855938122ef630f6ef41cc0d2afc7b4"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-edgecenter_0.1.26_windows_arm.zip",
+          "download_url": "https://github.com/Edge-Center/terraform-provider-edgecenter/releases/download/v0.1.26/terraform-provider-edgecenter_0.1.26_windows_arm.zip",
+          "shasum": "2fdbed3fc0df665751c0454a0894aa162de603d1f001a8dbc9eadca8dd9a665a"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-edgecenter_0.1.26_windows_386.zip",
+          "download_url": "https://github.com/Edge-Center/terraform-provider-edgecenter/releases/download/v0.1.26/terraform-provider-edgecenter_0.1.26_windows_386.zip",
+          "shasum": "280546ff41c4b8c40aa71c30de965fb5c1d2bc6b805ae261b3161d46098dbf8e"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-edgecenter_0.1.26_freebsd_amd64.zip",
+          "download_url": "https://github.com/Edge-Center/terraform-provider-edgecenter/releases/download/v0.1.26/terraform-provider-edgecenter_0.1.26_freebsd_amd64.zip",
+          "shasum": "d539be90bd67a98bfd4045baba5afc2c82dc5ce5677370b21ff5ba6612a109e9"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-edgecenter_0.1.26_linux_arm64.zip",
+          "download_url": "https://github.com/Edge-Center/terraform-provider-edgecenter/releases/download/v0.1.26/terraform-provider-edgecenter_0.1.26_linux_arm64.zip",
+          "shasum": "8cf1d5d2f55148f3b29cd5b612a040bc699182d61cc14c5ff4c6e2fc05f1db38"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-edgecenter_0.1.26_freebsd_arm.zip",
+          "download_url": "https://github.com/Edge-Center/terraform-provider-edgecenter/releases/download/v0.1.26/terraform-provider-edgecenter_0.1.26_freebsd_arm.zip",
+          "shasum": "adb39b164d8dc8c48cd890c8bad465c7acaba8c837d54dfba257eac205665f6f"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-edgecenter_0.1.26_darwin_arm64.zip",
+          "download_url": "https://github.com/Edge-Center/terraform-provider-edgecenter/releases/download/v0.1.26/terraform-provider-edgecenter_0.1.26_darwin_arm64.zip",
+          "shasum": "920db138446febaf2550dccb2711ad41a6458456047b28be69f5446795bef5c1"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-edgecenter_0.1.26_freebsd_arm64.zip",
+          "download_url": "https://github.com/Edge-Center/terraform-provider-edgecenter/releases/download/v0.1.26/terraform-provider-edgecenter_0.1.26_freebsd_arm64.zip",
+          "shasum": "a56907a152a98a1e500b47acffd4c8672c370e21ca1d064161a2c772d33c3682"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-edgecenter_0.1.26_linux_386.zip",
+          "download_url": "https://github.com/Edge-Center/terraform-provider-edgecenter/releases/download/v0.1.26/terraform-provider-edgecenter_0.1.26_linux_386.zip",
+          "shasum": "2a366902f0fb347afa26003cd9bb0b10874578773ee4aeda9925d1b355a928ef"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-edgecenter_0.1.26_linux_amd64.zip",
+          "download_url": "https://github.com/Edge-Center/terraform-provider-edgecenter/releases/download/v0.1.26/terraform-provider-edgecenter_0.1.26_linux_amd64.zip",
+          "shasum": "c3eb013438f7724ae20d57712175a30cd7ac7990085857acd9b2be65d08fc289"
+        }
+      ]
+    },
+    {
       "version": "0.1.25",
       "protocols": [
         "5.0"
