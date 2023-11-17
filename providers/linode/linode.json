@@ -2,6 +2,114 @@
   "repository": "https://github.com/linode/terraform-provider-linode",
   "versions": [
     {
+      "version": "2.10.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/linode/terraform-provider-linode/releases/download/v2.10.0/terraform-provider-linode_2.10.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/linode/terraform-provider-linode/releases/download/v2.10.0/terraform-provider-linode_2.10.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-linode_2.10.0_linux_arm64.zip",
+          "download_url": "https://github.com/linode/terraform-provider-linode/releases/download/v2.10.0/terraform-provider-linode_2.10.0_linux_arm64.zip",
+          "shasum": "2b1e6ee97b68546c31c7078b79b5133d8a242ad0f38c7ee3c064c152a9b2791d"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-linode_2.10.0_darwin_arm64.zip",
+          "download_url": "https://github.com/linode/terraform-provider-linode/releases/download/v2.10.0/terraform-provider-linode_2.10.0_darwin_arm64.zip",
+          "shasum": "311c85af8507444271f700f72e8822a81328ce4cf342391902acd45883812e4c"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-linode_2.10.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/linode/terraform-provider-linode/releases/download/v2.10.0/terraform-provider-linode_2.10.0_freebsd_amd64.zip",
+          "shasum": "c71ab2527f0acd43c4f5731878d337409608ce72eae786837c61830b6cac6f6b"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-linode_2.10.0_linux_386.zip",
+          "download_url": "https://github.com/linode/terraform-provider-linode/releases/download/v2.10.0/terraform-provider-linode_2.10.0_linux_386.zip",
+          "shasum": "a541cd0c42baf661666a77e675562056dd1a87626ae7f8ef03096223f4dbfaf9"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-linode_2.10.0_freebsd_arm.zip",
+          "download_url": "https://github.com/linode/terraform-provider-linode/releases/download/v2.10.0/terraform-provider-linode_2.10.0_freebsd_arm.zip",
+          "shasum": "af39f5f021d6d77100e6f0229f4ae4203eb1ece4f96ee39a57c6c0b44e6667ab"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-linode_2.10.0_windows_arm.zip",
+          "download_url": "https://github.com/linode/terraform-provider-linode/releases/download/v2.10.0/terraform-provider-linode_2.10.0_windows_arm.zip",
+          "shasum": "7650fdad269e2fba6e06f59cd8a929a14d60fb9637ea08528dfcbe8e07b31ce3"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-linode_2.10.0_windows_386.zip",
+          "download_url": "https://github.com/linode/terraform-provider-linode/releases/download/v2.10.0/terraform-provider-linode_2.10.0_windows_386.zip",
+          "shasum": "4e6f28b359b78396d0966a913e3ae1624e63a925a89daf9a7c17531981069dc9"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-linode_2.10.0_freebsd_386.zip",
+          "download_url": "https://github.com/linode/terraform-provider-linode/releases/download/v2.10.0/terraform-provider-linode_2.10.0_freebsd_386.zip",
+          "shasum": "aafc1a7ae50c079878d97568263312d1646633b4a981dfb434ebf9723d467129"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-linode_2.10.0_linux_arm.zip",
+          "download_url": "https://github.com/linode/terraform-provider-linode/releases/download/v2.10.0/terraform-provider-linode_2.10.0_linux_arm.zip",
+          "shasum": "5a83dfe2463be34c012dd43abe065d75d7f372cddf69741e44415ddbb3eacb3f"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-linode_2.10.0_linux_amd64.zip",
+          "download_url": "https://github.com/linode/terraform-provider-linode/releases/download/v2.10.0/terraform-provider-linode_2.10.0_linux_amd64.zip",
+          "shasum": "c4586b7ddc3ea6a6af6ff17d420c9811d494aa4aa1e2abfbe37299185299e452"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-linode_2.10.0_windows_amd64.zip",
+          "download_url": "https://github.com/linode/terraform-provider-linode/releases/download/v2.10.0/terraform-provider-linode_2.10.0_windows_amd64.zip",
+          "shasum": "6e0e38fb9b036b315326a770e0252c086e302042a95bd9178156bb16f57c25cb"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-linode_2.10.0_darwin_amd64.zip",
+          "download_url": "https://github.com/linode/terraform-provider-linode/releases/download/v2.10.0/terraform-provider-linode_2.10.0_darwin_amd64.zip",
+          "shasum": "db45a9ea3b2ecfd19670e4617e0253d483edc04814f1e59e1bb9750777c158d8"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-linode_2.10.0_windows_arm64.zip",
+          "download_url": "https://github.com/linode/terraform-provider-linode/releases/download/v2.10.0/terraform-provider-linode_2.10.0_windows_arm64.zip",
+          "shasum": "e7a0a4005eb9d2e3f6730f2cb4d548470099e11ed78586ed9a55b666481d4531"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-linode_2.10.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/linode/terraform-provider-linode/releases/download/v2.10.0/terraform-provider-linode_2.10.0_freebsd_arm64.zip",
+          "shasum": "ffa1bc401c4b531fc22d032aff7e98986fa56479ee2949b14a454b365889fb08"
+        }
+      ]
+    },
+    {
       "version": "2.9.7",
       "protocols": [
         "5.0"
