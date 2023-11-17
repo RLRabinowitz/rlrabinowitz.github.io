@@ -2,6 +2,114 @@
   "repository": "https://github.com/aballiet/terraform-provider-airbyte-oss",
   "versions": [
     {
+      "version": "1.0.6",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/aballiet/terraform-provider-airbyte-oss/releases/download/v1.0.6/terraform-provider-airbyte-oss_1.0.6_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/aballiet/terraform-provider-airbyte-oss/releases/download/v1.0.6/terraform-provider-airbyte-oss_1.0.6_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-airbyte-oss_1.0.6_windows_arm.zip",
+          "download_url": "https://github.com/aballiet/terraform-provider-airbyte-oss/releases/download/v1.0.6/terraform-provider-airbyte-oss_1.0.6_windows_arm.zip",
+          "shasum": "63ccb0a2b602f96ca56300c314490deb2117f7cd8d2899719fe62a3a0522e737"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-airbyte-oss_1.0.6_windows_amd64.zip",
+          "download_url": "https://github.com/aballiet/terraform-provider-airbyte-oss/releases/download/v1.0.6/terraform-provider-airbyte-oss_1.0.6_windows_amd64.zip",
+          "shasum": "d6c3c6b6ab18313cc36e659ef98124deee6ba798636115104ab7bb57a5bf6ec7"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-airbyte-oss_1.0.6_freebsd_amd64.zip",
+          "download_url": "https://github.com/aballiet/terraform-provider-airbyte-oss/releases/download/v1.0.6/terraform-provider-airbyte-oss_1.0.6_freebsd_amd64.zip",
+          "shasum": "b9154fe34870493884a137f02311bf9724f40b3d7ed5a68be9edd5e820b90086"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-airbyte-oss_1.0.6_freebsd_arm.zip",
+          "download_url": "https://github.com/aballiet/terraform-provider-airbyte-oss/releases/download/v1.0.6/terraform-provider-airbyte-oss_1.0.6_freebsd_arm.zip",
+          "shasum": "e38ba7e48c621faf823667349492c32bfce8c2d4e676e30fcee765043047ebf0"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-airbyte-oss_1.0.6_linux_arm.zip",
+          "download_url": "https://github.com/aballiet/terraform-provider-airbyte-oss/releases/download/v1.0.6/terraform-provider-airbyte-oss_1.0.6_linux_arm.zip",
+          "shasum": "fee3f3ede0cfcd5a4bed88f5031f47392db52a884e1f331a97a44182e2efe34e"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-airbyte-oss_1.0.6_darwin_arm64.zip",
+          "download_url": "https://github.com/aballiet/terraform-provider-airbyte-oss/releases/download/v1.0.6/terraform-provider-airbyte-oss_1.0.6_darwin_arm64.zip",
+          "shasum": "a8d37f095d0106d937c9e78b3eb451f44cff82da7caa88b2aa611d4ce5d1a4eb"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-airbyte-oss_1.0.6_freebsd_386.zip",
+          "download_url": "https://github.com/aballiet/terraform-provider-airbyte-oss/releases/download/v1.0.6/terraform-provider-airbyte-oss_1.0.6_freebsd_386.zip",
+          "shasum": "bc3b07cb2efda7f138b5412368891b13055120836607261ea101214ffca9b11c"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-airbyte-oss_1.0.6_windows_386.zip",
+          "download_url": "https://github.com/aballiet/terraform-provider-airbyte-oss/releases/download/v1.0.6/terraform-provider-airbyte-oss_1.0.6_windows_386.zip",
+          "shasum": "4dc1841502bfc7420456135a358addc048e222f9f5820cdf0f08c20753655287"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-airbyte-oss_1.0.6_freebsd_arm64.zip",
+          "download_url": "https://github.com/aballiet/terraform-provider-airbyte-oss/releases/download/v1.0.6/terraform-provider-airbyte-oss_1.0.6_freebsd_arm64.zip",
+          "shasum": "0ce19d415950a488c6e269f3a222800e09bd8c9fb0c450783df31b73c00e1f93"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-airbyte-oss_1.0.6_windows_arm64.zip",
+          "download_url": "https://github.com/aballiet/terraform-provider-airbyte-oss/releases/download/v1.0.6/terraform-provider-airbyte-oss_1.0.6_windows_arm64.zip",
+          "shasum": "3d50592ce339f345ed63bb32f9ea6e8ae80bbd09a0ef16c82cae0e4e626b85e3"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-airbyte-oss_1.0.6_linux_386.zip",
+          "download_url": "https://github.com/aballiet/terraform-provider-airbyte-oss/releases/download/v1.0.6/terraform-provider-airbyte-oss_1.0.6_linux_386.zip",
+          "shasum": "cfb6535d70defabe8b85069fab8a6915f0dbbb77dad6d187427f2a57cad5be20"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-airbyte-oss_1.0.6_linux_amd64.zip",
+          "download_url": "https://github.com/aballiet/terraform-provider-airbyte-oss/releases/download/v1.0.6/terraform-provider-airbyte-oss_1.0.6_linux_amd64.zip",
+          "shasum": "b47ceb35371cb17843dd9015eaeb7554111d893eefe3fb788f4d301571534100"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-airbyte-oss_1.0.6_linux_arm64.zip",
+          "download_url": "https://github.com/aballiet/terraform-provider-airbyte-oss/releases/download/v1.0.6/terraform-provider-airbyte-oss_1.0.6_linux_arm64.zip",
+          "shasum": "d138cc3be0f9ea090f0a3055b18b67cac260369eaa22b5cc07ef090af0d10c2c"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-airbyte-oss_1.0.6_darwin_amd64.zip",
+          "download_url": "https://github.com/aballiet/terraform-provider-airbyte-oss/releases/download/v1.0.6/terraform-provider-airbyte-oss_1.0.6_darwin_amd64.zip",
+          "shasum": "7fd518423fd20a380682b744ccb9244d17517decdf5749a7ee12416e8985d2b9"
+        }
+      ]
+    },
+    {
       "version": "1.0.5",
       "protocols": [
         "5.0"
