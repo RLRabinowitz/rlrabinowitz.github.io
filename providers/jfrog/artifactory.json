@@ -2,6 +2,114 @@
   "repository": "https://github.com/jfrog/terraform-provider-artifactory",
   "versions": [
     {
+      "version": "9.9.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/jfrog/terraform-provider-artifactory/releases/download/v9.9.0/terraform-provider-artifactory_9.9.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/jfrog/terraform-provider-artifactory/releases/download/v9.9.0/terraform-provider-artifactory_9.9.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-artifactory_9.9.0_freebsd_arm.zip",
+          "download_url": "https://github.com/jfrog/terraform-provider-artifactory/releases/download/v9.9.0/terraform-provider-artifactory_9.9.0_freebsd_arm.zip",
+          "shasum": "75e9a28b9d877782e60b255f48cfbd30f0c49557a4266f521609d10c6c9b3b58"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-artifactory_9.9.0_linux_arm.zip",
+          "download_url": "https://github.com/jfrog/terraform-provider-artifactory/releases/download/v9.9.0/terraform-provider-artifactory_9.9.0_linux_arm.zip",
+          "shasum": "edfb0b91fbbfad0b62aebf1fa8fbe538dbadc3f24a66a8fdaf1e97b3daec243c"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-artifactory_9.9.0_linux_amd64.zip",
+          "download_url": "https://github.com/jfrog/terraform-provider-artifactory/releases/download/v9.9.0/terraform-provider-artifactory_9.9.0_linux_amd64.zip",
+          "shasum": "949eff9eb7ef02103701a529d951f6abe4eb925baaff7f79029680f3a8c92f07"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-artifactory_9.9.0_windows_arm64.zip",
+          "download_url": "https://github.com/jfrog/terraform-provider-artifactory/releases/download/v9.9.0/terraform-provider-artifactory_9.9.0_windows_arm64.zip",
+          "shasum": "ee5b46081fc04817fdb2a92427fda9b78bae112740ab08e2f42074a6ae20347a"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-artifactory_9.9.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/jfrog/terraform-provider-artifactory/releases/download/v9.9.0/terraform-provider-artifactory_9.9.0_freebsd_arm64.zip",
+          "shasum": "9876736d369ee0d12cccc132564688ad8c316c26b314b96bb81985c9ae6a57f4"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-artifactory_9.9.0_darwin_arm64.zip",
+          "download_url": "https://github.com/jfrog/terraform-provider-artifactory/releases/download/v9.9.0/terraform-provider-artifactory_9.9.0_darwin_arm64.zip",
+          "shasum": "679894f83373bb729b7d93caeeebdea59dc536f0ab80820c5ccbfd9c7e6a47a7"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-artifactory_9.9.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/jfrog/terraform-provider-artifactory/releases/download/v9.9.0/terraform-provider-artifactory_9.9.0_freebsd_amd64.zip",
+          "shasum": "d64805a4f4cf2fc8f9877c12135fab06ae85f2ce739157b7a2dd0ae5b9a61b07"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-artifactory_9.9.0_freebsd_386.zip",
+          "download_url": "https://github.com/jfrog/terraform-provider-artifactory/releases/download/v9.9.0/terraform-provider-artifactory_9.9.0_freebsd_386.zip",
+          "shasum": "30a470992378d179b0a23d2f2ba1c19e36589ea0b88e626625422714ea37d9e6"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-artifactory_9.9.0_linux_386.zip",
+          "download_url": "https://github.com/jfrog/terraform-provider-artifactory/releases/download/v9.9.0/terraform-provider-artifactory_9.9.0_linux_386.zip",
+          "shasum": "f7e554044c29620361848db236336dae8bca76b4677dcd23cecc9f09744b4f76"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-artifactory_9.9.0_linux_arm64.zip",
+          "download_url": "https://github.com/jfrog/terraform-provider-artifactory/releases/download/v9.9.0/terraform-provider-artifactory_9.9.0_linux_arm64.zip",
+          "shasum": "5d43fa5aaaa9aca8bfe8d466c2cbe4bdee00854c6b20b5f7003f5db2c3f3f025"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-artifactory_9.9.0_darwin_amd64.zip",
+          "download_url": "https://github.com/jfrog/terraform-provider-artifactory/releases/download/v9.9.0/terraform-provider-artifactory_9.9.0_darwin_amd64.zip",
+          "shasum": "d835f04e61183eb069bf5d07196b52b49e74419708ea8b9e90a4606f55458159"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-artifactory_9.9.0_windows_amd64.zip",
+          "download_url": "https://github.com/jfrog/terraform-provider-artifactory/releases/download/v9.9.0/terraform-provider-artifactory_9.9.0_windows_amd64.zip",
+          "shasum": "2750f95f32d5825c0d10338a6f80afc08c774367a4b4008c824ecbf6061ef72a"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-artifactory_9.9.0_windows_arm.zip",
+          "download_url": "https://github.com/jfrog/terraform-provider-artifactory/releases/download/v9.9.0/terraform-provider-artifactory_9.9.0_windows_arm.zip",
+          "shasum": "0a3d64fc9cdee474641126796e72fd458f02398ddd5e33d9b80a5727c8dfc647"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-artifactory_9.9.0_windows_386.zip",
+          "download_url": "https://github.com/jfrog/terraform-provider-artifactory/releases/download/v9.9.0/terraform-provider-artifactory_9.9.0_windows_386.zip",
+          "shasum": "bd8b7b48ca60061dd04d19588b1e91d839db94ef956aa504b9c15cb70023c655"
+        }
+      ]
+    },
+    {
       "version": "9.8.0",
       "protocols": [
         "5.0"
