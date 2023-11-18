@@ -2,6 +2,93 @@
   "repository": "https://github.com/shorelinesoftware/terraform-provider-shoreline",
   "versions": [
     {
+      "version": "1.14.12",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/shorelinesoftware/terraform-provider-shoreline/releases/download/v1.14.12/terraform-provider-shoreline_1.14.12_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/shorelinesoftware/terraform-provider-shoreline/releases/download/v1.14.12/terraform-provider-shoreline_1.14.12_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-shoreline_1.14.12_linux_amd64.zip",
+          "download_url": "https://github.com/shorelinesoftware/terraform-provider-shoreline/releases/download/v1.14.12/terraform-provider-shoreline_1.14.12_linux_amd64.zip",
+          "shasum": "8085a990ea577bea871d4ebf95407ad7a1ad02da797689003630f5a2569428d1"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-shoreline_1.14.12_linux_arm.zip",
+          "download_url": "https://github.com/shorelinesoftware/terraform-provider-shoreline/releases/download/v1.14.12/terraform-provider-shoreline_1.14.12_linux_arm.zip",
+          "shasum": "2253836e3deef9b161d71ca8ab6bddcb590011954802800afef04273489211ed"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-shoreline_1.14.12_darwin_arm64.zip",
+          "download_url": "https://github.com/shorelinesoftware/terraform-provider-shoreline/releases/download/v1.14.12/terraform-provider-shoreline_1.14.12_darwin_arm64.zip",
+          "shasum": "d9e46b7893d3b468916e8256765b5f97cc958ddb2f48e0f1c75d9ab1899d1cd5"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-shoreline_1.14.12_darwin_amd64.zip",
+          "download_url": "https://github.com/shorelinesoftware/terraform-provider-shoreline/releases/download/v1.14.12/terraform-provider-shoreline_1.14.12_darwin_amd64.zip",
+          "shasum": "0a2c5c3d379fcd616c3d860994afcb113c393c1c7adb86099a9af732b17ee916"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-shoreline_1.14.12_freebsd_arm.zip",
+          "download_url": "https://github.com/shorelinesoftware/terraform-provider-shoreline/releases/download/v1.14.12/terraform-provider-shoreline_1.14.12_freebsd_arm.zip",
+          "shasum": "e29179dc6205a74fcd184f86a825f9a45aacaf49ef6628e0ca39ef452dacc5fa"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-shoreline_1.14.12_windows_arm64.zip",
+          "download_url": "https://github.com/shorelinesoftware/terraform-provider-shoreline/releases/download/v1.14.12/terraform-provider-shoreline_1.14.12_windows_arm64.zip",
+          "shasum": "51b101d4edf2b9fddf6ba2e2ae3827b42a3a075391157f88d9ca2211b8c93f0b"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-shoreline_1.14.12_windows_arm.zip",
+          "download_url": "https://github.com/shorelinesoftware/terraform-provider-shoreline/releases/download/v1.14.12/terraform-provider-shoreline_1.14.12_windows_arm.zip",
+          "shasum": "ba625cb2e66978a0a1ad8f287b5c6a59dd4861b0533915c40e5dda529a47b56c"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-shoreline_1.14.12_windows_amd64.zip",
+          "download_url": "https://github.com/shorelinesoftware/terraform-provider-shoreline/releases/download/v1.14.12/terraform-provider-shoreline_1.14.12_windows_amd64.zip",
+          "shasum": "3f481fecf851062951403012323865736403d8ddcedd844e26d946928b9dc6e3"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-shoreline_1.14.12_freebsd_amd64.zip",
+          "download_url": "https://github.com/shorelinesoftware/terraform-provider-shoreline/releases/download/v1.14.12/terraform-provider-shoreline_1.14.12_freebsd_amd64.zip",
+          "shasum": "1220434f732cd9b0a8de640797f70424dbf88f4884b6c4cf6e5aec1a628f734f"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-shoreline_1.14.12_freebsd_arm64.zip",
+          "download_url": "https://github.com/shorelinesoftware/terraform-provider-shoreline/releases/download/v1.14.12/terraform-provider-shoreline_1.14.12_freebsd_arm64.zip",
+          "shasum": "2db980eafadc374ad9481bacc0d2674667fe677e8edf96bf3f48270c758d4846"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-shoreline_1.14.12_linux_arm64.zip",
+          "download_url": "https://github.com/shorelinesoftware/terraform-provider-shoreline/releases/download/v1.14.12/terraform-provider-shoreline_1.14.12_linux_arm64.zip",
+          "shasum": "ec48eccfc587d45cedf13aa18683fc834280bb930b53207797674d78256b84b9"
+        }
+      ]
+    },
+    {
       "version": "1.14.11",
       "protocols": [
         "5.0"

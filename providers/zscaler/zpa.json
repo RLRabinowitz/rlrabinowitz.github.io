@@ -2,6 +2,114 @@
   "repository": "https://github.com/zscaler/terraform-provider-zpa",
   "versions": [
     {
+      "version": "3.0.5",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/zscaler/terraform-provider-zpa/releases/download/v3.0.5/terraform-provider-zpa_3.0.5_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/zscaler/terraform-provider-zpa/releases/download/v3.0.5/terraform-provider-zpa_3.0.5_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-zpa_3.0.5_darwin_arm64.zip",
+          "download_url": "https://github.com/zscaler/terraform-provider-zpa/releases/download/v3.0.5/terraform-provider-zpa_3.0.5_darwin_arm64.zip",
+          "shasum": "5ff9ee8ce8e8771c8e7869490e4665849d362a322e820d42a63bd163dd0344ad"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-zpa_3.0.5_linux_arm64.zip",
+          "download_url": "https://github.com/zscaler/terraform-provider-zpa/releases/download/v3.0.5/terraform-provider-zpa_3.0.5_linux_arm64.zip",
+          "shasum": "7467efee18d0e345c4785a5f9901804ac54321bb0b91fb6737442df568b12d86"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-zpa_3.0.5_linux_amd64.zip",
+          "download_url": "https://github.com/zscaler/terraform-provider-zpa/releases/download/v3.0.5/terraform-provider-zpa_3.0.5_linux_amd64.zip",
+          "shasum": "6f61b3414a87091383fa9eb02ab870b579163180ddd8f0b6d333effaee077bc2"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-zpa_3.0.5_freebsd_386.zip",
+          "download_url": "https://github.com/zscaler/terraform-provider-zpa/releases/download/v3.0.5/terraform-provider-zpa_3.0.5_freebsd_386.zip",
+          "shasum": "94605ce3e55cc89d0c4d33ae44cf08970499c45ad4896d26eb1f6811eeb897ae"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-zpa_3.0.5_windows_arm64.zip",
+          "download_url": "https://github.com/zscaler/terraform-provider-zpa/releases/download/v3.0.5/terraform-provider-zpa_3.0.5_windows_arm64.zip",
+          "shasum": "76b1d100834e4eeb7f6b97133462513efa35c16b00dd0dfe528504d847fdcebb"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-zpa_3.0.5_freebsd_arm.zip",
+          "download_url": "https://github.com/zscaler/terraform-provider-zpa/releases/download/v3.0.5/terraform-provider-zpa_3.0.5_freebsd_arm.zip",
+          "shasum": "e801d69d7a4d73706f1e7411aaad88aacf758fa4d7d60eb3c2d5d4be1d3e17b1"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-zpa_3.0.5_windows_386.zip",
+          "download_url": "https://github.com/zscaler/terraform-provider-zpa/releases/download/v3.0.5/terraform-provider-zpa_3.0.5_windows_386.zip",
+          "shasum": "e42d46779744cc3f504097d4c253ea6d544819aff5680664b14e5486774e18be"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-zpa_3.0.5_freebsd_arm64.zip",
+          "download_url": "https://github.com/zscaler/terraform-provider-zpa/releases/download/v3.0.5/terraform-provider-zpa_3.0.5_freebsd_arm64.zip",
+          "shasum": "ad42eb1096a43da85017b802249e6f91d6d7aa7434b6a04c6d18682e54af6215"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-zpa_3.0.5_windows_amd64.zip",
+          "download_url": "https://github.com/zscaler/terraform-provider-zpa/releases/download/v3.0.5/terraform-provider-zpa_3.0.5_windows_amd64.zip",
+          "shasum": "8df9c237154ebafd75e87ea3740e164c9bdd9af2420b1b0fa080422df9923d8b"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-zpa_3.0.5_linux_386.zip",
+          "download_url": "https://github.com/zscaler/terraform-provider-zpa/releases/download/v3.0.5/terraform-provider-zpa_3.0.5_linux_386.zip",
+          "shasum": "33cdf0e4320ff9290e14dd8784cb50c2ab0ccb7c7e5af4e451bfcbaebe2abd3d"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-zpa_3.0.5_darwin_amd64.zip",
+          "download_url": "https://github.com/zscaler/terraform-provider-zpa/releases/download/v3.0.5/terraform-provider-zpa_3.0.5_darwin_amd64.zip",
+          "shasum": "672322ec6269f6d23f6fff55566bd67b8771fd01a35b95a10310054f8a06d13a"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-zpa_3.0.5_freebsd_amd64.zip",
+          "download_url": "https://github.com/zscaler/terraform-provider-zpa/releases/download/v3.0.5/terraform-provider-zpa_3.0.5_freebsd_amd64.zip",
+          "shasum": "f9199986845c8b2ddc688283ce3fcd8683696b0c260a959e6d3de92626180440"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-zpa_3.0.5_linux_arm.zip",
+          "download_url": "https://github.com/zscaler/terraform-provider-zpa/releases/download/v3.0.5/terraform-provider-zpa_3.0.5_linux_arm.zip",
+          "shasum": "186232fe9acbebc44352c89cb97e762793f713a950c563bcddc933e416e02e0a"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-zpa_3.0.5_windows_arm.zip",
+          "download_url": "https://github.com/zscaler/terraform-provider-zpa/releases/download/v3.0.5/terraform-provider-zpa_3.0.5_windows_arm.zip",
+          "shasum": "e66057cb3e8606c4b51078a97b27c99e1b0fa1d435e59005734e1b367d7944fc"
+        }
+      ]
+    },
+    {
       "version": "3.0.4",
       "protocols": [
         "5.0"
