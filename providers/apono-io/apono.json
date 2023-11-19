@@ -2,6 +2,114 @@
   "repository": "https://github.com/apono-io/terraform-provider-apono",
   "versions": [
     {
+      "version": "0.2.2",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/apono-io/terraform-provider-apono/releases/download/v0.2.2/terraform-provider-apono_0.2.2_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/apono-io/terraform-provider-apono/releases/download/v0.2.2/terraform-provider-apono_0.2.2_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-apono_0.2.2_freebsd_arm64.zip",
+          "download_url": "https://github.com/apono-io/terraform-provider-apono/releases/download/v0.2.2/terraform-provider-apono_0.2.2_freebsd_arm64.zip",
+          "shasum": "2323d9d8662c7db9607e77dc94092b6620d1aa6110c7f444eb292f95f9c563cc"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-apono_0.2.2_windows_arm64.zip",
+          "download_url": "https://github.com/apono-io/terraform-provider-apono/releases/download/v0.2.2/terraform-provider-apono_0.2.2_windows_arm64.zip",
+          "shasum": "13b967df0c8df60d0175470f41a8e0e9a7fc801a0b8e1e74db0aaf8b3536b2a3"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-apono_0.2.2_linux_386.zip",
+          "download_url": "https://github.com/apono-io/terraform-provider-apono/releases/download/v0.2.2/terraform-provider-apono_0.2.2_linux_386.zip",
+          "shasum": "9f1ee2862f18a926066dff60dd1da533c1061350466aea77b8d45fbf8c2523e4"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-apono_0.2.2_freebsd_386.zip",
+          "download_url": "https://github.com/apono-io/terraform-provider-apono/releases/download/v0.2.2/terraform-provider-apono_0.2.2_freebsd_386.zip",
+          "shasum": "527df0dc60e835277ecdae5951f35419f1dd40fbe30e81494202c3a9b891e647"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-apono_0.2.2_freebsd_arm.zip",
+          "download_url": "https://github.com/apono-io/terraform-provider-apono/releases/download/v0.2.2/terraform-provider-apono_0.2.2_freebsd_arm.zip",
+          "shasum": "f216959bf97e3788b3e4d1c841a2f5881d27a59d868f6598a53639d25d22bbda"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-apono_0.2.2_linux_arm64.zip",
+          "download_url": "https://github.com/apono-io/terraform-provider-apono/releases/download/v0.2.2/terraform-provider-apono_0.2.2_linux_arm64.zip",
+          "shasum": "93931a3f5024d82dec87c0fd84350d99c87c065dd61d3eac3952aca9de983dac"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-apono_0.2.2_linux_amd64.zip",
+          "download_url": "https://github.com/apono-io/terraform-provider-apono/releases/download/v0.2.2/terraform-provider-apono_0.2.2_linux_amd64.zip",
+          "shasum": "a7c7ac6d58bf0665b8ce7a501ba324655808db11902eff21aede6d9e4b906511"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-apono_0.2.2_darwin_arm64.zip",
+          "download_url": "https://github.com/apono-io/terraform-provider-apono/releases/download/v0.2.2/terraform-provider-apono_0.2.2_darwin_arm64.zip",
+          "shasum": "2d4848a210e5394ca9d6ff87f44ab4094b848ba6498a45cb045d7cc7c07a0ba2"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-apono_0.2.2_windows_arm.zip",
+          "download_url": "https://github.com/apono-io/terraform-provider-apono/releases/download/v0.2.2/terraform-provider-apono_0.2.2_windows_arm.zip",
+          "shasum": "245fb65acb4ffd01cfbc76c1e2fc673652fd232acc3595110096add891ac902f"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-apono_0.2.2_linux_arm.zip",
+          "download_url": "https://github.com/apono-io/terraform-provider-apono/releases/download/v0.2.2/terraform-provider-apono_0.2.2_linux_arm.zip",
+          "shasum": "a67a5dc6e91ac3036bd944f565bb6d9a17fe4839cafff4833b9ddfed46631a89"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-apono_0.2.2_darwin_amd64.zip",
+          "download_url": "https://github.com/apono-io/terraform-provider-apono/releases/download/v0.2.2/terraform-provider-apono_0.2.2_darwin_amd64.zip",
+          "shasum": "9690182a59bbff65000894794e9505443f9ccf529021e40f618ad50e3355fa25"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-apono_0.2.2_freebsd_amd64.zip",
+          "download_url": "https://github.com/apono-io/terraform-provider-apono/releases/download/v0.2.2/terraform-provider-apono_0.2.2_freebsd_amd64.zip",
+          "shasum": "d7084ab4b6ad3395e3ebf2bf6ae0bd1a40f4405da97c5ad6e69e44aecec9e8c9"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-apono_0.2.2_windows_386.zip",
+          "download_url": "https://github.com/apono-io/terraform-provider-apono/releases/download/v0.2.2/terraform-provider-apono_0.2.2_windows_386.zip",
+          "shasum": "cbd70b1a99b1e6cb11e828e4079cf6255303d01df63518abb38a4f71116d2268"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-apono_0.2.2_windows_amd64.zip",
+          "download_url": "https://github.com/apono-io/terraform-provider-apono/releases/download/v0.2.2/terraform-provider-apono_0.2.2_windows_amd64.zip",
+          "shasum": "1bad5501febb4a140df82827fb6d1634c62d748a55b1838e32ba05869cd094f7"
+        }
+      ]
+    },
+    {
       "version": "0.2.1",
       "protocols": [
         "5.0"
