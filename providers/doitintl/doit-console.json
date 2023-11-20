@@ -2,6 +2,114 @@
   "repository": "https://github.com/doitintl/terraform-provider-doit-console",
   "versions": [
     {
+      "version": "0.3.1",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/doitintl/terraform-provider-doit-console/releases/download/v0.3.1/terraform-provider-doit-console_0.3.1_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/doitintl/terraform-provider-doit-console/releases/download/v0.3.1/terraform-provider-doit-console_0.3.1_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-doit-console_0.3.1_freebsd_amd64.zip",
+          "download_url": "https://github.com/doitintl/terraform-provider-doit-console/releases/download/v0.3.1/terraform-provider-doit-console_0.3.1_freebsd_amd64.zip",
+          "shasum": "e37c4467579c4e280662a90d3a63daaabfe71ce24e8aa4b5580cac583d141b12"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-doit-console_0.3.1_linux_arm64.zip",
+          "download_url": "https://github.com/doitintl/terraform-provider-doit-console/releases/download/v0.3.1/terraform-provider-doit-console_0.3.1_linux_arm64.zip",
+          "shasum": "1d607e344a757f6e656a3100c8fdbecefba5a37d00b73659fee486c5f1bbcc25"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-doit-console_0.3.1_linux_amd64.zip",
+          "download_url": "https://github.com/doitintl/terraform-provider-doit-console/releases/download/v0.3.1/terraform-provider-doit-console_0.3.1_linux_amd64.zip",
+          "shasum": "ea78b03978a42179e9335e621b3edf5e90b7abb7164a50c7b3a9ca8c535d4c66"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-doit-console_0.3.1_windows_arm.zip",
+          "download_url": "https://github.com/doitintl/terraform-provider-doit-console/releases/download/v0.3.1/terraform-provider-doit-console_0.3.1_windows_arm.zip",
+          "shasum": "b609972464e599ceedf906f766fc30a3caa7eb5f0bafcaba221a235917cf2e88"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-doit-console_0.3.1_darwin_arm64.zip",
+          "download_url": "https://github.com/doitintl/terraform-provider-doit-console/releases/download/v0.3.1/terraform-provider-doit-console_0.3.1_darwin_arm64.zip",
+          "shasum": "fcc5bd81b745446f84a6f169823f62fdc862820ca6eaba47f77b106bd64b4e7e"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-doit-console_0.3.1_linux_386.zip",
+          "download_url": "https://github.com/doitintl/terraform-provider-doit-console/releases/download/v0.3.1/terraform-provider-doit-console_0.3.1_linux_386.zip",
+          "shasum": "f5fd8f3ac0c889b2c2a563f363a08a7f3ecb4be261c68487f88aabc6ecb4bf97"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-doit-console_0.3.1_freebsd_arm.zip",
+          "download_url": "https://github.com/doitintl/terraform-provider-doit-console/releases/download/v0.3.1/terraform-provider-doit-console_0.3.1_freebsd_arm.zip",
+          "shasum": "7cb9d958eec368840a505b35d4437381597396232937d1812011ea5f7fb1c4f8"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-doit-console_0.3.1_freebsd_386.zip",
+          "download_url": "https://github.com/doitintl/terraform-provider-doit-console/releases/download/v0.3.1/terraform-provider-doit-console_0.3.1_freebsd_386.zip",
+          "shasum": "8e49900bca6fe813bd7dcfc98a20a2833419572eb44d8369680c7465ed67edb3"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-doit-console_0.3.1_windows_386.zip",
+          "download_url": "https://github.com/doitintl/terraform-provider-doit-console/releases/download/v0.3.1/terraform-provider-doit-console_0.3.1_windows_386.zip",
+          "shasum": "04e709e15b28c536abf0811b2f838e1bee7a3a209fef7937b249962ecd9d09f2"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-doit-console_0.3.1_freebsd_arm64.zip",
+          "download_url": "https://github.com/doitintl/terraform-provider-doit-console/releases/download/v0.3.1/terraform-provider-doit-console_0.3.1_freebsd_arm64.zip",
+          "shasum": "090152e303309c302b9c9193ac432d4b10abee80a88f3798d4ad3b887deb663f"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-doit-console_0.3.1_darwin_amd64.zip",
+          "download_url": "https://github.com/doitintl/terraform-provider-doit-console/releases/download/v0.3.1/terraform-provider-doit-console_0.3.1_darwin_amd64.zip",
+          "shasum": "3550ed7c49d4d511660cb517421cedb0c4fa3d81374f28951ea422cbb9d60abe"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-doit-console_0.3.1_windows_amd64.zip",
+          "download_url": "https://github.com/doitintl/terraform-provider-doit-console/releases/download/v0.3.1/terraform-provider-doit-console_0.3.1_windows_amd64.zip",
+          "shasum": "a612817538a9b6ee28c3590d1909e5dd2457b4765e1eb4f8a27b9b99187d4569"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-doit-console_0.3.1_linux_arm.zip",
+          "download_url": "https://github.com/doitintl/terraform-provider-doit-console/releases/download/v0.3.1/terraform-provider-doit-console_0.3.1_linux_arm.zip",
+          "shasum": "9720321407c12302fd345227812cd3719f9a3f9459feb32ecedddfd6f1fe379b"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-doit-console_0.3.1_windows_arm64.zip",
+          "download_url": "https://github.com/doitintl/terraform-provider-doit-console/releases/download/v0.3.1/terraform-provider-doit-console_0.3.1_windows_arm64.zip",
+          "shasum": "20536dbd9b7bf0e044fb2ae157f3406a1b9b184200155e32674f4a0505ac53fe"
+        }
+      ]
+    },
+    {
       "version": "0.3.0",
       "protocols": [
         "5.0"
