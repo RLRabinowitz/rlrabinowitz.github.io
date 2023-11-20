@@ -2,6 +2,107 @@
   "repository": "https://github.com/massdriver-cloud/terraform-provider-massdriver",
   "versions": [
     {
+      "version": "1.2.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/massdriver-cloud/terraform-provider-massdriver/releases/download/v1.2.0/terraform-provider-massdriver_1.2.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/massdriver-cloud/terraform-provider-massdriver/releases/download/v1.2.0/terraform-provider-massdriver_1.2.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-massdriver_1.2.0_freebsd_arm.zip",
+          "download_url": "https://github.com/massdriver-cloud/terraform-provider-massdriver/releases/download/v1.2.0/terraform-provider-massdriver_1.2.0_freebsd_arm.zip",
+          "shasum": "c65ce0065e0d6bb402db881c36172ae57995ffb7da81f9f6342d50853c4696b6"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-massdriver_1.2.0_linux_arm64.zip",
+          "download_url": "https://github.com/massdriver-cloud/terraform-provider-massdriver/releases/download/v1.2.0/terraform-provider-massdriver_1.2.0_linux_arm64.zip",
+          "shasum": "2f8532afb96b58b7b6e343e38040535e5caaf02e1c958e883bfd22bf8b6e7ab6"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-massdriver_1.2.0_windows_386.zip",
+          "download_url": "https://github.com/massdriver-cloud/terraform-provider-massdriver/releases/download/v1.2.0/terraform-provider-massdriver_1.2.0_windows_386.zip",
+          "shasum": "dc8f04c89ad06022d8f700a27de1b8b26b3aa681f82954b4b1388d6d196b07e6"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-massdriver_1.2.0_windows_arm.zip",
+          "download_url": "https://github.com/massdriver-cloud/terraform-provider-massdriver/releases/download/v1.2.0/terraform-provider-massdriver_1.2.0_windows_arm.zip",
+          "shasum": "4aed01286f86b067ec7e8486f19caaa201c8e15cd8b3ae959b5565b69fd5bc63"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-massdriver_1.2.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/massdriver-cloud/terraform-provider-massdriver/releases/download/v1.2.0/terraform-provider-massdriver_1.2.0_freebsd_amd64.zip",
+          "shasum": "4a741f241449c877f82d67f796dd6a304c5016bcc4a27370bd38e19ba3898cbb"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-massdriver_1.2.0_windows_arm64.zip",
+          "download_url": "https://github.com/massdriver-cloud/terraform-provider-massdriver/releases/download/v1.2.0/terraform-provider-massdriver_1.2.0_windows_arm64.zip",
+          "shasum": "c49fe6494a1b1d5e416d41d1ddb12c54608411838ab7ba5e0ee5d5ad589a3467"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-massdriver_1.2.0_linux_386.zip",
+          "download_url": "https://github.com/massdriver-cloud/terraform-provider-massdriver/releases/download/v1.2.0/terraform-provider-massdriver_1.2.0_linux_386.zip",
+          "shasum": "115e05ede07e7cb4fb65dc3f734864ffb97d7fe947a768d3afd9d67400fd5ae2"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-massdriver_1.2.0_freebsd_386.zip",
+          "download_url": "https://github.com/massdriver-cloud/terraform-provider-massdriver/releases/download/v1.2.0/terraform-provider-massdriver_1.2.0_freebsd_386.zip",
+          "shasum": "4aabfb29f47bb00f90d5ab258a0b045f71e677e960687b66237365ab4c1ec8cd"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-massdriver_1.2.0_linux_arm.zip",
+          "download_url": "https://github.com/massdriver-cloud/terraform-provider-massdriver/releases/download/v1.2.0/terraform-provider-massdriver_1.2.0_linux_arm.zip",
+          "shasum": "b9633f105cf384d0c229971a287a9513b12304bb8a528a6f0551431c7aaac056"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-massdriver_1.2.0_darwin_amd64.zip",
+          "download_url": "https://github.com/massdriver-cloud/terraform-provider-massdriver/releases/download/v1.2.0/terraform-provider-massdriver_1.2.0_darwin_amd64.zip",
+          "shasum": "61feeb06bb23c61dcff4e177f0813557d585a9aa50e2f6f0d911c2e8686099e2"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-massdriver_1.2.0_windows_amd64.zip",
+          "download_url": "https://github.com/massdriver-cloud/terraform-provider-massdriver/releases/download/v1.2.0/terraform-provider-massdriver_1.2.0_windows_amd64.zip",
+          "shasum": "6f4e5e6ca25eb7e9c076a0f4a0362c9ca9920627a43a1239991eb1ebdf50805f"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-massdriver_1.2.0_darwin_arm64.zip",
+          "download_url": "https://github.com/massdriver-cloud/terraform-provider-massdriver/releases/download/v1.2.0/terraform-provider-massdriver_1.2.0_darwin_arm64.zip",
+          "shasum": "04dec84c9eaeb1b9cf9e1323123fb242e679e7b3afce965cd5a9d9e4d9f1a924"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-massdriver_1.2.0_linux_amd64.zip",
+          "download_url": "https://github.com/massdriver-cloud/terraform-provider-massdriver/releases/download/v1.2.0/terraform-provider-massdriver_1.2.0_linux_amd64.zip",
+          "shasum": "3c39f9548081e2ed43ffbf241a226734861c7d46a4ef9cd8b00a32a83a13d1e4"
+        }
+      ]
+    },
+    {
       "version": "1.1.6",
       "protocols": [
         "5.0"
