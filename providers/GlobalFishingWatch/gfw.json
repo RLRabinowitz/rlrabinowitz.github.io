@@ -2,6 +2,114 @@
   "repository": "https://github.com/GlobalFishingWatch/terraform-provider-gfw",
   "versions": [
     {
+      "version": "0.4.31",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/GlobalFishingWatch/terraform-provider-gfw/releases/download/v0.4.31/terraform-provider-gfw_0.4.31_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/GlobalFishingWatch/terraform-provider-gfw/releases/download/v0.4.31/terraform-provider-gfw_0.4.31_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-gfw_0.4.31_freebsd_arm64.zip",
+          "download_url": "https://github.com/GlobalFishingWatch/terraform-provider-gfw/releases/download/v0.4.31/terraform-provider-gfw_0.4.31_freebsd_arm64.zip",
+          "shasum": "cdb720e3d83a859e7230d6cba126bec179c2e2972268b43147742a44132a3fb0"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-gfw_0.4.31_linux_arm.zip",
+          "download_url": "https://github.com/GlobalFishingWatch/terraform-provider-gfw/releases/download/v0.4.31/terraform-provider-gfw_0.4.31_linux_arm.zip",
+          "shasum": "31ef06483484e1ee23047fdb818423b46e7482c4e6b7de7524ef467615e92963"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-gfw_0.4.31_darwin_amd64.zip",
+          "download_url": "https://github.com/GlobalFishingWatch/terraform-provider-gfw/releases/download/v0.4.31/terraform-provider-gfw_0.4.31_darwin_amd64.zip",
+          "shasum": "4b9d3dfc6f9ddc9dbb3f5b46ee8dfe5542a29c3722b828f7134b72015344c8a2"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-gfw_0.4.31_linux_amd64.zip",
+          "download_url": "https://github.com/GlobalFishingWatch/terraform-provider-gfw/releases/download/v0.4.31/terraform-provider-gfw_0.4.31_linux_amd64.zip",
+          "shasum": "f435fc67539efa4f3308f075148250c8b6ff81863f9f1b46ed4c7baf2ccbb7b8"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-gfw_0.4.31_windows_arm64.zip",
+          "download_url": "https://github.com/GlobalFishingWatch/terraform-provider-gfw/releases/download/v0.4.31/terraform-provider-gfw_0.4.31_windows_arm64.zip",
+          "shasum": "9e81b19bce3908f5cf0d924fe7f86683f6cd07fe01a47cde21589d6012b0db73"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-gfw_0.4.31_linux_386.zip",
+          "download_url": "https://github.com/GlobalFishingWatch/terraform-provider-gfw/releases/download/v0.4.31/terraform-provider-gfw_0.4.31_linux_386.zip",
+          "shasum": "443fbe161dce806c47df8b4dd58acf366242b1a55d0fb16564b6c91d2c7bfc13"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-gfw_0.4.31_windows_arm.zip",
+          "download_url": "https://github.com/GlobalFishingWatch/terraform-provider-gfw/releases/download/v0.4.31/terraform-provider-gfw_0.4.31_windows_arm.zip",
+          "shasum": "1f12937cdc12d5eae60ff9c13229817e16ef6a24eda46f7cf87a5bda2e690d7b"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-gfw_0.4.31_freebsd_amd64.zip",
+          "download_url": "https://github.com/GlobalFishingWatch/terraform-provider-gfw/releases/download/v0.4.31/terraform-provider-gfw_0.4.31_freebsd_amd64.zip",
+          "shasum": "cc35cbf45422205043bb4209a6ae7040fc7e037a5fe302699fc81d83d73e69ac"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-gfw_0.4.31_windows_amd64.zip",
+          "download_url": "https://github.com/GlobalFishingWatch/terraform-provider-gfw/releases/download/v0.4.31/terraform-provider-gfw_0.4.31_windows_amd64.zip",
+          "shasum": "e3f8d3b7c0e6227e4b65099fc4d9a21354b538885ac2a9e8e9ee5ad715d5a525"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-gfw_0.4.31_freebsd_arm.zip",
+          "download_url": "https://github.com/GlobalFishingWatch/terraform-provider-gfw/releases/download/v0.4.31/terraform-provider-gfw_0.4.31_freebsd_arm.zip",
+          "shasum": "8af0f9023b7d17af5acf036210689a03a1e6de34d5f26a46bf1db832770826e7"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-gfw_0.4.31_windows_386.zip",
+          "download_url": "https://github.com/GlobalFishingWatch/terraform-provider-gfw/releases/download/v0.4.31/terraform-provider-gfw_0.4.31_windows_386.zip",
+          "shasum": "87e85c24c046855c1d97eac30144255e50d19f79b734eef65f19a88184cf2973"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-gfw_0.4.31_freebsd_386.zip",
+          "download_url": "https://github.com/GlobalFishingWatch/terraform-provider-gfw/releases/download/v0.4.31/terraform-provider-gfw_0.4.31_freebsd_386.zip",
+          "shasum": "9aa1d07493506285b9a75468c8b0ab417d119e3a34d0f80eaad3425af1724e1f"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-gfw_0.4.31_darwin_arm64.zip",
+          "download_url": "https://github.com/GlobalFishingWatch/terraform-provider-gfw/releases/download/v0.4.31/terraform-provider-gfw_0.4.31_darwin_arm64.zip",
+          "shasum": "5c70ef1609a49b7a31fa4830e2592add772454f6fb301775b11ea25399c4c4c7"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-gfw_0.4.31_linux_arm64.zip",
+          "download_url": "https://github.com/GlobalFishingWatch/terraform-provider-gfw/releases/download/v0.4.31/terraform-provider-gfw_0.4.31_linux_arm64.zip",
+          "shasum": "7550cb76ca6e46f32f23aed0506b617bb0088fe50e8b082e94bcbd234d3e203c"
+        }
+      ]
+    },
+    {
       "version": "0.4.30",
       "protocols": [
         "5.0"

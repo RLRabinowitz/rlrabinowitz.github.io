@@ -2,6 +2,114 @@
   "repository": "https://github.com/orange-cloudavenue/terraform-provider-cloudavenue",
   "versions": [
     {
+      "version": "0.15.2",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/orange-cloudavenue/terraform-provider-cloudavenue/releases/download/v0.15.2/terraform-provider-cloudavenue_0.15.2_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/orange-cloudavenue/terraform-provider-cloudavenue/releases/download/v0.15.2/terraform-provider-cloudavenue_0.15.2_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-cloudavenue_0.15.2_darwin_amd64.zip",
+          "download_url": "https://github.com/orange-cloudavenue/terraform-provider-cloudavenue/releases/download/v0.15.2/terraform-provider-cloudavenue_0.15.2_darwin_amd64.zip",
+          "shasum": "5e8beda99049cbbde4d03456b9f0c4963e6cacc3b8283aca4a7112aeaa97ddb4"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-cloudavenue_0.15.2_freebsd_arm.zip",
+          "download_url": "https://github.com/orange-cloudavenue/terraform-provider-cloudavenue/releases/download/v0.15.2/terraform-provider-cloudavenue_0.15.2_freebsd_arm.zip",
+          "shasum": "1ccea187c3ba2625e46925830f7eea5663145871049a63ad4cf699cc12135c62"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-cloudavenue_0.15.2_windows_386.zip",
+          "download_url": "https://github.com/orange-cloudavenue/terraform-provider-cloudavenue/releases/download/v0.15.2/terraform-provider-cloudavenue_0.15.2_windows_386.zip",
+          "shasum": "0fe12e985ce033f5a6c0b4c29aae527e26d22662dee3c1217827c4351f4b8746"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-cloudavenue_0.15.2_darwin_arm64.zip",
+          "download_url": "https://github.com/orange-cloudavenue/terraform-provider-cloudavenue/releases/download/v0.15.2/terraform-provider-cloudavenue_0.15.2_darwin_arm64.zip",
+          "shasum": "10533d94e44797a98e20e88bb48f84adb9b44ff6aa1426f2fe65911d32c6b895"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-cloudavenue_0.15.2_windows_arm64.zip",
+          "download_url": "https://github.com/orange-cloudavenue/terraform-provider-cloudavenue/releases/download/v0.15.2/terraform-provider-cloudavenue_0.15.2_windows_arm64.zip",
+          "shasum": "0f6ed37546fa91472b7e9d11ff5166d759e84978d0a3aa8139c3dc4ab448d553"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-cloudavenue_0.15.2_freebsd_386.zip",
+          "download_url": "https://github.com/orange-cloudavenue/terraform-provider-cloudavenue/releases/download/v0.15.2/terraform-provider-cloudavenue_0.15.2_freebsd_386.zip",
+          "shasum": "f041b46ce4bcfee0715500abc062ccb341fa3c0126add9c2e89dd48719df6fb9"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-cloudavenue_0.15.2_linux_amd64.zip",
+          "download_url": "https://github.com/orange-cloudavenue/terraform-provider-cloudavenue/releases/download/v0.15.2/terraform-provider-cloudavenue_0.15.2_linux_amd64.zip",
+          "shasum": "9c3730ef21574b9160265abf768f7e82a38af35f34bf270fdd18172fd4749822"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-cloudavenue_0.15.2_freebsd_arm64.zip",
+          "download_url": "https://github.com/orange-cloudavenue/terraform-provider-cloudavenue/releases/download/v0.15.2/terraform-provider-cloudavenue_0.15.2_freebsd_arm64.zip",
+          "shasum": "5c4a3b4424c3062d3f46fe9daa85ad147fab9188ce632a16b403b280c0c75254"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-cloudavenue_0.15.2_linux_arm.zip",
+          "download_url": "https://github.com/orange-cloudavenue/terraform-provider-cloudavenue/releases/download/v0.15.2/terraform-provider-cloudavenue_0.15.2_linux_arm.zip",
+          "shasum": "4365bd2cb4e0f061bf11527fb07861b2bcaead70314aa20741924ea99eff2a3f"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-cloudavenue_0.15.2_freebsd_amd64.zip",
+          "download_url": "https://github.com/orange-cloudavenue/terraform-provider-cloudavenue/releases/download/v0.15.2/terraform-provider-cloudavenue_0.15.2_freebsd_amd64.zip",
+          "shasum": "1f30dca480b2dff54cb9ef7afb455ef9c5cea1b6f82f21ec1766fc0fb731f015"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-cloudavenue_0.15.2_windows_arm.zip",
+          "download_url": "https://github.com/orange-cloudavenue/terraform-provider-cloudavenue/releases/download/v0.15.2/terraform-provider-cloudavenue_0.15.2_windows_arm.zip",
+          "shasum": "1740f1bb640be6886cf5502751a07c0abf2c134f5c415e2e8ac32bc34d46d691"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-cloudavenue_0.15.2_linux_386.zip",
+          "download_url": "https://github.com/orange-cloudavenue/terraform-provider-cloudavenue/releases/download/v0.15.2/terraform-provider-cloudavenue_0.15.2_linux_386.zip",
+          "shasum": "a1a707284c1ac44a64c860ca3f4cd949b7470fef370132ded6ad41d82fa9bf0f"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-cloudavenue_0.15.2_windows_amd64.zip",
+          "download_url": "https://github.com/orange-cloudavenue/terraform-provider-cloudavenue/releases/download/v0.15.2/terraform-provider-cloudavenue_0.15.2_windows_amd64.zip",
+          "shasum": "95aae8e5b8ca1176bf90a54e07c394962d76114608fdeec33e706e8141370f5e"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-cloudavenue_0.15.2_linux_arm64.zip",
+          "download_url": "https://github.com/orange-cloudavenue/terraform-provider-cloudavenue/releases/download/v0.15.2/terraform-provider-cloudavenue_0.15.2_linux_arm64.zip",
+          "shasum": "a31d19c18825828e1cfec3668a33ebf251448f9b779f4adfb16c0ac6cdee72a2"
+        }
+      ]
+    },
+    {
       "version": "0.15.1",
       "protocols": [
         "5.0"
