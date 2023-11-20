@@ -2,6 +2,114 @@
   "repository": "https://github.com/pub-solar/terraform-provider-hostingde",
   "versions": [
     {
+      "version": "0.0.6",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/pub-solar/terraform-provider-hostingde/releases/download/v0.0.6/terraform-provider-hostingde_0.0.6_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/pub-solar/terraform-provider-hostingde/releases/download/v0.0.6/terraform-provider-hostingde_0.0.6_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-hostingde_0.0.6_windows_386.zip",
+          "download_url": "https://github.com/pub-solar/terraform-provider-hostingde/releases/download/v0.0.6/terraform-provider-hostingde_0.0.6_windows_386.zip",
+          "shasum": "c54a49bf8ef5057b769780741749f75cafafd71d809a1dd505067fdfe9c219c8"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-hostingde_0.0.6_freebsd_amd64.zip",
+          "download_url": "https://github.com/pub-solar/terraform-provider-hostingde/releases/download/v0.0.6/terraform-provider-hostingde_0.0.6_freebsd_amd64.zip",
+          "shasum": "b84faf8f9a94773c06f85cd754840908391b2d68e05b30584262a0500e3a2818"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-hostingde_0.0.6_darwin_amd64.zip",
+          "download_url": "https://github.com/pub-solar/terraform-provider-hostingde/releases/download/v0.0.6/terraform-provider-hostingde_0.0.6_darwin_amd64.zip",
+          "shasum": "d880b434096c3b7bc8c5a079baefb6041f9ff5198f841fbbf936ddd22d4ee9e9"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-hostingde_0.0.6_linux_amd64.zip",
+          "download_url": "https://github.com/pub-solar/terraform-provider-hostingde/releases/download/v0.0.6/terraform-provider-hostingde_0.0.6_linux_amd64.zip",
+          "shasum": "844986c3ea8a4d14cea56073f7a0eba3eda67c5599feffb74b913919464400e4"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-hostingde_0.0.6_freebsd_386.zip",
+          "download_url": "https://github.com/pub-solar/terraform-provider-hostingde/releases/download/v0.0.6/terraform-provider-hostingde_0.0.6_freebsd_386.zip",
+          "shasum": "b242089b11c5bcd9ae6f3c99ae9d05d435ae71c002ed18e85e4f9145c9c1ab01"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-hostingde_0.0.6_freebsd_arm.zip",
+          "download_url": "https://github.com/pub-solar/terraform-provider-hostingde/releases/download/v0.0.6/terraform-provider-hostingde_0.0.6_freebsd_arm.zip",
+          "shasum": "14c4bb7ed8966e130e2b3734c4f88bc9ad01367ffd25bf90fbff0a15feb96698"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-hostingde_0.0.6_windows_amd64.zip",
+          "download_url": "https://github.com/pub-solar/terraform-provider-hostingde/releases/download/v0.0.6/terraform-provider-hostingde_0.0.6_windows_amd64.zip",
+          "shasum": "75fb99bc0400de15cc39709044876d3f6c4a40864544cd00d5963649fb293589"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-hostingde_0.0.6_windows_arm64.zip",
+          "download_url": "https://github.com/pub-solar/terraform-provider-hostingde/releases/download/v0.0.6/terraform-provider-hostingde_0.0.6_windows_arm64.zip",
+          "shasum": "aa7bf88d04c8661c19feed76616595ebdc87427533a06c56054565e0703e2373"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-hostingde_0.0.6_linux_arm64.zip",
+          "download_url": "https://github.com/pub-solar/terraform-provider-hostingde/releases/download/v0.0.6/terraform-provider-hostingde_0.0.6_linux_arm64.zip",
+          "shasum": "e1f0983f03aaaa4e92a8012ec021f7255f70522abb798118d99bb26c44976e09"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-hostingde_0.0.6_windows_arm.zip",
+          "download_url": "https://github.com/pub-solar/terraform-provider-hostingde/releases/download/v0.0.6/terraform-provider-hostingde_0.0.6_windows_arm.zip",
+          "shasum": "16996d0f4dea89d0da38b10bc25ee5cb0c0b79c21b81fb95d4b59a3d0ab8f68a"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-hostingde_0.0.6_freebsd_arm64.zip",
+          "download_url": "https://github.com/pub-solar/terraform-provider-hostingde/releases/download/v0.0.6/terraform-provider-hostingde_0.0.6_freebsd_arm64.zip",
+          "shasum": "6a3fe1ba07f3bc677ed4b0ccd818ef57b33214d00bc1ff11e5eddbd591ba4d1c"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-hostingde_0.0.6_linux_386.zip",
+          "download_url": "https://github.com/pub-solar/terraform-provider-hostingde/releases/download/v0.0.6/terraform-provider-hostingde_0.0.6_linux_386.zip",
+          "shasum": "2f2c093d724e285d5891c7dab8163c4782ef710eba57f682d1ecef7f0d62a7ef"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-hostingde_0.0.6_linux_arm.zip",
+          "download_url": "https://github.com/pub-solar/terraform-provider-hostingde/releases/download/v0.0.6/terraform-provider-hostingde_0.0.6_linux_arm.zip",
+          "shasum": "7da7d102bd4dce2f0b9390f49bae365092668b2918b9c8ed88097611593a996a"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-hostingde_0.0.6_darwin_arm64.zip",
+          "download_url": "https://github.com/pub-solar/terraform-provider-hostingde/releases/download/v0.0.6/terraform-provider-hostingde_0.0.6_darwin_arm64.zip",
+          "shasum": "5bb337454a47ae57e5dd4c5b2cf3fadf81d63d3407a33c4847ce2f74e721a282"
+        }
+      ]
+    },
+    {
       "version": "0.0.5",
       "protocols": [
         "5.0"
