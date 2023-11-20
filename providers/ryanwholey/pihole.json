@@ -2,6 +2,107 @@
   "repository": "https://github.com/ryanwholey/terraform-provider-pihole",
   "versions": [
     {
+      "version": "0.1.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/ryanwholey/terraform-provider-pihole/releases/download/v0.1.0/terraform-provider-pihole_0.1.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/ryanwholey/terraform-provider-pihole/releases/download/v0.1.0/terraform-provider-pihole_0.1.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-pihole_0.1.0_linux_386.zip",
+          "download_url": "https://github.com/ryanwholey/terraform-provider-pihole/releases/download/v0.1.0/terraform-provider-pihole_0.1.0_linux_386.zip",
+          "shasum": "c02008e92b5a4eef0c6a625aef0e7f3f7840427e13fc4be086a78159c4727ca6"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-pihole_0.1.0_darwin_arm64.zip",
+          "download_url": "https://github.com/ryanwholey/terraform-provider-pihole/releases/download/v0.1.0/terraform-provider-pihole_0.1.0_darwin_arm64.zip",
+          "shasum": "35cc28aa238dd7e070fd0d6c2c9bc128c368f2685d08f7d012adeea3896a863f"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-pihole_0.1.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/ryanwholey/terraform-provider-pihole/releases/download/v0.1.0/terraform-provider-pihole_0.1.0_freebsd_arm64.zip",
+          "shasum": "69b17b4bb49864aee01879ca0bcb5900195358ccc4c39053896033237dbc83c3"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-pihole_0.1.0_windows_arm.zip",
+          "download_url": "https://github.com/ryanwholey/terraform-provider-pihole/releases/download/v0.1.0/terraform-provider-pihole_0.1.0_windows_arm.zip",
+          "shasum": "5a9b9af1a66b73dad4d6a3c31473fa394c6982bc4a8e3d13e26dd7a5f971eb8e"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-pihole_0.1.0_linux_amd64.zip",
+          "download_url": "https://github.com/ryanwholey/terraform-provider-pihole/releases/download/v0.1.0/terraform-provider-pihole_0.1.0_linux_amd64.zip",
+          "shasum": "c4b162f084a86c39f3ca844d5042730dc8da6e66a2b3aed3b69ac1544db27887"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-pihole_0.1.0_windows_386.zip",
+          "download_url": "https://github.com/ryanwholey/terraform-provider-pihole/releases/download/v0.1.0/terraform-provider-pihole_0.1.0_windows_386.zip",
+          "shasum": "0d914a753a64c9a2b67856544eb8c8ab49dd29c2c3e7d39eea806e25bf719941"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-pihole_0.1.0_linux_arm.zip",
+          "download_url": "https://github.com/ryanwholey/terraform-provider-pihole/releases/download/v0.1.0/terraform-provider-pihole_0.1.0_linux_arm.zip",
+          "shasum": "86de3e7108a7aa72639f572a38e1b7e6dbcfbb169208d82d66e5ef58e839bd80"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-pihole_0.1.0_freebsd_arm.zip",
+          "download_url": "https://github.com/ryanwholey/terraform-provider-pihole/releases/download/v0.1.0/terraform-provider-pihole_0.1.0_freebsd_arm.zip",
+          "shasum": "957d70ca4f3779956f648f6dd89a7e2d2d730b45d94ff823e4e1cf464a0b4b45"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-pihole_0.1.0_freebsd_386.zip",
+          "download_url": "https://github.com/ryanwholey/terraform-provider-pihole/releases/download/v0.1.0/terraform-provider-pihole_0.1.0_freebsd_386.zip",
+          "shasum": "c7515f80099ab2101530189e601d67987382dfe23bd3bb148bf8658d59c0e0cb"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-pihole_0.1.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/ryanwholey/terraform-provider-pihole/releases/download/v0.1.0/terraform-provider-pihole_0.1.0_freebsd_amd64.zip",
+          "shasum": "015ca102d5323bca06f637b7d5aa63c10988984f3737e6212a36f790b205e30d"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-pihole_0.1.0_windows_amd64.zip",
+          "download_url": "https://github.com/ryanwholey/terraform-provider-pihole/releases/download/v0.1.0/terraform-provider-pihole_0.1.0_windows_amd64.zip",
+          "shasum": "f22e9b898b9f2347cf3102d0fb4a2fc3f0057def86c99984cf1064b25e1367eb"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-pihole_0.1.0_linux_arm64.zip",
+          "download_url": "https://github.com/ryanwholey/terraform-provider-pihole/releases/download/v0.1.0/terraform-provider-pihole_0.1.0_linux_arm64.zip",
+          "shasum": "5a34a939229dc5b20eefc298a4e8ea525e26dfc8fea0c22a91019108a27cd4e5"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-pihole_0.1.0_darwin_amd64.zip",
+          "download_url": "https://github.com/ryanwholey/terraform-provider-pihole/releases/download/v0.1.0/terraform-provider-pihole_0.1.0_darwin_amd64.zip",
+          "shasum": "cda02fb2e3d17fb394b5f83e4e527a79a43e6b7a55cafbe2389d5396952d3b3b"
+        }
+      ]
+    },
+    {
       "version": "0.0.12",
       "protocols": [
         "5.0"
