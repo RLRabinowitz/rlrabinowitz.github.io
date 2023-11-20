@@ -2,6 +2,58 @@
   "repository": "https://github.com/terraform-redhat/terraform-provider-rhcs",
   "versions": [
     {
+      "version": "1.4.1",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/terraform-redhat/terraform-provider-rhcs/releases/download/v1.4.1/terraform-provider-rhcs_1.4.1_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/terraform-redhat/terraform-provider-rhcs/releases/download/v1.4.1/terraform-provider-rhcs_1.4.1_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-rhcs_1.4.1_linux_amd64.zip",
+          "download_url": "https://github.com/terraform-redhat/terraform-provider-rhcs/releases/download/v1.4.1/terraform-provider-rhcs_1.4.1_linux_amd64.zip",
+          "shasum": "7467037f9c09227582cad77a9dd075a72b399e1f64d1a970a2a4d45957646049"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-rhcs_1.4.1_linux_arm64.zip",
+          "download_url": "https://github.com/terraform-redhat/terraform-provider-rhcs/releases/download/v1.4.1/terraform-provider-rhcs_1.4.1_linux_arm64.zip",
+          "shasum": "80558a04703ade53da0a4d7c2ae60bbf67b19e3790a6975355637ca16b8d51cb"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-rhcs_1.4.1_windows_arm64.zip",
+          "download_url": "https://github.com/terraform-redhat/terraform-provider-rhcs/releases/download/v1.4.1/terraform-provider-rhcs_1.4.1_windows_arm64.zip",
+          "shasum": "2e31f031dfa819b9cdda97b261b0e83be64a9f97f6197f412d189165ea108d82"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-rhcs_1.4.1_windows_amd64.zip",
+          "download_url": "https://github.com/terraform-redhat/terraform-provider-rhcs/releases/download/v1.4.1/terraform-provider-rhcs_1.4.1_windows_amd64.zip",
+          "shasum": "246573956aa92a338b58cb96a165ce2da67d3a8aae8ff4bf47080f28d4e19a22"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-rhcs_1.4.1_darwin_arm64.zip",
+          "download_url": "https://github.com/terraform-redhat/terraform-provider-rhcs/releases/download/v1.4.1/terraform-provider-rhcs_1.4.1_darwin_arm64.zip",
+          "shasum": "6834691d869d26dd94c4c6ca0715fc85d1298572cb968bc63ff4f1462227e27c"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-rhcs_1.4.1_darwin_amd64.zip",
+          "download_url": "https://github.com/terraform-redhat/terraform-provider-rhcs/releases/download/v1.4.1/terraform-provider-rhcs_1.4.1_darwin_amd64.zip",
+          "shasum": "63f127975b0179f222869a62f83c083d09b721ff48ece5896344714230136b88"
+        }
+      ]
+    },
+    {
       "version": "1.4.0",
       "protocols": [
         "5.0"

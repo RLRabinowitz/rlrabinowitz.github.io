@@ -2,6 +2,51 @@
   "repository": "https://github.com/volterraedge/terraform-provider-volterra",
   "versions": [
     {
+      "version": "0.11.28",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/volterraedge/terraform-provider-volterra/releases/download/v0.11.28/terraform-provider-volterra_0.11.28_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/volterraedge/terraform-provider-volterra/releases/download/v0.11.28/terraform-provider-volterra_0.11.28_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-volterra_0.11.28_linux_arm64.zip",
+          "download_url": "https://github.com/volterraedge/terraform-provider-volterra/releases/download/v0.11.28/terraform-provider-volterra_0.11.28_linux_arm64.zip",
+          "shasum": "ed97221acbe1f715b708df8156b9d4215c1323f6c18a5ed4cfa776ad9c0d5e59"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-volterra_0.11.28_darwin_amd64.zip",
+          "download_url": "https://github.com/volterraedge/terraform-provider-volterra/releases/download/v0.11.28/terraform-provider-volterra_0.11.28_darwin_amd64.zip",
+          "shasum": "b805b04d09c1994e30586bc71aa0b14a8cfb3aff2c37909d43d19cd4440e0581"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-volterra_0.11.28_windows_amd64.zip",
+          "download_url": "https://github.com/volterraedge/terraform-provider-volterra/releases/download/v0.11.28/terraform-provider-volterra_0.11.28_windows_amd64.zip",
+          "shasum": "46a9d4cec4f935d2d9bd30efbd72993e546029eb3bb68f7c5d0760eef25d8db7"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-volterra_0.11.28_linux_amd64.zip",
+          "download_url": "https://github.com/volterraedge/terraform-provider-volterra/releases/download/v0.11.28/terraform-provider-volterra_0.11.28_linux_amd64.zip",
+          "shasum": "64f0ce4793d595f1a3ae04386bc2208d13e8cf838905254d39d667d4099710ca"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-volterra_0.11.28_darwin_arm64.zip",
+          "download_url": "https://github.com/volterraedge/terraform-provider-volterra/releases/download/v0.11.28/terraform-provider-volterra_0.11.28_darwin_arm64.zip",
+          "shasum": "83df5cf5be03b14958e8ac057000a54d90b78b5ded302074d1e490189da9fb67"
+        }
+      ]
+    },
+    {
       "version": "0.11.27",
       "protocols": [
         "5.0"

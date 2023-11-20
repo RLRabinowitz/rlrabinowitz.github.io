@@ -2,6 +2,114 @@
   "repository": "https://github.com/inventxag/terraform-provider-ixcloud",
   "versions": [
     {
+      "version": "0.12.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/inventxag/terraform-provider-ixcloud/releases/download/v0.12.0/terraform-provider-ixcloud_0.12.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/inventxag/terraform-provider-ixcloud/releases/download/v0.12.0/terraform-provider-ixcloud_0.12.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-ixcloud_0.12.0_windows_amd64.zip",
+          "download_url": "https://github.com/inventxag/terraform-provider-ixcloud/releases/download/v0.12.0/terraform-provider-ixcloud_0.12.0_windows_amd64.zip",
+          "shasum": "aef8f92be6ac871f3ba9ea009e378ccd479936d5db88eb982016f318feb68b8d"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-ixcloud_0.12.0_windows_386.zip",
+          "download_url": "https://github.com/inventxag/terraform-provider-ixcloud/releases/download/v0.12.0/terraform-provider-ixcloud_0.12.0_windows_386.zip",
+          "shasum": "39fabbf0e7a8a45f19eccde2cd2dbc9f56815d4d21c459e9424e8b7ae0556770"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-ixcloud_0.12.0_freebsd_arm.zip",
+          "download_url": "https://github.com/inventxag/terraform-provider-ixcloud/releases/download/v0.12.0/terraform-provider-ixcloud_0.12.0_freebsd_arm.zip",
+          "shasum": "d10870b23e67a123d2fc36bb8afb9ca208ebbf10db5541126db2ef79c3a8e804"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-ixcloud_0.12.0_linux_386.zip",
+          "download_url": "https://github.com/inventxag/terraform-provider-ixcloud/releases/download/v0.12.0/terraform-provider-ixcloud_0.12.0_linux_386.zip",
+          "shasum": "51b19c679f30435c2f3c1aa9dc57b5cf787d190ef5db9db5b94b122c0c24a9da"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-ixcloud_0.12.0_linux_amd64.zip",
+          "download_url": "https://github.com/inventxag/terraform-provider-ixcloud/releases/download/v0.12.0/terraform-provider-ixcloud_0.12.0_linux_amd64.zip",
+          "shasum": "c6d8e1170f843e323068197b06372144f07588781e1930f7f66298662b29ef97"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-ixcloud_0.12.0_linux_arm.zip",
+          "download_url": "https://github.com/inventxag/terraform-provider-ixcloud/releases/download/v0.12.0/terraform-provider-ixcloud_0.12.0_linux_arm.zip",
+          "shasum": "cb2aa08d591733e314cbb071df8b65c545c7534778f6083a58f4c7e48c1e0f7c"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-ixcloud_0.12.0_linux_arm64.zip",
+          "download_url": "https://github.com/inventxag/terraform-provider-ixcloud/releases/download/v0.12.0/terraform-provider-ixcloud_0.12.0_linux_arm64.zip",
+          "shasum": "c1e7be23d62f5b91340e0053de3869d14f331d680d4cec558a303ce9d07b0e3b"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-ixcloud_0.12.0_freebsd_386.zip",
+          "download_url": "https://github.com/inventxag/terraform-provider-ixcloud/releases/download/v0.12.0/terraform-provider-ixcloud_0.12.0_freebsd_386.zip",
+          "shasum": "a382688f2ab93d1a75a38c14be2c921ef028ce91a3dbe0abf67559f63895d63a"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-ixcloud_0.12.0_darwin_amd64.zip",
+          "download_url": "https://github.com/inventxag/terraform-provider-ixcloud/releases/download/v0.12.0/terraform-provider-ixcloud_0.12.0_darwin_amd64.zip",
+          "shasum": "d3140c7ee3754da294d50bef2322658a4c84265176a781040da54a7474a6b205"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-ixcloud_0.12.0_windows_arm.zip",
+          "download_url": "https://github.com/inventxag/terraform-provider-ixcloud/releases/download/v0.12.0/terraform-provider-ixcloud_0.12.0_windows_arm.zip",
+          "shasum": "53da66bc4ec705c218dc1bec8d2050e905af847fbb9c426a8b051be1d7876585"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-ixcloud_0.12.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/inventxag/terraform-provider-ixcloud/releases/download/v0.12.0/terraform-provider-ixcloud_0.12.0_freebsd_arm64.zip",
+          "shasum": "5110542a7c4e9ff0aadcbb2338686b31bce00651ecccab970faa08664ba84387"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-ixcloud_0.12.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/inventxag/terraform-provider-ixcloud/releases/download/v0.12.0/terraform-provider-ixcloud_0.12.0_freebsd_amd64.zip",
+          "shasum": "f7102fc43ced4422df0899d4727e48aefd93eba5ebcc4c92232dac966bb09cd4"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-ixcloud_0.12.0_darwin_arm64.zip",
+          "download_url": "https://github.com/inventxag/terraform-provider-ixcloud/releases/download/v0.12.0/terraform-provider-ixcloud_0.12.0_darwin_arm64.zip",
+          "shasum": "998e49fb8c1b65f79d8a190850ad36d82789d41e02dafc830ea60914617203a1"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-ixcloud_0.12.0_windows_arm64.zip",
+          "download_url": "https://github.com/inventxag/terraform-provider-ixcloud/releases/download/v0.12.0/terraform-provider-ixcloud_0.12.0_windows_arm64.zip",
+          "shasum": "84b451b550330561a54630a1a7929d03834e9d739836a2f5379c2b1faba4516b"
+        }
+      ]
+    },
+    {
       "version": "0.11.0",
       "protocols": [
         "5.0"
