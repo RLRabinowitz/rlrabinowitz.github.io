@@ -2,6 +2,114 @@
   "repository": "https://github.com/rosmo/terraform-provider-persistent-counter",
   "versions": [
     {
+      "version": "0.2.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/rosmo/terraform-provider-persistent/releases/download/v0.2.0/terraform-provider-persistent_0.2.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/rosmo/terraform-provider-persistent/releases/download/v0.2.0/terraform-provider-persistent_0.2.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-persistent_0.2.0_windows_386.zip",
+          "download_url": "https://github.com/rosmo/terraform-provider-persistent/releases/download/v0.2.0/terraform-provider-persistent_0.2.0_windows_386.zip",
+          "shasum": "4dfaf53a4c0ab3739bd5ca60331c07c15b2b7882644ba6fea2a0ecdb7c0d3d57"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-persistent_0.2.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/rosmo/terraform-provider-persistent/releases/download/v0.2.0/terraform-provider-persistent_0.2.0_freebsd_amd64.zip",
+          "shasum": "d7c1e966d47dec57fd006a93e675ebcaf345ec69e8d34afe11905a3b71282f0a"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-persistent_0.2.0_freebsd_arm.zip",
+          "download_url": "https://github.com/rosmo/terraform-provider-persistent/releases/download/v0.2.0/terraform-provider-persistent_0.2.0_freebsd_arm.zip",
+          "shasum": "2fdf3c604eff23cf2ccaeab55b6e036dac2d041545000214e804f427dc89b5d9"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-persistent_0.2.0_windows_amd64.zip",
+          "download_url": "https://github.com/rosmo/terraform-provider-persistent/releases/download/v0.2.0/terraform-provider-persistent_0.2.0_windows_amd64.zip",
+          "shasum": "e5f8ba1c1e36b583cb7e9770b7b2a2f3a9de22b49288af033cc738bb1dc31e79"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-persistent_0.2.0_windows_arm.zip",
+          "download_url": "https://github.com/rosmo/terraform-provider-persistent/releases/download/v0.2.0/terraform-provider-persistent_0.2.0_windows_arm.zip",
+          "shasum": "cbafc70d8d12eb8006018942928bedb36db71cc3c40af34a5d972d3c1e97dbe3"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-persistent_0.2.0_windows_arm64.zip",
+          "download_url": "https://github.com/rosmo/terraform-provider-persistent/releases/download/v0.2.0/terraform-provider-persistent_0.2.0_windows_arm64.zip",
+          "shasum": "73a0c2d2ee5bad6e0907467d8c0b455a85ba06570001ec8f6d306b5e8f7d6c2f"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-persistent_0.2.0_freebsd_386.zip",
+          "download_url": "https://github.com/rosmo/terraform-provider-persistent/releases/download/v0.2.0/terraform-provider-persistent_0.2.0_freebsd_386.zip",
+          "shasum": "7ba459fe8afbfa40331df5720272576250bd92129286cc45ff90ead32336e679"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-persistent_0.2.0_linux_386.zip",
+          "download_url": "https://github.com/rosmo/terraform-provider-persistent/releases/download/v0.2.0/terraform-provider-persistent_0.2.0_linux_386.zip",
+          "shasum": "3150e811e1c8d9e8972b3c440f106e446adbd4ba1e4fa016f05cc460569aafc9"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-persistent_0.2.0_darwin_amd64.zip",
+          "download_url": "https://github.com/rosmo/terraform-provider-persistent/releases/download/v0.2.0/terraform-provider-persistent_0.2.0_darwin_amd64.zip",
+          "shasum": "2ef7cb3f6b41873f79ec4ed9fdea18465b3d0af74417d2d264bec0fb9a65b5cd"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-persistent_0.2.0_linux_arm.zip",
+          "download_url": "https://github.com/rosmo/terraform-provider-persistent/releases/download/v0.2.0/terraform-provider-persistent_0.2.0_linux_arm.zip",
+          "shasum": "afa03b1b98491ac42e97afd29103fdd0ccadeb14f283f494e3a02f07e5cb7731"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-persistent_0.2.0_darwin_arm64.zip",
+          "download_url": "https://github.com/rosmo/terraform-provider-persistent/releases/download/v0.2.0/terraform-provider-persistent_0.2.0_darwin_arm64.zip",
+          "shasum": "26341579e714566f9c373566f834403e5cb4eac718bc85f85da8abff34ae1077"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-persistent_0.2.0_linux_amd64.zip",
+          "download_url": "https://github.com/rosmo/terraform-provider-persistent/releases/download/v0.2.0/terraform-provider-persistent_0.2.0_linux_amd64.zip",
+          "shasum": "c52028d2c3bfbdb93fc30a10bcc1cb3776d4139391af1368be2aeef9e127bfaf"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-persistent_0.2.0_linux_arm64.zip",
+          "download_url": "https://github.com/rosmo/terraform-provider-persistent/releases/download/v0.2.0/terraform-provider-persistent_0.2.0_linux_arm64.zip",
+          "shasum": "f03d37b3af017664d8383c2a955f80790cacf2d68aeb6142f51b412602135839"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-persistent_0.2.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/rosmo/terraform-provider-persistent/releases/download/v0.2.0/terraform-provider-persistent_0.2.0_freebsd_arm64.zip",
+          "shasum": "7e93531813f94610a2039fc98477a0abc1cd4048fa64ab62cdb3ca552ba4b6de"
+        }
+      ]
+    },
+    {
       "version": "0.1.11",
       "protocols": [
         "5.0"
