@@ -2,6 +2,114 @@
   "repository": "https://github.com/gmichels/terraform-provider-adguard",
   "versions": [
     {
+      "version": "1.0.4",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/gmichels/terraform-provider-adguard/releases/download/v1.0.4/terraform-provider-adguard_1.0.4_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/gmichels/terraform-provider-adguard/releases/download/v1.0.4/terraform-provider-adguard_1.0.4_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-adguard_1.0.4_windows_arm.zip",
+          "download_url": "https://github.com/gmichels/terraform-provider-adguard/releases/download/v1.0.4/terraform-provider-adguard_1.0.4_windows_arm.zip",
+          "shasum": "1f7f768ebe8bce5ef61c3724a6ddde5ad74ed3fd78c03bad4997dbdc0f272606"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-adguard_1.0.4_windows_arm64.zip",
+          "download_url": "https://github.com/gmichels/terraform-provider-adguard/releases/download/v1.0.4/terraform-provider-adguard_1.0.4_windows_arm64.zip",
+          "shasum": "fa5c21817e9ab15541a8148ea626790b1807ffb96feb3dc1cc99a7550b3a376c"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-adguard_1.0.4_windows_386.zip",
+          "download_url": "https://github.com/gmichels/terraform-provider-adguard/releases/download/v1.0.4/terraform-provider-adguard_1.0.4_windows_386.zip",
+          "shasum": "bdce38aef6dad145affec4f11fee974ed58caba9530b4e35e2c7da5766ba0d39"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-adguard_1.0.4_windows_amd64.zip",
+          "download_url": "https://github.com/gmichels/terraform-provider-adguard/releases/download/v1.0.4/terraform-provider-adguard_1.0.4_windows_amd64.zip",
+          "shasum": "b38b7b5d47d3f87869b24a923a6587d8df8c6b58d650d70185a9801e2ceeef8a"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-adguard_1.0.4_linux_arm.zip",
+          "download_url": "https://github.com/gmichels/terraform-provider-adguard/releases/download/v1.0.4/terraform-provider-adguard_1.0.4_linux_arm.zip",
+          "shasum": "b41071ec8e2f62518db2024ca4c87a921533b5eeea688483550688af181f3489"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-adguard_1.0.4_freebsd_386.zip",
+          "download_url": "https://github.com/gmichels/terraform-provider-adguard/releases/download/v1.0.4/terraform-provider-adguard_1.0.4_freebsd_386.zip",
+          "shasum": "1cc86941f6d21debe5aa6bdc2d00024265c1048c05a448ec69891769848baa00"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-adguard_1.0.4_linux_amd64.zip",
+          "download_url": "https://github.com/gmichels/terraform-provider-adguard/releases/download/v1.0.4/terraform-provider-adguard_1.0.4_linux_amd64.zip",
+          "shasum": "cf1805ed9f9bcc8380c72cc6812bafb88adf268a253ceb179ac8a3e45208c0df"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-adguard_1.0.4_freebsd_arm64.zip",
+          "download_url": "https://github.com/gmichels/terraform-provider-adguard/releases/download/v1.0.4/terraform-provider-adguard_1.0.4_freebsd_arm64.zip",
+          "shasum": "9c6d3d4a1a4ff7e63ef05061bfe7773db88f097b4aff89353db55597bdbb3e6f"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-adguard_1.0.4_freebsd_arm.zip",
+          "download_url": "https://github.com/gmichels/terraform-provider-adguard/releases/download/v1.0.4/terraform-provider-adguard_1.0.4_freebsd_arm.zip",
+          "shasum": "b05250ebf6b4d1f9024c0eba5979eee2b46b226e9b7b106387d8ca4800a3dfd3"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-adguard_1.0.4_freebsd_amd64.zip",
+          "download_url": "https://github.com/gmichels/terraform-provider-adguard/releases/download/v1.0.4/terraform-provider-adguard_1.0.4_freebsd_amd64.zip",
+          "shasum": "0b500504e9541ed7be51df207470ecb99cf4548660de20d1d7f2ce1a05660a67"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-adguard_1.0.4_darwin_arm64.zip",
+          "download_url": "https://github.com/gmichels/terraform-provider-adguard/releases/download/v1.0.4/terraform-provider-adguard_1.0.4_darwin_arm64.zip",
+          "shasum": "9d16daff622ced4ec61d29b742cfda8e0374abf05668b0e075455aff496d25b9"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-adguard_1.0.4_linux_386.zip",
+          "download_url": "https://github.com/gmichels/terraform-provider-adguard/releases/download/v1.0.4/terraform-provider-adguard_1.0.4_linux_386.zip",
+          "shasum": "54b45d2f7bf7795650655d38a43e7b2b503ba0664cb40a822935561d71246d89"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-adguard_1.0.4_linux_arm64.zip",
+          "download_url": "https://github.com/gmichels/terraform-provider-adguard/releases/download/v1.0.4/terraform-provider-adguard_1.0.4_linux_arm64.zip",
+          "shasum": "0336754922b15c0d96702a5c1670d61aca42b936e326abc98aa531c352898703"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-adguard_1.0.4_darwin_amd64.zip",
+          "download_url": "https://github.com/gmichels/terraform-provider-adguard/releases/download/v1.0.4/terraform-provider-adguard_1.0.4_darwin_amd64.zip",
+          "shasum": "db5982283a290132aa486455073e49ee9a092e0a76ab3fb80efa350f90b148e6"
+        }
+      ]
+    },
+    {
       "version": "1.0.3",
       "protocols": [
         "5.0"
