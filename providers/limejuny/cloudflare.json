@@ -2,6 +2,114 @@
   "repository": "https://github.com/limejuny/terraform-provider-cloudflare",
   "versions": [
     {
+      "version": "1.0.5",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/limejuny/terraform-provider-cloudflare/releases/download/v1.0.5/terraform-provider-cloudflare_1.0.5_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/limejuny/terraform-provider-cloudflare/releases/download/v1.0.5/terraform-provider-cloudflare_1.0.5_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-cloudflare_1.0.5_windows_arm64.zip",
+          "download_url": "https://github.com/limejuny/terraform-provider-cloudflare/releases/download/v1.0.5/terraform-provider-cloudflare_1.0.5_windows_arm64.zip",
+          "shasum": "4a21fb9264c400d33e71230bcafa1c3c4bd3606e1179e4e6404c1252816a9259"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-cloudflare_1.0.5_darwin_amd64.zip",
+          "download_url": "https://github.com/limejuny/terraform-provider-cloudflare/releases/download/v1.0.5/terraform-provider-cloudflare_1.0.5_darwin_amd64.zip",
+          "shasum": "f54f3183c11e5c114798a9eeaa1e73dfbb839dbf6914ebf618b6b7abc79c7711"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-cloudflare_1.0.5_windows_amd64.zip",
+          "download_url": "https://github.com/limejuny/terraform-provider-cloudflare/releases/download/v1.0.5/terraform-provider-cloudflare_1.0.5_windows_amd64.zip",
+          "shasum": "8cc569f1537693d6c58e08b0d04a9d495d574aea53e36615f7059a09c19a8cbe"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-cloudflare_1.0.5_windows_arm.zip",
+          "download_url": "https://github.com/limejuny/terraform-provider-cloudflare/releases/download/v1.0.5/terraform-provider-cloudflare_1.0.5_windows_arm.zip",
+          "shasum": "e526d120a23a335a87cd9dc7993c5165d410b9f210d554f07fc296f702fba9e0"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-cloudflare_1.0.5_darwin_arm64.zip",
+          "download_url": "https://github.com/limejuny/terraform-provider-cloudflare/releases/download/v1.0.5/terraform-provider-cloudflare_1.0.5_darwin_arm64.zip",
+          "shasum": "a537db7add55ee6dc14ef9f87cdbd63343df2d777ed10c5b24de12c6b42beb41"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-cloudflare_1.0.5_linux_amd64.zip",
+          "download_url": "https://github.com/limejuny/terraform-provider-cloudflare/releases/download/v1.0.5/terraform-provider-cloudflare_1.0.5_linux_amd64.zip",
+          "shasum": "5c4ff55c92c1613584e32bf55741b01958ed1135192d966d927e3fa8a2457cfa"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-cloudflare_1.0.5_windows_386.zip",
+          "download_url": "https://github.com/limejuny/terraform-provider-cloudflare/releases/download/v1.0.5/terraform-provider-cloudflare_1.0.5_windows_386.zip",
+          "shasum": "eec44bb7caf607024954d8c378937184d787a1a102b570b14036df5dbd978ecc"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-cloudflare_1.0.5_freebsd_arm64.zip",
+          "download_url": "https://github.com/limejuny/terraform-provider-cloudflare/releases/download/v1.0.5/terraform-provider-cloudflare_1.0.5_freebsd_arm64.zip",
+          "shasum": "b6d2be18957c7bdbed93ab4853b5ecc7d97143ad0748ac6787020197c93f5e53"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-cloudflare_1.0.5_linux_arm.zip",
+          "download_url": "https://github.com/limejuny/terraform-provider-cloudflare/releases/download/v1.0.5/terraform-provider-cloudflare_1.0.5_linux_arm.zip",
+          "shasum": "5bf1db8b7d0922a811b330e50ea71165b453986c86d9b8f783b6669bc4d3a69c"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-cloudflare_1.0.5_freebsd_386.zip",
+          "download_url": "https://github.com/limejuny/terraform-provider-cloudflare/releases/download/v1.0.5/terraform-provider-cloudflare_1.0.5_freebsd_386.zip",
+          "shasum": "ebf2b8f68f0cfd39af8787583eb6bcbd685c1609ae2f8f17b142438815702ae5"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-cloudflare_1.0.5_freebsd_arm.zip",
+          "download_url": "https://github.com/limejuny/terraform-provider-cloudflare/releases/download/v1.0.5/terraform-provider-cloudflare_1.0.5_freebsd_arm.zip",
+          "shasum": "1b876813ce6d2b89f7558615601be36aa52bfd1beea2ab4a8adfec77bed1c20c"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-cloudflare_1.0.5_linux_386.zip",
+          "download_url": "https://github.com/limejuny/terraform-provider-cloudflare/releases/download/v1.0.5/terraform-provider-cloudflare_1.0.5_linux_386.zip",
+          "shasum": "f5b515e6b90a365b8eadf67c6155c6b5508abaa55dd6e437301c1caa891ec9a6"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-cloudflare_1.0.5_freebsd_amd64.zip",
+          "download_url": "https://github.com/limejuny/terraform-provider-cloudflare/releases/download/v1.0.5/terraform-provider-cloudflare_1.0.5_freebsd_amd64.zip",
+          "shasum": "0ddfa22127f3645ac8ccb2c1b5043223c0a509a689acf455fff7448a9511f521"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-cloudflare_1.0.5_linux_arm64.zip",
+          "download_url": "https://github.com/limejuny/terraform-provider-cloudflare/releases/download/v1.0.5/terraform-provider-cloudflare_1.0.5_linux_arm64.zip",
+          "shasum": "b7813ee25347dd91e89c5e929ff98511862fa69b505a0f2136e20677503f8599"
+        }
+      ]
+    },
+    {
       "version": "1.0.4",
       "protocols": [
         "5.0"
