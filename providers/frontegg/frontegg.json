@@ -2,6 +2,107 @@
   "repository": "https://github.com/frontegg/terraform-provider-frontegg",
   "versions": [
     {
+      "version": "0.2.52",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/frontegg/terraform-provider-frontegg/releases/download/v0.2.52/terraform-provider-frontegg_0.2.52_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/frontegg/terraform-provider-frontegg/releases/download/v0.2.52/terraform-provider-frontegg_0.2.52_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-frontegg_0.2.52_windows_386.zip",
+          "download_url": "https://github.com/frontegg/terraform-provider-frontegg/releases/download/v0.2.52/terraform-provider-frontegg_0.2.52_windows_386.zip",
+          "shasum": "4c2dc760a12b78298a61f7d358a03aaf88327922f289bd6a5d191540b7f3dcf3"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-frontegg_0.2.52_darwin_amd64.zip",
+          "download_url": "https://github.com/frontegg/terraform-provider-frontegg/releases/download/v0.2.52/terraform-provider-frontegg_0.2.52_darwin_amd64.zip",
+          "shasum": "3265ca87803ec9306048194bbca3c267dc648ed25bb56096342661174f9602d4"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-frontegg_0.2.52_freebsd_arm64.zip",
+          "download_url": "https://github.com/frontegg/terraform-provider-frontegg/releases/download/v0.2.52/terraform-provider-frontegg_0.2.52_freebsd_arm64.zip",
+          "shasum": "48891f97b056497808bce0866f9b7d61eefede1391be98ff1acab53697799cbc"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-frontegg_0.2.52_linux_386.zip",
+          "download_url": "https://github.com/frontegg/terraform-provider-frontegg/releases/download/v0.2.52/terraform-provider-frontegg_0.2.52_linux_386.zip",
+          "shasum": "698bde9a627784ca884602887d32af591395f085b23cae715f968f872972b56a"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-frontegg_0.2.52_linux_arm.zip",
+          "download_url": "https://github.com/frontegg/terraform-provider-frontegg/releases/download/v0.2.52/terraform-provider-frontegg_0.2.52_linux_arm.zip",
+          "shasum": "91eac1cf5950b6de8c74bfb2cde0b14cf3d9be6740d9511e853dc4c606e8cd42"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-frontegg_0.2.52_freebsd_amd64.zip",
+          "download_url": "https://github.com/frontegg/terraform-provider-frontegg/releases/download/v0.2.52/terraform-provider-frontegg_0.2.52_freebsd_amd64.zip",
+          "shasum": "65b1f6f536f5b8655e0158aba29c3bd1e0274358388bf6dcea084c9862b867f1"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-frontegg_0.2.52_windows_amd64.zip",
+          "download_url": "https://github.com/frontegg/terraform-provider-frontegg/releases/download/v0.2.52/terraform-provider-frontegg_0.2.52_windows_amd64.zip",
+          "shasum": "b45eb245c7c0e9137e3bad8d06ef5bd494d0d934d623e27c64365823f5ba8112"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-frontegg_0.2.52_linux_arm64.zip",
+          "download_url": "https://github.com/frontegg/terraform-provider-frontegg/releases/download/v0.2.52/terraform-provider-frontegg_0.2.52_linux_arm64.zip",
+          "shasum": "f93d999d3876aeacc3d7048b80bdd904ae23418d6ec1f2a2edb9c1f56a2059ee"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-frontegg_0.2.52_darwin_arm64.zip",
+          "download_url": "https://github.com/frontegg/terraform-provider-frontegg/releases/download/v0.2.52/terraform-provider-frontegg_0.2.52_darwin_arm64.zip",
+          "shasum": "6c295b6cf3c1f45cb7587e79bdcd92027e5eefbc96112c954aa1a124ed73fd11"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-frontegg_0.2.52_freebsd_arm.zip",
+          "download_url": "https://github.com/frontegg/terraform-provider-frontegg/releases/download/v0.2.52/terraform-provider-frontegg_0.2.52_freebsd_arm.zip",
+          "shasum": "7d17a312889c6e586447013721ad6790e2e5b0c46e05b6fe236fad3cf5cd2a3f"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-frontegg_0.2.52_windows_arm.zip",
+          "download_url": "https://github.com/frontegg/terraform-provider-frontegg/releases/download/v0.2.52/terraform-provider-frontegg_0.2.52_windows_arm.zip",
+          "shasum": "5f8253c29db53a4a46697e13459390d088cd58ce4b94f136d087b78181d3e82d"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-frontegg_0.2.52_freebsd_386.zip",
+          "download_url": "https://github.com/frontegg/terraform-provider-frontegg/releases/download/v0.2.52/terraform-provider-frontegg_0.2.52_freebsd_386.zip",
+          "shasum": "801dcecdb9b03399f7aef2b969e287013389b0f9da2ae69db8a44456f32fec46"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-frontegg_0.2.52_linux_amd64.zip",
+          "download_url": "https://github.com/frontegg/terraform-provider-frontegg/releases/download/v0.2.52/terraform-provider-frontegg_0.2.52_linux_amd64.zip",
+          "shasum": "13ba6f0f2362cfc8800740e2cfbce37dafe445749b860792bf8606a1ad696d2b"
+        }
+      ]
+    },
+    {
       "version": "0.2.51",
       "protocols": [
         "5.0"

@@ -2,6 +2,222 @@
   "repository": "https://github.com/CiscoDevNet/terraform-provider-cdo",
   "versions": [
     {
+      "version": "0.14.3",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/CiscoDevNet/terraform-provider-cdo/releases/download/v0.14.3/terraform-provider-cdo_0.14.3_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/CiscoDevNet/terraform-provider-cdo/releases/download/v0.14.3/terraform-provider-cdo_0.14.3_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-cdo_0.14.3_linux_arm.zip",
+          "download_url": "https://github.com/CiscoDevNet/terraform-provider-cdo/releases/download/v0.14.3/terraform-provider-cdo_0.14.3_linux_arm.zip",
+          "shasum": "053ac940989bbd543fb6ac332d5e5370ed8b712d3312b69e37b79799e8caa387"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-cdo_0.14.3_darwin_arm64.zip",
+          "download_url": "https://github.com/CiscoDevNet/terraform-provider-cdo/releases/download/v0.14.3/terraform-provider-cdo_0.14.3_darwin_arm64.zip",
+          "shasum": "104d6c9e3d518a71063f1a515c6c5537b5ea4cea77c83aced26392b16e33bfc7"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-cdo_0.14.3_freebsd_386.zip",
+          "download_url": "https://github.com/CiscoDevNet/terraform-provider-cdo/releases/download/v0.14.3/terraform-provider-cdo_0.14.3_freebsd_386.zip",
+          "shasum": "d2a1271361149035a2eb1213141b15cf7c06bf304e1d0c1c45807ef02961448a"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-cdo_0.14.3_windows_386.zip",
+          "download_url": "https://github.com/CiscoDevNet/terraform-provider-cdo/releases/download/v0.14.3/terraform-provider-cdo_0.14.3_windows_386.zip",
+          "shasum": "50799ec03da332f15646838a8808ddfa9f8f4ce83a251e3b12c256af51818fb6"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-cdo_0.14.3_linux_arm64.zip",
+          "download_url": "https://github.com/CiscoDevNet/terraform-provider-cdo/releases/download/v0.14.3/terraform-provider-cdo_0.14.3_linux_arm64.zip",
+          "shasum": "70a6e13d79ab17de7625e7197e4091039528ca411cf5d9f283a229ecf1fc3551"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-cdo_0.14.3_freebsd_arm.zip",
+          "download_url": "https://github.com/CiscoDevNet/terraform-provider-cdo/releases/download/v0.14.3/terraform-provider-cdo_0.14.3_freebsd_arm.zip",
+          "shasum": "d112ac2433db699ac88a23baaf7af11d91587e9fc8336784eceefc8c4a386df1"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-cdo_0.14.3_windows_amd64.zip",
+          "download_url": "https://github.com/CiscoDevNet/terraform-provider-cdo/releases/download/v0.14.3/terraform-provider-cdo_0.14.3_windows_amd64.zip",
+          "shasum": "7cb37f57b78a47531759f4d78024b72cb66e64e364f9c66c081e8c504ce07169"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-cdo_0.14.3_darwin_amd64.zip",
+          "download_url": "https://github.com/CiscoDevNet/terraform-provider-cdo/releases/download/v0.14.3/terraform-provider-cdo_0.14.3_darwin_amd64.zip",
+          "shasum": "dc06155dfcae71a515f9398e12e48593113c9ef7fc7ef4ecc86a3282aa2ef840"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-cdo_0.14.3_windows_arm.zip",
+          "download_url": "https://github.com/CiscoDevNet/terraform-provider-cdo/releases/download/v0.14.3/terraform-provider-cdo_0.14.3_windows_arm.zip",
+          "shasum": "5d07fc8bfed1ae90aa973aa0dcfb29a3bcefd93151254bea210ab02292fd734e"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-cdo_0.14.3_freebsd_arm64.zip",
+          "download_url": "https://github.com/CiscoDevNet/terraform-provider-cdo/releases/download/v0.14.3/terraform-provider-cdo_0.14.3_freebsd_arm64.zip",
+          "shasum": "44e6dab5e4caab42a6902d05538c7bb17ede935cbb3633c2c9765a9c9ebc8d10"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-cdo_0.14.3_freebsd_amd64.zip",
+          "download_url": "https://github.com/CiscoDevNet/terraform-provider-cdo/releases/download/v0.14.3/terraform-provider-cdo_0.14.3_freebsd_amd64.zip",
+          "shasum": "0199702d43693ddd048b726daadee951f45e13916ad9ff712a1ca7e18b21d76a"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-cdo_0.14.3_linux_amd64.zip",
+          "download_url": "https://github.com/CiscoDevNet/terraform-provider-cdo/releases/download/v0.14.3/terraform-provider-cdo_0.14.3_linux_amd64.zip",
+          "shasum": "7b07513248e960d97883593d6892f5d68d1fbc171f0c2744599a65db63c8a733"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-cdo_0.14.3_linux_386.zip",
+          "download_url": "https://github.com/CiscoDevNet/terraform-provider-cdo/releases/download/v0.14.3/terraform-provider-cdo_0.14.3_linux_386.zip",
+          "shasum": "88990ffdeaa20920fd2634d06ee5ee79045f26ccb66054b87f2a5b44b4e4842d"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-cdo_0.14.3_windows_arm64.zip",
+          "download_url": "https://github.com/CiscoDevNet/terraform-provider-cdo/releases/download/v0.14.3/terraform-provider-cdo_0.14.3_windows_arm64.zip",
+          "shasum": "d1d28ee2df9b52c8e781e0b22067c8ca81bc9afa48f1ffbd441bd5e93f61372f"
+        }
+      ]
+    },
+    {
+      "version": "0.14.2",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/CiscoDevNet/terraform-provider-cdo/releases/download/v0.14.2/terraform-provider-cdo_0.14.2_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/CiscoDevNet/terraform-provider-cdo/releases/download/v0.14.2/terraform-provider-cdo_0.14.2_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-cdo_0.14.2_freebsd_arm.zip",
+          "download_url": "https://github.com/CiscoDevNet/terraform-provider-cdo/releases/download/v0.14.2/terraform-provider-cdo_0.14.2_freebsd_arm.zip",
+          "shasum": "59e4d68243b577a38ea40129c05b491a1776daf6abea1b45ef5d5dded1fce45d"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-cdo_0.14.2_freebsd_386.zip",
+          "download_url": "https://github.com/CiscoDevNet/terraform-provider-cdo/releases/download/v0.14.2/terraform-provider-cdo_0.14.2_freebsd_386.zip",
+          "shasum": "77cabfaa0926221977e44e468d86d6f178b3e26701f1bb311aff562617d3d3ad"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-cdo_0.14.2_windows_amd64.zip",
+          "download_url": "https://github.com/CiscoDevNet/terraform-provider-cdo/releases/download/v0.14.2/terraform-provider-cdo_0.14.2_windows_amd64.zip",
+          "shasum": "e4f0e6200226083ea5bfd2653bbcce66edb281862c50269ded39cf1e62fb8cc0"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-cdo_0.14.2_darwin_arm64.zip",
+          "download_url": "https://github.com/CiscoDevNet/terraform-provider-cdo/releases/download/v0.14.2/terraform-provider-cdo_0.14.2_darwin_arm64.zip",
+          "shasum": "56ad4761fd3b2d6cbddab025d4cf9e0eafd41eb4e89ee360151bb9da120295b0"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-cdo_0.14.2_windows_arm.zip",
+          "download_url": "https://github.com/CiscoDevNet/terraform-provider-cdo/releases/download/v0.14.2/terraform-provider-cdo_0.14.2_windows_arm.zip",
+          "shasum": "baca4597c8227991b1a1a94c12f8c40be6405f2d8ae227c3d5aa8904a149281b"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-cdo_0.14.2_linux_386.zip",
+          "download_url": "https://github.com/CiscoDevNet/terraform-provider-cdo/releases/download/v0.14.2/terraform-provider-cdo_0.14.2_linux_386.zip",
+          "shasum": "8033b3a7400b2dd1ba0e4cb358e5e557744f43431206a019ae2bee8d74bb47ef"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-cdo_0.14.2_darwin_amd64.zip",
+          "download_url": "https://github.com/CiscoDevNet/terraform-provider-cdo/releases/download/v0.14.2/terraform-provider-cdo_0.14.2_darwin_amd64.zip",
+          "shasum": "45f5b1320b8fb20afee843699a1d1588d6d53e667425b0b23a20c1ee0bf25c3b"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-cdo_0.14.2_freebsd_arm64.zip",
+          "download_url": "https://github.com/CiscoDevNet/terraform-provider-cdo/releases/download/v0.14.2/terraform-provider-cdo_0.14.2_freebsd_arm64.zip",
+          "shasum": "204889497c1db3c722e0124e6c42fe4442f407c4c926c984eabcee875df1618c"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-cdo_0.14.2_windows_arm64.zip",
+          "download_url": "https://github.com/CiscoDevNet/terraform-provider-cdo/releases/download/v0.14.2/terraform-provider-cdo_0.14.2_windows_arm64.zip",
+          "shasum": "df4c5c4d9b634170130be6ed1896c372891315164dfbd74da7c34b902f9a3cbf"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-cdo_0.14.2_windows_386.zip",
+          "download_url": "https://github.com/CiscoDevNet/terraform-provider-cdo/releases/download/v0.14.2/terraform-provider-cdo_0.14.2_windows_386.zip",
+          "shasum": "cd090fead99ef10cd755c655d0221fc85c635d6b81fbf568aa3f8ed1e42f982f"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-cdo_0.14.2_linux_arm.zip",
+          "download_url": "https://github.com/CiscoDevNet/terraform-provider-cdo/releases/download/v0.14.2/terraform-provider-cdo_0.14.2_linux_arm.zip",
+          "shasum": "047f6ad68dadba4f3e68ebc9567901cbb0a735e50703195f9ea91d128e885fb1"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-cdo_0.14.2_linux_arm64.zip",
+          "download_url": "https://github.com/CiscoDevNet/terraform-provider-cdo/releases/download/v0.14.2/terraform-provider-cdo_0.14.2_linux_arm64.zip",
+          "shasum": "f5fce388fab8a37ec3e169e33ee5580d33e386fd06108702c19f80bb718dd0ec"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-cdo_0.14.2_freebsd_amd64.zip",
+          "download_url": "https://github.com/CiscoDevNet/terraform-provider-cdo/releases/download/v0.14.2/terraform-provider-cdo_0.14.2_freebsd_amd64.zip",
+          "shasum": "4c361e18d6f255e923d1275b84687bed09ce38272a0c7276f3bb7e9d58ac2af5"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-cdo_0.14.2_linux_amd64.zip",
+          "download_url": "https://github.com/CiscoDevNet/terraform-provider-cdo/releases/download/v0.14.2/terraform-provider-cdo_0.14.2_linux_amd64.zip",
+          "shasum": "4a9989beb101249587816d6974249bfb431f0e1c41a6fbe0ffd5dcd41f932af9"
+        }
+      ]
+    },
+    {
       "version": "0.14.1",
       "protocols": [
         "5.0"
