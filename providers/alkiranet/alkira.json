@@ -2,6 +2,114 @@
   "repository": "https://github.com/alkiranet/terraform-provider-alkira",
   "versions": [
     {
+      "version": "1.1.1",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/alkiranet/terraform-provider-alkira/releases/download/v1.1.1/terraform-provider-alkira_1.1.1_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/alkiranet/terraform-provider-alkira/releases/download/v1.1.1/terraform-provider-alkira_1.1.1_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-alkira_1.1.1_freebsd_386.zip",
+          "download_url": "https://github.com/alkiranet/terraform-provider-alkira/releases/download/v1.1.1/terraform-provider-alkira_1.1.1_freebsd_386.zip",
+          "shasum": "27a93c2ee5b32ce193986769b79229c3727b283c8533ec14067009cd33e8d8bd"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-alkira_1.1.1_windows_amd64.zip",
+          "download_url": "https://github.com/alkiranet/terraform-provider-alkira/releases/download/v1.1.1/terraform-provider-alkira_1.1.1_windows_amd64.zip",
+          "shasum": "39c799283be33d909fc6fe55bb412f660cc3e5b31afbb388114e186476cce040"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-alkira_1.1.1_freebsd_amd64.zip",
+          "download_url": "https://github.com/alkiranet/terraform-provider-alkira/releases/download/v1.1.1/terraform-provider-alkira_1.1.1_freebsd_amd64.zip",
+          "shasum": "55edaca8d8453de96b98db91a0df7a260ac81051c5f2c87f3711a11d1006215c"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-alkira_1.1.1_linux_386.zip",
+          "download_url": "https://github.com/alkiranet/terraform-provider-alkira/releases/download/v1.1.1/terraform-provider-alkira_1.1.1_linux_386.zip",
+          "shasum": "38156c2ab28db2f46fd9bd8d0c79192671146a6d4265320e90ba037926164497"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-alkira_1.1.1_freebsd_arm.zip",
+          "download_url": "https://github.com/alkiranet/terraform-provider-alkira/releases/download/v1.1.1/terraform-provider-alkira_1.1.1_freebsd_arm.zip",
+          "shasum": "6351046cc655ec52d5bae0a1f5473e5bb0024cf7b3dfd268db776912b4e8035b"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-alkira_1.1.1_windows_386.zip",
+          "download_url": "https://github.com/alkiranet/terraform-provider-alkira/releases/download/v1.1.1/terraform-provider-alkira_1.1.1_windows_386.zip",
+          "shasum": "cdcd6be62ae8cbc86ae3efd6296da012977a77a980c6fa02b11852cbaa8105f9"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-alkira_1.1.1_windows_arm.zip",
+          "download_url": "https://github.com/alkiranet/terraform-provider-alkira/releases/download/v1.1.1/terraform-provider-alkira_1.1.1_windows_arm.zip",
+          "shasum": "3a55b9f1e6f30116695c049783dc4b81f61e060fd7b30eaae3c1c96f88c2d256"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-alkira_1.1.1_windows_arm64.zip",
+          "download_url": "https://github.com/alkiranet/terraform-provider-alkira/releases/download/v1.1.1/terraform-provider-alkira_1.1.1_windows_arm64.zip",
+          "shasum": "80c66d494ff6fa9b4fb8967dfc4bd98742135af3134164d9850de7b8f5cb71df"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-alkira_1.1.1_linux_arm.zip",
+          "download_url": "https://github.com/alkiranet/terraform-provider-alkira/releases/download/v1.1.1/terraform-provider-alkira_1.1.1_linux_arm.zip",
+          "shasum": "2729a6027c3c77c6c9a632435dc67c7ab2aae2edf6e59028c9c9ccf5ba482f89"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-alkira_1.1.1_linux_arm64.zip",
+          "download_url": "https://github.com/alkiranet/terraform-provider-alkira/releases/download/v1.1.1/terraform-provider-alkira_1.1.1_linux_arm64.zip",
+          "shasum": "41fa23ad17e80e59bbcbca91378dfced79b8ee03ba77869a02fa86e8fd784ee9"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-alkira_1.1.1_freebsd_arm64.zip",
+          "download_url": "https://github.com/alkiranet/terraform-provider-alkira/releases/download/v1.1.1/terraform-provider-alkira_1.1.1_freebsd_arm64.zip",
+          "shasum": "bf75f65aa6141f05392c5cc7d50bb06f9511f3d6a582ad4b23d3af05f8e258a8"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-alkira_1.1.1_darwin_amd64.zip",
+          "download_url": "https://github.com/alkiranet/terraform-provider-alkira/releases/download/v1.1.1/terraform-provider-alkira_1.1.1_darwin_amd64.zip",
+          "shasum": "c03a9fbdde3e493160cd7aede8390225bec5fc8f6b1da30c9e7873a970e7e69f"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-alkira_1.1.1_darwin_arm64.zip",
+          "download_url": "https://github.com/alkiranet/terraform-provider-alkira/releases/download/v1.1.1/terraform-provider-alkira_1.1.1_darwin_arm64.zip",
+          "shasum": "a275294ce12e9e741f0ee697b59ad7fd46534382ef1e910f5469d6ae9d53eefa"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-alkira_1.1.1_linux_amd64.zip",
+          "download_url": "https://github.com/alkiranet/terraform-provider-alkira/releases/download/v1.1.1/terraform-provider-alkira_1.1.1_linux_amd64.zip",
+          "shasum": "013dd9c007af79fd5b861e7a750420d98b174679174624696e9100909eb81487"
+        }
+      ]
+    },
+    {
       "version": "1.1.0",
       "protocols": [
         "5.0"
