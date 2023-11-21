@@ -2,6 +2,114 @@
   "repository": "https://github.com/justtrackio/terraform-provider-gosoline",
   "versions": [
     {
+      "version": "1.2.5",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/justtrackio/terraform-provider-gosoline/releases/download/v1.2.5/terraform-provider-gosoline_1.2.5_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/justtrackio/terraform-provider-gosoline/releases/download/v1.2.5/terraform-provider-gosoline_1.2.5_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-gosoline_1.2.5_windows_386.zip",
+          "download_url": "https://github.com/justtrackio/terraform-provider-gosoline/releases/download/v1.2.5/terraform-provider-gosoline_1.2.5_windows_386.zip",
+          "shasum": "779beccce56234d7d9c038f4d4d5cf67e3fca24af509bca5506b74cdc8857e46"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-gosoline_1.2.5_windows_arm64.zip",
+          "download_url": "https://github.com/justtrackio/terraform-provider-gosoline/releases/download/v1.2.5/terraform-provider-gosoline_1.2.5_windows_arm64.zip",
+          "shasum": "f2fbe7cbdbf24f8758739f09d996f27add26e06e3d5232ddc7e7743d89888fa1"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-gosoline_1.2.5_linux_arm.zip",
+          "download_url": "https://github.com/justtrackio/terraform-provider-gosoline/releases/download/v1.2.5/terraform-provider-gosoline_1.2.5_linux_arm.zip",
+          "shasum": "19f7a61ffd5945cf79c70d5b5329fcab597fcb29d7d17a06acf721657ebe8044"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-gosoline_1.2.5_freebsd_arm64.zip",
+          "download_url": "https://github.com/justtrackio/terraform-provider-gosoline/releases/download/v1.2.5/terraform-provider-gosoline_1.2.5_freebsd_arm64.zip",
+          "shasum": "b42cf07c5dc49b2598ab38b5b87be7509fa5bc0b9cbc17402ecf3a54b537a4c3"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-gosoline_1.2.5_linux_386.zip",
+          "download_url": "https://github.com/justtrackio/terraform-provider-gosoline/releases/download/v1.2.5/terraform-provider-gosoline_1.2.5_linux_386.zip",
+          "shasum": "9905c5619ec0d280e7ff550121d961fa55261da887c727dcabdb6e69a8307f03"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-gosoline_1.2.5_freebsd_arm.zip",
+          "download_url": "https://github.com/justtrackio/terraform-provider-gosoline/releases/download/v1.2.5/terraform-provider-gosoline_1.2.5_freebsd_arm.zip",
+          "shasum": "da16562ffbcb6cafdcc4ab4af55f1659793fb118964c82c05d26f572a2d5cd89"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-gosoline_1.2.5_freebsd_386.zip",
+          "download_url": "https://github.com/justtrackio/terraform-provider-gosoline/releases/download/v1.2.5/terraform-provider-gosoline_1.2.5_freebsd_386.zip",
+          "shasum": "b4816041b15a7a3b2c94ea7718ee3bc8e4cd84bf592368384e4d194c936f07e5"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-gosoline_1.2.5_linux_amd64.zip",
+          "download_url": "https://github.com/justtrackio/terraform-provider-gosoline/releases/download/v1.2.5/terraform-provider-gosoline_1.2.5_linux_amd64.zip",
+          "shasum": "75d98755290164635aa6217aecf77717a50a3f0a29a1293a45caae9c13568b76"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-gosoline_1.2.5_windows_arm.zip",
+          "download_url": "https://github.com/justtrackio/terraform-provider-gosoline/releases/download/v1.2.5/terraform-provider-gosoline_1.2.5_windows_arm.zip",
+          "shasum": "ac7c0a6a70ba19fecb96a43e0f850cd5751ccaafc946d1668eb0f72d9651456c"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-gosoline_1.2.5_freebsd_amd64.zip",
+          "download_url": "https://github.com/justtrackio/terraform-provider-gosoline/releases/download/v1.2.5/terraform-provider-gosoline_1.2.5_freebsd_amd64.zip",
+          "shasum": "5fd1ca5301373e607981893262172c8baefacb6d2438bc64bde92e313dd29134"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-gosoline_1.2.5_windows_amd64.zip",
+          "download_url": "https://github.com/justtrackio/terraform-provider-gosoline/releases/download/v1.2.5/terraform-provider-gosoline_1.2.5_windows_amd64.zip",
+          "shasum": "b70072e599c03e01560833597640e08a58556389f9553317c98e926057e816fe"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-gosoline_1.2.5_linux_arm64.zip",
+          "download_url": "https://github.com/justtrackio/terraform-provider-gosoline/releases/download/v1.2.5/terraform-provider-gosoline_1.2.5_linux_arm64.zip",
+          "shasum": "56f11d9b3f572df8358d1142ca9509f69722fa096d1162e94a53f5ed6ec9acd7"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-gosoline_1.2.5_darwin_amd64.zip",
+          "download_url": "https://github.com/justtrackio/terraform-provider-gosoline/releases/download/v1.2.5/terraform-provider-gosoline_1.2.5_darwin_amd64.zip",
+          "shasum": "38781f386c281869d85ae4219fdd1bf83ed76d94b31ff706602b3cfd0f794390"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-gosoline_1.2.5_darwin_arm64.zip",
+          "download_url": "https://github.com/justtrackio/terraform-provider-gosoline/releases/download/v1.2.5/terraform-provider-gosoline_1.2.5_darwin_arm64.zip",
+          "shasum": "5c241ce89289f12e4573dd8a5f3d5282baa3a2090a8d2c1ce1b9d5009370930c"
+        }
+      ]
+    },
+    {
       "version": "1.2.4",
       "protocols": [
         "5.0"
