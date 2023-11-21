@@ -2,6 +2,114 @@
   "repository": "https://github.com/clearhaus/terraform-provider-humio",
   "versions": [
     {
+      "version": "0.4.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/clearhaus/terraform-provider-humio/releases/download/v0.4.0/terraform-provider-humio_0.4.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/clearhaus/terraform-provider-humio/releases/download/v0.4.0/terraform-provider-humio_0.4.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-humio_0.4.0_linux_386.zip",
+          "download_url": "https://github.com/clearhaus/terraform-provider-humio/releases/download/v0.4.0/terraform-provider-humio_0.4.0_linux_386.zip",
+          "shasum": "03d5d35775daa24caa19d9480509bc4d2714d6267805a9680578a9e2b8d3621a"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-humio_0.4.0_windows_arm64.zip",
+          "download_url": "https://github.com/clearhaus/terraform-provider-humio/releases/download/v0.4.0/terraform-provider-humio_0.4.0_windows_arm64.zip",
+          "shasum": "41d3b675c5e8d22e11dedfe7589a6b26e5b3ba19ab362f4a73a971514542d1ec"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-humio_0.4.0_windows_arm.zip",
+          "download_url": "https://github.com/clearhaus/terraform-provider-humio/releases/download/v0.4.0/terraform-provider-humio_0.4.0_windows_arm.zip",
+          "shasum": "c907a56a19526c792ce657531374b33479c10534784b0f1a46637d456276238e"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-humio_0.4.0_windows_amd64.zip",
+          "download_url": "https://github.com/clearhaus/terraform-provider-humio/releases/download/v0.4.0/terraform-provider-humio_0.4.0_windows_amd64.zip",
+          "shasum": "38e1193493134cf706c955c45b9b410930958bb8cba813f560cca38bb3b35266"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-humio_0.4.0_darwin_arm64.zip",
+          "download_url": "https://github.com/clearhaus/terraform-provider-humio/releases/download/v0.4.0/terraform-provider-humio_0.4.0_darwin_arm64.zip",
+          "shasum": "76d4150b3d051e8362c8c94b4a6cdf685da032a3e4880bafee46ba7671817138"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-humio_0.4.0_linux_arm.zip",
+          "download_url": "https://github.com/clearhaus/terraform-provider-humio/releases/download/v0.4.0/terraform-provider-humio_0.4.0_linux_arm.zip",
+          "shasum": "91e311c19c950c2fa7b4c35c24d8e010c21a3af9ab385122f99310a9fafe5b3e"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-humio_0.4.0_freebsd_386.zip",
+          "download_url": "https://github.com/clearhaus/terraform-provider-humio/releases/download/v0.4.0/terraform-provider-humio_0.4.0_freebsd_386.zip",
+          "shasum": "04161b22ea647670e3da5ccf6d00750e31ab4acd10792ddb0c4b67baef185179"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-humio_0.4.0_darwin_amd64.zip",
+          "download_url": "https://github.com/clearhaus/terraform-provider-humio/releases/download/v0.4.0/terraform-provider-humio_0.4.0_darwin_amd64.zip",
+          "shasum": "f6285bf954ba31081e9aaaaa3abb0bf956fcca69dfc10bc7d5f17cfe6a4d5206"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-humio_0.4.0_freebsd_arm.zip",
+          "download_url": "https://github.com/clearhaus/terraform-provider-humio/releases/download/v0.4.0/terraform-provider-humio_0.4.0_freebsd_arm.zip",
+          "shasum": "fa9eb5d4adf53883a113e77a7e3f39219edcbb64eff8f6e22d88874d57a4de50"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-humio_0.4.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/clearhaus/terraform-provider-humio/releases/download/v0.4.0/terraform-provider-humio_0.4.0_freebsd_arm64.zip",
+          "shasum": "456c0f57ebfbebbbcfefa26bd42b6c98de0574436e71a6f75b3d95a689cfd7f7"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-humio_0.4.0_linux_amd64.zip",
+          "download_url": "https://github.com/clearhaus/terraform-provider-humio/releases/download/v0.4.0/terraform-provider-humio_0.4.0_linux_amd64.zip",
+          "shasum": "3ceca1da82d6ba635c8b4d91bd54ed72b67ee84b71208c98e33b6404e7e5ff16"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-humio_0.4.0_linux_arm64.zip",
+          "download_url": "https://github.com/clearhaus/terraform-provider-humio/releases/download/v0.4.0/terraform-provider-humio_0.4.0_linux_arm64.zip",
+          "shasum": "4d1e070ee39bacb7e80fd0082ab397a8e08c8739bb7a28706594a5a741d84c9b"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-humio_0.4.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/clearhaus/terraform-provider-humio/releases/download/v0.4.0/terraform-provider-humio_0.4.0_freebsd_amd64.zip",
+          "shasum": "dce0067265dcfaab075d33409918740fbb0621fa547f37aa24e76edcec7237de"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-humio_0.4.0_windows_386.zip",
+          "download_url": "https://github.com/clearhaus/terraform-provider-humio/releases/download/v0.4.0/terraform-provider-humio_0.4.0_windows_386.zip",
+          "shasum": "86cecb53c7ea666771e1f39a6368cb864967718afabc07058c85dbf3115b1f0e"
+        }
+      ]
+    },
+    {
       "version": "0.3.0",
       "protocols": [
         "5.0"
