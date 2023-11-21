@@ -2,6 +2,107 @@
   "repository": "https://github.com/spotinst/terraform-provider-spotinst",
   "versions": [
     {
+      "version": "1.150.1",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/spotinst/terraform-provider-spotinst/releases/download/v1.150.1/terraform-provider-spotinst_1.150.1_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/spotinst/terraform-provider-spotinst/releases/download/v1.150.1/terraform-provider-spotinst_1.150.1_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-spotinst_1.150.1_darwin_arm64.zip",
+          "download_url": "https://github.com/spotinst/terraform-provider-spotinst/releases/download/v1.150.1/terraform-provider-spotinst_1.150.1_darwin_arm64.zip",
+          "shasum": "25c610e5f522daf5ce1180ecc44e9afa6da2e32b0d1f9460e8fff55ea7d1a1d3"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-spotinst_1.150.1_freebsd_arm.zip",
+          "download_url": "https://github.com/spotinst/terraform-provider-spotinst/releases/download/v1.150.1/terraform-provider-spotinst_1.150.1_freebsd_arm.zip",
+          "shasum": "f2667852775b2bb0f128b3c55649cd4a58ffbf587f9ab13e4cb48849e5bdb3f8"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-spotinst_1.150.1_windows_386.zip",
+          "download_url": "https://github.com/spotinst/terraform-provider-spotinst/releases/download/v1.150.1/terraform-provider-spotinst_1.150.1_windows_386.zip",
+          "shasum": "16329c3b35008d05b7c38390554bda243b59a8b09a73f76f20e5794525df968f"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-spotinst_1.150.1_windows_amd64.zip",
+          "download_url": "https://github.com/spotinst/terraform-provider-spotinst/releases/download/v1.150.1/terraform-provider-spotinst_1.150.1_windows_amd64.zip",
+          "shasum": "19a880b25421d5463ea79059f9596cb908592a5e8a340fb9186a773e4a28e7ee"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-spotinst_1.150.1_linux_arm64.zip",
+          "download_url": "https://github.com/spotinst/terraform-provider-spotinst/releases/download/v1.150.1/terraform-provider-spotinst_1.150.1_linux_arm64.zip",
+          "shasum": "10ac25762c3859f646d9098327c6518fa8ae46981dc9f0553e5bb68db366b41f"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-spotinst_1.150.1_linux_amd64.zip",
+          "download_url": "https://github.com/spotinst/terraform-provider-spotinst/releases/download/v1.150.1/terraform-provider-spotinst_1.150.1_linux_amd64.zip",
+          "shasum": "b3c835c32558b8b7fe6d02d4757acbb8710043362f16071d767478deaa71ac8e"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-spotinst_1.150.1_windows_arm.zip",
+          "download_url": "https://github.com/spotinst/terraform-provider-spotinst/releases/download/v1.150.1/terraform-provider-spotinst_1.150.1_windows_arm.zip",
+          "shasum": "6ad846e898b2c03b12344744a692b56642e4e1fcd2300a0f8a620d48cfb036ee"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-spotinst_1.150.1_linux_arm.zip",
+          "download_url": "https://github.com/spotinst/terraform-provider-spotinst/releases/download/v1.150.1/terraform-provider-spotinst_1.150.1_linux_arm.zip",
+          "shasum": "392df2cb85a668c6f0730e322820489a65042ed6ca2ffc223539ad1b13cc6096"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-spotinst_1.150.1_darwin_amd64.zip",
+          "download_url": "https://github.com/spotinst/terraform-provider-spotinst/releases/download/v1.150.1/terraform-provider-spotinst_1.150.1_darwin_amd64.zip",
+          "shasum": "331f1e27e717047fd2d8a5a03bc68a34580ecf943e0b23f6bf58cd4a74299d40"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-spotinst_1.150.1_linux_386.zip",
+          "download_url": "https://github.com/spotinst/terraform-provider-spotinst/releases/download/v1.150.1/terraform-provider-spotinst_1.150.1_linux_386.zip",
+          "shasum": "db2b4665fc943a738c55c55aa13e4f198e6bc0e380cfc605ec9d42cd253b52b0"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-spotinst_1.150.1_freebsd_386.zip",
+          "download_url": "https://github.com/spotinst/terraform-provider-spotinst/releases/download/v1.150.1/terraform-provider-spotinst_1.150.1_freebsd_386.zip",
+          "shasum": "60dc6d5b527451a1f38bc442160294d26c33d2cdfe165bfdb5fb7209894f6d0a"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-spotinst_1.150.1_freebsd_amd64.zip",
+          "download_url": "https://github.com/spotinst/terraform-provider-spotinst/releases/download/v1.150.1/terraform-provider-spotinst_1.150.1_freebsd_amd64.zip",
+          "shasum": "718d7108f996efe83f946a5d32de483889bf1f82fa0d19a8a1715f32b62f4bcd"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-spotinst_1.150.1_freebsd_arm64.zip",
+          "download_url": "https://github.com/spotinst/terraform-provider-spotinst/releases/download/v1.150.1/terraform-provider-spotinst_1.150.1_freebsd_arm64.zip",
+          "shasum": "a7edff280a53e91919ed975e618df60ffcf8c1040fe3b6e7b5691fe0991364ce"
+        }
+      ]
+    },
+    {
       "version": "1.150.0",
       "protocols": [
         "5.0"
