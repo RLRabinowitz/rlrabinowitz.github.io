@@ -2,6 +2,114 @@
   "repository": "https://github.com/dbt-labs/terraform-provider-dbtcloud",
   "versions": [
     {
+      "version": "0.2.16",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/dbt-labs/terraform-provider-dbtcloud/releases/download/v0.2.16/terraform-provider-dbtcloud_0.2.16_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/dbt-labs/terraform-provider-dbtcloud/releases/download/v0.2.16/terraform-provider-dbtcloud_0.2.16_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-dbtcloud_0.2.16_freebsd_arm64.zip",
+          "download_url": "https://github.com/dbt-labs/terraform-provider-dbtcloud/releases/download/v0.2.16/terraform-provider-dbtcloud_0.2.16_freebsd_arm64.zip",
+          "shasum": "39deefe62984466590bb38a0c2203e39230039d7e872f35e32bafd6ecc24092e"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-dbtcloud_0.2.16_freebsd_386.zip",
+          "download_url": "https://github.com/dbt-labs/terraform-provider-dbtcloud/releases/download/v0.2.16/terraform-provider-dbtcloud_0.2.16_freebsd_386.zip",
+          "shasum": "4daa12765869cc85479efefcbb922bf20d7d59c7347966b9651f5fa0b15ab524"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-dbtcloud_0.2.16_freebsd_amd64.zip",
+          "download_url": "https://github.com/dbt-labs/terraform-provider-dbtcloud/releases/download/v0.2.16/terraform-provider-dbtcloud_0.2.16_freebsd_amd64.zip",
+          "shasum": "182ce1c37ad410ad079c63effed228055dd23d27a8bda32789cbe1cfc5ed5ceb"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-dbtcloud_0.2.16_linux_amd64.zip",
+          "download_url": "https://github.com/dbt-labs/terraform-provider-dbtcloud/releases/download/v0.2.16/terraform-provider-dbtcloud_0.2.16_linux_amd64.zip",
+          "shasum": "0d1d15fee3ab79e057c6aadee30396600d33f49df81122f2f0458027f07c61c0"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-dbtcloud_0.2.16_windows_amd64.zip",
+          "download_url": "https://github.com/dbt-labs/terraform-provider-dbtcloud/releases/download/v0.2.16/terraform-provider-dbtcloud_0.2.16_windows_amd64.zip",
+          "shasum": "6ad4d69649c82509a7dd1e9ed7793e40efbd6d7db713b21c410750ea5f347ebf"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-dbtcloud_0.2.16_windows_arm.zip",
+          "download_url": "https://github.com/dbt-labs/terraform-provider-dbtcloud/releases/download/v0.2.16/terraform-provider-dbtcloud_0.2.16_windows_arm.zip",
+          "shasum": "81b7356d9f3633bfcdefd270c0eda2d37f768bf1f7093b3385fb4b46475a1763"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-dbtcloud_0.2.16_windows_arm64.zip",
+          "download_url": "https://github.com/dbt-labs/terraform-provider-dbtcloud/releases/download/v0.2.16/terraform-provider-dbtcloud_0.2.16_windows_arm64.zip",
+          "shasum": "6ef1f62d8447d621f486f211459c477f249ea5dfbb626bf0c68131be07212ace"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-dbtcloud_0.2.16_darwin_amd64.zip",
+          "download_url": "https://github.com/dbt-labs/terraform-provider-dbtcloud/releases/download/v0.2.16/terraform-provider-dbtcloud_0.2.16_darwin_amd64.zip",
+          "shasum": "6e1d4287c96fb97d1d6e8655689752da9ed702c04d93008d3fafa8698d790f3b"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-dbtcloud_0.2.16_freebsd_arm.zip",
+          "download_url": "https://github.com/dbt-labs/terraform-provider-dbtcloud/releases/download/v0.2.16/terraform-provider-dbtcloud_0.2.16_freebsd_arm.zip",
+          "shasum": "2755e7ed2452ed0277133b9a51f1e97e2ee370dcc82e8a3435aa35986cc69127"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-dbtcloud_0.2.16_darwin_arm64.zip",
+          "download_url": "https://github.com/dbt-labs/terraform-provider-dbtcloud/releases/download/v0.2.16/terraform-provider-dbtcloud_0.2.16_darwin_arm64.zip",
+          "shasum": "505dd8f0b4f423982b25f2e59e6296d8e5534843995d508dfeba9031bf143262"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-dbtcloud_0.2.16_windows_386.zip",
+          "download_url": "https://github.com/dbt-labs/terraform-provider-dbtcloud/releases/download/v0.2.16/terraform-provider-dbtcloud_0.2.16_windows_386.zip",
+          "shasum": "8f8a43f3e61be6b52873e5cb9d72af6bb25761ad6ce8bff8d5ceb6b5079544a8"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-dbtcloud_0.2.16_linux_386.zip",
+          "download_url": "https://github.com/dbt-labs/terraform-provider-dbtcloud/releases/download/v0.2.16/terraform-provider-dbtcloud_0.2.16_linux_386.zip",
+          "shasum": "7cc271e452d68ed14640307ed12978ece92b0c8db2d8b266bc12a44e8a32a53c"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-dbtcloud_0.2.16_linux_arm.zip",
+          "download_url": "https://github.com/dbt-labs/terraform-provider-dbtcloud/releases/download/v0.2.16/terraform-provider-dbtcloud_0.2.16_linux_arm.zip",
+          "shasum": "a1de83fb0975db6c0bdf138ce07d748fd85b3e3de7921607550c4e1f1eaaabdd"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-dbtcloud_0.2.16_linux_arm64.zip",
+          "download_url": "https://github.com/dbt-labs/terraform-provider-dbtcloud/releases/download/v0.2.16/terraform-provider-dbtcloud_0.2.16_linux_arm64.zip",
+          "shasum": "8484c6fb9f39a04c717346ae420ee6110206dfe82ee7bb6bf0821305a2576247"
+        }
+      ]
+    },
+    {
       "version": "0.2.15",
       "protocols": [
         "5.0"
