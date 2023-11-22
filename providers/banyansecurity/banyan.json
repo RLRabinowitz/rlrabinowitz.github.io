@@ -2,6 +2,114 @@
   "repository": "https://github.com/banyansecurity/terraform-provider-banyan",
   "versions": [
     {
+      "version": "1.2.8",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/banyansecurity/terraform-provider-banyan/releases/download/v1.2.8/terraform-provider-banyan_1.2.8_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/banyansecurity/terraform-provider-banyan/releases/download/v1.2.8/terraform-provider-banyan_1.2.8_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-banyan_1.2.8_windows_arm64.zip",
+          "download_url": "https://github.com/banyansecurity/terraform-provider-banyan/releases/download/v1.2.8/terraform-provider-banyan_1.2.8_windows_arm64.zip",
+          "shasum": "d9803d92722d33fe499cda3c4fd523f6041d43bed9e8ad20718ee38702801a17"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-banyan_1.2.8_freebsd_arm64.zip",
+          "download_url": "https://github.com/banyansecurity/terraform-provider-banyan/releases/download/v1.2.8/terraform-provider-banyan_1.2.8_freebsd_arm64.zip",
+          "shasum": "e04273c6df93abf2be6315298af50ca8213f1644b26679e84508adeec2043e40"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-banyan_1.2.8_darwin_amd64.zip",
+          "download_url": "https://github.com/banyansecurity/terraform-provider-banyan/releases/download/v1.2.8/terraform-provider-banyan_1.2.8_darwin_amd64.zip",
+          "shasum": "3461cc9fff2611eb77f9f35dd210f448aac37dd32762984d3c1ebfa8801aafa8"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-banyan_1.2.8_freebsd_386.zip",
+          "download_url": "https://github.com/banyansecurity/terraform-provider-banyan/releases/download/v1.2.8/terraform-provider-banyan_1.2.8_freebsd_386.zip",
+          "shasum": "80b7feed45e436ebb87bf370b1f5af33d560df0437854b77dee4fd568417e723"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-banyan_1.2.8_linux_386.zip",
+          "download_url": "https://github.com/banyansecurity/terraform-provider-banyan/releases/download/v1.2.8/terraform-provider-banyan_1.2.8_linux_386.zip",
+          "shasum": "7407e551de4406416e7cffd18e871c6a0194ca7318da5333bd080aff83c08603"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-banyan_1.2.8_windows_arm.zip",
+          "download_url": "https://github.com/banyansecurity/terraform-provider-banyan/releases/download/v1.2.8/terraform-provider-banyan_1.2.8_windows_arm.zip",
+          "shasum": "ec3a47ab099f992adce692a6a78e36d405a2e8f6d968aa1c1dd54be3c100b754"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-banyan_1.2.8_freebsd_amd64.zip",
+          "download_url": "https://github.com/banyansecurity/terraform-provider-banyan/releases/download/v1.2.8/terraform-provider-banyan_1.2.8_freebsd_amd64.zip",
+          "shasum": "79aa7681169aa4bb12d3aa96d6081e515f37b330cf59c7c832b8eb3507c3bdfc"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-banyan_1.2.8_linux_arm64.zip",
+          "download_url": "https://github.com/banyansecurity/terraform-provider-banyan/releases/download/v1.2.8/terraform-provider-banyan_1.2.8_linux_arm64.zip",
+          "shasum": "bc90ef16cacb7f1c268da3f7a1fff032b68d3e5520a32ae47ecab3ba9905e659"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-banyan_1.2.8_freebsd_arm.zip",
+          "download_url": "https://github.com/banyansecurity/terraform-provider-banyan/releases/download/v1.2.8/terraform-provider-banyan_1.2.8_freebsd_arm.zip",
+          "shasum": "cc7cfb2e3e7908388fd8457e5fb6fc0a4bf0a107e9b84cd9a0df25c1415e4585"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-banyan_1.2.8_windows_386.zip",
+          "download_url": "https://github.com/banyansecurity/terraform-provider-banyan/releases/download/v1.2.8/terraform-provider-banyan_1.2.8_windows_386.zip",
+          "shasum": "88c9535a5c305a35db4669e3e7dcc04daf4f46910444ebd06660a2faebb9a82d"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-banyan_1.2.8_linux_arm.zip",
+          "download_url": "https://github.com/banyansecurity/terraform-provider-banyan/releases/download/v1.2.8/terraform-provider-banyan_1.2.8_linux_arm.zip",
+          "shasum": "03175ad6ec02dc492d7e9750b670e93466ee2869c63036179d49706e05443364"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-banyan_1.2.8_linux_amd64.zip",
+          "download_url": "https://github.com/banyansecurity/terraform-provider-banyan/releases/download/v1.2.8/terraform-provider-banyan_1.2.8_linux_amd64.zip",
+          "shasum": "2814803129d0d4d283013b7273692e824ef8b3c11c40ccf7cad7e7abe9f56869"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-banyan_1.2.8_windows_amd64.zip",
+          "download_url": "https://github.com/banyansecurity/terraform-provider-banyan/releases/download/v1.2.8/terraform-provider-banyan_1.2.8_windows_amd64.zip",
+          "shasum": "20b6a6d7a841f7aa40c377624aafacfdbb893c64f3e0f8794e7281a2ce30cfb6"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-banyan_1.2.8_darwin_arm64.zip",
+          "download_url": "https://github.com/banyansecurity/terraform-provider-banyan/releases/download/v1.2.8/terraform-provider-banyan_1.2.8_darwin_arm64.zip",
+          "shasum": "1b12d4010ba5b55566333688c7ac127b7854b495ed75212495e300d1ef254653"
+        }
+      ]
+    },
+    {
       "version": "1.2.7",
       "protocols": [
         "5.0"

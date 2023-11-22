@@ -2,6 +2,222 @@
   "repository": "https://github.com/chriskuchin/terraform-provider-bowtie",
   "versions": [
     {
+      "version": "0.1.6",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/chriskuchin/terraform-provider-bowtie/releases/download/v0.1.6/terraform-provider-bowtie_0.1.6_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/chriskuchin/terraform-provider-bowtie/releases/download/v0.1.6/terraform-provider-bowtie_0.1.6_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-bowtie_0.1.6_windows_386.zip",
+          "download_url": "https://github.com/chriskuchin/terraform-provider-bowtie/releases/download/v0.1.6/terraform-provider-bowtie_0.1.6_windows_386.zip",
+          "shasum": "34f5309e90eb2232d1ce1a28b3f69b006e62ffd2b169d148e628478de738dfc7"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-bowtie_0.1.6_linux_arm.zip",
+          "download_url": "https://github.com/chriskuchin/terraform-provider-bowtie/releases/download/v0.1.6/terraform-provider-bowtie_0.1.6_linux_arm.zip",
+          "shasum": "47ac522fc6edd8ea10c2c834abb899626d3c554ffbe186fda2b8b768f338ea11"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-bowtie_0.1.6_freebsd_amd64.zip",
+          "download_url": "https://github.com/chriskuchin/terraform-provider-bowtie/releases/download/v0.1.6/terraform-provider-bowtie_0.1.6_freebsd_amd64.zip",
+          "shasum": "b469585a22c9be009132019be638d57a8217f7021265f200c30c050ae8c067d0"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-bowtie_0.1.6_freebsd_arm.zip",
+          "download_url": "https://github.com/chriskuchin/terraform-provider-bowtie/releases/download/v0.1.6/terraform-provider-bowtie_0.1.6_freebsd_arm.zip",
+          "shasum": "10d66cfc7ca849a02f5d0a9e594ef378ddbd2c139781f76492ca0072600c0e9a"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-bowtie_0.1.6_darwin_arm64.zip",
+          "download_url": "https://github.com/chriskuchin/terraform-provider-bowtie/releases/download/v0.1.6/terraform-provider-bowtie_0.1.6_darwin_arm64.zip",
+          "shasum": "3862928bedf3a248c17d88d6680a8c6965aea82d7cbf63aeef40fabf7780e025"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-bowtie_0.1.6_windows_arm.zip",
+          "download_url": "https://github.com/chriskuchin/terraform-provider-bowtie/releases/download/v0.1.6/terraform-provider-bowtie_0.1.6_windows_arm.zip",
+          "shasum": "29805b51b3b2db98b9eaf7aa05984033414953466879dd41cad837ca272123ff"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-bowtie_0.1.6_linux_amd64.zip",
+          "download_url": "https://github.com/chriskuchin/terraform-provider-bowtie/releases/download/v0.1.6/terraform-provider-bowtie_0.1.6_linux_amd64.zip",
+          "shasum": "f2a6df685e701ec41b08bcf36f7a724730f4e0869de1ec94a9a74bd88ca042a2"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-bowtie_0.1.6_darwin_amd64.zip",
+          "download_url": "https://github.com/chriskuchin/terraform-provider-bowtie/releases/download/v0.1.6/terraform-provider-bowtie_0.1.6_darwin_amd64.zip",
+          "shasum": "18725b5358232eff92b007ca77b89ad6db36f1204b1a67637b3f156a20fa7011"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-bowtie_0.1.6_linux_386.zip",
+          "download_url": "https://github.com/chriskuchin/terraform-provider-bowtie/releases/download/v0.1.6/terraform-provider-bowtie_0.1.6_linux_386.zip",
+          "shasum": "13da431f77c508c7545abc0e79640f6711960bcbee4402ddd5ba3d6507ce5244"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-bowtie_0.1.6_freebsd_386.zip",
+          "download_url": "https://github.com/chriskuchin/terraform-provider-bowtie/releases/download/v0.1.6/terraform-provider-bowtie_0.1.6_freebsd_386.zip",
+          "shasum": "4af18f4680c34de41cd38122476aba99976802d45595f1e2d45881cd61a83b1f"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-bowtie_0.1.6_linux_arm64.zip",
+          "download_url": "https://github.com/chriskuchin/terraform-provider-bowtie/releases/download/v0.1.6/terraform-provider-bowtie_0.1.6_linux_arm64.zip",
+          "shasum": "e95c7b304676c14432e86b99ad6f21b3ef0126db6c0f10595feb9b921fd5d0d2"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-bowtie_0.1.6_windows_amd64.zip",
+          "download_url": "https://github.com/chriskuchin/terraform-provider-bowtie/releases/download/v0.1.6/terraform-provider-bowtie_0.1.6_windows_amd64.zip",
+          "shasum": "ee1ff43eff270198ba9865bbb88ead61877175b173cfca216a23ff096ca6c6dd"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-bowtie_0.1.6_freebsd_arm64.zip",
+          "download_url": "https://github.com/chriskuchin/terraform-provider-bowtie/releases/download/v0.1.6/terraform-provider-bowtie_0.1.6_freebsd_arm64.zip",
+          "shasum": "1ab9a1e9619341092906f1c33fd00cd4bd8a08448c12b35071f7b7c73cb13d53"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-bowtie_0.1.6_windows_arm64.zip",
+          "download_url": "https://github.com/chriskuchin/terraform-provider-bowtie/releases/download/v0.1.6/terraform-provider-bowtie_0.1.6_windows_arm64.zip",
+          "shasum": "a7bb887619ba225e9efc8b63f769a9e48f3b8256566a331d7cef119881a8f609"
+        }
+      ]
+    },
+    {
+      "version": "0.2.0-rc2",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/chriskuchin/terraform-provider-bowtie/releases/download/v0.2.0-rc2/terraform-provider-bowtie_0.2.0-rc2_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/chriskuchin/terraform-provider-bowtie/releases/download/v0.2.0-rc2/terraform-provider-bowtie_0.2.0-rc2_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-bowtie_0.2.0-rc2_darwin_arm64.zip",
+          "download_url": "https://github.com/chriskuchin/terraform-provider-bowtie/releases/download/v0.2.0-rc2/terraform-provider-bowtie_0.2.0-rc2_darwin_arm64.zip",
+          "shasum": "5b8d7d0b865e30469846e276e1bd8e5f93bc1f9ba0f13b6c52a411ddeaace0da"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-bowtie_0.2.0-rc2_freebsd_arm64.zip",
+          "download_url": "https://github.com/chriskuchin/terraform-provider-bowtie/releases/download/v0.2.0-rc2/terraform-provider-bowtie_0.2.0-rc2_freebsd_arm64.zip",
+          "shasum": "37c890af1e98f4747128116bdcc4e5a8672f0af121f3396c9b9b5ea1a048d8d2"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-bowtie_0.2.0-rc2_windows_arm.zip",
+          "download_url": "https://github.com/chriskuchin/terraform-provider-bowtie/releases/download/v0.2.0-rc2/terraform-provider-bowtie_0.2.0-rc2_windows_arm.zip",
+          "shasum": "4098186ccbbe7d5446eeae4622d5e76ee737d4a86302b02f70bf5a2345454107"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-bowtie_0.2.0-rc2_freebsd_386.zip",
+          "download_url": "https://github.com/chriskuchin/terraform-provider-bowtie/releases/download/v0.2.0-rc2/terraform-provider-bowtie_0.2.0-rc2_freebsd_386.zip",
+          "shasum": "76390566ed8a1b9f2ed611162e933964e9fde029531b7a8110ba54025d058312"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-bowtie_0.2.0-rc2_windows_arm64.zip",
+          "download_url": "https://github.com/chriskuchin/terraform-provider-bowtie/releases/download/v0.2.0-rc2/terraform-provider-bowtie_0.2.0-rc2_windows_arm64.zip",
+          "shasum": "df25de13dae6f280805b6a6be7d4ab6e23304bd0ff9bcbc5e363cd1cf735d3aa"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-bowtie_0.2.0-rc2_darwin_amd64.zip",
+          "download_url": "https://github.com/chriskuchin/terraform-provider-bowtie/releases/download/v0.2.0-rc2/terraform-provider-bowtie_0.2.0-rc2_darwin_amd64.zip",
+          "shasum": "aa08e0e21390c9abca7a3507a53320dec0a7946c9eb936c979a1f49f9e0e6a33"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-bowtie_0.2.0-rc2_linux_arm.zip",
+          "download_url": "https://github.com/chriskuchin/terraform-provider-bowtie/releases/download/v0.2.0-rc2/terraform-provider-bowtie_0.2.0-rc2_linux_arm.zip",
+          "shasum": "7c3d2dd159e035bcbb4bd900a93001ba8029b5b0ebe1771bc582c11249b43503"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-bowtie_0.2.0-rc2_linux_amd64.zip",
+          "download_url": "https://github.com/chriskuchin/terraform-provider-bowtie/releases/download/v0.2.0-rc2/terraform-provider-bowtie_0.2.0-rc2_linux_amd64.zip",
+          "shasum": "6d97216a5a8e5ea2752bb01c016691d7e3b04abb102ce2d4485c9859895c283a"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-bowtie_0.2.0-rc2_linux_386.zip",
+          "download_url": "https://github.com/chriskuchin/terraform-provider-bowtie/releases/download/v0.2.0-rc2/terraform-provider-bowtie_0.2.0-rc2_linux_386.zip",
+          "shasum": "1410aee47e6bb061c79d83b63481815cc132a8358623de1e298c2d7a804a49c7"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-bowtie_0.2.0-rc2_windows_386.zip",
+          "download_url": "https://github.com/chriskuchin/terraform-provider-bowtie/releases/download/v0.2.0-rc2/terraform-provider-bowtie_0.2.0-rc2_windows_386.zip",
+          "shasum": "8b783a3f9a971abc646b1f40858b769f6c7aee2f99015add2f5112b0012a2190"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-bowtie_0.2.0-rc2_freebsd_arm.zip",
+          "download_url": "https://github.com/chriskuchin/terraform-provider-bowtie/releases/download/v0.2.0-rc2/terraform-provider-bowtie_0.2.0-rc2_freebsd_arm.zip",
+          "shasum": "c9872aba111ae8032fdf2318b6b7a9b8b10ca65f4b9d36601c8deaf861fec77c"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-bowtie_0.2.0-rc2_windows_amd64.zip",
+          "download_url": "https://github.com/chriskuchin/terraform-provider-bowtie/releases/download/v0.2.0-rc2/terraform-provider-bowtie_0.2.0-rc2_windows_amd64.zip",
+          "shasum": "e5742c77090061f158f31bf45a597613cfe6b19de65641bfda3c7cd3c1ae1eb3"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-bowtie_0.2.0-rc2_freebsd_amd64.zip",
+          "download_url": "https://github.com/chriskuchin/terraform-provider-bowtie/releases/download/v0.2.0-rc2/terraform-provider-bowtie_0.2.0-rc2_freebsd_amd64.zip",
+          "shasum": "d60f67f703900061b085a72dc5d14dd658a6eb5ee5334dc901b65a6e4a9e9e78"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-bowtie_0.2.0-rc2_linux_arm64.zip",
+          "download_url": "https://github.com/chriskuchin/terraform-provider-bowtie/releases/download/v0.2.0-rc2/terraform-provider-bowtie_0.2.0-rc2_linux_arm64.zip",
+          "shasum": "79ee935f76f55e2f089273f253e34d9430b992dd66b154bbf50e4329937ceb53"
+        }
+      ]
+    },
+    {
       "version": "0.2.0-rc1",
       "protocols": [
         "5.0"
