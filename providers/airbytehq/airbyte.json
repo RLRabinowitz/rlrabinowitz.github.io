@@ -2,6 +2,114 @@
   "repository": "https://github.com/airbytehq/terraform-provider-airbyte",
   "versions": [
     {
+      "version": "0.3.5",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/airbytehq/terraform-provider-airbyte/releases/download/v0.3.5/terraform-provider-airbyte_0.3.5_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/airbytehq/terraform-provider-airbyte/releases/download/v0.3.5/terraform-provider-airbyte_0.3.5_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-airbyte_0.3.5_linux_arm.zip",
+          "download_url": "https://github.com/airbytehq/terraform-provider-airbyte/releases/download/v0.3.5/terraform-provider-airbyte_0.3.5_linux_arm.zip",
+          "shasum": "ad8b8580fe8bb6f5b580462c6917d94975fe0bc9d354bcf3f5542ed74651a4bc"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-airbyte_0.3.5_freebsd_arm.zip",
+          "download_url": "https://github.com/airbytehq/terraform-provider-airbyte/releases/download/v0.3.5/terraform-provider-airbyte_0.3.5_freebsd_arm.zip",
+          "shasum": "b1000dd88280909e859d69855a37eaae5b7edbb6aa7fd28495771c9c206901d1"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-airbyte_0.3.5_windows_386.zip",
+          "download_url": "https://github.com/airbytehq/terraform-provider-airbyte/releases/download/v0.3.5/terraform-provider-airbyte_0.3.5_windows_386.zip",
+          "shasum": "d4c3ce91eb206308a3790518ff8709ca62ea5aa5610488211259717268252700"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-airbyte_0.3.5_windows_arm64.zip",
+          "download_url": "https://github.com/airbytehq/terraform-provider-airbyte/releases/download/v0.3.5/terraform-provider-airbyte_0.3.5_windows_arm64.zip",
+          "shasum": "80e3beff3afc58e3996d850d691e703b4bf8fa15800f3f177eac2ad9821fa3b5"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-airbyte_0.3.5_linux_386.zip",
+          "download_url": "https://github.com/airbytehq/terraform-provider-airbyte/releases/download/v0.3.5/terraform-provider-airbyte_0.3.5_linux_386.zip",
+          "shasum": "0a244aa5d837f499eb7d9dbb8468d31259c33f40c904ddaed70e4e3a96aea393"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-airbyte_0.3.5_freebsd_amd64.zip",
+          "download_url": "https://github.com/airbytehq/terraform-provider-airbyte/releases/download/v0.3.5/terraform-provider-airbyte_0.3.5_freebsd_amd64.zip",
+          "shasum": "96bdd9fb30775fecf9be80f84497bb1c641f6aa7cef0bd70dc874d041a02344e"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-airbyte_0.3.5_freebsd_arm64.zip",
+          "download_url": "https://github.com/airbytehq/terraform-provider-airbyte/releases/download/v0.3.5/terraform-provider-airbyte_0.3.5_freebsd_arm64.zip",
+          "shasum": "bd4787d481100743a710216a19f1b829a76dd908d47a709280e312c3bf571ff6"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-airbyte_0.3.5_linux_amd64.zip",
+          "download_url": "https://github.com/airbytehq/terraform-provider-airbyte/releases/download/v0.3.5/terraform-provider-airbyte_0.3.5_linux_amd64.zip",
+          "shasum": "cc47248711b2fd16b9027802126b3a163ff1b8fdc20e7b3fbd7a062f0eabf1cc"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-airbyte_0.3.5_windows_arm.zip",
+          "download_url": "https://github.com/airbytehq/terraform-provider-airbyte/releases/download/v0.3.5/terraform-provider-airbyte_0.3.5_windows_arm.zip",
+          "shasum": "a2f2c6f61fd237dd02649cdb5959452d02e7af743b98e5b8cb9475996c4e2cf7"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-airbyte_0.3.5_freebsd_386.zip",
+          "download_url": "https://github.com/airbytehq/terraform-provider-airbyte/releases/download/v0.3.5/terraform-provider-airbyte_0.3.5_freebsd_386.zip",
+          "shasum": "3e9d8e5011bc3cee26f2d4a9f2b400b7636f9a7d39f8d875ca7fd12ad0a26e28"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-airbyte_0.3.5_windows_amd64.zip",
+          "download_url": "https://github.com/airbytehq/terraform-provider-airbyte/releases/download/v0.3.5/terraform-provider-airbyte_0.3.5_windows_amd64.zip",
+          "shasum": "84f9fa7071f7170f722e894c487f7cb8953622105a750e34b80fedfe71a87cfc"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-airbyte_0.3.5_linux_arm64.zip",
+          "download_url": "https://github.com/airbytehq/terraform-provider-airbyte/releases/download/v0.3.5/terraform-provider-airbyte_0.3.5_linux_arm64.zip",
+          "shasum": "c7d7058bff7a36d3b0d4b73ed844b6fea6fb6575eb4ab6695cbe3d48f1e56902"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-airbyte_0.3.5_darwin_amd64.zip",
+          "download_url": "https://github.com/airbytehq/terraform-provider-airbyte/releases/download/v0.3.5/terraform-provider-airbyte_0.3.5_darwin_amd64.zip",
+          "shasum": "d9f90b767fe79e6af1c3aaf0356827c44a000f3348a3c17545951fe04d383ee0"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-airbyte_0.3.5_darwin_arm64.zip",
+          "download_url": "https://github.com/airbytehq/terraform-provider-airbyte/releases/download/v0.3.5/terraform-provider-airbyte_0.3.5_darwin_arm64.zip",
+          "shasum": "f9cb793bb2036a83dc5f54d34c9b553116b2ec1e47270594ef339550c01c50c9"
+        }
+      ]
+    },
+    {
       "version": "0.3.4",
       "protocols": [
         "5.0"
