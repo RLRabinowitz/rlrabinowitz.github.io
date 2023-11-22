@@ -2,6 +2,114 @@
   "repository": "https://github.com/coder/terraform-provider-coder",
   "versions": [
     {
+      "version": "0.12.3",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/coder/terraform-provider-coder/releases/download/v0.12.3/terraform-provider-coder_0.12.3_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/coder/terraform-provider-coder/releases/download/v0.12.3/terraform-provider-coder_0.12.3_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-coder_0.12.3_linux_386.zip",
+          "download_url": "https://github.com/coder/terraform-provider-coder/releases/download/v0.12.3/terraform-provider-coder_0.12.3_linux_386.zip",
+          "shasum": "a45d63fc8d2045f0c1ceffa6036d00847310a5575d4baac54f08db983363a171"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-coder_0.12.3_linux_arm64.zip",
+          "download_url": "https://github.com/coder/terraform-provider-coder/releases/download/v0.12.3/terraform-provider-coder_0.12.3_linux_arm64.zip",
+          "shasum": "e2015eaf267502331a207614d9542e12abe6d8af8aa083523e5af80b66697601"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-coder_0.12.3_freebsd_amd64.zip",
+          "download_url": "https://github.com/coder/terraform-provider-coder/releases/download/v0.12.3/terraform-provider-coder_0.12.3_freebsd_amd64.zip",
+          "shasum": "d4f13152503cac01e410bad5d35ffeeb35de072e5986e881e94c8644111a7032"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-coder_0.12.3_windows_386.zip",
+          "download_url": "https://github.com/coder/terraform-provider-coder/releases/download/v0.12.3/terraform-provider-coder_0.12.3_windows_386.zip",
+          "shasum": "0da00f1393df0ba17eb3afdbdbb0b081b62c0b769f74ce6d7aef5af08e1974dc"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-coder_0.12.3_freebsd_386.zip",
+          "download_url": "https://github.com/coder/terraform-provider-coder/releases/download/v0.12.3/terraform-provider-coder_0.12.3_freebsd_386.zip",
+          "shasum": "5fcb906d1b5e764475b1a6bf400e63f9e015125e4e6bf0459ce57bd82408af0b"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-coder_0.12.3_darwin_arm64.zip",
+          "download_url": "https://github.com/coder/terraform-provider-coder/releases/download/v0.12.3/terraform-provider-coder_0.12.3_darwin_arm64.zip",
+          "shasum": "fa1e61592584825fabc6f1b72f860a71ff125f6a525340ebf220caebd17b3f14"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-coder_0.12.3_linux_amd64.zip",
+          "download_url": "https://github.com/coder/terraform-provider-coder/releases/download/v0.12.3/terraform-provider-coder_0.12.3_linux_amd64.zip",
+          "shasum": "fe11d55b2fe48c59710eacf06cee656122e6a4f42e076d9a30c9f6ff21d1cbbd"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-coder_0.12.3_windows_arm.zip",
+          "download_url": "https://github.com/coder/terraform-provider-coder/releases/download/v0.12.3/terraform-provider-coder_0.12.3_windows_arm.zip",
+          "shasum": "bb6ffcfe287da73e4b67c7738c7c648051b0cc42eb79a3822daf23d6f910a505"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-coder_0.12.3_freebsd_arm.zip",
+          "download_url": "https://github.com/coder/terraform-provider-coder/releases/download/v0.12.3/terraform-provider-coder_0.12.3_freebsd_arm.zip",
+          "shasum": "1ef184d6c69e9e02e9ec4fe24f05e02975fc143473733f88111f5a108e4ed4c9"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-coder_0.12.3_freebsd_arm64.zip",
+          "download_url": "https://github.com/coder/terraform-provider-coder/releases/download/v0.12.3/terraform-provider-coder_0.12.3_freebsd_arm64.zip",
+          "shasum": "20648e4d22de583d5d2e22221cecd8cb255fe24c6853a756c966c9090321c94e"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-coder_0.12.3_windows_arm64.zip",
+          "download_url": "https://github.com/coder/terraform-provider-coder/releases/download/v0.12.3/terraform-provider-coder_0.12.3_windows_arm64.zip",
+          "shasum": "1d6a80cd454e4a3d4f2ec24b057013eae09c18271bbc6e9c60bd16b393a5491d"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-coder_0.12.3_windows_amd64.zip",
+          "download_url": "https://github.com/coder/terraform-provider-coder/releases/download/v0.12.3/terraform-provider-coder_0.12.3_windows_amd64.zip",
+          "shasum": "dcaaf7c03c72f96fe3c9b44b75b5c88320435df9b9c75a777e710344901655fa"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-coder_0.12.3_linux_arm.zip",
+          "download_url": "https://github.com/coder/terraform-provider-coder/releases/download/v0.12.3/terraform-provider-coder_0.12.3_linux_arm.zip",
+          "shasum": "5789cb20a3aed01c45355120617d0b4fc48520fba4191d0987687029b4dda9a4"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-coder_0.12.3_darwin_amd64.zip",
+          "download_url": "https://github.com/coder/terraform-provider-coder/releases/download/v0.12.3/terraform-provider-coder_0.12.3_darwin_amd64.zip",
+          "shasum": "423aa35a19eda69e15fe079c7378b8c73009371b3cbbdd4e6c6d1daa3a31405f"
+        }
+      ]
+    },
+    {
       "version": "0.12.2",
       "protocols": [
         "5.0"
