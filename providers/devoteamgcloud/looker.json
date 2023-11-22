@@ -2,6 +2,114 @@
   "repository": "https://github.com/devoteamgcloud/terraform-provider-looker",
   "versions": [
     {
+      "version": "0.4.0-beta",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/devoteamgcloud/terraform-provider-looker/releases/download/v0.4.0-beta/terraform-provider-looker_0.4.0-beta_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/devoteamgcloud/terraform-provider-looker/releases/download/v0.4.0-beta/terraform-provider-looker_0.4.0-beta_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-looker_0.4.0-beta_windows_arm64.zip",
+          "download_url": "https://github.com/devoteamgcloud/terraform-provider-looker/releases/download/v0.4.0-beta/terraform-provider-looker_0.4.0-beta_windows_arm64.zip",
+          "shasum": "cdb1f67f861aa825a9e3146810d8c061efec7a6315de8e05426b9a33968d35a8"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-looker_0.4.0-beta_linux_arm.zip",
+          "download_url": "https://github.com/devoteamgcloud/terraform-provider-looker/releases/download/v0.4.0-beta/terraform-provider-looker_0.4.0-beta_linux_arm.zip",
+          "shasum": "401a1479a4087a83ce5fae82dc4dc952526f77710af3f027e8f7257ee31010bc"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-looker_0.4.0-beta_darwin_amd64.zip",
+          "download_url": "https://github.com/devoteamgcloud/terraform-provider-looker/releases/download/v0.4.0-beta/terraform-provider-looker_0.4.0-beta_darwin_amd64.zip",
+          "shasum": "a03edb9ab59a5e2bf7fef5bf945b011411cf04e352594fb4904149789d851d56"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-looker_0.4.0-beta_windows_386.zip",
+          "download_url": "https://github.com/devoteamgcloud/terraform-provider-looker/releases/download/v0.4.0-beta/terraform-provider-looker_0.4.0-beta_windows_386.zip",
+          "shasum": "2bcc7149ae0bddb2ac23632a8b9052f673739671e195edccb1ae12de21e65634"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-looker_0.4.0-beta_freebsd_arm.zip",
+          "download_url": "https://github.com/devoteamgcloud/terraform-provider-looker/releases/download/v0.4.0-beta/terraform-provider-looker_0.4.0-beta_freebsd_arm.zip",
+          "shasum": "cb49a490a7272d16a67386dfd8f207bd0c6e500548cef309088527cf9a1cdbed"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-looker_0.4.0-beta_darwin_arm64.zip",
+          "download_url": "https://github.com/devoteamgcloud/terraform-provider-looker/releases/download/v0.4.0-beta/terraform-provider-looker_0.4.0-beta_darwin_arm64.zip",
+          "shasum": "010553511d6e82db1e6feacdf7a93f2c521a3e64dab44ec780a38adaf4df9b26"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-looker_0.4.0-beta_freebsd_arm64.zip",
+          "download_url": "https://github.com/devoteamgcloud/terraform-provider-looker/releases/download/v0.4.0-beta/terraform-provider-looker_0.4.0-beta_freebsd_arm64.zip",
+          "shasum": "54f9dd50ab2acbd2de54fa91ea37e1417aeb0ee4f0b7ed25be9c653940392a79"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-looker_0.4.0-beta_windows_arm.zip",
+          "download_url": "https://github.com/devoteamgcloud/terraform-provider-looker/releases/download/v0.4.0-beta/terraform-provider-looker_0.4.0-beta_windows_arm.zip",
+          "shasum": "ff306f291d1fa9a14170df44f28278267005bb37c0ab989deb9b2c36e8c279b2"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-looker_0.4.0-beta_linux_386.zip",
+          "download_url": "https://github.com/devoteamgcloud/terraform-provider-looker/releases/download/v0.4.0-beta/terraform-provider-looker_0.4.0-beta_linux_386.zip",
+          "shasum": "be9cd5364284751dfd62724e7ef7644b8aff1b2296a8046eeb8fd19840e6cbe4"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-looker_0.4.0-beta_freebsd_amd64.zip",
+          "download_url": "https://github.com/devoteamgcloud/terraform-provider-looker/releases/download/v0.4.0-beta/terraform-provider-looker_0.4.0-beta_freebsd_amd64.zip",
+          "shasum": "6a72c67649e76ac66d9e95a7575efac563e8b1d758c1c33e74e4df59f7d48d4f"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-looker_0.4.0-beta_freebsd_386.zip",
+          "download_url": "https://github.com/devoteamgcloud/terraform-provider-looker/releases/download/v0.4.0-beta/terraform-provider-looker_0.4.0-beta_freebsd_386.zip",
+          "shasum": "8ac131d8e09a660b581081ed01d4fc45c679e44c8eaac1991269c30a8dce4f1f"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-looker_0.4.0-beta_linux_arm64.zip",
+          "download_url": "https://github.com/devoteamgcloud/terraform-provider-looker/releases/download/v0.4.0-beta/terraform-provider-looker_0.4.0-beta_linux_arm64.zip",
+          "shasum": "94a9609fa71896877e73ef1b2c4e116c200e701f86bc7bca77b80c12e05ac15d"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-looker_0.4.0-beta_linux_amd64.zip",
+          "download_url": "https://github.com/devoteamgcloud/terraform-provider-looker/releases/download/v0.4.0-beta/terraform-provider-looker_0.4.0-beta_linux_amd64.zip",
+          "shasum": "105450d2318fd9ff467b73d34d221fc747cd785348879c67278bb83b7b387563"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-looker_0.4.0-beta_windows_amd64.zip",
+          "download_url": "https://github.com/devoteamgcloud/terraform-provider-looker/releases/download/v0.4.0-beta/terraform-provider-looker_0.4.0-beta_windows_amd64.zip",
+          "shasum": "734063229335bd7168e4bbd0a1ced7e17f74d459c69099011f77e2c8468c9af1"
+        }
+      ]
+    },
+    {
       "version": "0.3.5",
       "protocols": [
         "5.0"
