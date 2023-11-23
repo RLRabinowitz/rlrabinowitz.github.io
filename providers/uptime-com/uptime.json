@@ -2,6 +2,114 @@
   "repository": "https://github.com/uptime-com/terraform-provider-uptime",
   "versions": [
     {
+      "version": "2.1.1",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/uptime-com/terraform-provider-uptime/releases/download/v2.1.1/terraform-provider-uptime_2.1.1_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/uptime-com/terraform-provider-uptime/releases/download/v2.1.1/terraform-provider-uptime_2.1.1_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-uptime_2.1.1_linux_386.zip",
+          "download_url": "https://github.com/uptime-com/terraform-provider-uptime/releases/download/v2.1.1/terraform-provider-uptime_2.1.1_linux_386.zip",
+          "shasum": "9ddb929e9db251c76a7e7c1edaf6f8fa923e9e557880f6dacfbdb309c5b95d14"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-uptime_2.1.1_freebsd_arm64.zip",
+          "download_url": "https://github.com/uptime-com/terraform-provider-uptime/releases/download/v2.1.1/terraform-provider-uptime_2.1.1_freebsd_arm64.zip",
+          "shasum": "12f01d956fe03143ea9985e3c1187767780b1478c951e336e1824dc919b922ac"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-uptime_2.1.1_linux_amd64.zip",
+          "download_url": "https://github.com/uptime-com/terraform-provider-uptime/releases/download/v2.1.1/terraform-provider-uptime_2.1.1_linux_amd64.zip",
+          "shasum": "f0b1eefe24f1bed95b887b1f801f885d4cda02da58e6f6170c8b527c95e9e266"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-uptime_2.1.1_windows_386.zip",
+          "download_url": "https://github.com/uptime-com/terraform-provider-uptime/releases/download/v2.1.1/terraform-provider-uptime_2.1.1_windows_386.zip",
+          "shasum": "0666e1a9655b7119e761d965963b7a9204026b9db6823513981379f336af89dd"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-uptime_2.1.1_freebsd_386.zip",
+          "download_url": "https://github.com/uptime-com/terraform-provider-uptime/releases/download/v2.1.1/terraform-provider-uptime_2.1.1_freebsd_386.zip",
+          "shasum": "3695faf220406ef8fe2eea4002acf5eeae5cbeef51f2531b6905c5fe58e71caf"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-uptime_2.1.1_linux_arm.zip",
+          "download_url": "https://github.com/uptime-com/terraform-provider-uptime/releases/download/v2.1.1/terraform-provider-uptime_2.1.1_linux_arm.zip",
+          "shasum": "925ede0e54a1b153160bc7c1f2c56f293472d6f2b5ec0f1c80bdb8c7bb047609"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-uptime_2.1.1_freebsd_amd64.zip",
+          "download_url": "https://github.com/uptime-com/terraform-provider-uptime/releases/download/v2.1.1/terraform-provider-uptime_2.1.1_freebsd_amd64.zip",
+          "shasum": "f826c4d0340634b44b5e1fef9f78c34ecb198fd0993dd2545ace13f48c4ecffd"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-uptime_2.1.1_darwin_amd64.zip",
+          "download_url": "https://github.com/uptime-com/terraform-provider-uptime/releases/download/v2.1.1/terraform-provider-uptime_2.1.1_darwin_amd64.zip",
+          "shasum": "0dba305cd86cc433f2911818b22db87a40a574c817a6371708331c7ccf1ff3fb"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-uptime_2.1.1_windows_arm.zip",
+          "download_url": "https://github.com/uptime-com/terraform-provider-uptime/releases/download/v2.1.1/terraform-provider-uptime_2.1.1_windows_arm.zip",
+          "shasum": "c1cea5246cc673b1451c48e1b75d45f756e76b5eda33924547797c02d36cc34d"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-uptime_2.1.1_linux_arm64.zip",
+          "download_url": "https://github.com/uptime-com/terraform-provider-uptime/releases/download/v2.1.1/terraform-provider-uptime_2.1.1_linux_arm64.zip",
+          "shasum": "55187de563fc3c18f86cb117f45a57a6b4a5c9e6288c7114d722b8bc3d9e0de7"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-uptime_2.1.1_freebsd_arm.zip",
+          "download_url": "https://github.com/uptime-com/terraform-provider-uptime/releases/download/v2.1.1/terraform-provider-uptime_2.1.1_freebsd_arm.zip",
+          "shasum": "bfdc418db1d659be1cdb5b376f1ce485b0e946caabf4350769c23f32156d2e29"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-uptime_2.1.1_windows_amd64.zip",
+          "download_url": "https://github.com/uptime-com/terraform-provider-uptime/releases/download/v2.1.1/terraform-provider-uptime_2.1.1_windows_amd64.zip",
+          "shasum": "b5400a425bc3b4724e019bcbde06a5089c6ed3ec094b8e7dadd4cfe78a4ce53f"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-uptime_2.1.1_windows_arm64.zip",
+          "download_url": "https://github.com/uptime-com/terraform-provider-uptime/releases/download/v2.1.1/terraform-provider-uptime_2.1.1_windows_arm64.zip",
+          "shasum": "3e334bd68a6e127ff89ef0d220d703b0c7df5b0f955b8cfbc1f71df0a2335745"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-uptime_2.1.1_darwin_arm64.zip",
+          "download_url": "https://github.com/uptime-com/terraform-provider-uptime/releases/download/v2.1.1/terraform-provider-uptime_2.1.1_darwin_arm64.zip",
+          "shasum": "2cb34cc5e1dd5ac5091a8e593ee5100a7f9658af45e08ed5c84b6f6570e9e238"
+        }
+      ]
+    },
+    {
       "version": "2.1.0",
       "protocols": [
         "5.0"
