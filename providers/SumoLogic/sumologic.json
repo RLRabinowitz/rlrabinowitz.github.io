@@ -2,6 +2,114 @@
   "repository": "https://github.com/SumoLogic/terraform-provider-sumologic",
   "versions": [
     {
+      "version": "2.28.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/SumoLogic/terraform-provider-sumologic/releases/download/v2.28.0/terraform-provider-sumologic_2.28.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/SumoLogic/terraform-provider-sumologic/releases/download/v2.28.0/terraform-provider-sumologic_2.28.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-sumologic_2.28.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/SumoLogic/terraform-provider-sumologic/releases/download/v2.28.0/terraform-provider-sumologic_2.28.0_freebsd_arm64.zip",
+          "shasum": "e02c64c5930257e0d5a73a26abef74c5fb26df888319a11f5d467b31b7c13186"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-sumologic_2.28.0_freebsd_386.zip",
+          "download_url": "https://github.com/SumoLogic/terraform-provider-sumologic/releases/download/v2.28.0/terraform-provider-sumologic_2.28.0_freebsd_386.zip",
+          "shasum": "823f1001ae06a1988d044850546c5f6a3330b7c30a66e773c329465b758c5d41"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-sumologic_2.28.0_windows_arm.zip",
+          "download_url": "https://github.com/SumoLogic/terraform-provider-sumologic/releases/download/v2.28.0/terraform-provider-sumologic_2.28.0_windows_arm.zip",
+          "shasum": "0da150533e9a5cdd30620d82895cf091872bca0e9856463bd6f33c002f281017"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-sumologic_2.28.0_linux_arm.zip",
+          "download_url": "https://github.com/SumoLogic/terraform-provider-sumologic/releases/download/v2.28.0/terraform-provider-sumologic_2.28.0_linux_arm.zip",
+          "shasum": "21a736f8b8cb573f13912bc2c287aa81eea1318e81faa50bd2bf8af017dccef2"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-sumologic_2.28.0_darwin_arm64.zip",
+          "download_url": "https://github.com/SumoLogic/terraform-provider-sumologic/releases/download/v2.28.0/terraform-provider-sumologic_2.28.0_darwin_arm64.zip",
+          "shasum": "c5ac4f42249a077f60b9a7e1d9e00758979b336dbf30df27fe647ffe94918c1b"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-sumologic_2.28.0_linux_amd64.zip",
+          "download_url": "https://github.com/SumoLogic/terraform-provider-sumologic/releases/download/v2.28.0/terraform-provider-sumologic_2.28.0_linux_amd64.zip",
+          "shasum": "4de470fee9d33f58e314f312b268f46d76e5d23312acc2c53b26fb3fcef0bb34"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-sumologic_2.28.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/SumoLogic/terraform-provider-sumologic/releases/download/v2.28.0/terraform-provider-sumologic_2.28.0_freebsd_amd64.zip",
+          "shasum": "322353896d5ef7a2d49aed2943c6123831dd0a56f731ce4d2df4d8d40141a562"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-sumologic_2.28.0_linux_arm64.zip",
+          "download_url": "https://github.com/SumoLogic/terraform-provider-sumologic/releases/download/v2.28.0/terraform-provider-sumologic_2.28.0_linux_arm64.zip",
+          "shasum": "0adb4df8b9d51263edbc02e09b949c1d82bd3665945126495b5623ba294a3403"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-sumologic_2.28.0_linux_386.zip",
+          "download_url": "https://github.com/SumoLogic/terraform-provider-sumologic/releases/download/v2.28.0/terraform-provider-sumologic_2.28.0_linux_386.zip",
+          "shasum": "15b22c9e572a53f295b5bd7c7c43a708476c88af5dd2b5fbd531fc867dc9c703"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-sumologic_2.28.0_freebsd_arm.zip",
+          "download_url": "https://github.com/SumoLogic/terraform-provider-sumologic/releases/download/v2.28.0/terraform-provider-sumologic_2.28.0_freebsd_arm.zip",
+          "shasum": "4302d74f1fda4775176fca5ba22b9933d535fbaa32cf2894966249bddf79cdf5"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-sumologic_2.28.0_windows_arm64.zip",
+          "download_url": "https://github.com/SumoLogic/terraform-provider-sumologic/releases/download/v2.28.0/terraform-provider-sumologic_2.28.0_windows_arm64.zip",
+          "shasum": "60380481b807782a526a4d1bcacde9d7455766bb0b8fddb661799b78a2edba83"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-sumologic_2.28.0_darwin_amd64.zip",
+          "download_url": "https://github.com/SumoLogic/terraform-provider-sumologic/releases/download/v2.28.0/terraform-provider-sumologic_2.28.0_darwin_amd64.zip",
+          "shasum": "40cf48f5dc3f593a3100a20b9fc07faef52431c451df14be1f12c2900fc0a49f"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-sumologic_2.28.0_windows_386.zip",
+          "download_url": "https://github.com/SumoLogic/terraform-provider-sumologic/releases/download/v2.28.0/terraform-provider-sumologic_2.28.0_windows_386.zip",
+          "shasum": "9c24d82529324d7dbda825eaa882358d0ff20bfe7ef0b1511422683db37f586c"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-sumologic_2.28.0_windows_amd64.zip",
+          "download_url": "https://github.com/SumoLogic/terraform-provider-sumologic/releases/download/v2.28.0/terraform-provider-sumologic_2.28.0_windows_amd64.zip",
+          "shasum": "e54f05b5f886c6c0af85bcf47e7d3241ad606504d53e298af79495461ba71816"
+        }
+      ]
+    },
+    {
       "version": "2.27.0",
       "protocols": [
         "5.0"
