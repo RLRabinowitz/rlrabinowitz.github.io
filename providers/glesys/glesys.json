@@ -2,6 +2,114 @@
   "repository": "https://github.com/glesys/terraform-provider-glesys",
   "versions": [
     {
+      "version": "0.10.1",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/glesys/terraform-provider-glesys/releases/download/v0.10.1/terraform-provider-glesys_0.10.1_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/glesys/terraform-provider-glesys/releases/download/v0.10.1/terraform-provider-glesys_0.10.1_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-glesys_0.10.1_freebsd_386.zip",
+          "download_url": "https://github.com/glesys/terraform-provider-glesys/releases/download/v0.10.1/terraform-provider-glesys_0.10.1_freebsd_386.zip",
+          "shasum": "e68bd01255758dfcba45a18d1445129d2ecd6f489ea76ca356e71c44a9e76220"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-glesys_0.10.1_freebsd_arm.zip",
+          "download_url": "https://github.com/glesys/terraform-provider-glesys/releases/download/v0.10.1/terraform-provider-glesys_0.10.1_freebsd_arm.zip",
+          "shasum": "22dd317519f1cff751a73503d7ec73da2f901b81c18c6e851358c08779ba71cd"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-glesys_0.10.1_darwin_amd64.zip",
+          "download_url": "https://github.com/glesys/terraform-provider-glesys/releases/download/v0.10.1/terraform-provider-glesys_0.10.1_darwin_amd64.zip",
+          "shasum": "90864f77b41bdc9897c83a81700541cb2780586fb6dd03eba51bad113c034e41"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-glesys_0.10.1_linux_arm.zip",
+          "download_url": "https://github.com/glesys/terraform-provider-glesys/releases/download/v0.10.1/terraform-provider-glesys_0.10.1_linux_arm.zip",
+          "shasum": "f669ca2e0efc7027d2e73a6b6c270330d80db7e2a0afb185f5cdf2214bc0e6a5"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-glesys_0.10.1_freebsd_arm64.zip",
+          "download_url": "https://github.com/glesys/terraform-provider-glesys/releases/download/v0.10.1/terraform-provider-glesys_0.10.1_freebsd_arm64.zip",
+          "shasum": "37405feb147838af80e26825dc70dd5c5ba14893dfb666c6bb96d6996bbc9fe0"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-glesys_0.10.1_windows_amd64.zip",
+          "download_url": "https://github.com/glesys/terraform-provider-glesys/releases/download/v0.10.1/terraform-provider-glesys_0.10.1_windows_amd64.zip",
+          "shasum": "62d61f49d194a0f239a6f6d1514d6b7831f6f9e67a1d3856b9920e21b567f2c7"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-glesys_0.10.1_windows_arm.zip",
+          "download_url": "https://github.com/glesys/terraform-provider-glesys/releases/download/v0.10.1/terraform-provider-glesys_0.10.1_windows_arm.zip",
+          "shasum": "0ca844e04990161e288ec38c473fc919c505b105aacc2dd4ffbd383dc42f94e1"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-glesys_0.10.1_linux_386.zip",
+          "download_url": "https://github.com/glesys/terraform-provider-glesys/releases/download/v0.10.1/terraform-provider-glesys_0.10.1_linux_386.zip",
+          "shasum": "b271ba6ec6b979743d14579ccc61efe779e6374a21372cc869443e13d8e4f0e3"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-glesys_0.10.1_windows_386.zip",
+          "download_url": "https://github.com/glesys/terraform-provider-glesys/releases/download/v0.10.1/terraform-provider-glesys_0.10.1_windows_386.zip",
+          "shasum": "8b28cb2754bb489e488fc1ba0b6579e77b61b8686fa5343443f85583202ae52f"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-glesys_0.10.1_windows_arm64.zip",
+          "download_url": "https://github.com/glesys/terraform-provider-glesys/releases/download/v0.10.1/terraform-provider-glesys_0.10.1_windows_arm64.zip",
+          "shasum": "3cdd8864b0389d511d50a7f9d7874dd5501b83c70d80cbe8cdf209dc65800142"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-glesys_0.10.1_darwin_arm64.zip",
+          "download_url": "https://github.com/glesys/terraform-provider-glesys/releases/download/v0.10.1/terraform-provider-glesys_0.10.1_darwin_arm64.zip",
+          "shasum": "4f5851c2525cbb0084691b5002d307998bf8ecba07e0ba6bcbd7a6d2783a41c1"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-glesys_0.10.1_freebsd_amd64.zip",
+          "download_url": "https://github.com/glesys/terraform-provider-glesys/releases/download/v0.10.1/terraform-provider-glesys_0.10.1_freebsd_amd64.zip",
+          "shasum": "c742281d78e44747d21fcb7d44705744f8fa3587de6e5b23cb09c5d627eab566"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-glesys_0.10.1_linux_amd64.zip",
+          "download_url": "https://github.com/glesys/terraform-provider-glesys/releases/download/v0.10.1/terraform-provider-glesys_0.10.1_linux_amd64.zip",
+          "shasum": "de3188bb81ba5e38eca63698902f83b39541b083d668a68e2f81e28463f31fa0"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-glesys_0.10.1_linux_arm64.zip",
+          "download_url": "https://github.com/glesys/terraform-provider-glesys/releases/download/v0.10.1/terraform-provider-glesys_0.10.1_linux_arm64.zip",
+          "shasum": "2734240781aa0477aacea3009e1aecf084c70a19970fb936807782c9bbede314"
+        }
+      ]
+    },
+    {
       "version": "0.9.0",
       "protocols": [
         "5.0"
