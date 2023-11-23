@@ -2,6 +2,114 @@
   "repository": "https://github.com/F5Networks/terraform-provider-bigip",
   "versions": [
     {
+      "version": "1.20.1",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/F5Networks/terraform-provider-bigip/releases/download/v1.20.1/terraform-provider-bigip_1.20.1_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/F5Networks/terraform-provider-bigip/releases/download/v1.20.1/terraform-provider-bigip_1.20.1_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-bigip_1.20.1_windows_arm.zip",
+          "download_url": "https://github.com/F5Networks/terraform-provider-bigip/releases/download/v1.20.1/terraform-provider-bigip_1.20.1_windows_arm.zip",
+          "shasum": "87a4cbfd41ca43fa242bf51fc05e1cea51ff65c019cc2a856f95a11648d01d35"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-bigip_1.20.1_windows_arm64.zip",
+          "download_url": "https://github.com/F5Networks/terraform-provider-bigip/releases/download/v1.20.1/terraform-provider-bigip_1.20.1_windows_arm64.zip",
+          "shasum": "e1a4c477a714672bf5f5729f4deab70229fb126fbe7cf71acc13706954b61b5a"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-bigip_1.20.1_darwin_arm64.zip",
+          "download_url": "https://github.com/F5Networks/terraform-provider-bigip/releases/download/v1.20.1/terraform-provider-bigip_1.20.1_darwin_arm64.zip",
+          "shasum": "2385598295018c70a620b277cd1e72b314ecc63f206bf9d9f05e55adc3124fe0"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-bigip_1.20.1_linux_386.zip",
+          "download_url": "https://github.com/F5Networks/terraform-provider-bigip/releases/download/v1.20.1/terraform-provider-bigip_1.20.1_linux_386.zip",
+          "shasum": "dc32e8ba436675f4425e7255705ce9131db84f3d2c36fd799169f5402115c1de"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-bigip_1.20.1_linux_arm.zip",
+          "download_url": "https://github.com/F5Networks/terraform-provider-bigip/releases/download/v1.20.1/terraform-provider-bigip_1.20.1_linux_arm.zip",
+          "shasum": "b5360ea1355463b280eb79ff00dfa23ccf1fa7803493d4edc4ca693e828c4179"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-bigip_1.20.1_freebsd_arm.zip",
+          "download_url": "https://github.com/F5Networks/terraform-provider-bigip/releases/download/v1.20.1/terraform-provider-bigip_1.20.1_freebsd_arm.zip",
+          "shasum": "bef982eea41da8766eb0b14e893f35386b2e89b0f90c3c73aab158bec22cfb90"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-bigip_1.20.1_linux_amd64.zip",
+          "download_url": "https://github.com/F5Networks/terraform-provider-bigip/releases/download/v1.20.1/terraform-provider-bigip_1.20.1_linux_amd64.zip",
+          "shasum": "2c25f21d19b09bd549f1fff8dd073114a866e55ad6bd2779cdfa10417d91c491"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-bigip_1.20.1_freebsd_amd64.zip",
+          "download_url": "https://github.com/F5Networks/terraform-provider-bigip/releases/download/v1.20.1/terraform-provider-bigip_1.20.1_freebsd_amd64.zip",
+          "shasum": "eb69b488af08df5fbe15e44771c61bdc10fc2e9139696e77d34a9a668afd264f"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-bigip_1.20.1_windows_386.zip",
+          "download_url": "https://github.com/F5Networks/terraform-provider-bigip/releases/download/v1.20.1/terraform-provider-bigip_1.20.1_windows_386.zip",
+          "shasum": "f1587268309233b07640a7c31c917f5e037b1b35a68e1a0d94524ddc60dccf3f"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-bigip_1.20.1_freebsd_386.zip",
+          "download_url": "https://github.com/F5Networks/terraform-provider-bigip/releases/download/v1.20.1/terraform-provider-bigip_1.20.1_freebsd_386.zip",
+          "shasum": "e9e17cd0a902ae3945484674dedb29eae1212415f1956313a2ef1518c28c7475"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-bigip_1.20.1_windows_amd64.zip",
+          "download_url": "https://github.com/F5Networks/terraform-provider-bigip/releases/download/v1.20.1/terraform-provider-bigip_1.20.1_windows_amd64.zip",
+          "shasum": "9cd8dc1bf2e30bc6acd11da819a91746c4befc102f645f7303f8ad7cae668db1"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-bigip_1.20.1_linux_arm64.zip",
+          "download_url": "https://github.com/F5Networks/terraform-provider-bigip/releases/download/v1.20.1/terraform-provider-bigip_1.20.1_linux_arm64.zip",
+          "shasum": "1e95fe3a6da576c06d5421b5d6baae9212f90f4461b8dc15c349e4c14d6cd669"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-bigip_1.20.1_darwin_amd64.zip",
+          "download_url": "https://github.com/F5Networks/terraform-provider-bigip/releases/download/v1.20.1/terraform-provider-bigip_1.20.1_darwin_amd64.zip",
+          "shasum": "f7548701ec2e22613edfb18d1684741391b36489ea34721c861bfc499badd8ce"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-bigip_1.20.1_freebsd_arm64.zip",
+          "download_url": "https://github.com/F5Networks/terraform-provider-bigip/releases/download/v1.20.1/terraform-provider-bigip_1.20.1_freebsd_arm64.zip",
+          "shasum": "a0bde4a56e8725133aab127c2fd64bb3681fe39cbd517814d49074de8230c324"
+        }
+      ]
+    },
+    {
       "version": "1.20.0",
       "protocols": [
         "5.0"
