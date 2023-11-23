@@ -2,6 +2,330 @@
   "repository": "https://github.com/denouche/terraform-provider-awx",
   "versions": [
     {
+      "version": "0.24.3",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/denouche/terraform-provider-awx/releases/download/v0.24.3/terraform-provider-awx_0.24.3_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/denouche/terraform-provider-awx/releases/download/v0.24.3/terraform-provider-awx_0.24.3_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-awx_0.24.3_freebsd_arm.zip",
+          "download_url": "https://github.com/denouche/terraform-provider-awx/releases/download/v0.24.3/terraform-provider-awx_0.24.3_freebsd_arm.zip",
+          "shasum": "c596c5f6b87db3fc5b11c9b36ba0247e3c19d3260d693815a1d6b7484609af83"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-awx_0.24.3_freebsd_amd64.zip",
+          "download_url": "https://github.com/denouche/terraform-provider-awx/releases/download/v0.24.3/terraform-provider-awx_0.24.3_freebsd_amd64.zip",
+          "shasum": "8783902d45331b4e224397d049d89974d8b85d7278f2359382c6e971632f1923"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-awx_0.24.3_linux_amd64.zip",
+          "download_url": "https://github.com/denouche/terraform-provider-awx/releases/download/v0.24.3/terraform-provider-awx_0.24.3_linux_amd64.zip",
+          "shasum": "45b4b144702145d786ff6ec2148e47dae2b7d674ad55a904f246d8875f48bb4a"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-awx_0.24.3_linux_arm64.zip",
+          "download_url": "https://github.com/denouche/terraform-provider-awx/releases/download/v0.24.3/terraform-provider-awx_0.24.3_linux_arm64.zip",
+          "shasum": "a9addaafa9772fac13752fc8c35bd7e51f78a451fb55eb37d0854f34dcd740a7"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-awx_0.24.3_windows_386.zip",
+          "download_url": "https://github.com/denouche/terraform-provider-awx/releases/download/v0.24.3/terraform-provider-awx_0.24.3_windows_386.zip",
+          "shasum": "bb0327ae25f0131e9302ddbc7de1fa9337b88a74a6f378e656741b0459c5349f"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-awx_0.24.3_linux_386.zip",
+          "download_url": "https://github.com/denouche/terraform-provider-awx/releases/download/v0.24.3/terraform-provider-awx_0.24.3_linux_386.zip",
+          "shasum": "04559d2e6963a841c9febb4a2a86a6842045afc65ab4e6c0943217c69a1db0ec"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-awx_0.24.3_darwin_amd64.zip",
+          "download_url": "https://github.com/denouche/terraform-provider-awx/releases/download/v0.24.3/terraform-provider-awx_0.24.3_darwin_amd64.zip",
+          "shasum": "cb44f8bd0c2ff2820b9554a748f8f192eb01fa20ed583f0a1b4ecb4885df2e75"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-awx_0.24.3_darwin_arm64.zip",
+          "download_url": "https://github.com/denouche/terraform-provider-awx/releases/download/v0.24.3/terraform-provider-awx_0.24.3_darwin_arm64.zip",
+          "shasum": "e3dbd4c5a436aed2ec408822ace9c10c7b44498bfcef641d7cf05a05ceb6692d"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-awx_0.24.3_windows_arm.zip",
+          "download_url": "https://github.com/denouche/terraform-provider-awx/releases/download/v0.24.3/terraform-provider-awx_0.24.3_windows_arm.zip",
+          "shasum": "41fbde9eaa879967da253b05c9516ae32f9eee38d1676b7c573ff9211b9c87d1"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-awx_0.24.3_linux_arm.zip",
+          "download_url": "https://github.com/denouche/terraform-provider-awx/releases/download/v0.24.3/terraform-provider-awx_0.24.3_linux_arm.zip",
+          "shasum": "5840b4f8815a390fafb5689a23935f086fa935487e13d6fdfec3b985197236e9"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-awx_0.24.3_freebsd_386.zip",
+          "download_url": "https://github.com/denouche/terraform-provider-awx/releases/download/v0.24.3/terraform-provider-awx_0.24.3_freebsd_386.zip",
+          "shasum": "27148985f219df5da06abe6830dd070af263e3001430ea0501b26d70fc7bbad4"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-awx_0.24.3_windows_arm64.zip",
+          "download_url": "https://github.com/denouche/terraform-provider-awx/releases/download/v0.24.3/terraform-provider-awx_0.24.3_windows_arm64.zip",
+          "shasum": "880225964c9224d9278991b210b6aba0cc3160ad2fb24593825d4c0202d657ab"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-awx_0.24.3_freebsd_arm64.zip",
+          "download_url": "https://github.com/denouche/terraform-provider-awx/releases/download/v0.24.3/terraform-provider-awx_0.24.3_freebsd_arm64.zip",
+          "shasum": "cf86f895f9e7549a0ea98d866602b0dd21cb9277f54f4141bf5becef28c55ad0"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-awx_0.24.3_windows_amd64.zip",
+          "download_url": "https://github.com/denouche/terraform-provider-awx/releases/download/v0.24.3/terraform-provider-awx_0.24.3_windows_amd64.zip",
+          "shasum": "8b1d950db0265f6d08c9b8aafe47b6ec7fcd91572f11cda3b83fef137aa990ef"
+        }
+      ]
+    },
+    {
+      "version": "0.24.2",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/denouche/terraform-provider-awx/releases/download/v0.24.2/terraform-provider-awx_0.24.2_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/denouche/terraform-provider-awx/releases/download/v0.24.2/terraform-provider-awx_0.24.2_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-awx_0.24.2_linux_arm.zip",
+          "download_url": "https://github.com/denouche/terraform-provider-awx/releases/download/v0.24.2/terraform-provider-awx_0.24.2_linux_arm.zip",
+          "shasum": "42b54934652fe5375b71f2ec8c954ba61d6a7903243ef92402878b8e71233942"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-awx_0.24.2_freebsd_arm.zip",
+          "download_url": "https://github.com/denouche/terraform-provider-awx/releases/download/v0.24.2/terraform-provider-awx_0.24.2_freebsd_arm.zip",
+          "shasum": "1319f8de6e8c2ac6a22c4be9067db22ef68a5c039ce7ff8d6294d14e8f297d73"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-awx_0.24.2_linux_386.zip",
+          "download_url": "https://github.com/denouche/terraform-provider-awx/releases/download/v0.24.2/terraform-provider-awx_0.24.2_linux_386.zip",
+          "shasum": "4c4857a029507db7ec644b49dfebfb8a81f5c3d0f11bd4d5561a1163944940fa"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-awx_0.24.2_freebsd_386.zip",
+          "download_url": "https://github.com/denouche/terraform-provider-awx/releases/download/v0.24.2/terraform-provider-awx_0.24.2_freebsd_386.zip",
+          "shasum": "301f1b27bce11d00c7d1ecc85aeafa27ccf7b8a6dacd917ffefd3f66bd3d799a"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-awx_0.24.2_windows_arm.zip",
+          "download_url": "https://github.com/denouche/terraform-provider-awx/releases/download/v0.24.2/terraform-provider-awx_0.24.2_windows_arm.zip",
+          "shasum": "6c715c4913d42a28af450d96bdbdb6873af90f06b29eb8e24cd723f51cc7cf0b"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-awx_0.24.2_linux_arm64.zip",
+          "download_url": "https://github.com/denouche/terraform-provider-awx/releases/download/v0.24.2/terraform-provider-awx_0.24.2_linux_arm64.zip",
+          "shasum": "8b1489d5c0a5c996fbcf3d3b9bb486cffd923c9140ef202c75ca3943c52298bd"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-awx_0.24.2_darwin_arm64.zip",
+          "download_url": "https://github.com/denouche/terraform-provider-awx/releases/download/v0.24.2/terraform-provider-awx_0.24.2_darwin_arm64.zip",
+          "shasum": "d42e62e3a90bd35b405c70bc28585ae8a807a1e00cf6fcfea3e07736e8f1250c"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-awx_0.24.2_linux_amd64.zip",
+          "download_url": "https://github.com/denouche/terraform-provider-awx/releases/download/v0.24.2/terraform-provider-awx_0.24.2_linux_amd64.zip",
+          "shasum": "11347fa207128c3ab5a4c259c7723b1a62ef16dacaa978b0e1a7fae91aff7c64"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-awx_0.24.2_windows_arm64.zip",
+          "download_url": "https://github.com/denouche/terraform-provider-awx/releases/download/v0.24.2/terraform-provider-awx_0.24.2_windows_arm64.zip",
+          "shasum": "251a73e239063633a10ac275b049ce7badda0c38e291e0f14701aabfaae9ebd4"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-awx_0.24.2_windows_386.zip",
+          "download_url": "https://github.com/denouche/terraform-provider-awx/releases/download/v0.24.2/terraform-provider-awx_0.24.2_windows_386.zip",
+          "shasum": "c13a957e520e1ec6c2c929d0594e994e182b06efc6a40074e9ccee90c75291b5"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-awx_0.24.2_freebsd_amd64.zip",
+          "download_url": "https://github.com/denouche/terraform-provider-awx/releases/download/v0.24.2/terraform-provider-awx_0.24.2_freebsd_amd64.zip",
+          "shasum": "1320b570d710225986d4683767e43423e2a31067d8f4516f8cbca9719e4932e2"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-awx_0.24.2_freebsd_arm64.zip",
+          "download_url": "https://github.com/denouche/terraform-provider-awx/releases/download/v0.24.2/terraform-provider-awx_0.24.2_freebsd_arm64.zip",
+          "shasum": "90a003ccb5dd3088a982e4c6a3ecbf617a2c5cb1821deaec0582b000e26653ba"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-awx_0.24.2_windows_amd64.zip",
+          "download_url": "https://github.com/denouche/terraform-provider-awx/releases/download/v0.24.2/terraform-provider-awx_0.24.2_windows_amd64.zip",
+          "shasum": "3a47640c40f442738b4c01aa4dc14b18df8d1987b044155e102af19dd7723960"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-awx_0.24.2_darwin_amd64.zip",
+          "download_url": "https://github.com/denouche/terraform-provider-awx/releases/download/v0.24.2/terraform-provider-awx_0.24.2_darwin_amd64.zip",
+          "shasum": "4f786286780172bcc87e9383bd2410f271ce038ef744e833f30d5cd282df47be"
+        }
+      ]
+    },
+    {
+      "version": "0.22.6",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/denouche/terraform-provider-awx/releases/download/v0.22.6/terraform-provider-awx_0.22.6_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/denouche/terraform-provider-awx/releases/download/v0.22.6/terraform-provider-awx_0.22.6_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-awx_0.22.6_darwin_arm64.zip",
+          "download_url": "https://github.com/denouche/terraform-provider-awx/releases/download/v0.22.6/terraform-provider-awx_0.22.6_darwin_arm64.zip",
+          "shasum": "bd5d6f2c0d754c3e5e97cf1c11e2be0aef9721206e24aca0e2c950ff835c6c5d"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-awx_0.22.6_linux_386.zip",
+          "download_url": "https://github.com/denouche/terraform-provider-awx/releases/download/v0.22.6/terraform-provider-awx_0.22.6_linux_386.zip",
+          "shasum": "ece01b2c97f4aeeb301985f5757125f8d74ebcb51e5e637cd2a993ab217dbe8f"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-awx_0.22.6_windows_arm.zip",
+          "download_url": "https://github.com/denouche/terraform-provider-awx/releases/download/v0.22.6/terraform-provider-awx_0.22.6_windows_arm.zip",
+          "shasum": "77243e4cea40658029e07dc63a602539ac37c08e7a4b61e0b91fd967a4bfd321"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-awx_0.22.6_windows_386.zip",
+          "download_url": "https://github.com/denouche/terraform-provider-awx/releases/download/v0.22.6/terraform-provider-awx_0.22.6_windows_386.zip",
+          "shasum": "d8d988184211d741f1b58d0f1694fc48b50ba337e1595d44b1c30fe1b51309ba"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-awx_0.22.6_freebsd_386.zip",
+          "download_url": "https://github.com/denouche/terraform-provider-awx/releases/download/v0.22.6/terraform-provider-awx_0.22.6_freebsd_386.zip",
+          "shasum": "4221bdd624dbaed542cd45cf3bf9d2e74c0c44c29d56f7ac8ee9e0c0f100e40f"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-awx_0.22.6_linux_arm64.zip",
+          "download_url": "https://github.com/denouche/terraform-provider-awx/releases/download/v0.22.6/terraform-provider-awx_0.22.6_linux_arm64.zip",
+          "shasum": "d3da330642a73cc816d38acee57239e1962369db908a6e551fb92b2cc9f4575c"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-awx_0.22.6_linux_amd64.zip",
+          "download_url": "https://github.com/denouche/terraform-provider-awx/releases/download/v0.22.6/terraform-provider-awx_0.22.6_linux_amd64.zip",
+          "shasum": "c2e9f5a6780a8024dbfce80e5370d1332a46f75c39c9a48e5bee437a99660ccb"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-awx_0.22.6_freebsd_arm64.zip",
+          "download_url": "https://github.com/denouche/terraform-provider-awx/releases/download/v0.22.6/terraform-provider-awx_0.22.6_freebsd_arm64.zip",
+          "shasum": "c8f447df0ab707a7fa4694a79d050c98e9884b271f6760d3352eab8f4a20f853"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-awx_0.22.6_freebsd_arm.zip",
+          "download_url": "https://github.com/denouche/terraform-provider-awx/releases/download/v0.22.6/terraform-provider-awx_0.22.6_freebsd_arm.zip",
+          "shasum": "837c318d3dc4d5199a8f07621495884b889a5036dbb311db3730da012fa0d07e"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-awx_0.22.6_windows_amd64.zip",
+          "download_url": "https://github.com/denouche/terraform-provider-awx/releases/download/v0.22.6/terraform-provider-awx_0.22.6_windows_amd64.zip",
+          "shasum": "100b0c55801019888c8cf8329e76c8973ff67fa7f052a528bd1207fc27b1743c"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-awx_0.22.6_linux_arm.zip",
+          "download_url": "https://github.com/denouche/terraform-provider-awx/releases/download/v0.22.6/terraform-provider-awx_0.22.6_linux_arm.zip",
+          "shasum": "68c6daa0a1894c98443328a77f1c76a5d3031321446e8b7c78ccce21dc08bfed"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-awx_0.22.6_freebsd_amd64.zip",
+          "download_url": "https://github.com/denouche/terraform-provider-awx/releases/download/v0.22.6/terraform-provider-awx_0.22.6_freebsd_amd64.zip",
+          "shasum": "3ed67c3502ab2204b0d4a23819cfdf0b3ee23b678bd0b24cff42d5df38220c6a"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-awx_0.22.6_windows_arm64.zip",
+          "download_url": "https://github.com/denouche/terraform-provider-awx/releases/download/v0.22.6/terraform-provider-awx_0.22.6_windows_arm64.zip",
+          "shasum": "5cee957acef5547009ed85aac7060bdbf3a98df65e822d0b67730225088931f3"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-awx_0.22.6_darwin_amd64.zip",
+          "download_url": "https://github.com/denouche/terraform-provider-awx/releases/download/v0.22.6/terraform-provider-awx_0.22.6_darwin_amd64.zip",
+          "shasum": "c104d15368ff28fa33b9816f913c584a82ec53fb4ffbea648cbda1edfa269ee7"
+        }
+      ]
+    },
+    {
       "version": "0.22.5",
       "protocols": [
         "5.0"
