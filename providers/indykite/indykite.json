@@ -2,6 +2,114 @@
   "repository": "https://github.com/indykite/terraform-provider-indykite",
   "versions": [
     {
+      "version": "0.3.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/indykite/terraform-provider-indykite/releases/download/v0.3.0/terraform-provider-indykite_0.3.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/indykite/terraform-provider-indykite/releases/download/v0.3.0/terraform-provider-indykite_0.3.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-indykite_0.3.0_windows_arm.zip",
+          "download_url": "https://github.com/indykite/terraform-provider-indykite/releases/download/v0.3.0/terraform-provider-indykite_0.3.0_windows_arm.zip",
+          "shasum": "89349765e40a7fb7c865bfa253e3b5d75a3a7f6049f05e411ebd4c7975f2c543"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-indykite_0.3.0_windows_386.zip",
+          "download_url": "https://github.com/indykite/terraform-provider-indykite/releases/download/v0.3.0/terraform-provider-indykite_0.3.0_windows_386.zip",
+          "shasum": "c6660b256eaffbb7a88d3ac06041684a0f9ff95a5ddaed3ff781881aa5114800"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-indykite_0.3.0_darwin_arm64.zip",
+          "download_url": "https://github.com/indykite/terraform-provider-indykite/releases/download/v0.3.0/terraform-provider-indykite_0.3.0_darwin_arm64.zip",
+          "shasum": "fb31e06b489fce134ea126bea88d169e57b3ad50390b95ba851b95092c950ea0"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-indykite_0.3.0_freebsd_arm.zip",
+          "download_url": "https://github.com/indykite/terraform-provider-indykite/releases/download/v0.3.0/terraform-provider-indykite_0.3.0_freebsd_arm.zip",
+          "shasum": "63e2438d63781f14e0f32c2d39d2d2ea7fb064939c8bf6922cdf183067d207fd"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-indykite_0.3.0_linux_arm.zip",
+          "download_url": "https://github.com/indykite/terraform-provider-indykite/releases/download/v0.3.0/terraform-provider-indykite_0.3.0_linux_arm.zip",
+          "shasum": "644227d9b2cd02f51eb6e378b00dc598bc526f71534043b8183042c8ff5d239e"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-indykite_0.3.0_linux_amd64.zip",
+          "download_url": "https://github.com/indykite/terraform-provider-indykite/releases/download/v0.3.0/terraform-provider-indykite_0.3.0_linux_amd64.zip",
+          "shasum": "564e476404b062a971351cffe6d6e8abd569df58c60045f88daa5c92a54e71d7"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-indykite_0.3.0_windows_arm64.zip",
+          "download_url": "https://github.com/indykite/terraform-provider-indykite/releases/download/v0.3.0/terraform-provider-indykite_0.3.0_windows_arm64.zip",
+          "shasum": "89be5e196baf26e5dfce21ae047d38029bb3d7c30b3c3da5e3424f18e43ba947"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-indykite_0.3.0_linux_arm64.zip",
+          "download_url": "https://github.com/indykite/terraform-provider-indykite/releases/download/v0.3.0/terraform-provider-indykite_0.3.0_linux_arm64.zip",
+          "shasum": "5e4d69a4ab021244d30700fb74fa3596e6707c9bb41d1b462c18c6c232194e17"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-indykite_0.3.0_darwin_amd64.zip",
+          "download_url": "https://github.com/indykite/terraform-provider-indykite/releases/download/v0.3.0/terraform-provider-indykite_0.3.0_darwin_amd64.zip",
+          "shasum": "206f95d2ea94662fcc629a30c22758e5c67d00e6a2ab6e6fdf5810c61a59a3fd"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-indykite_0.3.0_freebsd_386.zip",
+          "download_url": "https://github.com/indykite/terraform-provider-indykite/releases/download/v0.3.0/terraform-provider-indykite_0.3.0_freebsd_386.zip",
+          "shasum": "1a1c5fe9707edac2bf9c5f2951c2405f01a5695472d7433061cb3e3dc6491fd2"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-indykite_0.3.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/indykite/terraform-provider-indykite/releases/download/v0.3.0/terraform-provider-indykite_0.3.0_freebsd_amd64.zip",
+          "shasum": "be43d2408d84599fbacb8f8b0c766440ced1ef66ea5132005ba6465cb69c24b0"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-indykite_0.3.0_windows_amd64.zip",
+          "download_url": "https://github.com/indykite/terraform-provider-indykite/releases/download/v0.3.0/terraform-provider-indykite_0.3.0_windows_amd64.zip",
+          "shasum": "154bc869171d1ffdf9999ebf957007d4a19dcf411877d1910d7f9e8bf1c1e100"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-indykite_0.3.0_linux_386.zip",
+          "download_url": "https://github.com/indykite/terraform-provider-indykite/releases/download/v0.3.0/terraform-provider-indykite_0.3.0_linux_386.zip",
+          "shasum": "38185c99d28d18c94324ba674a1573ad9efd739e6d9ea76edaa67abfa3c4f028"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-indykite_0.3.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/indykite/terraform-provider-indykite/releases/download/v0.3.0/terraform-provider-indykite_0.3.0_freebsd_arm64.zip",
+          "shasum": "56461c290d41118097023b95882619afbb1533c4ebe9fb86ad463b8eac99134f"
+        }
+      ]
+    },
+    {
       "version": "0.2.1",
       "protocols": [
         "5.0"
