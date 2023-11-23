@@ -2,6 +2,107 @@
   "repository": "https://github.com/kingsoftcloud/terraform-provider-ksyun",
   "versions": [
     {
+      "version": "1.11.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/kingsoftcloud/terraform-provider-ksyun/releases/download/v1.11.0/terraform-provider-ksyun_1.11.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/kingsoftcloud/terraform-provider-ksyun/releases/download/v1.11.0/terraform-provider-ksyun_1.11.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-ksyun_1.11.0_linux_arm.zip",
+          "download_url": "https://github.com/kingsoftcloud/terraform-provider-ksyun/releases/download/v1.11.0/terraform-provider-ksyun_1.11.0_linux_arm.zip",
+          "shasum": "f0030b601afa215bac2fe0efaa0f10af7bf2fd4d314353d25b9ebea77ec13912"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-ksyun_1.11.0_linux_amd64.zip",
+          "download_url": "https://github.com/kingsoftcloud/terraform-provider-ksyun/releases/download/v1.11.0/terraform-provider-ksyun_1.11.0_linux_amd64.zip",
+          "shasum": "bfcaac650ed07b63689098693070145d111eb76f059cbcdfd6721840dadec726"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-ksyun_1.11.0_windows_386.zip",
+          "download_url": "https://github.com/kingsoftcloud/terraform-provider-ksyun/releases/download/v1.11.0/terraform-provider-ksyun_1.11.0_windows_386.zip",
+          "shasum": "1ef0c882a73169c0c7aa171db1be7d861e607d5329e29431ab14fbeeced53c12"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-ksyun_1.11.0_windows_amd64.zip",
+          "download_url": "https://github.com/kingsoftcloud/terraform-provider-ksyun/releases/download/v1.11.0/terraform-provider-ksyun_1.11.0_windows_amd64.zip",
+          "shasum": "4e4a34b8b03c980661fe410345abea532ab4ec289a6aa2ffdb927ccefc996aa0"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-ksyun_1.11.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/kingsoftcloud/terraform-provider-ksyun/releases/download/v1.11.0/terraform-provider-ksyun_1.11.0_freebsd_amd64.zip",
+          "shasum": "bd1f45d2bf45a36388eb04617cfacc367fc5f0c084f7828e28b6612d6db5dc3d"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-ksyun_1.11.0_freebsd_arm.zip",
+          "download_url": "https://github.com/kingsoftcloud/terraform-provider-ksyun/releases/download/v1.11.0/terraform-provider-ksyun_1.11.0_freebsd_arm.zip",
+          "shasum": "b7370c5319efed97ac0b716fe11d4ad7470e7b15dc8c4ecde9b4dab00098c86a"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-ksyun_1.11.0_freebsd_386.zip",
+          "download_url": "https://github.com/kingsoftcloud/terraform-provider-ksyun/releases/download/v1.11.0/terraform-provider-ksyun_1.11.0_freebsd_386.zip",
+          "shasum": "f53d563c93291a6408d3c65c5a5af0ac1e6e7f53bb367b809342c74e3510e6c1"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-ksyun_1.11.0_darwin_amd64.zip",
+          "download_url": "https://github.com/kingsoftcloud/terraform-provider-ksyun/releases/download/v1.11.0/terraform-provider-ksyun_1.11.0_darwin_amd64.zip",
+          "shasum": "f35fed5335ab07772610b9a3c63eed34222935b423cd8f6a2f841b76807c2a60"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-ksyun_1.11.0_linux_386.zip",
+          "download_url": "https://github.com/kingsoftcloud/terraform-provider-ksyun/releases/download/v1.11.0/terraform-provider-ksyun_1.11.0_linux_386.zip",
+          "shasum": "9f503a6a40fd71867fa0ca8d1dce5ce26fdc15dcf34a2ffb05f3ce7905b402f9"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-ksyun_1.11.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/kingsoftcloud/terraform-provider-ksyun/releases/download/v1.11.0/terraform-provider-ksyun_1.11.0_freebsd_arm64.zip",
+          "shasum": "1735437243654b4014391f9e8c8f6096923c499b54bfeb5392a2b9593419d9b7"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-ksyun_1.11.0_windows_arm.zip",
+          "download_url": "https://github.com/kingsoftcloud/terraform-provider-ksyun/releases/download/v1.11.0/terraform-provider-ksyun_1.11.0_windows_arm.zip",
+          "shasum": "18246c40a1cc966f9b419923cd0487ed73d8bd29790c98086fd37bb594ef1f9c"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-ksyun_1.11.0_darwin_arm64.zip",
+          "download_url": "https://github.com/kingsoftcloud/terraform-provider-ksyun/releases/download/v1.11.0/terraform-provider-ksyun_1.11.0_darwin_arm64.zip",
+          "shasum": "9fe399be3415bfc12efdbea466cd0b3412aa2764faa58abcdc4b781dce0bed33"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-ksyun_1.11.0_linux_arm64.zip",
+          "download_url": "https://github.com/kingsoftcloud/terraform-provider-ksyun/releases/download/v1.11.0/terraform-provider-ksyun_1.11.0_linux_arm64.zip",
+          "shasum": "09c15973e5349e134da3a6b6f2703f33e4614e78c65c1a08fb302a4d2ead37a6"
+        }
+      ]
+    },
+    {
       "version": "1.6.4",
       "protocols": [
         "5.0"
