@@ -2,6 +2,114 @@
   "repository": "https://github.com/RiskIdent/terraform-provider-mongodb-driver",
   "versions": [
     {
+      "version": "0.1.2",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/RiskIdent/terraform-provider-mongodb-driver/releases/download/v0.1.2/terraform-provider-mongodb-driver_0.1.2_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/RiskIdent/terraform-provider-mongodb-driver/releases/download/v0.1.2/terraform-provider-mongodb-driver_0.1.2_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-mongodb-driver_0.1.2_windows_amd64.zip",
+          "download_url": "https://github.com/RiskIdent/terraform-provider-mongodb-driver/releases/download/v0.1.2/terraform-provider-mongodb-driver_0.1.2_windows_amd64.zip",
+          "shasum": "6241a41463ae365851ca783866f7521876e835bd32dbc0e418cf7f2a4a8d4383"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-mongodb-driver_0.1.2_freebsd_386.zip",
+          "download_url": "https://github.com/RiskIdent/terraform-provider-mongodb-driver/releases/download/v0.1.2/terraform-provider-mongodb-driver_0.1.2_freebsd_386.zip",
+          "shasum": "199580a1ad551ef5e5bd3c60b576d3856f8455ff6ed82c4c49700a6441e480b7"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-mongodb-driver_0.1.2_darwin_amd64.zip",
+          "download_url": "https://github.com/RiskIdent/terraform-provider-mongodb-driver/releases/download/v0.1.2/terraform-provider-mongodb-driver_0.1.2_darwin_amd64.zip",
+          "shasum": "5a2a8358288e2ad41c1b2a1bcaca2a70212551a92aaad8699d4461893378a9f4"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-mongodb-driver_0.1.2_darwin_arm64.zip",
+          "download_url": "https://github.com/RiskIdent/terraform-provider-mongodb-driver/releases/download/v0.1.2/terraform-provider-mongodb-driver_0.1.2_darwin_arm64.zip",
+          "shasum": "0e5807adb4fb2760628ed1e58783fd661b3f04612aa7198c5c4c69766422a66a"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-mongodb-driver_0.1.2_freebsd_arm.zip",
+          "download_url": "https://github.com/RiskIdent/terraform-provider-mongodb-driver/releases/download/v0.1.2/terraform-provider-mongodb-driver_0.1.2_freebsd_arm.zip",
+          "shasum": "bcbef69d845ba74aaed2e02f71b78cbff14a9a9e222aff5ba73a49d5bf11a236"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-mongodb-driver_0.1.2_linux_386.zip",
+          "download_url": "https://github.com/RiskIdent/terraform-provider-mongodb-driver/releases/download/v0.1.2/terraform-provider-mongodb-driver_0.1.2_linux_386.zip",
+          "shasum": "dc94a3d0733ebc087331e033eeeaacd8fde9b719f23dec238951ba6cd28b3eee"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-mongodb-driver_0.1.2_linux_arm.zip",
+          "download_url": "https://github.com/RiskIdent/terraform-provider-mongodb-driver/releases/download/v0.1.2/terraform-provider-mongodb-driver_0.1.2_linux_arm.zip",
+          "shasum": "6ae3c3b3891c3f754571d3909ca7a80619b38b0e227e94e3a1912f678e35f899"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-mongodb-driver_0.1.2_freebsd_amd64.zip",
+          "download_url": "https://github.com/RiskIdent/terraform-provider-mongodb-driver/releases/download/v0.1.2/terraform-provider-mongodb-driver_0.1.2_freebsd_amd64.zip",
+          "shasum": "87a47b164f2dae445229d2e7f8f1e53b4f7971da2e866be52d73e39f376949e4"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-mongodb-driver_0.1.2_freebsd_arm64.zip",
+          "download_url": "https://github.com/RiskIdent/terraform-provider-mongodb-driver/releases/download/v0.1.2/terraform-provider-mongodb-driver_0.1.2_freebsd_arm64.zip",
+          "shasum": "31b91fc0ebc03320f5a39258582fbe7781a5bd2eb879f198d4f6409a41f56c2b"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-mongodb-driver_0.1.2_windows_arm.zip",
+          "download_url": "https://github.com/RiskIdent/terraform-provider-mongodb-driver/releases/download/v0.1.2/terraform-provider-mongodb-driver_0.1.2_windows_arm.zip",
+          "shasum": "61e31432a64e1eba71524521edf6ea02d6737584929fc3c80149a928e9353d07"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-mongodb-driver_0.1.2_windows_386.zip",
+          "download_url": "https://github.com/RiskIdent/terraform-provider-mongodb-driver/releases/download/v0.1.2/terraform-provider-mongodb-driver_0.1.2_windows_386.zip",
+          "shasum": "e9a8a25fe3968f9cdef3495c8146219f62b2a121201efef69a62e7a27ee18ebd"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-mongodb-driver_0.1.2_windows_arm64.zip",
+          "download_url": "https://github.com/RiskIdent/terraform-provider-mongodb-driver/releases/download/v0.1.2/terraform-provider-mongodb-driver_0.1.2_windows_arm64.zip",
+          "shasum": "1335dd12ea5c8566be8b7651e329d50953dc24eb173159fb93355b7b4f01c948"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-mongodb-driver_0.1.2_linux_arm64.zip",
+          "download_url": "https://github.com/RiskIdent/terraform-provider-mongodb-driver/releases/download/v0.1.2/terraform-provider-mongodb-driver_0.1.2_linux_arm64.zip",
+          "shasum": "3a2f86dd0f8520365a3497920d48116431bd3444e2609b654f30205a1bcb6b12"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-mongodb-driver_0.1.2_linux_amd64.zip",
+          "download_url": "https://github.com/RiskIdent/terraform-provider-mongodb-driver/releases/download/v0.1.2/terraform-provider-mongodb-driver_0.1.2_linux_amd64.zip",
+          "shasum": "712464e75ef97191641ab0bfc9de353ce8de212c6d3a05bae020946661050c5d"
+        }
+      ]
+    },
+    {
       "version": "0.1.1",
       "protocols": [
         "5.0"
