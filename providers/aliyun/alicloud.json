@@ -2,6 +2,93 @@
   "repository": "https://github.com/aliyun/terraform-provider-alicloud",
   "versions": [
     {
+      "version": "1.213.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/aliyun/terraform-provider-alicloud/releases/download/v1.213.0/terraform-provider-alicloud_1.213.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/aliyun/terraform-provider-alicloud/releases/download/v1.213.0/terraform-provider-alicloud_1.213.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-alicloud_1.213.0_linux_arm64.zip",
+          "download_url": "https://github.com/aliyun/terraform-provider-alicloud/releases/download/v1.213.0/terraform-provider-alicloud_1.213.0_linux_arm64.zip",
+          "shasum": "0a6de74aedc9c2e5866547a5017a2c5f356ddc561ba13491d7fd596cc4d8d79e"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-alicloud_1.213.0_darwin_arm64.zip",
+          "download_url": "https://github.com/aliyun/terraform-provider-alicloud/releases/download/v1.213.0/terraform-provider-alicloud_1.213.0_darwin_arm64.zip",
+          "shasum": "e08a37a5488415e1def8455c983ab1470a9fe4fbad09842577eddbb9fd5bcb7c"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-alicloud_1.213.0_freebsd_386.zip",
+          "download_url": "https://github.com/aliyun/terraform-provider-alicloud/releases/download/v1.213.0/terraform-provider-alicloud_1.213.0_freebsd_386.zip",
+          "shasum": "8ae2e72d3886f9f61d9441790f6051115ed766e275cbacebcec57c43094562fe"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-alicloud_1.213.0_freebsd_arm.zip",
+          "download_url": "https://github.com/aliyun/terraform-provider-alicloud/releases/download/v1.213.0/terraform-provider-alicloud_1.213.0_freebsd_arm.zip",
+          "shasum": "03a6e6e06a4ca94d5e41397b3d5cb39a13da52d8b4a7ccbeeb0ae3071b85ab0a"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-alicloud_1.213.0_windows_386.zip",
+          "download_url": "https://github.com/aliyun/terraform-provider-alicloud/releases/download/v1.213.0/terraform-provider-alicloud_1.213.0_windows_386.zip",
+          "shasum": "9990456b8ffea18f96f2968fa8b7147f890f0dc453434d236d31f2b941e0370d"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-alicloud_1.213.0_linux_386.zip",
+          "download_url": "https://github.com/aliyun/terraform-provider-alicloud/releases/download/v1.213.0/terraform-provider-alicloud_1.213.0_linux_386.zip",
+          "shasum": "65dfa6ba97c47da45706983bd9bc2169c50010f637e0189b152a446fd06e9f68"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-alicloud_1.213.0_linux_arm.zip",
+          "download_url": "https://github.com/aliyun/terraform-provider-alicloud/releases/download/v1.213.0/terraform-provider-alicloud_1.213.0_linux_arm.zip",
+          "shasum": "1b76b00580a4066eaa68295facaf140a1c9b6174a809446a145a8ac318b1a41b"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-alicloud_1.213.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/aliyun/terraform-provider-alicloud/releases/download/v1.213.0/terraform-provider-alicloud_1.213.0_freebsd_amd64.zip",
+          "shasum": "81c1b16e3613703394238ae46fca26f5d101f1a069c8ea9fe8ca94bb0348b57f"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-alicloud_1.213.0_windows_amd64.zip",
+          "download_url": "https://github.com/aliyun/terraform-provider-alicloud/releases/download/v1.213.0/terraform-provider-alicloud_1.213.0_windows_amd64.zip",
+          "shasum": "0a3135230aad2b768433c63a7bdc726ae6080fedec91fb5888275dddc5ab28fb"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-alicloud_1.213.0_linux_amd64.zip",
+          "download_url": "https://github.com/aliyun/terraform-provider-alicloud/releases/download/v1.213.0/terraform-provider-alicloud_1.213.0_linux_amd64.zip",
+          "shasum": "dc2c2934d938631efb5b2ad04fdc8911bbb9bb917b10589cfe95b7e7863dc543"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-alicloud_1.213.0_darwin_amd64.zip",
+          "download_url": "https://github.com/aliyun/terraform-provider-alicloud/releases/download/v1.213.0/terraform-provider-alicloud_1.213.0_darwin_amd64.zip",
+          "shasum": "3b201e03e591cb41bd8415d3d4bd9c5b283251ba0a777b56c2d3d6f22a849336"
+        }
+      ]
+    },
+    {
       "version": "1.212.0",
       "protocols": [
         "5.0"
