@@ -2,6 +2,114 @@
   "repository": "https://github.com/zscaler/terraform-provider-zia",
   "versions": [
     {
+      "version": "2.6.6",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/zscaler/terraform-provider-zia/releases/download/v2.6.6/terraform-provider-zia_2.6.6_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/zscaler/terraform-provider-zia/releases/download/v2.6.6/terraform-provider-zia_2.6.6_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-zia_2.6.6_freebsd_arm.zip",
+          "download_url": "https://github.com/zscaler/terraform-provider-zia/releases/download/v2.6.6/terraform-provider-zia_2.6.6_freebsd_arm.zip",
+          "shasum": "e442d44ed98e0e803d1803dd53d8ed30906af38ab9812a684a40b5b90200e593"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-zia_2.6.6_freebsd_386.zip",
+          "download_url": "https://github.com/zscaler/terraform-provider-zia/releases/download/v2.6.6/terraform-provider-zia_2.6.6_freebsd_386.zip",
+          "shasum": "1e8f5cf02df4526a67a5cbb779b3a97dc918fb33f18d36832db948e0ba7e79b4"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-zia_2.6.6_freebsd_arm64.zip",
+          "download_url": "https://github.com/zscaler/terraform-provider-zia/releases/download/v2.6.6/terraform-provider-zia_2.6.6_freebsd_arm64.zip",
+          "shasum": "4c9f39eba1c9aff80e37aadcd85ebb8dec40162d9ce3f7520d20008d1348be40"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-zia_2.6.6_freebsd_amd64.zip",
+          "download_url": "https://github.com/zscaler/terraform-provider-zia/releases/download/v2.6.6/terraform-provider-zia_2.6.6_freebsd_amd64.zip",
+          "shasum": "7b9dac102c24142e09913d6c67c5e4a11d1e250e113a0e7e7add7c8634790f81"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-zia_2.6.6_linux_386.zip",
+          "download_url": "https://github.com/zscaler/terraform-provider-zia/releases/download/v2.6.6/terraform-provider-zia_2.6.6_linux_386.zip",
+          "shasum": "4a865edab24739f9c08c202edd01e1775f33b15cb8699a1086307b27230d98ce"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-zia_2.6.6_linux_arm.zip",
+          "download_url": "https://github.com/zscaler/terraform-provider-zia/releases/download/v2.6.6/terraform-provider-zia_2.6.6_linux_arm.zip",
+          "shasum": "28b70bf324b4f1fd170252026ab9896cac7185ce99b20374484edc02839c5124"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-zia_2.6.6_windows_386.zip",
+          "download_url": "https://github.com/zscaler/terraform-provider-zia/releases/download/v2.6.6/terraform-provider-zia_2.6.6_windows_386.zip",
+          "shasum": "86ecf45a99a6ff148eb79b818d1d94850f495550e123f028e2f9af2857e683c3"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-zia_2.6.6_windows_amd64.zip",
+          "download_url": "https://github.com/zscaler/terraform-provider-zia/releases/download/v2.6.6/terraform-provider-zia_2.6.6_windows_amd64.zip",
+          "shasum": "5daec866a734af4cc887be3674c0b3b24bf5934b52d32d366f1f30c146ac6805"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-zia_2.6.6_windows_arm.zip",
+          "download_url": "https://github.com/zscaler/terraform-provider-zia/releases/download/v2.6.6/terraform-provider-zia_2.6.6_windows_arm.zip",
+          "shasum": "5c0248efcf6f850aca806d3b467815ab561fe59ce41e7da84bc8507f4fe807d8"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-zia_2.6.6_linux_amd64.zip",
+          "download_url": "https://github.com/zscaler/terraform-provider-zia/releases/download/v2.6.6/terraform-provider-zia_2.6.6_linux_amd64.zip",
+          "shasum": "ffebb8489e7150f2c45d703f6defb1fd442c034061dfbd53d7540db4460318c5"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-zia_2.6.6_windows_arm64.zip",
+          "download_url": "https://github.com/zscaler/terraform-provider-zia/releases/download/v2.6.6/terraform-provider-zia_2.6.6_windows_arm64.zip",
+          "shasum": "308e65dd73022cf43c5561c3da54b7c0f660252fc2c1dd005887aaba4b6649d4"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-zia_2.6.6_linux_arm64.zip",
+          "download_url": "https://github.com/zscaler/terraform-provider-zia/releases/download/v2.6.6/terraform-provider-zia_2.6.6_linux_arm64.zip",
+          "shasum": "ceac2d2afedc652be925553b2fce3909319a7146773f39461babccb6934a7a5d"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-zia_2.6.6_darwin_amd64.zip",
+          "download_url": "https://github.com/zscaler/terraform-provider-zia/releases/download/v2.6.6/terraform-provider-zia_2.6.6_darwin_amd64.zip",
+          "shasum": "4ea861f91505ebad8ff6ebfbbadf5901fbdfe55e9354a1430120ea8356dcf700"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-zia_2.6.6_darwin_arm64.zip",
+          "download_url": "https://github.com/zscaler/terraform-provider-zia/releases/download/v2.6.6/terraform-provider-zia_2.6.6_darwin_arm64.zip",
+          "shasum": "1828b6775dc6fee4517bdf22d9b17f0dd9105a61afa4db0ca83acfe36ee3600f"
+        }
+      ]
+    },
+    {
       "version": "2.6.5",
       "protocols": [
         "5.0"
