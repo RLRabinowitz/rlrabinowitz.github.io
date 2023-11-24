@@ -2,6 +2,114 @@
   "repository": "https://github.com/Mirantis/terraform-provider-msr",
   "versions": [
     {
+      "version": "0.9.5",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/Mirantis/terraform-provider-msr/releases/download/v0.9.5/terraform-provider-msr_0.9.5_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/Mirantis/terraform-provider-msr/releases/download/v0.9.5/terraform-provider-msr_0.9.5_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-msr_0.9.5_freebsd_arm64.zip",
+          "download_url": "https://github.com/Mirantis/terraform-provider-msr/releases/download/v0.9.5/terraform-provider-msr_0.9.5_freebsd_arm64.zip",
+          "shasum": "2f4961005dc588cc5d13460041221d080118d5acd0f2451a0243183a9df0eea6"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-msr_0.9.5_linux_amd64.zip",
+          "download_url": "https://github.com/Mirantis/terraform-provider-msr/releases/download/v0.9.5/terraform-provider-msr_0.9.5_linux_amd64.zip",
+          "shasum": "18bb120a80586e69e676be08fe24b7d18a0817cabfd68c9caeaf1ac7d3015def"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-msr_0.9.5_freebsd_amd64.zip",
+          "download_url": "https://github.com/Mirantis/terraform-provider-msr/releases/download/v0.9.5/terraform-provider-msr_0.9.5_freebsd_amd64.zip",
+          "shasum": "079bf20ae214251fb135c3da0563e11ca01e35993f3eb525498d95461458ecee"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-msr_0.9.5_freebsd_386.zip",
+          "download_url": "https://github.com/Mirantis/terraform-provider-msr/releases/download/v0.9.5/terraform-provider-msr_0.9.5_freebsd_386.zip",
+          "shasum": "156dfb7385951cedd012796200bff10effeba299f7b06f34221577f411ee1d74"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-msr_0.9.5_freebsd_arm.zip",
+          "download_url": "https://github.com/Mirantis/terraform-provider-msr/releases/download/v0.9.5/terraform-provider-msr_0.9.5_freebsd_arm.zip",
+          "shasum": "3bf9f203375f8a3716bf12226a1c00e5befd197aeff5b2f7d7bdba0880a2c257"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-msr_0.9.5_windows_arm.zip",
+          "download_url": "https://github.com/Mirantis/terraform-provider-msr/releases/download/v0.9.5/terraform-provider-msr_0.9.5_windows_arm.zip",
+          "shasum": "20d2c270771f57577885987fbddcfd11755c7c1a96b2ec5b94c497f9c20c5777"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-msr_0.9.5_darwin_amd64.zip",
+          "download_url": "https://github.com/Mirantis/terraform-provider-msr/releases/download/v0.9.5/terraform-provider-msr_0.9.5_darwin_amd64.zip",
+          "shasum": "00f240a0452a197854135afa507a0810b9f510583e73d244e3b2dec948562483"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-msr_0.9.5_linux_386.zip",
+          "download_url": "https://github.com/Mirantis/terraform-provider-msr/releases/download/v0.9.5/terraform-provider-msr_0.9.5_linux_386.zip",
+          "shasum": "54a80639abe3e6c656c5d48d59e36137b6b423b4e1d152530afdc9a3ef8c12b9"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-msr_0.9.5_linux_arm64.zip",
+          "download_url": "https://github.com/Mirantis/terraform-provider-msr/releases/download/v0.9.5/terraform-provider-msr_0.9.5_linux_arm64.zip",
+          "shasum": "04e2b6f1601b8c53202bc20e797912912af8d6b672c4c03f06c2966e1f3c090e"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-msr_0.9.5_windows_386.zip",
+          "download_url": "https://github.com/Mirantis/terraform-provider-msr/releases/download/v0.9.5/terraform-provider-msr_0.9.5_windows_386.zip",
+          "shasum": "d98d22e3ba76423cbc1c0f90943571112c364b55ea563841ffac7c41a6aa99b3"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-msr_0.9.5_windows_arm64.zip",
+          "download_url": "https://github.com/Mirantis/terraform-provider-msr/releases/download/v0.9.5/terraform-provider-msr_0.9.5_windows_arm64.zip",
+          "shasum": "d34b5b893397a73d3be690c2846dff2b6f27813f7b17df2e5122e9d2e25fc440"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-msr_0.9.5_linux_arm.zip",
+          "download_url": "https://github.com/Mirantis/terraform-provider-msr/releases/download/v0.9.5/terraform-provider-msr_0.9.5_linux_arm.zip",
+          "shasum": "81d59625703c9d36bbf6742547d3d323ec8ee5db7acdd2edec16b0fcf46418b8"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-msr_0.9.5_windows_amd64.zip",
+          "download_url": "https://github.com/Mirantis/terraform-provider-msr/releases/download/v0.9.5/terraform-provider-msr_0.9.5_windows_amd64.zip",
+          "shasum": "501eb233523564a90ed306587ca101f38685876d86fcc95082594e8f7620a6f1"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-msr_0.9.5_darwin_arm64.zip",
+          "download_url": "https://github.com/Mirantis/terraform-provider-msr/releases/download/v0.9.5/terraform-provider-msr_0.9.5_darwin_arm64.zip",
+          "shasum": "418202ba8130835294e97d80c5962cde03d7fcc2302ce0d56f72df1595050354"
+        }
+      ]
+    },
+    {
       "version": "0.9.4",
       "protocols": [
         "5.0"

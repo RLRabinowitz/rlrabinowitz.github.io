@@ -2,6 +2,107 @@
   "repository": "https://github.com/fivetran/terraform-provider-fivetran",
   "versions": [
     {
+      "version": "1.1.5",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/fivetran/terraform-provider-fivetran/releases/download/v1.1.5/terraform-provider-fivetran_1.1.5_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/fivetran/terraform-provider-fivetran/releases/download/v1.1.5/terraform-provider-fivetran_1.1.5_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-fivetran_1.1.5_windows_386.zip",
+          "download_url": "https://github.com/fivetran/terraform-provider-fivetran/releases/download/v1.1.5/terraform-provider-fivetran_1.1.5_windows_386.zip",
+          "shasum": "74ec55b4cd9b83f8fb4beaf8cb53af053aba404cde69ff5406312c1c6010ff89"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-fivetran_1.1.5_windows_amd64.zip",
+          "download_url": "https://github.com/fivetran/terraform-provider-fivetran/releases/download/v1.1.5/terraform-provider-fivetran_1.1.5_windows_amd64.zip",
+          "shasum": "f80494a74c9e3de670c52dd636d575f11f8048a2875d2789b1e82bf828f7c27e"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-fivetran_1.1.5_linux_amd64.zip",
+          "download_url": "https://github.com/fivetran/terraform-provider-fivetran/releases/download/v1.1.5/terraform-provider-fivetran_1.1.5_linux_amd64.zip",
+          "shasum": "0abb0a0b2238288d9440fde36365bf59866f5dc07ac480b9d217921a2cddabe3"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-fivetran_1.1.5_linux_386.zip",
+          "download_url": "https://github.com/fivetran/terraform-provider-fivetran/releases/download/v1.1.5/terraform-provider-fivetran_1.1.5_linux_386.zip",
+          "shasum": "31b3ccf48dc61966cfae8f755be98ae8cab1e06c3f8787933bf9424f7840ae54"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-fivetran_1.1.5_freebsd_arm64.zip",
+          "download_url": "https://github.com/fivetran/terraform-provider-fivetran/releases/download/v1.1.5/terraform-provider-fivetran_1.1.5_freebsd_arm64.zip",
+          "shasum": "88eba6aa17cd9b19d6d635436c3b8abf6a4651191ffd70f483333cdbf768d2e0"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-fivetran_1.1.5_linux_arm.zip",
+          "download_url": "https://github.com/fivetran/terraform-provider-fivetran/releases/download/v1.1.5/terraform-provider-fivetran_1.1.5_linux_arm.zip",
+          "shasum": "9906ffbd91b982d1f6e05e4198fd0c8eb03ded5c9f698b561c712b22c1193fda"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-fivetran_1.1.5_freebsd_arm.zip",
+          "download_url": "https://github.com/fivetran/terraform-provider-fivetran/releases/download/v1.1.5/terraform-provider-fivetran_1.1.5_freebsd_arm.zip",
+          "shasum": "289e3e74370f1d30eebb2ca4788727c8e3d0198eabefab5abb90d314f84ff174"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-fivetran_1.1.5_freebsd_amd64.zip",
+          "download_url": "https://github.com/fivetran/terraform-provider-fivetran/releases/download/v1.1.5/terraform-provider-fivetran_1.1.5_freebsd_amd64.zip",
+          "shasum": "4363b75eb3aafc56828127b67a6029c81b9711ccf5c1d485972abd326b9d91b9"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-fivetran_1.1.5_freebsd_386.zip",
+          "download_url": "https://github.com/fivetran/terraform-provider-fivetran/releases/download/v1.1.5/terraform-provider-fivetran_1.1.5_freebsd_386.zip",
+          "shasum": "28b00cec8dce4c8b1842691cae2f6be7215a2ab5fd7fb58956884a89e1809c38"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-fivetran_1.1.5_darwin_arm64.zip",
+          "download_url": "https://github.com/fivetran/terraform-provider-fivetran/releases/download/v1.1.5/terraform-provider-fivetran_1.1.5_darwin_arm64.zip",
+          "shasum": "e3099a6558bb8e609de47a763eed8517e22e2419f0f2305d9e8edc50ca907c9b"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-fivetran_1.1.5_linux_arm64.zip",
+          "download_url": "https://github.com/fivetran/terraform-provider-fivetran/releases/download/v1.1.5/terraform-provider-fivetran_1.1.5_linux_arm64.zip",
+          "shasum": "e1cf091829f47e24cc041f57cc8700c2a03127daca79096a757472a3f887ecf1"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-fivetran_1.1.5_darwin_amd64.zip",
+          "download_url": "https://github.com/fivetran/terraform-provider-fivetran/releases/download/v1.1.5/terraform-provider-fivetran_1.1.5_darwin_amd64.zip",
+          "shasum": "9b6107385a6d175996b3c33fa1b2ecfc80576eade62f4eb207fa5166e20b24c3"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-fivetran_1.1.5_windows_arm.zip",
+          "download_url": "https://github.com/fivetran/terraform-provider-fivetran/releases/download/v1.1.5/terraform-provider-fivetran_1.1.5_windows_arm.zip",
+          "shasum": "f4f6913150e1b8a2c35d3086078f1b82f2b67b56edc8fa656de187ea4efddebf"
+        }
+      ]
+    },
+    {
       "version": "1.1.4",
       "protocols": [
         "5.0"
