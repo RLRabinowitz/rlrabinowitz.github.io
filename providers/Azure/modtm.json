@@ -2,6 +2,100 @@
   "repository": "https://github.com/Azure/terraform-provider-modtm",
   "versions": [
     {
+      "version": "0.2.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/Azure/terraform-provider-modtm/releases/download/v0.2.0/terraform-provider-modtm_0.2.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/Azure/terraform-provider-modtm/releases/download/v0.2.0/terraform-provider-modtm_0.2.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-modtm_0.2.0_darwin_amd64.zip",
+          "download_url": "https://github.com/Azure/terraform-provider-modtm/releases/download/v0.2.0/terraform-provider-modtm_0.2.0_darwin_amd64.zip",
+          "shasum": "673bd90b4d31d7efa3b6cf4d74c211af4581666c34608b4bdab814c15710ca65"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-modtm_0.2.0_darwin_arm64.zip",
+          "download_url": "https://github.com/Azure/terraform-provider-modtm/releases/download/v0.2.0/terraform-provider-modtm_0.2.0_darwin_arm64.zip",
+          "shasum": "27c86f536eafa3e2dce394c75ecf3b06e5f51aab16b0305e2fc7b26ef539bb6a"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-modtm_0.2.0_freebsd_386.zip",
+          "download_url": "https://github.com/Azure/terraform-provider-modtm/releases/download/v0.2.0/terraform-provider-modtm_0.2.0_freebsd_386.zip",
+          "shasum": "d9e00f08a066b64bb341f4ee24c1084e6c948706eb00f8172ef45d3b647cb2e2"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-modtm_0.2.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/Azure/terraform-provider-modtm/releases/download/v0.2.0/terraform-provider-modtm_0.2.0_freebsd_amd64.zip",
+          "shasum": "6be50b1ce1a92d407db4e6a616782b42bb6917597deec9cc2ddf07b902b8d405"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-modtm_0.2.0_freebsd_arm.zip",
+          "download_url": "https://github.com/Azure/terraform-provider-modtm/releases/download/v0.2.0/terraform-provider-modtm_0.2.0_freebsd_arm.zip",
+          "shasum": "275de9a1846b12d6972dab69b8ed631b7dea3596fbf55e4ae4f93017aeee5227"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-modtm_0.2.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/Azure/terraform-provider-modtm/releases/download/v0.2.0/terraform-provider-modtm_0.2.0_freebsd_arm64.zip",
+          "shasum": "23a41434e619b4849c54b45e6a5423a3ecbdc0b6e8ae7eba464f99a1ba7ad351"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-modtm_0.2.0_linux_386.zip",
+          "download_url": "https://github.com/Azure/terraform-provider-modtm/releases/download/v0.2.0/terraform-provider-modtm_0.2.0_linux_386.zip",
+          "shasum": "3c09877c61d24c95b7c96aba5df0b60e9ada2dcd685b233a0286ff18d5e378ff"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-modtm_0.2.0_linux_amd64.zip",
+          "download_url": "https://github.com/Azure/terraform-provider-modtm/releases/download/v0.2.0/terraform-provider-modtm_0.2.0_linux_amd64.zip",
+          "shasum": "d7ac743d46ed948bafc68d92dd07baf9cb08a9a091370fdd92c819f77a367594"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-modtm_0.2.0_linux_arm.zip",
+          "download_url": "https://github.com/Azure/terraform-provider-modtm/releases/download/v0.2.0/terraform-provider-modtm_0.2.0_linux_arm.zip",
+          "shasum": "a25712cbd1ba9b010b0cfd2cef05b9b5b8d37dc71ce33e969864f6b348438a8e"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-modtm_0.2.0_linux_arm64.zip",
+          "download_url": "https://github.com/Azure/terraform-provider-modtm/releases/download/v0.2.0/terraform-provider-modtm_0.2.0_linux_arm64.zip",
+          "shasum": "b48169340a0cc9eb3297d5fe1bc8ff116625a62e1b339c10feb3376238f0c56b"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-modtm_0.2.0_windows_386.zip",
+          "download_url": "https://github.com/Azure/terraform-provider-modtm/releases/download/v0.2.0/terraform-provider-modtm_0.2.0_windows_386.zip",
+          "shasum": "574b38c7a2951e36ec5918070cc70383d0de833dfd417378e3509e1133d1fc6f"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-modtm_0.2.0_windows_amd64.zip",
+          "download_url": "https://github.com/Azure/terraform-provider-modtm/releases/download/v0.2.0/terraform-provider-modtm_0.2.0_windows_amd64.zip",
+          "shasum": "1c2a86816efb18ed0db864639d1cf1fdb40f948aed48fba88fcefbd2f5c4260b"
+        }
+      ]
+    },
+    {
       "version": "0.1.8",
       "protocols": [
         "5.0"
