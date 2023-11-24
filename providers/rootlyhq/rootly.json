@@ -2,6 +2,100 @@
   "repository": "https://github.com/rootlyhq/terraform-provider-rootly",
   "versions": [
     {
+      "version": "1.2.6",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/rootlyhq/terraform-provider-rootly/releases/download/v1.2.6/terraform-provider-rootly_1.2.6_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/rootlyhq/terraform-provider-rootly/releases/download/v1.2.6/terraform-provider-rootly_1.2.6_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-rootly_1.2.6_freebsd_386.zip",
+          "download_url": "https://github.com/rootlyhq/terraform-provider-rootly/releases/download/v1.2.6/terraform-provider-rootly_1.2.6_freebsd_386.zip",
+          "shasum": "53fa807ff55e194fb505c8b1598bcb1ec4dfa758089e750fdf92b957c95b4339"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-rootly_1.2.6_linux_386.zip",
+          "download_url": "https://github.com/rootlyhq/terraform-provider-rootly/releases/download/v1.2.6/terraform-provider-rootly_1.2.6_linux_386.zip",
+          "shasum": "cd8feeb3018ec36b304d877819e145d1e9a19323e4c8a13e62fdb48cb79b83dd"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-rootly_1.2.6_windows_amd64.zip",
+          "download_url": "https://github.com/rootlyhq/terraform-provider-rootly/releases/download/v1.2.6/terraform-provider-rootly_1.2.6_windows_amd64.zip",
+          "shasum": "dafc81b9172c93ac8d7643c4a643b24aed86a8018ecae604c35fbae4ff2025be"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-rootly_1.2.6_freebsd_amd64.zip",
+          "download_url": "https://github.com/rootlyhq/terraform-provider-rootly/releases/download/v1.2.6/terraform-provider-rootly_1.2.6_freebsd_amd64.zip",
+          "shasum": "fc293d972fc24c17e3a379ece9dddd00a7a9991e1213ed57854fc1b5d656f816"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-rootly_1.2.6_linux_arm.zip",
+          "download_url": "https://github.com/rootlyhq/terraform-provider-rootly/releases/download/v1.2.6/terraform-provider-rootly_1.2.6_linux_arm.zip",
+          "shasum": "bc3220079d875fe4f0a6fd52fc1b707cfc0fd83a74630f78da5635b1a6b107cc"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-rootly_1.2.6_linux_arm64.zip",
+          "download_url": "https://github.com/rootlyhq/terraform-provider-rootly/releases/download/v1.2.6/terraform-provider-rootly_1.2.6_linux_arm64.zip",
+          "shasum": "b6b7bf56ea09867d70777ff415992e8e2e2c678d6162a7b5aa9c87e74947783c"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-rootly_1.2.6_freebsd_arm.zip",
+          "download_url": "https://github.com/rootlyhq/terraform-provider-rootly/releases/download/v1.2.6/terraform-provider-rootly_1.2.6_freebsd_arm.zip",
+          "shasum": "df038bf0d8ae2dcdeed44fdbd1d1d7ec9be74b43601a84048da6770c2d908d66"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-rootly_1.2.6_darwin_amd64.zip",
+          "download_url": "https://github.com/rootlyhq/terraform-provider-rootly/releases/download/v1.2.6/terraform-provider-rootly_1.2.6_darwin_amd64.zip",
+          "shasum": "3798efceb6cc753e84d8b306ecea452f6def92a86b66fb6d3013950ee740d89c"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-rootly_1.2.6_freebsd_arm64.zip",
+          "download_url": "https://github.com/rootlyhq/terraform-provider-rootly/releases/download/v1.2.6/terraform-provider-rootly_1.2.6_freebsd_arm64.zip",
+          "shasum": "0cb23e9b84a30489f9a4e4b5248db8c5a41458eadbe31336e2ccea684dab2786"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-rootly_1.2.6_windows_386.zip",
+          "download_url": "https://github.com/rootlyhq/terraform-provider-rootly/releases/download/v1.2.6/terraform-provider-rootly_1.2.6_windows_386.zip",
+          "shasum": "010917468215e770e1834fb31e699211ec7930ba08407a2c9ff82c57acb3e4ff"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-rootly_1.2.6_linux_amd64.zip",
+          "download_url": "https://github.com/rootlyhq/terraform-provider-rootly/releases/download/v1.2.6/terraform-provider-rootly_1.2.6_linux_amd64.zip",
+          "shasum": "f60e360974e3414eae215fb9168bbc262012eaa4f2feda98daf5da6bc7cdbb1d"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-rootly_1.2.6_darwin_arm64.zip",
+          "download_url": "https://github.com/rootlyhq/terraform-provider-rootly/releases/download/v1.2.6/terraform-provider-rootly_1.2.6_darwin_arm64.zip",
+          "shasum": "e85ed5573db96cba6f1198cc361403d7436fb10e526d512136fe6be71f5452a4"
+        }
+      ]
+    },
+    {
       "version": "1.2.5",
       "protocols": [
         "5.0"
