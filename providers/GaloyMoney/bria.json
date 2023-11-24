@@ -2,6 +2,114 @@
   "repository": "https://github.com/GaloyMoney/terraform-provider-bria",
   "versions": [
     {
+      "version": "0.0.12",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/GaloyMoney/terraform-provider-bria/releases/download/v0.0.12/terraform-provider-bria_0.0.12_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/GaloyMoney/terraform-provider-bria/releases/download/v0.0.12/terraform-provider-bria_0.0.12_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-bria_0.0.12_windows_386.zip",
+          "download_url": "https://github.com/GaloyMoney/terraform-provider-bria/releases/download/v0.0.12/terraform-provider-bria_0.0.12_windows_386.zip",
+          "shasum": "7280a673515100c5b4d33fa2c3825c0184348a813b0f2c2d68b69b328b0b9014"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-bria_0.0.12_freebsd_arm64.zip",
+          "download_url": "https://github.com/GaloyMoney/terraform-provider-bria/releases/download/v0.0.12/terraform-provider-bria_0.0.12_freebsd_arm64.zip",
+          "shasum": "3741bf5056e3c5d853befa038972f8e35f9708b853afb6a857ba5fe83ba04eb6"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-bria_0.0.12_windows_amd64.zip",
+          "download_url": "https://github.com/GaloyMoney/terraform-provider-bria/releases/download/v0.0.12/terraform-provider-bria_0.0.12_windows_amd64.zip",
+          "shasum": "13199f56c2df782d8b11d0e063af2f2d5c1e86bb8c200fb61221c6fd1be01f90"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-bria_0.0.12_darwin_arm64.zip",
+          "download_url": "https://github.com/GaloyMoney/terraform-provider-bria/releases/download/v0.0.12/terraform-provider-bria_0.0.12_darwin_arm64.zip",
+          "shasum": "603a2822ab540f983db157c673f270e064aa90c21e4a835318cd0a43f55a94bf"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-bria_0.0.12_windows_arm.zip",
+          "download_url": "https://github.com/GaloyMoney/terraform-provider-bria/releases/download/v0.0.12/terraform-provider-bria_0.0.12_windows_arm.zip",
+          "shasum": "29c88d8f7b685c4f51476aba423e84c8f0065b066d75e3e26b91f1f191843899"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-bria_0.0.12_windows_arm64.zip",
+          "download_url": "https://github.com/GaloyMoney/terraform-provider-bria/releases/download/v0.0.12/terraform-provider-bria_0.0.12_windows_arm64.zip",
+          "shasum": "4e94eb448c0bb9174c1127b3be330660057f4e9f457aa1a1ad350ae1b7a86b12"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-bria_0.0.12_freebsd_amd64.zip",
+          "download_url": "https://github.com/GaloyMoney/terraform-provider-bria/releases/download/v0.0.12/terraform-provider-bria_0.0.12_freebsd_amd64.zip",
+          "shasum": "12aca98972cdba7c5284d6093c4babd832290e61b0c9d8c78d1c8fce75a54353"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-bria_0.0.12_linux_386.zip",
+          "download_url": "https://github.com/GaloyMoney/terraform-provider-bria/releases/download/v0.0.12/terraform-provider-bria_0.0.12_linux_386.zip",
+          "shasum": "e3181e0b0918d897c2e47e0b153fc90fe41b9feaa3f89c978732400a474547f1"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-bria_0.0.12_linux_arm.zip",
+          "download_url": "https://github.com/GaloyMoney/terraform-provider-bria/releases/download/v0.0.12/terraform-provider-bria_0.0.12_linux_arm.zip",
+          "shasum": "bac5d20c8951d47d6842abde8838d89acb98e9ac803d044f0530cac09498d7e2"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-bria_0.0.12_freebsd_386.zip",
+          "download_url": "https://github.com/GaloyMoney/terraform-provider-bria/releases/download/v0.0.12/terraform-provider-bria_0.0.12_freebsd_386.zip",
+          "shasum": "6e7518887ece35d023e2a07b613b9c340118cd7427cbc8b23333449f4cf52b55"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-bria_0.0.12_linux_arm64.zip",
+          "download_url": "https://github.com/GaloyMoney/terraform-provider-bria/releases/download/v0.0.12/terraform-provider-bria_0.0.12_linux_arm64.zip",
+          "shasum": "873a51503c5d349b9f47bf3912cc36297cf490f7a98b220302baba4a79f805a9"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-bria_0.0.12_freebsd_arm.zip",
+          "download_url": "https://github.com/GaloyMoney/terraform-provider-bria/releases/download/v0.0.12/terraform-provider-bria_0.0.12_freebsd_arm.zip",
+          "shasum": "eda24a8fdd7bf7a3e21ea4ac0408a3daf8394f0c7a3e6eb81018fccf1dbd9cb2"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-bria_0.0.12_darwin_amd64.zip",
+          "download_url": "https://github.com/GaloyMoney/terraform-provider-bria/releases/download/v0.0.12/terraform-provider-bria_0.0.12_darwin_amd64.zip",
+          "shasum": "655be44ac5ea091acc585fff4c509a22b1d92cf21b78d8a79f6069a8154c5dc1"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-bria_0.0.12_linux_amd64.zip",
+          "download_url": "https://github.com/GaloyMoney/terraform-provider-bria/releases/download/v0.0.12/terraform-provider-bria_0.0.12_linux_amd64.zip",
+          "shasum": "94671d22a6f6d1029e5d059efdca10cb3ea836d8181ca6834d6abb3a61339460"
+        }
+      ]
+    },
+    {
       "version": "0.0.11",
       "protocols": [
         "5.0"
