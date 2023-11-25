@@ -2,6 +2,114 @@
   "repository": "https://github.com/DrFaust92/terraform-provider-airflow",
   "versions": [
     {
+      "version": "0.14.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/DrFaust92/terraform-provider-airflow/releases/download/v0.14.0/terraform-provider-airflow_0.14.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/DrFaust92/terraform-provider-airflow/releases/download/v0.14.0/terraform-provider-airflow_0.14.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-airflow_0.14.0_linux_386.zip",
+          "download_url": "https://github.com/DrFaust92/terraform-provider-airflow/releases/download/v0.14.0/terraform-provider-airflow_0.14.0_linux_386.zip",
+          "shasum": "d8d66ad5e121fd07e74fcecf836538d8e17491d0a20a495b4023006bccd7bc04"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-airflow_0.14.0_windows_amd64.zip",
+          "download_url": "https://github.com/DrFaust92/terraform-provider-airflow/releases/download/v0.14.0/terraform-provider-airflow_0.14.0_windows_amd64.zip",
+          "shasum": "a6bcb9c5169126cf168077d1c232bd61a303fc9796719ea31cdb26d4d9165475"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-airflow_0.14.0_linux_arm.zip",
+          "download_url": "https://github.com/DrFaust92/terraform-provider-airflow/releases/download/v0.14.0/terraform-provider-airflow_0.14.0_linux_arm.zip",
+          "shasum": "d7857e6248999d934695cae68df9cb159b206bfcad78b1efd8ab27d7d5589903"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-airflow_0.14.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/DrFaust92/terraform-provider-airflow/releases/download/v0.14.0/terraform-provider-airflow_0.14.0_freebsd_arm64.zip",
+          "shasum": "2db077e7b00d1d17031cc9071e379936ba4c0278baa8f234bfe7c916ee5239ab"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-airflow_0.14.0_linux_arm64.zip",
+          "download_url": "https://github.com/DrFaust92/terraform-provider-airflow/releases/download/v0.14.0/terraform-provider-airflow_0.14.0_linux_arm64.zip",
+          "shasum": "91f97f7f4b179c05f06e4105d9fd19bbbe31424affcb49aaf4b540b44c9d1d27"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-airflow_0.14.0_freebsd_386.zip",
+          "download_url": "https://github.com/DrFaust92/terraform-provider-airflow/releases/download/v0.14.0/terraform-provider-airflow_0.14.0_freebsd_386.zip",
+          "shasum": "effd610bfa4413a5ce35fbf6eebb0555eb8ecfe705a24fec671e3d28ae708960"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-airflow_0.14.0_darwin_amd64.zip",
+          "download_url": "https://github.com/DrFaust92/terraform-provider-airflow/releases/download/v0.14.0/terraform-provider-airflow_0.14.0_darwin_amd64.zip",
+          "shasum": "3838cf718e0ec10b21681cf4654de05ad2febc1ad0b8c44be3325b19a4117368"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-airflow_0.14.0_windows_arm.zip",
+          "download_url": "https://github.com/DrFaust92/terraform-provider-airflow/releases/download/v0.14.0/terraform-provider-airflow_0.14.0_windows_arm.zip",
+          "shasum": "174ffa0db7ca8fdb6c2c0d4304827a7424a705ac0503e33b8cedd4f45fb7675b"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-airflow_0.14.0_windows_arm64.zip",
+          "download_url": "https://github.com/DrFaust92/terraform-provider-airflow/releases/download/v0.14.0/terraform-provider-airflow_0.14.0_windows_arm64.zip",
+          "shasum": "e09ae8a763a7b596e2e6d639a0a4f20e752bd7158758c0c4aaec638c7ad9e088"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-airflow_0.14.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/DrFaust92/terraform-provider-airflow/releases/download/v0.14.0/terraform-provider-airflow_0.14.0_freebsd_amd64.zip",
+          "shasum": "b6f73e4753b990b6ed1f5c6a761bbcbf2022a7da1bbfae8ee88ced245ef33a72"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-airflow_0.14.0_linux_amd64.zip",
+          "download_url": "https://github.com/DrFaust92/terraform-provider-airflow/releases/download/v0.14.0/terraform-provider-airflow_0.14.0_linux_amd64.zip",
+          "shasum": "cd8361d6e2652b3a1a79f10e62f225f9a6fd5bf8191d0db8ecf0035f811527f1"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-airflow_0.14.0_darwin_arm64.zip",
+          "download_url": "https://github.com/DrFaust92/terraform-provider-airflow/releases/download/v0.14.0/terraform-provider-airflow_0.14.0_darwin_arm64.zip",
+          "shasum": "7401132db5654400e0ae0dc0187c454a7837d56c782dd66340164509cc24ac59"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-airflow_0.14.0_freebsd_arm.zip",
+          "download_url": "https://github.com/DrFaust92/terraform-provider-airflow/releases/download/v0.14.0/terraform-provider-airflow_0.14.0_freebsd_arm.zip",
+          "shasum": "3d2db4d36cfa2150f7fac2b53ec800c5188c05ba6fc175283be0efc37b45bf79"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-airflow_0.14.0_windows_386.zip",
+          "download_url": "https://github.com/DrFaust92/terraform-provider-airflow/releases/download/v0.14.0/terraform-provider-airflow_0.14.0_windows_386.zip",
+          "shasum": "dd3714a91619655d37b0437da04f56e717c05f292f91edf79030317574df473e"
+        }
+      ]
+    },
+    {
       "version": "0.13.1",
       "protocols": [
         "5.0"
