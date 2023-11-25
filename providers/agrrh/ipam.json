@@ -2,6 +2,114 @@
   "repository": "https://github.com/agrrh/terraform-provider-ipam",
   "versions": [
     {
+      "version": "0.1.2",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/agrrh/terraform-provider-ipam/releases/download/v0.1.2/terraform-provider-ipam_0.1.2_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/agrrh/terraform-provider-ipam/releases/download/v0.1.2/terraform-provider-ipam_0.1.2_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-ipam_0.1.2_freebsd_386.zip",
+          "download_url": "https://github.com/agrrh/terraform-provider-ipam/releases/download/v0.1.2/terraform-provider-ipam_0.1.2_freebsd_386.zip",
+          "shasum": "0f644f3e0f6d12a4ee29d664b122afb769054d1059dbe974a1e7f4c87a46d99a"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-ipam_0.1.2_linux_arm.zip",
+          "download_url": "https://github.com/agrrh/terraform-provider-ipam/releases/download/v0.1.2/terraform-provider-ipam_0.1.2_linux_arm.zip",
+          "shasum": "711d01d965e3911b952278af3e1452221bb9b5d768047b162eea4f5b25ad202a"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-ipam_0.1.2_windows_arm64.zip",
+          "download_url": "https://github.com/agrrh/terraform-provider-ipam/releases/download/v0.1.2/terraform-provider-ipam_0.1.2_windows_arm64.zip",
+          "shasum": "00e904b111d7e63a3a00ae8ceb09ef56e4b6d908faa293c1b76cd29658660058"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-ipam_0.1.2_darwin_amd64.zip",
+          "download_url": "https://github.com/agrrh/terraform-provider-ipam/releases/download/v0.1.2/terraform-provider-ipam_0.1.2_darwin_amd64.zip",
+          "shasum": "1514863b301b26269c721933fa32ea1bf7e2c7c275c0c772942d14e93c36920b"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-ipam_0.1.2_windows_386.zip",
+          "download_url": "https://github.com/agrrh/terraform-provider-ipam/releases/download/v0.1.2/terraform-provider-ipam_0.1.2_windows_386.zip",
+          "shasum": "e2866ea507c203000fde2c2a2fdb90e02c802d2c9e3c949fb7b100409bfbc711"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-ipam_0.1.2_freebsd_amd64.zip",
+          "download_url": "https://github.com/agrrh/terraform-provider-ipam/releases/download/v0.1.2/terraform-provider-ipam_0.1.2_freebsd_amd64.zip",
+          "shasum": "c0a1829c2713c9480afdaafc941dfc4250f907edee88b6d78768f83c35bb2ec5"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-ipam_0.1.2_linux_amd64.zip",
+          "download_url": "https://github.com/agrrh/terraform-provider-ipam/releases/download/v0.1.2/terraform-provider-ipam_0.1.2_linux_amd64.zip",
+          "shasum": "319df443c1f6ed8e5b1e68fd7c3be628f4ee36e4fd890b536082f9a61d48f4c7"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-ipam_0.1.2_windows_amd64.zip",
+          "download_url": "https://github.com/agrrh/terraform-provider-ipam/releases/download/v0.1.2/terraform-provider-ipam_0.1.2_windows_amd64.zip",
+          "shasum": "95bc4a73aae4a84299933f28782bb84dd6e57efaa096cb86ab95078fe10df36b"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-ipam_0.1.2_freebsd_arm.zip",
+          "download_url": "https://github.com/agrrh/terraform-provider-ipam/releases/download/v0.1.2/terraform-provider-ipam_0.1.2_freebsd_arm.zip",
+          "shasum": "0ec4cc09ea662c8ea2b667fa193377dfac0997dc3377c62089a2138a546d712b"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-ipam_0.1.2_darwin_arm64.zip",
+          "download_url": "https://github.com/agrrh/terraform-provider-ipam/releases/download/v0.1.2/terraform-provider-ipam_0.1.2_darwin_arm64.zip",
+          "shasum": "90561f95a9c77ce0802fc2d57fe405f2e27810bbdf614bb41f4a8dc163b96dfd"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-ipam_0.1.2_freebsd_arm64.zip",
+          "download_url": "https://github.com/agrrh/terraform-provider-ipam/releases/download/v0.1.2/terraform-provider-ipam_0.1.2_freebsd_arm64.zip",
+          "shasum": "a558647e09d1e168f8986e895a55f5f367c78bfc093102a17f2d90f1a7ca3163"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-ipam_0.1.2_linux_386.zip",
+          "download_url": "https://github.com/agrrh/terraform-provider-ipam/releases/download/v0.1.2/terraform-provider-ipam_0.1.2_linux_386.zip",
+          "shasum": "c76e862cfe91a206f2f602963e2df90effa39644f64f90a7c59d7d97208eb292"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-ipam_0.1.2_windows_arm.zip",
+          "download_url": "https://github.com/agrrh/terraform-provider-ipam/releases/download/v0.1.2/terraform-provider-ipam_0.1.2_windows_arm.zip",
+          "shasum": "fdd479ed324cf93a2ffae16147ba83493c99f0bc9f595435fbaf2a2bd8c97a14"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-ipam_0.1.2_linux_arm64.zip",
+          "download_url": "https://github.com/agrrh/terraform-provider-ipam/releases/download/v0.1.2/terraform-provider-ipam_0.1.2_linux_arm64.zip",
+          "shasum": "259234eb9e6d142a0c1f1d549b9dcc0b400072118d9b17f14bdb1d66e01325cf"
+        }
+      ]
+    },
+    {
       "version": "0.1.1",
       "protocols": [
         "5.0"
