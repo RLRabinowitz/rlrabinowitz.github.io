@@ -2,6 +2,222 @@
   "repository": "https://github.com/nuonco/terraform-provider-nuon",
   "versions": [
     {
+      "version": "0.4.5",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/nuonco/terraform-provider-nuon/releases/download/v0.4.5/terraform-provider-nuon_0.4.5_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/nuonco/terraform-provider-nuon/releases/download/v0.4.5/terraform-provider-nuon_0.4.5_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-nuon_0.4.5_linux_arm64.zip",
+          "download_url": "https://github.com/nuonco/terraform-provider-nuon/releases/download/v0.4.5/terraform-provider-nuon_0.4.5_linux_arm64.zip",
+          "shasum": "75b38c1a7776692ab2937ab0dfb56add0a8dfe9730c2482609cab42dc76f9f87"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-nuon_0.4.5_freebsd_amd64.zip",
+          "download_url": "https://github.com/nuonco/terraform-provider-nuon/releases/download/v0.4.5/terraform-provider-nuon_0.4.5_freebsd_amd64.zip",
+          "shasum": "9820d905e61af5b0a10c3acec4c7ee541556501313eae3049399cdb4c91409f2"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-nuon_0.4.5_freebsd_arm.zip",
+          "download_url": "https://github.com/nuonco/terraform-provider-nuon/releases/download/v0.4.5/terraform-provider-nuon_0.4.5_freebsd_arm.zip",
+          "shasum": "4a5265cdc9fa88757f982aa4bb11c4f80516f253db354e50457f2fc39961d057"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-nuon_0.4.5_linux_amd64.zip",
+          "download_url": "https://github.com/nuonco/terraform-provider-nuon/releases/download/v0.4.5/terraform-provider-nuon_0.4.5_linux_amd64.zip",
+          "shasum": "ef063914b55dbc7dae3dd5e34fa91dbea831355396454b113737b4949c7142d9"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-nuon_0.4.5_windows_arm64.zip",
+          "download_url": "https://github.com/nuonco/terraform-provider-nuon/releases/download/v0.4.5/terraform-provider-nuon_0.4.5_windows_arm64.zip",
+          "shasum": "3cb6932211cb862c87522e2157c51fd4099a706a157183c9299965ed0cf312f1"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-nuon_0.4.5_freebsd_386.zip",
+          "download_url": "https://github.com/nuonco/terraform-provider-nuon/releases/download/v0.4.5/terraform-provider-nuon_0.4.5_freebsd_386.zip",
+          "shasum": "db5db24320fefaadc10996887defd3072f9caa556c92d4fe0ba555358e775bd2"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-nuon_0.4.5_linux_386.zip",
+          "download_url": "https://github.com/nuonco/terraform-provider-nuon/releases/download/v0.4.5/terraform-provider-nuon_0.4.5_linux_386.zip",
+          "shasum": "6f64913a99e742434ca8003df06ff395f7f8466c7eac33727056bd69db0d8f66"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-nuon_0.4.5_darwin_amd64.zip",
+          "download_url": "https://github.com/nuonco/terraform-provider-nuon/releases/download/v0.4.5/terraform-provider-nuon_0.4.5_darwin_amd64.zip",
+          "shasum": "d5dbf8f0aa24faf9206b28fcff19314fdfd27de9ffefc12b8fba1ac769052d53"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-nuon_0.4.5_windows_arm.zip",
+          "download_url": "https://github.com/nuonco/terraform-provider-nuon/releases/download/v0.4.5/terraform-provider-nuon_0.4.5_windows_arm.zip",
+          "shasum": "3f44e524f1be15327c6475ac8ae7fa5c91c1bc9c8a58af9fbe46c0196cfaa829"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-nuon_0.4.5_freebsd_arm64.zip",
+          "download_url": "https://github.com/nuonco/terraform-provider-nuon/releases/download/v0.4.5/terraform-provider-nuon_0.4.5_freebsd_arm64.zip",
+          "shasum": "219c1276ff5d485972ad7ab20c61419a892eda084344c4948e4470ca9245be91"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-nuon_0.4.5_windows_amd64.zip",
+          "download_url": "https://github.com/nuonco/terraform-provider-nuon/releases/download/v0.4.5/terraform-provider-nuon_0.4.5_windows_amd64.zip",
+          "shasum": "b3ce4dd944d7a85e650a29646c198545f92153128b8986ba12b2ae160c61ea2b"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-nuon_0.4.5_windows_386.zip",
+          "download_url": "https://github.com/nuonco/terraform-provider-nuon/releases/download/v0.4.5/terraform-provider-nuon_0.4.5_windows_386.zip",
+          "shasum": "1af1c848339b869de15270cddbdac5b9c1ef5f6e967e0b55db6919c2d058a715"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-nuon_0.4.5_linux_arm.zip",
+          "download_url": "https://github.com/nuonco/terraform-provider-nuon/releases/download/v0.4.5/terraform-provider-nuon_0.4.5_linux_arm.zip",
+          "shasum": "2de04fea797ae88b73ceb513adb203e16fbcd610f9800fcde9f9987b377d3713"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-nuon_0.4.5_darwin_arm64.zip",
+          "download_url": "https://github.com/nuonco/terraform-provider-nuon/releases/download/v0.4.5/terraform-provider-nuon_0.4.5_darwin_arm64.zip",
+          "shasum": "57713a2deb1d12eb5396448bd5a55969800081adf3d3fec3a0474b6d1c4cf30b"
+        }
+      ]
+    },
+    {
+      "version": "0.4.4",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/nuonco/terraform-provider-nuon/releases/download/v0.4.4/terraform-provider-nuon_0.4.4_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/nuonco/terraform-provider-nuon/releases/download/v0.4.4/terraform-provider-nuon_0.4.4_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-nuon_0.4.4_freebsd_arm64.zip",
+          "download_url": "https://github.com/nuonco/terraform-provider-nuon/releases/download/v0.4.4/terraform-provider-nuon_0.4.4_freebsd_arm64.zip",
+          "shasum": "17458210bea84932dce5fd9749ff3391dd24522a69ba0c6654e41633e3a0b02e"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-nuon_0.4.4_darwin_arm64.zip",
+          "download_url": "https://github.com/nuonco/terraform-provider-nuon/releases/download/v0.4.4/terraform-provider-nuon_0.4.4_darwin_arm64.zip",
+          "shasum": "de1bc20c08ddbae45983e9309af4c77b8d9460cba6274c59d8d4526a4355e2a1"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-nuon_0.4.4_freebsd_arm.zip",
+          "download_url": "https://github.com/nuonco/terraform-provider-nuon/releases/download/v0.4.4/terraform-provider-nuon_0.4.4_freebsd_arm.zip",
+          "shasum": "41cca1dea7d791f7da851474faa4179dcec94d4f8244f87e58365f940d68c016"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-nuon_0.4.4_linux_arm.zip",
+          "download_url": "https://github.com/nuonco/terraform-provider-nuon/releases/download/v0.4.4/terraform-provider-nuon_0.4.4_linux_arm.zip",
+          "shasum": "2f8f2742362035566918c430fbf5fdc105f226089937e340b204099d3c790d71"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-nuon_0.4.4_linux_386.zip",
+          "download_url": "https://github.com/nuonco/terraform-provider-nuon/releases/download/v0.4.4/terraform-provider-nuon_0.4.4_linux_386.zip",
+          "shasum": "89ee09effd323dc0f7a5d8ba5a934e527ff8b18207e63a7db0f579d9d33d0e3f"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-nuon_0.4.4_windows_386.zip",
+          "download_url": "https://github.com/nuonco/terraform-provider-nuon/releases/download/v0.4.4/terraform-provider-nuon_0.4.4_windows_386.zip",
+          "shasum": "d1935ff79a38b2bb3dac2e0dcc6668f19ee8166e53ab5eeedd423a3de57ab5bb"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-nuon_0.4.4_windows_amd64.zip",
+          "download_url": "https://github.com/nuonco/terraform-provider-nuon/releases/download/v0.4.4/terraform-provider-nuon_0.4.4_windows_amd64.zip",
+          "shasum": "be00e8e42179e31c85ade24833dbd23fa48cfabd1e99393bf3c684964dae587d"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-nuon_0.4.4_linux_arm64.zip",
+          "download_url": "https://github.com/nuonco/terraform-provider-nuon/releases/download/v0.4.4/terraform-provider-nuon_0.4.4_linux_arm64.zip",
+          "shasum": "deed006037d19b137372db925201e1b51d8b22e691c6d79841a2480e5c363d74"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-nuon_0.4.4_darwin_amd64.zip",
+          "download_url": "https://github.com/nuonco/terraform-provider-nuon/releases/download/v0.4.4/terraform-provider-nuon_0.4.4_darwin_amd64.zip",
+          "shasum": "be8e829b84e15c3bedf5441a0a10c5494fb2f5ba0036727d932b4c0dac3d5e51"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-nuon_0.4.4_windows_arm.zip",
+          "download_url": "https://github.com/nuonco/terraform-provider-nuon/releases/download/v0.4.4/terraform-provider-nuon_0.4.4_windows_arm.zip",
+          "shasum": "d453459e4a023815fb7fe33cc024e9bc28fb8d00603183cbbb9d4561a36085d8"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-nuon_0.4.4_freebsd_amd64.zip",
+          "download_url": "https://github.com/nuonco/terraform-provider-nuon/releases/download/v0.4.4/terraform-provider-nuon_0.4.4_freebsd_amd64.zip",
+          "shasum": "1189a814bb869609f98ed92d04fa4a12efc65d49c81f5eb2362d1e4f89605898"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-nuon_0.4.4_windows_arm64.zip",
+          "download_url": "https://github.com/nuonco/terraform-provider-nuon/releases/download/v0.4.4/terraform-provider-nuon_0.4.4_windows_arm64.zip",
+          "shasum": "9403bfe4b084fd5e9cf1dfad96d6fe5252a8d881e15a1cff18098d78a1b531a2"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-nuon_0.4.4_freebsd_386.zip",
+          "download_url": "https://github.com/nuonco/terraform-provider-nuon/releases/download/v0.4.4/terraform-provider-nuon_0.4.4_freebsd_386.zip",
+          "shasum": "b0d01bd841df346502dc4edae621c3986fe9c783a4512642fcb8893ed4b4c52b"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-nuon_0.4.4_linux_amd64.zip",
+          "download_url": "https://github.com/nuonco/terraform-provider-nuon/releases/download/v0.4.4/terraform-provider-nuon_0.4.4_linux_amd64.zip",
+          "shasum": "7a301a981679988679ec338349e5437d6e2638950129860d123dcceb0a362aa1"
+        }
+      ]
+    },
+    {
       "version": "0.4.3",
       "protocols": [
         "5.0"
