@@ -2,6 +2,114 @@
   "repository": "https://github.com/Kichiyaki/terraform-provider-woodpecker",
   "versions": [
     {
+      "version": "0.2.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/Kichiyaki/terraform-provider-woodpecker/releases/download/v0.2.0/terraform-provider-woodpecker_0.2.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/Kichiyaki/terraform-provider-woodpecker/releases/download/v0.2.0/terraform-provider-woodpecker_0.2.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-woodpecker_0.2.0_linux_amd64.zip",
+          "download_url": "https://github.com/Kichiyaki/terraform-provider-woodpecker/releases/download/v0.2.0/terraform-provider-woodpecker_0.2.0_linux_amd64.zip",
+          "shasum": "ca164888e490424a25a9e989d6cb19272e28cf5219a464e7b7b8e05b8a90a7ad"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-woodpecker_0.2.0_linux_arm64.zip",
+          "download_url": "https://github.com/Kichiyaki/terraform-provider-woodpecker/releases/download/v0.2.0/terraform-provider-woodpecker_0.2.0_linux_arm64.zip",
+          "shasum": "06881f42139659803f173c83793b8836087fb7e542df3a2143cf347fe8d980f0"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-woodpecker_0.2.0_windows_amd64.zip",
+          "download_url": "https://github.com/Kichiyaki/terraform-provider-woodpecker/releases/download/v0.2.0/terraform-provider-woodpecker_0.2.0_windows_amd64.zip",
+          "shasum": "21e4922afd191a75efc8d99e043708e63313e50eb1c1a03f2828df2906d8c3e4"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-woodpecker_0.2.0_windows_arm64.zip",
+          "download_url": "https://github.com/Kichiyaki/terraform-provider-woodpecker/releases/download/v0.2.0/terraform-provider-woodpecker_0.2.0_windows_arm64.zip",
+          "shasum": "76f4271df7e68a2410bcbb3308e110f28208867efa918733c5879b3c625524ef"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-woodpecker_0.2.0_linux_arm.zip",
+          "download_url": "https://github.com/Kichiyaki/terraform-provider-woodpecker/releases/download/v0.2.0/terraform-provider-woodpecker_0.2.0_linux_arm.zip",
+          "shasum": "08f54679bc05d15c47330154d9989fe88324dd069769321d8db6ae16010a0fb5"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-woodpecker_0.2.0_freebsd_arm.zip",
+          "download_url": "https://github.com/Kichiyaki/terraform-provider-woodpecker/releases/download/v0.2.0/terraform-provider-woodpecker_0.2.0_freebsd_arm.zip",
+          "shasum": "3324cc90b87ebeafbba64ffbb6b73c05a935d87580205f70dc186f7c4e87388d"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-woodpecker_0.2.0_darwin_arm64.zip",
+          "download_url": "https://github.com/Kichiyaki/terraform-provider-woodpecker/releases/download/v0.2.0/terraform-provider-woodpecker_0.2.0_darwin_arm64.zip",
+          "shasum": "2d93d0e53b8721ccf3e7364f75e5b602bc8ba54011a4fbb3cc0f0e6eb8229766"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-woodpecker_0.2.0_freebsd_386.zip",
+          "download_url": "https://github.com/Kichiyaki/terraform-provider-woodpecker/releases/download/v0.2.0/terraform-provider-woodpecker_0.2.0_freebsd_386.zip",
+          "shasum": "7de100751eb1e9adc87dc86da9115680287c6220af80594bb10886e0a8c6c5eb"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-woodpecker_0.2.0_darwin_amd64.zip",
+          "download_url": "https://github.com/Kichiyaki/terraform-provider-woodpecker/releases/download/v0.2.0/terraform-provider-woodpecker_0.2.0_darwin_amd64.zip",
+          "shasum": "903183f2e37a86066f988b916a089a48a3b29877648dba6e29dacfef2c0bab4e"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-woodpecker_0.2.0_windows_386.zip",
+          "download_url": "https://github.com/Kichiyaki/terraform-provider-woodpecker/releases/download/v0.2.0/terraform-provider-woodpecker_0.2.0_windows_386.zip",
+          "shasum": "d314cb69921d025eb09643742381ca40334698938a724f454a85549279afafe8"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-woodpecker_0.2.0_windows_arm.zip",
+          "download_url": "https://github.com/Kichiyaki/terraform-provider-woodpecker/releases/download/v0.2.0/terraform-provider-woodpecker_0.2.0_windows_arm.zip",
+          "shasum": "3da707e2dbce0527dd15d2dc87c4a9345885d78bc3aba23b9ed2de1a5dcae8d1"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-woodpecker_0.2.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/Kichiyaki/terraform-provider-woodpecker/releases/download/v0.2.0/terraform-provider-woodpecker_0.2.0_freebsd_amd64.zip",
+          "shasum": "9151ab62e8b6aed72badeed37c858b0364467d9fc800f983510979dd610812dc"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-woodpecker_0.2.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/Kichiyaki/terraform-provider-woodpecker/releases/download/v0.2.0/terraform-provider-woodpecker_0.2.0_freebsd_arm64.zip",
+          "shasum": "67e0b2f9eb2364b3d1de338ec5e323886f5f244e2e27eba971a1614f075428b8"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-woodpecker_0.2.0_linux_386.zip",
+          "download_url": "https://github.com/Kichiyaki/terraform-provider-woodpecker/releases/download/v0.2.0/terraform-provider-woodpecker_0.2.0_linux_386.zip",
+          "shasum": "1d25de74c1273b38928e7077656f542926aa52f4790ef606ec5657ea34407538"
+        }
+      ]
+    },
+    {
       "version": "0.1.1",
       "protocols": [
         "5.0"
