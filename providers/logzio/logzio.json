@@ -2,6 +2,86 @@
   "repository": "https://github.com/logzio/terraform-provider-logzio",
   "versions": [
     {
+      "version": "1.14.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/logzio/terraform-provider-logzio/releases/download/v1.14.0/terraform-provider-logzio_1.14.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/logzio/terraform-provider-logzio/releases/download/v1.14.0/terraform-provider-logzio_1.14.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-logzio_1.14.0_windows_amd64.zip",
+          "download_url": "https://github.com/logzio/terraform-provider-logzio/releases/download/v1.14.0/terraform-provider-logzio_1.14.0_windows_amd64.zip",
+          "shasum": "ae461b4fb1c9fb3f1a9bfe73716ffe130727f6e2bceef41a9f4db2b179594e73"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-logzio_1.14.0_linux_amd64.zip",
+          "download_url": "https://github.com/logzio/terraform-provider-logzio/releases/download/v1.14.0/terraform-provider-logzio_1.14.0_linux_amd64.zip",
+          "shasum": "ef944729a5922f390cedc8aa21c7c97daa876ae003cb77b56d743717d4a6222f"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-logzio_1.14.0_windows_arm64.zip",
+          "download_url": "https://github.com/logzio/terraform-provider-logzio/releases/download/v1.14.0/terraform-provider-logzio_1.14.0_windows_arm64.zip",
+          "shasum": "09ae66f893e942b67144297cc23d1333dfb5667ef4a88ea03398a2a271bd622c"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-logzio_1.14.0_darwin_arm64.zip",
+          "download_url": "https://github.com/logzio/terraform-provider-logzio/releases/download/v1.14.0/terraform-provider-logzio_1.14.0_darwin_arm64.zip",
+          "shasum": "86b089eb0bd5b6f3902b04671960d91d878f075fbd9d8011af40c01a767e8f5f"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-logzio_1.14.0_linux_386.zip",
+          "download_url": "https://github.com/logzio/terraform-provider-logzio/releases/download/v1.14.0/terraform-provider-logzio_1.14.0_linux_386.zip",
+          "shasum": "c564ec60e973c8a519a9e4991a2b4f10d5ba53d8059529876e604ee31c7554c9"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-logzio_1.14.0_linux_arm.zip",
+          "download_url": "https://github.com/logzio/terraform-provider-logzio/releases/download/v1.14.0/terraform-provider-logzio_1.14.0_linux_arm.zip",
+          "shasum": "6c469d41f61708fd50e60a4c0cbb0fe53c29c247e87d2878cc824e29c9912a05"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-logzio_1.14.0_windows_arm.zip",
+          "download_url": "https://github.com/logzio/terraform-provider-logzio/releases/download/v1.14.0/terraform-provider-logzio_1.14.0_windows_arm.zip",
+          "shasum": "1bede97ae792a29408c6a3fa4045749f1435cca6dfa7981734710af0b2d628a5"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-logzio_1.14.0_windows_386.zip",
+          "download_url": "https://github.com/logzio/terraform-provider-logzio/releases/download/v1.14.0/terraform-provider-logzio_1.14.0_windows_386.zip",
+          "shasum": "935e2fe05270297feda5ede7239fa1c6e27a600aa9408cdd8c8a1564753ccd43"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-logzio_1.14.0_linux_arm64.zip",
+          "download_url": "https://github.com/logzio/terraform-provider-logzio/releases/download/v1.14.0/terraform-provider-logzio_1.14.0_linux_arm64.zip",
+          "shasum": "bf0db8259503fecd1aa8c09dc85edd6658d990a9e7551156ef0b553b496f4d63"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-logzio_1.14.0_darwin_amd64.zip",
+          "download_url": "https://github.com/logzio/terraform-provider-logzio/releases/download/v1.14.0/terraform-provider-logzio_1.14.0_darwin_amd64.zip",
+          "shasum": "3299f6793e041c4cbb3718c0b43e1770e2e890aae5dd85c0923f30272f5ffb14"
+        }
+      ]
+    },
+    {
       "version": "1.13.2",
       "protocols": [
         "5.0"
