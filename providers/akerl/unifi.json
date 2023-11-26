@@ -2,6 +2,114 @@
   "repository": "https://github.com/akerl/terraform-provider-unifi",
   "versions": [
     {
+      "version": "0.41.9",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/akerl/terraform-provider-unifi/releases/download/v0.41.9/terraform-provider-unifi_0.41.9_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/akerl/terraform-provider-unifi/releases/download/v0.41.9/terraform-provider-unifi_0.41.9_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-unifi_0.41.9_windows_arm64.zip",
+          "download_url": "https://github.com/akerl/terraform-provider-unifi/releases/download/v0.41.9/terraform-provider-unifi_0.41.9_windows_arm64.zip",
+          "shasum": "c662a8b12a0ae579d8e9bab7c8b57b08cf30d0ae11195c634d21bbd7542a0fa6"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-unifi_0.41.9_darwin_amd64.zip",
+          "download_url": "https://github.com/akerl/terraform-provider-unifi/releases/download/v0.41.9/terraform-provider-unifi_0.41.9_darwin_amd64.zip",
+          "shasum": "457d4812e871358d3e9de075028e3244bd0959572e4bba80102ae4d4e853d6dc"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-unifi_0.41.9_freebsd_arm.zip",
+          "download_url": "https://github.com/akerl/terraform-provider-unifi/releases/download/v0.41.9/terraform-provider-unifi_0.41.9_freebsd_arm.zip",
+          "shasum": "098ca0a7e2e87a405bb91c08ec8b865e8351bf441d3ef270e97c5cf8d9341726"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-unifi_0.41.9_freebsd_arm64.zip",
+          "download_url": "https://github.com/akerl/terraform-provider-unifi/releases/download/v0.41.9/terraform-provider-unifi_0.41.9_freebsd_arm64.zip",
+          "shasum": "ab9a1e2e2112795485416f8d460cfa7bce3e26228ba090b98133993fbb01f30e"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-unifi_0.41.9_windows_386.zip",
+          "download_url": "https://github.com/akerl/terraform-provider-unifi/releases/download/v0.41.9/terraform-provider-unifi_0.41.9_windows_386.zip",
+          "shasum": "efa684d92ad1471d3d8e3b811ed8457de67243e95be6960a29c2e64502149f92"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-unifi_0.41.9_windows_arm.zip",
+          "download_url": "https://github.com/akerl/terraform-provider-unifi/releases/download/v0.41.9/terraform-provider-unifi_0.41.9_windows_arm.zip",
+          "shasum": "dc95034a33e31595fc2cc1a08f9d872d60b3735ae107793b36fc0251e1f9ce51"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-unifi_0.41.9_windows_amd64.zip",
+          "download_url": "https://github.com/akerl/terraform-provider-unifi/releases/download/v0.41.9/terraform-provider-unifi_0.41.9_windows_amd64.zip",
+          "shasum": "75d35cb455a923c52df5ae8dbd45d329fab71b9bdf42a69838680884350ea0be"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-unifi_0.41.9_linux_386.zip",
+          "download_url": "https://github.com/akerl/terraform-provider-unifi/releases/download/v0.41.9/terraform-provider-unifi_0.41.9_linux_386.zip",
+          "shasum": "347557adad276b5c15fa05efbc1487b652fe71afe7b1f27379e6b40ea3b84e83"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-unifi_0.41.9_freebsd_386.zip",
+          "download_url": "https://github.com/akerl/terraform-provider-unifi/releases/download/v0.41.9/terraform-provider-unifi_0.41.9_freebsd_386.zip",
+          "shasum": "bb8a8638732f21d966ec7773a150a781d08e255e5bbd1af966ea77fc39579bc3"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-unifi_0.41.9_darwin_arm64.zip",
+          "download_url": "https://github.com/akerl/terraform-provider-unifi/releases/download/v0.41.9/terraform-provider-unifi_0.41.9_darwin_arm64.zip",
+          "shasum": "8dc1c4b8852f7dec965a19059886f8565998dfe869f6a86e63a57f70f67153a3"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-unifi_0.41.9_freebsd_amd64.zip",
+          "download_url": "https://github.com/akerl/terraform-provider-unifi/releases/download/v0.41.9/terraform-provider-unifi_0.41.9_freebsd_amd64.zip",
+          "shasum": "3afaa1d7974bc40380f00704fc4ebd16ef2b35aa9fc3cd13f04e314a20981d11"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-unifi_0.41.9_linux_amd64.zip",
+          "download_url": "https://github.com/akerl/terraform-provider-unifi/releases/download/v0.41.9/terraform-provider-unifi_0.41.9_linux_amd64.zip",
+          "shasum": "4359c11fc30d6f0cc40c8cd166819bb7ac72945af8983de12a77b667e86a8859"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-unifi_0.41.9_linux_arm.zip",
+          "download_url": "https://github.com/akerl/terraform-provider-unifi/releases/download/v0.41.9/terraform-provider-unifi_0.41.9_linux_arm.zip",
+          "shasum": "a62ef6436785bad13e821f60ab555101521ec12b67994897e8939379f31c638d"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-unifi_0.41.9_linux_arm64.zip",
+          "download_url": "https://github.com/akerl/terraform-provider-unifi/releases/download/v0.41.9/terraform-provider-unifi_0.41.9_linux_arm64.zip",
+          "shasum": "a1faf71210d0df8808de1ec9488c57f1a994d14672a9a8e4f09b7d3b412d0a6d"
+        }
+      ]
+    },
+    {
       "version": "0.41.8",
       "protocols": [
         "5.0"
