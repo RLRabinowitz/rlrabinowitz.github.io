@@ -2,6 +2,114 @@
   "repository": "https://github.com/coxedge/terraform-provider-coxedge",
   "versions": [
     {
+      "version": "0.5.2",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/coxedge/terraform-provider-coxedge/releases/download/v0.5.2/terraform-provider-coxedge_0.5.2_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/coxedge/terraform-provider-coxedge/releases/download/v0.5.2/terraform-provider-coxedge_0.5.2_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-coxedge_0.5.2_darwin_arm64.zip",
+          "download_url": "https://github.com/coxedge/terraform-provider-coxedge/releases/download/v0.5.2/terraform-provider-coxedge_0.5.2_darwin_arm64.zip",
+          "shasum": "fe0a03fa7acea7c9b4e904c80a1ed3ad979fa1e43669f5dbcbd92f20736e9e4b"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-coxedge_0.5.2_freebsd_arm.zip",
+          "download_url": "https://github.com/coxedge/terraform-provider-coxedge/releases/download/v0.5.2/terraform-provider-coxedge_0.5.2_freebsd_arm.zip",
+          "shasum": "a0dcb08c5923a99e8968fbde9ccb6e95bb4ea95a42c05bf31f3d36bd8ba9b618"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-coxedge_0.5.2_linux_386.zip",
+          "download_url": "https://github.com/coxedge/terraform-provider-coxedge/releases/download/v0.5.2/terraform-provider-coxedge_0.5.2_linux_386.zip",
+          "shasum": "7bf81db57020eab5e4d172ccdf6b32d784c5abbf1308d206b7dc9d4b09513cc7"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-coxedge_0.5.2_windows_386.zip",
+          "download_url": "https://github.com/coxedge/terraform-provider-coxedge/releases/download/v0.5.2/terraform-provider-coxedge_0.5.2_windows_386.zip",
+          "shasum": "ee53aaffdf2c9d8c66992dc5cb834d41f5e63abad64843f855f346b0af478120"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-coxedge_0.5.2_windows_amd64.zip",
+          "download_url": "https://github.com/coxedge/terraform-provider-coxedge/releases/download/v0.5.2/terraform-provider-coxedge_0.5.2_windows_amd64.zip",
+          "shasum": "a21a40719d66d8ebc480d647e2e963ba6b49b0945e1f49d5e909cc91d982c8d3"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-coxedge_0.5.2_freebsd_arm64.zip",
+          "download_url": "https://github.com/coxedge/terraform-provider-coxedge/releases/download/v0.5.2/terraform-provider-coxedge_0.5.2_freebsd_arm64.zip",
+          "shasum": "6cac888afa93e7dca497ce296b97166f1a304cf18748e0a66812059a7195473b"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-coxedge_0.5.2_freebsd_amd64.zip",
+          "download_url": "https://github.com/coxedge/terraform-provider-coxedge/releases/download/v0.5.2/terraform-provider-coxedge_0.5.2_freebsd_amd64.zip",
+          "shasum": "fcc8d8fb16bf714ca19a43051e853511659ac616a6da1c3e031bf63ee40a619e"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-coxedge_0.5.2_darwin_amd64.zip",
+          "download_url": "https://github.com/coxedge/terraform-provider-coxedge/releases/download/v0.5.2/terraform-provider-coxedge_0.5.2_darwin_amd64.zip",
+          "shasum": "94f5a72057d4ba1c2d21ffe63aa0a30a0c424203918fa1d47baf7fd502ee687f"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-coxedge_0.5.2_freebsd_386.zip",
+          "download_url": "https://github.com/coxedge/terraform-provider-coxedge/releases/download/v0.5.2/terraform-provider-coxedge_0.5.2_freebsd_386.zip",
+          "shasum": "45d3f4c767c5a71de639f49705623b1f929378c4c8fa0fff508d5b52c2221150"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-coxedge_0.5.2_windows_arm.zip",
+          "download_url": "https://github.com/coxedge/terraform-provider-coxedge/releases/download/v0.5.2/terraform-provider-coxedge_0.5.2_windows_arm.zip",
+          "shasum": "d93273395a0645786ddf5f9c90f0b25409863a873d57dd9c363149a718948319"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-coxedge_0.5.2_linux_amd64.zip",
+          "download_url": "https://github.com/coxedge/terraform-provider-coxedge/releases/download/v0.5.2/terraform-provider-coxedge_0.5.2_linux_amd64.zip",
+          "shasum": "38e80e027f05a97d205ff82a97da7f87cea7d587672b65935ec5204dd4eb45dd"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-coxedge_0.5.2_windows_arm64.zip",
+          "download_url": "https://github.com/coxedge/terraform-provider-coxedge/releases/download/v0.5.2/terraform-provider-coxedge_0.5.2_windows_arm64.zip",
+          "shasum": "798bd775e0ff6735e190740ad97056a96a2c86ddee27747da1b880b0b1b39e91"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-coxedge_0.5.2_linux_arm.zip",
+          "download_url": "https://github.com/coxedge/terraform-provider-coxedge/releases/download/v0.5.2/terraform-provider-coxedge_0.5.2_linux_arm.zip",
+          "shasum": "500c293ca09a9f4b1d2111fa1bea75ffde9e5c2ac6320d658f47f2cbbfad6352"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-coxedge_0.5.2_linux_arm64.zip",
+          "download_url": "https://github.com/coxedge/terraform-provider-coxedge/releases/download/v0.5.2/terraform-provider-coxedge_0.5.2_linux_arm64.zip",
+          "shasum": "9ff9321a4421cc51e085dcbb5d9d5e4a94f81e1017459ed4e94c320429ee8fff"
+        }
+      ]
+    },
+    {
       "version": "0.5.1",
       "protocols": [
         "5.0"
