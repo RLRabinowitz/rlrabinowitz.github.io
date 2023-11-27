@@ -2,6 +2,107 @@
   "repository": "https://github.com/pactflow/terraform-provider-pact",
   "versions": [
     {
+      "version": "0.10.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/pactflow/terraform-provider-pact/releases/download/v0.10.0/terraform-provider-pact_0.10.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/pactflow/terraform-provider-pact/releases/download/v0.10.0/terraform-provider-pact_0.10.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-pact_0.10.0_windows_amd64.zip",
+          "download_url": "https://github.com/pactflow/terraform-provider-pact/releases/download/v0.10.0/terraform-provider-pact_0.10.0_windows_amd64.zip",
+          "shasum": "8d7df162e2c322b5cf1aa3985dcc9ebdf5659a2751a285d53b9bff7332921610"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-pact_0.10.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/pactflow/terraform-provider-pact/releases/download/v0.10.0/terraform-provider-pact_0.10.0_freebsd_amd64.zip",
+          "shasum": "c0d113d2e3daf9bae875dca56898144bd4a39675c87db7ac80b01ff8631b8d41"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-pact_0.10.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/pactflow/terraform-provider-pact/releases/download/v0.10.0/terraform-provider-pact_0.10.0_freebsd_arm64.zip",
+          "shasum": "4e3a6838cc398a0930ab8c636f85e8269886797761bf0955d2422b82b697aa8d"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-pact_0.10.0_linux_arm64.zip",
+          "download_url": "https://github.com/pactflow/terraform-provider-pact/releases/download/v0.10.0/terraform-provider-pact_0.10.0_linux_arm64.zip",
+          "shasum": "4326a9b229fcf091aed5ec374e5e5f33f14cee0411a391989d37e2dad2fc28b8"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-pact_0.10.0_linux_arm.zip",
+          "download_url": "https://github.com/pactflow/terraform-provider-pact/releases/download/v0.10.0/terraform-provider-pact_0.10.0_linux_arm.zip",
+          "shasum": "078c04fc924ea10566adf988b5a4b128fd148a028ee430f17bb4a350b6caebef"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-pact_0.10.0_windows_arm.zip",
+          "download_url": "https://github.com/pactflow/terraform-provider-pact/releases/download/v0.10.0/terraform-provider-pact_0.10.0_windows_arm.zip",
+          "shasum": "729c578fb13496c0db2d256d419483cb687305d4c127b3a920c4abc64753f433"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-pact_0.10.0_freebsd_386.zip",
+          "download_url": "https://github.com/pactflow/terraform-provider-pact/releases/download/v0.10.0/terraform-provider-pact_0.10.0_freebsd_386.zip",
+          "shasum": "055ceec7981b17c81053b933320cd3efd5ebb2b073daeffdadf7510a317cab06"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-pact_0.10.0_linux_amd64.zip",
+          "download_url": "https://github.com/pactflow/terraform-provider-pact/releases/download/v0.10.0/terraform-provider-pact_0.10.0_linux_amd64.zip",
+          "shasum": "d16e90c5c1cc2d5f0a2c9cf2e16288ac2d06b105c317f2760cc8568433fbb38c"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-pact_0.10.0_freebsd_arm.zip",
+          "download_url": "https://github.com/pactflow/terraform-provider-pact/releases/download/v0.10.0/terraform-provider-pact_0.10.0_freebsd_arm.zip",
+          "shasum": "5804d190fba4e1334ac697dbe9c742467884d6f99dcaf794d20557cd98b5d86d"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-pact_0.10.0_windows_386.zip",
+          "download_url": "https://github.com/pactflow/terraform-provider-pact/releases/download/v0.10.0/terraform-provider-pact_0.10.0_windows_386.zip",
+          "shasum": "e6f1bdb521749bc3fa5e1cb69de15da08f00c045171f52fec8e28c82e10ec9bc"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-pact_0.10.0_linux_386.zip",
+          "download_url": "https://github.com/pactflow/terraform-provider-pact/releases/download/v0.10.0/terraform-provider-pact_0.10.0_linux_386.zip",
+          "shasum": "e4ab614e0bb2cfacfe79258be61dd38c9a97a414ee2ba775a936e16436467d2b"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-pact_0.10.0_darwin_arm64.zip",
+          "download_url": "https://github.com/pactflow/terraform-provider-pact/releases/download/v0.10.0/terraform-provider-pact_0.10.0_darwin_arm64.zip",
+          "shasum": "22808516997b66ca27f7b64ee6d9ca0872fb7e8c909889737eafc11132859f33"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-pact_0.10.0_darwin_amd64.zip",
+          "download_url": "https://github.com/pactflow/terraform-provider-pact/releases/download/v0.10.0/terraform-provider-pact_0.10.0_darwin_amd64.zip",
+          "shasum": "4beaa6c57e48219f52b2eada86b015cbd5c6e9887c148f64d63e274f61378650"
+        }
+      ]
+    },
+    {
       "version": "0.9.2",
       "protocols": [
         "5.0"
