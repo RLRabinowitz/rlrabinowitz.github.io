@@ -2,6 +2,222 @@
   "repository": "https://github.com/chilicat/terraform-provider-pkcs12",
   "versions": [
     {
+      "version": "0.2.4-pre",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/chilicat/terraform-provider-pkcs12/releases/download/v0.2.4-pre/terraform-provider-pkcs12_0.2.4-pre_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/chilicat/terraform-provider-pkcs12/releases/download/v0.2.4-pre/terraform-provider-pkcs12_0.2.4-pre_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-pkcs12_0.2.4-pre_linux_arm64.zip",
+          "download_url": "https://github.com/chilicat/terraform-provider-pkcs12/releases/download/v0.2.4-pre/terraform-provider-pkcs12_0.2.4-pre_linux_arm64.zip",
+          "shasum": "9d6a858e0dd9a9a552429f52c03f5a61f97ade98e3f2b0ec3e2e008dda68c392"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-pkcs12_0.2.4-pre_windows_386.zip",
+          "download_url": "https://github.com/chilicat/terraform-provider-pkcs12/releases/download/v0.2.4-pre/terraform-provider-pkcs12_0.2.4-pre_windows_386.zip",
+          "shasum": "4762bb613ec0ee5e7a900ef7873caf664eb4598ad8976331e8787d3f65708c24"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-pkcs12_0.2.4-pre_windows_arm.zip",
+          "download_url": "https://github.com/chilicat/terraform-provider-pkcs12/releases/download/v0.2.4-pre/terraform-provider-pkcs12_0.2.4-pre_windows_arm.zip",
+          "shasum": "a65787dc236b224027f4506c6d7dcbe7d384521ad8a7aaa49d4c0b35d3094dd7"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-pkcs12_0.2.4-pre_windows_amd64.zip",
+          "download_url": "https://github.com/chilicat/terraform-provider-pkcs12/releases/download/v0.2.4-pre/terraform-provider-pkcs12_0.2.4-pre_windows_amd64.zip",
+          "shasum": "35ee5296c453ba6b4f35db4a19c013bb04341bd499a2ad0ff7d3c355b470557f"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-pkcs12_0.2.4-pre_darwin_amd64.zip",
+          "download_url": "https://github.com/chilicat/terraform-provider-pkcs12/releases/download/v0.2.4-pre/terraform-provider-pkcs12_0.2.4-pre_darwin_amd64.zip",
+          "shasum": "4ba4a6bc7b53abf800adb69fc4d7966b808a172ac1f9df882d67fbfaba5b85fc"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-pkcs12_0.2.4-pre_freebsd_arm64.zip",
+          "download_url": "https://github.com/chilicat/terraform-provider-pkcs12/releases/download/v0.2.4-pre/terraform-provider-pkcs12_0.2.4-pre_freebsd_arm64.zip",
+          "shasum": "d5d5111de942076042ed932cedc5484e7dfddbe10adf4a99babf50188408291e"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-pkcs12_0.2.4-pre_linux_386.zip",
+          "download_url": "https://github.com/chilicat/terraform-provider-pkcs12/releases/download/v0.2.4-pre/terraform-provider-pkcs12_0.2.4-pre_linux_386.zip",
+          "shasum": "da7ba5aa175960c91dd9730699a35091e205685c59bc5974d56d6ac2e37d678d"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-pkcs12_0.2.4-pre_windows_arm64.zip",
+          "download_url": "https://github.com/chilicat/terraform-provider-pkcs12/releases/download/v0.2.4-pre/terraform-provider-pkcs12_0.2.4-pre_windows_arm64.zip",
+          "shasum": "e7a9c38693409ab719fc369043dbd348fdce4f87ace2b909a98343e34c3ea2f0"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-pkcs12_0.2.4-pre_freebsd_arm.zip",
+          "download_url": "https://github.com/chilicat/terraform-provider-pkcs12/releases/download/v0.2.4-pre/terraform-provider-pkcs12_0.2.4-pre_freebsd_arm.zip",
+          "shasum": "c9570f03a0672eaf8c7bc29d5ca75766ecb64e8f121229cc84256e45ae467da6"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-pkcs12_0.2.4-pre_freebsd_amd64.zip",
+          "download_url": "https://github.com/chilicat/terraform-provider-pkcs12/releases/download/v0.2.4-pre/terraform-provider-pkcs12_0.2.4-pre_freebsd_amd64.zip",
+          "shasum": "555a980c3c19952ec392539a160931b0f05bcc0cd98deabe0bf38e7127375c27"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-pkcs12_0.2.4-pre_linux_amd64.zip",
+          "download_url": "https://github.com/chilicat/terraform-provider-pkcs12/releases/download/v0.2.4-pre/terraform-provider-pkcs12_0.2.4-pre_linux_amd64.zip",
+          "shasum": "e9d35d612c5e9c57eef2e03d4f9f51e17c1e0c67a2bfa91b9f64e90278d880ca"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-pkcs12_0.2.4-pre_linux_arm.zip",
+          "download_url": "https://github.com/chilicat/terraform-provider-pkcs12/releases/download/v0.2.4-pre/terraform-provider-pkcs12_0.2.4-pre_linux_arm.zip",
+          "shasum": "eb9b1d077ff9ce9a586b91e2ab72bbcc6cf3522988d6a452ae59628f3a002927"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-pkcs12_0.2.4-pre_freebsd_386.zip",
+          "download_url": "https://github.com/chilicat/terraform-provider-pkcs12/releases/download/v0.2.4-pre/terraform-provider-pkcs12_0.2.4-pre_freebsd_386.zip",
+          "shasum": "ec92944f93b853a4e3f8e375a3517a5a080c1cdf8fba6a8f5f1c31aa2cbcafe3"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-pkcs12_0.2.4-pre_darwin_arm64.zip",
+          "download_url": "https://github.com/chilicat/terraform-provider-pkcs12/releases/download/v0.2.4-pre/terraform-provider-pkcs12_0.2.4-pre_darwin_arm64.zip",
+          "shasum": "7a121ddd8b3a0dc9bf80a3b05de447115e9f9e72648b74bc0558e28ca66b752e"
+        }
+      ]
+    },
+    {
+      "version": "0.2.3-pre",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/chilicat/terraform-provider-pkcs12/releases/download/v0.2.3-pre/terraform-provider-pkcs12_0.2.3-pre_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/chilicat/terraform-provider-pkcs12/releases/download/v0.2.3-pre/terraform-provider-pkcs12_0.2.3-pre_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-pkcs12_0.2.3-pre_linux_arm64.zip",
+          "download_url": "https://github.com/chilicat/terraform-provider-pkcs12/releases/download/v0.2.3-pre/terraform-provider-pkcs12_0.2.3-pre_linux_arm64.zip",
+          "shasum": "dcad1907d56943fb528ddc4d671880d89d5849a8d07c277a670e3044252d4c0d"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-pkcs12_0.2.3-pre_windows_amd64.zip",
+          "download_url": "https://github.com/chilicat/terraform-provider-pkcs12/releases/download/v0.2.3-pre/terraform-provider-pkcs12_0.2.3-pre_windows_amd64.zip",
+          "shasum": "cf5e4fef5b985cc697f27d0a35828d9a281912f99f739d9229f4941b041ecd7c"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-pkcs12_0.2.3-pre_linux_386.zip",
+          "download_url": "https://github.com/chilicat/terraform-provider-pkcs12/releases/download/v0.2.3-pre/terraform-provider-pkcs12_0.2.3-pre_linux_386.zip",
+          "shasum": "93d7276c3a4e2516b9708693eb2df5785f85080ca32cb5eea792127d52d9ed20"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-pkcs12_0.2.3-pre_linux_amd64.zip",
+          "download_url": "https://github.com/chilicat/terraform-provider-pkcs12/releases/download/v0.2.3-pre/terraform-provider-pkcs12_0.2.3-pre_linux_amd64.zip",
+          "shasum": "624a2d6dc2a257ec0f49857378b03644c933d24bbe63996ea7c2ca7d0e40d9ed"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-pkcs12_0.2.3-pre_windows_arm64.zip",
+          "download_url": "https://github.com/chilicat/terraform-provider-pkcs12/releases/download/v0.2.3-pre/terraform-provider-pkcs12_0.2.3-pre_windows_arm64.zip",
+          "shasum": "1180648962515d7d97dd5ee5d53e55f9de59a8067d183582a94d12ec84942010"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-pkcs12_0.2.3-pre_freebsd_386.zip",
+          "download_url": "https://github.com/chilicat/terraform-provider-pkcs12/releases/download/v0.2.3-pre/terraform-provider-pkcs12_0.2.3-pre_freebsd_386.zip",
+          "shasum": "1aaf3d1584c6d60b59ad03eb53a7a518c4d7ffac4d1cefe19e7cdf78bf3b5072"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-pkcs12_0.2.3-pre_freebsd_arm.zip",
+          "download_url": "https://github.com/chilicat/terraform-provider-pkcs12/releases/download/v0.2.3-pre/terraform-provider-pkcs12_0.2.3-pre_freebsd_arm.zip",
+          "shasum": "6987c86f635a50729f691dfbfc044a32f96164d63743441607aaff6fce2d77e5"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-pkcs12_0.2.3-pre_windows_arm.zip",
+          "download_url": "https://github.com/chilicat/terraform-provider-pkcs12/releases/download/v0.2.3-pre/terraform-provider-pkcs12_0.2.3-pre_windows_arm.zip",
+          "shasum": "92581ea5d7d68fc47dc0e243867fc97f813b9eb712a574a3c42ac89de7518efb"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-pkcs12_0.2.3-pre_darwin_arm64.zip",
+          "download_url": "https://github.com/chilicat/terraform-provider-pkcs12/releases/download/v0.2.3-pre/terraform-provider-pkcs12_0.2.3-pre_darwin_arm64.zip",
+          "shasum": "549c5efeb367af6f261bec15cac58ce30427dbe0e33140eedc910b04a7233057"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-pkcs12_0.2.3-pre_darwin_amd64.zip",
+          "download_url": "https://github.com/chilicat/terraform-provider-pkcs12/releases/download/v0.2.3-pre/terraform-provider-pkcs12_0.2.3-pre_darwin_amd64.zip",
+          "shasum": "8c62a8dcde0645e2a1edf257763c2937fe1905b363b8e60a1d1cbe85dd0d4e66"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-pkcs12_0.2.3-pre_windows_386.zip",
+          "download_url": "https://github.com/chilicat/terraform-provider-pkcs12/releases/download/v0.2.3-pre/terraform-provider-pkcs12_0.2.3-pre_windows_386.zip",
+          "shasum": "51c5d350c71abcdbd86882f7c1715cbbdb26fee8471e1279cdf046b485f30241"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-pkcs12_0.2.3-pre_freebsd_arm64.zip",
+          "download_url": "https://github.com/chilicat/terraform-provider-pkcs12/releases/download/v0.2.3-pre/terraform-provider-pkcs12_0.2.3-pre_freebsd_arm64.zip",
+          "shasum": "44514501a70cc4184eaabe701d459deef678be88b38cf8d6cab501a02c9fb208"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-pkcs12_0.2.3-pre_linux_arm.zip",
+          "download_url": "https://github.com/chilicat/terraform-provider-pkcs12/releases/download/v0.2.3-pre/terraform-provider-pkcs12_0.2.3-pre_linux_arm.zip",
+          "shasum": "3e59f3c276c84747a3f4c15a549a503d0b89bd691e556f73eece0c8f17304182"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-pkcs12_0.2.3-pre_freebsd_amd64.zip",
+          "download_url": "https://github.com/chilicat/terraform-provider-pkcs12/releases/download/v0.2.3-pre/terraform-provider-pkcs12_0.2.3-pre_freebsd_amd64.zip",
+          "shasum": "12f76c7681cb04f897b4f09b9758429dcd0f37ce87d36a407dd8a5389f62d9b5"
+        }
+      ]
+    },
+    {
       "version": "0.2.2-pre",
       "protocols": [
         "5.0"
