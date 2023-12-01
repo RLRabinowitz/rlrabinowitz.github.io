@@ -2,6 +2,114 @@
   "repository": "https://github.com/awesomenessnil/terraform-provider-clickhouse",
   "versions": [
     {
+      "version": "0.1.8",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/awesomenessnil/terraform-provider-clickhouse/releases/download/v0.1.8/terraform-provider-clickhouse_0.1.8_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/awesomenessnil/terraform-provider-clickhouse/releases/download/v0.1.8/terraform-provider-clickhouse_0.1.8_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-clickhouse_0.1.8_linux_386.zip",
+          "download_url": "https://github.com/awesomenessnil/terraform-provider-clickhouse/releases/download/v0.1.8/terraform-provider-clickhouse_0.1.8_linux_386.zip",
+          "shasum": "d68972ab9142acf375052de6980cfd1ebd1aa57192f7160ea0ead4cd60214eb5"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-clickhouse_0.1.8_freebsd_arm64.zip",
+          "download_url": "https://github.com/awesomenessnil/terraform-provider-clickhouse/releases/download/v0.1.8/terraform-provider-clickhouse_0.1.8_freebsd_arm64.zip",
+          "shasum": "56f08bd9aa001ba694b39d980f3c238fc5fadc6d9864b573747846af5f8c1055"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-clickhouse_0.1.8_windows_arm.zip",
+          "download_url": "https://github.com/awesomenessnil/terraform-provider-clickhouse/releases/download/v0.1.8/terraform-provider-clickhouse_0.1.8_windows_arm.zip",
+          "shasum": "6a35d6c0f369d998913955f3ddb0201a0d4562ae85403c4d8374ae4fc5d52404"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-clickhouse_0.1.8_windows_386.zip",
+          "download_url": "https://github.com/awesomenessnil/terraform-provider-clickhouse/releases/download/v0.1.8/terraform-provider-clickhouse_0.1.8_windows_386.zip",
+          "shasum": "ecde9b902dd796c0a367822dba2560765dfaf333feaf2697ceade662c9fa0644"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-clickhouse_0.1.8_linux_arm.zip",
+          "download_url": "https://github.com/awesomenessnil/terraform-provider-clickhouse/releases/download/v0.1.8/terraform-provider-clickhouse_0.1.8_linux_arm.zip",
+          "shasum": "0708f5a91003c550c3e4b1563cd444d1de41145b325691aaafa5b2999c568286"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-clickhouse_0.1.8_linux_amd64.zip",
+          "download_url": "https://github.com/awesomenessnil/terraform-provider-clickhouse/releases/download/v0.1.8/terraform-provider-clickhouse_0.1.8_linux_amd64.zip",
+          "shasum": "5d27ef7eda5ee67e98954fb31309c07ca6b3619324934a06420946ed63640bd4"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-clickhouse_0.1.8_freebsd_amd64.zip",
+          "download_url": "https://github.com/awesomenessnil/terraform-provider-clickhouse/releases/download/v0.1.8/terraform-provider-clickhouse_0.1.8_freebsd_amd64.zip",
+          "shasum": "f2e6f3cf0a19b746e18d8103cb06c9e0b564f53cbd310577c5208a44bd89bc20"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-clickhouse_0.1.8_linux_arm64.zip",
+          "download_url": "https://github.com/awesomenessnil/terraform-provider-clickhouse/releases/download/v0.1.8/terraform-provider-clickhouse_0.1.8_linux_arm64.zip",
+          "shasum": "82dc25daa3069ffa87b3fa510268704152b23cfb6150f89b09a6feef915a2b77"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-clickhouse_0.1.8_windows_arm64.zip",
+          "download_url": "https://github.com/awesomenessnil/terraform-provider-clickhouse/releases/download/v0.1.8/terraform-provider-clickhouse_0.1.8_windows_arm64.zip",
+          "shasum": "a7095cabab0691c61f93d5b5400b851c647d173f8e9c9953947689ec4ceb669a"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-clickhouse_0.1.8_darwin_amd64.zip",
+          "download_url": "https://github.com/awesomenessnil/terraform-provider-clickhouse/releases/download/v0.1.8/terraform-provider-clickhouse_0.1.8_darwin_amd64.zip",
+          "shasum": "2ca0d016eaf9824e04458b180fc74dde78ea4543d43c69f8bafccbe002a23ef4"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-clickhouse_0.1.8_windows_amd64.zip",
+          "download_url": "https://github.com/awesomenessnil/terraform-provider-clickhouse/releases/download/v0.1.8/terraform-provider-clickhouse_0.1.8_windows_amd64.zip",
+          "shasum": "9050b24e41000e18055c767acd2f1d91a0f110713287d4066651ab6271d2552c"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-clickhouse_0.1.8_darwin_arm64.zip",
+          "download_url": "https://github.com/awesomenessnil/terraform-provider-clickhouse/releases/download/v0.1.8/terraform-provider-clickhouse_0.1.8_darwin_arm64.zip",
+          "shasum": "493bdc2f31361da853657b5aa587ecb9f32f7200ec5557c31beb4f8f9ca1f9c4"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-clickhouse_0.1.8_freebsd_arm.zip",
+          "download_url": "https://github.com/awesomenessnil/terraform-provider-clickhouse/releases/download/v0.1.8/terraform-provider-clickhouse_0.1.8_freebsd_arm.zip",
+          "shasum": "a3d823864ba51c6707e36d4079fda9e464358bb6b18984e92330b7c1c18e8c1d"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-clickhouse_0.1.8_freebsd_386.zip",
+          "download_url": "https://github.com/awesomenessnil/terraform-provider-clickhouse/releases/download/v0.1.8/terraform-provider-clickhouse_0.1.8_freebsd_386.zip",
+          "shasum": "77785ced17f20c2b942819c4ac9d96c464575c1186886b4bb422fd9c8d0cbf96"
+        }
+      ]
+    },
+    {
       "version": "0.1.7",
       "protocols": [
         "5.0"
