@@ -2,6 +2,114 @@
   "repository": "https://github.com/topicuskeyhub/terraform-provider-keyhub",
   "versions": [
     {
+      "version": "2.30.1",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/topicuskeyhub/terraform-provider-keyhub/releases/download/v2.30.1/terraform-provider-keyhub_2.30.1_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/topicuskeyhub/terraform-provider-keyhub/releases/download/v2.30.1/terraform-provider-keyhub_2.30.1_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-keyhub_2.30.1_linux_386.zip",
+          "download_url": "https://github.com/topicuskeyhub/terraform-provider-keyhub/releases/download/v2.30.1/terraform-provider-keyhub_2.30.1_linux_386.zip",
+          "shasum": "d14fb32adb072e6f208d05168a623b56aa4fe4a88c5ce27888be696ada37b3b0"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-keyhub_2.30.1_freebsd_arm.zip",
+          "download_url": "https://github.com/topicuskeyhub/terraform-provider-keyhub/releases/download/v2.30.1/terraform-provider-keyhub_2.30.1_freebsd_arm.zip",
+          "shasum": "f6b9125bd204faf830af6bcca083933980dbb6e2792a982d22f2e22526aa8a40"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-keyhub_2.30.1_windows_arm64.zip",
+          "download_url": "https://github.com/topicuskeyhub/terraform-provider-keyhub/releases/download/v2.30.1/terraform-provider-keyhub_2.30.1_windows_arm64.zip",
+          "shasum": "a48b90b70ad166f6687bd5a969835473cab79241dea1cd903aad445907da1238"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-keyhub_2.30.1_windows_amd64.zip",
+          "download_url": "https://github.com/topicuskeyhub/terraform-provider-keyhub/releases/download/v2.30.1/terraform-provider-keyhub_2.30.1_windows_amd64.zip",
+          "shasum": "0b627027862ced5060c2c125d8798c514d5a05572fbc98b0017b0d4ba2dce374"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-keyhub_2.30.1_linux_arm.zip",
+          "download_url": "https://github.com/topicuskeyhub/terraform-provider-keyhub/releases/download/v2.30.1/terraform-provider-keyhub_2.30.1_linux_arm.zip",
+          "shasum": "b50dd26ccf90d20fa81a28967dfcfd6e82acd8419e63d76c510213c35d62897f"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-keyhub_2.30.1_freebsd_arm64.zip",
+          "download_url": "https://github.com/topicuskeyhub/terraform-provider-keyhub/releases/download/v2.30.1/terraform-provider-keyhub_2.30.1_freebsd_arm64.zip",
+          "shasum": "8bcb2a90ddd448caa42b29052c6bf8cd7b6b7deed95c51d1893b5190e988b561"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-keyhub_2.30.1_freebsd_amd64.zip",
+          "download_url": "https://github.com/topicuskeyhub/terraform-provider-keyhub/releases/download/v2.30.1/terraform-provider-keyhub_2.30.1_freebsd_amd64.zip",
+          "shasum": "c0c875cb087156ea1381b430a8a1fcf9262c30adb31a4feab6c7e466dbac7c0e"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-keyhub_2.30.1_freebsd_386.zip",
+          "download_url": "https://github.com/topicuskeyhub/terraform-provider-keyhub/releases/download/v2.30.1/terraform-provider-keyhub_2.30.1_freebsd_386.zip",
+          "shasum": "eddc5ec66c4c82ec61863e3400721789e0982b7001f471b8b12a20b1724472c8"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-keyhub_2.30.1_linux_amd64.zip",
+          "download_url": "https://github.com/topicuskeyhub/terraform-provider-keyhub/releases/download/v2.30.1/terraform-provider-keyhub_2.30.1_linux_amd64.zip",
+          "shasum": "bc957ad4dca9ea02dbe56bf0775a9c92952c3a821cd8bab703eea67a09f81bad"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-keyhub_2.30.1_windows_386.zip",
+          "download_url": "https://github.com/topicuskeyhub/terraform-provider-keyhub/releases/download/v2.30.1/terraform-provider-keyhub_2.30.1_windows_386.zip",
+          "shasum": "d6fb7b7223e89796374627e09db47694996b7fd2984d1b53c2594da89746e093"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-keyhub_2.30.1_darwin_arm64.zip",
+          "download_url": "https://github.com/topicuskeyhub/terraform-provider-keyhub/releases/download/v2.30.1/terraform-provider-keyhub_2.30.1_darwin_arm64.zip",
+          "shasum": "ac6400e648ba78896335af8bed599a0af6769c0ad9e3a7532b31c475f2d30f71"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-keyhub_2.30.1_darwin_amd64.zip",
+          "download_url": "https://github.com/topicuskeyhub/terraform-provider-keyhub/releases/download/v2.30.1/terraform-provider-keyhub_2.30.1_darwin_amd64.zip",
+          "shasum": "eaeafb2fa0291fafe3b4e8c6c053ab9aca019639794bed87aa557fcd5d8078c3"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-keyhub_2.30.1_windows_arm.zip",
+          "download_url": "https://github.com/topicuskeyhub/terraform-provider-keyhub/releases/download/v2.30.1/terraform-provider-keyhub_2.30.1_windows_arm.zip",
+          "shasum": "72ebb7bd37896f102364b4d5f1186e2a0d55328363cb6fe39e75fa88f6bead52"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-keyhub_2.30.1_linux_arm64.zip",
+          "download_url": "https://github.com/topicuskeyhub/terraform-provider-keyhub/releases/download/v2.30.1/terraform-provider-keyhub_2.30.1_linux_arm64.zip",
+          "shasum": "492460a314ee86a82fa2c197a2550dd52e18570b045cb6afb302d087fa813337"
+        }
+      ]
+    },
+    {
       "version": "2.30.0",
       "protocols": [
         "5.0"
