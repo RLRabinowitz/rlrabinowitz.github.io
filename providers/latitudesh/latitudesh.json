@@ -2,6 +2,114 @@
   "repository": "https://github.com/latitudesh/terraform-provider-latitudesh",
   "versions": [
     {
+      "version": "1.0.0-rc",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/latitudesh/terraform-provider-latitudesh/releases/download/v1.0.0-rc/terraform-provider-latitudesh_1.0.0-rc_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/latitudesh/terraform-provider-latitudesh/releases/download/v1.0.0-rc/terraform-provider-latitudesh_1.0.0-rc_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-latitudesh_1.0.0-rc_linux_arm64.zip",
+          "download_url": "https://github.com/latitudesh/terraform-provider-latitudesh/releases/download/v1.0.0-rc/terraform-provider-latitudesh_1.0.0-rc_linux_arm64.zip",
+          "shasum": "ff6fb07ecccb13fb6acca90975c284b45b777778050649c64ac0a088591fc939"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-latitudesh_1.0.0-rc_darwin_amd64.zip",
+          "download_url": "https://github.com/latitudesh/terraform-provider-latitudesh/releases/download/v1.0.0-rc/terraform-provider-latitudesh_1.0.0-rc_darwin_amd64.zip",
+          "shasum": "c846ae708c799a089de49dd1da155936feac6729bdc601a84fd7ebc45bf30fec"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-latitudesh_1.0.0-rc_linux_386.zip",
+          "download_url": "https://github.com/latitudesh/terraform-provider-latitudesh/releases/download/v1.0.0-rc/terraform-provider-latitudesh_1.0.0-rc_linux_386.zip",
+          "shasum": "8f6b31a8d62f4539c7384219ad6bd622a53a97266488bb1749583464955c8fc8"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-latitudesh_1.0.0-rc_windows_arm64.zip",
+          "download_url": "https://github.com/latitudesh/terraform-provider-latitudesh/releases/download/v1.0.0-rc/terraform-provider-latitudesh_1.0.0-rc_windows_arm64.zip",
+          "shasum": "923929ea0584b11ff29b7ecd9c5749c7af17191a5fc23edb0835e3bfd010c5c1"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-latitudesh_1.0.0-rc_freebsd_arm.zip",
+          "download_url": "https://github.com/latitudesh/terraform-provider-latitudesh/releases/download/v1.0.0-rc/terraform-provider-latitudesh_1.0.0-rc_freebsd_arm.zip",
+          "shasum": "cffab4c883ed380274d22b847406b28113cf820db7c2d5fb6e453dbd59b7b6ba"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-latitudesh_1.0.0-rc_windows_arm.zip",
+          "download_url": "https://github.com/latitudesh/terraform-provider-latitudesh/releases/download/v1.0.0-rc/terraform-provider-latitudesh_1.0.0-rc_windows_arm.zip",
+          "shasum": "cf8439360762eea2bf5085be75d69d06b641cfaa2c63deddfe58bff24f852e8a"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-latitudesh_1.0.0-rc_windows_386.zip",
+          "download_url": "https://github.com/latitudesh/terraform-provider-latitudesh/releases/download/v1.0.0-rc/terraform-provider-latitudesh_1.0.0-rc_windows_386.zip",
+          "shasum": "dd113341c75b2a3554cbf76ac674fa20fc16398a761c8eb7147db64acbe6b605"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-latitudesh_1.0.0-rc_freebsd_amd64.zip",
+          "download_url": "https://github.com/latitudesh/terraform-provider-latitudesh/releases/download/v1.0.0-rc/terraform-provider-latitudesh_1.0.0-rc_freebsd_amd64.zip",
+          "shasum": "0b294dd8124b299e188b0fc0e4413a40bf139bd68abc5c269719e280e2d55201"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-latitudesh_1.0.0-rc_linux_arm.zip",
+          "download_url": "https://github.com/latitudesh/terraform-provider-latitudesh/releases/download/v1.0.0-rc/terraform-provider-latitudesh_1.0.0-rc_linux_arm.zip",
+          "shasum": "dfc16a9037ffcc81172c9d76f4e1414c34fec271188d7efa4369e2221609f4a9"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-latitudesh_1.0.0-rc_darwin_arm64.zip",
+          "download_url": "https://github.com/latitudesh/terraform-provider-latitudesh/releases/download/v1.0.0-rc/terraform-provider-latitudesh_1.0.0-rc_darwin_arm64.zip",
+          "shasum": "8ca3dd36f54b4d100203fc37566eecc10cbec701d67d891cea35fe422e034bf3"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-latitudesh_1.0.0-rc_freebsd_arm64.zip",
+          "download_url": "https://github.com/latitudesh/terraform-provider-latitudesh/releases/download/v1.0.0-rc/terraform-provider-latitudesh_1.0.0-rc_freebsd_arm64.zip",
+          "shasum": "0268d72448f8aa5cc22d3260a85d73ab9bcac4e865468165220a59fdd09da85a"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-latitudesh_1.0.0-rc_linux_amd64.zip",
+          "download_url": "https://github.com/latitudesh/terraform-provider-latitudesh/releases/download/v1.0.0-rc/terraform-provider-latitudesh_1.0.0-rc_linux_amd64.zip",
+          "shasum": "b3e9bd50a5c7b2f136461303fd8f01521478b0cb42a76995d3fbffcfded23c6f"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-latitudesh_1.0.0-rc_windows_amd64.zip",
+          "download_url": "https://github.com/latitudesh/terraform-provider-latitudesh/releases/download/v1.0.0-rc/terraform-provider-latitudesh_1.0.0-rc_windows_amd64.zip",
+          "shasum": "9ad07c7dc56bf7027e14fa5f8fe6b1fe2be5b399d28973f396be1121b541e659"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-latitudesh_1.0.0-rc_freebsd_386.zip",
+          "download_url": "https://github.com/latitudesh/terraform-provider-latitudesh/releases/download/v1.0.0-rc/terraform-provider-latitudesh_1.0.0-rc_freebsd_386.zip",
+          "shasum": "1132980ed652ebcd30c0b65d8ce7ae8aab8b63a222df18ddb58827fcf071ff40"
+        }
+      ]
+    },
+    {
       "version": "0.2.10",
       "protocols": [
         "5.0"
