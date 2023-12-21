@@ -2,6 +2,114 @@
   "repository": "https://github.com/dell/terraform-provider-powerstore",
   "versions": [
     {
+      "version": "1.1.1",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/dell/terraform-provider-powerstore/releases/download/v1.1.1/terraform-provider-powerstore_1.1.1_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/dell/terraform-provider-powerstore/releases/download/v1.1.1/terraform-provider-powerstore_1.1.1_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-powerstore_1.1.1_freebsd_amd64.zip",
+          "download_url": "https://github.com/dell/terraform-provider-powerstore/releases/download/v1.1.1/terraform-provider-powerstore_1.1.1_freebsd_amd64.zip",
+          "shasum": "26a04228cf431180510b729766706444f1be7fb07675eb38f2a3d44d8380d5ba"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-powerstore_1.1.1_freebsd_arm64.zip",
+          "download_url": "https://github.com/dell/terraform-provider-powerstore/releases/download/v1.1.1/terraform-provider-powerstore_1.1.1_freebsd_arm64.zip",
+          "shasum": "20a9fe90ab99f99a0be02a30c03bc056396d3d413a845566698e32aa091d00bd"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-powerstore_1.1.1_freebsd_386.zip",
+          "download_url": "https://github.com/dell/terraform-provider-powerstore/releases/download/v1.1.1/terraform-provider-powerstore_1.1.1_freebsd_386.zip",
+          "shasum": "e1a7603610a5e4f4eb79fd5d79d8fa12d3d0e9fb051f2b15e80f1c37fba15b89"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-powerstore_1.1.1_freebsd_arm.zip",
+          "download_url": "https://github.com/dell/terraform-provider-powerstore/releases/download/v1.1.1/terraform-provider-powerstore_1.1.1_freebsd_arm.zip",
+          "shasum": "15038b9a3267172c09f4130e3eb03393e0e9cb698728b816bf7ed6568a699f46"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-powerstore_1.1.1_windows_amd64.zip",
+          "download_url": "https://github.com/dell/terraform-provider-powerstore/releases/download/v1.1.1/terraform-provider-powerstore_1.1.1_windows_amd64.zip",
+          "shasum": "d356df90d68d1c2433c07460724c802bb5361f3f7f04e93db5687d02ec5865d9"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-powerstore_1.1.1_windows_arm.zip",
+          "download_url": "https://github.com/dell/terraform-provider-powerstore/releases/download/v1.1.1/terraform-provider-powerstore_1.1.1_windows_arm.zip",
+          "shasum": "0274e2b58f1d0a8d53cbd7c41d3a273d6cf1d3231a70c1e52a57916d0e264ff0"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-powerstore_1.1.1_linux_arm.zip",
+          "download_url": "https://github.com/dell/terraform-provider-powerstore/releases/download/v1.1.1/terraform-provider-powerstore_1.1.1_linux_arm.zip",
+          "shasum": "2dda306ca92d940edbd69361f49001500eaf490edfd796128e3c95df71f35432"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-powerstore_1.1.1_darwin_arm64.zip",
+          "download_url": "https://github.com/dell/terraform-provider-powerstore/releases/download/v1.1.1/terraform-provider-powerstore_1.1.1_darwin_arm64.zip",
+          "shasum": "e64276a9e81210f44a19a1ebf5dab4633aaba9a77f31ab96bb4d91f1b998e2d4"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-powerstore_1.1.1_windows_386.zip",
+          "download_url": "https://github.com/dell/terraform-provider-powerstore/releases/download/v1.1.1/terraform-provider-powerstore_1.1.1_windows_386.zip",
+          "shasum": "e372baf33feed744941846ceec2465e11a0c7410fd9d3d9472c52d3c0cba7504"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-powerstore_1.1.1_windows_arm64.zip",
+          "download_url": "https://github.com/dell/terraform-provider-powerstore/releases/download/v1.1.1/terraform-provider-powerstore_1.1.1_windows_arm64.zip",
+          "shasum": "5cad3fd17c92a71f79608842e09a4d25bc5c1809ae0241291a7e554c916a6b09"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-powerstore_1.1.1_linux_amd64.zip",
+          "download_url": "https://github.com/dell/terraform-provider-powerstore/releases/download/v1.1.1/terraform-provider-powerstore_1.1.1_linux_amd64.zip",
+          "shasum": "7785af9ecd5d7d5beddb64f9a1bb18697ef9ec21429e01abf838a3c0942aeb4d"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-powerstore_1.1.1_linux_386.zip",
+          "download_url": "https://github.com/dell/terraform-provider-powerstore/releases/download/v1.1.1/terraform-provider-powerstore_1.1.1_linux_386.zip",
+          "shasum": "68a64e2d42a776de32c15447ed4ef5d27190a7ae513a7878508620e0c308bc7c"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-powerstore_1.1.1_linux_arm64.zip",
+          "download_url": "https://github.com/dell/terraform-provider-powerstore/releases/download/v1.1.1/terraform-provider-powerstore_1.1.1_linux_arm64.zip",
+          "shasum": "211b4e2c09199e650e082206fcf7374615b55a3254b9370fe97b4f861aae1a26"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-powerstore_1.1.1_darwin_amd64.zip",
+          "download_url": "https://github.com/dell/terraform-provider-powerstore/releases/download/v1.1.1/terraform-provider-powerstore_1.1.1_darwin_amd64.zip",
+          "shasum": "d99de5e6cce52e0b95c9027f7eaaf77dfc443644a9364978c3baa31725edf787"
+        }
+      ]
+    },
+    {
       "version": "1.1.0",
       "protocols": [
         "5.0"
