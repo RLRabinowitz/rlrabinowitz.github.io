@@ -2,6 +2,114 @@
   "repository": "https://github.com/TransparentEdge/terraform-provider-transparentedge",
   "versions": [
     {
+      "version": "0.5.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/TransparentEdge/terraform-provider-transparentedge/releases/download/v0.5.0/terraform-provider-transparentedge_0.5.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/TransparentEdge/terraform-provider-transparentedge/releases/download/v0.5.0/terraform-provider-transparentedge_0.5.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-transparentedge_0.5.0_windows_arm.zip",
+          "download_url": "https://github.com/TransparentEdge/terraform-provider-transparentedge/releases/download/v0.5.0/terraform-provider-transparentedge_0.5.0_windows_arm.zip",
+          "shasum": "f007a4eaf7870907b5c698a556ac8bc902a5408fb4819332f02a2427973a896e"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-transparentedge_0.5.0_windows_386.zip",
+          "download_url": "https://github.com/TransparentEdge/terraform-provider-transparentedge/releases/download/v0.5.0/terraform-provider-transparentedge_0.5.0_windows_386.zip",
+          "shasum": "d665b4d0c049010bf81106f881f06f917fae8762f749ce72b90773c898749a86"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-transparentedge_0.5.0_freebsd_arm.zip",
+          "download_url": "https://github.com/TransparentEdge/terraform-provider-transparentedge/releases/download/v0.5.0/terraform-provider-transparentedge_0.5.0_freebsd_arm.zip",
+          "shasum": "86ef098ee11d4c0dd241b6534ca2cc654d26d629d85b1c95f46b82181017c857"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-transparentedge_0.5.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/TransparentEdge/terraform-provider-transparentedge/releases/download/v0.5.0/terraform-provider-transparentedge_0.5.0_freebsd_arm64.zip",
+          "shasum": "3488162a90bddadbb05126c3f886f0b18ec8f2619056ec54f72e370496ae8311"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-transparentedge_0.5.0_linux_arm.zip",
+          "download_url": "https://github.com/TransparentEdge/terraform-provider-transparentedge/releases/download/v0.5.0/terraform-provider-transparentedge_0.5.0_linux_arm.zip",
+          "shasum": "db4f2243d0662d1086e14bc2d71bb1370c7c4abf920c9ee8fe4724d3cc0cf8e7"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-transparentedge_0.5.0_linux_arm64.zip",
+          "download_url": "https://github.com/TransparentEdge/terraform-provider-transparentedge/releases/download/v0.5.0/terraform-provider-transparentedge_0.5.0_linux_arm64.zip",
+          "shasum": "200c57cb620313428cfc44986d176253a6589cf1cc2b717d1320ebd915526d1a"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-transparentedge_0.5.0_linux_amd64.zip",
+          "download_url": "https://github.com/TransparentEdge/terraform-provider-transparentedge/releases/download/v0.5.0/terraform-provider-transparentedge_0.5.0_linux_amd64.zip",
+          "shasum": "eceb0f1b2340559618c503ff5f78c5b2c3ab887340883ef0baf13c868f09d649"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-transparentedge_0.5.0_freebsd_386.zip",
+          "download_url": "https://github.com/TransparentEdge/terraform-provider-transparentedge/releases/download/v0.5.0/terraform-provider-transparentedge_0.5.0_freebsd_386.zip",
+          "shasum": "12c04d4ce3550ab94fb2357f0ea5e238661794d0e700dbb3cf0241a385f744bb"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-transparentedge_0.5.0_darwin_amd64.zip",
+          "download_url": "https://github.com/TransparentEdge/terraform-provider-transparentedge/releases/download/v0.5.0/terraform-provider-transparentedge_0.5.0_darwin_amd64.zip",
+          "shasum": "d2d9882e820c6e7e870ef1ab76d0a640c2534d627539a8194870cce7aeed3ee9"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-transparentedge_0.5.0_darwin_arm64.zip",
+          "download_url": "https://github.com/TransparentEdge/terraform-provider-transparentedge/releases/download/v0.5.0/terraform-provider-transparentedge_0.5.0_darwin_arm64.zip",
+          "shasum": "2651ff29eab03bfd00843dbc62de46605c7d05d5eef6873f3be2b6506630c6f8"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-transparentedge_0.5.0_linux_386.zip",
+          "download_url": "https://github.com/TransparentEdge/terraform-provider-transparentedge/releases/download/v0.5.0/terraform-provider-transparentedge_0.5.0_linux_386.zip",
+          "shasum": "8dec7af6f00966d9c92c412d283ec4b72ccbe1583da2f303097c0469231ec798"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-transparentedge_0.5.0_windows_arm64.zip",
+          "download_url": "https://github.com/TransparentEdge/terraform-provider-transparentedge/releases/download/v0.5.0/terraform-provider-transparentedge_0.5.0_windows_arm64.zip",
+          "shasum": "266f7e2129a0b01760be130e1a662f65712a1477c6ffbf79bafff02870639a54"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-transparentedge_0.5.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/TransparentEdge/terraform-provider-transparentedge/releases/download/v0.5.0/terraform-provider-transparentedge_0.5.0_freebsd_amd64.zip",
+          "shasum": "91c139662fe7bd4c65a7d822d13bf031889f8356670edd3d2aa21c061612cf83"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-transparentedge_0.5.0_windows_amd64.zip",
+          "download_url": "https://github.com/TransparentEdge/terraform-provider-transparentedge/releases/download/v0.5.0/terraform-provider-transparentedge_0.5.0_windows_amd64.zip",
+          "shasum": "4bc475e8b8675aef4e6cdf60b08442d9f3d240bbe144af24ff4294b97c2b975a"
+        }
+      ]
+    },
+    {
       "version": "0.4.3",
       "protocols": [
         "5.0"
