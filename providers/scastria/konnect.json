@@ -2,218 +2,110 @@
   "repository": "https://github.com/scastria/terraform-provider-konnect",
   "versions": [
     {
-      "version": "0.1.19",
+      "version": "0.2.0",
       "protocols": [
         "5.0"
       ],
-      "shasums_url": "https://github.com/scastria/terraform-provider-konnect/releases/download/v0.1.19/terraform-provider-konnect_0.1.19_SHA256SUMS",
-      "shasums_signature_url": "https://github.com/scastria/terraform-provider-konnect/releases/download/v0.1.19/terraform-provider-konnect_0.1.19_SHA256SUMS.sig",
+      "shasums_url": "https://github.com/scastria/terraform-provider-konnect/releases/download/v0.2.0/terraform-provider-konnect_0.2.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/scastria/terraform-provider-konnect/releases/download/v0.2.0/terraform-provider-konnect_0.2.0_SHA256SUMS.sig",
       "targets": [
         {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-konnect_0.2.0_windows_arm64.zip",
+          "download_url": "https://github.com/scastria/terraform-provider-konnect/releases/download/v0.2.0/terraform-provider-konnect_0.2.0_windows_arm64.zip",
+          "shasum": "f9d7ca9adc17173c962fe258f7198140601d9df7f8c38a225870440268770594"
+        },
+        {
           "os": "freebsd",
-          "arch": "amd64",
-          "filename": "terraform-provider-konnect_0.1.19_freebsd_amd64.zip",
-          "download_url": "https://github.com/scastria/terraform-provider-konnect/releases/download/v0.1.19/terraform-provider-konnect_0.1.19_freebsd_amd64.zip",
-          "shasum": "8b969897aee77329ec67a979138c5979566488de2039886f3b548f593e54dcb1"
+          "arch": "arm64",
+          "filename": "terraform-provider-konnect_0.2.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/scastria/terraform-provider-konnect/releases/download/v0.2.0/terraform-provider-konnect_0.2.0_freebsd_arm64.zip",
+          "shasum": "29a86404a680289e7d5e62a38d56141017cfefb92af1def71664e9a6df07423e"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-konnect_0.2.0_freebsd_386.zip",
+          "download_url": "https://github.com/scastria/terraform-provider-konnect/releases/download/v0.2.0/terraform-provider-konnect_0.2.0_freebsd_386.zip",
+          "shasum": "5edd942814b9f2b6bcd0275c5749a2ed6a2f14526882ed043ebd825d9e67d21d"
         },
         {
           "os": "windows",
           "arch": "386",
-          "filename": "terraform-provider-konnect_0.1.19_windows_386.zip",
-          "download_url": "https://github.com/scastria/terraform-provider-konnect/releases/download/v0.1.19/terraform-provider-konnect_0.1.19_windows_386.zip",
-          "shasum": "a3e843bee64ae681eb98ac4fcacf5233add9f5ded13090b58243b44c82123c8f"
+          "filename": "terraform-provider-konnect_0.2.0_windows_386.zip",
+          "download_url": "https://github.com/scastria/terraform-provider-konnect/releases/download/v0.2.0/terraform-provider-konnect_0.2.0_windows_386.zip",
+          "shasum": "4db3c0744f29669d0fced18ede3593df5ac16acfadafd26f5ac50fb452c68211"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-konnect_0.2.0_linux_386.zip",
+          "download_url": "https://github.com/scastria/terraform-provider-konnect/releases/download/v0.2.0/terraform-provider-konnect_0.2.0_linux_386.zip",
+          "shasum": "651db66a46ccd1b7fa1679654d2850a7a9159e5fddc30afd767e8d657fbc8809"
         },
         {
           "os": "darwin",
           "arch": "arm64",
-          "filename": "terraform-provider-konnect_0.1.19_darwin_arm64.zip",
-          "download_url": "https://github.com/scastria/terraform-provider-konnect/releases/download/v0.1.19/terraform-provider-konnect_0.1.19_darwin_arm64.zip",
-          "shasum": "227121d1228b58a4ad874336d4e34039436a122a975ef947eef834354103196d"
-        },
-        {
-          "os": "windows",
-          "arch": "arm64",
-          "filename": "terraform-provider-konnect_0.1.19_windows_arm64.zip",
-          "download_url": "https://github.com/scastria/terraform-provider-konnect/releases/download/v0.1.19/terraform-provider-konnect_0.1.19_windows_arm64.zip",
-          "shasum": "6f291740258b58ab99b487611c409ce23394354abe8a8c06b0201ba0243dfe25"
+          "filename": "terraform-provider-konnect_0.2.0_darwin_arm64.zip",
+          "download_url": "https://github.com/scastria/terraform-provider-konnect/releases/download/v0.2.0/terraform-provider-konnect_0.2.0_darwin_arm64.zip",
+          "shasum": "f4a8ccff20250dc3c774e833d0dbf9cb161abb4b13d8ababb7e3d34e38d8016b"
         },
         {
           "os": "linux",
-          "arch": "386",
-          "filename": "terraform-provider-konnect_0.1.19_linux_386.zip",
-          "download_url": "https://github.com/scastria/terraform-provider-konnect/releases/download/v0.1.19/terraform-provider-konnect_0.1.19_linux_386.zip",
-          "shasum": "235acdcff3cbc9ecedd862f3b44505fe30d6bff2ddbb076e4ba0743d07a6b7e9"
+          "arch": "amd64",
+          "filename": "terraform-provider-konnect_0.2.0_linux_amd64.zip",
+          "download_url": "https://github.com/scastria/terraform-provider-konnect/releases/download/v0.2.0/terraform-provider-konnect_0.2.0_linux_amd64.zip",
+          "shasum": "0b22ac0b3df74fbc92fb6c5e2261bb75379da95ce339cbed3f8202919e34801e"
         },
         {
           "os": "freebsd",
-          "arch": "386",
-          "filename": "terraform-provider-konnect_0.1.19_freebsd_386.zip",
-          "download_url": "https://github.com/scastria/terraform-provider-konnect/releases/download/v0.1.19/terraform-provider-konnect_0.1.19_freebsd_386.zip",
-          "shasum": "b36dc7c858b9359e6bc2d4642310932b050ee98795da21915fb1bfbb9b098b69"
+          "arch": "amd64",
+          "filename": "terraform-provider-konnect_0.2.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/scastria/terraform-provider-konnect/releases/download/v0.2.0/terraform-provider-konnect_0.2.0_freebsd_amd64.zip",
+          "shasum": "5fb59804c22ee83bf808f776508536c91f6dd8e889a59f707540c1f58637d6af"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-konnect_0.2.0_windows_arm.zip",
+          "download_url": "https://github.com/scastria/terraform-provider-konnect/releases/download/v0.2.0/terraform-provider-konnect_0.2.0_windows_arm.zip",
+          "shasum": "06e0e49f30e327696724bfa8a7a8669708d734a77661037f9c58cf7023860612"
         },
         {
           "os": "linux",
           "arch": "arm",
-          "filename": "terraform-provider-konnect_0.1.19_linux_arm.zip",
-          "download_url": "https://github.com/scastria/terraform-provider-konnect/releases/download/v0.1.19/terraform-provider-konnect_0.1.19_linux_arm.zip",
-          "shasum": "d044878dad2c8ac812bf8583d7dc24b69ec849355ddcdcc7c1bd2b1310b26ef3"
+          "filename": "terraform-provider-konnect_0.2.0_linux_arm.zip",
+          "download_url": "https://github.com/scastria/terraform-provider-konnect/releases/download/v0.2.0/terraform-provider-konnect_0.2.0_linux_arm.zip",
+          "shasum": "643b91cf0d6b5a36b7f445e4afe28248b84fe00bc3365530c086b81314bdf344"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-konnect_0.2.0_freebsd_arm.zip",
+          "download_url": "https://github.com/scastria/terraform-provider-konnect/releases/download/v0.2.0/terraform-provider-konnect_0.2.0_freebsd_arm.zip",
+          "shasum": "256d7607e57ba136703a61a50f9e5117cee0018270586e8bd93d6aaf166d589a"
         },
         {
           "os": "linux",
           "arch": "arm64",
-          "filename": "terraform-provider-konnect_0.1.19_linux_arm64.zip",
-          "download_url": "https://github.com/scastria/terraform-provider-konnect/releases/download/v0.1.19/terraform-provider-konnect_0.1.19_linux_arm64.zip",
-          "shasum": "543978c926b0c0976a8600fc7acce7bf48231400aec52e739ef7e9fd83ecc203"
+          "filename": "terraform-provider-konnect_0.2.0_linux_arm64.zip",
+          "download_url": "https://github.com/scastria/terraform-provider-konnect/releases/download/v0.2.0/terraform-provider-konnect_0.2.0_linux_arm64.zip",
+          "shasum": "9396972980d760021d0103e088bc968353cc6363a03017410ed2b692f794dac8"
         },
         {
           "os": "windows",
           "arch": "amd64",
-          "filename": "terraform-provider-konnect_0.1.19_windows_amd64.zip",
-          "download_url": "https://github.com/scastria/terraform-provider-konnect/releases/download/v0.1.19/terraform-provider-konnect_0.1.19_windows_amd64.zip",
-          "shasum": "8dbe995dece8b28bae21bc63d07790ef8747f5628c440e2396ed15202de86c52"
-        },
-        {
-          "os": "linux",
-          "arch": "amd64",
-          "filename": "terraform-provider-konnect_0.1.19_linux_amd64.zip",
-          "download_url": "https://github.com/scastria/terraform-provider-konnect/releases/download/v0.1.19/terraform-provider-konnect_0.1.19_linux_amd64.zip",
-          "shasum": "3ef8f664c3e4c665e5fe86b619bb9f88bd5571283e1869ad9a55c9c34e8cd158"
+          "filename": "terraform-provider-konnect_0.2.0_windows_amd64.zip",
+          "download_url": "https://github.com/scastria/terraform-provider-konnect/releases/download/v0.2.0/terraform-provider-konnect_0.2.0_windows_amd64.zip",
+          "shasum": "da9b5c94ffdeca130c262cfc1a6424030cd8399a1a0873ebc6b677633de46d41"
         },
         {
           "os": "darwin",
           "arch": "amd64",
-          "filename": "terraform-provider-konnect_0.1.19_darwin_amd64.zip",
-          "download_url": "https://github.com/scastria/terraform-provider-konnect/releases/download/v0.1.19/terraform-provider-konnect_0.1.19_darwin_amd64.zip",
-          "shasum": "cc48a2294b3d841c650b4a182589aa3a462e0ba6b4f37590852f699f1e19f6f7"
-        },
-        {
-          "os": "freebsd",
-          "arch": "arm",
-          "filename": "terraform-provider-konnect_0.1.19_freebsd_arm.zip",
-          "download_url": "https://github.com/scastria/terraform-provider-konnect/releases/download/v0.1.19/terraform-provider-konnect_0.1.19_freebsd_arm.zip",
-          "shasum": "f931a3dc14d2f649fc25c1b5f39c1aad0cdb5dfcc91e61605d51da035fd423a3"
-        },
-        {
-          "os": "freebsd",
-          "arch": "arm64",
-          "filename": "terraform-provider-konnect_0.1.19_freebsd_arm64.zip",
-          "download_url": "https://github.com/scastria/terraform-provider-konnect/releases/download/v0.1.19/terraform-provider-konnect_0.1.19_freebsd_arm64.zip",
-          "shasum": "3c19ca5e65493b518aa98d0df79b34a24adc00c4e17532123a49582d2293e5d5"
-        },
-        {
-          "os": "windows",
-          "arch": "arm",
-          "filename": "terraform-provider-konnect_0.1.19_windows_arm.zip",
-          "download_url": "https://github.com/scastria/terraform-provider-konnect/releases/download/v0.1.19/terraform-provider-konnect_0.1.19_windows_arm.zip",
-          "shasum": "f9d6bdaa301e11f390cfa6d024197faccb81e4973607aed2f69470e6d130eb73"
-        }
-      ]
-    },
-    {
-      "version": "0.1.16",
-      "protocols": [
-        "5.0"
-      ],
-      "shasums_url": "https://github.com/scastria/terraform-provider-konnect/releases/download/v0.1.16/terraform-provider-konnect_0.1.16_SHA256SUMS",
-      "shasums_signature_url": "https://github.com/scastria/terraform-provider-konnect/releases/download/v0.1.16/terraform-provider-konnect_0.1.16_SHA256SUMS.sig",
-      "targets": [
-        {
-          "os": "freebsd",
-          "arch": "amd64",
-          "filename": "terraform-provider-konnect_0.1.16_freebsd_amd64.zip",
-          "download_url": "https://github.com/scastria/terraform-provider-konnect/releases/download/v0.1.16/terraform-provider-konnect_0.1.16_freebsd_amd64.zip",
-          "shasum": "91a45adfc27ed572482ac8cb21e0995f74112d8576b9de5fc0fc420f2ed054e6"
-        },
-        {
-          "os": "linux",
-          "arch": "arm",
-          "filename": "terraform-provider-konnect_0.1.16_linux_arm.zip",
-          "download_url": "https://github.com/scastria/terraform-provider-konnect/releases/download/v0.1.16/terraform-provider-konnect_0.1.16_linux_arm.zip",
-          "shasum": "1fc13fccdf25e62e71fe2262be8197ae106322831a37d74ad9b21c1714fc05fc"
-        },
-        {
-          "os": "windows",
-          "arch": "arm",
-          "filename": "terraform-provider-konnect_0.1.16_windows_arm.zip",
-          "download_url": "https://github.com/scastria/terraform-provider-konnect/releases/download/v0.1.16/terraform-provider-konnect_0.1.16_windows_arm.zip",
-          "shasum": "6d98f9b56c25a32f9255f4010faceb7d3163cda8ee7b915055321dc3cd83fffc"
-        },
-        {
-          "os": "freebsd",
-          "arch": "386",
-          "filename": "terraform-provider-konnect_0.1.16_freebsd_386.zip",
-          "download_url": "https://github.com/scastria/terraform-provider-konnect/releases/download/v0.1.16/terraform-provider-konnect_0.1.16_freebsd_386.zip",
-          "shasum": "75f6b20cb76380307fb306cea56328bacff7dd803c678674e8c51b00ba1c7922"
-        },
-        {
-          "os": "windows",
-          "arch": "386",
-          "filename": "terraform-provider-konnect_0.1.16_windows_386.zip",
-          "download_url": "https://github.com/scastria/terraform-provider-konnect/releases/download/v0.1.16/terraform-provider-konnect_0.1.16_windows_386.zip",
-          "shasum": "a26f4f674cf91cbf7a179df1ba89cffc0b639ed7a223183437e1b3b041af5780"
-        },
-        {
-          "os": "linux",
-          "arch": "arm64",
-          "filename": "terraform-provider-konnect_0.1.16_linux_arm64.zip",
-          "download_url": "https://github.com/scastria/terraform-provider-konnect/releases/download/v0.1.16/terraform-provider-konnect_0.1.16_linux_arm64.zip",
-          "shasum": "12c2eb10b0cac25eff0f8d42a216224d1916d3d51a6887145acc0baf3c72d52e"
-        },
-        {
-          "os": "windows",
-          "arch": "arm64",
-          "filename": "terraform-provider-konnect_0.1.16_windows_arm64.zip",
-          "download_url": "https://github.com/scastria/terraform-provider-konnect/releases/download/v0.1.16/terraform-provider-konnect_0.1.16_windows_arm64.zip",
-          "shasum": "1f7e204de4b72227a59ca5da237f067f5334ab0806c19db827ed6cc88548dc8f"
-        },
-        {
-          "os": "freebsd",
-          "arch": "arm64",
-          "filename": "terraform-provider-konnect_0.1.16_freebsd_arm64.zip",
-          "download_url": "https://github.com/scastria/terraform-provider-konnect/releases/download/v0.1.16/terraform-provider-konnect_0.1.16_freebsd_arm64.zip",
-          "shasum": "112589b5c52f6e66602f9fd898f39e95e9ae18c3dcfb620f81eea0f2d46ff4ac"
-        },
-        {
-          "os": "linux",
-          "arch": "386",
-          "filename": "terraform-provider-konnect_0.1.16_linux_386.zip",
-          "download_url": "https://github.com/scastria/terraform-provider-konnect/releases/download/v0.1.16/terraform-provider-konnect_0.1.16_linux_386.zip",
-          "shasum": "5d8d732007e371f24579ee9ecbd09010b77f872dc2c2d0129672d80ef5a4deb1"
-        },
-        {
-          "os": "linux",
-          "arch": "amd64",
-          "filename": "terraform-provider-konnect_0.1.16_linux_amd64.zip",
-          "download_url": "https://github.com/scastria/terraform-provider-konnect/releases/download/v0.1.16/terraform-provider-konnect_0.1.16_linux_amd64.zip",
-          "shasum": "2bae0fd917b89a88e8100abde36f770d694433feaf58434a32d102d2d9f24514"
-        },
-        {
-          "os": "darwin",
-          "arch": "arm64",
-          "filename": "terraform-provider-konnect_0.1.16_darwin_arm64.zip",
-          "download_url": "https://github.com/scastria/terraform-provider-konnect/releases/download/v0.1.16/terraform-provider-konnect_0.1.16_darwin_arm64.zip",
-          "shasum": "89950d8e3c80dd3af759b742776c8db6579c97aa001687191bb71280f3b0f81b"
-        },
-        {
-          "os": "freebsd",
-          "arch": "arm",
-          "filename": "terraform-provider-konnect_0.1.16_freebsd_arm.zip",
-          "download_url": "https://github.com/scastria/terraform-provider-konnect/releases/download/v0.1.16/terraform-provider-konnect_0.1.16_freebsd_arm.zip",
-          "shasum": "960b1ece30c969b2c52786b1a7eca9334a47274bbf489773c58d512a1937ded6"
-        },
-        {
-          "os": "windows",
-          "arch": "amd64",
-          "filename": "terraform-provider-konnect_0.1.16_windows_amd64.zip",
-          "download_url": "https://github.com/scastria/terraform-provider-konnect/releases/download/v0.1.16/terraform-provider-konnect_0.1.16_windows_amd64.zip",
-          "shasum": "645042cb386615c7c985ac88080ba1c1b1b1665505bd97a44855d940e9fcae2c"
-        },
-        {
-          "os": "darwin",
-          "arch": "amd64",
-          "filename": "terraform-provider-konnect_0.1.16_darwin_amd64.zip",
-          "download_url": "https://github.com/scastria/terraform-provider-konnect/releases/download/v0.1.16/terraform-provider-konnect_0.1.16_darwin_amd64.zip",
-          "shasum": "90e5f9194bc71f0a57f48384c890bdf00151b5c0b45bdc1991d599647c01353a"
+          "filename": "terraform-provider-konnect_0.2.0_darwin_amd64.zip",
+          "download_url": "https://github.com/scastria/terraform-provider-konnect/releases/download/v0.2.0/terraform-provider-konnect_0.2.0_darwin_amd64.zip",
+          "shasum": "ae94768377d677ee561ba61637a81a3b1ca8d92e6a8f1dfd2c2f4579d64c16c7"
         }
       ]
     },
