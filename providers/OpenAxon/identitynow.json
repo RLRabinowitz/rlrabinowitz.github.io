@@ -2,6 +2,93 @@
   "repository": "https://github.com/OpenAxon/terraform-provider-identitynow",
   "versions": [
     {
+      "version": "0.4.2",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/OpenAxon/terraform-provider-identitynow/releases/download/v0.4.2/terraform-provider-identitynow_0.4.2_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/OpenAxon/terraform-provider-identitynow/releases/download/v0.4.2/terraform-provider-identitynow_0.4.2_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-identitynow_0.4.2_linux_amd64.zip",
+          "download_url": "https://github.com/OpenAxon/terraform-provider-identitynow/releases/download/v0.4.2/terraform-provider-identitynow_0.4.2_linux_amd64.zip",
+          "shasum": "5d4c315551941a9ccb144f62bf0818058393ef72ed85862fb6d655622372d035"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-identitynow_0.4.2_linux_arm.zip",
+          "download_url": "https://github.com/OpenAxon/terraform-provider-identitynow/releases/download/v0.4.2/terraform-provider-identitynow_0.4.2_linux_arm.zip",
+          "shasum": "f9397bd816af2e6d7d14caccf05914fd4c57115a0be080ae8cadc8919ed5436e"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-identitynow_0.4.2_linux_386.zip",
+          "download_url": "https://github.com/OpenAxon/terraform-provider-identitynow/releases/download/v0.4.2/terraform-provider-identitynow_0.4.2_linux_386.zip",
+          "shasum": "c1e56ff314548bd094fc478919c42cb8f29039f56db70b88ce902a9d6dc92fec"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-identitynow_0.4.2_windows_386.zip",
+          "download_url": "https://github.com/OpenAxon/terraform-provider-identitynow/releases/download/v0.4.2/terraform-provider-identitynow_0.4.2_windows_386.zip",
+          "shasum": "b4a11183b7cdf051e59ebd32652a951061013607adfe767a2762252836efa79d"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-identitynow_0.4.2_darwin_arm64.zip",
+          "download_url": "https://github.com/OpenAxon/terraform-provider-identitynow/releases/download/v0.4.2/terraform-provider-identitynow_0.4.2_darwin_arm64.zip",
+          "shasum": "84e267bb5ac844c620dd8b15c359ad551030f69d91f87b0926c076830627c26a"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-identitynow_0.4.2_freebsd_arm.zip",
+          "download_url": "https://github.com/OpenAxon/terraform-provider-identitynow/releases/download/v0.4.2/terraform-provider-identitynow_0.4.2_freebsd_arm.zip",
+          "shasum": "ca31bea2bad44c22ce8432a841f7218a7fdef556d3dbc8ec43207713d4790fe3"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-identitynow_0.4.2_freebsd_amd64.zip",
+          "download_url": "https://github.com/OpenAxon/terraform-provider-identitynow/releases/download/v0.4.2/terraform-provider-identitynow_0.4.2_freebsd_amd64.zip",
+          "shasum": "26ad90625993e0ee4cb2b6e05b34e89b87e4b71ca30d0c86c3c425065c827b5f"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-identitynow_0.4.2_windows_amd64.zip",
+          "download_url": "https://github.com/OpenAxon/terraform-provider-identitynow/releases/download/v0.4.2/terraform-provider-identitynow_0.4.2_windows_amd64.zip",
+          "shasum": "ed9ec378e25757fed6309cd1cb4a59ddc727147d48f3d27e152f1e27b17cdb61"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-identitynow_0.4.2_linux_arm64.zip",
+          "download_url": "https://github.com/OpenAxon/terraform-provider-identitynow/releases/download/v0.4.2/terraform-provider-identitynow_0.4.2_linux_arm64.zip",
+          "shasum": "b9edf4b6b5c11e42fcea840e54ff2d46946a31aef7acbec47441dec40d7d7b64"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-identitynow_0.4.2_freebsd_386.zip",
+          "download_url": "https://github.com/OpenAxon/terraform-provider-identitynow/releases/download/v0.4.2/terraform-provider-identitynow_0.4.2_freebsd_386.zip",
+          "shasum": "5023795cf1fb2645eedc893d29ee4c12560f0e81bfd113360de326a9e881a1da"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-identitynow_0.4.2_darwin_amd64.zip",
+          "download_url": "https://github.com/OpenAxon/terraform-provider-identitynow/releases/download/v0.4.2/terraform-provider-identitynow_0.4.2_darwin_amd64.zip",
+          "shasum": "34c72435a95643c3d396f6f7755c6f894fd820da49d8a81013792f07433b977f"
+        }
+      ]
+    },
+    {
       "version": "0.4.0",
       "protocols": [
         "5.0"
@@ -85,6 +172,93 @@
           "filename": "terraform-provider-identitynow_0.4.0_linux_arm64.zip",
           "download_url": "https://github.com/OpenAxon/terraform-provider-identitynow/releases/download/v0.4.0/terraform-provider-identitynow_0.4.0_linux_arm64.zip",
           "shasum": "5508403ea2371ab7202c1e271795a4d4620c98b85a7f053299f63fd4290341d8"
+        }
+      ]
+    },
+    {
+      "version": "0.4.1",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/OpenAxon/terraform-provider-identitynow/releases/download/v0.4.1/terraform-provider-identitynow_0.4.1_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/OpenAxon/terraform-provider-identitynow/releases/download/v0.4.1/terraform-provider-identitynow_0.4.1_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-identitynow_0.4.1_linux_arm64.zip",
+          "download_url": "https://github.com/OpenAxon/terraform-provider-identitynow/releases/download/v0.4.1/terraform-provider-identitynow_0.4.1_linux_arm64.zip",
+          "shasum": "1b5f30fb8915b92333f244408bf01a794f70d6cda220186f2664a4f3987db895"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-identitynow_0.4.1_darwin_amd64.zip",
+          "download_url": "https://github.com/OpenAxon/terraform-provider-identitynow/releases/download/v0.4.1/terraform-provider-identitynow_0.4.1_darwin_amd64.zip",
+          "shasum": "6da9cd11acdca435a27b9b8a0a6b75607ef2642ae37f407bdec430f51fb19aa2"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-identitynow_0.4.1_freebsd_arm.zip",
+          "download_url": "https://github.com/OpenAxon/terraform-provider-identitynow/releases/download/v0.4.1/terraform-provider-identitynow_0.4.1_freebsd_arm.zip",
+          "shasum": "5418a1d68a6cd81281a423e9e3892d69f1d5596d197e47d4b5f96eadcb14719d"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-identitynow_0.4.1_linux_amd64.zip",
+          "download_url": "https://github.com/OpenAxon/terraform-provider-identitynow/releases/download/v0.4.1/terraform-provider-identitynow_0.4.1_linux_amd64.zip",
+          "shasum": "5bae3a930ee59c9335e485aa1d31c8afaa087d1dd42542a24fdec90cb19f5357"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-identitynow_0.4.1_freebsd_386.zip",
+          "download_url": "https://github.com/OpenAxon/terraform-provider-identitynow/releases/download/v0.4.1/terraform-provider-identitynow_0.4.1_freebsd_386.zip",
+          "shasum": "79897b5ad027008a17ca2719220231191739a7cf43aed15cfe2662963af85c68"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-identitynow_0.4.1_windows_amd64.zip",
+          "download_url": "https://github.com/OpenAxon/terraform-provider-identitynow/releases/download/v0.4.1/terraform-provider-identitynow_0.4.1_windows_amd64.zip",
+          "shasum": "83e4d4357f212e6d6f203f002ae95333b93ccc1eb081be59e40d29bce47d5959"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-identitynow_0.4.1_windows_386.zip",
+          "download_url": "https://github.com/OpenAxon/terraform-provider-identitynow/releases/download/v0.4.1/terraform-provider-identitynow_0.4.1_windows_386.zip",
+          "shasum": "8a852e157a81706d38fb2e126cd88168aef28f2f541610c678025c960c7897b5"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-identitynow_0.4.1_freebsd_amd64.zip",
+          "download_url": "https://github.com/OpenAxon/terraform-provider-identitynow/releases/download/v0.4.1/terraform-provider-identitynow_0.4.1_freebsd_amd64.zip",
+          "shasum": "f36c58a96eafc8b837742999acb974f3fc83920c197aa5f25d958081e96bd585"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-identitynow_0.4.1_linux_386.zip",
+          "download_url": "https://github.com/OpenAxon/terraform-provider-identitynow/releases/download/v0.4.1/terraform-provider-identitynow_0.4.1_linux_386.zip",
+          "shasum": "78997e723fc9b68e1faaefc4280e0b65e509fc5de9040be72574d04c2048be0e"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-identitynow_0.4.1_linux_arm.zip",
+          "download_url": "https://github.com/OpenAxon/terraform-provider-identitynow/releases/download/v0.4.1/terraform-provider-identitynow_0.4.1_linux_arm.zip",
+          "shasum": "fa092cfd1af70a39d0b97d37f69863291c698d679fe2c7b3bd237a6200b4141e"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-identitynow_0.4.1_darwin_arm64.zip",
+          "download_url": "https://github.com/OpenAxon/terraform-provider-identitynow/releases/download/v0.4.1/terraform-provider-identitynow_0.4.1_darwin_arm64.zip",
+          "shasum": "f68c8f609cb4df517ffcbfbae6bce518958e7656d9ea55b2543409c4d2338336"
         }
       ]
     },
