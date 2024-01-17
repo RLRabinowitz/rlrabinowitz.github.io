@@ -2,6 +2,72 @@
   "repository": "https://github.com/ns1-infra/terraform-provider-netbox",
   "versions": [
     {
+      "version": "3.0.6",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/ns1-infra/terraform-provider-netbox/releases/download/v3.0.6/terraform-provider-netbox_3.0.6_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/ns1-infra/terraform-provider-netbox/releases/download/v3.0.6/terraform-provider-netbox_3.0.6_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-netbox_3.0.6_windows_arm64.zip",
+          "download_url": "https://github.com/ns1-infra/terraform-provider-netbox/releases/download/v3.0.6/terraform-provider-netbox_3.0.6_windows_arm64.zip",
+          "shasum": "b06b6486d85fd93ea564e3efc824a0b440d605dd92f99d835a87bdd8485deb88"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-netbox_3.0.6_windows_386.zip",
+          "download_url": "https://github.com/ns1-infra/terraform-provider-netbox/releases/download/v3.0.6/terraform-provider-netbox_3.0.6_windows_386.zip",
+          "shasum": "cf8482fb5916a045c367a34b76bc0cb90be0779f1064589afd4d56a6cc7ec8ef"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-netbox_3.0.6_linux_amd64.zip",
+          "download_url": "https://github.com/ns1-infra/terraform-provider-netbox/releases/download/v3.0.6/terraform-provider-netbox_3.0.6_linux_amd64.zip",
+          "shasum": "b11333486256ae518d9920162480527a9f4f6e9ef3239f4109ea192100ab61e0"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-netbox_3.0.6_windows_amd64.zip",
+          "download_url": "https://github.com/ns1-infra/terraform-provider-netbox/releases/download/v3.0.6/terraform-provider-netbox_3.0.6_windows_amd64.zip",
+          "shasum": "29c3c44f009a4cd63a70e4b20d4d380ee2ed534e32137227fa59b1ddee0b42cb"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-netbox_3.0.6_linux_386.zip",
+          "download_url": "https://github.com/ns1-infra/terraform-provider-netbox/releases/download/v3.0.6/terraform-provider-netbox_3.0.6_linux_386.zip",
+          "shasum": "5037e4b5126ebe1602c5a7abce97f8a8f3e20100f2cbeea88a56cbbc86d27292"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-netbox_3.0.6_linux_arm64.zip",
+          "download_url": "https://github.com/ns1-infra/terraform-provider-netbox/releases/download/v3.0.6/terraform-provider-netbox_3.0.6_linux_arm64.zip",
+          "shasum": "f8bc32bcab41835814a23bb3f85cd8d0bda029353daa703b7afbf107cfae9f01"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-netbox_3.0.6_darwin_arm64.zip",
+          "download_url": "https://github.com/ns1-infra/terraform-provider-netbox/releases/download/v3.0.6/terraform-provider-netbox_3.0.6_darwin_arm64.zip",
+          "shasum": "c9e7cce5b3705935e5769269b25f361e285e2377fd516e0a6ccfc081d9531178"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-netbox_3.0.6_darwin_amd64.zip",
+          "download_url": "https://github.com/ns1-infra/terraform-provider-netbox/releases/download/v3.0.6/terraform-provider-netbox_3.0.6_darwin_amd64.zip",
+          "shasum": "2a4f3f5bfaade6faada8a868a799b5181431a9ff63465f6c1ed2f96569b25393"
+        }
+      ]
+    },
+    {
       "version": "3.0.5",
       "protocols": [
         "5.0"
