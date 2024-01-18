@@ -2,6 +2,173 @@
   "repository": "https://github.com/metalsoft-io/terraform-provider-metalcloud",
   "versions": [
     {
+      "version": "2.5.3",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/metalsoft-io/terraform-provider-metalcloud/releases/download/v2.5.3/terraform-provider-metalcloud_2.5.3_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/metalsoft-io/terraform-provider-metalcloud/releases/download/v2.5.3/terraform-provider-metalcloud_2.5.3_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-metalcloud_v2.5.3_windows_amd64.zip",
+          "download_url": "https://github.com/metalsoft-io/terraform-provider-metalcloud/releases/download/v2.5.3/terraform-provider-metalcloud_v2.5.3_windows_amd64.zip",
+          "shasum": ""
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-metalcloud_2.5.3_freebsd_arm64.zip",
+          "download_url": "https://github.com/metalsoft-io/terraform-provider-metalcloud/releases/download/v2.5.3/terraform-provider-metalcloud_2.5.3_freebsd_arm64.zip",
+          "shasum": "8fb62df08ff574c1642f16c3f4df97c017afa08f4a6bc2e01aa1171fc1dea858"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-metalcloud_2.5.3_linux_386.zip",
+          "download_url": "https://github.com/metalsoft-io/terraform-provider-metalcloud/releases/download/v2.5.3/terraform-provider-metalcloud_2.5.3_linux_386.zip",
+          "shasum": "df5349c0a7a51a9213f7dbf78638dbfc37a732a9818fcbc6af664f16be300331"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-metalcloud_2.5.3_linux_arm.zip",
+          "download_url": "https://github.com/metalsoft-io/terraform-provider-metalcloud/releases/download/v2.5.3/terraform-provider-metalcloud_2.5.3_linux_arm.zip",
+          "shasum": "671ba4c571c01291d75a2a8ec103ea8b8ad71e58ffe6e2e01b8fd0bca57a2cfc"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-metalcloud_2.5.3_freebsd_arm.zip",
+          "download_url": "https://github.com/metalsoft-io/terraform-provider-metalcloud/releases/download/v2.5.3/terraform-provider-metalcloud_2.5.3_freebsd_arm.zip",
+          "shasum": "2f670defc9b51da95290786fc60f03e021d128cd117c4648e1f3718b3608408b"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-metalcloud_2.5.3_linux_amd64.zip",
+          "download_url": "https://github.com/metalsoft-io/terraform-provider-metalcloud/releases/download/v2.5.3/terraform-provider-metalcloud_2.5.3_linux_amd64.zip",
+          "shasum": "a68086b885f173a1d990cf159ea5515904008c1df1417422d8445f0b286f3c1d"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-metalcloud_2.5.3_freebsd_386.zip",
+          "download_url": "https://github.com/metalsoft-io/terraform-provider-metalcloud/releases/download/v2.5.3/terraform-provider-metalcloud_2.5.3_freebsd_386.zip",
+          "shasum": "6c990bc8eba480f1f922fc7c2142800e0180d8aa779d9ef388b1f2a659f123cf"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-metalcloud_2.5.3_freebsd_amd64.zip",
+          "download_url": "https://github.com/metalsoft-io/terraform-provider-metalcloud/releases/download/v2.5.3/terraform-provider-metalcloud_2.5.3_freebsd_amd64.zip",
+          "shasum": "adb3b3ac8e0bd551dcc55bcf7bb3a7968c5df3e7dc6900aee2414d36ce4ac07d"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-metalcloud_2.5.3_linux_arm64.zip",
+          "download_url": "https://github.com/metalsoft-io/terraform-provider-metalcloud/releases/download/v2.5.3/terraform-provider-metalcloud_2.5.3_linux_arm64.zip",
+          "shasum": "d3f2bfd004ccd286cc7554de7b3bdeaf907ac31161316397dc55811a19895517"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-metalcloud_2.5.3_darwin_amd64.zip",
+          "download_url": "https://github.com/metalsoft-io/terraform-provider-metalcloud/releases/download/v2.5.3/terraform-provider-metalcloud_2.5.3_darwin_amd64.zip",
+          "shasum": "d91df305415c96fedb5f625490f6cbc94f7f093c72f596750ef635ea826021f8"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-metalcloud_2.5.3_darwin_arm64.zip",
+          "download_url": "https://github.com/metalsoft-io/terraform-provider-metalcloud/releases/download/v2.5.3/terraform-provider-metalcloud_2.5.3_darwin_arm64.zip",
+          "shasum": "80fd9b881fffea328fd3dbd2b707e153080fa597b4f780d03801d5148aec15f7"
+        }
+      ]
+    },
+    {
+      "version": "2.5.2",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/metalsoft-io/terraform-provider-metalcloud/releases/download/v2.5.2/terraform-provider-metalcloud_2.5.2_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/metalsoft-io/terraform-provider-metalcloud/releases/download/v2.5.2/terraform-provider-metalcloud_2.5.2_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-metalcloud_2.5.2_linux_arm.zip",
+          "download_url": "https://github.com/metalsoft-io/terraform-provider-metalcloud/releases/download/v2.5.2/terraform-provider-metalcloud_2.5.2_linux_arm.zip",
+          "shasum": "970f7f09bf5bcff11b372ec5274e30a6939177ad190b5e02f97543b37ed42410"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-metalcloud_2.5.2_freebsd_amd64.zip",
+          "download_url": "https://github.com/metalsoft-io/terraform-provider-metalcloud/releases/download/v2.5.2/terraform-provider-metalcloud_2.5.2_freebsd_amd64.zip",
+          "shasum": "7382c2f54946c8e8a86734d4e306adf3677f44073dccfc900df040db1b598351"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-metalcloud_2.5.2_freebsd_386.zip",
+          "download_url": "https://github.com/metalsoft-io/terraform-provider-metalcloud/releases/download/v2.5.2/terraform-provider-metalcloud_2.5.2_freebsd_386.zip",
+          "shasum": "d8225c8bef072ca8aed7687fa8fe0592e91d05d402dae5b6d75bb93b09d3e1bf"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-metalcloud_2.5.2_freebsd_arm64.zip",
+          "download_url": "https://github.com/metalsoft-io/terraform-provider-metalcloud/releases/download/v2.5.2/terraform-provider-metalcloud_2.5.2_freebsd_arm64.zip",
+          "shasum": "a441843dbf401df36ebf0a43563a46180cf31318ef49667456c95225f5fac4e7"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-metalcloud_2.5.2_linux_386.zip",
+          "download_url": "https://github.com/metalsoft-io/terraform-provider-metalcloud/releases/download/v2.5.2/terraform-provider-metalcloud_2.5.2_linux_386.zip",
+          "shasum": "cd69a197dd791a23f134af6f0b671bed02bf5c3d447e82b86c74246b62a5c13d"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-metalcloud_2.5.2_linux_arm64.zip",
+          "download_url": "https://github.com/metalsoft-io/terraform-provider-metalcloud/releases/download/v2.5.2/terraform-provider-metalcloud_2.5.2_linux_arm64.zip",
+          "shasum": "0861e85882b3800405f898fd13e430145e35e5f9a1c06a98849b4f2b28414e44"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-metalcloud_2.5.2_darwin_amd64.zip",
+          "download_url": "https://github.com/metalsoft-io/terraform-provider-metalcloud/releases/download/v2.5.2/terraform-provider-metalcloud_2.5.2_darwin_amd64.zip",
+          "shasum": "54acced684d8f2bf1222f56114549b5f6a4b36d8750a5572648f469ba68dfefd"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-metalcloud_2.5.2_freebsd_arm.zip",
+          "download_url": "https://github.com/metalsoft-io/terraform-provider-metalcloud/releases/download/v2.5.2/terraform-provider-metalcloud_2.5.2_freebsd_arm.zip",
+          "shasum": "1d768f5a2933e221a551f4a3de1ced68521da24f1e408e8409e28cf4225dcc12"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-metalcloud_2.5.2_linux_amd64.zip",
+          "download_url": "https://github.com/metalsoft-io/terraform-provider-metalcloud/releases/download/v2.5.2/terraform-provider-metalcloud_2.5.2_linux_amd64.zip",
+          "shasum": "05ed16e02fd2802c8e719bda413f5c0a5d7d0f284fe7716e148b074b4c43f725"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-metalcloud_2.5.2_darwin_arm64.zip",
+          "download_url": "https://github.com/metalsoft-io/terraform-provider-metalcloud/releases/download/v2.5.2/terraform-provider-metalcloud_2.5.2_darwin_arm64.zip",
+          "shasum": "c59648e92e7aeb67f73d88ab9a27a8ac4c36bd97bff7ae8d8db2ac62cf6efe67"
+        }
+      ]
+    },
+    {
       "version": "2.5.1",
       "protocols": [
         "5.0"
@@ -11,73 +178,73 @@
       "targets": [
         {
           "os": "linux",
-          "arch": "arm",
-          "filename": "terraform-provider-metalcloud_2.5.1_linux_arm.zip",
-          "download_url": "https://github.com/metalsoft-io/terraform-provider-metalcloud/releases/download/v2.5.1/terraform-provider-metalcloud_2.5.1_linux_arm.zip",
-          "shasum": "1fb4ae00a5046af6aa125d73492cdb74abaf9d6d5c0d2bcea7c9d633e32c97cb"
-        },
-        {
-          "os": "freebsd",
-          "arch": "arm64",
-          "filename": "terraform-provider-metalcloud_2.5.1_freebsd_arm64.zip",
-          "download_url": "https://github.com/metalsoft-io/terraform-provider-metalcloud/releases/download/v2.5.1/terraform-provider-metalcloud_2.5.1_freebsd_arm64.zip",
-          "shasum": "72c0e15981733422ea300d53159bc75a281bc1f4ac27aade80315101ec628b03"
-        },
-        {
-          "os": "freebsd",
-          "arch": "386",
-          "filename": "terraform-provider-metalcloud_2.5.1_freebsd_386.zip",
-          "download_url": "https://github.com/metalsoft-io/terraform-provider-metalcloud/releases/download/v2.5.1/terraform-provider-metalcloud_2.5.1_freebsd_386.zip",
-          "shasum": "5549869ddcfd62be9fce55a872dd8eff6dce268cfba68c14f624d78cf0f53e61"
-        },
-        {
-          "os": "darwin",
-          "arch": "amd64",
-          "filename": "terraform-provider-metalcloud_2.5.1_darwin_amd64.zip",
-          "download_url": "https://github.com/metalsoft-io/terraform-provider-metalcloud/releases/download/v2.5.1/terraform-provider-metalcloud_2.5.1_darwin_amd64.zip",
-          "shasum": "28a332961e270d9b29272470b79989d3bd3545de7194b01a5ce088093f54ddd1"
-        },
-        {
-          "os": "linux",
           "arch": "386",
           "filename": "terraform-provider-metalcloud_2.5.1_linux_386.zip",
           "download_url": "https://github.com/metalsoft-io/terraform-provider-metalcloud/releases/download/v2.5.1/terraform-provider-metalcloud_2.5.1_linux_386.zip",
-          "shasum": "de124d755485ca7695d97e9f856b9fe7ebec7b8c050425ce7ca457b2a2dbb071"
-        },
-        {
-          "os": "freebsd",
-          "arch": "amd64",
-          "filename": "terraform-provider-metalcloud_2.5.1_freebsd_amd64.zip",
-          "download_url": "https://github.com/metalsoft-io/terraform-provider-metalcloud/releases/download/v2.5.1/terraform-provider-metalcloud_2.5.1_freebsd_amd64.zip",
-          "shasum": "49af1847e85c42096bb4044c219b574981770c41794c15eb8813dd0810ecae7c"
-        },
-        {
-          "os": "linux",
-          "arch": "amd64",
-          "filename": "terraform-provider-metalcloud_2.5.1_linux_amd64.zip",
-          "download_url": "https://github.com/metalsoft-io/terraform-provider-metalcloud/releases/download/v2.5.1/terraform-provider-metalcloud_2.5.1_linux_amd64.zip",
-          "shasum": "f32960961b3f2c271458d7b40c5e7c0a79ff7e89eab9ccd1d4f16181c5f63639"
+          "shasum": "4b62d7adc790a3699f66bc89fa2b2873802fc5593fee548fd4560152b4ae4d0e"
         },
         {
           "os": "linux",
           "arch": "arm64",
           "filename": "terraform-provider-metalcloud_2.5.1_linux_arm64.zip",
           "download_url": "https://github.com/metalsoft-io/terraform-provider-metalcloud/releases/download/v2.5.1/terraform-provider-metalcloud_2.5.1_linux_arm64.zip",
-          "shasum": "70cb2daaa53b2caa4f6ea4ad267c70f9f95c95de75c021c31b48728f641a71c6"
+          "shasum": "2b98fd0e7a99b748468ce21a698aea89195667cabc25760817bb86b036e57bcc"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-metalcloud_2.5.1_darwin_amd64.zip",
+          "download_url": "https://github.com/metalsoft-io/terraform-provider-metalcloud/releases/download/v2.5.1/terraform-provider-metalcloud_2.5.1_darwin_amd64.zip",
+          "shasum": "99d9e0460cfe4e87dd6ccfc32211e0c4c54bc0b9fc6e5a4d23f89aa2de534b85"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-metalcloud_2.5.1_linux_amd64.zip",
+          "download_url": "https://github.com/metalsoft-io/terraform-provider-metalcloud/releases/download/v2.5.1/terraform-provider-metalcloud_2.5.1_linux_amd64.zip",
+          "shasum": "051b87cd92dbcfd636b70e9c3f30e884338f22a0f2958e0b1f8e2b09254cdc91"
         },
         {
           "os": "freebsd",
           "arch": "arm",
           "filename": "terraform-provider-metalcloud_2.5.1_freebsd_arm.zip",
           "download_url": "https://github.com/metalsoft-io/terraform-provider-metalcloud/releases/download/v2.5.1/terraform-provider-metalcloud_2.5.1_freebsd_arm.zip",
-          "shasum": "f7506e3b22a268a29e2a3945a4f03aa769016638c08a459a42228c86c2c4ca16"
+          "shasum": "a26dd8442eca66842effd4056be8d996a01b1dc2c00ef0a926cb6314105c16ab"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-metalcloud_2.5.1_freebsd_386.zip",
+          "download_url": "https://github.com/metalsoft-io/terraform-provider-metalcloud/releases/download/v2.5.1/terraform-provider-metalcloud_2.5.1_freebsd_386.zip",
+          "shasum": "32c0587a95a396990e98e069283cee60e028ceb15fc425b1924d3a8dd2f4fa8b"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-metalcloud_2.5.1_linux_arm.zip",
+          "download_url": "https://github.com/metalsoft-io/terraform-provider-metalcloud/releases/download/v2.5.1/terraform-provider-metalcloud_2.5.1_linux_arm.zip",
+          "shasum": "734c3b2b7f627927617e8b42e2e0828321afc2e7d0ab00bfbecce7994e627922"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-metalcloud_2.5.1_freebsd_arm64.zip",
+          "download_url": "https://github.com/metalsoft-io/terraform-provider-metalcloud/releases/download/v2.5.1/terraform-provider-metalcloud_2.5.1_freebsd_arm64.zip",
+          "shasum": "15876d5a07a91a87c36bf9e29030b15ce2ebc6e592225226086a5d076e077526"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-metalcloud_2.5.1_freebsd_amd64.zip",
+          "download_url": "https://github.com/metalsoft-io/terraform-provider-metalcloud/releases/download/v2.5.1/terraform-provider-metalcloud_2.5.1_freebsd_amd64.zip",
+          "shasum": "15a8d4f29582a9090c6a609996e901486e51d1fa775e9cb031f04815549083eb"
         },
         {
           "os": "darwin",
           "arch": "arm64",
           "filename": "terraform-provider-metalcloud_2.5.1_darwin_arm64.zip",
           "download_url": "https://github.com/metalsoft-io/terraform-provider-metalcloud/releases/download/v2.5.1/terraform-provider-metalcloud_2.5.1_darwin_arm64.zip",
-          "shasum": "9b9fd738cc93b61bc7b418418517be4f8213560b69de2706f5d85c96680f591f"
+          "shasum": "5cbfdbeea25041edf7961fbb2cf0d4008bed95793014b0aa531b5329b55c5f66"
         }
       ]
     },
@@ -642,107 +809,6 @@
       ]
     },
     {
-      "version": "2.3.6",
-      "protocols": [
-        "5.0"
-      ],
-      "shasums_url": "https://github.com/metalsoft-io/terraform-provider-metalcloud/releases/download/v2.3.6/terraform-provider-metalcloud_2.3.6_SHA256SUMS",
-      "shasums_signature_url": "https://github.com/metalsoft-io/terraform-provider-metalcloud/releases/download/v2.3.6/terraform-provider-metalcloud_2.3.6_SHA256SUMS.sig",
-      "targets": [
-        {
-          "os": "freebsd",
-          "arch": "amd64",
-          "filename": "terraform-provider-metalcloud_2.3.6_freebsd_amd64.zip",
-          "download_url": "https://github.com/metalsoft-io/terraform-provider-metalcloud/releases/download/v2.3.6/terraform-provider-metalcloud_2.3.6_freebsd_amd64.zip",
-          "shasum": "9577998695d791bfa8ee645c97d16a0c0c3b257d95e302246f4f0277e30d8028"
-        },
-        {
-          "os": "linux",
-          "arch": "arm",
-          "filename": "terraform-provider-metalcloud_2.3.6_linux_arm.zip",
-          "download_url": "https://github.com/metalsoft-io/terraform-provider-metalcloud/releases/download/v2.3.6/terraform-provider-metalcloud_2.3.6_linux_arm.zip",
-          "shasum": "882113c3063184bb54d996de6fa1cdfb3aa120430db19cb59a26d622757ede16"
-        },
-        {
-          "os": "linux",
-          "arch": "arm64",
-          "filename": "terraform-provider-metalcloud_2.3.6_linux_arm64.zip",
-          "download_url": "https://github.com/metalsoft-io/terraform-provider-metalcloud/releases/download/v2.3.6/terraform-provider-metalcloud_2.3.6_linux_arm64.zip",
-          "shasum": "ee319da76d67064eb618a6a1aad9881b73fcb940a7cb30855fc1c7aad4b1f06f"
-        },
-        {
-          "os": "darwin",
-          "arch": "amd64",
-          "filename": "terraform-provider-metalcloud_2.3.6_darwin_amd64.zip",
-          "download_url": "https://github.com/metalsoft-io/terraform-provider-metalcloud/releases/download/v2.3.6/terraform-provider-metalcloud_2.3.6_darwin_amd64.zip",
-          "shasum": "7c7dcfdeaa965cc49850ef2f4f11379ed2b5f6ddd0c0c8ab2d256743d4ab0df9"
-        },
-        {
-          "os": "windows",
-          "arch": "arm",
-          "filename": "terraform-provider-metalcloud_2.3.6_windows_arm.zip",
-          "download_url": "https://github.com/metalsoft-io/terraform-provider-metalcloud/releases/download/v2.3.6/terraform-provider-metalcloud_2.3.6_windows_arm.zip",
-          "shasum": "24d90f646714cc0e5ac4c4baae0b435498e06804cb47077b76a323591866d184"
-        },
-        {
-          "os": "freebsd",
-          "arch": "386",
-          "filename": "terraform-provider-metalcloud_2.3.6_freebsd_386.zip",
-          "download_url": "https://github.com/metalsoft-io/terraform-provider-metalcloud/releases/download/v2.3.6/terraform-provider-metalcloud_2.3.6_freebsd_386.zip",
-          "shasum": "7009083c0956f6f059a9b2f24561342027eb206390ff1b2235f64c16284e9a27"
-        },
-        {
-          "os": "freebsd",
-          "arch": "arm64",
-          "filename": "terraform-provider-metalcloud_2.3.6_freebsd_arm64.zip",
-          "download_url": "https://github.com/metalsoft-io/terraform-provider-metalcloud/releases/download/v2.3.6/terraform-provider-metalcloud_2.3.6_freebsd_arm64.zip",
-          "shasum": "22174006e0b506cc65f14da002006ee1fa6fc2c75e553ad19d801aa5e3a4b3bf"
-        },
-        {
-          "os": "windows",
-          "arch": "amd64",
-          "filename": "terraform-provider-metalcloud_2.3.6_windows_amd64.zip",
-          "download_url": "https://github.com/metalsoft-io/terraform-provider-metalcloud/releases/download/v2.3.6/terraform-provider-metalcloud_2.3.6_windows_amd64.zip",
-          "shasum": "29872236affb02fdd1f7d2c98aadfc82cb1e8773cfc3bbe1eaea6ea324219597"
-        },
-        {
-          "os": "linux",
-          "arch": "386",
-          "filename": "terraform-provider-metalcloud_2.3.6_linux_386.zip",
-          "download_url": "https://github.com/metalsoft-io/terraform-provider-metalcloud/releases/download/v2.3.6/terraform-provider-metalcloud_2.3.6_linux_386.zip",
-          "shasum": "e2d5793593190eafa64bd3f1ebead27caf3560af8a78b702974c923518fed838"
-        },
-        {
-          "os": "freebsd",
-          "arch": "arm",
-          "filename": "terraform-provider-metalcloud_2.3.6_freebsd_arm.zip",
-          "download_url": "https://github.com/metalsoft-io/terraform-provider-metalcloud/releases/download/v2.3.6/terraform-provider-metalcloud_2.3.6_freebsd_arm.zip",
-          "shasum": "f2597d85c796696a440ed1ea15ca1d0d11d1240444bb20f5cd6f2979afa46faf"
-        },
-        {
-          "os": "windows",
-          "arch": "386",
-          "filename": "terraform-provider-metalcloud_2.3.6_windows_386.zip",
-          "download_url": "https://github.com/metalsoft-io/terraform-provider-metalcloud/releases/download/v2.3.6/terraform-provider-metalcloud_2.3.6_windows_386.zip",
-          "shasum": "4cf64d01e613757a4e700c1842284bcde3dc67d7474170383c908c5ca52528a6"
-        },
-        {
-          "os": "linux",
-          "arch": "amd64",
-          "filename": "terraform-provider-metalcloud_2.3.6_linux_amd64.zip",
-          "download_url": "https://github.com/metalsoft-io/terraform-provider-metalcloud/releases/download/v2.3.6/terraform-provider-metalcloud_2.3.6_linux_amd64.zip",
-          "shasum": "8a44d25c77a584c0bdfb48b2b7af66c6bad3a96a4115b02d8ad958ca8de8c4a2"
-        },
-        {
-          "os": "darwin",
-          "arch": "arm64",
-          "filename": "terraform-provider-metalcloud_2.3.6_darwin_arm64.zip",
-          "download_url": "https://github.com/metalsoft-io/terraform-provider-metalcloud/releases/download/v2.3.6/terraform-provider-metalcloud_2.3.6_darwin_arm64.zip",
-          "shasum": "333a3d66ae99acc525d9c010d62c75b9faa1008abdb14b01774dc072c70bc504"
-        }
-      ]
-    },
-    {
       "version": "2.3.5",
       "protocols": [
         "5.0"
@@ -934,86 +1000,6 @@
           "filename": "terraform-provider-metalcloud_2.3.1_darwin_amd64.zip",
           "download_url": "https://github.com/metalsoft-io/terraform-provider-metalcloud/releases/download/v2.3.1/terraform-provider-metalcloud_2.3.1_darwin_amd64.zip",
           "shasum": "6e6bb76450b4b45464c75e2054c172da290cc56804a330471f57fe295057881d"
-        }
-      ]
-    },
-    {
-      "version": "2.3.0",
-      "protocols": [
-        "5.0"
-      ],
-      "shasums_url": "https://github.com/metalsoft-io/terraform-provider-metalcloud/releases/download/v2.3.0/terraform-provider-metalcloud_2.3.0_SHA256SUMS",
-      "shasums_signature_url": "https://github.com/metalsoft-io/terraform-provider-metalcloud/releases/download/v2.3.0/terraform-provider-metalcloud_2.3.0_SHA256SUMS.sig",
-      "targets": [
-        {
-          "os": "windows",
-          "arch": "amd64",
-          "filename": "terraform-provider-metalcloud_2.3.0_windows_amd64.zip",
-          "download_url": "https://github.com/metalsoft-io/terraform-provider-metalcloud/releases/download/v2.3.0/terraform-provider-metalcloud_2.3.0_windows_amd64.zip",
-          "shasum": ""
-        },
-        {
-          "os": "linux",
-          "arch": "386",
-          "filename": "terraform-provider-metalcloud_2.3.0_linux_386.zip",
-          "download_url": "https://github.com/metalsoft-io/terraform-provider-metalcloud/releases/download/v2.3.0/terraform-provider-metalcloud_2.3.0_linux_386.zip",
-          "shasum": "c2c50d41ce5a6e11ce938627f94f359636b1c2d7db2b05c5c20c442ef36985e5"
-        },
-        {
-          "os": "freebsd",
-          "arch": "arm",
-          "filename": "terraform-provider-metalcloud_2.3.0_freebsd_arm.zip",
-          "download_url": "https://github.com/metalsoft-io/terraform-provider-metalcloud/releases/download/v2.3.0/terraform-provider-metalcloud_2.3.0_freebsd_arm.zip",
-          "shasum": "6589499154ed32eaede7f13ca52ac96c823f2ff6a3bf62e3a401d5e891c52c34"
-        },
-        {
-          "os": "freebsd",
-          "arch": "386",
-          "filename": "terraform-provider-metalcloud_2.3.0_freebsd_386.zip",
-          "download_url": "https://github.com/metalsoft-io/terraform-provider-metalcloud/releases/download/v2.3.0/terraform-provider-metalcloud_2.3.0_freebsd_386.zip",
-          "shasum": "7046296d1ce18fae69971d260ad1e6d0cbd43233d13b7e2cc17c4bdb0ed7770f"
-        },
-        {
-          "os": "linux",
-          "arch": "arm64",
-          "filename": "terraform-provider-metalcloud_2.3.0_linux_arm64.zip",
-          "download_url": "https://github.com/metalsoft-io/terraform-provider-metalcloud/releases/download/v2.3.0/terraform-provider-metalcloud_2.3.0_linux_arm64.zip",
-          "shasum": "814a69406eb5dbdccc1faa30711001514b7aac03a660486026b560aafa70b4d4"
-        },
-        {
-          "os": "freebsd",
-          "arch": "arm64",
-          "filename": "terraform-provider-metalcloud_2.3.0_freebsd_arm64.zip",
-          "download_url": "https://github.com/metalsoft-io/terraform-provider-metalcloud/releases/download/v2.3.0/terraform-provider-metalcloud_2.3.0_freebsd_arm64.zip",
-          "shasum": "2bb54c94928a2b30737507a06a94605c6190080eb593756b1fc8e410d3c08217"
-        },
-        {
-          "os": "darwin",
-          "arch": "amd64",
-          "filename": "terraform-provider-metalcloud_2.3.0_darwin_amd64.zip",
-          "download_url": "https://github.com/metalsoft-io/terraform-provider-metalcloud/releases/download/v2.3.0/terraform-provider-metalcloud_2.3.0_darwin_amd64.zip",
-          "shasum": "b3d9efb56e1ad09695498021906be86567aafea1dcd7d67048c4ac5a99ad004a"
-        },
-        {
-          "os": "freebsd",
-          "arch": "amd64",
-          "filename": "terraform-provider-metalcloud_2.3.0_freebsd_amd64.zip",
-          "download_url": "https://github.com/metalsoft-io/terraform-provider-metalcloud/releases/download/v2.3.0/terraform-provider-metalcloud_2.3.0_freebsd_amd64.zip",
-          "shasum": "b66fa80babc6ffee418da7946cef423aee5f87e52d335ee52f97ad6d11509409"
-        },
-        {
-          "os": "linux",
-          "arch": "arm",
-          "filename": "terraform-provider-metalcloud_2.3.0_linux_arm.zip",
-          "download_url": "https://github.com/metalsoft-io/terraform-provider-metalcloud/releases/download/v2.3.0/terraform-provider-metalcloud_2.3.0_linux_arm.zip",
-          "shasum": "e95cf285fddcde36ca0ce67855293685236bc39533d3b71ea94b518fe40f9b14"
-        },
-        {
-          "os": "linux",
-          "arch": "amd64",
-          "filename": "terraform-provider-metalcloud_2.3.0_linux_amd64.zip",
-          "download_url": "https://github.com/metalsoft-io/terraform-provider-metalcloud/releases/download/v2.3.0/terraform-provider-metalcloud_2.3.0_linux_amd64.zip",
-          "shasum": "28f8b162121a40ea7e952e79671ce3fb887af96095189dbe5da923181ede2160"
         }
       ]
     },
