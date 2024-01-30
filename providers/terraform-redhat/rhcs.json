@@ -2,6 +2,58 @@
   "repository": "https://github.com/terraform-redhat/terraform-provider-rhcs",
   "versions": [
     {
+      "version": "1.5.1-prerelease.1",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/terraform-redhat/terraform-provider-rhcs/releases/download/v1.5.1-prerelease.1/terraform-provider-rhcs_1.5.1-prerelease.1_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/terraform-redhat/terraform-provider-rhcs/releases/download/v1.5.1-prerelease.1/terraform-provider-rhcs_1.5.1-prerelease.1_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-rhcs_1.5.1-prerelease.1_linux_amd64.zip",
+          "download_url": "https://github.com/terraform-redhat/terraform-provider-rhcs/releases/download/v1.5.1-prerelease.1/terraform-provider-rhcs_1.5.1-prerelease.1_linux_amd64.zip",
+          "shasum": ""
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-rhcs_1.5.1-prerelease.1_darwin_arm64.zip",
+          "download_url": "https://github.com/terraform-redhat/terraform-provider-rhcs/releases/download/v1.5.1-prerelease.1/terraform-provider-rhcs_1.5.1-prerelease.1_darwin_arm64.zip",
+          "shasum": ""
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-rhcs_1.5.1-prerelease.1_linux_arm64.zip",
+          "download_url": "https://github.com/terraform-redhat/terraform-provider-rhcs/releases/download/v1.5.1-prerelease.1/terraform-provider-rhcs_1.5.1-prerelease.1_linux_arm64.zip",
+          "shasum": ""
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-rhcs_1.5.1-prerelease.1_darwin_amd64.zip",
+          "download_url": "https://github.com/terraform-redhat/terraform-provider-rhcs/releases/download/v1.5.1-prerelease.1/terraform-provider-rhcs_1.5.1-prerelease.1_darwin_amd64.zip",
+          "shasum": ""
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-rhcs_1.5.1-prerelease.1_windows_amd64.zip",
+          "download_url": "https://github.com/terraform-redhat/terraform-provider-rhcs/releases/download/v1.5.1-prerelease.1/terraform-provider-rhcs_1.5.1-prerelease.1_windows_amd64.zip",
+          "shasum": ""
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-rhcs_1.5.1-prerelease.1_windows_arm64.zip",
+          "download_url": "https://github.com/terraform-redhat/terraform-provider-rhcs/releases/download/v1.5.1-prerelease.1/terraform-provider-rhcs_1.5.1-prerelease.1_windows_arm64.zip",
+          "shasum": ""
+        }
+      ]
+    },
+    {
       "version": "1.5.0",
       "protocols": [
         "5.0"
