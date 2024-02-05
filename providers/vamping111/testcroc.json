@@ -2,6 +2,93 @@
   "repository": "https://github.com/vamping111/terraform-provider-testcroc",
   "versions": [
     {
+      "version": "5.0.0-testing4.14.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/vamping111/terraform-provider-testcroc/releases/download/v5.0.0-testing4.14.0/terraform-provider-testcroc_5.0.0-testing4.14.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/vamping111/terraform-provider-testcroc/releases/download/v5.0.0-testing4.14.0/terraform-provider-testcroc_5.0.0-testing4.14.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-testcroc_5.0.0-testing4.14.0_linux_386.zip",
+          "download_url": "https://github.com/vamping111/terraform-provider-testcroc/releases/download/v5.0.0-testing4.14.0/terraform-provider-testcroc_5.0.0-testing4.14.0_linux_386.zip",
+          "shasum": "f23c1e6d67db3b18f5627be3fa299d8df2524f649c3ea3e79d59c21b2314b7db"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-testcroc_5.0.0-testing4.14.0_darwin_amd64.zip",
+          "download_url": "https://github.com/vamping111/terraform-provider-testcroc/releases/download/v5.0.0-testing4.14.0/terraform-provider-testcroc_5.0.0-testing4.14.0_darwin_amd64.zip",
+          "shasum": "a2afa129474ae310e0542854083808e06a5f3483dddeca6356a413e588cbea69"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-testcroc_5.0.0-testing4.14.0_linux_arm64.zip",
+          "download_url": "https://github.com/vamping111/terraform-provider-testcroc/releases/download/v5.0.0-testing4.14.0/terraform-provider-testcroc_5.0.0-testing4.14.0_linux_arm64.zip",
+          "shasum": "c80797130c8410688daa48e682cbc098f38515cd0128c3ad0805d3084b7e2826"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-testcroc_5.0.0-testing4.14.0_linux_amd64.zip",
+          "download_url": "https://github.com/vamping111/terraform-provider-testcroc/releases/download/v5.0.0-testing4.14.0/terraform-provider-testcroc_5.0.0-testing4.14.0_linux_amd64.zip",
+          "shasum": "c36fe637e53b1259d8ed04c283c8f2ce09e7aa204fb5bb108b17fcbbbd54740b"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-testcroc_5.0.0-testing4.14.0_windows_386.zip",
+          "download_url": "https://github.com/vamping111/terraform-provider-testcroc/releases/download/v5.0.0-testing4.14.0/terraform-provider-testcroc_5.0.0-testing4.14.0_windows_386.zip",
+          "shasum": "d2258a79704c091074cd87cd1f74ccb89b73709ea0e574e11f3c4b9df4ca9b0d"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-testcroc_5.0.0-testing4.14.0_linux_arm.zip",
+          "download_url": "https://github.com/vamping111/terraform-provider-testcroc/releases/download/v5.0.0-testing4.14.0/terraform-provider-testcroc_5.0.0-testing4.14.0_linux_arm.zip",
+          "shasum": "4d6d0842c3393570e37d2cf9d1082f597f1126ecef17439da4ee7db373e125e5"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-testcroc_5.0.0-testing4.14.0_windows_amd64.zip",
+          "download_url": "https://github.com/vamping111/terraform-provider-testcroc/releases/download/v5.0.0-testing4.14.0/terraform-provider-testcroc_5.0.0-testing4.14.0_windows_amd64.zip",
+          "shasum": "e447df233fbc81313f0121425493d9a13e7e8e27d62b7b0af9eab7303d0d6a53"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-testcroc_5.0.0-testing4.14.0_freebsd_arm.zip",
+          "download_url": "https://github.com/vamping111/terraform-provider-testcroc/releases/download/v5.0.0-testing4.14.0/terraform-provider-testcroc_5.0.0-testing4.14.0_freebsd_arm.zip",
+          "shasum": "ce07d3adb60f36eb9e54f30eb69a368b127ede3f407029562fe4b8416e0dfecc"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-testcroc_5.0.0-testing4.14.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/vamping111/terraform-provider-testcroc/releases/download/v5.0.0-testing4.14.0/terraform-provider-testcroc_5.0.0-testing4.14.0_freebsd_amd64.zip",
+          "shasum": "287cbcf8e9e8790110cf852b195fa16a7885560af55490d38b47ca06ca4d10ae"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-testcroc_5.0.0-testing4.14.0_freebsd_386.zip",
+          "download_url": "https://github.com/vamping111/terraform-provider-testcroc/releases/download/v5.0.0-testing4.14.0/terraform-provider-testcroc_5.0.0-testing4.14.0_freebsd_386.zip",
+          "shasum": "3c694880e6c8a1f98290d2adebbb808d441959f0d1c664bdcc2ed7a2cb93ab23"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-testcroc_5.0.0-testing4.14.0_darwin_arm64.zip",
+          "download_url": "https://github.com/vamping111/terraform-provider-testcroc/releases/download/v5.0.0-testing4.14.0/terraform-provider-testcroc_5.0.0-testing4.14.0_darwin_arm64.zip",
+          "shasum": "137651a27ea65afee758e0ffaf0a4f6c30e6c2c935a44ab38a8a353226a8fd68"
+        }
+      ]
+    },
+    {
       "version": "4.14.2-testing9.1.0",
       "protocols": [
         "5.0"
