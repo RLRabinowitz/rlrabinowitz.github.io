@@ -2,6 +2,114 @@
   "repository": "https://github.com/contabo/terraform-provider-contabo",
   "versions": [
     {
+      "version": "0.1.24",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/contabo/terraform-provider-contabo/releases/download/v0.1.24/terraform-provider-contabo_0.1.24_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/contabo/terraform-provider-contabo/releases/download/v0.1.24/terraform-provider-contabo_0.1.24_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-contabo_0.1.24_freebsd_arm.zip",
+          "download_url": "https://github.com/contabo/terraform-provider-contabo/releases/download/v0.1.24/terraform-provider-contabo_0.1.24_freebsd_arm.zip",
+          "shasum": "9cdfa847f6b3acc735c49ac71654a7a6dd6f8c5f6f94a36d97a510f51a356845"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-contabo_0.1.24_freebsd_386.zip",
+          "download_url": "https://github.com/contabo/terraform-provider-contabo/releases/download/v0.1.24/terraform-provider-contabo_0.1.24_freebsd_386.zip",
+          "shasum": "599475a4441a327878bcfac8dfb93a8ee75c8eee6adbab37ff8a4ad898aee07e"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-contabo_0.1.24_windows_386.zip",
+          "download_url": "https://github.com/contabo/terraform-provider-contabo/releases/download/v0.1.24/terraform-provider-contabo_0.1.24_windows_386.zip",
+          "shasum": "fd36bedaf95820ef35a72540c3670e1d52fa764c96eff42d017d41fa85ab8a37"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-contabo_0.1.24_windows_arm64.zip",
+          "download_url": "https://github.com/contabo/terraform-provider-contabo/releases/download/v0.1.24/terraform-provider-contabo_0.1.24_windows_arm64.zip",
+          "shasum": "6cd7e88a45d4b97ba7ceed7bf9cc8f18333f855ff2651978b3b2d3f2d6bc2fe9"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-contabo_0.1.24_windows_arm.zip",
+          "download_url": "https://github.com/contabo/terraform-provider-contabo/releases/download/v0.1.24/terraform-provider-contabo_0.1.24_windows_arm.zip",
+          "shasum": "59f2ed77ab8f395cb3dacda730dc9edfc441ab9e1c9e0819a51f64c5d3e26916"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-contabo_0.1.24_linux_386.zip",
+          "download_url": "https://github.com/contabo/terraform-provider-contabo/releases/download/v0.1.24/terraform-provider-contabo_0.1.24_linux_386.zip",
+          "shasum": "091c010586b463a78f64c9472c267f480a2959e14f12779a0d7d542017c19803"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-contabo_0.1.24_linux_arm.zip",
+          "download_url": "https://github.com/contabo/terraform-provider-contabo/releases/download/v0.1.24/terraform-provider-contabo_0.1.24_linux_arm.zip",
+          "shasum": "ab35d54056a1533a9ba278e9f6545a7861f3e0d4100d2c5196829dd2ae0dc381"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-contabo_0.1.24_freebsd_amd64.zip",
+          "download_url": "https://github.com/contabo/terraform-provider-contabo/releases/download/v0.1.24/terraform-provider-contabo_0.1.24_freebsd_amd64.zip",
+          "shasum": "859bbf1ef996a7ce32457a8886d1096d905e17fa8538f94c4282168863ec2b3f"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-contabo_0.1.24_darwin_arm64.zip",
+          "download_url": "https://github.com/contabo/terraform-provider-contabo/releases/download/v0.1.24/terraform-provider-contabo_0.1.24_darwin_arm64.zip",
+          "shasum": "622b66f8caffeb48271ad0b6c255d8b8b60bde0639e35ff80d3a047619e0d3a6"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-contabo_0.1.24_darwin_amd64.zip",
+          "download_url": "https://github.com/contabo/terraform-provider-contabo/releases/download/v0.1.24/terraform-provider-contabo_0.1.24_darwin_amd64.zip",
+          "shasum": "c9019a99f965461ec946b214bded39e0076fac4477c96d8f94a269ddaa12e237"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-contabo_0.1.24_freebsd_arm64.zip",
+          "download_url": "https://github.com/contabo/terraform-provider-contabo/releases/download/v0.1.24/terraform-provider-contabo_0.1.24_freebsd_arm64.zip",
+          "shasum": "c75bc903b787bf4380e6a746d16cb4cae213612b31f24e3e048dd0287bc96c48"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-contabo_0.1.24_windows_amd64.zip",
+          "download_url": "https://github.com/contabo/terraform-provider-contabo/releases/download/v0.1.24/terraform-provider-contabo_0.1.24_windows_amd64.zip",
+          "shasum": "86f07709fb0edbc923deb659a8c108c03e69267c9510262695f6ed7afb0707e5"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-contabo_0.1.24_linux_arm64.zip",
+          "download_url": "https://github.com/contabo/terraform-provider-contabo/releases/download/v0.1.24/terraform-provider-contabo_0.1.24_linux_arm64.zip",
+          "shasum": "d951436d0c7f2ead7c07799fed6ac7779ebcff5f813b36c3fef59dc5a0243988"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-contabo_0.1.24_linux_amd64.zip",
+          "download_url": "https://github.com/contabo/terraform-provider-contabo/releases/download/v0.1.24/terraform-provider-contabo_0.1.24_linux_amd64.zip",
+          "shasum": "d05424a2bd271e7c304217a90a5d3757fe3b2991278bf12ad472b47af6495528"
+        }
+      ]
+    },
+    {
       "version": "0.1.23",
       "protocols": [
         "5.0"
