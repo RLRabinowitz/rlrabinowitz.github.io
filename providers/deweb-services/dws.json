@@ -2,6 +2,114 @@
   "repository": "https://github.com/deweb-services/terraform-provider-dws",
   "versions": [
     {
+      "version": "0.0.15",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/deweb-services/terraform-provider-nodeshift/releases/download/v0.0.15/terraform-provider-nodeshift_0.0.15_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/deweb-services/terraform-provider-nodeshift/releases/download/v0.0.15/terraform-provider-nodeshift_0.0.15_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-nodeshift_0.0.15_freebsd_arm64.zip",
+          "download_url": "https://github.com/deweb-services/terraform-provider-nodeshift/releases/download/v0.0.15/terraform-provider-nodeshift_0.0.15_freebsd_arm64.zip",
+          "shasum": "5e7c42e4db4a4c3d428e64d747d0b1c4be902b7240eac165ee0f3a83f8cff8d0"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-nodeshift_0.0.15_windows_arm64.zip",
+          "download_url": "https://github.com/deweb-services/terraform-provider-nodeshift/releases/download/v0.0.15/terraform-provider-nodeshift_0.0.15_windows_arm64.zip",
+          "shasum": "a3c40837c5fc19616f5af483f3ee12730f83c03c6dca6312a26fe1e40df90ff4"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-nodeshift_0.0.15_linux_arm64.zip",
+          "download_url": "https://github.com/deweb-services/terraform-provider-nodeshift/releases/download/v0.0.15/terraform-provider-nodeshift_0.0.15_linux_arm64.zip",
+          "shasum": "f9581e88f3e88db10a5cb713c0d1742a263c98cc81245d8ae10d63a863558bf9"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-nodeshift_0.0.15_windows_amd64.zip",
+          "download_url": "https://github.com/deweb-services/terraform-provider-nodeshift/releases/download/v0.0.15/terraform-provider-nodeshift_0.0.15_windows_amd64.zip",
+          "shasum": "378d8532e12121a20c905ef682bdd4eacf8b099c3add0ef66f139c1f2f5e0cee"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-nodeshift_0.0.15_freebsd_386.zip",
+          "download_url": "https://github.com/deweb-services/terraform-provider-nodeshift/releases/download/v0.0.15/terraform-provider-nodeshift_0.0.15_freebsd_386.zip",
+          "shasum": "1ad6f2b055930d2183b8fc13079ec74f02d570d7bea4d8cdcadfa56782824c70"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-nodeshift_0.0.15_windows_arm.zip",
+          "download_url": "https://github.com/deweb-services/terraform-provider-nodeshift/releases/download/v0.0.15/terraform-provider-nodeshift_0.0.15_windows_arm.zip",
+          "shasum": "93cb819b2b0915619ff389ed9092f668b87201ce94500d6ba173c5e6be11594e"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-nodeshift_0.0.15_freebsd_amd64.zip",
+          "download_url": "https://github.com/deweb-services/terraform-provider-nodeshift/releases/download/v0.0.15/terraform-provider-nodeshift_0.0.15_freebsd_amd64.zip",
+          "shasum": "ce0f660c8684a506e5d3618f958b334782136f9c8a1e9550e12ba3d7c50a420b"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-nodeshift_0.0.15_windows_386.zip",
+          "download_url": "https://github.com/deweb-services/terraform-provider-nodeshift/releases/download/v0.0.15/terraform-provider-nodeshift_0.0.15_windows_386.zip",
+          "shasum": "f000f55ea9c17fd53751e156b6a9d78eacd4e1af0cd54ec15ad7da4865adc039"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-nodeshift_0.0.15_freebsd_arm.zip",
+          "download_url": "https://github.com/deweb-services/terraform-provider-nodeshift/releases/download/v0.0.15/terraform-provider-nodeshift_0.0.15_freebsd_arm.zip",
+          "shasum": "c660d238e5ea725c68abb16571cefd11d2cacc2821fcc7701f1ef518e6ca9c20"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-nodeshift_0.0.15_linux_386.zip",
+          "download_url": "https://github.com/deweb-services/terraform-provider-nodeshift/releases/download/v0.0.15/terraform-provider-nodeshift_0.0.15_linux_386.zip",
+          "shasum": "512ec219d2dcb0da92dbcb598a170250ffe6acc0233031b6a3926d8ccbebd754"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-nodeshift_0.0.15_linux_arm.zip",
+          "download_url": "https://github.com/deweb-services/terraform-provider-nodeshift/releases/download/v0.0.15/terraform-provider-nodeshift_0.0.15_linux_arm.zip",
+          "shasum": "4cd245d62553d9371bccc5d99d37f74725844fd2d793d707247a627d0cbfd34e"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-nodeshift_0.0.15_linux_amd64.zip",
+          "download_url": "https://github.com/deweb-services/terraform-provider-nodeshift/releases/download/v0.0.15/terraform-provider-nodeshift_0.0.15_linux_amd64.zip",
+          "shasum": "4a2a0e8f352278facd8eb8e690bfc29ab11b5eab8c4fbd9dee7d0014e947f328"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-nodeshift_0.0.15_darwin_amd64.zip",
+          "download_url": "https://github.com/deweb-services/terraform-provider-nodeshift/releases/download/v0.0.15/terraform-provider-nodeshift_0.0.15_darwin_amd64.zip",
+          "shasum": "df8637c2b363c879249cdec6a53b596d97f6bcb882f0e99cbe0760eb1bbe4cb4"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-nodeshift_0.0.15_darwin_arm64.zip",
+          "download_url": "https://github.com/deweb-services/terraform-provider-nodeshift/releases/download/v0.0.15/terraform-provider-nodeshift_0.0.15_darwin_arm64.zip",
+          "shasum": "777ebd8f26a4e9a64850a13db2e4204582e87fec9f52ed98bae739dbb5514402"
+        }
+      ]
+    },
+    {
       "version": "0.0.14",
       "protocols": [
         "5.0"
