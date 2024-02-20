@@ -2,6 +2,114 @@
   "repository": "https://github.com/krafton-hq/terraform-provider-redfox",
   "versions": [
     {
+      "version": "0.3.3",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/krafton-hq/terraform-provider-redfox/releases/download/v0.3.3/terraform-provider-redfox_0.3.3_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/krafton-hq/terraform-provider-redfox/releases/download/v0.3.3/terraform-provider-redfox_0.3.3_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-redfox_0.3.3_freebsd_arm64.zip",
+          "download_url": "https://github.com/krafton-hq/terraform-provider-redfox/releases/download/v0.3.3/terraform-provider-redfox_0.3.3_freebsd_arm64.zip",
+          "shasum": "d4c06f093e6727b2ad2e66be94e31e735e2a381ce19c903d65f2533424b1e16b"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-redfox_0.3.3_linux_386.zip",
+          "download_url": "https://github.com/krafton-hq/terraform-provider-redfox/releases/download/v0.3.3/terraform-provider-redfox_0.3.3_linux_386.zip",
+          "shasum": "6f5ec074994fa91463b9fd2060932627e3aa0deb19b4a6e1b0ece5d796ec24e2"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-redfox_0.3.3_linux_arm64.zip",
+          "download_url": "https://github.com/krafton-hq/terraform-provider-redfox/releases/download/v0.3.3/terraform-provider-redfox_0.3.3_linux_arm64.zip",
+          "shasum": "e148743fa22c1df8be89ed3480f83ae63bc18c78bfa01a0e710fc6c37c35ae0b"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-redfox_0.3.3_windows_386.zip",
+          "download_url": "https://github.com/krafton-hq/terraform-provider-redfox/releases/download/v0.3.3/terraform-provider-redfox_0.3.3_windows_386.zip",
+          "shasum": "6d9280d3ce561ec4bce273644a76e5e31b75368085d63a2314685599327e8133"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-redfox_0.3.3_freebsd_arm.zip",
+          "download_url": "https://github.com/krafton-hq/terraform-provider-redfox/releases/download/v0.3.3/terraform-provider-redfox_0.3.3_freebsd_arm.zip",
+          "shasum": "388317b0fd2652df186481e0c5f0f3a45fa7a57d41561e57584eb531452cb373"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-redfox_0.3.3_darwin_arm64.zip",
+          "download_url": "https://github.com/krafton-hq/terraform-provider-redfox/releases/download/v0.3.3/terraform-provider-redfox_0.3.3_darwin_arm64.zip",
+          "shasum": "f3aae41fe8e28687e8cb7f4a5a05d4a06fcb5a51e2ddc2be0328f91af992a82b"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-redfox_0.3.3_freebsd_386.zip",
+          "download_url": "https://github.com/krafton-hq/terraform-provider-redfox/releases/download/v0.3.3/terraform-provider-redfox_0.3.3_freebsd_386.zip",
+          "shasum": "1fd1bb3f255ea1d1c78823f83c785feee163cf9d202435b8742e9d86e07f49ea"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-redfox_0.3.3_freebsd_amd64.zip",
+          "download_url": "https://github.com/krafton-hq/terraform-provider-redfox/releases/download/v0.3.3/terraform-provider-redfox_0.3.3_freebsd_amd64.zip",
+          "shasum": "ed4d3b2ebc1385c2f971d4d19d79592778524dbad8bc2d30c82f12bc5e7cdef5"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-redfox_0.3.3_windows_arm.zip",
+          "download_url": "https://github.com/krafton-hq/terraform-provider-redfox/releases/download/v0.3.3/terraform-provider-redfox_0.3.3_windows_arm.zip",
+          "shasum": "3c9e375380660cf2b53cf75ff0105c672762f3eea069d937878023f36280eceb"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-redfox_0.3.3_linux_arm.zip",
+          "download_url": "https://github.com/krafton-hq/terraform-provider-redfox/releases/download/v0.3.3/terraform-provider-redfox_0.3.3_linux_arm.zip",
+          "shasum": "dae91db2b5bf43b036e0c7c5c08767b4514163708cdecb05ad1e0f9c2717cbb5"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-redfox_0.3.3_windows_arm64.zip",
+          "download_url": "https://github.com/krafton-hq/terraform-provider-redfox/releases/download/v0.3.3/terraform-provider-redfox_0.3.3_windows_arm64.zip",
+          "shasum": "f0a359d047776059e587653c5210d9718a255d54061c637e500c4edd2f2c0253"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-redfox_0.3.3_darwin_amd64.zip",
+          "download_url": "https://github.com/krafton-hq/terraform-provider-redfox/releases/download/v0.3.3/terraform-provider-redfox_0.3.3_darwin_amd64.zip",
+          "shasum": "4719d68ddb8849a98070c3cbeeb3e2b57175884ce922fcfdf1fadde6612b4099"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-redfox_0.3.3_windows_amd64.zip",
+          "download_url": "https://github.com/krafton-hq/terraform-provider-redfox/releases/download/v0.3.3/terraform-provider-redfox_0.3.3_windows_amd64.zip",
+          "shasum": "cb22194b9292083369079bc735ba10e3fc447444a919affa5ebe39455cc2e38d"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-redfox_0.3.3_linux_amd64.zip",
+          "download_url": "https://github.com/krafton-hq/terraform-provider-redfox/releases/download/v0.3.3/terraform-provider-redfox_0.3.3_linux_amd64.zip",
+          "shasum": "5712084c7208cb2d978a68025c2d95aaa6d8cd0220c37d892dcec4915a1ee7e3"
+        }
+      ]
+    },
+    {
       "version": "0.3.2",
       "protocols": [
         "5.0"
@@ -10,102 +118,102 @@
       "shasums_signature_url": "https://github.com/krafton-hq/terraform-provider-redfox/releases/download/v0.3.2/terraform-provider-redfox_0.3.2_SHA256SUMS.sig",
       "targets": [
         {
-          "os": "windows",
-          "arch": "arm64",
-          "filename": "terraform-provider-redfox_0.3.2_windows_arm64.zip",
-          "download_url": "https://github.com/krafton-hq/terraform-provider-redfox/releases/download/v0.3.2/terraform-provider-redfox_0.3.2_windows_arm64.zip",
-          "shasum": "55e711d680d22b87a09ade549cf0e3cb9479f769f8294611a05b71a1559d7fe0"
-        },
-        {
-          "os": "windows",
-          "arch": "arm",
-          "filename": "terraform-provider-redfox_0.3.2_windows_arm.zip",
-          "download_url": "https://github.com/krafton-hq/terraform-provider-redfox/releases/download/v0.3.2/terraform-provider-redfox_0.3.2_windows_arm.zip",
-          "shasum": "00e3f095f30cd8dbe1cc6e27a90f6dea7b1bbf5b1ce9aba05e4bb01c164a277f"
-        },
-        {
-          "os": "windows",
-          "arch": "386",
-          "filename": "terraform-provider-redfox_0.3.2_windows_386.zip",
-          "download_url": "https://github.com/krafton-hq/terraform-provider-redfox/releases/download/v0.3.2/terraform-provider-redfox_0.3.2_windows_386.zip",
-          "shasum": "257fabe61d7ff8dc08728206d97625306f8b2d34ca5cad5c7d373a647ccf1917"
-        },
-        {
-          "os": "linux",
+          "os": "freebsd",
           "arch": "amd64",
-          "filename": "terraform-provider-redfox_0.3.2_linux_amd64.zip",
-          "download_url": "https://github.com/krafton-hq/terraform-provider-redfox/releases/download/v0.3.2/terraform-provider-redfox_0.3.2_linux_amd64.zip",
-          "shasum": "57bcd0c3556c19c36476374dc60084b9347a6a53da248bec31378e788df7341c"
-        },
-        {
-          "os": "freebsd",
-          "arch": "386",
-          "filename": "terraform-provider-redfox_0.3.2_freebsd_386.zip",
-          "download_url": "https://github.com/krafton-hq/terraform-provider-redfox/releases/download/v0.3.2/terraform-provider-redfox_0.3.2_freebsd_386.zip",
-          "shasum": "2fb65e99b9e66b3f08369ce361a4f79581c64c33d551e6ab915bd6d9de54b98b"
-        },
-        {
-          "os": "freebsd",
-          "arch": "arm",
-          "filename": "terraform-provider-redfox_0.3.2_freebsd_arm.zip",
-          "download_url": "https://github.com/krafton-hq/terraform-provider-redfox/releases/download/v0.3.2/terraform-provider-redfox_0.3.2_freebsd_arm.zip",
-          "shasum": "7c4d70a6457ed8d4a5ddb7f9a91132da669369955c8d533965657187296ea832"
-        },
-        {
-          "os": "darwin",
-          "arch": "arm64",
-          "filename": "terraform-provider-redfox_0.3.2_darwin_arm64.zip",
-          "download_url": "https://github.com/krafton-hq/terraform-provider-redfox/releases/download/v0.3.2/terraform-provider-redfox_0.3.2_darwin_arm64.zip",
-          "shasum": "19e33c9239e43b27252b1ebcf634dbcd976ff276c6a091bf09e22a590a35bc9b"
-        },
-        {
-          "os": "linux",
-          "arch": "arm",
-          "filename": "terraform-provider-redfox_0.3.2_linux_arm.zip",
-          "download_url": "https://github.com/krafton-hq/terraform-provider-redfox/releases/download/v0.3.2/terraform-provider-redfox_0.3.2_linux_arm.zip",
-          "shasum": "7067fff481381c8fef6889ffd5a5ca1acbc3833c58f904353b94001a8dd132ee"
-        },
-        {
-          "os": "linux",
-          "arch": "arm64",
-          "filename": "terraform-provider-redfox_0.3.2_linux_arm64.zip",
-          "download_url": "https://github.com/krafton-hq/terraform-provider-redfox/releases/download/v0.3.2/terraform-provider-redfox_0.3.2_linux_arm64.zip",
-          "shasum": "aaef6df252747deb988d16529ddb90e0d7383a44c46119d893e01cfebfc79479"
+          "filename": "terraform-provider-redfox_0.3.2_freebsd_amd64.zip",
+          "download_url": "https://github.com/krafton-hq/terraform-provider-redfox/releases/download/v0.3.2/terraform-provider-redfox_0.3.2_freebsd_amd64.zip",
+          "shasum": "9f253462eae0204d7ab2e6165f76eafc91b98ed81893dcfc6d854ac9a6862adb"
         },
         {
           "os": "freebsd",
           "arch": "arm64",
           "filename": "terraform-provider-redfox_0.3.2_freebsd_arm64.zip",
           "download_url": "https://github.com/krafton-hq/terraform-provider-redfox/releases/download/v0.3.2/terraform-provider-redfox_0.3.2_freebsd_arm64.zip",
-          "shasum": "cab99bb3909299f87d9befb7e5c200ec08b2d0da45c54ca84bab56446b4a275c"
+          "shasum": "b551886102fd87743384677f93d20b4106b38da4b55bdfbb8fa78e76270bd26e"
         },
         {
-          "os": "darwin",
-          "arch": "amd64",
-          "filename": "terraform-provider-redfox_0.3.2_darwin_amd64.zip",
-          "download_url": "https://github.com/krafton-hq/terraform-provider-redfox/releases/download/v0.3.2/terraform-provider-redfox_0.3.2_darwin_amd64.zip",
-          "shasum": "06da4861ce71d7522a36835c31bd3f5fa10fae2473f47737c8cd280dc735ee6a"
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-redfox_0.3.2_linux_arm.zip",
+          "download_url": "https://github.com/krafton-hq/terraform-provider-redfox/releases/download/v0.3.2/terraform-provider-redfox_0.3.2_linux_arm.zip",
+          "shasum": "75629bea7cc542763e7a6634a5e5e7d462267950b99222b5584aa206e0fb4b4e"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-redfox_0.3.2_linux_arm64.zip",
+          "download_url": "https://github.com/krafton-hq/terraform-provider-redfox/releases/download/v0.3.2/terraform-provider-redfox_0.3.2_linux_arm64.zip",
+          "shasum": "7d5450d1eef0f0d313f2d5e351173297153d3561ad34288091216c0153809f19"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-redfox_0.3.2_windows_arm.zip",
+          "download_url": "https://github.com/krafton-hq/terraform-provider-redfox/releases/download/v0.3.2/terraform-provider-redfox_0.3.2_windows_arm.zip",
+          "shasum": "b3cb590144232d05c61d7baaaeee68787a53c201c9baf9617c86d6d65f21145b"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-redfox_0.3.2_freebsd_arm.zip",
+          "download_url": "https://github.com/krafton-hq/terraform-provider-redfox/releases/download/v0.3.2/terraform-provider-redfox_0.3.2_freebsd_arm.zip",
+          "shasum": "d787c09d392a929ec871e0db0d7643035412439c2a378094a3cf0e9f9614d2f2"
         },
         {
           "os": "windows",
           "arch": "amd64",
           "filename": "terraform-provider-redfox_0.3.2_windows_amd64.zip",
           "download_url": "https://github.com/krafton-hq/terraform-provider-redfox/releases/download/v0.3.2/terraform-provider-redfox_0.3.2_windows_amd64.zip",
-          "shasum": "2f8c243e726fd326913b60fab1411cc542b7eaa7d3885df4c2ff0b15702f2cef"
+          "shasum": "18540225f6e0f2a967a1ab7009e4942e55b6e7c9d47a3e6e3b84399e0edc9a3d"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-redfox_0.3.2_darwin_arm64.zip",
+          "download_url": "https://github.com/krafton-hq/terraform-provider-redfox/releases/download/v0.3.2/terraform-provider-redfox_0.3.2_darwin_arm64.zip",
+          "shasum": "8ee8e8bcdd20437b37f2cec395fcfb1b1a65c2d85d7ee1174302624d0507e857"
         },
         {
           "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-redfox_0.3.2_freebsd_386.zip",
+          "download_url": "https://github.com/krafton-hq/terraform-provider-redfox/releases/download/v0.3.2/terraform-provider-redfox_0.3.2_freebsd_386.zip",
+          "shasum": "735cc9029d0100a58028ac39264ae02068735f30ea94f7af9352d188e60ed030"
+        },
+        {
+          "os": "darwin",
           "arch": "amd64",
-          "filename": "terraform-provider-redfox_0.3.2_freebsd_amd64.zip",
-          "download_url": "https://github.com/krafton-hq/terraform-provider-redfox/releases/download/v0.3.2/terraform-provider-redfox_0.3.2_freebsd_amd64.zip",
-          "shasum": "940ab8127e49ab5185986e295f3fdd069899a7729d41914aee814138e4a7302c"
+          "filename": "terraform-provider-redfox_0.3.2_darwin_amd64.zip",
+          "download_url": "https://github.com/krafton-hq/terraform-provider-redfox/releases/download/v0.3.2/terraform-provider-redfox_0.3.2_darwin_amd64.zip",
+          "shasum": "a96d76219d5a4f00f56d9261b5a2610f71c9cb455cccf5e0da9a34140f79f31c"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-redfox_0.3.2_windows_386.zip",
+          "download_url": "https://github.com/krafton-hq/terraform-provider-redfox/releases/download/v0.3.2/terraform-provider-redfox_0.3.2_windows_386.zip",
+          "shasum": "9aa8a3af526df10799fece212e62a1450bdc00093a7da4ec4d21b17c160c41d6"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-redfox_0.3.2_windows_arm64.zip",
+          "download_url": "https://github.com/krafton-hq/terraform-provider-redfox/releases/download/v0.3.2/terraform-provider-redfox_0.3.2_windows_arm64.zip",
+          "shasum": "4645692597dd95e7a1da660134388903e45a622e86dfb34c929bd9e89d867091"
         },
         {
           "os": "linux",
           "arch": "386",
           "filename": "terraform-provider-redfox_0.3.2_linux_386.zip",
           "download_url": "https://github.com/krafton-hq/terraform-provider-redfox/releases/download/v0.3.2/terraform-provider-redfox_0.3.2_linux_386.zip",
-          "shasum": "592d1a8c1522541d0fc76cd7fe32aad3bdc43ae2a976b31f78cfc7f1e2eda430"
+          "shasum": "43277fee93a38ee2be124203e5b8588c4398efadd4bec0dea7ed592d0e05f088"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-redfox_0.3.2_linux_amd64.zip",
+          "download_url": "https://github.com/krafton-hq/terraform-provider-redfox/releases/download/v0.3.2/terraform-provider-redfox_0.3.2_linux_amd64.zip",
+          "shasum": "0bebc98bd947dd06bbc3a2102e64daee10d0956cc28f4dc9f7b7b2fcc8d355e1"
         }
       ]
     },
