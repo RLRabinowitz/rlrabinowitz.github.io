@@ -2,6 +2,114 @@
   "repository": "https://github.com/axatol/terraform-provider-octopusdeploy",
   "versions": [
     {
+      "version": "0.0.5",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/axatol/terraform-provider-octopusdeploycontrib/releases/download/v0.0.5/terraform-provider-octopusdeploycontrib_0.0.5_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/axatol/terraform-provider-octopusdeploycontrib/releases/download/v0.0.5/terraform-provider-octopusdeploycontrib_0.0.5_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-octopusdeploycontrib_0.0.5_linux_arm.zip",
+          "download_url": "https://github.com/axatol/terraform-provider-octopusdeploycontrib/releases/download/v0.0.5/terraform-provider-octopusdeploycontrib_0.0.5_linux_arm.zip",
+          "shasum": "73d384b035ee0fa61b5f15e76dd36bc10cfa6b1a905226efce086e4e3d18f369"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-octopusdeploycontrib_0.0.5_windows_arm64.zip",
+          "download_url": "https://github.com/axatol/terraform-provider-octopusdeploycontrib/releases/download/v0.0.5/terraform-provider-octopusdeploycontrib_0.0.5_windows_arm64.zip",
+          "shasum": "518ff2e9046c72992d63f8f7ea4b965d5484c4a9963c3d961bed2dc0b3d373ad"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-octopusdeploycontrib_0.0.5_linux_386.zip",
+          "download_url": "https://github.com/axatol/terraform-provider-octopusdeploycontrib/releases/download/v0.0.5/terraform-provider-octopusdeploycontrib_0.0.5_linux_386.zip",
+          "shasum": "7facfe00634442d0ffb741267955c79daf7c6486b2187cfed745bc73fa14dc53"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-octopusdeploycontrib_0.0.5_windows_arm.zip",
+          "download_url": "https://github.com/axatol/terraform-provider-octopusdeploycontrib/releases/download/v0.0.5/terraform-provider-octopusdeploycontrib_0.0.5_windows_arm.zip",
+          "shasum": "099b5604acc5bb67bc2d3bd009131b81b257aad94cd90c435618b282e3bdd482"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-octopusdeploycontrib_0.0.5_windows_amd64.zip",
+          "download_url": "https://github.com/axatol/terraform-provider-octopusdeploycontrib/releases/download/v0.0.5/terraform-provider-octopusdeploycontrib_0.0.5_windows_amd64.zip",
+          "shasum": "c21ad0d0592d53f4d1a92c04b07c5ef7036c3c534f9b60dcdaf2cde13b1beec2"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-octopusdeploycontrib_0.0.5_darwin_amd64.zip",
+          "download_url": "https://github.com/axatol/terraform-provider-octopusdeploycontrib/releases/download/v0.0.5/terraform-provider-octopusdeploycontrib_0.0.5_darwin_amd64.zip",
+          "shasum": "eb27f7d7f654d22c9a24e1629cf57f6e163f13a3dae773c6b18e393c4cbd6e1d"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-octopusdeploycontrib_0.0.5_linux_amd64.zip",
+          "download_url": "https://github.com/axatol/terraform-provider-octopusdeploycontrib/releases/download/v0.0.5/terraform-provider-octopusdeploycontrib_0.0.5_linux_amd64.zip",
+          "shasum": "53a1d84317dc5434a2f68adbe1c03b9b008958fda32cc6b155caebe45c8def0d"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-octopusdeploycontrib_0.0.5_darwin_arm64.zip",
+          "download_url": "https://github.com/axatol/terraform-provider-octopusdeploycontrib/releases/download/v0.0.5/terraform-provider-octopusdeploycontrib_0.0.5_darwin_arm64.zip",
+          "shasum": "98aa81cfa5e175bfded346a148738e6a773a62697a4062837d42b6cf55614214"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-octopusdeploycontrib_0.0.5_windows_386.zip",
+          "download_url": "https://github.com/axatol/terraform-provider-octopusdeploycontrib/releases/download/v0.0.5/terraform-provider-octopusdeploycontrib_0.0.5_windows_386.zip",
+          "shasum": "905f178d3f0e8e33d9af80256f15204576a3526a8e20450f63c02502cc0b1a8c"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-octopusdeploycontrib_0.0.5_freebsd_arm.zip",
+          "download_url": "https://github.com/axatol/terraform-provider-octopusdeploycontrib/releases/download/v0.0.5/terraform-provider-octopusdeploycontrib_0.0.5_freebsd_arm.zip",
+          "shasum": "e775a509c92e80de81d66593517bca04e5898d2378a05a51fb70a73de9cbe3a0"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-octopusdeploycontrib_0.0.5_linux_arm64.zip",
+          "download_url": "https://github.com/axatol/terraform-provider-octopusdeploycontrib/releases/download/v0.0.5/terraform-provider-octopusdeploycontrib_0.0.5_linux_arm64.zip",
+          "shasum": "efee8d504a6b7df05f94722cbaeb5a9121b9152cb7b917a122c58f18f75b47fd"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-octopusdeploycontrib_0.0.5_freebsd_386.zip",
+          "download_url": "https://github.com/axatol/terraform-provider-octopusdeploycontrib/releases/download/v0.0.5/terraform-provider-octopusdeploycontrib_0.0.5_freebsd_386.zip",
+          "shasum": "5b2ec9e3a5327337eb650a483745d0b5f64492b9d9b508fb092eece309cf6e47"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-octopusdeploycontrib_0.0.5_freebsd_arm64.zip",
+          "download_url": "https://github.com/axatol/terraform-provider-octopusdeploycontrib/releases/download/v0.0.5/terraform-provider-octopusdeploycontrib_0.0.5_freebsd_arm64.zip",
+          "shasum": "56d0c3ecdba3ccb78c6932d9f0c24eeca6a7118cab2f7cb82cf185c233c4b0d7"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-octopusdeploycontrib_0.0.5_freebsd_amd64.zip",
+          "download_url": "https://github.com/axatol/terraform-provider-octopusdeploycontrib/releases/download/v0.0.5/terraform-provider-octopusdeploycontrib_0.0.5_freebsd_amd64.zip",
+          "shasum": "b5029af48af29758d028359087b37d573bde2d407329fe85febe7c952d15f432"
+        }
+      ]
+    },
+    {
       "version": "0.0.4",
       "protocols": [
         "5.0"
