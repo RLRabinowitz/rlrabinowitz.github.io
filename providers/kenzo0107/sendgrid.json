@@ -2,6 +2,114 @@
   "repository": "https://github.com/kenzo0107/terraform-provider-sendgrid",
   "versions": [
     {
+      "version": "1.0.3",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/kenzo0107/terraform-provider-sendgrid/releases/download/v1.0.3/terraform-provider-sendgrid_1.0.3_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/kenzo0107/terraform-provider-sendgrid/releases/download/v1.0.3/terraform-provider-sendgrid_1.0.3_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-sendgrid_1.0.3_darwin_arm64.zip",
+          "download_url": "https://github.com/kenzo0107/terraform-provider-sendgrid/releases/download/v1.0.3/terraform-provider-sendgrid_1.0.3_darwin_arm64.zip",
+          "shasum": "0813f221e57a1e4fb0f61696883a7fb38a6ac0b368bb45091fac8b0b26a49ee1"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-sendgrid_1.0.3_linux_amd64.zip",
+          "download_url": "https://github.com/kenzo0107/terraform-provider-sendgrid/releases/download/v1.0.3/terraform-provider-sendgrid_1.0.3_linux_amd64.zip",
+          "shasum": "44f4d200fa8121e82da747253060253743809551986f24d5f2699481e3453f2e"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-sendgrid_1.0.3_windows_arm64.zip",
+          "download_url": "https://github.com/kenzo0107/terraform-provider-sendgrid/releases/download/v1.0.3/terraform-provider-sendgrid_1.0.3_windows_arm64.zip",
+          "shasum": "2b04e33ed4918dcda661aa03d4a36fbe475ae02fcc8f75b268a8dd52cdc2d923"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-sendgrid_1.0.3_linux_arm.zip",
+          "download_url": "https://github.com/kenzo0107/terraform-provider-sendgrid/releases/download/v1.0.3/terraform-provider-sendgrid_1.0.3_linux_arm.zip",
+          "shasum": "f2f57c5efea1f21a601c4ed0cfd2109b5b2034cfbd645397b638b49e6d2b58d5"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-sendgrid_1.0.3_linux_arm64.zip",
+          "download_url": "https://github.com/kenzo0107/terraform-provider-sendgrid/releases/download/v1.0.3/terraform-provider-sendgrid_1.0.3_linux_arm64.zip",
+          "shasum": "4ef50982f854a9ce9ca7c200f98c10e65bf27750ff2dd1c212972f3211d78f39"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-sendgrid_1.0.3_windows_386.zip",
+          "download_url": "https://github.com/kenzo0107/terraform-provider-sendgrid/releases/download/v1.0.3/terraform-provider-sendgrid_1.0.3_windows_386.zip",
+          "shasum": "6c1a3d934e97d91bebd60562e55d465f2416d374f396d9b80d8fb9ff80300cd6"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-sendgrid_1.0.3_freebsd_arm64.zip",
+          "download_url": "https://github.com/kenzo0107/terraform-provider-sendgrid/releases/download/v1.0.3/terraform-provider-sendgrid_1.0.3_freebsd_arm64.zip",
+          "shasum": "108b74a28cd458c8dcb9078616b5a42f9c4e0c777d5e3090ef9e93477e9346aa"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-sendgrid_1.0.3_freebsd_amd64.zip",
+          "download_url": "https://github.com/kenzo0107/terraform-provider-sendgrid/releases/download/v1.0.3/terraform-provider-sendgrid_1.0.3_freebsd_amd64.zip",
+          "shasum": "b423aa69c6d8887c181621957c70554d747c837ffbc1f805b77da7686e6ae716"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-sendgrid_1.0.3_freebsd_arm.zip",
+          "download_url": "https://github.com/kenzo0107/terraform-provider-sendgrid/releases/download/v1.0.3/terraform-provider-sendgrid_1.0.3_freebsd_arm.zip",
+          "shasum": "a9ee7825776be38d982b7c319e9399627bc99a490cbe190e7371af85cbed6f31"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-sendgrid_1.0.3_freebsd_386.zip",
+          "download_url": "https://github.com/kenzo0107/terraform-provider-sendgrid/releases/download/v1.0.3/terraform-provider-sendgrid_1.0.3_freebsd_386.zip",
+          "shasum": "b1b8aa9975f6eb6c6d20581467a9c17dc59357c32443fc3512b8b91cec5d4ab7"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-sendgrid_1.0.3_windows_amd64.zip",
+          "download_url": "https://github.com/kenzo0107/terraform-provider-sendgrid/releases/download/v1.0.3/terraform-provider-sendgrid_1.0.3_windows_amd64.zip",
+          "shasum": "ce8cbf4c6a75143a2012868e5b967e766fe6a030f44b74b84b2d16501c00191b"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-sendgrid_1.0.3_darwin_amd64.zip",
+          "download_url": "https://github.com/kenzo0107/terraform-provider-sendgrid/releases/download/v1.0.3/terraform-provider-sendgrid_1.0.3_darwin_amd64.zip",
+          "shasum": "89024dd547c68b0aae340e56d31c149a230d7b96ec945861cf540cc3d69fe44c"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-sendgrid_1.0.3_windows_arm.zip",
+          "download_url": "https://github.com/kenzo0107/terraform-provider-sendgrid/releases/download/v1.0.3/terraform-provider-sendgrid_1.0.3_windows_arm.zip",
+          "shasum": "d6b25dec9754cc99b6b45e0643ed91b69615caf985343c16062ec65e910c36b6"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-sendgrid_1.0.3_linux_386.zip",
+          "download_url": "https://github.com/kenzo0107/terraform-provider-sendgrid/releases/download/v1.0.3/terraform-provider-sendgrid_1.0.3_linux_386.zip",
+          "shasum": "077a5401adbb93882d9acc54a88af23c02469ac1018d856214f7ea288f5171cf"
+        }
+      ]
+    },
+    {
       "version": "1.0.2",
       "protocols": [
         "5.0"
@@ -11,101 +119,101 @@
       "targets": [
         {
           "os": "freebsd",
-          "arch": "386",
-          "filename": "terraform-provider-sendgrid_1.0.2_freebsd_386.zip",
-          "download_url": "https://github.com/kenzo0107/terraform-provider-sendgrid/releases/download/v1.0.2/terraform-provider-sendgrid_1.0.2_freebsd_386.zip",
-          "shasum": "8d70523e96e8ab1ca3b62abe794722bfcb52dbd29d18eaefc2b27876d8212618"
-        },
-        {
-          "os": "darwin",
-          "arch": "arm64",
-          "filename": "terraform-provider-sendgrid_1.0.2_darwin_arm64.zip",
-          "download_url": "https://github.com/kenzo0107/terraform-provider-sendgrid/releases/download/v1.0.2/terraform-provider-sendgrid_1.0.2_darwin_arm64.zip",
-          "shasum": "41746066a7cf5ee37214369b35c0aba6097ce5dbf5076a5ff923f0ebf869ef36"
-        },
-        {
-          "os": "freebsd",
           "arch": "arm",
           "filename": "terraform-provider-sendgrid_1.0.2_freebsd_arm.zip",
           "download_url": "https://github.com/kenzo0107/terraform-provider-sendgrid/releases/download/v1.0.2/terraform-provider-sendgrid_1.0.2_freebsd_arm.zip",
-          "shasum": "c5b51c580dc5238f523d29f3779998770971fed53893cb203256092d33117f2e"
-        },
-        {
-          "os": "linux",
-          "arch": "amd64",
-          "filename": "terraform-provider-sendgrid_1.0.2_linux_amd64.zip",
-          "download_url": "https://github.com/kenzo0107/terraform-provider-sendgrid/releases/download/v1.0.2/terraform-provider-sendgrid_1.0.2_linux_amd64.zip",
-          "shasum": "7f9106967f6beffe749fa4719dc3c569197b49a9392703dda59391c471df986f"
-        },
-        {
-          "os": "freebsd",
-          "arch": "arm64",
-          "filename": "terraform-provider-sendgrid_1.0.2_freebsd_arm64.zip",
-          "download_url": "https://github.com/kenzo0107/terraform-provider-sendgrid/releases/download/v1.0.2/terraform-provider-sendgrid_1.0.2_freebsd_arm64.zip",
-          "shasum": "361005dfd10766d2e66912c4f5e3f24ef2a55e6519a8b4e3b1c33245c0183214"
-        },
-        {
-          "os": "linux",
-          "arch": "arm",
-          "filename": "terraform-provider-sendgrid_1.0.2_linux_arm.zip",
-          "download_url": "https://github.com/kenzo0107/terraform-provider-sendgrid/releases/download/v1.0.2/terraform-provider-sendgrid_1.0.2_linux_arm.zip",
-          "shasum": "5ccddfe83aa59ff4448a03281a8bcecbf01fdc4133abd7964fe4769633be08e2"
-        },
-        {
-          "os": "freebsd",
-          "arch": "amd64",
-          "filename": "terraform-provider-sendgrid_1.0.2_freebsd_amd64.zip",
-          "download_url": "https://github.com/kenzo0107/terraform-provider-sendgrid/releases/download/v1.0.2/terraform-provider-sendgrid_1.0.2_freebsd_amd64.zip",
-          "shasum": "a7d7d222218aceb2f8ba70a69a2487221d5704af8897e5ac126cbdbded63588a"
-        },
-        {
-          "os": "windows",
-          "arch": "arm64",
-          "filename": "terraform-provider-sendgrid_1.0.2_windows_arm64.zip",
-          "download_url": "https://github.com/kenzo0107/terraform-provider-sendgrid/releases/download/v1.0.2/terraform-provider-sendgrid_1.0.2_windows_arm64.zip",
-          "shasum": "d3370aa2fb90916772aca3ece6227637bdfac597000a4ecbd0f6c3f7e47f8394"
-        },
-        {
-          "os": "windows",
-          "arch": "arm",
-          "filename": "terraform-provider-sendgrid_1.0.2_windows_arm.zip",
-          "download_url": "https://github.com/kenzo0107/terraform-provider-sendgrid/releases/download/v1.0.2/terraform-provider-sendgrid_1.0.2_windows_arm.zip",
-          "shasum": "45a1e96c50f304bea5bf5b32cd53515205a1903f9adf1f54882cae53ff082e16"
-        },
-        {
-          "os": "windows",
-          "arch": "386",
-          "filename": "terraform-provider-sendgrid_1.0.2_windows_386.zip",
-          "download_url": "https://github.com/kenzo0107/terraform-provider-sendgrid/releases/download/v1.0.2/terraform-provider-sendgrid_1.0.2_windows_386.zip",
-          "shasum": "a08a2ef34352f2018de1afbb94a03f94a16156b0526b92de8f53a643beed8f00"
-        },
-        {
-          "os": "darwin",
-          "arch": "amd64",
-          "filename": "terraform-provider-sendgrid_1.0.2_darwin_amd64.zip",
-          "download_url": "https://github.com/kenzo0107/terraform-provider-sendgrid/releases/download/v1.0.2/terraform-provider-sendgrid_1.0.2_darwin_amd64.zip",
-          "shasum": "7c82a6c298bd8746640a6702e43bbe1d8f63e80d4d209aa6ed5667cfcfd6dcc5"
+          "shasum": "62973764c879d62f56a6f90b75f082e436bcb63bca797f8bfaef864118add16e"
         },
         {
           "os": "windows",
           "arch": "amd64",
           "filename": "terraform-provider-sendgrid_1.0.2_windows_amd64.zip",
           "download_url": "https://github.com/kenzo0107/terraform-provider-sendgrid/releases/download/v1.0.2/terraform-provider-sendgrid_1.0.2_windows_amd64.zip",
-          "shasum": "5965eb85f27b9e12124590e8ccdc2091cc00e4c9dd81112f0b1b0f1f5efd194d"
+          "shasum": "ffadce63f4f1200a17323dccca42d2a7f970937523ff045c10be9ae1c135a815"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-sendgrid_1.0.2_darwin_amd64.zip",
+          "download_url": "https://github.com/kenzo0107/terraform-provider-sendgrid/releases/download/v1.0.2/terraform-provider-sendgrid_1.0.2_darwin_amd64.zip",
+          "shasum": "76787d600923348d1bc6b514bdae018b44c7392488c4c0fa6a3c86586b88dd89"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-sendgrid_1.0.2_windows_386.zip",
+          "download_url": "https://github.com/kenzo0107/terraform-provider-sendgrid/releases/download/v1.0.2/terraform-provider-sendgrid_1.0.2_windows_386.zip",
+          "shasum": "23db8a6ba06ed9a3150699b860c749a9855b508f7a79f18390423da3813dadb0"
         },
         {
           "os": "linux",
           "arch": "386",
           "filename": "terraform-provider-sendgrid_1.0.2_linux_386.zip",
           "download_url": "https://github.com/kenzo0107/terraform-provider-sendgrid/releases/download/v1.0.2/terraform-provider-sendgrid_1.0.2_linux_386.zip",
-          "shasum": "4d2635c4675b12a0f04227a0568b4982f5cec3ab4f5408926fad2733cb5dbe43"
+          "shasum": "ce2aa9830e3fbd023fb525d9c6d81dac2c4cfae0c489e3d76a130e9af2d501fe"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-sendgrid_1.0.2_freebsd_amd64.zip",
+          "download_url": "https://github.com/kenzo0107/terraform-provider-sendgrid/releases/download/v1.0.2/terraform-provider-sendgrid_1.0.2_freebsd_amd64.zip",
+          "shasum": "83d7e61b2bd88b1368f1522dec463670b35db2800db0440d14e4e2307696dfa0"
         },
         {
           "os": "linux",
           "arch": "arm64",
           "filename": "terraform-provider-sendgrid_1.0.2_linux_arm64.zip",
           "download_url": "https://github.com/kenzo0107/terraform-provider-sendgrid/releases/download/v1.0.2/terraform-provider-sendgrid_1.0.2_linux_arm64.zip",
-          "shasum": "463d92ad5830105a61711488b31a9a219634c0f8b5fd8c405420dd5959e84c3d"
+          "shasum": "b012920f6429bcadab711c5285b87d09239af5220da67620459fd9d8e5c5066d"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-sendgrid_1.0.2_darwin_arm64.zip",
+          "download_url": "https://github.com/kenzo0107/terraform-provider-sendgrid/releases/download/v1.0.2/terraform-provider-sendgrid_1.0.2_darwin_arm64.zip",
+          "shasum": "627a9f2dcc8b56d7c2d98abbaeba5727fbd6187801f7f694e891c69e9fd48db8"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-sendgrid_1.0.2_freebsd_386.zip",
+          "download_url": "https://github.com/kenzo0107/terraform-provider-sendgrid/releases/download/v1.0.2/terraform-provider-sendgrid_1.0.2_freebsd_386.zip",
+          "shasum": "06b66f24fd18a0bd35ea50bc3ebb42c1a682b2045a79fb6c80525274c15212a4"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-sendgrid_1.0.2_freebsd_arm64.zip",
+          "download_url": "https://github.com/kenzo0107/terraform-provider-sendgrid/releases/download/v1.0.2/terraform-provider-sendgrid_1.0.2_freebsd_arm64.zip",
+          "shasum": "4285f99a074dd4ce1898842fa3ca4c95837a8eb5fe6152e7c98773ff704010ab"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-sendgrid_1.0.2_windows_arm.zip",
+          "download_url": "https://github.com/kenzo0107/terraform-provider-sendgrid/releases/download/v1.0.2/terraform-provider-sendgrid_1.0.2_windows_arm.zip",
+          "shasum": "0d77851cda8ebd573b33c9bd79055b6a8dab57602e4fdf2878022ac9e6ba17fe"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-sendgrid_1.0.2_windows_arm64.zip",
+          "download_url": "https://github.com/kenzo0107/terraform-provider-sendgrid/releases/download/v1.0.2/terraform-provider-sendgrid_1.0.2_windows_arm64.zip",
+          "shasum": "a725a2b5bbaf6fcbdd539f3de7946192d7e82b79e3da767c08d96a1ca8abd3a6"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-sendgrid_1.0.2_linux_arm.zip",
+          "download_url": "https://github.com/kenzo0107/terraform-provider-sendgrid/releases/download/v1.0.2/terraform-provider-sendgrid_1.0.2_linux_arm.zip",
+          "shasum": "fa0d5ea55b9b3aaa3a3dde626c497364e6625e7b093af332604f2289b0160b81"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-sendgrid_1.0.2_linux_amd64.zip",
+          "download_url": "https://github.com/kenzo0107/terraform-provider-sendgrid/releases/download/v1.0.2/terraform-provider-sendgrid_1.0.2_linux_amd64.zip",
+          "shasum": "808ad5c35e86891179185fdee1d7e0c43046e26dc6ab5cdc868fb1de1a1e3c6f"
         }
       ]
     },
@@ -118,102 +226,102 @@
       "shasums_signature_url": "https://github.com/kenzo0107/terraform-provider-sendgrid/releases/download/v1.0.1/terraform-provider-sendgrid_1.0.1_SHA256SUMS.sig",
       "targets": [
         {
-          "os": "darwin",
-          "arch": "arm64",
-          "filename": "terraform-provider-sendgrid_1.0.1_darwin_arm64.zip",
-          "download_url": "https://github.com/kenzo0107/terraform-provider-sendgrid/releases/download/v1.0.1/terraform-provider-sendgrid_1.0.1_darwin_arm64.zip",
-          "shasum": "dc9d8158e3e89c0304a2023ee0a1956eb24b14afc032fdb230e625cc5c73f335"
-        },
-        {
-          "os": "freebsd",
-          "arch": "arm",
-          "filename": "terraform-provider-sendgrid_1.0.1_freebsd_arm.zip",
-          "download_url": "https://github.com/kenzo0107/terraform-provider-sendgrid/releases/download/v1.0.1/terraform-provider-sendgrid_1.0.1_freebsd_arm.zip",
-          "shasum": "d1452f2e855d54b12881a12e682346002159d7959837bf292072bc6a9f2d18ae"
-        },
-        {
-          "os": "linux",
-          "arch": "amd64",
-          "filename": "terraform-provider-sendgrid_1.0.1_linux_amd64.zip",
-          "download_url": "https://github.com/kenzo0107/terraform-provider-sendgrid/releases/download/v1.0.1/terraform-provider-sendgrid_1.0.1_linux_amd64.zip",
-          "shasum": "51b1891003e21b509cda9e043555c5d7189c2bf49fa5f5ad17d39d7e2664b629"
-        },
-        {
-          "os": "windows",
-          "arch": "386",
-          "filename": "terraform-provider-sendgrid_1.0.1_windows_386.zip",
-          "download_url": "https://github.com/kenzo0107/terraform-provider-sendgrid/releases/download/v1.0.1/terraform-provider-sendgrid_1.0.1_windows_386.zip",
-          "shasum": "af6df04a674f8038b02a08cefe16e9425996f16e1a07e0ffae37d2ba2d2b95e4"
-        },
-        {
-          "os": "freebsd",
-          "arch": "arm64",
-          "filename": "terraform-provider-sendgrid_1.0.1_freebsd_arm64.zip",
-          "download_url": "https://github.com/kenzo0107/terraform-provider-sendgrid/releases/download/v1.0.1/terraform-provider-sendgrid_1.0.1_freebsd_arm64.zip",
-          "shasum": "a8cfd7b3f3db0df5c33570f87ec86e034c6429a06ac20dd9db292d9521f92bb9"
-        },
-        {
-          "os": "freebsd",
-          "arch": "386",
-          "filename": "terraform-provider-sendgrid_1.0.1_freebsd_386.zip",
-          "download_url": "https://github.com/kenzo0107/terraform-provider-sendgrid/releases/download/v1.0.1/terraform-provider-sendgrid_1.0.1_freebsd_386.zip",
-          "shasum": "eef90a9af874aa3a5c66c3adedf0638381d794f9eacf99bc71f621fcbbef567f"
-        },
-        {
-          "os": "windows",
-          "arch": "amd64",
-          "filename": "terraform-provider-sendgrid_1.0.1_windows_amd64.zip",
-          "download_url": "https://github.com/kenzo0107/terraform-provider-sendgrid/releases/download/v1.0.1/terraform-provider-sendgrid_1.0.1_windows_amd64.zip",
-          "shasum": "e369738fdf422c6e05a0b27494318a87173999aece9fc05c10d6cc1aa7e6baa1"
-        },
-        {
           "os": "linux",
           "arch": "arm64",
           "filename": "terraform-provider-sendgrid_1.0.1_linux_arm64.zip",
           "download_url": "https://github.com/kenzo0107/terraform-provider-sendgrid/releases/download/v1.0.1/terraform-provider-sendgrid_1.0.1_linux_arm64.zip",
-          "shasum": "fdf34f96427326a361374e5093f69d60029936e4e80aa23c3f59e7b2f9f32498"
-        },
-        {
-          "os": "linux",
-          "arch": "arm",
-          "filename": "terraform-provider-sendgrid_1.0.1_linux_arm.zip",
-          "download_url": "https://github.com/kenzo0107/terraform-provider-sendgrid/releases/download/v1.0.1/terraform-provider-sendgrid_1.0.1_linux_arm.zip",
-          "shasum": "1feaa39329298c0845f1ccdd3b73d13724230d88c062c2377ddb4c8d8e0da127"
+          "shasum": "13db387df873bcb5cb6f72024d990b1e6385db7cf31b3ff664a2077298669c24"
         },
         {
           "os": "linux",
           "arch": "386",
           "filename": "terraform-provider-sendgrid_1.0.1_linux_386.zip",
           "download_url": "https://github.com/kenzo0107/terraform-provider-sendgrid/releases/download/v1.0.1/terraform-provider-sendgrid_1.0.1_linux_386.zip",
-          "shasum": "aec4f7f2ddf3c3293315b9374efb44bad3a9da5f9895f7eea330915912516a9c"
+          "shasum": "6310b91c61759ebf05b0a664e6deae71baa2bdfca6db8e54a73da6c93b245849"
         },
         {
           "os": "freebsd",
-          "arch": "amd64",
-          "filename": "terraform-provider-sendgrid_1.0.1_freebsd_amd64.zip",
-          "download_url": "https://github.com/kenzo0107/terraform-provider-sendgrid/releases/download/v1.0.1/terraform-provider-sendgrid_1.0.1_freebsd_amd64.zip",
-          "shasum": "cba610c8d65f45e680b886fb0f60fb1b896c6013ee2ed4afa037afd1652e4f19"
-        },
-        {
-          "os": "windows",
-          "arch": "arm",
-          "filename": "terraform-provider-sendgrid_1.0.1_windows_arm.zip",
-          "download_url": "https://github.com/kenzo0107/terraform-provider-sendgrid/releases/download/v1.0.1/terraform-provider-sendgrid_1.0.1_windows_arm.zip",
-          "shasum": "2c72a08445eae938151a7af8b8be51b69878793c72822346f5ca1d827fb00926"
+          "arch": "386",
+          "filename": "terraform-provider-sendgrid_1.0.1_freebsd_386.zip",
+          "download_url": "https://github.com/kenzo0107/terraform-provider-sendgrid/releases/download/v1.0.1/terraform-provider-sendgrid_1.0.1_freebsd_386.zip",
+          "shasum": "5d89a05a54543f6c1f1e1771cd313883e704e971032e38e4572b820cfbfc4e6d"
         },
         {
           "os": "darwin",
           "arch": "amd64",
           "filename": "terraform-provider-sendgrid_1.0.1_darwin_amd64.zip",
           "download_url": "https://github.com/kenzo0107/terraform-provider-sendgrid/releases/download/v1.0.1/terraform-provider-sendgrid_1.0.1_darwin_amd64.zip",
-          "shasum": "052ded194fe315372fdff45ceadc0921a13f4601b75023adebaa1394731e5fbf"
+          "shasum": "da90a2488a18139f57b65dba81c5b1e0a58f829cba323dc8cb1663a7b796170c"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-sendgrid_1.0.1_freebsd_arm.zip",
+          "download_url": "https://github.com/kenzo0107/terraform-provider-sendgrid/releases/download/v1.0.1/terraform-provider-sendgrid_1.0.1_freebsd_arm.zip",
+          "shasum": "533900c30648317947d3797513666f18dae49517a7b983b226c8561e18d1160e"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-sendgrid_1.0.1_freebsd_arm64.zip",
+          "download_url": "https://github.com/kenzo0107/terraform-provider-sendgrid/releases/download/v1.0.1/terraform-provider-sendgrid_1.0.1_freebsd_arm64.zip",
+          "shasum": "dc6ab42f54d07bda1e47d20ed040c194a528391e10ee6d5cd842551ffa6d0cf0"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-sendgrid_1.0.1_windows_386.zip",
+          "download_url": "https://github.com/kenzo0107/terraform-provider-sendgrid/releases/download/v1.0.1/terraform-provider-sendgrid_1.0.1_windows_386.zip",
+          "shasum": "e0e5323a37e87a95e769c2b4af3e819ce7881320536ac779b29ab30328db3070"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-sendgrid_1.0.1_windows_amd64.zip",
+          "download_url": "https://github.com/kenzo0107/terraform-provider-sendgrid/releases/download/v1.0.1/terraform-provider-sendgrid_1.0.1_windows_amd64.zip",
+          "shasum": "27a753cc63eda447e1ee1c15946b2df24a0e49c324bf79ea9792f8cc04015169"
         },
         {
           "os": "windows",
           "arch": "arm64",
           "filename": "terraform-provider-sendgrid_1.0.1_windows_arm64.zip",
           "download_url": "https://github.com/kenzo0107/terraform-provider-sendgrid/releases/download/v1.0.1/terraform-provider-sendgrid_1.0.1_windows_arm64.zip",
-          "shasum": "d444613c39d30560f9c2cfd24b2f1784eccdbd919e7bcb927585db3d71323d4a"
+          "shasum": "287ffd5e72ec800cf323361be1315000a6888a4017940251a97b13e66fe6433c"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-sendgrid_1.0.1_freebsd_amd64.zip",
+          "download_url": "https://github.com/kenzo0107/terraform-provider-sendgrid/releases/download/v1.0.1/terraform-provider-sendgrid_1.0.1_freebsd_amd64.zip",
+          "shasum": "633acd77458101bb7856b21ba10365beb6e4cd8bf6b8c5f2ca6c59dd64259199"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-sendgrid_1.0.1_windows_arm.zip",
+          "download_url": "https://github.com/kenzo0107/terraform-provider-sendgrid/releases/download/v1.0.1/terraform-provider-sendgrid_1.0.1_windows_arm.zip",
+          "shasum": "83272ca8a4cb3f61a806f1477ee6ad0f1698b50844176c80612ede4001eda94e"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-sendgrid_1.0.1_darwin_arm64.zip",
+          "download_url": "https://github.com/kenzo0107/terraform-provider-sendgrid/releases/download/v1.0.1/terraform-provider-sendgrid_1.0.1_darwin_arm64.zip",
+          "shasum": "532d4f00198df4c670404ff200da9fbbdeb09445f3be0229ba65914469768cce"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-sendgrid_1.0.1_linux_arm.zip",
+          "download_url": "https://github.com/kenzo0107/terraform-provider-sendgrid/releases/download/v1.0.1/terraform-provider-sendgrid_1.0.1_linux_arm.zip",
+          "shasum": "a142bb8e499b6ff98900d8928b866e84a99a77968eab99406399eceb750c204d"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-sendgrid_1.0.1_linux_amd64.zip",
+          "download_url": "https://github.com/kenzo0107/terraform-provider-sendgrid/releases/download/v1.0.1/terraform-provider-sendgrid_1.0.1_linux_amd64.zip",
+          "shasum": "a9a07979b424561ad14d8c9fe90f0a6a6fdd6d4d6eb069847a3885f7d9fef4e5"
         }
       ]
     },
@@ -227,101 +335,101 @@
       "targets": [
         {
           "os": "windows",
-          "arch": "arm64",
-          "filename": "terraform-provider-sendgrid_1.0.0_windows_arm64.zip",
-          "download_url": "https://github.com/kenzo0107/terraform-provider-sendgrid/releases/download/v1.0.0/terraform-provider-sendgrid_1.0.0_windows_arm64.zip",
-          "shasum": "3bacb9e32f932adf0401ddda6256a14c8452294230b77c7dc19cdb72ef7a7ccf"
-        },
-        {
-          "os": "linux",
-          "arch": "arm",
-          "filename": "terraform-provider-sendgrid_1.0.0_linux_arm.zip",
-          "download_url": "https://github.com/kenzo0107/terraform-provider-sendgrid/releases/download/v1.0.0/terraform-provider-sendgrid_1.0.0_linux_arm.zip",
-          "shasum": "d9870c888ff3c71f4864d766125a8f420940e38900c5cb8464b0bedc351c5e66"
-        },
-        {
-          "os": "freebsd",
-          "arch": "amd64",
-          "filename": "terraform-provider-sendgrid_1.0.0_freebsd_amd64.zip",
-          "download_url": "https://github.com/kenzo0107/terraform-provider-sendgrid/releases/download/v1.0.0/terraform-provider-sendgrid_1.0.0_freebsd_amd64.zip",
-          "shasum": "798e461bc8bc65a83250cfaac8724f28e11a126fb9d7dc97bcf666c458c39bae"
-        },
-        {
-          "os": "linux",
-          "arch": "arm64",
-          "filename": "terraform-provider-sendgrid_1.0.0_linux_arm64.zip",
-          "download_url": "https://github.com/kenzo0107/terraform-provider-sendgrid/releases/download/v1.0.0/terraform-provider-sendgrid_1.0.0_linux_arm64.zip",
-          "shasum": "f4ab5253d307f1587068552b13def28d5c2f5fc22a2d72f6a8a3d6eb04347197"
-        },
-        {
-          "os": "darwin",
-          "arch": "arm64",
-          "filename": "terraform-provider-sendgrid_1.0.0_darwin_arm64.zip",
-          "download_url": "https://github.com/kenzo0107/terraform-provider-sendgrid/releases/download/v1.0.0/terraform-provider-sendgrid_1.0.0_darwin_arm64.zip",
-          "shasum": "3004bd5c81b35f1b6ec8b44da4455e611e68a18fb0470d7582fa38cb032ed92d"
-        },
-        {
-          "os": "windows",
           "arch": "arm",
           "filename": "terraform-provider-sendgrid_1.0.0_windows_arm.zip",
           "download_url": "https://github.com/kenzo0107/terraform-provider-sendgrid/releases/download/v1.0.0/terraform-provider-sendgrid_1.0.0_windows_arm.zip",
-          "shasum": "d31d5e7b20b7705522d948c150ecebb1bc52f2fc98128d1e25c82b2eec4a5546"
-        },
-        {
-          "os": "freebsd",
-          "arch": "arm64",
-          "filename": "terraform-provider-sendgrid_1.0.0_freebsd_arm64.zip",
-          "download_url": "https://github.com/kenzo0107/terraform-provider-sendgrid/releases/download/v1.0.0/terraform-provider-sendgrid_1.0.0_freebsd_arm64.zip",
-          "shasum": "0e0ce26b8653f84870dc91db349b870b9746b75ef9460049314f0ab0914416e7"
-        },
-        {
-          "os": "linux",
-          "arch": "386",
-          "filename": "terraform-provider-sendgrid_1.0.0_linux_386.zip",
-          "download_url": "https://github.com/kenzo0107/terraform-provider-sendgrid/releases/download/v1.0.0/terraform-provider-sendgrid_1.0.0_linux_386.zip",
-          "shasum": "0de78bdb1064f312b08b8925a15adc4d9320aedc7f29c766592fd353fb08e582"
-        },
-        {
-          "os": "freebsd",
-          "arch": "arm",
-          "filename": "terraform-provider-sendgrid_1.0.0_freebsd_arm.zip",
-          "download_url": "https://github.com/kenzo0107/terraform-provider-sendgrid/releases/download/v1.0.0/terraform-provider-sendgrid_1.0.0_freebsd_arm.zip",
-          "shasum": "40517425286332e9d52eed899f73c5fe21a62ca5ba57cf103a7b59baa2302261"
-        },
-        {
-          "os": "freebsd",
-          "arch": "386",
-          "filename": "terraform-provider-sendgrid_1.0.0_freebsd_386.zip",
-          "download_url": "https://github.com/kenzo0107/terraform-provider-sendgrid/releases/download/v1.0.0/terraform-provider-sendgrid_1.0.0_freebsd_386.zip",
-          "shasum": "22fee1805aa001e17512ca4ee1e2766825f0630cbe051d4409107e1a975eb38f"
-        },
-        {
-          "os": "linux",
-          "arch": "amd64",
-          "filename": "terraform-provider-sendgrid_1.0.0_linux_amd64.zip",
-          "download_url": "https://github.com/kenzo0107/terraform-provider-sendgrid/releases/download/v1.0.0/terraform-provider-sendgrid_1.0.0_linux_amd64.zip",
-          "shasum": "830bc91c2aceaad278342d5108cd2aa6fb16c11b9d24e61dd074e65852a083a1"
-        },
-        {
-          "os": "darwin",
-          "arch": "amd64",
-          "filename": "terraform-provider-sendgrid_1.0.0_darwin_amd64.zip",
-          "download_url": "https://github.com/kenzo0107/terraform-provider-sendgrid/releases/download/v1.0.0/terraform-provider-sendgrid_1.0.0_darwin_amd64.zip",
-          "shasum": "e2a9eb460d6fa67b2cde55a48b647fe1417ac68567ab725d075e998589ad8377"
-        },
-        {
-          "os": "windows",
-          "arch": "386",
-          "filename": "terraform-provider-sendgrid_1.0.0_windows_386.zip",
-          "download_url": "https://github.com/kenzo0107/terraform-provider-sendgrid/releases/download/v1.0.0/terraform-provider-sendgrid_1.0.0_windows_386.zip",
-          "shasum": "ad887f165f630d1cd8ba69efecb6e55a5ac98cb23e1db57044ca267dc7a6e73b"
+          "shasum": "74f5b7146521b0eed54b1387d4647b9f7cb126e8d55df736ce016794003b78a6"
         },
         {
           "os": "windows",
           "arch": "amd64",
           "filename": "terraform-provider-sendgrid_1.0.0_windows_amd64.zip",
           "download_url": "https://github.com/kenzo0107/terraform-provider-sendgrid/releases/download/v1.0.0/terraform-provider-sendgrid_1.0.0_windows_amd64.zip",
-          "shasum": "36413a8116a2a3f5cc62d3cb81a74aadc62e52aa85a7907fe85210e13a521196"
+          "shasum": "872ce4a61ad4cae04058c2b453a4ac1cd0526eef4c6091e29cdadece35ce20ff"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-sendgrid_1.0.0_freebsd_386.zip",
+          "download_url": "https://github.com/kenzo0107/terraform-provider-sendgrid/releases/download/v1.0.0/terraform-provider-sendgrid_1.0.0_freebsd_386.zip",
+          "shasum": "a8ae43395e44f23022c8408dbee2f13d2867fda9b8a5d67cc2538615f1a6108a"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-sendgrid_1.0.0_linux_arm.zip",
+          "download_url": "https://github.com/kenzo0107/terraform-provider-sendgrid/releases/download/v1.0.0/terraform-provider-sendgrid_1.0.0_linux_arm.zip",
+          "shasum": "e45b2a1389b4486e73115fd33a815f96d06448f6d23b67b861c1bb5b3dceec8b"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-sendgrid_1.0.0_linux_386.zip",
+          "download_url": "https://github.com/kenzo0107/terraform-provider-sendgrid/releases/download/v1.0.0/terraform-provider-sendgrid_1.0.0_linux_386.zip",
+          "shasum": "6d41d5315edfb7426481e0ea772e06597d7dd2cb99bb8173d33ce1a5820309f0"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-sendgrid_1.0.0_darwin_arm64.zip",
+          "download_url": "https://github.com/kenzo0107/terraform-provider-sendgrid/releases/download/v1.0.0/terraform-provider-sendgrid_1.0.0_darwin_arm64.zip",
+          "shasum": "f34a5c34fb1064fba98209bf5dd4dfab277a245160f373306978fdc58a146993"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-sendgrid_1.0.0_freebsd_arm.zip",
+          "download_url": "https://github.com/kenzo0107/terraform-provider-sendgrid/releases/download/v1.0.0/terraform-provider-sendgrid_1.0.0_freebsd_arm.zip",
+          "shasum": "672cc1588c9b7ff51d7e630095f1411473f33074542b4d31c8027c63a65dfb08"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-sendgrid_1.0.0_linux_amd64.zip",
+          "download_url": "https://github.com/kenzo0107/terraform-provider-sendgrid/releases/download/v1.0.0/terraform-provider-sendgrid_1.0.0_linux_amd64.zip",
+          "shasum": "f854d7ff910a358045f363dd0a2de43e9ee22624f457c28c61e4db5bb1c64bfd"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-sendgrid_1.0.0_windows_arm64.zip",
+          "download_url": "https://github.com/kenzo0107/terraform-provider-sendgrid/releases/download/v1.0.0/terraform-provider-sendgrid_1.0.0_windows_arm64.zip",
+          "shasum": "0ae64fa3661e13356cb8ced0290738af3f13185a142025a89d924a3d9513077d"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-sendgrid_1.0.0_darwin_amd64.zip",
+          "download_url": "https://github.com/kenzo0107/terraform-provider-sendgrid/releases/download/v1.0.0/terraform-provider-sendgrid_1.0.0_darwin_amd64.zip",
+          "shasum": "043621f7663916b4c689a897dafea788509b13b75ae2743104fbc37c28a35254"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-sendgrid_1.0.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/kenzo0107/terraform-provider-sendgrid/releases/download/v1.0.0/terraform-provider-sendgrid_1.0.0_freebsd_amd64.zip",
+          "shasum": "d1600b7812be2589a705d68a2eefe2c2fe760846d55d8ff51e3a19fae584a956"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-sendgrid_1.0.0_linux_arm64.zip",
+          "download_url": "https://github.com/kenzo0107/terraform-provider-sendgrid/releases/download/v1.0.0/terraform-provider-sendgrid_1.0.0_linux_arm64.zip",
+          "shasum": "9d28a4db643a1503f4b81eba2c5b49b32ffa3753fbb09a8ae8cff0ee7d0a450b"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-sendgrid_1.0.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/kenzo0107/terraform-provider-sendgrid/releases/download/v1.0.0/terraform-provider-sendgrid_1.0.0_freebsd_arm64.zip",
+          "shasum": "1dbb6749f41c821ed0dc4f21c01fd92e6f8ebec2f172f3c067a44725831d52cd"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-sendgrid_1.0.0_windows_386.zip",
+          "download_url": "https://github.com/kenzo0107/terraform-provider-sendgrid/releases/download/v1.0.0/terraform-provider-sendgrid_1.0.0_windows_386.zip",
+          "shasum": "2257e5a94b71ee8cc9399506bc7eb8e745e7f7b5a9f98772fd06afe273e1652c"
         }
       ]
     },
