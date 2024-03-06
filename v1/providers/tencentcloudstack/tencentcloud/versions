@@ -1,29 +1,109 @@
 {
   "versions": [
     {
-      "version": "1.81.77",
+      "version": "1.81.78",
       "protocols": [
         "5.0"
       ],
       "platforms": [
         {
+          "os": "freebsd",
+          "arch": "386"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64"
+        },
+        {
           "os": "windows",
           "arch": "amd64"
         },
         {
+          "os": "linux",
+          "arch": "arm"
+        },
+        {
           "os": "windows",
           "arch": "arm"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64"
+        },
+        {
+          "os": "linux",
+          "arch": "386"
+        },
+        {
+          "os": "windows",
+          "arch": "386"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64"
         },
         {
           "os": "darwin",
           "arch": "arm64"
         },
         {
+          "os": "windows",
+          "arch": "arm64"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64"
+        }
+      ]
+    },
+    {
+      "version": "1.81.77",
+      "protocols": [
+        "5.0"
+      ],
+      "platforms": [
+        {
+          "os": "freebsd",
+          "arch": "arm64"
+        },
+        {
           "os": "linux",
           "arch": "amd64"
         },
         {
+          "os": "windows",
+          "arch": "arm64"
+        },
+        {
+          "os": "windows",
+          "arch": "arm"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64"
+        },
+        {
           "os": "freebsd",
+          "arch": "arm"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64"
+        },
+        {
+          "os": "windows",
+          "arch": "386"
+        },
+        {
+          "os": "linux",
           "arch": "arm"
         },
         {
@@ -32,31 +112,15 @@
         },
         {
           "os": "linux",
-          "arch": "arm64"
-        },
-        {
-          "os": "linux",
           "arch": "386"
         },
         {
-          "os": "freebsd",
+          "os": "darwin",
+          "arch": "arm64"
+        },
+        {
+          "os": "windows",
           "arch": "amd64"
-        },
-        {
-          "os": "linux",
-          "arch": "arm"
-        },
-        {
-          "os": "windows",
-          "arch": "arm64"
-        },
-        {
-          "os": "windows",
-          "arch": "386"
-        },
-        {
-          "os": "freebsd",
-          "arch": "arm64"
         },
         {
           "os": "darwin",
