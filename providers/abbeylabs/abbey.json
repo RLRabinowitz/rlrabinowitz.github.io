@@ -2,6 +2,114 @@
   "repository": "https://github.com/abbeylabs/terraform-provider-abbey",
   "versions": [
     {
+      "version": "0.2.8",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/abbeylabs/terraform-provider-abbey/releases/download/v0.2.8/terraform-provider-abbey_0.2.8_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/abbeylabs/terraform-provider-abbey/releases/download/v0.2.8/terraform-provider-abbey_0.2.8_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-abbey_0.2.8_darwin_amd64.zip",
+          "download_url": "https://github.com/abbeylabs/terraform-provider-abbey/releases/download/v0.2.8/terraform-provider-abbey_0.2.8_darwin_amd64.zip",
+          "shasum": "8849a6c471dce3e0d8f077e8695285976f20bd0adcb0f900d6bd0c402c3fb872"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-abbey_0.2.8_linux_arm.zip",
+          "download_url": "https://github.com/abbeylabs/terraform-provider-abbey/releases/download/v0.2.8/terraform-provider-abbey_0.2.8_linux_arm.zip",
+          "shasum": "5b9b2e4c42580f8b64609ee030678f58a2b753a4b8763200cf9ca5a64fb81396"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-abbey_0.2.8_freebsd_386.zip",
+          "download_url": "https://github.com/abbeylabs/terraform-provider-abbey/releases/download/v0.2.8/terraform-provider-abbey_0.2.8_freebsd_386.zip",
+          "shasum": "eb43cce2a1e20818439ea4450aeb15a4a08d28967cc5245caae62c8b11a91868"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-abbey_0.2.8_linux_arm64.zip",
+          "download_url": "https://github.com/abbeylabs/terraform-provider-abbey/releases/download/v0.2.8/terraform-provider-abbey_0.2.8_linux_arm64.zip",
+          "shasum": "6112be0ded40ef9405f4da52fa012c21715e2515c1d694786c6d01232377e209"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-abbey_0.2.8_freebsd_arm.zip",
+          "download_url": "https://github.com/abbeylabs/terraform-provider-abbey/releases/download/v0.2.8/terraform-provider-abbey_0.2.8_freebsd_arm.zip",
+          "shasum": "8b560980b0d78a9d8ab25fe25196992eef3b39b3009759a0d92e95304b0aab71"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-abbey_0.2.8_windows_arm64.zip",
+          "download_url": "https://github.com/abbeylabs/terraform-provider-abbey/releases/download/v0.2.8/terraform-provider-abbey_0.2.8_windows_arm64.zip",
+          "shasum": "e57ad342bea2c623ac11cd0b315562bc6073d6f8254c6a229c523004e83e6062"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-abbey_0.2.8_linux_386.zip",
+          "download_url": "https://github.com/abbeylabs/terraform-provider-abbey/releases/download/v0.2.8/terraform-provider-abbey_0.2.8_linux_386.zip",
+          "shasum": "2b5a9bd5a218c7a396743af596414ce1bae9d20c30bb8dfb7d156eeb8465c63e"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-abbey_0.2.8_windows_386.zip",
+          "download_url": "https://github.com/abbeylabs/terraform-provider-abbey/releases/download/v0.2.8/terraform-provider-abbey_0.2.8_windows_386.zip",
+          "shasum": "638ed2d418b6c8305d14f62577e550d879330cf7358410ae86b1a9f368b53443"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-abbey_0.2.8_freebsd_arm64.zip",
+          "download_url": "https://github.com/abbeylabs/terraform-provider-abbey/releases/download/v0.2.8/terraform-provider-abbey_0.2.8_freebsd_arm64.zip",
+          "shasum": "a586b7036bcc7653342858ddc4f739a82e9c333e8d6918e48f732ade01d02fe3"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-abbey_0.2.8_windows_arm.zip",
+          "download_url": "https://github.com/abbeylabs/terraform-provider-abbey/releases/download/v0.2.8/terraform-provider-abbey_0.2.8_windows_arm.zip",
+          "shasum": "890264f721e3445ffc2f6a660a3e5e86505961f3829f569115408471f55ded93"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-abbey_0.2.8_windows_amd64.zip",
+          "download_url": "https://github.com/abbeylabs/terraform-provider-abbey/releases/download/v0.2.8/terraform-provider-abbey_0.2.8_windows_amd64.zip",
+          "shasum": "729f8aa36ae2a616d4683fefd0849259836e53d00dafc0a219b6c87a3bcc315f"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-abbey_0.2.8_darwin_arm64.zip",
+          "download_url": "https://github.com/abbeylabs/terraform-provider-abbey/releases/download/v0.2.8/terraform-provider-abbey_0.2.8_darwin_arm64.zip",
+          "shasum": "bf9cd7d74eb2e358c8c9dff13941fa9d1b44c6b17c9cf7af1be493146b0e13f8"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-abbey_0.2.8_linux_amd64.zip",
+          "download_url": "https://github.com/abbeylabs/terraform-provider-abbey/releases/download/v0.2.8/terraform-provider-abbey_0.2.8_linux_amd64.zip",
+          "shasum": "d7c501b916f7fb1ebdec0b714ed180b31ba6cbdd3b560eda11e4f14325767e89"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-abbey_0.2.8_freebsd_amd64.zip",
+          "download_url": "https://github.com/abbeylabs/terraform-provider-abbey/releases/download/v0.2.8/terraform-provider-abbey_0.2.8_freebsd_amd64.zip",
+          "shasum": "82feb4a0f99b3e62e9f5daade448e4e4b105914416a28d7b9e4647fd1b7c8ca1"
+        }
+      ]
+    },
+    {
       "version": "0.2.7",
       "protocols": [
         "5.0"
@@ -11,101 +119,101 @@
       "targets": [
         {
           "os": "freebsd",
-          "arch": "arm",
-          "filename": "terraform-provider-abbey_0.2.7_freebsd_arm.zip",
-          "download_url": "https://github.com/abbeylabs/terraform-provider-abbey/releases/download/v0.2.7/terraform-provider-abbey_0.2.7_freebsd_arm.zip",
-          "shasum": "53407952f38d70bdec51f369bde38a1b095808e2dfc77f8740ac5cd183465282"
-        },
-        {
-          "os": "freebsd",
-          "arch": "386",
-          "filename": "terraform-provider-abbey_0.2.7_freebsd_386.zip",
-          "download_url": "https://github.com/abbeylabs/terraform-provider-abbey/releases/download/v0.2.7/terraform-provider-abbey_0.2.7_freebsd_386.zip",
-          "shasum": "f111efe1943ddf49df05c48a00eefed1716df1f4b83f991821487800bfe0a7ef"
-        },
-        {
-          "os": "darwin",
-          "arch": "amd64",
-          "filename": "terraform-provider-abbey_0.2.7_darwin_amd64.zip",
-          "download_url": "https://github.com/abbeylabs/terraform-provider-abbey/releases/download/v0.2.7/terraform-provider-abbey_0.2.7_darwin_amd64.zip",
-          "shasum": "12c7e62eada5f4f051bb61510858d481e07a36ed626985aaa3b6deb122bb5c17"
-        },
-        {
-          "os": "freebsd",
-          "arch": "amd64",
-          "filename": "terraform-provider-abbey_0.2.7_freebsd_amd64.zip",
-          "download_url": "https://github.com/abbeylabs/terraform-provider-abbey/releases/download/v0.2.7/terraform-provider-abbey_0.2.7_freebsd_amd64.zip",
-          "shasum": "ca9f58ef094263a370a0d7a1efb8cb51693d3816d8cabf45c9628c290b545a90"
-        },
-        {
-          "os": "linux",
-          "arch": "arm64",
-          "filename": "terraform-provider-abbey_0.2.7_linux_arm64.zip",
-          "download_url": "https://github.com/abbeylabs/terraform-provider-abbey/releases/download/v0.2.7/terraform-provider-abbey_0.2.7_linux_arm64.zip",
-          "shasum": "b2ab32582f63e013cc65e954a0391722acfd398e006377feefb20c6039377ba0"
-        },
-        {
-          "os": "darwin",
-          "arch": "arm64",
-          "filename": "terraform-provider-abbey_0.2.7_darwin_arm64.zip",
-          "download_url": "https://github.com/abbeylabs/terraform-provider-abbey/releases/download/v0.2.7/terraform-provider-abbey_0.2.7_darwin_arm64.zip",
-          "shasum": "2a8578aeac823913cdb56e9a4bc6e518fd2dc8082a54f8183773175a555dfa49"
-        },
-        {
-          "os": "windows",
-          "arch": "arm",
-          "filename": "terraform-provider-abbey_0.2.7_windows_arm.zip",
-          "download_url": "https://github.com/abbeylabs/terraform-provider-abbey/releases/download/v0.2.7/terraform-provider-abbey_0.2.7_windows_arm.zip",
-          "shasum": "88e39d0d8ec5bd9e7f908b471d209c2704a49586d6a44233b8fc3b0a31120ed3"
-        },
-        {
-          "os": "linux",
-          "arch": "arm",
-          "filename": "terraform-provider-abbey_0.2.7_linux_arm.zip",
-          "download_url": "https://github.com/abbeylabs/terraform-provider-abbey/releases/download/v0.2.7/terraform-provider-abbey_0.2.7_linux_arm.zip",
-          "shasum": "8efbcd7e8e0c633de0d50adcfae4ced53b3cc03007f0b0beb0c2f76c1caae8d9"
-        },
-        {
-          "os": "linux",
-          "arch": "386",
-          "filename": "terraform-provider-abbey_0.2.7_linux_386.zip",
-          "download_url": "https://github.com/abbeylabs/terraform-provider-abbey/releases/download/v0.2.7/terraform-provider-abbey_0.2.7_linux_386.zip",
-          "shasum": "8e234359017fd81f30a95b1d0edeb3212c9eba351ba6120c4d7654c018b9e317"
-        },
-        {
-          "os": "freebsd",
           "arch": "arm64",
           "filename": "terraform-provider-abbey_0.2.7_freebsd_arm64.zip",
           "download_url": "https://github.com/abbeylabs/terraform-provider-abbey/releases/download/v0.2.7/terraform-provider-abbey_0.2.7_freebsd_arm64.zip",
-          "shasum": "94d17c1ceef63dc81ae27c06d822e97962d9266fe9f9d21d25b1244264fb8c58"
+          "shasum": "398641e0ca4ec85a0b196e1f7aafd972bb62dce96317da9bae140a77d9d64a03"
         },
         {
           "os": "linux",
           "arch": "amd64",
           "filename": "terraform-provider-abbey_0.2.7_linux_amd64.zip",
           "download_url": "https://github.com/abbeylabs/terraform-provider-abbey/releases/download/v0.2.7/terraform-provider-abbey_0.2.7_linux_amd64.zip",
-          "shasum": "e0e21bcf2ecc154ad0c5c7c7d8711a597e5523a7b806f4147c049a776b559b68"
+          "shasum": "34f82b535ff3937614604422af64d1e3ac2d6d162eac50a256f65470d9981eb2"
         },
         {
-          "os": "windows",
-          "arch": "amd64",
-          "filename": "terraform-provider-abbey_0.2.7_windows_amd64.zip",
-          "download_url": "https://github.com/abbeylabs/terraform-provider-abbey/releases/download/v0.2.7/terraform-provider-abbey_0.2.7_windows_amd64.zip",
-          "shasum": "037ed44d7eb7b8f53f242361f8f440eb58b1bc64210aaa1596dfa9e4693e8747"
-        },
-        {
-          "os": "windows",
+          "os": "linux",
           "arch": "386",
-          "filename": "terraform-provider-abbey_0.2.7_windows_386.zip",
-          "download_url": "https://github.com/abbeylabs/terraform-provider-abbey/releases/download/v0.2.7/terraform-provider-abbey_0.2.7_windows_386.zip",
-          "shasum": "4fdef232303a6216d7851da6012510e1be02dc67c9c6326be8770d577ac2aaf8"
+          "filename": "terraform-provider-abbey_0.2.7_linux_386.zip",
+          "download_url": "https://github.com/abbeylabs/terraform-provider-abbey/releases/download/v0.2.7/terraform-provider-abbey_0.2.7_linux_386.zip",
+          "shasum": "377ab530ad5bfcdd34927b46f622171afdc4272ad5ef7bf3b3abb2fce27f80e4"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-abbey_0.2.7_darwin_arm64.zip",
+          "download_url": "https://github.com/abbeylabs/terraform-provider-abbey/releases/download/v0.2.7/terraform-provider-abbey_0.2.7_darwin_arm64.zip",
+          "shasum": "e729302e1483ec7ec493263ba7f98c5da2958c49e131b49681891f21f710d6c7"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-abbey_0.2.7_windows_arm.zip",
+          "download_url": "https://github.com/abbeylabs/terraform-provider-abbey/releases/download/v0.2.7/terraform-provider-abbey_0.2.7_windows_arm.zip",
+          "shasum": "7e2912e0c8ed454dec2475bbe1fa9b8d43c2f79e28cdca69d8e9e2fd2411c671"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-abbey_0.2.7_freebsd_386.zip",
+          "download_url": "https://github.com/abbeylabs/terraform-provider-abbey/releases/download/v0.2.7/terraform-provider-abbey_0.2.7_freebsd_386.zip",
+          "shasum": "97eada8c4bf157213ec5b2642bd8659433de5e217937cab7e7803a0c51e5d506"
         },
         {
           "os": "windows",
           "arch": "arm64",
           "filename": "terraform-provider-abbey_0.2.7_windows_arm64.zip",
           "download_url": "https://github.com/abbeylabs/terraform-provider-abbey/releases/download/v0.2.7/terraform-provider-abbey_0.2.7_windows_arm64.zip",
-          "shasum": "820c2de16df9cfcbd54857a72a5e9c9ef3ae4a95883a13a1179e2adce25e3cbd"
+          "shasum": "4d8af1a544c2bd06b399e092da8258db03eb08170389b2baedb9807f7afa8288"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-abbey_0.2.7_linux_arm.zip",
+          "download_url": "https://github.com/abbeylabs/terraform-provider-abbey/releases/download/v0.2.7/terraform-provider-abbey_0.2.7_linux_arm.zip",
+          "shasum": "bb1c2fe5df438a78484dad0b20ff8bf3b3263484aeb45c930a80bcf2bde5ac78"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-abbey_0.2.7_darwin_amd64.zip",
+          "download_url": "https://github.com/abbeylabs/terraform-provider-abbey/releases/download/v0.2.7/terraform-provider-abbey_0.2.7_darwin_amd64.zip",
+          "shasum": "d0199098b0c09dc809a223cbe337cadb4d0b3f8a0b868a523f46c1e95363ed8f"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-abbey_0.2.7_windows_386.zip",
+          "download_url": "https://github.com/abbeylabs/terraform-provider-abbey/releases/download/v0.2.7/terraform-provider-abbey_0.2.7_windows_386.zip",
+          "shasum": "5d9b85bb854445c55645687cdda2066a412629be602f7b6f8a37a86800c18fe7"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-abbey_0.2.7_linux_arm64.zip",
+          "download_url": "https://github.com/abbeylabs/terraform-provider-abbey/releases/download/v0.2.7/terraform-provider-abbey_0.2.7_linux_arm64.zip",
+          "shasum": "0ffcbd955496e28058e57e2e5318d7a9a447cdaf251ee5d1cc926bbb73ce82d3"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-abbey_0.2.7_windows_amd64.zip",
+          "download_url": "https://github.com/abbeylabs/terraform-provider-abbey/releases/download/v0.2.7/terraform-provider-abbey_0.2.7_windows_amd64.zip",
+          "shasum": "1755b45b4abecda6209fcf3aaee2db2f743b7c3e97d96e10359b72df5c2defc5"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-abbey_0.2.7_freebsd_arm.zip",
+          "download_url": "https://github.com/abbeylabs/terraform-provider-abbey/releases/download/v0.2.7/terraform-provider-abbey_0.2.7_freebsd_arm.zip",
+          "shasum": "725e134b13805122fe916518dc4fcadf713a2f2ee4e9448a97013388fa751800"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-abbey_0.2.7_freebsd_amd64.zip",
+          "download_url": "https://github.com/abbeylabs/terraform-provider-abbey/releases/download/v0.2.7/terraform-provider-abbey_0.2.7_freebsd_amd64.zip",
+          "shasum": "759d62215dde029fdb826f43d725dfe2cbe99d2114dff63cbd1d0f9db0c4442d"
         }
       ]
     },
