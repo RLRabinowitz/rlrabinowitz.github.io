@@ -2,6 +2,114 @@
   "repository": "https://github.com/pilat/terraform-provider-rustack",
   "versions": [
     {
+      "version": "1.2.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/rustack-cloud-platform/terraform-provider-rcp/releases/download/v1.2.0/terraform-provider-rcp_1.2.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/rustack-cloud-platform/terraform-provider-rcp/releases/download/v1.2.0/terraform-provider-rcp_1.2.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-rcp_1.2.0_windows_386.zip",
+          "download_url": "https://github.com/rustack-cloud-platform/terraform-provider-rcp/releases/download/v1.2.0/terraform-provider-rcp_1.2.0_windows_386.zip",
+          "shasum": "3cb4783237b0298d5233677e7f314d2b31eb02369086a3a8b9387cd0192de484"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-rcp_1.2.0_freebsd_386.zip",
+          "download_url": "https://github.com/rustack-cloud-platform/terraform-provider-rcp/releases/download/v1.2.0/terraform-provider-rcp_1.2.0_freebsd_386.zip",
+          "shasum": "09f63b365054f60be735fbd5951a2207ad62e9bfae4d4d9bdad66be370cc1cc5"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-rcp_1.2.0_windows_arm64.zip",
+          "download_url": "https://github.com/rustack-cloud-platform/terraform-provider-rcp/releases/download/v1.2.0/terraform-provider-rcp_1.2.0_windows_arm64.zip",
+          "shasum": "26bd76a08ce26a274b0668961bbab3ecc5a69543e03f0cba6f236b747c43b860"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-rcp_1.2.0_darwin_amd64.zip",
+          "download_url": "https://github.com/rustack-cloud-platform/terraform-provider-rcp/releases/download/v1.2.0/terraform-provider-rcp_1.2.0_darwin_amd64.zip",
+          "shasum": "5d90d202d078625e3f458ad38aae33110613d05eca8ddb56d1d1e7ed7404a218"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-rcp_1.2.0_linux_arm.zip",
+          "download_url": "https://github.com/rustack-cloud-platform/terraform-provider-rcp/releases/download/v1.2.0/terraform-provider-rcp_1.2.0_linux_arm.zip",
+          "shasum": "6c17ca5904f615121ad7488f56943dc3d63b3341f190aaffb25b6f4e131d094d"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-rcp_1.2.0_freebsd_arm.zip",
+          "download_url": "https://github.com/rustack-cloud-platform/terraform-provider-rcp/releases/download/v1.2.0/terraform-provider-rcp_1.2.0_freebsd_arm.zip",
+          "shasum": "19aec1d566863b81c82323f23101a7ed8c284a50227158857a1ccd0e4c3d0a7a"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-rcp_1.2.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/rustack-cloud-platform/terraform-provider-rcp/releases/download/v1.2.0/terraform-provider-rcp_1.2.0_freebsd_arm64.zip",
+          "shasum": "10a39527d1fd9d9743a2d253ac676b926b8655e0e184e037f72c3d3138131a2d"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-rcp_1.2.0_linux_amd64.zip",
+          "download_url": "https://github.com/rustack-cloud-platform/terraform-provider-rcp/releases/download/v1.2.0/terraform-provider-rcp_1.2.0_linux_amd64.zip",
+          "shasum": "0438d7714ea71bd56a26c8dd844d41f6bc5728cd518346ea87ce9caec19a143e"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-rcp_1.2.0_linux_386.zip",
+          "download_url": "https://github.com/rustack-cloud-platform/terraform-provider-rcp/releases/download/v1.2.0/terraform-provider-rcp_1.2.0_linux_386.zip",
+          "shasum": "f0e7388db76e33d7c65b1f2c5bdef3fe7bd6758cbdb967a0482f3c2546b65b68"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-rcp_1.2.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/rustack-cloud-platform/terraform-provider-rcp/releases/download/v1.2.0/terraform-provider-rcp_1.2.0_freebsd_amd64.zip",
+          "shasum": "1aff39f5a7ba84c719f39c0d7888b92e0495c1fd9623cc077776aa95d543a833"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-rcp_1.2.0_linux_arm64.zip",
+          "download_url": "https://github.com/rustack-cloud-platform/terraform-provider-rcp/releases/download/v1.2.0/terraform-provider-rcp_1.2.0_linux_arm64.zip",
+          "shasum": "ce502e071e9747166b57676bc4a6e2fcc0dd173acd2d2155f29a6b27e71bc8ea"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-rcp_1.2.0_windows_arm.zip",
+          "download_url": "https://github.com/rustack-cloud-platform/terraform-provider-rcp/releases/download/v1.2.0/terraform-provider-rcp_1.2.0_windows_arm.zip",
+          "shasum": "da1dc9c8e2a3f4ab7f54f7a75102ddf6ad3165519888f27ac2793bc3ba2ca7a7"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-rcp_1.2.0_darwin_arm64.zip",
+          "download_url": "https://github.com/rustack-cloud-platform/terraform-provider-rcp/releases/download/v1.2.0/terraform-provider-rcp_1.2.0_darwin_arm64.zip",
+          "shasum": "032f0ff8f5c0347dac34370e99dc7f82582cc99f1ad31d27e81e226578780a34"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-rcp_1.2.0_windows_amd64.zip",
+          "download_url": "https://github.com/rustack-cloud-platform/terraform-provider-rcp/releases/download/v1.2.0/terraform-provider-rcp_1.2.0_windows_amd64.zip",
+          "shasum": "26ff8ca28dbb8d8de75b8b411768a0a85c53e22a39542ba20a1fa86b75e61505"
+        }
+      ]
+    },
+    {
       "version": "1.1.10",
       "protocols": [
         "5.0"
