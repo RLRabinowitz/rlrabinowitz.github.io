@@ -2,6 +2,114 @@
   "repository": "https://github.com/F5Networks/terraform-provider-f5os",
   "versions": [
     {
+      "version": "1.3.4",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/F5Networks/terraform-provider-f5os/releases/download/v1.3.4/terraform-provider-f5os_1.3.4_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/F5Networks/terraform-provider-f5os/releases/download/v1.3.4/terraform-provider-f5os_1.3.4_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-f5os_1.3.4_darwin_arm64.zip",
+          "download_url": "https://github.com/F5Networks/terraform-provider-f5os/releases/download/v1.3.4/terraform-provider-f5os_1.3.4_darwin_arm64.zip",
+          "shasum": "2c66256f2251120c6c1be326a2b6db309a8b555c70006f853791533fc7b2ef24"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-f5os_1.3.4_windows_arm64.zip",
+          "download_url": "https://github.com/F5Networks/terraform-provider-f5os/releases/download/v1.3.4/terraform-provider-f5os_1.3.4_windows_arm64.zip",
+          "shasum": "af19ec6cffc7719d4c25143caac2443f430bb26e91a8b977eef6e21e71af3ec0"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-f5os_1.3.4_freebsd_arm.zip",
+          "download_url": "https://github.com/F5Networks/terraform-provider-f5os/releases/download/v1.3.4/terraform-provider-f5os_1.3.4_freebsd_arm.zip",
+          "shasum": "effaa7bbe3108e6f856f6a9e8575abcf8634bedd09017edad2d0a237846e82c4"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-f5os_1.3.4_windows_386.zip",
+          "download_url": "https://github.com/F5Networks/terraform-provider-f5os/releases/download/v1.3.4/terraform-provider-f5os_1.3.4_windows_386.zip",
+          "shasum": "7cde355ddcc24335bb216c366b5a0aa655974262f7390725b28e494352cdf4f4"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-f5os_1.3.4_freebsd_386.zip",
+          "download_url": "https://github.com/F5Networks/terraform-provider-f5os/releases/download/v1.3.4/terraform-provider-f5os_1.3.4_freebsd_386.zip",
+          "shasum": "c8ddeea7dbd234e74edb749798e2ce091ff73b44ed1dd5174bd018871ae57ee9"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-f5os_1.3.4_windows_arm.zip",
+          "download_url": "https://github.com/F5Networks/terraform-provider-f5os/releases/download/v1.3.4/terraform-provider-f5os_1.3.4_windows_arm.zip",
+          "shasum": "48c313febf78722f326a60210a7da721b4df41a8e761b4b2b826839f5526a131"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-f5os_1.3.4_linux_arm.zip",
+          "download_url": "https://github.com/F5Networks/terraform-provider-f5os/releases/download/v1.3.4/terraform-provider-f5os_1.3.4_linux_arm.zip",
+          "shasum": "9bcfebee89fc5e07cb692347ecd07b687495a42730ab5fd43073e26a14f55a1b"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-f5os_1.3.4_linux_arm64.zip",
+          "download_url": "https://github.com/F5Networks/terraform-provider-f5os/releases/download/v1.3.4/terraform-provider-f5os_1.3.4_linux_arm64.zip",
+          "shasum": "d93b04fa17b618c0afcaa0b3a7bca49fe75c5bb5635645ead2bd91390c2a02b8"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-f5os_1.3.4_freebsd_arm64.zip",
+          "download_url": "https://github.com/F5Networks/terraform-provider-f5os/releases/download/v1.3.4/terraform-provider-f5os_1.3.4_freebsd_arm64.zip",
+          "shasum": "26262adc35f3a719d685b4659303dacc344f06535705730433ce913eb93f051d"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-f5os_1.3.4_darwin_amd64.zip",
+          "download_url": "https://github.com/F5Networks/terraform-provider-f5os/releases/download/v1.3.4/terraform-provider-f5os_1.3.4_darwin_amd64.zip",
+          "shasum": "31126bb3d10e07977d4e0a40ca3d046f22426f41228a871ed3dbe5b4e1844fce"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-f5os_1.3.4_freebsd_amd64.zip",
+          "download_url": "https://github.com/F5Networks/terraform-provider-f5os/releases/download/v1.3.4/terraform-provider-f5os_1.3.4_freebsd_amd64.zip",
+          "shasum": "73b71af3cfdf0bafa8eca796a006c20ce34249d9cba4e1194206899d18a62ecb"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-f5os_1.3.4_windows_amd64.zip",
+          "download_url": "https://github.com/F5Networks/terraform-provider-f5os/releases/download/v1.3.4/terraform-provider-f5os_1.3.4_windows_amd64.zip",
+          "shasum": "34ffb791d91a791142d3b8119c3bb70bf25d143205ad87fde762e2860c782ef5"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-f5os_1.3.4_linux_386.zip",
+          "download_url": "https://github.com/F5Networks/terraform-provider-f5os/releases/download/v1.3.4/terraform-provider-f5os_1.3.4_linux_386.zip",
+          "shasum": "4294b3dc46096fc718366a508a3a2c1619443ed96f2d40d694256cbb5168d5e6"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-f5os_1.3.4_linux_amd64.zip",
+          "download_url": "https://github.com/F5Networks/terraform-provider-f5os/releases/download/v1.3.4/terraform-provider-f5os_1.3.4_linux_amd64.zip",
+          "shasum": "ac29645d0d85e622eff789c091546d37959c0eb8ded5fd977d6dbf1f52c73dd8"
+        }
+      ]
+    },
+    {
       "version": "1.3.3",
       "protocols": [
         "5.0"
@@ -10,102 +118,102 @@
       "shasums_signature_url": "https://github.com/F5Networks/terraform-provider-f5os/releases/download/v1.3.3/terraform-provider-f5os_1.3.3_SHA256SUMS.sig",
       "targets": [
         {
-          "os": "linux",
-          "arch": "amd64",
-          "filename": "terraform-provider-f5os_1.3.3_linux_amd64.zip",
-          "download_url": "https://github.com/F5Networks/terraform-provider-f5os/releases/download/v1.3.3/terraform-provider-f5os_1.3.3_linux_amd64.zip",
-          "shasum": "388ae6f80980019da95eb7182801148dd107163af98173ac49fb7e75395d0420"
-        },
-        {
           "os": "freebsd",
-          "arch": "386",
-          "filename": "terraform-provider-f5os_1.3.3_freebsd_386.zip",
-          "download_url": "https://github.com/F5Networks/terraform-provider-f5os/releases/download/v1.3.3/terraform-provider-f5os_1.3.3_freebsd_386.zip",
-          "shasum": "1f1a56689d3f6b08ca5267fa52065f6e8a4a4a7df8fda99af44dd0cfc705b16a"
-        },
-        {
-          "os": "windows",
-          "arch": "arm64",
-          "filename": "terraform-provider-f5os_1.3.3_windows_arm64.zip",
-          "download_url": "https://github.com/F5Networks/terraform-provider-f5os/releases/download/v1.3.3/terraform-provider-f5os_1.3.3_windows_arm64.zip",
-          "shasum": "d6f2d2160eeb38eed11e40fc498c11f7e97393c3ddfdc0e2a852d7421beb55fa"
+          "arch": "amd64",
+          "filename": "terraform-provider-f5os_1.3.3_freebsd_amd64.zip",
+          "download_url": "https://github.com/F5Networks/terraform-provider-f5os/releases/download/v1.3.3/terraform-provider-f5os_1.3.3_freebsd_amd64.zip",
+          "shasum": "218d6f9d9a9821ba481ea11dc27d482563038fac149675bbf0cea628e807aa49"
         },
         {
           "os": "freebsd",
           "arch": "arm",
           "filename": "terraform-provider-f5os_1.3.3_freebsd_arm.zip",
           "download_url": "https://github.com/F5Networks/terraform-provider-f5os/releases/download/v1.3.3/terraform-provider-f5os_1.3.3_freebsd_arm.zip",
-          "shasum": "fe2dc43e09061c2d6b10033c1a44e87870f9272c6e0686c401feac2ccd54c7d5"
-        },
-        {
-          "os": "freebsd",
-          "arch": "arm64",
-          "filename": "terraform-provider-f5os_1.3.3_freebsd_arm64.zip",
-          "download_url": "https://github.com/F5Networks/terraform-provider-f5os/releases/download/v1.3.3/terraform-provider-f5os_1.3.3_freebsd_arm64.zip",
-          "shasum": "feee9d693604c925f5277821bb9cc5cc98b1d62d95199270fbc03208eeebedbc"
+          "shasum": "63c5896dab679a96e4a6664d942c4eb77963341765fec35bc4d4aa49d7247013"
         },
         {
           "os": "windows",
-          "arch": "arm",
-          "filename": "terraform-provider-f5os_1.3.3_windows_arm.zip",
-          "download_url": "https://github.com/F5Networks/terraform-provider-f5os/releases/download/v1.3.3/terraform-provider-f5os_1.3.3_windows_arm.zip",
-          "shasum": "fdae320fb7fec381e6fc31ad82b3ff190f171905276076e2eb476b516512a8ea"
+          "arch": "arm64",
+          "filename": "terraform-provider-f5os_1.3.3_windows_arm64.zip",
+          "download_url": "https://github.com/F5Networks/terraform-provider-f5os/releases/download/v1.3.3/terraform-provider-f5os_1.3.3_windows_arm64.zip",
+          "shasum": "7865a51cd4cb63dedd6061160802cd9203302f2f6eb8480bb6acedeb0945b3f6"
         },
         {
           "os": "freebsd",
-          "arch": "amd64",
-          "filename": "terraform-provider-f5os_1.3.3_freebsd_amd64.zip",
-          "download_url": "https://github.com/F5Networks/terraform-provider-f5os/releases/download/v1.3.3/terraform-provider-f5os_1.3.3_freebsd_amd64.zip",
-          "shasum": "a81c737131a67152ce604e2664d279eb30a66676ee4df47c3d1df8a0f6817eeb"
+          "arch": "386",
+          "filename": "terraform-provider-f5os_1.3.3_freebsd_386.zip",
+          "download_url": "https://github.com/F5Networks/terraform-provider-f5os/releases/download/v1.3.3/terraform-provider-f5os_1.3.3_freebsd_386.zip",
+          "shasum": "419611cd4fc38012015317fa1712f73958f5b12abe3432f51336ea5c0cfee0ec"
         },
         {
           "os": "linux",
           "arch": "386",
           "filename": "terraform-provider-f5os_1.3.3_linux_386.zip",
           "download_url": "https://github.com/F5Networks/terraform-provider-f5os/releases/download/v1.3.3/terraform-provider-f5os_1.3.3_linux_386.zip",
-          "shasum": "e6f923e665d0e019a4f8d11bb8c326f1a535eb7afc3d65bb431f79eb13702b3e"
+          "shasum": "4ac9bdeb07f194da235e0a443878aec3bacad60cb3da13c53af5a34f6e93c02d"
         },
         {
           "os": "linux",
           "arch": "arm",
           "filename": "terraform-provider-f5os_1.3.3_linux_arm.zip",
           "download_url": "https://github.com/F5Networks/terraform-provider-f5os/releases/download/v1.3.3/terraform-provider-f5os_1.3.3_linux_arm.zip",
-          "shasum": "20f5dbbdc50e9ba6ca9d990398ae3afe2248f5cf5e6e73cd2adf5a3ffbdcbd0e"
+          "shasum": "c7e4e9e768ccce4b7182a36ca28c5f12abef5499f753b96fa56bab3c33e9a89d"
         },
         {
           "os": "linux",
-          "arch": "arm64",
-          "filename": "terraform-provider-f5os_1.3.3_linux_arm64.zip",
-          "download_url": "https://github.com/F5Networks/terraform-provider-f5os/releases/download/v1.3.3/terraform-provider-f5os_1.3.3_linux_arm64.zip",
-          "shasum": "a8e3558a731f0df6a20621fbcda2cda02d765d3fc72da432ae7a3fc708a15b0b"
-        },
-        {
-          "os": "darwin",
-          "arch": "arm64",
-          "filename": "terraform-provider-f5os_1.3.3_darwin_arm64.zip",
-          "download_url": "https://github.com/F5Networks/terraform-provider-f5os/releases/download/v1.3.3/terraform-provider-f5os_1.3.3_darwin_arm64.zip",
-          "shasum": "5f72c2acc43b4f20d9f1852e4be6eecbb9278e1722be90f7c4a8c00dbe05a85e"
-        },
-        {
-          "os": "windows",
           "arch": "amd64",
-          "filename": "terraform-provider-f5os_1.3.3_windows_amd64.zip",
-          "download_url": "https://github.com/F5Networks/terraform-provider-f5os/releases/download/v1.3.3/terraform-provider-f5os_1.3.3_windows_amd64.zip",
-          "shasum": "a4930008df914b2cb60795d8cab8e3074d805b4a8a1d3712c22fb2149cd988c6"
-        },
-        {
-          "os": "windows",
-          "arch": "386",
-          "filename": "terraform-provider-f5os_1.3.3_windows_386.zip",
-          "download_url": "https://github.com/F5Networks/terraform-provider-f5os/releases/download/v1.3.3/terraform-provider-f5os_1.3.3_windows_386.zip",
-          "shasum": "b22ab30d604cc67b4b251e6a608391bd804d46d003b11d9072e2b84ead6b5976"
+          "filename": "terraform-provider-f5os_1.3.3_linux_amd64.zip",
+          "download_url": "https://github.com/F5Networks/terraform-provider-f5os/releases/download/v1.3.3/terraform-provider-f5os_1.3.3_linux_amd64.zip",
+          "shasum": "5639e96cce38ea98c44f89b3d618f0ac86c98b07e43a94ce9c5406451c376fa3"
         },
         {
           "os": "darwin",
           "arch": "amd64",
           "filename": "terraform-provider-f5os_1.3.3_darwin_amd64.zip",
           "download_url": "https://github.com/F5Networks/terraform-provider-f5os/releases/download/v1.3.3/terraform-provider-f5os_1.3.3_darwin_amd64.zip",
-          "shasum": "32c36a8b556407951c97d4153c91b9ea5405d13595bf9912489cd10505ea0356"
+          "shasum": "b08f955b2b6dbbd2864b52c997c1d21887363424359298bcc200e5c0dc37b301"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-f5os_1.3.3_darwin_arm64.zip",
+          "download_url": "https://github.com/F5Networks/terraform-provider-f5os/releases/download/v1.3.3/terraform-provider-f5os_1.3.3_darwin_arm64.zip",
+          "shasum": "a70260f86c2d55d5629a518fcc51a947f29f1ab29e25ec4a70188aff5d768a66"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-f5os_1.3.3_windows_amd64.zip",
+          "download_url": "https://github.com/F5Networks/terraform-provider-f5os/releases/download/v1.3.3/terraform-provider-f5os_1.3.3_windows_amd64.zip",
+          "shasum": "dd57937bcbc460d683ab62188b90b52384574c28e44ec5af3436a72526c8ded5"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-f5os_1.3.3_windows_arm.zip",
+          "download_url": "https://github.com/F5Networks/terraform-provider-f5os/releases/download/v1.3.3/terraform-provider-f5os_1.3.3_windows_arm.zip",
+          "shasum": "85d2b248531a1a01ff140a633d6e1c61e5daa1402400cf2170284361e868a029"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-f5os_1.3.3_freebsd_arm64.zip",
+          "download_url": "https://github.com/F5Networks/terraform-provider-f5os/releases/download/v1.3.3/terraform-provider-f5os_1.3.3_freebsd_arm64.zip",
+          "shasum": "a4151a1a4724fc000021d6b6e58f101b8e5ff184d8f03023c63a174d0f7db40d"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-f5os_1.3.3_windows_386.zip",
+          "download_url": "https://github.com/F5Networks/terraform-provider-f5os/releases/download/v1.3.3/terraform-provider-f5os_1.3.3_windows_386.zip",
+          "shasum": "faa44defd12ab996c16b9a83bae2f82cbe157b51e2564e4c6bbbcff54c0756a7"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-f5os_1.3.3_linux_arm64.zip",
+          "download_url": "https://github.com/F5Networks/terraform-provider-f5os/releases/download/v1.3.3/terraform-provider-f5os_1.3.3_linux_arm64.zip",
+          "shasum": "eccdc1ba32528e2e30eedff4078be94b1bc36a9b5052286a5c02923fb7dd1c78"
         }
       ]
     },
