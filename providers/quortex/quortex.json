@@ -2,6 +2,114 @@
   "repository": "https://github.com/quortex/terraform-provider-quortex",
   "versions": [
     {
+      "version": "0.3.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/quortex/terraform-provider-quortex/releases/download/v0.3.0/terraform-provider-quortex_0.3.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/quortex/terraform-provider-quortex/releases/download/v0.3.0/terraform-provider-quortex_0.3.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-quortex_0.3.0_windows_arm.zip",
+          "download_url": "https://github.com/quortex/terraform-provider-quortex/releases/download/v0.3.0/terraform-provider-quortex_0.3.0_windows_arm.zip",
+          "shasum": "1487a3be078cb9e2a979917fdba426183692348147f2acda72445d266cb6f58e"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-quortex_0.3.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/quortex/terraform-provider-quortex/releases/download/v0.3.0/terraform-provider-quortex_0.3.0_freebsd_arm64.zip",
+          "shasum": "a6ac5043d6c413c9947d62d81c984dc4b57da032162bdb5c5207cb785f5eec51"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-quortex_0.3.0_freebsd_386.zip",
+          "download_url": "https://github.com/quortex/terraform-provider-quortex/releases/download/v0.3.0/terraform-provider-quortex_0.3.0_freebsd_386.zip",
+          "shasum": "322d58fe5985f03d71d26e36e9b43919cf6d7b4dd35dac710d4204f2961d3b1c"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-quortex_0.3.0_windows_386.zip",
+          "download_url": "https://github.com/quortex/terraform-provider-quortex/releases/download/v0.3.0/terraform-provider-quortex_0.3.0_windows_386.zip",
+          "shasum": "ed46ca449efcc5451eeda29c3b32fa30c2376909e6e3aafaefe3b59dfebcb283"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-quortex_0.3.0_windows_arm64.zip",
+          "download_url": "https://github.com/quortex/terraform-provider-quortex/releases/download/v0.3.0/terraform-provider-quortex_0.3.0_windows_arm64.zip",
+          "shasum": "3df6feeea211c17618f3f0d7842e9d1677dd105e1e738ceea685089a3648caa0"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-quortex_0.3.0_freebsd_arm.zip",
+          "download_url": "https://github.com/quortex/terraform-provider-quortex/releases/download/v0.3.0/terraform-provider-quortex_0.3.0_freebsd_arm.zip",
+          "shasum": "59eb68dacc8b244802c57e9f7322c010ae74f039900c1a4ab31a06e1b23ec2a4"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-quortex_0.3.0_darwin_arm64.zip",
+          "download_url": "https://github.com/quortex/terraform-provider-quortex/releases/download/v0.3.0/terraform-provider-quortex_0.3.0_darwin_arm64.zip",
+          "shasum": "c5ecb7df1d35980df9bb162c2c42f2105f9dfabedee629b0dfd011d1be5b16b1"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-quortex_0.3.0_linux_amd64.zip",
+          "download_url": "https://github.com/quortex/terraform-provider-quortex/releases/download/v0.3.0/terraform-provider-quortex_0.3.0_linux_amd64.zip",
+          "shasum": "aeaeb8e184ad582e5c0833a5818d16979d17db739723c06f22b44c6438ff6cd5"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-quortex_0.3.0_linux_386.zip",
+          "download_url": "https://github.com/quortex/terraform-provider-quortex/releases/download/v0.3.0/terraform-provider-quortex_0.3.0_linux_386.zip",
+          "shasum": "15716c1fc26e9d2986346f28903d2e18547d0cbc49570d426dba82bfacbfccd4"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-quortex_0.3.0_windows_amd64.zip",
+          "download_url": "https://github.com/quortex/terraform-provider-quortex/releases/download/v0.3.0/terraform-provider-quortex_0.3.0_windows_amd64.zip",
+          "shasum": "077342da3bcad405fda4447a3337e9f8d816ced6905f6143142a3d761e74c3af"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-quortex_0.3.0_linux_arm64.zip",
+          "download_url": "https://github.com/quortex/terraform-provider-quortex/releases/download/v0.3.0/terraform-provider-quortex_0.3.0_linux_arm64.zip",
+          "shasum": "9cbf99526f9431fb49ccddf009a204bff33008cec78128bb0c601453e6f57e35"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-quortex_0.3.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/quortex/terraform-provider-quortex/releases/download/v0.3.0/terraform-provider-quortex_0.3.0_freebsd_amd64.zip",
+          "shasum": "e47578be5281544a01fca89332e82da8689064185faa629df0c42ce5cc36a35f"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-quortex_0.3.0_linux_arm.zip",
+          "download_url": "https://github.com/quortex/terraform-provider-quortex/releases/download/v0.3.0/terraform-provider-quortex_0.3.0_linux_arm.zip",
+          "shasum": "cc979f539b1f76a430030230d390c8985b3317a1a813eea012d787cd3f6ad766"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-quortex_0.3.0_darwin_amd64.zip",
+          "download_url": "https://github.com/quortex/terraform-provider-quortex/releases/download/v0.3.0/terraform-provider-quortex_0.3.0_darwin_amd64.zip",
+          "shasum": "928fa4f81ca22c451db6a8031c6b18682d9bd11bc073bd061c37d53fbde9213e"
+        }
+      ]
+    },
+    {
       "version": "0.2.0",
       "protocols": [
         "5.0"
@@ -10,102 +118,102 @@
       "shasums_signature_url": "https://github.com/quortex/terraform-provider-quortex/releases/download/v0.2.0/terraform-provider-quortex_0.2.0_SHA256SUMS.sig",
       "targets": [
         {
-          "os": "darwin",
-          "arch": "arm64",
-          "filename": "terraform-provider-quortex_0.2.0_darwin_arm64.zip",
-          "download_url": "https://github.com/quortex/terraform-provider-quortex/releases/download/v0.2.0/terraform-provider-quortex_0.2.0_darwin_arm64.zip",
-          "shasum": "56ea91dbda33a8bcfc3fdb682c359fb04a3475942fc3c2083a1feb48167a200c"
-        },
-        {
-          "os": "darwin",
-          "arch": "amd64",
-          "filename": "terraform-provider-quortex_0.2.0_darwin_amd64.zip",
-          "download_url": "https://github.com/quortex/terraform-provider-quortex/releases/download/v0.2.0/terraform-provider-quortex_0.2.0_darwin_amd64.zip",
-          "shasum": "736656cf71957256b0be21d26a58060bbc4a08cc9651ea420abc51b358dd938f"
-        },
-        {
-          "os": "freebsd",
-          "arch": "arm64",
-          "filename": "terraform-provider-quortex_0.2.0_freebsd_arm64.zip",
-          "download_url": "https://github.com/quortex/terraform-provider-quortex/releases/download/v0.2.0/terraform-provider-quortex_0.2.0_freebsd_arm64.zip",
-          "shasum": "d612d0a5afe9b735ffb55fe56d05dd72ba40f7ec46257a62b00eec361280631f"
-        },
-        {
           "os": "freebsd",
           "arch": "arm",
           "filename": "terraform-provider-quortex_0.2.0_freebsd_arm.zip",
           "download_url": "https://github.com/quortex/terraform-provider-quortex/releases/download/v0.2.0/terraform-provider-quortex_0.2.0_freebsd_arm.zip",
-          "shasum": "169d9d135fe3850be91e54e182710cc271bda7dead283a48adc1980b007c4f44"
-        },
-        {
-          "os": "windows",
-          "arch": "arm",
-          "filename": "terraform-provider-quortex_0.2.0_windows_arm.zip",
-          "download_url": "https://github.com/quortex/terraform-provider-quortex/releases/download/v0.2.0/terraform-provider-quortex_0.2.0_windows_arm.zip",
-          "shasum": "56be91cc09506467047a555f15c8656d0949b7fb10aa14526788f4434ce98e41"
-        },
-        {
-          "os": "freebsd",
-          "arch": "386",
-          "filename": "terraform-provider-quortex_0.2.0_freebsd_386.zip",
-          "download_url": "https://github.com/quortex/terraform-provider-quortex/releases/download/v0.2.0/terraform-provider-quortex_0.2.0_freebsd_386.zip",
-          "shasum": "84ff41871140a13bde45e7d033a16e08f91531462a09c6308e940b507d445b83"
-        },
-        {
-          "os": "linux",
-          "arch": "arm64",
-          "filename": "terraform-provider-quortex_0.2.0_linux_arm64.zip",
-          "download_url": "https://github.com/quortex/terraform-provider-quortex/releases/download/v0.2.0/terraform-provider-quortex_0.2.0_linux_arm64.zip",
-          "shasum": "4836a1e1d326088e9048fecd5e0dd688850eef81854d12cf102f7608e2cb2632"
-        },
-        {
-          "os": "windows",
-          "arch": "amd64",
-          "filename": "terraform-provider-quortex_0.2.0_windows_amd64.zip",
-          "download_url": "https://github.com/quortex/terraform-provider-quortex/releases/download/v0.2.0/terraform-provider-quortex_0.2.0_windows_amd64.zip",
-          "shasum": "b84a7078585e9a1965db8be6b66c0be78f9cc6ad0bf3175d8554b5afd5f24760"
-        },
-        {
-          "os": "linux",
-          "arch": "arm",
-          "filename": "terraform-provider-quortex_0.2.0_linux_arm.zip",
-          "download_url": "https://github.com/quortex/terraform-provider-quortex/releases/download/v0.2.0/terraform-provider-quortex_0.2.0_linux_arm.zip",
-          "shasum": "c3d8368e8c0177020c991191cfb32a2a2d157965767f58e6da483559e4a9e1c5"
-        },
-        {
-          "os": "linux",
-          "arch": "amd64",
-          "filename": "terraform-provider-quortex_0.2.0_linux_amd64.zip",
-          "download_url": "https://github.com/quortex/terraform-provider-quortex/releases/download/v0.2.0/terraform-provider-quortex_0.2.0_linux_amd64.zip",
-          "shasum": "4c343e25482e6f917d3ea020a9b27e12f1591173e1f34a7a355ec9af2c55cc16"
+          "shasum": "116daf2f09ea4bf443448d62694d117ac65cd0009318487d86f0c28d6d19d4f0"
         },
         {
           "os": "linux",
           "arch": "386",
           "filename": "terraform-provider-quortex_0.2.0_linux_386.zip",
           "download_url": "https://github.com/quortex/terraform-provider-quortex/releases/download/v0.2.0/terraform-provider-quortex_0.2.0_linux_386.zip",
-          "shasum": "c82a82da58e3744c7bff458f6fa6fbd8662254b8f6a923d61f6efd93ed08c39e"
+          "shasum": "828e8db56756b160155c80887be2b7924ebcf8075b7bf13054cb2d065ce15416"
         },
         {
-          "os": "windows",
-          "arch": "386",
-          "filename": "terraform-provider-quortex_0.2.0_windows_386.zip",
-          "download_url": "https://github.com/quortex/terraform-provider-quortex/releases/download/v0.2.0/terraform-provider-quortex_0.2.0_windows_386.zip",
-          "shasum": "5a4949722fb0e3e10c77ac01744f0a5f3bc17176607260f16d66e41551bad563"
-        },
-        {
-          "os": "windows",
+          "os": "linux",
           "arch": "arm64",
-          "filename": "terraform-provider-quortex_0.2.0_windows_arm64.zip",
-          "download_url": "https://github.com/quortex/terraform-provider-quortex/releases/download/v0.2.0/terraform-provider-quortex_0.2.0_windows_arm64.zip",
-          "shasum": "45a7dd192b758102b290fdd5b34f441c2301ba444195b763827cf795cf3d6f38"
+          "filename": "terraform-provider-quortex_0.2.0_linux_arm64.zip",
+          "download_url": "https://github.com/quortex/terraform-provider-quortex/releases/download/v0.2.0/terraform-provider-quortex_0.2.0_linux_arm64.zip",
+          "shasum": "3ca4b62b63f81d1bfb6fa652d60e6fd48c3b59b4d5fce25446db86b65ed981db"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-quortex_0.2.0_darwin_amd64.zip",
+          "download_url": "https://github.com/quortex/terraform-provider-quortex/releases/download/v0.2.0/terraform-provider-quortex_0.2.0_darwin_amd64.zip",
+          "shasum": "4e32f89bf2c3ae5eae78ba1931caf0a31b4f253ff9729a2da3023bd3a7fcae5d"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-quortex_0.2.0_windows_arm.zip",
+          "download_url": "https://github.com/quortex/terraform-provider-quortex/releases/download/v0.2.0/terraform-provider-quortex_0.2.0_windows_arm.zip",
+          "shasum": "6e0a1c48a758a99c335634754a95f05ab8b1bec03162c469a900777a4fd77af0"
         },
         {
           "os": "freebsd",
           "arch": "amd64",
           "filename": "terraform-provider-quortex_0.2.0_freebsd_amd64.zip",
           "download_url": "https://github.com/quortex/terraform-provider-quortex/releases/download/v0.2.0/terraform-provider-quortex_0.2.0_freebsd_amd64.zip",
-          "shasum": "5993c3e8afd1a1f2b16e23e96c523c84090250806c96429b72aee4bcdbedcfd4"
+          "shasum": "410e5bb78220793128939c0fc19f99ec1882d4d5958398d7c1a8429f2652c066"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-quortex_0.2.0_windows_arm64.zip",
+          "download_url": "https://github.com/quortex/terraform-provider-quortex/releases/download/v0.2.0/terraform-provider-quortex_0.2.0_windows_arm64.zip",
+          "shasum": "beea25c038cc3ad4b8160dab64236882df6ab01b9012e12a3f7afb808ad04612"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-quortex_0.2.0_linux_amd64.zip",
+          "download_url": "https://github.com/quortex/terraform-provider-quortex/releases/download/v0.2.0/terraform-provider-quortex_0.2.0_linux_amd64.zip",
+          "shasum": "0b7b6dd2c2fe4329235b51b49da9f5137106f36223242b1030f7ab5c3c9e2ad4"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-quortex_0.2.0_freebsd_386.zip",
+          "download_url": "https://github.com/quortex/terraform-provider-quortex/releases/download/v0.2.0/terraform-provider-quortex_0.2.0_freebsd_386.zip",
+          "shasum": "e8d47f12181f438d0131ce91c0d9d71d58e298deb4f75f3d3ce18004d6f67782"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-quortex_0.2.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/quortex/terraform-provider-quortex/releases/download/v0.2.0/terraform-provider-quortex_0.2.0_freebsd_arm64.zip",
+          "shasum": "615136885b1399934fbf4b0fd24b6e2dd488682692b93c5f53bb7faf010175b2"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-quortex_0.2.0_windows_amd64.zip",
+          "download_url": "https://github.com/quortex/terraform-provider-quortex/releases/download/v0.2.0/terraform-provider-quortex_0.2.0_windows_amd64.zip",
+          "shasum": "a7d355b661c013a10ddc69aa9242f2cc48bb0266e5dc8a4cc351068d6ff43957"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-quortex_0.2.0_windows_386.zip",
+          "download_url": "https://github.com/quortex/terraform-provider-quortex/releases/download/v0.2.0/terraform-provider-quortex_0.2.0_windows_386.zip",
+          "shasum": "061403e5ff40f38f836d1280707ac3703287ce187fed65bebb0b7a2b46411cd5"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-quortex_0.2.0_linux_arm.zip",
+          "download_url": "https://github.com/quortex/terraform-provider-quortex/releases/download/v0.2.0/terraform-provider-quortex_0.2.0_linux_arm.zip",
+          "shasum": "33cf01374abca1430a7604520f2361bd31c9b4ec684a462a5ad2b7b331f63033"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-quortex_0.2.0_darwin_arm64.zip",
+          "download_url": "https://github.com/quortex/terraform-provider-quortex/releases/download/v0.2.0/terraform-provider-quortex_0.2.0_darwin_arm64.zip",
+          "shasum": "7b3bce723fa7065b170ec14efb7b2a5fd1552e13f0c4c515bec04f6c619cb207"
         }
       ]
     },
