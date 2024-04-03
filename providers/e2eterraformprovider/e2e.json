@@ -2,6 +2,114 @@
   "repository": "https://github.com/e2eterraformprovider/terraform-provider-e2e",
   "versions": [
     {
+      "version": "2.1.9-beta",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/e2eterraformprovider/terraform-provider-e2e/releases/download/v2.1.9-beta/terraform-provider-e2e_2.1.9-beta_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/e2eterraformprovider/terraform-provider-e2e/releases/download/v2.1.9-beta/terraform-provider-e2e_2.1.9-beta_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-e2e_2.1.9-beta_freebsd_arm64.zip",
+          "download_url": "https://github.com/e2eterraformprovider/terraform-provider-e2e/releases/download/v2.1.9-beta/terraform-provider-e2e_2.1.9-beta_freebsd_arm64.zip",
+          "shasum": "cfd92b0cf6e6ea6453d960ec3f9d67a3faa493daa3d3f4fb9ad0b92ab8ad56e2"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-e2e_2.1.9-beta_freebsd_amd64.zip",
+          "download_url": "https://github.com/e2eterraformprovider/terraform-provider-e2e/releases/download/v2.1.9-beta/terraform-provider-e2e_2.1.9-beta_freebsd_amd64.zip",
+          "shasum": "e35775f5244f2ba604732320c618c49451f3c112bee39f2e328ab1dd7c21e44a"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-e2e_2.1.9-beta_linux_arm64.zip",
+          "download_url": "https://github.com/e2eterraformprovider/terraform-provider-e2e/releases/download/v2.1.9-beta/terraform-provider-e2e_2.1.9-beta_linux_arm64.zip",
+          "shasum": "9416b3fa3e0ad8f3fabd4f030c2c0ea33e57d08672e81ddd3485299bca458075"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-e2e_2.1.9-beta_freebsd_arm.zip",
+          "download_url": "https://github.com/e2eterraformprovider/terraform-provider-e2e/releases/download/v2.1.9-beta/terraform-provider-e2e_2.1.9-beta_freebsd_arm.zip",
+          "shasum": "8adbad64b87c83ab2a4a8df2099135ad49078972fbdcccb4628865b1568ed06a"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-e2e_2.1.9-beta_linux_386.zip",
+          "download_url": "https://github.com/e2eterraformprovider/terraform-provider-e2e/releases/download/v2.1.9-beta/terraform-provider-e2e_2.1.9-beta_linux_386.zip",
+          "shasum": "c194a9e33c67343210cd1fc1cf0a2bb6eb8b19d501f83fcb29b3361357f69f41"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-e2e_2.1.9-beta_windows_arm.zip",
+          "download_url": "https://github.com/e2eterraformprovider/terraform-provider-e2e/releases/download/v2.1.9-beta/terraform-provider-e2e_2.1.9-beta_windows_arm.zip",
+          "shasum": "870fcf0b075c17890bd94951945475fdf492f28a976c07c8453241d8c50db2d6"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-e2e_2.1.9-beta_windows_arm64.zip",
+          "download_url": "https://github.com/e2eterraformprovider/terraform-provider-e2e/releases/download/v2.1.9-beta/terraform-provider-e2e_2.1.9-beta_windows_arm64.zip",
+          "shasum": "9074dc12037cf0e5a63d1256bdf946a2fb90450e7bd42f53bbc938452c75f531"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-e2e_2.1.9-beta_windows_386.zip",
+          "download_url": "https://github.com/e2eterraformprovider/terraform-provider-e2e/releases/download/v2.1.9-beta/terraform-provider-e2e_2.1.9-beta_windows_386.zip",
+          "shasum": "af85ca21e34de7cf735c0eda706a2be866b6297cf8f13e21727c9f28f3b8ac5a"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-e2e_2.1.9-beta_freebsd_386.zip",
+          "download_url": "https://github.com/e2eterraformprovider/terraform-provider-e2e/releases/download/v2.1.9-beta/terraform-provider-e2e_2.1.9-beta_freebsd_386.zip",
+          "shasum": "cb87ac04eb5be101a124aefc473f4fa464d70977acd4941f50995f4a588ac4ff"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-e2e_2.1.9-beta_darwin_arm64.zip",
+          "download_url": "https://github.com/e2eterraformprovider/terraform-provider-e2e/releases/download/v2.1.9-beta/terraform-provider-e2e_2.1.9-beta_darwin_arm64.zip",
+          "shasum": "91b530f4bc9e28c155d77fd6c23beae326e2e4fde8cb8f6f8ceb458a71fb09f4"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-e2e_2.1.9-beta_linux_amd64.zip",
+          "download_url": "https://github.com/e2eterraformprovider/terraform-provider-e2e/releases/download/v2.1.9-beta/terraform-provider-e2e_2.1.9-beta_linux_amd64.zip",
+          "shasum": "9bdc6b0b8ff54ceee27427fc5d13397b9ab0d0d7b1e6bb3976d79fd062d5e2e1"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-e2e_2.1.9-beta_darwin_amd64.zip",
+          "download_url": "https://github.com/e2eterraformprovider/terraform-provider-e2e/releases/download/v2.1.9-beta/terraform-provider-e2e_2.1.9-beta_darwin_amd64.zip",
+          "shasum": "900196b67748dee0c954ead95de27a7327edc6769acc4b4a66c8434f4ac3ebbb"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-e2e_2.1.9-beta_linux_arm.zip",
+          "download_url": "https://github.com/e2eterraformprovider/terraform-provider-e2e/releases/download/v2.1.9-beta/terraform-provider-e2e_2.1.9-beta_linux_arm.zip",
+          "shasum": "2625ab32df6174cf8325116f9b6a2d3c7fc371f407ba1828c29c579813e898df"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-e2e_2.1.9-beta_windows_amd64.zip",
+          "download_url": "https://github.com/e2eterraformprovider/terraform-provider-e2e/releases/download/v2.1.9-beta/terraform-provider-e2e_2.1.9-beta_windows_amd64.zip",
+          "shasum": "673ca2b866b35ae0b24e80a2a59fe727c1297ba036bc5f5658fd237b4f6e5050"
+        }
+      ]
+    },
+    {
       "version": "2.1.8",
       "protocols": [
         "5.0"
