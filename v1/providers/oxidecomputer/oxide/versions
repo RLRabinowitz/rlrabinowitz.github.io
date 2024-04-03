@@ -1,14 +1,22 @@
 {
   "versions": [
     {
-      "version": "untagged-64783cb14cbdbeb9b762",
+      "version": "0.3.0",
       "protocols": [
         "5.0"
       ],
       "platforms": [
         {
           "os": "freebsd",
-          "arch": "386"
+          "arch": "amd64"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm"
         },
         {
           "os": "windows",
@@ -19,27 +27,27 @@
           "arch": "386"
         },
         {
-          "os": "freebsd",
-          "arch": "amd64"
-        },
-        {
           "os": "windows",
           "arch": "arm"
         },
         {
-          "os": "linux",
-          "arch": "arm"
+          "os": "windows",
+          "arch": "386"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386"
         },
         {
           "os": "linux",
           "arch": "amd64"
         },
         {
-          "os": "darwin",
-          "arch": "arm64"
-        },
-        {
-          "os": "freebsd",
+          "os": "linux",
           "arch": "arm"
         },
         {
@@ -47,24 +55,16 @@
           "arch": "amd64"
         },
         {
-          "os": "windows",
-          "arch": "386"
-        },
-        {
           "os": "freebsd",
-          "arch": "arm64"
-        },
-        {
-          "os": "windows",
-          "arch": "amd64"
-        },
-        {
-          "os": "linux",
           "arch": "arm64"
         },
         {
           "os": "darwin",
           "arch": "amd64"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64"
         }
       ]
     },
