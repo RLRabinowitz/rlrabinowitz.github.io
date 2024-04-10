@@ -2,6 +2,114 @@
   "repository": "https://github.com/HelloAsso/terraform-provider-helloasso",
   "versions": [
     {
+      "version": "0.2.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/HelloAsso/terraform-provider-helloasso/releases/download/v0.2.0/terraform-provider-helloasso_0.2.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/HelloAsso/terraform-provider-helloasso/releases/download/v0.2.0/terraform-provider-helloasso_0.2.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-helloasso_0.2.0_linux_amd64.zip",
+          "download_url": "https://github.com/HelloAsso/terraform-provider-helloasso/releases/download/v0.2.0/terraform-provider-helloasso_0.2.0_linux_amd64.zip",
+          "shasum": "dee03b9b9f3d8ef52b983e7a1ad1293859d0777d046c8d0c47b7c3c4dfdaa307"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-helloasso_0.2.0_linux_arm.zip",
+          "download_url": "https://github.com/HelloAsso/terraform-provider-helloasso/releases/download/v0.2.0/terraform-provider-helloasso_0.2.0_linux_arm.zip",
+          "shasum": "86f8bb6d2b92c4485c9bbd3efe5feef7d775ea38a2ecb212659489ceb20a66f5"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-helloasso_0.2.0_windows_386.zip",
+          "download_url": "https://github.com/HelloAsso/terraform-provider-helloasso/releases/download/v0.2.0/terraform-provider-helloasso_0.2.0_windows_386.zip",
+          "shasum": "4795909907ece41575e71d535cf24cbb6539b0940ea9433d498ecc9d2a9c2b7d"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-helloasso_0.2.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/HelloAsso/terraform-provider-helloasso/releases/download/v0.2.0/terraform-provider-helloasso_0.2.0_freebsd_amd64.zip",
+          "shasum": "5eb2baf1b6ea1bf3d8414c5b0a4b69b134a7b7453b19e054f83cd02540523ad0"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-helloasso_0.2.0_linux_arm64.zip",
+          "download_url": "https://github.com/HelloAsso/terraform-provider-helloasso/releases/download/v0.2.0/terraform-provider-helloasso_0.2.0_linux_arm64.zip",
+          "shasum": "7ec9f5d936ac66f036fae7d5b9c196308bb0f6abd709b650167797ce081c6938"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-helloasso_0.2.0_freebsd_386.zip",
+          "download_url": "https://github.com/HelloAsso/terraform-provider-helloasso/releases/download/v0.2.0/terraform-provider-helloasso_0.2.0_freebsd_386.zip",
+          "shasum": "aa1b4abb82df81f6c6889d2d47e924162f710539eea890e43cf7dcd1cefac1c9"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-helloasso_0.2.0_linux_386.zip",
+          "download_url": "https://github.com/HelloAsso/terraform-provider-helloasso/releases/download/v0.2.0/terraform-provider-helloasso_0.2.0_linux_386.zip",
+          "shasum": "fecf66c8672817affb988429502be0b9f7c0623ffd333c14cf1fb0533659ef15"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-helloasso_0.2.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/HelloAsso/terraform-provider-helloasso/releases/download/v0.2.0/terraform-provider-helloasso_0.2.0_freebsd_arm64.zip",
+          "shasum": "1dded5701f7389d25c0fc064ab9bd20e9252c803bb9b4aa02f43fb12aa9e10e2"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-helloasso_0.2.0_freebsd_arm.zip",
+          "download_url": "https://github.com/HelloAsso/terraform-provider-helloasso/releases/download/v0.2.0/terraform-provider-helloasso_0.2.0_freebsd_arm.zip",
+          "shasum": "7f297fe4899bcb93e594d81e2d090caee2c7816eafd30d060f6f7d7bda17fc94"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-helloasso_0.2.0_darwin_arm64.zip",
+          "download_url": "https://github.com/HelloAsso/terraform-provider-helloasso/releases/download/v0.2.0/terraform-provider-helloasso_0.2.0_darwin_arm64.zip",
+          "shasum": "9225f6f427a11dcaffb6c600ae2e5f90e819f7ce2435f68cf662f0559c38f45d"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-helloasso_0.2.0_windows_arm.zip",
+          "download_url": "https://github.com/HelloAsso/terraform-provider-helloasso/releases/download/v0.2.0/terraform-provider-helloasso_0.2.0_windows_arm.zip",
+          "shasum": "d6e8b63869c3f32e2515aabdd8907a5ee15cf01a94f1474011d9f8496007f43c"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-helloasso_0.2.0_windows_amd64.zip",
+          "download_url": "https://github.com/HelloAsso/terraform-provider-helloasso/releases/download/v0.2.0/terraform-provider-helloasso_0.2.0_windows_amd64.zip",
+          "shasum": "af5336bc82938b08f412339669a144061379586dc27c279e7c74192265899f5b"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-helloasso_0.2.0_windows_arm64.zip",
+          "download_url": "https://github.com/HelloAsso/terraform-provider-helloasso/releases/download/v0.2.0/terraform-provider-helloasso_0.2.0_windows_arm64.zip",
+          "shasum": "bc9d3912e548856fdee260ea3827c6d4e9761699d66865030b7037dacde23eab"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-helloasso_0.2.0_darwin_amd64.zip",
+          "download_url": "https://github.com/HelloAsso/terraform-provider-helloasso/releases/download/v0.2.0/terraform-provider-helloasso_0.2.0_darwin_amd64.zip",
+          "shasum": "b2fd8ccc1b795ae78848374b067c0b154af3955b211ba9ce19e4f3120bc774a2"
+        }
+      ]
+    },
+    {
       "version": "0.1.2",
       "protocols": [
         "5.0"
