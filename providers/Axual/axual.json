@@ -2,6 +2,114 @@
   "repository": "https://github.com/Axual/terraform-provider-axual",
   "versions": [
     {
+      "version": "2.2.1",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/Axual/terraform-provider-axual/releases/download/v2.2.1/terraform-provider-axual_2.2.1_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/Axual/terraform-provider-axual/releases/download/v2.2.1/terraform-provider-axual_2.2.1_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-axual_2.2.1_windows_amd64.zip",
+          "download_url": "https://github.com/Axual/terraform-provider-axual/releases/download/v2.2.1/terraform-provider-axual_2.2.1_windows_amd64.zip",
+          "shasum": "dafacf3f30d996e82aa1cbe1027aac0071ccdd8a6441d9eb99a35d632a7de1fd"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-axual_2.2.1_windows_386.zip",
+          "download_url": "https://github.com/Axual/terraform-provider-axual/releases/download/v2.2.1/terraform-provider-axual_2.2.1_windows_386.zip",
+          "shasum": "c4dc759d60adf6caf2f1681e94e872ce6051b0097fe4388164d3a92efbd36665"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-axual_2.2.1_freebsd_386.zip",
+          "download_url": "https://github.com/Axual/terraform-provider-axual/releases/download/v2.2.1/terraform-provider-axual_2.2.1_freebsd_386.zip",
+          "shasum": "e1d5abf11b4c0dd152de1070e631fb9a83a18f6ea1051e06be6a9aa7173cc193"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-axual_2.2.1_linux_386.zip",
+          "download_url": "https://github.com/Axual/terraform-provider-axual/releases/download/v2.2.1/terraform-provider-axual_2.2.1_linux_386.zip",
+          "shasum": "7a10250359cbbd5abf760d14a0072049e33e74f0a100aa366c7ddcf64bc7f378"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-axual_2.2.1_linux_arm.zip",
+          "download_url": "https://github.com/Axual/terraform-provider-axual/releases/download/v2.2.1/terraform-provider-axual_2.2.1_linux_arm.zip",
+          "shasum": "dcb01bcc5a7bdb5823a475778314fc5ad1f92d950f6fe2758a2deff45c43c7f5"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-axual_2.2.1_windows_arm64.zip",
+          "download_url": "https://github.com/Axual/terraform-provider-axual/releases/download/v2.2.1/terraform-provider-axual_2.2.1_windows_arm64.zip",
+          "shasum": "cca84d6897179c88ac1351eac8be8c3286231bb5fabaee3aba811de1cf2c584c"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-axual_2.2.1_darwin_amd64.zip",
+          "download_url": "https://github.com/Axual/terraform-provider-axual/releases/download/v2.2.1/terraform-provider-axual_2.2.1_darwin_amd64.zip",
+          "shasum": "5d5517774444238d4e6e008ec154694f0b29ac264e17d785cfbcbff5674a59db"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-axual_2.2.1_linux_arm64.zip",
+          "download_url": "https://github.com/Axual/terraform-provider-axual/releases/download/v2.2.1/terraform-provider-axual_2.2.1_linux_arm64.zip",
+          "shasum": "010f953b5f34062857aa3a6208ad06cdf139bb791376d870f90e7006df89e4ac"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-axual_2.2.1_freebsd_arm.zip",
+          "download_url": "https://github.com/Axual/terraform-provider-axual/releases/download/v2.2.1/terraform-provider-axual_2.2.1_freebsd_arm.zip",
+          "shasum": "1934ab8ce8eef6736884340f0172f8ab3f159bb56547e2ef44aaf6a16b0c58d1"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-axual_2.2.1_darwin_arm64.zip",
+          "download_url": "https://github.com/Axual/terraform-provider-axual/releases/download/v2.2.1/terraform-provider-axual_2.2.1_darwin_arm64.zip",
+          "shasum": "94c1351993bdd1a8c735b74cb4b6eda4deabb4755c42cbe7ebca31fba01dc3c1"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-axual_2.2.1_freebsd_arm64.zip",
+          "download_url": "https://github.com/Axual/terraform-provider-axual/releases/download/v2.2.1/terraform-provider-axual_2.2.1_freebsd_arm64.zip",
+          "shasum": "167b5c8c9f6ff29370fc19e5dda60966fa663956171b9b3ce040a54e671b78fb"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-axual_2.2.1_windows_arm.zip",
+          "download_url": "https://github.com/Axual/terraform-provider-axual/releases/download/v2.2.1/terraform-provider-axual_2.2.1_windows_arm.zip",
+          "shasum": "0f2b981d941fd1df4027bb4d5ba3ee8a3fff8bce4603a7c8586484075f7d5ae7"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-axual_2.2.1_freebsd_amd64.zip",
+          "download_url": "https://github.com/Axual/terraform-provider-axual/releases/download/v2.2.1/terraform-provider-axual_2.2.1_freebsd_amd64.zip",
+          "shasum": "754edd61eb84807f0b932c0d55c9605782453fe3ec53751bf3a3ac471444c9d1"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-axual_2.2.1_linux_amd64.zip",
+          "download_url": "https://github.com/Axual/terraform-provider-axual/releases/download/v2.2.1/terraform-provider-axual_2.2.1_linux_amd64.zip",
+          "shasum": "467f480fef03b63e0f168d978ea02446f3a0ba97af1f54d7e4dfde0ad0e3b57c"
+        }
+      ]
+    },
+    {
       "version": "2.2.0",
       "protocols": [
         "5.0"
