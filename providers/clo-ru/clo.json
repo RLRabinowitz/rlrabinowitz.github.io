@@ -2,6 +2,114 @@
   "repository": "https://github.com/clo-ru/terraform-provider-clo",
   "versions": [
     {
+      "version": "2.0.1",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/clo-ru/terraform-provider-clo/releases/download/v2.0.1/terraform-provider-clo_2.0.1_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/clo-ru/terraform-provider-clo/releases/download/v2.0.1/terraform-provider-clo_2.0.1_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-clo_2.0.1_linux_arm64.zip",
+          "download_url": "https://github.com/clo-ru/terraform-provider-clo/releases/download/v2.0.1/terraform-provider-clo_2.0.1_linux_arm64.zip",
+          "shasum": "c87369c00703ccaf584ad844a6d303a6bd18f16606d64e05a25309232afa4243"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-clo_2.0.1_windows_386.zip",
+          "download_url": "https://github.com/clo-ru/terraform-provider-clo/releases/download/v2.0.1/terraform-provider-clo_2.0.1_windows_386.zip",
+          "shasum": "5f23fc4ba4446bf776124eeb78e949997ec974bccd09133337b6754fec1ec132"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-clo_2.0.1_windows_arm.zip",
+          "download_url": "https://github.com/clo-ru/terraform-provider-clo/releases/download/v2.0.1/terraform-provider-clo_2.0.1_windows_arm.zip",
+          "shasum": "64c0b426d550c7936dfc6ddf7bb22f0c7a0b8716a22a088a3f0a0062645bd686"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-clo_2.0.1_darwin_amd64.zip",
+          "download_url": "https://github.com/clo-ru/terraform-provider-clo/releases/download/v2.0.1/terraform-provider-clo_2.0.1_darwin_amd64.zip",
+          "shasum": "295256c4fc06d11637789a188dc30d26598f5d28ed1da3085b1da8f3f737ac06"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-clo_2.0.1_linux_386.zip",
+          "download_url": "https://github.com/clo-ru/terraform-provider-clo/releases/download/v2.0.1/terraform-provider-clo_2.0.1_linux_386.zip",
+          "shasum": "19424c1a7d50728ccf936c66bf7649dd111040724e9786baf0e2c1b9f09aec5e"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-clo_2.0.1_linux_arm.zip",
+          "download_url": "https://github.com/clo-ru/terraform-provider-clo/releases/download/v2.0.1/terraform-provider-clo_2.0.1_linux_arm.zip",
+          "shasum": "c6246eece81e52eb602a837f8fcf022f5e890e0d94e544bbac6705b106a24cbd"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-clo_2.0.1_linux_amd64.zip",
+          "download_url": "https://github.com/clo-ru/terraform-provider-clo/releases/download/v2.0.1/terraform-provider-clo_2.0.1_linux_amd64.zip",
+          "shasum": "61ed1078847ec878fe1e2fc97a0b8ece1d8e3909a9afcf09634331e211ca43a5"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-clo_2.0.1_darwin_arm64.zip",
+          "download_url": "https://github.com/clo-ru/terraform-provider-clo/releases/download/v2.0.1/terraform-provider-clo_2.0.1_darwin_arm64.zip",
+          "shasum": "3c5ced8e143d62f7f896d566ba2cea255513c3f1d2748aa0074b9f55442bd50c"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-clo_2.0.1_freebsd_arm.zip",
+          "download_url": "https://github.com/clo-ru/terraform-provider-clo/releases/download/v2.0.1/terraform-provider-clo_2.0.1_freebsd_arm.zip",
+          "shasum": "11e162d47338306f6b1c5437c68a141069cb969f924d86e1f85aeefef25d77a6"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-clo_2.0.1_freebsd_386.zip",
+          "download_url": "https://github.com/clo-ru/terraform-provider-clo/releases/download/v2.0.1/terraform-provider-clo_2.0.1_freebsd_386.zip",
+          "shasum": "e118262ca6e5a8af986279504518557425426315e604aaced06240c68f7209a8"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-clo_2.0.1_freebsd_arm64.zip",
+          "download_url": "https://github.com/clo-ru/terraform-provider-clo/releases/download/v2.0.1/terraform-provider-clo_2.0.1_freebsd_arm64.zip",
+          "shasum": "d12bb18a8a2342fa846e7af83ed1d7862a0a144e69927bb20ef197d286a93057"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-clo_2.0.1_windows_arm64.zip",
+          "download_url": "https://github.com/clo-ru/terraform-provider-clo/releases/download/v2.0.1/terraform-provider-clo_2.0.1_windows_arm64.zip",
+          "shasum": "74e86c9efdbbe5bd9ba855567691f539a5034cfc5208fed96549f5e7e65f6a11"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-clo_2.0.1_windows_amd64.zip",
+          "download_url": "https://github.com/clo-ru/terraform-provider-clo/releases/download/v2.0.1/terraform-provider-clo_2.0.1_windows_amd64.zip",
+          "shasum": "f403409bf49ceab56e3426e4137bf1a40c1e5ed2b34abb6e37398744b70d1002"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-clo_2.0.1_freebsd_amd64.zip",
+          "download_url": "https://github.com/clo-ru/terraform-provider-clo/releases/download/v2.0.1/terraform-provider-clo_2.0.1_freebsd_amd64.zip",
+          "shasum": "538c37bdd9eda6f388676c9f0e1b3ff6ea8c417898417898e614002927af62b6"
+        }
+      ]
+    },
+    {
       "version": "2.0.0",
       "protocols": [
         "5.0"
