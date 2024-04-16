@@ -2,6 +2,114 @@
   "repository": "https://github.com/MeilleursAgents/terraform-provider-ansiblevault",
   "versions": [
     {
+      "version": "3.0.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/MeilleursAgents/terraform-provider-ansiblevault/releases/download/v3.0.0/terraform-provider-ansiblevault_3.0.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/MeilleursAgents/terraform-provider-ansiblevault/releases/download/v3.0.0/terraform-provider-ansiblevault_3.0.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-ansiblevault_3.0.0_windows_386.zip",
+          "download_url": "https://github.com/MeilleursAgents/terraform-provider-ansiblevault/releases/download/v3.0.0/terraform-provider-ansiblevault_3.0.0_windows_386.zip",
+          "shasum": "ed886cbd69345ffecf196a18b8d64f8eb4d3eb0be2815eebe500d63a7d2a1372"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-ansiblevault_3.0.0_linux_386.zip",
+          "download_url": "https://github.com/MeilleursAgents/terraform-provider-ansiblevault/releases/download/v3.0.0/terraform-provider-ansiblevault_3.0.0_linux_386.zip",
+          "shasum": "5e60ebde47b2c8a91270dad1250f48291fda79d14ecb5cc8e70f68484c8c77aa"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-ansiblevault_3.0.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/MeilleursAgents/terraform-provider-ansiblevault/releases/download/v3.0.0/terraform-provider-ansiblevault_3.0.0_freebsd_arm64.zip",
+          "shasum": "4dfa74c24e7c48a4d0be7937cea1104077ae8b88793152d40b171a8fbe0ffb05"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-ansiblevault_3.0.0_linux_amd64.zip",
+          "download_url": "https://github.com/MeilleursAgents/terraform-provider-ansiblevault/releases/download/v3.0.0/terraform-provider-ansiblevault_3.0.0_linux_amd64.zip",
+          "shasum": "1ce70d448936030713912e4e15ecdd43470d56cfcf6190524a51696b09801d49"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-ansiblevault_3.0.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/MeilleursAgents/terraform-provider-ansiblevault/releases/download/v3.0.0/terraform-provider-ansiblevault_3.0.0_freebsd_amd64.zip",
+          "shasum": "6896101ab3547776bbb4a3d529742110672f5ce36818223abb10de595538ce12"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-ansiblevault_3.0.0_darwin_amd64.zip",
+          "download_url": "https://github.com/MeilleursAgents/terraform-provider-ansiblevault/releases/download/v3.0.0/terraform-provider-ansiblevault_3.0.0_darwin_amd64.zip",
+          "shasum": "0d87a875c4090792a11553f207ff8a190dfdd17f68172ecf415b2b4ab836b800"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-ansiblevault_3.0.0_darwin_arm64.zip",
+          "download_url": "https://github.com/MeilleursAgents/terraform-provider-ansiblevault/releases/download/v3.0.0/terraform-provider-ansiblevault_3.0.0_darwin_arm64.zip",
+          "shasum": "0f58a4cb3f46da604f050c13b84abd538bdcc86a1774b2d7a8e5cf305492f075"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-ansiblevault_3.0.0_linux_arm64.zip",
+          "download_url": "https://github.com/MeilleursAgents/terraform-provider-ansiblevault/releases/download/v3.0.0/terraform-provider-ansiblevault_3.0.0_linux_arm64.zip",
+          "shasum": "86608f4d1599a8dace1aecdc3d2b81198bb09ea0e4bc71e71bde5c52fadb08d4"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-ansiblevault_3.0.0_windows_amd64.zip",
+          "download_url": "https://github.com/MeilleursAgents/terraform-provider-ansiblevault/releases/download/v3.0.0/terraform-provider-ansiblevault_3.0.0_windows_amd64.zip",
+          "shasum": "76f0f3f1c8f83650e2ae88ec604073c2842daf6e0d46aedacbe472b26ee094c4"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-ansiblevault_3.0.0_freebsd_386.zip",
+          "download_url": "https://github.com/MeilleursAgents/terraform-provider-ansiblevault/releases/download/v3.0.0/terraform-provider-ansiblevault_3.0.0_freebsd_386.zip",
+          "shasum": "07ea632cb07ca91fce0638cde561103596bf55d97c8b9e47dc34e89d58bd0512"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-ansiblevault_3.0.0_freebsd_arm.zip",
+          "download_url": "https://github.com/MeilleursAgents/terraform-provider-ansiblevault/releases/download/v3.0.0/terraform-provider-ansiblevault_3.0.0_freebsd_arm.zip",
+          "shasum": "2f1cc3a8bdc90c7e228c391dcacedaaacc7a90d8dc4c93e585b75a4f0e364d39"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-ansiblevault_3.0.0_windows_arm64.zip",
+          "download_url": "https://github.com/MeilleursAgents/terraform-provider-ansiblevault/releases/download/v3.0.0/terraform-provider-ansiblevault_3.0.0_windows_arm64.zip",
+          "shasum": "ce1a7a15feb16fa873437f5e6eb4a3d568e08c6fd946cb0745bbde05e62b7d94"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-ansiblevault_3.0.0_windows_arm.zip",
+          "download_url": "https://github.com/MeilleursAgents/terraform-provider-ansiblevault/releases/download/v3.0.0/terraform-provider-ansiblevault_3.0.0_windows_arm.zip",
+          "shasum": "7d9ae805ee80d81c7f0a859ba7216f85405ba2a4ee8538008ab180e0b458b9e5"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-ansiblevault_3.0.0_linux_arm.zip",
+          "download_url": "https://github.com/MeilleursAgents/terraform-provider-ansiblevault/releases/download/v3.0.0/terraform-provider-ansiblevault_3.0.0_linux_arm.zip",
+          "shasum": "0fedc1ccc65310aa9f790555af1e8d20bb4ec9a3f27aaea1612f4dad0b1307e2"
+        }
+      ]
+    },
+    {
       "version": "2.3.0",
       "protocols": [
         "5.0"
