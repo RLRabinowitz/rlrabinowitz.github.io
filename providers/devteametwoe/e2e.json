@@ -2,6 +2,114 @@
   "repository": "https://github.com/devteametwoe/terraform-provider-e2e",
   "versions": [
     {
+      "version": "2.1.14",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/e2eterraformprovider/terraform-provider-e2e/releases/download/v2.1.14/terraform-provider-e2e_2.1.14_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/e2eterraformprovider/terraform-provider-e2e/releases/download/v2.1.14/terraform-provider-e2e_2.1.14_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-e2e_2.1.14_darwin_arm64.zip",
+          "download_url": "https://github.com/e2eterraformprovider/terraform-provider-e2e/releases/download/v2.1.14/terraform-provider-e2e_2.1.14_darwin_arm64.zip",
+          "shasum": "921478f4e95ee6040382e6375445441b24d68b9b6dc3b5b2d9a67317bb211e0a"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-e2e_2.1.14_freebsd_arm.zip",
+          "download_url": "https://github.com/e2eterraformprovider/terraform-provider-e2e/releases/download/v2.1.14/terraform-provider-e2e_2.1.14_freebsd_arm.zip",
+          "shasum": "73ee79be5bcc7ee47beef25bc8369ed938a72d98192fcdb20e586a6c74d0c7f0"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-e2e_2.1.14_freebsd_386.zip",
+          "download_url": "https://github.com/e2eterraformprovider/terraform-provider-e2e/releases/download/v2.1.14/terraform-provider-e2e_2.1.14_freebsd_386.zip",
+          "shasum": "a21c6183763fa5c77c0fa889d7f67d91f56121ff0241bb60934d7aa3bbe3b4e5"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-e2e_2.1.14_windows_amd64.zip",
+          "download_url": "https://github.com/e2eterraformprovider/terraform-provider-e2e/releases/download/v2.1.14/terraform-provider-e2e_2.1.14_windows_amd64.zip",
+          "shasum": "759ecfc901d6733c16e4d0399c552bcb33a5003d5438efd4cfb55d242623f1d8"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-e2e_2.1.14_windows_386.zip",
+          "download_url": "https://github.com/e2eterraformprovider/terraform-provider-e2e/releases/download/v2.1.14/terraform-provider-e2e_2.1.14_windows_386.zip",
+          "shasum": "3a3b9dc85f3ac8d36d53ed398d70bb86ba1d916987bf874c48ae16ebc06daa79"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-e2e_2.1.14_windows_arm64.zip",
+          "download_url": "https://github.com/e2eterraformprovider/terraform-provider-e2e/releases/download/v2.1.14/terraform-provider-e2e_2.1.14_windows_arm64.zip",
+          "shasum": "2bb694a79412587bfe22f8d5aff14737e5be64deae4791e82617f25cdd3df085"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-e2e_2.1.14_windows_arm.zip",
+          "download_url": "https://github.com/e2eterraformprovider/terraform-provider-e2e/releases/download/v2.1.14/terraform-provider-e2e_2.1.14_windows_arm.zip",
+          "shasum": "60e3c860a56126d2baa271762a731a4bb28e2071cd875aa2f96b19be94b64354"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-e2e_2.1.14_freebsd_arm64.zip",
+          "download_url": "https://github.com/e2eterraformprovider/terraform-provider-e2e/releases/download/v2.1.14/terraform-provider-e2e_2.1.14_freebsd_arm64.zip",
+          "shasum": "a78e33fa1e3bea01268efa0dca7c33abdfb133716a40e73f209753fdf4451148"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-e2e_2.1.14_linux_386.zip",
+          "download_url": "https://github.com/e2eterraformprovider/terraform-provider-e2e/releases/download/v2.1.14/terraform-provider-e2e_2.1.14_linux_386.zip",
+          "shasum": "ab00f5960c8e6539f76c5555b5b97e07495da3ac1920320a070b326cecf638e0"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-e2e_2.1.14_freebsd_amd64.zip",
+          "download_url": "https://github.com/e2eterraformprovider/terraform-provider-e2e/releases/download/v2.1.14/terraform-provider-e2e_2.1.14_freebsd_amd64.zip",
+          "shasum": "4444a716a4020f5decf93ea670e460534fd354341d18f4a097aace2f1ed7a6a1"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-e2e_2.1.14_linux_arm64.zip",
+          "download_url": "https://github.com/e2eterraformprovider/terraform-provider-e2e/releases/download/v2.1.14/terraform-provider-e2e_2.1.14_linux_arm64.zip",
+          "shasum": "7cbc3d9d4af83e7c86e62530ae296d1bb041d9fde8d7fbf228bf7cbc152a48f1"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-e2e_2.1.14_linux_amd64.zip",
+          "download_url": "https://github.com/e2eterraformprovider/terraform-provider-e2e/releases/download/v2.1.14/terraform-provider-e2e_2.1.14_linux_amd64.zip",
+          "shasum": "dea0ffd5beba4df9985c3af2b89cb6d0fec772b852403857e917eb883992e330"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-e2e_2.1.14_linux_arm.zip",
+          "download_url": "https://github.com/e2eterraformprovider/terraform-provider-e2e/releases/download/v2.1.14/terraform-provider-e2e_2.1.14_linux_arm.zip",
+          "shasum": "d9b6026a90ca651b7997245db64b5e4b07abc89fb1cd61d7c377f1bab6942fea"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-e2e_2.1.14_darwin_amd64.zip",
+          "download_url": "https://github.com/e2eterraformprovider/terraform-provider-e2e/releases/download/v2.1.14/terraform-provider-e2e_2.1.14_darwin_amd64.zip",
+          "shasum": "882c1a23410c2097b6b44cd6724b014b5ab344ba328644727917568c1b01130e"
+        }
+      ]
+    },
+    {
       "version": "2.1.13",
       "protocols": [
         "5.0"
@@ -10,102 +118,102 @@
       "shasums_signature_url": "https://github.com/e2eterraformprovider/terraform-provider-e2e/releases/download/v2.1.13/terraform-provider-e2e_2.1.13_SHA256SUMS.sig",
       "targets": [
         {
-          "os": "linux",
-          "arch": "amd64",
-          "filename": "terraform-provider-e2e_2.1.13_linux_amd64.zip",
-          "download_url": "https://github.com/e2eterraformprovider/terraform-provider-e2e/releases/download/v2.1.13/terraform-provider-e2e_2.1.13_linux_amd64.zip",
-          "shasum": "1cac36b55029ae6fcd876e1df4a6e4810025d9c491321301b62b7c912b27dcb0"
-        },
-        {
-          "os": "freebsd",
+          "os": "darwin",
           "arch": "arm64",
-          "filename": "terraform-provider-e2e_2.1.13_freebsd_arm64.zip",
-          "download_url": "https://github.com/e2eterraformprovider/terraform-provider-e2e/releases/download/v2.1.13/terraform-provider-e2e_2.1.13_freebsd_arm64.zip",
-          "shasum": "28a3e7a86ba6dac7ff020babcde1952106bacf48c378a28d55a36a33fde451dd"
-        },
-        {
-          "os": "freebsd",
-          "arch": "arm",
-          "filename": "terraform-provider-e2e_2.1.13_freebsd_arm.zip",
-          "download_url": "https://github.com/e2eterraformprovider/terraform-provider-e2e/releases/download/v2.1.13/terraform-provider-e2e_2.1.13_freebsd_arm.zip",
-          "shasum": "f8864bb139f1a3f4b322d34ba3a7cc8cbf2329c23fbc02ca9eceba603c7984ab"
-        },
-        {
-          "os": "linux",
-          "arch": "arm64",
-          "filename": "terraform-provider-e2e_2.1.13_linux_arm64.zip",
-          "download_url": "https://github.com/e2eterraformprovider/terraform-provider-e2e/releases/download/v2.1.13/terraform-provider-e2e_2.1.13_linux_arm64.zip",
-          "shasum": "1ad509a6b92860a0a00d2c6f68f635797a7f5ac116c627112fb4d1dc5a3ef3bc"
-        },
-        {
-          "os": "freebsd",
-          "arch": "386",
-          "filename": "terraform-provider-e2e_2.1.13_freebsd_386.zip",
-          "download_url": "https://github.com/e2eterraformprovider/terraform-provider-e2e/releases/download/v2.1.13/terraform-provider-e2e_2.1.13_freebsd_386.zip",
-          "shasum": "7aadbf35d9024cd59965411bfb3b3505f0c88ed4b7f2b809df586590fdf932d3"
-        },
-        {
-          "os": "linux",
-          "arch": "arm",
-          "filename": "terraform-provider-e2e_2.1.13_linux_arm.zip",
-          "download_url": "https://github.com/e2eterraformprovider/terraform-provider-e2e/releases/download/v2.1.13/terraform-provider-e2e_2.1.13_linux_arm.zip",
-          "shasum": "3c6cdafaccf4a550f65744d6b114d5bca003bc7188d126272ce2943baebffdaa"
-        },
-        {
-          "os": "linux",
-          "arch": "386",
-          "filename": "terraform-provider-e2e_2.1.13_linux_386.zip",
-          "download_url": "https://github.com/e2eterraformprovider/terraform-provider-e2e/releases/download/v2.1.13/terraform-provider-e2e_2.1.13_linux_386.zip",
-          "shasum": "fdc3b19dc849997cf6d47033358de89ccdb19d6208e14a9016968d6fa92a0830"
-        },
-        {
-          "os": "windows",
-          "arch": "arm64",
-          "filename": "terraform-provider-e2e_2.1.13_windows_arm64.zip",
-          "download_url": "https://github.com/e2eterraformprovider/terraform-provider-e2e/releases/download/v2.1.13/terraform-provider-e2e_2.1.13_windows_arm64.zip",
-          "shasum": "ad29d6c91231d1379fbf97aeeda43abdb9e7b4fab9b475ac15147637df803901"
-        },
-        {
-          "os": "windows",
-          "arch": "arm",
-          "filename": "terraform-provider-e2e_2.1.13_windows_arm.zip",
-          "download_url": "https://github.com/e2eterraformprovider/terraform-provider-e2e/releases/download/v2.1.13/terraform-provider-e2e_2.1.13_windows_arm.zip",
-          "shasum": "2c08ab2bf8fb9d33e180e63e4aabbd549ead4effecd0b062521f89d29ce5e201"
+          "filename": "terraform-provider-e2e_2.1.13_darwin_arm64.zip",
+          "download_url": "https://github.com/e2eterraformprovider/terraform-provider-e2e/releases/download/v2.1.13/terraform-provider-e2e_2.1.13_darwin_arm64.zip",
+          "shasum": "e0b4c8f5864b0d2b508b7340f412aae979080be023835de242edb35edd144d6e"
         },
         {
           "os": "darwin",
           "arch": "amd64",
           "filename": "terraform-provider-e2e_2.1.13_darwin_amd64.zip",
           "download_url": "https://github.com/e2eterraformprovider/terraform-provider-e2e/releases/download/v2.1.13/terraform-provider-e2e_2.1.13_darwin_amd64.zip",
-          "shasum": "f47ec4358e30521d70d028e3e1782a59d0142d68d8cd03ea5e1c92aae74e563a"
+          "shasum": "09ba804d9d3d1007e0495f6e0e4d6dfff81174bb929f08d97999f36fac3be029"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-e2e_2.1.13_linux_386.zip",
+          "download_url": "https://github.com/e2eterraformprovider/terraform-provider-e2e/releases/download/v2.1.13/terraform-provider-e2e_2.1.13_linux_386.zip",
+          "shasum": "5510694f6355ed110dfa2b5913c95c0053094bf536b9cfa5dcfe69df50265e0d"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-e2e_2.1.13_linux_amd64.zip",
+          "download_url": "https://github.com/e2eterraformprovider/terraform-provider-e2e/releases/download/v2.1.13/terraform-provider-e2e_2.1.13_linux_amd64.zip",
+          "shasum": "6789489a0d034d6c8cc9320f69988007eb0a024da25275aea614dee9dd03ea33"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-e2e_2.1.13_freebsd_386.zip",
+          "download_url": "https://github.com/e2eterraformprovider/terraform-provider-e2e/releases/download/v2.1.13/terraform-provider-e2e_2.1.13_freebsd_386.zip",
+          "shasum": "b40ceb30dfe100e9616f01017cfdd4b06dddc3d4b143e783d8899f07891ab374"
         },
         {
           "os": "windows",
-          "arch": "386",
-          "filename": "terraform-provider-e2e_2.1.13_windows_386.zip",
-          "download_url": "https://github.com/e2eterraformprovider/terraform-provider-e2e/releases/download/v2.1.13/terraform-provider-e2e_2.1.13_windows_386.zip",
-          "shasum": "867a2b3840ab5052872eb8a76947666490c3ec65573449f2c5fdec74bb01b1ec"
+          "arch": "arm64",
+          "filename": "terraform-provider-e2e_2.1.13_windows_arm64.zip",
+          "download_url": "https://github.com/e2eterraformprovider/terraform-provider-e2e/releases/download/v2.1.13/terraform-provider-e2e_2.1.13_windows_arm64.zip",
+          "shasum": "ffe113fc3e3fcb5643f631304d9cd6acb4e73e3d7c0bdecbcc7b804d99fd8b13"
         },
         {
           "os": "freebsd",
           "arch": "amd64",
           "filename": "terraform-provider-e2e_2.1.13_freebsd_amd64.zip",
           "download_url": "https://github.com/e2eterraformprovider/terraform-provider-e2e/releases/download/v2.1.13/terraform-provider-e2e_2.1.13_freebsd_amd64.zip",
-          "shasum": "390c5a71ea289e660e30ce46c55adc31ca845190e9f9eef201a65156bcbe921e"
+          "shasum": "c1b05771a0f960f08a4816ecfe2739f50f6957038c6d1cc8eddbcb7eab1508dc"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-e2e_2.1.13_windows_386.zip",
+          "download_url": "https://github.com/e2eterraformprovider/terraform-provider-e2e/releases/download/v2.1.13/terraform-provider-e2e_2.1.13_windows_386.zip",
+          "shasum": "373b0d32539afcf705cd28c7f3f22d7d4f6df95da382c9b0b0eebf6c4d1c0309"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-e2e_2.1.13_windows_arm.zip",
+          "download_url": "https://github.com/e2eterraformprovider/terraform-provider-e2e/releases/download/v2.1.13/terraform-provider-e2e_2.1.13_windows_arm.zip",
+          "shasum": "7fae22f81ffc79caf789fe7b374779d6786e6b0d4f907724160f52d28c5e4e49"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-e2e_2.1.13_linux_arm64.zip",
+          "download_url": "https://github.com/e2eterraformprovider/terraform-provider-e2e/releases/download/v2.1.13/terraform-provider-e2e_2.1.13_linux_arm64.zip",
+          "shasum": "7bb20e048002e00afd58760d24e2af9e2619f8511e5e101dc7f99abda1dd47c5"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-e2e_2.1.13_freebsd_arm.zip",
+          "download_url": "https://github.com/e2eterraformprovider/terraform-provider-e2e/releases/download/v2.1.13/terraform-provider-e2e_2.1.13_freebsd_arm.zip",
+          "shasum": "eb5f0441349c5ae2f0903bed925ca797ba576f9d4cc64f10d878bbe33cabc58b"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-e2e_2.1.13_freebsd_arm64.zip",
+          "download_url": "https://github.com/e2eterraformprovider/terraform-provider-e2e/releases/download/v2.1.13/terraform-provider-e2e_2.1.13_freebsd_arm64.zip",
+          "shasum": "c0debcb20eb2ce4cb121fef32457f5f38f89255ca1b1cb5503952686207a875f"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-e2e_2.1.13_linux_arm.zip",
+          "download_url": "https://github.com/e2eterraformprovider/terraform-provider-e2e/releases/download/v2.1.13/terraform-provider-e2e_2.1.13_linux_arm.zip",
+          "shasum": "36bd5c93cbcaf58831f1c2a06dc8aa15515da89811f870116b54f16874ab6606"
         },
         {
           "os": "windows",
           "arch": "amd64",
           "filename": "terraform-provider-e2e_2.1.13_windows_amd64.zip",
           "download_url": "https://github.com/e2eterraformprovider/terraform-provider-e2e/releases/download/v2.1.13/terraform-provider-e2e_2.1.13_windows_amd64.zip",
-          "shasum": "b72561614194f5464f790ac87fe7658dc96adc18ba17c172af57f7d39df50b9d"
-        },
-        {
-          "os": "darwin",
-          "arch": "arm64",
-          "filename": "terraform-provider-e2e_2.1.13_darwin_arm64.zip",
-          "download_url": "https://github.com/e2eterraformprovider/terraform-provider-e2e/releases/download/v2.1.13/terraform-provider-e2e_2.1.13_darwin_arm64.zip",
-          "shasum": "d19115564d0d4f3730d6d7f932707f0ce04ddd9032ab27f256704d1b4fa81db6"
+          "shasum": "f4e9fb730db7c5ddbc79b77758ae28ab76967e32263fbd612b034aba8679793a"
         }
       ]
     },
