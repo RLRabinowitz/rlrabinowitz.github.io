@@ -2,6 +2,114 @@
   "repository": "https://github.com/ionos-cloud/terraform-provider-ionoscloud",
   "versions": [
     {
+      "version": "6.4.15",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/ionos-cloud/terraform-provider-ionoscloud/releases/download/v6.4.15/terraform-provider-ionoscloud_6.4.15_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/ionos-cloud/terraform-provider-ionoscloud/releases/download/v6.4.15/terraform-provider-ionoscloud_6.4.15_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-ionoscloud_6.4.15_windows_arm.zip",
+          "download_url": "https://github.com/ionos-cloud/terraform-provider-ionoscloud/releases/download/v6.4.15/terraform-provider-ionoscloud_6.4.15_windows_arm.zip",
+          "shasum": "6825372d081cb178759202e8f121d5432ba61e3d4d485f7f555f85fecca381d4"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-ionoscloud_6.4.15_windows_amd64.zip",
+          "download_url": "https://github.com/ionos-cloud/terraform-provider-ionoscloud/releases/download/v6.4.15/terraform-provider-ionoscloud_6.4.15_windows_amd64.zip",
+          "shasum": "88f0aeea6bc794f2b190627a860afcd62c0e6d38bd4c2e3ebca582702692eb6c"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-ionoscloud_6.4.15_linux_386.zip",
+          "download_url": "https://github.com/ionos-cloud/terraform-provider-ionoscloud/releases/download/v6.4.15/terraform-provider-ionoscloud_6.4.15_linux_386.zip",
+          "shasum": "76f281944838009994af64caf7009c721267db08eef24eda9ae38c8f61237474"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-ionoscloud_6.4.15_linux_arm64.zip",
+          "download_url": "https://github.com/ionos-cloud/terraform-provider-ionoscloud/releases/download/v6.4.15/terraform-provider-ionoscloud_6.4.15_linux_arm64.zip",
+          "shasum": "3efc32515b5a1c0a722d3d67b7faf96d1a61f2a4e213cc28641cd181cfd1df51"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-ionoscloud_6.4.15_darwin_arm64.zip",
+          "download_url": "https://github.com/ionos-cloud/terraform-provider-ionoscloud/releases/download/v6.4.15/terraform-provider-ionoscloud_6.4.15_darwin_arm64.zip",
+          "shasum": "3a1e937e2472bcbc0a5d414b11ffde93359e4ae9c01d2bf12fa68585e58b669a"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-ionoscloud_6.4.15_windows_arm64.zip",
+          "download_url": "https://github.com/ionos-cloud/terraform-provider-ionoscloud/releases/download/v6.4.15/terraform-provider-ionoscloud_6.4.15_windows_arm64.zip",
+          "shasum": "46c28f0198317ad83ce91a66321a9d1a3e1a51fd678ad77cbc5bf8e3b7d14df5"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-ionoscloud_6.4.15_freebsd_arm64.zip",
+          "download_url": "https://github.com/ionos-cloud/terraform-provider-ionoscloud/releases/download/v6.4.15/terraform-provider-ionoscloud_6.4.15_freebsd_arm64.zip",
+          "shasum": "c21bc2a9c52619b78f4ed09cb9d81e41203457710ed5c4dc9d4cec4c7e6d3739"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-ionoscloud_6.4.15_linux_amd64.zip",
+          "download_url": "https://github.com/ionos-cloud/terraform-provider-ionoscloud/releases/download/v6.4.15/terraform-provider-ionoscloud_6.4.15_linux_amd64.zip",
+          "shasum": "eecfb2f67c4dd1e2aa45bb5378cca63ebfbbe9634042deec64a20293c2913fda"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-ionoscloud_6.4.15_linux_arm.zip",
+          "download_url": "https://github.com/ionos-cloud/terraform-provider-ionoscloud/releases/download/v6.4.15/terraform-provider-ionoscloud_6.4.15_linux_arm.zip",
+          "shasum": "29c9039f6923bd7702a0fb98efa080f6b7ba4c0a3c70a70e9481d05d131e1f0c"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-ionoscloud_6.4.15_windows_386.zip",
+          "download_url": "https://github.com/ionos-cloud/terraform-provider-ionoscloud/releases/download/v6.4.15/terraform-provider-ionoscloud_6.4.15_windows_386.zip",
+          "shasum": "9f51443b71081c4e24a05f6235e590bba3a6f7cdf74bbf33ad1f8fd3f6c06212"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-ionoscloud_6.4.15_freebsd_arm.zip",
+          "download_url": "https://github.com/ionos-cloud/terraform-provider-ionoscloud/releases/download/v6.4.15/terraform-provider-ionoscloud_6.4.15_freebsd_arm.zip",
+          "shasum": "a1c16b87bc6059f004b0d6c34db525d03f90e5fae25e42bc1e1248dbd00a2a1c"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-ionoscloud_6.4.15_darwin_amd64.zip",
+          "download_url": "https://github.com/ionos-cloud/terraform-provider-ionoscloud/releases/download/v6.4.15/terraform-provider-ionoscloud_6.4.15_darwin_amd64.zip",
+          "shasum": "467e3d1767d46e8a62170f956099f126c42072c2430b006aad3c921d9510f6c6"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-ionoscloud_6.4.15_freebsd_386.zip",
+          "download_url": "https://github.com/ionos-cloud/terraform-provider-ionoscloud/releases/download/v6.4.15/terraform-provider-ionoscloud_6.4.15_freebsd_386.zip",
+          "shasum": "491ca9b0fcbf9ab354ddc108c47287478fc76ae42741805254c24c5b20a5d91e"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-ionoscloud_6.4.15_freebsd_amd64.zip",
+          "download_url": "https://github.com/ionos-cloud/terraform-provider-ionoscloud/releases/download/v6.4.15/terraform-provider-ionoscloud_6.4.15_freebsd_amd64.zip",
+          "shasum": "36f692bc3ac4201d7936d804ecc7cb5d94c2f2628c178edb79d969f668d97cf6"
+        }
+      ]
+    },
+    {
       "version": "6.4.14",
       "protocols": [
         "5.0"
