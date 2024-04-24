@@ -2,6 +2,978 @@
   "repository": "https://github.com/cloudposse/terraform-provider-utils",
   "versions": [
     {
+      "version": "1.21.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/cloudposse/terraform-provider-utils/releases/download/1.21.0/terraform-provider-utils_1.21.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/cloudposse/terraform-provider-utils/releases/download/1.21.0/terraform-provider-utils_1.21.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-utils_1.21.0_linux_arm.zip",
+          "download_url": "https://github.com/cloudposse/terraform-provider-utils/releases/download/1.21.0/terraform-provider-utils_1.21.0_linux_arm.zip",
+          "shasum": "bac3321a2994e8be7c322ab1aba08bca5ce2a92435a9e73222dfdb374c80f8f1"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-utils_1.21.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/cloudposse/terraform-provider-utils/releases/download/1.21.0/terraform-provider-utils_1.21.0_freebsd_amd64.zip",
+          "shasum": "cebc5e962811edeabea96292331694be57dcbb952de40709bece7dbffced6aae"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-utils_1.21.0_darwin_amd64.zip",
+          "download_url": "https://github.com/cloudposse/terraform-provider-utils/releases/download/1.21.0/terraform-provider-utils_1.21.0_darwin_amd64.zip",
+          "shasum": "352bd6846f5d0943bced99d4ce3c5a21b056f40872819fe5080ec08e9627c72c"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-utils_1.21.0_darwin_arm64.zip",
+          "download_url": "https://github.com/cloudposse/terraform-provider-utils/releases/download/1.21.0/terraform-provider-utils_1.21.0_darwin_arm64.zip",
+          "shasum": "3ca86273ed2cd1eab5d4a065f96d31da15164acf8a557e7c99a80344443e4e43"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-utils_1.21.0_freebsd_386.zip",
+          "download_url": "https://github.com/cloudposse/terraform-provider-utils/releases/download/1.21.0/terraform-provider-utils_1.21.0_freebsd_386.zip",
+          "shasum": "1456128e9ed888b06b3dd643d944272b27a7e2eac3ea48e9ca66de9f64dd9986"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-utils_1.21.0_windows_arm.zip",
+          "download_url": "https://github.com/cloudposse/terraform-provider-utils/releases/download/1.21.0/terraform-provider-utils_1.21.0_windows_arm.zip",
+          "shasum": "51daa3f96b0ed1860145b9814b900db6dc9fa5a4c4ebb66454d575bf291e9545"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-utils_1.21.0_linux_amd64.zip",
+          "download_url": "https://github.com/cloudposse/terraform-provider-utils/releases/download/1.21.0/terraform-provider-utils_1.21.0_linux_amd64.zip",
+          "shasum": "40097b673d0ce5fa3a4e5c3edf8998a4f02ee35f6090b23561ba0444eee439cd"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-utils_1.21.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/cloudposse/terraform-provider-utils/releases/download/1.21.0/terraform-provider-utils_1.21.0_freebsd_arm64.zip",
+          "shasum": "d26375f98fd299d6c79c12a070714933ce3a367a58d529a803e065d95f98c575"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-utils_1.21.0_freebsd_arm.zip",
+          "download_url": "https://github.com/cloudposse/terraform-provider-utils/releases/download/1.21.0/terraform-provider-utils_1.21.0_freebsd_arm.zip",
+          "shasum": "7ed57750d3358d5d36ce5c70a9aca76e94793c1b1d16b58abce150f2739f69d1"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-utils_1.21.0_windows_amd64.zip",
+          "download_url": "https://github.com/cloudposse/terraform-provider-utils/releases/download/1.21.0/terraform-provider-utils_1.21.0_windows_amd64.zip",
+          "shasum": "4855054734e2394f3449828dc2d96f3fe9b94cff9c4088f8d6957b86fd735df3"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-utils_1.21.0_windows_386.zip",
+          "download_url": "https://github.com/cloudposse/terraform-provider-utils/releases/download/1.21.0/terraform-provider-utils_1.21.0_windows_386.zip",
+          "shasum": "437960c5fa166ab9de6b8ba0adc88d9b54b5b85351a1ea2f151b75ed6acc6569"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-utils_1.21.0_windows_arm64.zip",
+          "download_url": "https://github.com/cloudposse/terraform-provider-utils/releases/download/1.21.0/terraform-provider-utils_1.21.0_windows_arm64.zip",
+          "shasum": "57b09a4872d93a35eaaf23fc584588c95ae14d243564d34ce5b3f643545880b7"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-utils_1.21.0_linux_386.zip",
+          "download_url": "https://github.com/cloudposse/terraform-provider-utils/releases/download/1.21.0/terraform-provider-utils_1.21.0_linux_386.zip",
+          "shasum": "70048e9374329444d0c7c86df64ea1e488c47c751adcc805e8e0b7040dd85430"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-utils_1.21.0_linux_arm64.zip",
+          "download_url": "https://github.com/cloudposse/terraform-provider-utils/releases/download/1.21.0/terraform-provider-utils_1.21.0_linux_arm64.zip",
+          "shasum": "b8c7a7fe125510fcfec677a66392ad2ceec44762c370e99086ea08550c6cd1f9"
+        }
+      ]
+    },
+    {
+      "version": "1.20.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/cloudposse/terraform-provider-utils/releases/download/1.20.0/terraform-provider-utils_1.20.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/cloudposse/terraform-provider-utils/releases/download/1.20.0/terraform-provider-utils_1.20.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-utils_1.20.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/cloudposse/terraform-provider-utils/releases/download/1.20.0/terraform-provider-utils_1.20.0_freebsd_amd64.zip",
+          "shasum": "48e2ae5c256c007d30c5c7b09cf5fd493fa58b60489ea42378a3f6eab72cf0d8"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-utils_1.20.0_freebsd_arm.zip",
+          "download_url": "https://github.com/cloudposse/terraform-provider-utils/releases/download/1.20.0/terraform-provider-utils_1.20.0_freebsd_arm.zip",
+          "shasum": "f00b7156e9888dc6578908334ab80360d7b1a480f5123c9b9d03660652a9ab8e"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-utils_1.20.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/cloudposse/terraform-provider-utils/releases/download/1.20.0/terraform-provider-utils_1.20.0_freebsd_arm64.zip",
+          "shasum": "9baffb29c4c9c52475c640c83f5647adffd0c12856db7344a5680552a2b2587e"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-utils_1.20.0_windows_arm.zip",
+          "download_url": "https://github.com/cloudposse/terraform-provider-utils/releases/download/1.20.0/terraform-provider-utils_1.20.0_windows_arm.zip",
+          "shasum": "d9d824dabbd077fb38421cf1390db50951d2a8b0fc5756f1c96c4884d134afd7"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-utils_1.20.0_linux_amd64.zip",
+          "download_url": "https://github.com/cloudposse/terraform-provider-utils/releases/download/1.20.0/terraform-provider-utils_1.20.0_linux_amd64.zip",
+          "shasum": "2980f1868ce0fe5ebac68f2051413e895da44a91066e9fd43fe832f0cde23bd3"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-utils_1.20.0_linux_arm64.zip",
+          "download_url": "https://github.com/cloudposse/terraform-provider-utils/releases/download/1.20.0/terraform-provider-utils_1.20.0_linux_arm64.zip",
+          "shasum": "90c605c144ebc47489e7f2d5d52bbcb8f8b49591402a75628cb32fb19a1b939a"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-utils_1.20.0_windows_386.zip",
+          "download_url": "https://github.com/cloudposse/terraform-provider-utils/releases/download/1.20.0/terraform-provider-utils_1.20.0_windows_386.zip",
+          "shasum": "92053ec10dc46b6ca770d501212ebc91cb4d3bd7a69fb8f5342712ea626f29b6"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-utils_1.20.0_darwin_amd64.zip",
+          "download_url": "https://github.com/cloudposse/terraform-provider-utils/releases/download/1.20.0/terraform-provider-utils_1.20.0_darwin_amd64.zip",
+          "shasum": "9050f6794ceff4b07e18d9be3ba29afa7b0ae82c6e1ba8933307a4f18abb09ef"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-utils_1.20.0_darwin_arm64.zip",
+          "download_url": "https://github.com/cloudposse/terraform-provider-utils/releases/download/1.20.0/terraform-provider-utils_1.20.0_darwin_arm64.zip",
+          "shasum": "ec82dd304be6ce4c5ae0834245beda9429548c1e7753fa52d85c76dfd0213e6e"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-utils_1.20.0_freebsd_386.zip",
+          "download_url": "https://github.com/cloudposse/terraform-provider-utils/releases/download/1.20.0/terraform-provider-utils_1.20.0_freebsd_386.zip",
+          "shasum": "17fe65ea263706e7013752f10b00d17da195180a0363fb954617de59452f32d8"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-utils_1.20.0_windows_arm64.zip",
+          "download_url": "https://github.com/cloudposse/terraform-provider-utils/releases/download/1.20.0/terraform-provider-utils_1.20.0_windows_arm64.zip",
+          "shasum": "184dcc0a708f5c62220862aa6ac36f69e75f1dd8f4f437cd3518ab7dd25b87ee"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-utils_1.20.0_windows_amd64.zip",
+          "download_url": "https://github.com/cloudposse/terraform-provider-utils/releases/download/1.20.0/terraform-provider-utils_1.20.0_windows_amd64.zip",
+          "shasum": "458b0a6c0ba60ff51b008159805bdf4719b3aac5535685d3bfd3c38153c1a1e5"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-utils_1.20.0_linux_386.zip",
+          "download_url": "https://github.com/cloudposse/terraform-provider-utils/releases/download/1.20.0/terraform-provider-utils_1.20.0_linux_386.zip",
+          "shasum": "f1db4139d2adc1303dff024ac97a33932b40cb1627c4359796a1911e29367daa"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-utils_1.20.0_linux_arm.zip",
+          "download_url": "https://github.com/cloudposse/terraform-provider-utils/releases/download/1.20.0/terraform-provider-utils_1.20.0_linux_arm.zip",
+          "shasum": "23243abfa39cdb633f5b42c982b2019c1becf077c2b3966277c623e1881c84e9"
+        }
+      ]
+    },
+    {
+      "version": "1.19.2",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/cloudposse/terraform-provider-utils/releases/download/1.19.2/terraform-provider-utils_1.19.2_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/cloudposse/terraform-provider-utils/releases/download/1.19.2/terraform-provider-utils_1.19.2_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-utils_1.19.2_linux_arm64.zip",
+          "download_url": "https://github.com/cloudposse/terraform-provider-utils/releases/download/1.19.2/terraform-provider-utils_1.19.2_linux_arm64.zip",
+          "shasum": "e18ef6d2be2cee7b8d0ac03c5eec362fd132c8f2b48da3999a280a4d778ec6ea"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-utils_1.19.2_darwin_amd64.zip",
+          "download_url": "https://github.com/cloudposse/terraform-provider-utils/releases/download/1.19.2/terraform-provider-utils_1.19.2_darwin_amd64.zip",
+          "shasum": "3fe9d58ee267423e65c9c52cb486dda1eb59973f42eea9d84fe4c842108fdb73"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-utils_1.19.2_freebsd_386.zip",
+          "download_url": "https://github.com/cloudposse/terraform-provider-utils/releases/download/1.19.2/terraform-provider-utils_1.19.2_freebsd_386.zip",
+          "shasum": "f317eb941a57e6a899afa44ed6dc12a5c51228fcdf1b3043823346f3887facc9"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-utils_1.19.2_darwin_arm64.zip",
+          "download_url": "https://github.com/cloudposse/terraform-provider-utils/releases/download/1.19.2/terraform-provider-utils_1.19.2_darwin_arm64.zip",
+          "shasum": "6d9e659f1e18e409149ed8090ced8894317f37cdf234b34fe86b5aba354d559b"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-utils_1.19.2_freebsd_arm64.zip",
+          "download_url": "https://github.com/cloudposse/terraform-provider-utils/releases/download/1.19.2/terraform-provider-utils_1.19.2_freebsd_arm64.zip",
+          "shasum": "dea118d95fe434b9089321e6db7573a882bd8b36d89fe2527e9adefa538561e1"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-utils_1.19.2_windows_amd64.zip",
+          "download_url": "https://github.com/cloudposse/terraform-provider-utils/releases/download/1.19.2/terraform-provider-utils_1.19.2_windows_amd64.zip",
+          "shasum": "b9003915fcbdd74c9e02ba11935daa6110516bf434bfee58f738ae3f2a595c2b"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-utils_1.19.2_windows_386.zip",
+          "download_url": "https://github.com/cloudposse/terraform-provider-utils/releases/download/1.19.2/terraform-provider-utils_1.19.2_windows_386.zip",
+          "shasum": "5e9ee6099ee56c30c3dfec935f749b3cef9ad2d4c6d8ad2cf39ee87587fc496d"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-utils_1.19.2_linux_amd64.zip",
+          "download_url": "https://github.com/cloudposse/terraform-provider-utils/releases/download/1.19.2/terraform-provider-utils_1.19.2_linux_amd64.zip",
+          "shasum": "1002d1c3f458b569119b31eb2f732c093922b7f86aa59d999d77c3f3ca297f53"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-utils_1.19.2_linux_arm.zip",
+          "download_url": "https://github.com/cloudposse/terraform-provider-utils/releases/download/1.19.2/terraform-provider-utils_1.19.2_linux_arm.zip",
+          "shasum": "b7f469e47d1f94b276590809388ac216f59e1f4fb2d6b950c3f9fcbe9e4e2161"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-utils_1.19.2_freebsd_amd64.zip",
+          "download_url": "https://github.com/cloudposse/terraform-provider-utils/releases/download/1.19.2/terraform-provider-utils_1.19.2_freebsd_amd64.zip",
+          "shasum": "3e48ef23e276d18a88405926f39b476d40fb543859f2fcfc316f70501071c1ed"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-utils_1.19.2_windows_arm.zip",
+          "download_url": "https://github.com/cloudposse/terraform-provider-utils/releases/download/1.19.2/terraform-provider-utils_1.19.2_windows_arm.zip",
+          "shasum": "6babf986f8af41c739f1e441a4c0512262ff8bc36892f9506839b126138fce25"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-utils_1.19.2_linux_386.zip",
+          "download_url": "https://github.com/cloudposse/terraform-provider-utils/releases/download/1.19.2/terraform-provider-utils_1.19.2_linux_386.zip",
+          "shasum": "367ca0d95bf24db1ff6632da94affe1ac0b51679e00f6ca3f1b8f927b9724c3b"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-utils_1.19.2_freebsd_arm.zip",
+          "download_url": "https://github.com/cloudposse/terraform-provider-utils/releases/download/1.19.2/terraform-provider-utils_1.19.2_freebsd_arm.zip",
+          "shasum": "aff0d59c6ba5713a09e11a4f14dad048d787569e92ed4d6aa4b7778d39f52d31"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-utils_1.19.2_windows_arm64.zip",
+          "download_url": "https://github.com/cloudposse/terraform-provider-utils/releases/download/1.19.2/terraform-provider-utils_1.19.2_windows_arm64.zip",
+          "shasum": "828109b900c0fa9240bd48358423034817ab3a81d706b29d84a0e10401766ae4"
+        }
+      ]
+    },
+    {
+      "version": "1.18.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/cloudposse/terraform-provider-utils/releases/download/1.18.0/terraform-provider-utils_1.18.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/cloudposse/terraform-provider-utils/releases/download/1.18.0/terraform-provider-utils_1.18.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-utils_1.18.0_windows_amd64.zip",
+          "download_url": "https://github.com/cloudposse/terraform-provider-utils/releases/download/1.18.0/terraform-provider-utils_1.18.0_windows_amd64.zip",
+          "shasum": "f9b1455886ab9716b3d243367bc26e9ac836e281894024aa1d1b7f16f886ca0b"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-utils_1.18.0_windows_arm64.zip",
+          "download_url": "https://github.com/cloudposse/terraform-provider-utils/releases/download/1.18.0/terraform-provider-utils_1.18.0_windows_arm64.zip",
+          "shasum": "8acf6aea1cc78256187fd27d3f2935e561e4ae487123347cffcf2bd567f31693"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-utils_1.18.0_linux_arm.zip",
+          "download_url": "https://github.com/cloudposse/terraform-provider-utils/releases/download/1.18.0/terraform-provider-utils_1.18.0_linux_arm.zip",
+          "shasum": "42d375186f222f42274eb2343c66301ea33cc3d6220cf36ccd19caceec8c749e"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-utils_1.18.0_windows_arm.zip",
+          "download_url": "https://github.com/cloudposse/terraform-provider-utils/releases/download/1.18.0/terraform-provider-utils_1.18.0_windows_arm.zip",
+          "shasum": "1a6a1f1c354a2e1f92369fd331e1578ee8942600406c83629278b1d88e857421"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-utils_1.18.0_darwin_arm64.zip",
+          "download_url": "https://github.com/cloudposse/terraform-provider-utils/releases/download/1.18.0/terraform-provider-utils_1.18.0_darwin_arm64.zip",
+          "shasum": "35847cc6575844c05e2cbbe199e9d1190c01ed1b91dfe05b897bb6c83825debe"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-utils_1.18.0_linux_386.zip",
+          "download_url": "https://github.com/cloudposse/terraform-provider-utils/releases/download/1.18.0/terraform-provider-utils_1.18.0_linux_386.zip",
+          "shasum": "a0d5670d6d17267b0ef8342fde2cbaa034fa9bb79921ab0ee378df4661ef2076"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-utils_1.18.0_freebsd_386.zip",
+          "download_url": "https://github.com/cloudposse/terraform-provider-utils/releases/download/1.18.0/terraform-provider-utils_1.18.0_freebsd_386.zip",
+          "shasum": "646d85575752b76d48fd33a7528f2af02c85270ea24981008d3fb2e9eb446e3b"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-utils_1.18.0_windows_386.zip",
+          "download_url": "https://github.com/cloudposse/terraform-provider-utils/releases/download/1.18.0/terraform-provider-utils_1.18.0_windows_386.zip",
+          "shasum": "8f42211e88b08ed54cb7a608770533fd11e20387830c111def54efd6a24c4b90"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-utils_1.18.0_darwin_amd64.zip",
+          "download_url": "https://github.com/cloudposse/terraform-provider-utils/releases/download/1.18.0/terraform-provider-utils_1.18.0_darwin_amd64.zip",
+          "shasum": "59c4444032b29bb22df5236bf768d76d280b9fb52642579c99752e5ce1c7664c"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-utils_1.18.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/cloudposse/terraform-provider-utils/releases/download/1.18.0/terraform-provider-utils_1.18.0_freebsd_amd64.zip",
+          "shasum": "888586850d55e6270d7f8f86f48488c8eb75a595f57d2b0c33ffe786b67cc7a4"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-utils_1.18.0_freebsd_arm.zip",
+          "download_url": "https://github.com/cloudposse/terraform-provider-utils/releases/download/1.18.0/terraform-provider-utils_1.18.0_freebsd_arm.zip",
+          "shasum": "f0781a219a72b93282f82bcc75a0ef5e2c2e7e4da48e0d339acc0f28d07446a6"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-utils_1.18.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/cloudposse/terraform-provider-utils/releases/download/1.18.0/terraform-provider-utils_1.18.0_freebsd_arm64.zip",
+          "shasum": "3b4f263c7c4b9ab08f59577c133f7112b380487dacc1d75b2802488a53dcb23d"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-utils_1.18.0_linux_amd64.zip",
+          "download_url": "https://github.com/cloudposse/terraform-provider-utils/releases/download/1.18.0/terraform-provider-utils_1.18.0_linux_amd64.zip",
+          "shasum": "c8a940014de1d1a23bb23dbaeb909d2644f0e1379858b398b8ad173f892a9022"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-utils_1.18.0_linux_arm64.zip",
+          "download_url": "https://github.com/cloudposse/terraform-provider-utils/releases/download/1.18.0/terraform-provider-utils_1.18.0_linux_arm64.zip",
+          "shasum": "d4555331bfe6a6601ece25740a2cbac240ddb72f5ebdbf26778e40e8608afc44"
+        }
+      ]
+    },
+    {
+      "version": "1.17.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/cloudposse/terraform-provider-utils/releases/download/1.17.0/terraform-provider-utils_1.17.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/cloudposse/terraform-provider-utils/releases/download/1.17.0/terraform-provider-utils_1.17.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-utils_1.17.0_darwin_amd64.zip",
+          "download_url": "https://github.com/cloudposse/terraform-provider-utils/releases/download/1.17.0/terraform-provider-utils_1.17.0_darwin_amd64.zip",
+          "shasum": "b67fc929c2a680bd0bcd723d884949c41666f1f2878a9277efc57f008589c0c3"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-utils_1.17.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/cloudposse/terraform-provider-utils/releases/download/1.17.0/terraform-provider-utils_1.17.0_freebsd_arm64.zip",
+          "shasum": "e2e45ab551ec81f61a47e5ff2840ace9f57016e376f0a793e0faadeb1ea17cbe"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-utils_1.17.0_linux_arm.zip",
+          "download_url": "https://github.com/cloudposse/terraform-provider-utils/releases/download/1.17.0/terraform-provider-utils_1.17.0_linux_arm.zip",
+          "shasum": "756bbd84275beab98d43de83ebb699ad237a7dc887ee723b0cb7995646179e8b"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-utils_1.17.0_linux_amd64.zip",
+          "download_url": "https://github.com/cloudposse/terraform-provider-utils/releases/download/1.17.0/terraform-provider-utils_1.17.0_linux_amd64.zip",
+          "shasum": "f9b43c90067849c28bea95823560b80d0e456d1cfaadb53d815ce05c1a64fc33"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-utils_1.17.0_freebsd_386.zip",
+          "download_url": "https://github.com/cloudposse/terraform-provider-utils/releases/download/1.17.0/terraform-provider-utils_1.17.0_freebsd_386.zip",
+          "shasum": "9c9f23612d8e52cd75fba1664952a6a7617ac5ed8c2d7379230c28525e123b8c"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-utils_1.17.0_freebsd_arm.zip",
+          "download_url": "https://github.com/cloudposse/terraform-provider-utils/releases/download/1.17.0/terraform-provider-utils_1.17.0_freebsd_arm.zip",
+          "shasum": "4dcc266ecd2d175653cb936ee3444c81b255b2b5b3d957b690105a19c1d61b88"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-utils_1.17.0_windows_arm.zip",
+          "download_url": "https://github.com/cloudposse/terraform-provider-utils/releases/download/1.17.0/terraform-provider-utils_1.17.0_windows_arm.zip",
+          "shasum": "b4caae3dfffa5dacf159a3f3a8c284281faff6ff78d5ab99d59e2a931db93452"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-utils_1.17.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/cloudposse/terraform-provider-utils/releases/download/1.17.0/terraform-provider-utils_1.17.0_freebsd_amd64.zip",
+          "shasum": "9ec2fed1456b001a748a13b85f13d6320693fda2de8be4be909a5b046cb845d6"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-utils_1.17.0_linux_386.zip",
+          "download_url": "https://github.com/cloudposse/terraform-provider-utils/releases/download/1.17.0/terraform-provider-utils_1.17.0_linux_386.zip",
+          "shasum": "7040c7c6d49e99dfd43e2709e1492bddcea6ee478fae281cd6da44724572fe2d"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-utils_1.17.0_linux_arm64.zip",
+          "download_url": "https://github.com/cloudposse/terraform-provider-utils/releases/download/1.17.0/terraform-provider-utils_1.17.0_linux_arm64.zip",
+          "shasum": "4ea081ddb5f74b97a6cb790a0395fa10b35008412142fa64b7888bde8fdc10ee"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-utils_1.17.0_darwin_arm64.zip",
+          "download_url": "https://github.com/cloudposse/terraform-provider-utils/releases/download/1.17.0/terraform-provider-utils_1.17.0_darwin_arm64.zip",
+          "shasum": "74e1696cd31a03a5eef249a7e7aa73c8788bfafd526f5b07991497a87991b48c"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-utils_1.17.0_windows_amd64.zip",
+          "download_url": "https://github.com/cloudposse/terraform-provider-utils/releases/download/1.17.0/terraform-provider-utils_1.17.0_windows_amd64.zip",
+          "shasum": "b3b03553b81b2540b50cefd9d5c361952a3c16ad5f032906bcf395d353ebe298"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-utils_1.17.0_windows_386.zip",
+          "download_url": "https://github.com/cloudposse/terraform-provider-utils/releases/download/1.17.0/terraform-provider-utils_1.17.0_windows_386.zip",
+          "shasum": "76cdb5304de79ac2fb637dc596a0e80ef71cbeef111996b75d9c9cd7ae78db14"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-utils_1.17.0_windows_arm64.zip",
+          "download_url": "https://github.com/cloudposse/terraform-provider-utils/releases/download/1.17.0/terraform-provider-utils_1.17.0_windows_arm64.zip",
+          "shasum": "a7fd53044f42696d2e6cb18c7b92bb0696d503956cc89783f4ffb2daf598731d"
+        }
+      ]
+    },
+    {
+      "version": "1.16.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/cloudposse/terraform-provider-utils/releases/download/1.16.0/terraform-provider-utils_1.16.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/cloudposse/terraform-provider-utils/releases/download/1.16.0/terraform-provider-utils_1.16.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-utils_1.16.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/cloudposse/terraform-provider-utils/releases/download/1.16.0/terraform-provider-utils_1.16.0_freebsd_amd64.zip",
+          "shasum": "2c8df1b5b1a05a3c89825f62e366cae0c1531b059d1273a497239b3db95b6d79"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-utils_1.16.0_freebsd_386.zip",
+          "download_url": "https://github.com/cloudposse/terraform-provider-utils/releases/download/1.16.0/terraform-provider-utils_1.16.0_freebsd_386.zip",
+          "shasum": "48a56752fab692e363d1ba47568fdcb5e8e53e0993470963f59731f5ad6cba00"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-utils_1.16.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/cloudposse/terraform-provider-utils/releases/download/1.16.0/terraform-provider-utils_1.16.0_freebsd_arm64.zip",
+          "shasum": "e376e532e64a4787d7b915c909ddba4cc7596da96654a2b21938d013d07e082e"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-utils_1.16.0_windows_arm64.zip",
+          "download_url": "https://github.com/cloudposse/terraform-provider-utils/releases/download/1.16.0/terraform-provider-utils_1.16.0_windows_arm64.zip",
+          "shasum": "101892f6bb8aa351e6bfd8bcf171d3b8cca3adf57fbfaefc78a75c1406f273d4"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-utils_1.16.0_linux_arm64.zip",
+          "download_url": "https://github.com/cloudposse/terraform-provider-utils/releases/download/1.16.0/terraform-provider-utils_1.16.0_linux_arm64.zip",
+          "shasum": "9eac82ba3ede20c6e6be809532475927faa5c63e76b3512534bae97caaced455"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-utils_1.16.0_darwin_amd64.zip",
+          "download_url": "https://github.com/cloudposse/terraform-provider-utils/releases/download/1.16.0/terraform-provider-utils_1.16.0_darwin_amd64.zip",
+          "shasum": "9cf5dd12e204d8a2bf3caa86c63a6a4716d1c4fa2ff96a930feb13f44c4322cb"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-utils_1.16.0_linux_386.zip",
+          "download_url": "https://github.com/cloudposse/terraform-provider-utils/releases/download/1.16.0/terraform-provider-utils_1.16.0_linux_386.zip",
+          "shasum": "762334fdbe3d1ac0434f07d39048c1ac4ac11f503a2a048060b12b48db1a99bd"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-utils_1.16.0_windows_386.zip",
+          "download_url": "https://github.com/cloudposse/terraform-provider-utils/releases/download/1.16.0/terraform-provider-utils_1.16.0_windows_386.zip",
+          "shasum": "2179bf5e6a4f5eec1f7f372c79b1c5018ebf766b4c5d7d29c84af8cf4cfb5e50"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-utils_1.16.0_darwin_arm64.zip",
+          "download_url": "https://github.com/cloudposse/terraform-provider-utils/releases/download/1.16.0/terraform-provider-utils_1.16.0_darwin_arm64.zip",
+          "shasum": "127e28e8417321f83eaedf0b45c2ff77c1733d77a91079d9b6821ca8654e604a"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-utils_1.16.0_freebsd_arm.zip",
+          "download_url": "https://github.com/cloudposse/terraform-provider-utils/releases/download/1.16.0/terraform-provider-utils_1.16.0_freebsd_arm.zip",
+          "shasum": "376a63fcedfe3a05d7b8149a596fa5476d2885f4d60b87c5f9d6266f2ff1e2e6"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-utils_1.16.0_windows_amd64.zip",
+          "download_url": "https://github.com/cloudposse/terraform-provider-utils/releases/download/1.16.0/terraform-provider-utils_1.16.0_windows_amd64.zip",
+          "shasum": "42f59349cd7aad1383ce6691c88445e7cc4434880cff85fb10a755a0b322a1a2"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-utils_1.16.0_windows_arm.zip",
+          "download_url": "https://github.com/cloudposse/terraform-provider-utils/releases/download/1.16.0/terraform-provider-utils_1.16.0_windows_arm.zip",
+          "shasum": "ebe7caa2acc42ca6ac8a5fcda92739a3b711d21b5c19faf05a8a73c9e3db7fd5"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-utils_1.16.0_linux_amd64.zip",
+          "download_url": "https://github.com/cloudposse/terraform-provider-utils/releases/download/1.16.0/terraform-provider-utils_1.16.0_linux_amd64.zip",
+          "shasum": "5ada9a2a42c855d64fc9937538ff5a50c9359fe971fb30cb8b675497e08db3f4"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-utils_1.16.0_linux_arm.zip",
+          "download_url": "https://github.com/cloudposse/terraform-provider-utils/releases/download/1.16.0/terraform-provider-utils_1.16.0_linux_arm.zip",
+          "shasum": "ccf492c95621b170e1d4f4c5ccd9439c4e2efb8376c7ffb506ddc2e9349a8c3c"
+        }
+      ]
+    },
+    {
+      "version": "1.15.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/cloudposse/terraform-provider-utils/releases/download/1.15.0/terraform-provider-utils_1.15.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/cloudposse/terraform-provider-utils/releases/download/1.15.0/terraform-provider-utils_1.15.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-utils_1.15.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/cloudposse/terraform-provider-utils/releases/download/1.15.0/terraform-provider-utils_1.15.0_freebsd_arm64.zip",
+          "shasum": "ecd3c54568653b08aa32c63aac4f4675bf7ed6997d07b148517b04334b82b661"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-utils_1.15.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/cloudposse/terraform-provider-utils/releases/download/1.15.0/terraform-provider-utils_1.15.0_freebsd_amd64.zip",
+          "shasum": "b41aeef22e37675ffef2b94d57f22306ad5f37f627a6bb52bc1c37518c9e3775"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-utils_1.15.0_windows_386.zip",
+          "download_url": "https://github.com/cloudposse/terraform-provider-utils/releases/download/1.15.0/terraform-provider-utils_1.15.0_windows_386.zip",
+          "shasum": "821bbd0063e760a3a151d158cd49ef53b0aac009e688c3b6265b242e117d158d"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-utils_1.15.0_windows_arm.zip",
+          "download_url": "https://github.com/cloudposse/terraform-provider-utils/releases/download/1.15.0/terraform-provider-utils_1.15.0_windows_arm.zip",
+          "shasum": "02f153c99765ced2d8eaa54bb46ce204bc8237255d9a58da7d353f1963b994c8"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-utils_1.15.0_freebsd_386.zip",
+          "download_url": "https://github.com/cloudposse/terraform-provider-utils/releases/download/1.15.0/terraform-provider-utils_1.15.0_freebsd_386.zip",
+          "shasum": "7299d6263416e0f23ddaddb7c9502aa6cf96fc559bb8ba4d7780706ed68bc2a5"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-utils_1.15.0_darwin_amd64.zip",
+          "download_url": "https://github.com/cloudposse/terraform-provider-utils/releases/download/1.15.0/terraform-provider-utils_1.15.0_darwin_amd64.zip",
+          "shasum": "9ad9ab690cf5f8e25620784cf16e4bf61bd553dd3d5e460132b2e5987b2d0ab4"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-utils_1.15.0_linux_amd64.zip",
+          "download_url": "https://github.com/cloudposse/terraform-provider-utils/releases/download/1.15.0/terraform-provider-utils_1.15.0_linux_amd64.zip",
+          "shasum": "fa70fac14d329be5cd9f013062692d7d7ddccb2f07b172bc5dfe773cb69ba46b"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-utils_1.15.0_windows_arm64.zip",
+          "download_url": "https://github.com/cloudposse/terraform-provider-utils/releases/download/1.15.0/terraform-provider-utils_1.15.0_windows_arm64.zip",
+          "shasum": "2b00f429891b166e1cf9d889beaab0ef293c76e375543befd6a95985059ccf1e"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-utils_1.15.0_linux_386.zip",
+          "download_url": "https://github.com/cloudposse/terraform-provider-utils/releases/download/1.15.0/terraform-provider-utils_1.15.0_linux_386.zip",
+          "shasum": "9c4a971d0f97f2746abb22956c330567adc4e7056821d8b73af1bca624449d58"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-utils_1.15.0_linux_arm64.zip",
+          "download_url": "https://github.com/cloudposse/terraform-provider-utils/releases/download/1.15.0/terraform-provider-utils_1.15.0_linux_arm64.zip",
+          "shasum": "9f5d98b493e518a45ade8aa0b0b881173ed3983aae815d01b43cb6cdd2f79369"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-utils_1.15.0_freebsd_arm.zip",
+          "download_url": "https://github.com/cloudposse/terraform-provider-utils/releases/download/1.15.0/terraform-provider-utils_1.15.0_freebsd_arm.zip",
+          "shasum": "7ea7ea19c4c0fd6a067a4a074c165e7d26af4f30b0479ac69191c90e55ba7db4"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-utils_1.15.0_linux_arm.zip",
+          "download_url": "https://github.com/cloudposse/terraform-provider-utils/releases/download/1.15.0/terraform-provider-utils_1.15.0_linux_arm.zip",
+          "shasum": "4cab2f774dbd81d11f90eb48a52285026dcd61c05774e4c3bae4e05df81662c5"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-utils_1.15.0_windows_amd64.zip",
+          "download_url": "https://github.com/cloudposse/terraform-provider-utils/releases/download/1.15.0/terraform-provider-utils_1.15.0_windows_amd64.zip",
+          "shasum": "c98b3d99885447aaa07717741962931fe160053d203dca0ac3af4eea3065dbad"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-utils_1.15.0_darwin_arm64.zip",
+          "download_url": "https://github.com/cloudposse/terraform-provider-utils/releases/download/1.15.0/terraform-provider-utils_1.15.0_darwin_arm64.zip",
+          "shasum": "c1ad6e26a4188e9b95fe64f4ac084fefcc13abcb4a85c0f7db3ad635c2829cb4"
+        }
+      ]
+    },
+    {
+      "version": "1.14.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/cloudposse/terraform-provider-utils/releases/download/1.14.0/terraform-provider-utils_1.14.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/cloudposse/terraform-provider-utils/releases/download/1.14.0/terraform-provider-utils_1.14.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-utils_1.14.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/cloudposse/terraform-provider-utils/releases/download/1.14.0/terraform-provider-utils_1.14.0_freebsd_amd64.zip",
+          "shasum": "cce2c5fe013a5996a648cdea91a7d934b6faf5d99d6affc2a5a83e058448758e"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-utils_1.14.0_windows_amd64.zip",
+          "download_url": "https://github.com/cloudposse/terraform-provider-utils/releases/download/1.14.0/terraform-provider-utils_1.14.0_windows_amd64.zip",
+          "shasum": "98becc6c0e4766512f8157bee6fa66c475afd2155a0f9b3d90917c3510ac9010"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-utils_1.14.0_freebsd_386.zip",
+          "download_url": "https://github.com/cloudposse/terraform-provider-utils/releases/download/1.14.0/terraform-provider-utils_1.14.0_freebsd_386.zip",
+          "shasum": "a5b85c73b0701c9b4f0c0dc4cc2ca50f07d93de85ecac9737abe5d2f1aae0ec3"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-utils_1.14.0_linux_amd64.zip",
+          "download_url": "https://github.com/cloudposse/terraform-provider-utils/releases/download/1.14.0/terraform-provider-utils_1.14.0_linux_amd64.zip",
+          "shasum": "e6c84d2ccac3063aab46706ceeb8f1439d03d4ed824daac9ab0253f0902a4e14"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-utils_1.14.0_windows_386.zip",
+          "download_url": "https://github.com/cloudposse/terraform-provider-utils/releases/download/1.14.0/terraform-provider-utils_1.14.0_windows_386.zip",
+          "shasum": "3035a0db2ef0950ff6a41764b6b250cdf74084b549c8443da883fdb723367e29"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-utils_1.14.0_freebsd_arm.zip",
+          "download_url": "https://github.com/cloudposse/terraform-provider-utils/releases/download/1.14.0/terraform-provider-utils_1.14.0_freebsd_arm.zip",
+          "shasum": "6bf256f03fbdfb0aff9751bc2bc4f9a81d8d967ae935cec1855d998fe6e80f03"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-utils_1.14.0_windows_arm64.zip",
+          "download_url": "https://github.com/cloudposse/terraform-provider-utils/releases/download/1.14.0/terraform-provider-utils_1.14.0_windows_arm64.zip",
+          "shasum": "8aad026d7c561bf0ada4e0ec8f861fc8339957c3f973661424790c3869abc003"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-utils_1.14.0_linux_386.zip",
+          "download_url": "https://github.com/cloudposse/terraform-provider-utils/releases/download/1.14.0/terraform-provider-utils_1.14.0_linux_386.zip",
+          "shasum": "2e058d206b66224bd5f8f78a03d52f19064eeed179115847fbb8f0e3da34d04c"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-utils_1.14.0_linux_arm.zip",
+          "download_url": "https://github.com/cloudposse/terraform-provider-utils/releases/download/1.14.0/terraform-provider-utils_1.14.0_linux_arm.zip",
+          "shasum": "eada9372e27880b62558e396d2ee1e96f876c2da915fb0c665317f004d619115"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-utils_1.14.0_windows_arm.zip",
+          "download_url": "https://github.com/cloudposse/terraform-provider-utils/releases/download/1.14.0/terraform-provider-utils_1.14.0_windows_arm.zip",
+          "shasum": "6ad18d78fe54ad3d0a5a4f43488fe9fecf81031106a3d955a102a4791d760751"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-utils_1.14.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/cloudposse/terraform-provider-utils/releases/download/1.14.0/terraform-provider-utils_1.14.0_freebsd_arm64.zip",
+          "shasum": "e174e3dbe46a2848720d26c0672964c95c9219cb8dc6f8eeee4d30757f2ced1c"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-utils_1.14.0_darwin_amd64.zip",
+          "download_url": "https://github.com/cloudposse/terraform-provider-utils/releases/download/1.14.0/terraform-provider-utils_1.14.0_darwin_amd64.zip",
+          "shasum": "4ab57c32778160d15169bcd343537bbca48f3a14ccca410c31a415b591ec628a"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-utils_1.14.0_linux_arm64.zip",
+          "download_url": "https://github.com/cloudposse/terraform-provider-utils/releases/download/1.14.0/terraform-provider-utils_1.14.0_linux_arm64.zip",
+          "shasum": "aa817735af915dae7dd2020d3b6eb8fabb2e6618e6c2736c0950d83c2f64a519"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-utils_1.14.0_darwin_arm64.zip",
+          "download_url": "https://github.com/cloudposse/terraform-provider-utils/releases/download/1.14.0/terraform-provider-utils_1.14.0_darwin_arm64.zip",
+          "shasum": "3750baccaa7a174e7eb97aca6d2442fbe09a508d99edac81e4948083b4df01d7"
+        }
+      ]
+    },
+    {
+      "version": "1.13.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/cloudposse/terraform-provider-utils/releases/download/1.13.0/terraform-provider-utils_1.13.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/cloudposse/terraform-provider-utils/releases/download/1.13.0/terraform-provider-utils_1.13.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-utils_1.13.0_linux_arm.zip",
+          "download_url": "https://github.com/cloudposse/terraform-provider-utils/releases/download/1.13.0/terraform-provider-utils_1.13.0_linux_arm.zip",
+          "shasum": "1a95f84b2cb0c24925d46cbcedb1979aeff66f9636fe6cf607c849ad53c6bebf"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-utils_1.13.0_linux_arm64.zip",
+          "download_url": "https://github.com/cloudposse/terraform-provider-utils/releases/download/1.13.0/terraform-provider-utils_1.13.0_linux_arm64.zip",
+          "shasum": "acf12a013a75450c211e3a466989498ed8ad5281231e4b2b6df48067bcbcd483"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-utils_1.13.0_darwin_arm64.zip",
+          "download_url": "https://github.com/cloudposse/terraform-provider-utils/releases/download/1.13.0/terraform-provider-utils_1.13.0_darwin_arm64.zip",
+          "shasum": "53b466d61d7d7448cf2fbf8b9ce09ebefbe7d34f8ce00331b30ff2727bd78131"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-utils_1.13.0_darwin_amd64.zip",
+          "download_url": "https://github.com/cloudposse/terraform-provider-utils/releases/download/1.13.0/terraform-provider-utils_1.13.0_darwin_amd64.zip",
+          "shasum": "2773fe3501d1416af4804822b68994b2cae3f3691956762b69857fcddcbf5e1d"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-utils_1.13.0_freebsd_386.zip",
+          "download_url": "https://github.com/cloudposse/terraform-provider-utils/releases/download/1.13.0/terraform-provider-utils_1.13.0_freebsd_386.zip",
+          "shasum": "91a6eaea731a14fee7027944b8ed81e39ca47feead6c551c327c2719756dd504"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-utils_1.13.0_windows_386.zip",
+          "download_url": "https://github.com/cloudposse/terraform-provider-utils/releases/download/1.13.0/terraform-provider-utils_1.13.0_windows_386.zip",
+          "shasum": "7c6ad32066c4b07c0c801d02418044bcded09894d7818bec5d0d3cda02e73cc5"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-utils_1.13.0_linux_386.zip",
+          "download_url": "https://github.com/cloudposse/terraform-provider-utils/releases/download/1.13.0/terraform-provider-utils_1.13.0_linux_386.zip",
+          "shasum": "2b66e50118f33df74313de90c99cb787663a25be50b69170473d338f8bc4e02f"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-utils_1.13.0_freebsd_arm.zip",
+          "download_url": "https://github.com/cloudposse/terraform-provider-utils/releases/download/1.13.0/terraform-provider-utils_1.13.0_freebsd_arm.zip",
+          "shasum": "fa9b4ff375bc8f3d2eeb4e0447a0a10db8f40df6bbaa952bc48411655770583e"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-utils_1.13.0_windows_amd64.zip",
+          "download_url": "https://github.com/cloudposse/terraform-provider-utils/releases/download/1.13.0/terraform-provider-utils_1.13.0_windows_amd64.zip",
+          "shasum": "38f36ae9789bd05c5e8b6e3e3bd02cb34ff28e78d8edde4a8e067a64329c3669"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-utils_1.13.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/cloudposse/terraform-provider-utils/releases/download/1.13.0/terraform-provider-utils_1.13.0_freebsd_amd64.zip",
+          "shasum": "94fba1d9a0d16249f758c8d4fdc0ed205cdb11283442685d4826a4f69696ea1c"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-utils_1.13.0_windows_arm64.zip",
+          "download_url": "https://github.com/cloudposse/terraform-provider-utils/releases/download/1.13.0/terraform-provider-utils_1.13.0_windows_arm64.zip",
+          "shasum": "cd8bbfffabed479ec7fd17a6215b043f91c177e1adcfcf1d7aaf1dd623101a0a"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-utils_1.13.0_linux_amd64.zip",
+          "download_url": "https://github.com/cloudposse/terraform-provider-utils/releases/download/1.13.0/terraform-provider-utils_1.13.0_linux_amd64.zip",
+          "shasum": "1b84da8f2f7aae8d077325952815ad74ba902373221f8bde27c20e9e9eb0b480"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-utils_1.13.0_windows_arm.zip",
+          "download_url": "https://github.com/cloudposse/terraform-provider-utils/releases/download/1.13.0/terraform-provider-utils_1.13.0_windows_arm.zip",
+          "shasum": "7ec27b1226a2d9dd82a3cc723e293f96739c221d24e8ca39f305351000eab8ca"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-utils_1.13.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/cloudposse/terraform-provider-utils/releases/download/1.13.0/terraform-provider-utils_1.13.0_freebsd_arm64.zip",
+          "shasum": "fafca3a91dc98baac6d8d1ff225c45f59c8c846beb7432f1796b60df377b4d5d"
+        }
+      ]
+    },
+    {
       "version": "1.12.0",
       "protocols": [
         "5.0"
