@@ -2,6 +2,107 @@
   "repository": "https://github.com/HewlettPackard/terraform-provider-oneview",
   "versions": [
     {
+      "version": "8.9.0-13",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/HewlettPackard/terraform-provider-oneview/releases/download/v8.9.0-13/terraform-provider-oneview_8.9.0-13_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/HewlettPackard/terraform-provider-oneview/releases/download/v8.9.0-13/terraform-provider-oneview_8.9.0-13_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-oneview_8.9.0-13_linux_arm64.zip",
+          "download_url": "https://github.com/HewlettPackard/terraform-provider-oneview/releases/download/v8.9.0-13/terraform-provider-oneview_8.9.0-13_linux_arm64.zip",
+          "shasum": "501c44aec159fa774ab15af7b0c6fa6c44a2a28d9f3f5c3e78f657dc5960a2b3"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-oneview_8.9.0-13_linux_386.zip",
+          "download_url": "https://github.com/HewlettPackard/terraform-provider-oneview/releases/download/v8.9.0-13/terraform-provider-oneview_8.9.0-13_linux_386.zip",
+          "shasum": "fb88a8c5c2b042df2c9e7b6affb4b55ccaf55916b505769db5751023f8ccb4be"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-oneview_8.9.0-13_darwin_amd64.zip",
+          "download_url": "https://github.com/HewlettPackard/terraform-provider-oneview/releases/download/v8.9.0-13/terraform-provider-oneview_8.9.0-13_darwin_amd64.zip",
+          "shasum": "01b343993d711e5a7898546c18c979b54562ffae6e73dfc6613d001980e1841a"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-oneview_8.9.0-13_freebsd_arm.zip",
+          "download_url": "https://github.com/HewlettPackard/terraform-provider-oneview/releases/download/v8.9.0-13/terraform-provider-oneview_8.9.0-13_freebsd_arm.zip",
+          "shasum": "729f9b272b4278557ecad0b3b04420850f45e7cfbfed786e65e67d41ac6bc8ad"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-oneview_8.9.0-13_windows_amd64.zip",
+          "download_url": "https://github.com/HewlettPackard/terraform-provider-oneview/releases/download/v8.9.0-13/terraform-provider-oneview_8.9.0-13_windows_amd64.zip",
+          "shasum": "00f85cefd6154dd4150852e7a925076ddd86afe987199da92b274aa68f6467dd"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-oneview_8.9.0-13_windows_arm.zip",
+          "download_url": "https://github.com/HewlettPackard/terraform-provider-oneview/releases/download/v8.9.0-13/terraform-provider-oneview_8.9.0-13_windows_arm.zip",
+          "shasum": "765280ad22bf05a85978924c277008544efc21395ee841e0d83523b2709954b0"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-oneview_8.9.0-13_freebsd_386.zip",
+          "download_url": "https://github.com/HewlettPackard/terraform-provider-oneview/releases/download/v8.9.0-13/terraform-provider-oneview_8.9.0-13_freebsd_386.zip",
+          "shasum": "7278066f99db0eab5cae2b14bf074a90bbfdf4fc8c13e25e31197bf93b544b0a"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-oneview_8.9.0-13_freebsd_arm64.zip",
+          "download_url": "https://github.com/HewlettPackard/terraform-provider-oneview/releases/download/v8.9.0-13/terraform-provider-oneview_8.9.0-13_freebsd_arm64.zip",
+          "shasum": "ef04072bce6447ff3869b3bfeb44e616b5c6d125790f7daaaea43ac7019c675d"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-oneview_8.9.0-13_darwin_arm64.zip",
+          "download_url": "https://github.com/HewlettPackard/terraform-provider-oneview/releases/download/v8.9.0-13/terraform-provider-oneview_8.9.0-13_darwin_arm64.zip",
+          "shasum": "7e202fd59e5c21d4ffc787c3a671d480206a46d7c5879f401403a1d428cca210"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-oneview_8.9.0-13_windows_386.zip",
+          "download_url": "https://github.com/HewlettPackard/terraform-provider-oneview/releases/download/v8.9.0-13/terraform-provider-oneview_8.9.0-13_windows_386.zip",
+          "shasum": "54e95519918278f6cda5ed44693a7a6ccc2106d7fa05775b06489179ac0b0d61"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-oneview_8.9.0-13_linux_arm.zip",
+          "download_url": "https://github.com/HewlettPackard/terraform-provider-oneview/releases/download/v8.9.0-13/terraform-provider-oneview_8.9.0-13_linux_arm.zip",
+          "shasum": "deb26d9d71d00e3483b3ce8d289d04182165d44fdf2fbca91796316d3fcb8d98"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-oneview_8.9.0-13_freebsd_amd64.zip",
+          "download_url": "https://github.com/HewlettPackard/terraform-provider-oneview/releases/download/v8.9.0-13/terraform-provider-oneview_8.9.0-13_freebsd_amd64.zip",
+          "shasum": "0aa4a06138e2057a8981c818862b70ebb6cbf368819b1681fa70791c6118d7bf"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-oneview_8.9.0-13_linux_amd64.zip",
+          "download_url": "https://github.com/HewlettPackard/terraform-provider-oneview/releases/download/v8.9.0-13/terraform-provider-oneview_8.9.0-13_linux_amd64.zip",
+          "shasum": "911f4d9909625f3ee1a79fdf786c2d5d2de7be1af88f1419d74737db64c4a253"
+        }
+      ]
+    },
+    {
       "version": "8.8.0-13",
       "protocols": [
         "5.0"
