@@ -2,6 +2,114 @@
   "repository": "https://github.com/SAP/terraform-provider-btp",
   "versions": [
     {
+      "version": "1.3.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/SAP/terraform-provider-btp/releases/download/v1.3.0/terraform-provider-btp_1.3.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/SAP/terraform-provider-btp/releases/download/v1.3.0/terraform-provider-btp_1.3.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-btp_1.3.0_linux_arm.zip",
+          "download_url": "https://github.com/SAP/terraform-provider-btp/releases/download/v1.3.0/terraform-provider-btp_1.3.0_linux_arm.zip",
+          "shasum": "5c3b7e29e1318300d4a36e0b85293efb0f4470ccf32af1f92166c38dd600f3b2"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-btp_1.3.0_windows_amd64.zip",
+          "download_url": "https://github.com/SAP/terraform-provider-btp/releases/download/v1.3.0/terraform-provider-btp_1.3.0_windows_amd64.zip",
+          "shasum": "7ce47a2d3fc85884486af4c9324926de1c7ca15e6e2e383e27195551b33fa71c"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-btp_1.3.0_windows_386.zip",
+          "download_url": "https://github.com/SAP/terraform-provider-btp/releases/download/v1.3.0/terraform-provider-btp_1.3.0_windows_386.zip",
+          "shasum": "bf253c25c5fbbe6186bd1f86cf13f12c2cc2b73a899adbd0f6cb00a37e9213e2"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-btp_1.3.0_linux_amd64.zip",
+          "download_url": "https://github.com/SAP/terraform-provider-btp/releases/download/v1.3.0/terraform-provider-btp_1.3.0_linux_amd64.zip",
+          "shasum": "1daa59eb2f3f9a04a625db7be3e9d7df9f6390e8ffa76b99a588aba1d6c38cbc"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-btp_1.3.0_freebsd_386.zip",
+          "download_url": "https://github.com/SAP/terraform-provider-btp/releases/download/v1.3.0/terraform-provider-btp_1.3.0_freebsd_386.zip",
+          "shasum": "d26ca40eec5f73117e5fe864a3497f5d0df7978e4b1ec1cacdf9eaa0ab40d800"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-btp_1.3.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/SAP/terraform-provider-btp/releases/download/v1.3.0/terraform-provider-btp_1.3.0_freebsd_arm64.zip",
+          "shasum": "2f66d2aef369c02dd1ed15442bc2d313f82ab717a94963ccedc2938baf928dc8"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-btp_1.3.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/SAP/terraform-provider-btp/releases/download/v1.3.0/terraform-provider-btp_1.3.0_freebsd_amd64.zip",
+          "shasum": "f6ad4304a850072fb0e3c12c36829e8fee903ac8e496d6b8db0615405a7e3d79"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-btp_1.3.0_windows_arm64.zip",
+          "download_url": "https://github.com/SAP/terraform-provider-btp/releases/download/v1.3.0/terraform-provider-btp_1.3.0_windows_arm64.zip",
+          "shasum": "90f96ce8d0aa60a17849d3a28f6c6f9c68c263972c0cdb2e20c087e402969bc4"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-btp_1.3.0_linux_386.zip",
+          "download_url": "https://github.com/SAP/terraform-provider-btp/releases/download/v1.3.0/terraform-provider-btp_1.3.0_linux_386.zip",
+          "shasum": "e7e7821d7a3ec1a5d512cdd3152a0a2a3bfcc345a183fdb8b81d4bd5f1d8e65d"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-btp_1.3.0_darwin_amd64.zip",
+          "download_url": "https://github.com/SAP/terraform-provider-btp/releases/download/v1.3.0/terraform-provider-btp_1.3.0_darwin_amd64.zip",
+          "shasum": "4d5d198298f2e45798751abb9d0548ecad059f2ebc52454cbf55cf45744315f6"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-btp_1.3.0_darwin_arm64.zip",
+          "download_url": "https://github.com/SAP/terraform-provider-btp/releases/download/v1.3.0/terraform-provider-btp_1.3.0_darwin_arm64.zip",
+          "shasum": "194dcf9e4e1f4929ea7013445ca8a4aedc7c04ddb9aeb9ae81a678bd921db9ca"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-btp_1.3.0_freebsd_arm.zip",
+          "download_url": "https://github.com/SAP/terraform-provider-btp/releases/download/v1.3.0/terraform-provider-btp_1.3.0_freebsd_arm.zip",
+          "shasum": "7769dd83929d99121bc121224c7a45c6117a6b39e99e0a4ebb05dfa9336fea9c"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-btp_1.3.0_windows_arm.zip",
+          "download_url": "https://github.com/SAP/terraform-provider-btp/releases/download/v1.3.0/terraform-provider-btp_1.3.0_windows_arm.zip",
+          "shasum": "f0f96203f9b6e8090a6786a5604e8e53e3bf546767375f86436de7478db8193b"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-btp_1.3.0_linux_arm64.zip",
+          "download_url": "https://github.com/SAP/terraform-provider-btp/releases/download/v1.3.0/terraform-provider-btp_1.3.0_linux_arm64.zip",
+          "shasum": "ce70eb8ded51b2cbe87a206d21888c104fe280becdf9aae8df131dac2fb153b5"
+        }
+      ]
+    },
+    {
       "version": "1.2.0",
       "protocols": [
         "5.0"
@@ -11,101 +119,101 @@
       "targets": [
         {
           "os": "freebsd",
-          "arch": "amd64",
-          "filename": "terraform-provider-btp_1.2.0_freebsd_amd64.zip",
-          "download_url": "https://github.com/SAP/terraform-provider-btp/releases/download/v1.2.0/terraform-provider-btp_1.2.0_freebsd_amd64.zip",
-          "shasum": "823acf60269d3b81683cf8f79a2bce1dcac6727ce387b695bdad10e9e8bc0df6"
-        },
-        {
-          "os": "windows",
-          "arch": "arm",
-          "filename": "terraform-provider-btp_1.2.0_windows_arm.zip",
-          "download_url": "https://github.com/SAP/terraform-provider-btp/releases/download/v1.2.0/terraform-provider-btp_1.2.0_windows_arm.zip",
-          "shasum": "a391db2c5eae0c1298e10b14210d60f74ab7b96239c1e29bc96cad536154d016"
+          "arch": "386",
+          "filename": "terraform-provider-btp_1.2.0_freebsd_386.zip",
+          "download_url": "https://github.com/SAP/terraform-provider-btp/releases/download/v1.2.0/terraform-provider-btp_1.2.0_freebsd_386.zip",
+          "shasum": "c7e430fabaa1f986d95dfa1b20f9e05b4a5cd69fc2db8b38726631f19b026b0d"
         },
         {
           "os": "darwin",
           "arch": "arm64",
           "filename": "terraform-provider-btp_1.2.0_darwin_arm64.zip",
           "download_url": "https://github.com/SAP/terraform-provider-btp/releases/download/v1.2.0/terraform-provider-btp_1.2.0_darwin_arm64.zip",
-          "shasum": "f54608c32dacc63e6a5a5500eca85154ee0eb32067bfb64ae278db70e780c292"
+          "shasum": "1cf1891c07595f5ec0f7346458707b4aaf58b2eec9697e0a2fbf7ed84de9dc1c"
         },
         {
-          "os": "linux",
-          "arch": "amd64",
-          "filename": "terraform-provider-btp_1.2.0_linux_amd64.zip",
-          "download_url": "https://github.com/SAP/terraform-provider-btp/releases/download/v1.2.0/terraform-provider-btp_1.2.0_linux_amd64.zip",
-          "shasum": "afc8c3d62cffd787e541934316e5f58930a7a1ff5b3a6b65fd47e42cf47dc51f"
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-btp_1.2.0_windows_arm.zip",
+          "download_url": "https://github.com/SAP/terraform-provider-btp/releases/download/v1.2.0/terraform-provider-btp_1.2.0_windows_arm.zip",
+          "shasum": "c33c4ae8f1e558f788dc7f4d478f523fab4a5b5cc6dc4613d20bd6f06f891aae"
         },
         {
           "os": "freebsd",
           "arch": "arm64",
           "filename": "terraform-provider-btp_1.2.0_freebsd_arm64.zip",
           "download_url": "https://github.com/SAP/terraform-provider-btp/releases/download/v1.2.0/terraform-provider-btp_1.2.0_freebsd_arm64.zip",
-          "shasum": "7f6e5e2b2188fd8e435e9447d81d127d7f75d8232d00193e70e7c6837f8e29a1"
-        },
-        {
-          "os": "freebsd",
-          "arch": "386",
-          "filename": "terraform-provider-btp_1.2.0_freebsd_386.zip",
-          "download_url": "https://github.com/SAP/terraform-provider-btp/releases/download/v1.2.0/terraform-provider-btp_1.2.0_freebsd_386.zip",
-          "shasum": "64ca8aedb7b17ae5ddab281ab9a991c8a1a2b76b7577f26feaaa08c4c9ab5bdd"
-        },
-        {
-          "os": "darwin",
-          "arch": "amd64",
-          "filename": "terraform-provider-btp_1.2.0_darwin_amd64.zip",
-          "download_url": "https://github.com/SAP/terraform-provider-btp/releases/download/v1.2.0/terraform-provider-btp_1.2.0_darwin_amd64.zip",
-          "shasum": "68529ae39eaed566675bde7d2ca5056154199b20b9d4deb148b735135cb03b84"
-        },
-        {
-          "os": "linux",
-          "arch": "arm64",
-          "filename": "terraform-provider-btp_1.2.0_linux_arm64.zip",
-          "download_url": "https://github.com/SAP/terraform-provider-btp/releases/download/v1.2.0/terraform-provider-btp_1.2.0_linux_arm64.zip",
-          "shasum": "1d07cc4fc75c405d69058fd4fb57f463b1814e9839cb156e168e640009543389"
-        },
-        {
-          "os": "freebsd",
-          "arch": "arm",
-          "filename": "terraform-provider-btp_1.2.0_freebsd_arm.zip",
-          "download_url": "https://github.com/SAP/terraform-provider-btp/releases/download/v1.2.0/terraform-provider-btp_1.2.0_freebsd_arm.zip",
-          "shasum": "09726b688c0e197d77d65a6e89e30bb44e784ba85fd2ec2ecddc9c126eace57e"
-        },
-        {
-          "os": "windows",
-          "arch": "arm64",
-          "filename": "terraform-provider-btp_1.2.0_windows_arm64.zip",
-          "download_url": "https://github.com/SAP/terraform-provider-btp/releases/download/v1.2.0/terraform-provider-btp_1.2.0_windows_arm64.zip",
-          "shasum": "9edd3312e2c809f9830d7ef98445a2e9c82d746082081970812012dfb1cfbb48"
-        },
-        {
-          "os": "windows",
-          "arch": "386",
-          "filename": "terraform-provider-btp_1.2.0_windows_386.zip",
-          "download_url": "https://github.com/SAP/terraform-provider-btp/releases/download/v1.2.0/terraform-provider-btp_1.2.0_windows_386.zip",
-          "shasum": "f25d1caf89e66a13d19db9067f61ff69105ca6b6e69e5c36c50c5cdc941a61c5"
+          "shasum": "88053874c96a7914050703e933a1006bafb7ae46544b859d0464fefc1da0b409"
         },
         {
           "os": "linux",
           "arch": "arm",
           "filename": "terraform-provider-btp_1.2.0_linux_arm.zip",
           "download_url": "https://github.com/SAP/terraform-provider-btp/releases/download/v1.2.0/terraform-provider-btp_1.2.0_linux_arm.zip",
-          "shasum": "5a30609d3b2e49bbcd3c8ded382c2cbd2abb5f6ae2c9d42911733b7e9fd9b060"
+          "shasum": "2d02ce00764aa464bb2486bc8fe7b398109a3f139d15cabb7083d381ca5d851c"
         },
         {
           "os": "linux",
           "arch": "386",
           "filename": "terraform-provider-btp_1.2.0_linux_386.zip",
           "download_url": "https://github.com/SAP/terraform-provider-btp/releases/download/v1.2.0/terraform-provider-btp_1.2.0_linux_386.zip",
-          "shasum": "d1d583978f8344d13a2cb120623ba22c7498bcaa50a4287b0d18594ed44429d3"
+          "shasum": "fe599ed3ae9cd8a9e4f69806a80102083eacb08cb0040adccedff98908418798"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-btp_1.2.0_windows_386.zip",
+          "download_url": "https://github.com/SAP/terraform-provider-btp/releases/download/v1.2.0/terraform-provider-btp_1.2.0_windows_386.zip",
+          "shasum": "06763051b598cb4f4d87ca70dd96d54a779d94e061ef657666a49be475a5222a"
         },
         {
           "os": "windows",
           "arch": "amd64",
           "filename": "terraform-provider-btp_1.2.0_windows_amd64.zip",
           "download_url": "https://github.com/SAP/terraform-provider-btp/releases/download/v1.2.0/terraform-provider-btp_1.2.0_windows_amd64.zip",
-          "shasum": "5a1d9ea9fbb98a554f00d49132a8dca830c61f32f2008757b9e73d42961c7bc8"
+          "shasum": "5d10880449a85b48a4ef3324809a40f9d182f21fc9744c4bf6054cc865281959"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-btp_1.2.0_linux_arm64.zip",
+          "download_url": "https://github.com/SAP/terraform-provider-btp/releases/download/v1.2.0/terraform-provider-btp_1.2.0_linux_arm64.zip",
+          "shasum": "dc52c4ff35831cf75e621813fbf96ef73d12ccdc8d993be33f2ef9122125ee29"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-btp_1.2.0_windows_arm64.zip",
+          "download_url": "https://github.com/SAP/terraform-provider-btp/releases/download/v1.2.0/terraform-provider-btp_1.2.0_windows_arm64.zip",
+          "shasum": "bb7544b26253f94846c5dd9cc0640228ae857c835208941cf65315f2d748ebce"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-btp_1.2.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/SAP/terraform-provider-btp/releases/download/v1.2.0/terraform-provider-btp_1.2.0_freebsd_amd64.zip",
+          "shasum": "02c5c3ef0cd8f639d439bd5579122c4b365ececef23349be43495ded885766d9"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-btp_1.2.0_linux_amd64.zip",
+          "download_url": "https://github.com/SAP/terraform-provider-btp/releases/download/v1.2.0/terraform-provider-btp_1.2.0_linux_amd64.zip",
+          "shasum": "7161f954a62ed579114916912b230d53669e2d95f377481f1ef2ab1eeb8ab7cd"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-btp_1.2.0_freebsd_arm.zip",
+          "download_url": "https://github.com/SAP/terraform-provider-btp/releases/download/v1.2.0/terraform-provider-btp_1.2.0_freebsd_arm.zip",
+          "shasum": "8d9c50373b8f4b7a963a4be233c561d404ed566b8c3a701dbf040454d45129ce"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-btp_1.2.0_darwin_amd64.zip",
+          "download_url": "https://github.com/SAP/terraform-provider-btp/releases/download/v1.2.0/terraform-provider-btp_1.2.0_darwin_amd64.zip",
+          "shasum": "f0b8709740c2f2da33c72205ba7409908e1aa047bcf739a33c62c02ea4fa5818"
         }
       ]
     },
