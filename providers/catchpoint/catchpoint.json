@@ -2,6 +2,222 @@
   "repository": "https://github.com/catchpoint/terraform-provider-catchpoint",
   "versions": [
     {
+      "version": "1.0.1",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/catchpoint/terraform-provider-catchpoint/releases/download/v1.0.1/terraform-provider-catchpoint_1.0.1_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/catchpoint/terraform-provider-catchpoint/releases/download/v1.0.1/terraform-provider-catchpoint_1.0.1_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-catchpoint_1.0.1_windows_386.zip",
+          "download_url": "https://github.com/catchpoint/terraform-provider-catchpoint/releases/download/v1.0.1/terraform-provider-catchpoint_1.0.1_windows_386.zip",
+          "shasum": "083a9a56c5c37a2c596f2f70b584c8e23ac0afdc903eb1a7a78e749559893081"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-catchpoint_1.0.1_linux_amd64.zip",
+          "download_url": "https://github.com/catchpoint/terraform-provider-catchpoint/releases/download/v1.0.1/terraform-provider-catchpoint_1.0.1_linux_amd64.zip",
+          "shasum": "328f577cf0db4c7cfe7d91c0be791f7efb5e28549c1f3ed9abc783d6b98a1823"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-catchpoint_1.0.1_windows_arm.zip",
+          "download_url": "https://github.com/catchpoint/terraform-provider-catchpoint/releases/download/v1.0.1/terraform-provider-catchpoint_1.0.1_windows_arm.zip",
+          "shasum": "fdf769f21479a3402dc1831d51e7f6378a72bca9d5a7fc0cc4ccde5236c80214"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-catchpoint_1.0.1_windows_amd64.zip",
+          "download_url": "https://github.com/catchpoint/terraform-provider-catchpoint/releases/download/v1.0.1/terraform-provider-catchpoint_1.0.1_windows_amd64.zip",
+          "shasum": "31c7d63c266f3d6e377c195a41c899db2c89f3b31d9a83a8449971a7c30f94d4"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-catchpoint_1.0.1_linux_arm.zip",
+          "download_url": "https://github.com/catchpoint/terraform-provider-catchpoint/releases/download/v1.0.1/terraform-provider-catchpoint_1.0.1_linux_arm.zip",
+          "shasum": "6a5c4d75aa850e89cf07a6008caecaedb3c992ee3dd7f973a87a8802a32b869a"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-catchpoint_1.0.1_freebsd_arm.zip",
+          "download_url": "https://github.com/catchpoint/terraform-provider-catchpoint/releases/download/v1.0.1/terraform-provider-catchpoint_1.0.1_freebsd_arm.zip",
+          "shasum": "2bdee917499a7e1d79d3dcda6564f7c5472b035da180cdbe8968f5ed70892ada"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-catchpoint_1.0.1_freebsd_arm64.zip",
+          "download_url": "https://github.com/catchpoint/terraform-provider-catchpoint/releases/download/v1.0.1/terraform-provider-catchpoint_1.0.1_freebsd_arm64.zip",
+          "shasum": "39c25256a6212b62cf30bffb757477205a2e68da289bb9d1b94d9afc60dfa817"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-catchpoint_1.0.1_darwin_amd64.zip",
+          "download_url": "https://github.com/catchpoint/terraform-provider-catchpoint/releases/download/v1.0.1/terraform-provider-catchpoint_1.0.1_darwin_amd64.zip",
+          "shasum": "71526c120ea6afbcbe362628f5a3c6b045385ab41a4d43a368d91fbd9f87b0b8"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-catchpoint_1.0.1_linux_386.zip",
+          "download_url": "https://github.com/catchpoint/terraform-provider-catchpoint/releases/download/v1.0.1/terraform-provider-catchpoint_1.0.1_linux_386.zip",
+          "shasum": "9764a46a3dba3cbfb03c83a93a8187d9a843afe663f52fb2bcff50eb36a80d2e"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-catchpoint_1.0.1_freebsd_386.zip",
+          "download_url": "https://github.com/catchpoint/terraform-provider-catchpoint/releases/download/v1.0.1/terraform-provider-catchpoint_1.0.1_freebsd_386.zip",
+          "shasum": "5e88ae2fa62fe69a1fa420e34b8124b2c0ee8dfb1cb6db3f439c57817e419c5c"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-catchpoint_1.0.1_linux_arm64.zip",
+          "download_url": "https://github.com/catchpoint/terraform-provider-catchpoint/releases/download/v1.0.1/terraform-provider-catchpoint_1.0.1_linux_arm64.zip",
+          "shasum": "55c899946a7e8beeb6f6a43072ee84a5c4322c6170c7ad3b9d3a3c84970b1a13"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-catchpoint_1.0.1_windows_arm64.zip",
+          "download_url": "https://github.com/catchpoint/terraform-provider-catchpoint/releases/download/v1.0.1/terraform-provider-catchpoint_1.0.1_windows_arm64.zip",
+          "shasum": "0983f4ca761dec26836b6dac1aa7f1cbce671e33d0f473a791f79cfdef0aaf3d"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-catchpoint_1.0.1_freebsd_amd64.zip",
+          "download_url": "https://github.com/catchpoint/terraform-provider-catchpoint/releases/download/v1.0.1/terraform-provider-catchpoint_1.0.1_freebsd_amd64.zip",
+          "shasum": "0f381b24d85d78ca25aac3ba7ffc50bcc14820494736e2cbf445f5ac2c135bce"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-catchpoint_1.0.1_darwin_arm64.zip",
+          "download_url": "https://github.com/catchpoint/terraform-provider-catchpoint/releases/download/v1.0.1/terraform-provider-catchpoint_1.0.1_darwin_arm64.zip",
+          "shasum": "8bf3bd65483274ecbda28243b8fe47b8533ac4ffe4b37076a2416aee127d67dd"
+        }
+      ]
+    },
+    {
+      "version": "1.0.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/catchpoint/terraform-provider-catchpoint/releases/download/v1.0.0/terraform-provider-catchpoint_1.0.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/catchpoint/terraform-provider-catchpoint/releases/download/v1.0.0/terraform-provider-catchpoint_1.0.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-catchpoint_1.0.0_windows_amd64.zip",
+          "download_url": "https://github.com/catchpoint/terraform-provider-catchpoint/releases/download/v1.0.0/terraform-provider-catchpoint_1.0.0_windows_amd64.zip",
+          "shasum": "d01bafad40dc92f9d12e6da2bcdcfad0426d141a5fbf5a86f094767c904f89c0"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-catchpoint_1.0.0_freebsd_arm.zip",
+          "download_url": "https://github.com/catchpoint/terraform-provider-catchpoint/releases/download/v1.0.0/terraform-provider-catchpoint_1.0.0_freebsd_arm.zip",
+          "shasum": "32a0fd4b06b1d0d0ab6365c361082f55866df7b7dd54368948bad0d8b1ae6a49"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-catchpoint_1.0.0_darwin_arm64.zip",
+          "download_url": "https://github.com/catchpoint/terraform-provider-catchpoint/releases/download/v1.0.0/terraform-provider-catchpoint_1.0.0_darwin_arm64.zip",
+          "shasum": "333a8d3d3e07c06bbddb5e4c03a780f03548d87c625be8a41d515db478e055f7"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-catchpoint_1.0.0_freebsd_386.zip",
+          "download_url": "https://github.com/catchpoint/terraform-provider-catchpoint/releases/download/v1.0.0/terraform-provider-catchpoint_1.0.0_freebsd_386.zip",
+          "shasum": "cbfe29c615ac8fd262956f13702096d6ba6b4019c23410ff6866019e2f8be6f6"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-catchpoint_1.0.0_linux_386.zip",
+          "download_url": "https://github.com/catchpoint/terraform-provider-catchpoint/releases/download/v1.0.0/terraform-provider-catchpoint_1.0.0_linux_386.zip",
+          "shasum": "ab4aefdf1a33cc845fbc8a4f470b78ea62058737066debcb32d301a26fb47163"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-catchpoint_1.0.0_windows_arm64.zip",
+          "download_url": "https://github.com/catchpoint/terraform-provider-catchpoint/releases/download/v1.0.0/terraform-provider-catchpoint_1.0.0_windows_arm64.zip",
+          "shasum": "20480be6b4a937b405d72445791e0f187046b59109e5b7beaae9fbb9e26d4bbc"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-catchpoint_1.0.0_linux_arm.zip",
+          "download_url": "https://github.com/catchpoint/terraform-provider-catchpoint/releases/download/v1.0.0/terraform-provider-catchpoint_1.0.0_linux_arm.zip",
+          "shasum": "da27136c7e996d4e9eed687549268e602049cd503331052e19d066721f0600ee"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-catchpoint_1.0.0_windows_386.zip",
+          "download_url": "https://github.com/catchpoint/terraform-provider-catchpoint/releases/download/v1.0.0/terraform-provider-catchpoint_1.0.0_windows_386.zip",
+          "shasum": "76e6b7853de4c0cbe3f020e9917da7114e27efa7abda2678074026f9b7cd5f6a"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-catchpoint_1.0.0_windows_arm.zip",
+          "download_url": "https://github.com/catchpoint/terraform-provider-catchpoint/releases/download/v1.0.0/terraform-provider-catchpoint_1.0.0_windows_arm.zip",
+          "shasum": "24b2b5f78de7aab4104d405913d038b8287b6543bd2c15249025acfa8c31e7fe"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-catchpoint_1.0.0_linux_arm64.zip",
+          "download_url": "https://github.com/catchpoint/terraform-provider-catchpoint/releases/download/v1.0.0/terraform-provider-catchpoint_1.0.0_linux_arm64.zip",
+          "shasum": "b7a570fe46aed6dd2f0502ab4bc79935b52e4f39084b3cdec19b376576d158b3"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-catchpoint_1.0.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/catchpoint/terraform-provider-catchpoint/releases/download/v1.0.0/terraform-provider-catchpoint_1.0.0_freebsd_amd64.zip",
+          "shasum": "12cd781bad710c04439e0cabcb0f08e7a5675accc75c7f0cc2fccde312590b34"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-catchpoint_1.0.0_linux_amd64.zip",
+          "download_url": "https://github.com/catchpoint/terraform-provider-catchpoint/releases/download/v1.0.0/terraform-provider-catchpoint_1.0.0_linux_amd64.zip",
+          "shasum": "d80331efe9592d59874701f113e73a968225bb15d066a1725fd55201ecddceb5"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-catchpoint_1.0.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/catchpoint/terraform-provider-catchpoint/releases/download/v1.0.0/terraform-provider-catchpoint_1.0.0_freebsd_arm64.zip",
+          "shasum": "1ba0dc02605f77f36d5f1d33cbf0e93d82f99e73a6a961bc39487ebec58efa4b"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-catchpoint_1.0.0_darwin_amd64.zip",
+          "download_url": "https://github.com/catchpoint/terraform-provider-catchpoint/releases/download/v1.0.0/terraform-provider-catchpoint_1.0.0_darwin_amd64.zip",
+          "shasum": "21b85a5caef13e5efd961d1d991f36e0ed0434d084e7b1f79d9eda036c27b703"
+        }
+      ]
+    },
+    {
       "version": "0.2.9",
       "protocols": [
         "5.0"
@@ -754,114 +970,6 @@
           "filename": "terraform-provider-catchpoint_0.2.1_linux_386.zip",
           "download_url": "https://github.com/catchpoint/terraform-provider-catchpoint/releases/download/v0.2.1/terraform-provider-catchpoint_0.2.1_linux_386.zip",
           "shasum": "42556f3a224da86aa4541f27b60850d6a8a598197e1ead98741ad6ae3c46d235"
-        }
-      ]
-    },
-    {
-      "version": "1.0.0",
-      "protocols": [
-        "5.0"
-      ],
-      "shasums_url": "https://github.com/catchpoint/terraform-provider-catchpoint/releases/download/v1.0.0/Integrations.Terraform_1.0.0_SHA256SUMS",
-      "shasums_signature_url": "https://github.com/catchpoint/terraform-provider-catchpoint/releases/download/v1.0.0/Integrations.Terraform_1.0.0_SHA256SUMS.sig",
-      "targets": [
-        {
-          "os": "freebsd",
-          "arch": "386",
-          "filename": "Integrations.Terraform_1.0.0_freebsd_386.zip",
-          "download_url": "https://github.com/catchpoint/terraform-provider-catchpoint/releases/download/v1.0.0/Integrations.Terraform_1.0.0_freebsd_386.zip",
-          "shasum": "e7d0b3ff27bf01e6b0edd64046cbd821e23c5f89e82e17f7d2bc5d1447e6a435"
-        },
-        {
-          "os": "windows",
-          "arch": "386",
-          "filename": "Integrations.Terraform_1.0.0_windows_386.zip",
-          "download_url": "https://github.com/catchpoint/terraform-provider-catchpoint/releases/download/v1.0.0/Integrations.Terraform_1.0.0_windows_386.zip",
-          "shasum": "9e5ebede7e993934f77d1cfb75d646cdab0ede8288d739ad98aabb46a5e2c875"
-        },
-        {
-          "os": "linux",
-          "arch": "arm",
-          "filename": "Integrations.Terraform_1.0.0_linux_arm.zip",
-          "download_url": "https://github.com/catchpoint/terraform-provider-catchpoint/releases/download/v1.0.0/Integrations.Terraform_1.0.0_linux_arm.zip",
-          "shasum": "014dbb3f13c8288abc66eef5fe8aa3e33d629c724b73a2d1e60028ed53fde079"
-        },
-        {
-          "os": "linux",
-          "arch": "386",
-          "filename": "Integrations.Terraform_1.0.0_linux_386.zip",
-          "download_url": "https://github.com/catchpoint/terraform-provider-catchpoint/releases/download/v1.0.0/Integrations.Terraform_1.0.0_linux_386.zip",
-          "shasum": "6ad145c86eab49c7c1916d9ef183b09dc4d57e1dfdf9e4cfe92150bd8007f0c4"
-        },
-        {
-          "os": "darwin",
-          "arch": "arm64",
-          "filename": "Integrations.Terraform_1.0.0_darwin_arm64.zip",
-          "download_url": "https://github.com/catchpoint/terraform-provider-catchpoint/releases/download/v1.0.0/Integrations.Terraform_1.0.0_darwin_arm64.zip",
-          "shasum": "2ad653b00d21e5f1896d3607a1efe89a871ae70de085053b6cb7b60b74389c86"
-        },
-        {
-          "os": "freebsd",
-          "arch": "amd64",
-          "filename": "Integrations.Terraform_1.0.0_freebsd_amd64.zip",
-          "download_url": "https://github.com/catchpoint/terraform-provider-catchpoint/releases/download/v1.0.0/Integrations.Terraform_1.0.0_freebsd_amd64.zip",
-          "shasum": "a39fccb73f0f962bcbe06b82890828d0c943b5ada7a6c83c9413e7fbbb89362f"
-        },
-        {
-          "os": "freebsd",
-          "arch": "arm",
-          "filename": "Integrations.Terraform_1.0.0_freebsd_arm.zip",
-          "download_url": "https://github.com/catchpoint/terraform-provider-catchpoint/releases/download/v1.0.0/Integrations.Terraform_1.0.0_freebsd_arm.zip",
-          "shasum": "e4e47db0e98efd16f5db97bd35bc37769187d8e40c54c971a593bfb78a6d665c"
-        },
-        {
-          "os": "linux",
-          "arch": "amd64",
-          "filename": "Integrations.Terraform_1.0.0_linux_amd64.zip",
-          "download_url": "https://github.com/catchpoint/terraform-provider-catchpoint/releases/download/v1.0.0/Integrations.Terraform_1.0.0_linux_amd64.zip",
-          "shasum": "41942a7cc5133662a8ea2ee5ccee7513d94d01c65ba6916d5798d409a2f8d376"
-        },
-        {
-          "os": "windows",
-          "arch": "amd64",
-          "filename": "Integrations.Terraform_1.0.0_windows_amd64.zip",
-          "download_url": "https://github.com/catchpoint/terraform-provider-catchpoint/releases/download/v1.0.0/Integrations.Terraform_1.0.0_windows_amd64.zip",
-          "shasum": "160def36a733c2340a0e2f5a80ef0f0a657a7bc01ecc2d0669087c906bbc2043"
-        },
-        {
-          "os": "freebsd",
-          "arch": "arm64",
-          "filename": "Integrations.Terraform_1.0.0_freebsd_arm64.zip",
-          "download_url": "https://github.com/catchpoint/terraform-provider-catchpoint/releases/download/v1.0.0/Integrations.Terraform_1.0.0_freebsd_arm64.zip",
-          "shasum": "edcedaa6575e232b210f8e675d8f4a97d7d8a7c1978ebb40129267dcd652c86c"
-        },
-        {
-          "os": "windows",
-          "arch": "arm",
-          "filename": "Integrations.Terraform_1.0.0_windows_arm.zip",
-          "download_url": "https://github.com/catchpoint/terraform-provider-catchpoint/releases/download/v1.0.0/Integrations.Terraform_1.0.0_windows_arm.zip",
-          "shasum": "8ce2426111b861e20c9ccf4391173585fd08f11942bede7b6273f7e7e4c0220b"
-        },
-        {
-          "os": "windows",
-          "arch": "arm64",
-          "filename": "Integrations.Terraform_1.0.0_windows_arm64.zip",
-          "download_url": "https://github.com/catchpoint/terraform-provider-catchpoint/releases/download/v1.0.0/Integrations.Terraform_1.0.0_windows_arm64.zip",
-          "shasum": "8c253ff6c191176e6681f4649f1459699eca40a669681d317abb7f0a3adc5c92"
-        },
-        {
-          "os": "linux",
-          "arch": "arm64",
-          "filename": "Integrations.Terraform_1.0.0_linux_arm64.zip",
-          "download_url": "https://github.com/catchpoint/terraform-provider-catchpoint/releases/download/v1.0.0/Integrations.Terraform_1.0.0_linux_arm64.zip",
-          "shasum": "1f0ff488eb816dcb352071c8a1492b768dc0f643a21a236184f35dbae06bfd65"
-        },
-        {
-          "os": "darwin",
-          "arch": "amd64",
-          "filename": "Integrations.Terraform_1.0.0_darwin_amd64.zip",
-          "download_url": "https://github.com/catchpoint/terraform-provider-catchpoint/releases/download/v1.0.0/Integrations.Terraform_1.0.0_darwin_amd64.zip",
-          "shasum": "60b26ca8d32bfabaa8e66065934c940b829ad016aad0c94fc10410e42e535765"
         }
       ]
     }
