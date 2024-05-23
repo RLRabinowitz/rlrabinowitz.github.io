@@ -2,6 +2,51 @@
   "repository": "https://github.com/INI-NET-VNC-HCS/terraform-provider-tos",
   "versions": [
     {
+      "version": "1.3.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/SCS-Tufin/terraform-provider-tos/releases/download/v1.3.0/terraform-provider-tos_1.3.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/SCS-Tufin/terraform-provider-tos/releases/download/v1.3.0/terraform-provider-tos_1.3.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-tos_1.3.0_darwin_amd64.zip",
+          "download_url": "https://github.com/SCS-Tufin/terraform-provider-tos/releases/download/v1.3.0/terraform-provider-tos_1.3.0_darwin_amd64.zip",
+          "shasum": "f7f085a4f46b3a2cc2821cd080b77895411a8ca668980edd7d30dcffee89178c"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-tos_1.3.0_darwin_arm64.zip",
+          "download_url": "https://github.com/SCS-Tufin/terraform-provider-tos/releases/download/v1.3.0/terraform-provider-tos_1.3.0_darwin_arm64.zip",
+          "shasum": "806ecfdb864bf7a53c8830ce6882344dc3b3860c1e9cfd84de02069252734261"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-tos_1.3.0_linux_amd64.zip",
+          "download_url": "https://github.com/SCS-Tufin/terraform-provider-tos/releases/download/v1.3.0/terraform-provider-tos_1.3.0_linux_amd64.zip",
+          "shasum": "d911d7025b0818003ceb31e318442b94e7d22206ac6325da16eea655175d8036"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-tos_1.3.0_linux_arm64.zip",
+          "download_url": "https://github.com/SCS-Tufin/terraform-provider-tos/releases/download/v1.3.0/terraform-provider-tos_1.3.0_linux_arm64.zip",
+          "shasum": "3722dbf7a9807ff30698a24f9046c14cd29ac067d82a82cf3b39bbc34a6b4de3"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-tos_1.3.0_windows_amd64.zip",
+          "download_url": "https://github.com/SCS-Tufin/terraform-provider-tos/releases/download/v1.3.0/terraform-provider-tos_1.3.0_windows_amd64.zip",
+          "shasum": "878969b24e6819799a2a8a869067fefda453874d803075f6f758eea58098d13e"
+        }
+      ]
+    },
+    {
       "version": "1.2.1",
       "protocols": [
         "5.0"
@@ -188,196 +233,6 @@
           "filename": "terraform-provider-tos_1.1.0_darwin_amd64.zip",
           "download_url": "https://github.com/SCS-Tufin/terraform-provider-tos/releases/download/v1.1.0/terraform-provider-tos_1.1.0_darwin_amd64.zip",
           "shasum": "bf32a7bda401278400b459c54c5901e1e04c9723c30080d258d3a16014f77fe0"
-        }
-      ]
-    },
-    {
-      "version": "1.0.29",
-      "protocols": [
-        "5.0"
-      ],
-      "shasums_url": "https://github.com/SCS-Tufin/terraform-provider-tos/releases/download/v1.0.29/terraform-provider-tos_1.0.29_SHA256SUMS",
-      "shasums_signature_url": "https://github.com/SCS-Tufin/terraform-provider-tos/releases/download/v1.0.29/terraform-provider-tos_1.0.29_SHA256SUMS.sig",
-      "targets": [
-        {
-          "os": "darwin",
-          "arch": "amd64",
-          "filename": "terraform-provider-tos_1.0.29_darwin_amd64.zip",
-          "download_url": "https://github.com/SCS-Tufin/terraform-provider-tos/releases/download/v1.0.29/terraform-provider-tos_1.0.29_darwin_amd64.zip",
-          "shasum": "868bfa2f9535e854352692ddad4285f63ebfab4d72855c4a744c5d43e0fb6d24"
-        },
-        {
-          "os": "linux",
-          "arch": "amd64",
-          "filename": "terraform-provider-tos_1.0.29_linux_amd64.zip",
-          "download_url": "https://github.com/SCS-Tufin/terraform-provider-tos/releases/download/v1.0.29/terraform-provider-tos_1.0.29_linux_amd64.zip",
-          "shasum": "58bff4119afeeceb29dea8d1d88600e8d95a2ceb3668561d03ac18fdc0572492"
-        },
-        {
-          "os": "linux",
-          "arch": "arm64",
-          "filename": "terraform-provider-tos_1.0.29_linux_arm64.zip",
-          "download_url": "https://github.com/SCS-Tufin/terraform-provider-tos/releases/download/v1.0.29/terraform-provider-tos_1.0.29_linux_arm64.zip",
-          "shasum": "e09c80accdadfdcfbf7963f7d602bb1fc1baf170157d80d50b711d319cd70b0b"
-        },
-        {
-          "os": "windows",
-          "arch": "amd64",
-          "filename": "terraform-provider-tos_1.0.29_windows_amd64.zip",
-          "download_url": "https://github.com/SCS-Tufin/terraform-provider-tos/releases/download/v1.0.29/terraform-provider-tos_1.0.29_windows_amd64.zip",
-          "shasum": "2ec1f941faf598d82c1fd1413d66facc9a8f6839376f790003b9a24af282d8d6"
-        }
-      ]
-    },
-    {
-      "version": "1.0.28",
-      "protocols": [
-        "5.0"
-      ],
-      "shasums_url": "https://github.com/SCS-Tufin/terraform-provider-tos/releases/download/v1.0.28/terraform-provider-tos_1.0.28_SHA256SUMS",
-      "shasums_signature_url": "https://github.com/SCS-Tufin/terraform-provider-tos/releases/download/v1.0.28/terraform-provider-tos_1.0.28_SHA256SUMS.sig",
-      "targets": [
-        {
-          "os": "windows",
-          "arch": "amd64",
-          "filename": "terraform-provider-tos_1.0.28_windows_amd64.zip",
-          "download_url": "https://github.com/SCS-Tufin/terraform-provider-tos/releases/download/v1.0.28/terraform-provider-tos_1.0.28_windows_amd64.zip",
-          "shasum": "b95f90d2ef32afb86990af54df6813c1281ffd9d5c3c97640682b8ddcf4090f0"
-        },
-        {
-          "os": "darwin",
-          "arch": "amd64",
-          "filename": "terraform-provider-tos_1.0.28_darwin_amd64.zip",
-          "download_url": "https://github.com/SCS-Tufin/terraform-provider-tos/releases/download/v1.0.28/terraform-provider-tos_1.0.28_darwin_amd64.zip",
-          "shasum": "be1dcc7db9e90f568343923480050f6c6c3d893fe3bd1d0bcbb03d671d9b7dbb"
-        },
-        {
-          "os": "linux",
-          "arch": "amd64",
-          "filename": "terraform-provider-tos_1.0.28_linux_amd64.zip",
-          "download_url": "https://github.com/SCS-Tufin/terraform-provider-tos/releases/download/v1.0.28/terraform-provider-tos_1.0.28_linux_amd64.zip",
-          "shasum": "61abccee5afe39e3a8e858a8576a6779cf9aff3c3979cec60cced9cc030e1476"
-        },
-        {
-          "os": "linux",
-          "arch": "arm64",
-          "filename": "terraform-provider-tos_1.0.28_linux_arm64.zip",
-          "download_url": "https://github.com/SCS-Tufin/terraform-provider-tos/releases/download/v1.0.28/terraform-provider-tos_1.0.28_linux_arm64.zip",
-          "shasum": "3419ce3326019df4304f5c6a7f8bd6c58e890a9465ef54b5d9da230fa5faf41e"
-        }
-      ]
-    },
-    {
-      "version": "1.0.27",
-      "protocols": [
-        "5.0"
-      ],
-      "shasums_url": "https://github.com/SCS-Tufin/terraform-provider-tos/releases/download/v1.0.27/terraform-provider-tos_1.0.27_SHA256SUMS",
-      "shasums_signature_url": "https://github.com/SCS-Tufin/terraform-provider-tos/releases/download/v1.0.27/terraform-provider-tos_1.0.27_SHA256SUMS.sig",
-      "targets": [
-        {
-          "os": "windows",
-          "arch": "amd64",
-          "filename": "terraform-provider-tos_1.0.27_windows_amd64.zip",
-          "download_url": "https://github.com/SCS-Tufin/terraform-provider-tos/releases/download/v1.0.27/terraform-provider-tos_1.0.27_windows_amd64.zip",
-          "shasum": "c014e19e01f8c5ea59b8f05682f5a3a3a1a36e6c47e3921b1fac7c733c29d569"
-        },
-        {
-          "os": "darwin",
-          "arch": "amd64",
-          "filename": "terraform-provider-tos_1.0.27_darwin_amd64.zip",
-          "download_url": "https://github.com/SCS-Tufin/terraform-provider-tos/releases/download/v1.0.27/terraform-provider-tos_1.0.27_darwin_amd64.zip",
-          "shasum": "e88fe9a7bc7af3edb0ebea80b4e7883e4f050e617c870abea7aa787262262910"
-        },
-        {
-          "os": "linux",
-          "arch": "amd64",
-          "filename": "terraform-provider-tos_1.0.27_linux_amd64.zip",
-          "download_url": "https://github.com/SCS-Tufin/terraform-provider-tos/releases/download/v1.0.27/terraform-provider-tos_1.0.27_linux_amd64.zip",
-          "shasum": "d4ca805a99d638af7f6d003633e80aa5c5311435104a766b17f7ac8067325cd4"
-        },
-        {
-          "os": "linux",
-          "arch": "arm64",
-          "filename": "terraform-provider-tos_1.0.27_linux_arm64.zip",
-          "download_url": "https://github.com/SCS-Tufin/terraform-provider-tos/releases/download/v1.0.27/terraform-provider-tos_1.0.27_linux_arm64.zip",
-          "shasum": "0679b9d80f319c372242a73ce24c31c78917407891fe59d1f3e81adddf71528a"
-        }
-      ]
-    },
-    {
-      "version": "1.0.26",
-      "protocols": [
-        "5.0"
-      ],
-      "shasums_url": "https://github.com/SCS-Tufin/terraform-provider-tos/releases/download/v1.0.26/terraform-provider-tos_1.0.26_SHA256SUMS",
-      "shasums_signature_url": "https://github.com/SCS-Tufin/terraform-provider-tos/releases/download/v1.0.26/terraform-provider-tos_1.0.26_SHA256SUMS.sig",
-      "targets": [
-        {
-          "os": "darwin",
-          "arch": "amd64",
-          "filename": "terraform-provider-tos_1.0.26_darwin_amd64.zip",
-          "download_url": "https://github.com/SCS-Tufin/terraform-provider-tos/releases/download/v1.0.26/terraform-provider-tos_1.0.26_darwin_amd64.zip",
-          "shasum": "dbd10dcb5f005ef22e600b8d32130873fa264d2822957f4ce1dbd937e43397d9"
-        },
-        {
-          "os": "linux",
-          "arch": "amd64",
-          "filename": "terraform-provider-tos_1.0.26_linux_amd64.zip",
-          "download_url": "https://github.com/SCS-Tufin/terraform-provider-tos/releases/download/v1.0.26/terraform-provider-tos_1.0.26_linux_amd64.zip",
-          "shasum": "6a6f621984a7016f4352ac73996526f29a527c18561ac927bce0343665c0971c"
-        },
-        {
-          "os": "linux",
-          "arch": "arm64",
-          "filename": "terraform-provider-tos_1.0.26_linux_arm64.zip",
-          "download_url": "https://github.com/SCS-Tufin/terraform-provider-tos/releases/download/v1.0.26/terraform-provider-tos_1.0.26_linux_arm64.zip",
-          "shasum": "064ce7f77183cc3b095a76f60092ca4ba2ea3c8acb8bcfc8fdfc7515b27299c9"
-        },
-        {
-          "os": "windows",
-          "arch": "amd64",
-          "filename": "terraform-provider-tos_1.0.26_windows_amd64.zip",
-          "download_url": "https://github.com/SCS-Tufin/terraform-provider-tos/releases/download/v1.0.26/terraform-provider-tos_1.0.26_windows_amd64.zip",
-          "shasum": "f4a392847ac977139145439dac2bbef2bc90e595817e9a3c952e5baea60f1f9a"
-        }
-      ]
-    },
-    {
-      "version": "1.0.25",
-      "protocols": [
-        "5.0"
-      ],
-      "shasums_url": "https://github.com/SCS-Tufin/terraform-provider-tos/releases/download/v1.0.25/terraform-provider-tos_1.0.25_SHA256SUMS",
-      "shasums_signature_url": "https://github.com/SCS-Tufin/terraform-provider-tos/releases/download/v1.0.25/terraform-provider-tos_1.0.25_SHA256SUMS.sig",
-      "targets": [
-        {
-          "os": "darwin",
-          "arch": "amd64",
-          "filename": "terraform-provider-tos_1.0.25_darwin_amd64.zip",
-          "download_url": "https://github.com/SCS-Tufin/terraform-provider-tos/releases/download/v1.0.25/terraform-provider-tos_1.0.25_darwin_amd64.zip",
-          "shasum": "fa50e5f708b90e51397a169080be5e5899651f78a882e85c43d88f0e1c4d6603"
-        },
-        {
-          "os": "linux",
-          "arch": "amd64",
-          "filename": "terraform-provider-tos_1.0.25_linux_amd64.zip",
-          "download_url": "https://github.com/SCS-Tufin/terraform-provider-tos/releases/download/v1.0.25/terraform-provider-tos_1.0.25_linux_amd64.zip",
-          "shasum": "d33a74aa7734e37b2beaf73cd8a696e63058b2a5cd8ee267f5c7e782431ffd4b"
-        },
-        {
-          "os": "linux",
-          "arch": "arm64",
-          "filename": "terraform-provider-tos_1.0.25_linux_arm64.zip",
-          "download_url": "https://github.com/SCS-Tufin/terraform-provider-tos/releases/download/v1.0.25/terraform-provider-tos_1.0.25_linux_arm64.zip",
-          "shasum": "484ef6a6046c9f3b87f8cc680c960d45810756bfccf22680222d53327c9bb733"
-        },
-        {
-          "os": "windows",
-          "arch": "amd64",
-          "filename": "terraform-provider-tos_1.0.25_windows_amd64.zip",
-          "download_url": "https://github.com/SCS-Tufin/terraform-provider-tos/releases/download/v1.0.25/terraform-provider-tos_1.0.25_windows_amd64.zip",
-          "shasum": "351d051dc7cf602d2820ed24f60320c5c62121447fdade907d7f5bea73a46bfd"
         }
       ]
     }
