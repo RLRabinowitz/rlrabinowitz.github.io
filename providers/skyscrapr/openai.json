@@ -2,6 +2,114 @@
   "repository": "https://github.com/skyscrapr/terraform-provider-openai",
   "versions": [
     {
+      "version": "1.3.1",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/skyscrapr/terraform-provider-openai/releases/download/v1.3.1/terraform-provider-openai_1.3.1_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/skyscrapr/terraform-provider-openai/releases/download/v1.3.1/terraform-provider-openai_1.3.1_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-openai_1.3.1_freebsd_arm64.zip",
+          "download_url": "https://github.com/skyscrapr/terraform-provider-openai/releases/download/v1.3.1/terraform-provider-openai_1.3.1_freebsd_arm64.zip",
+          "shasum": "888acab9050d0319a388d5dad81795b58cd2e950ac75bc430c608abf4cd06204"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-openai_1.3.1_freebsd_amd64.zip",
+          "download_url": "https://github.com/skyscrapr/terraform-provider-openai/releases/download/v1.3.1/terraform-provider-openai_1.3.1_freebsd_amd64.zip",
+          "shasum": "4c3f6cf0a9af02fa4c083fa60049709d4edc2d3cb1bdbcb4ad214de9eccc27f3"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-openai_1.3.1_linux_arm64.zip",
+          "download_url": "https://github.com/skyscrapr/terraform-provider-openai/releases/download/v1.3.1/terraform-provider-openai_1.3.1_linux_arm64.zip",
+          "shasum": "bc2a7f0491daca0db21ebf0023c3dcc85c3a5d6203f56d4c6fab18ffa806e0af"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-openai_1.3.1_freebsd_arm.zip",
+          "download_url": "https://github.com/skyscrapr/terraform-provider-openai/releases/download/v1.3.1/terraform-provider-openai_1.3.1_freebsd_arm.zip",
+          "shasum": "9ddca526d2d66fa4f923f180f160de7de5cd18cee8cf3d69ca6f6efe294a8122"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-openai_1.3.1_linux_386.zip",
+          "download_url": "https://github.com/skyscrapr/terraform-provider-openai/releases/download/v1.3.1/terraform-provider-openai_1.3.1_linux_386.zip",
+          "shasum": "ceebf43980c6f8b92c182089df3e7aeb7118a45ddf4dad83e123b38e78c62eab"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-openai_1.3.1_freebsd_386.zip",
+          "download_url": "https://github.com/skyscrapr/terraform-provider-openai/releases/download/v1.3.1/terraform-provider-openai_1.3.1_freebsd_386.zip",
+          "shasum": "9a4a5027d22b879cb0cb062467d7b4dd4f47bc9fff3f3ffad5dfc57fd5c79a39"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-openai_1.3.1_linux_amd64.zip",
+          "download_url": "https://github.com/skyscrapr/terraform-provider-openai/releases/download/v1.3.1/terraform-provider-openai_1.3.1_linux_amd64.zip",
+          "shasum": "3c0b71cdec10dad3f63e15b505742dd44dc0a4ba6f75d816a511fa2461e84b80"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-openai_1.3.1_darwin_amd64.zip",
+          "download_url": "https://github.com/skyscrapr/terraform-provider-openai/releases/download/v1.3.1/terraform-provider-openai_1.3.1_darwin_amd64.zip",
+          "shasum": "fa180ee01732cd86d340276117bf14cb037e1b65ea156e972cb38375f7337da4"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-openai_1.3.1_windows_386.zip",
+          "download_url": "https://github.com/skyscrapr/terraform-provider-openai/releases/download/v1.3.1/terraform-provider-openai_1.3.1_windows_386.zip",
+          "shasum": "7074c9d92bac2e27b5bad4f1020ed5401e443b650428ccc66abc554ad75dd198"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-openai_1.3.1_linux_arm.zip",
+          "download_url": "https://github.com/skyscrapr/terraform-provider-openai/releases/download/v1.3.1/terraform-provider-openai_1.3.1_linux_arm.zip",
+          "shasum": "bde3fea0f4affde3f5106537de1055336dd526bfb4e3562dfc8b4ca4c8cfee6b"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-openai_1.3.1_windows_arm64.zip",
+          "download_url": "https://github.com/skyscrapr/terraform-provider-openai/releases/download/v1.3.1/terraform-provider-openai_1.3.1_windows_arm64.zip",
+          "shasum": "b833291b37318c849e3d01fa11df70b04f325e335fda3bad15d2f7fe9f6fb7a8"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-openai_1.3.1_windows_amd64.zip",
+          "download_url": "https://github.com/skyscrapr/terraform-provider-openai/releases/download/v1.3.1/terraform-provider-openai_1.3.1_windows_amd64.zip",
+          "shasum": "ba200b9df91342dc0d1e5a4827c72c43bc4e5810e73ebb073576ae5a02427b29"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-openai_1.3.1_darwin_arm64.zip",
+          "download_url": "https://github.com/skyscrapr/terraform-provider-openai/releases/download/v1.3.1/terraform-provider-openai_1.3.1_darwin_arm64.zip",
+          "shasum": "b86ad7ae1822647ab911cbe07e41573452e6700df8eaf76c5deef71525f05cba"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-openai_1.3.1_windows_arm.zip",
+          "download_url": "https://github.com/skyscrapr/terraform-provider-openai/releases/download/v1.3.1/terraform-provider-openai_1.3.1_windows_arm.zip",
+          "shasum": "40c2db35f7d931ac97d2b7dddbcfd72156d23a34ab00e276721232ce620053f3"
+        }
+      ]
+    },
+    {
       "version": "1.3.0",
       "protocols": [
         "5.0"
