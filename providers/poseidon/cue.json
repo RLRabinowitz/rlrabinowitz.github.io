@@ -2,6 +2,51 @@
   "repository": "https://github.com/poseidon/terraform-provider-cue",
   "versions": [
     {
+      "version": "0.4.1",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/poseidon/terraform-provider-cue/releases/download/v0.4.1/terraform-provider-cue_0.4.1_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/poseidon/terraform-provider-cue/releases/download/v0.4.1/terraform-provider-cue_0.4.1_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-cue_0.4.1_windows_amd64.zip",
+          "download_url": "https://github.com/poseidon/terraform-provider-cue/releases/download/v0.4.1/terraform-provider-cue_0.4.1_windows_amd64.zip",
+          "shasum": "d5c28be3cf8282d83bc6c9b0dd294a21afb622ef5dea6d5feb58937473ea7bb5"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-cue_0.4.1_darwin_arm64.zip",
+          "download_url": "https://github.com/poseidon/terraform-provider-cue/releases/download/v0.4.1/terraform-provider-cue_0.4.1_darwin_arm64.zip",
+          "shasum": "1d5c09487ecc5177d8dbc005c47a73cc5221dd8e86054d0ad0cff70d60fb5324"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-cue_0.4.1_darwin_amd64.zip",
+          "download_url": "https://github.com/poseidon/terraform-provider-cue/releases/download/v0.4.1/terraform-provider-cue_0.4.1_darwin_amd64.zip",
+          "shasum": "8dbbfa7ac9ef06948cdf66214d71fc09ac152827ba276400427af8df0cd3ef12"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-cue_0.4.1_linux_arm64.zip",
+          "download_url": "https://github.com/poseidon/terraform-provider-cue/releases/download/v0.4.1/terraform-provider-cue_0.4.1_linux_arm64.zip",
+          "shasum": "9d91779c7bf295e3e814ec275510a9edffd1d9440dcacf5db21bfcd1efa517cc"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-cue_0.4.1_linux_amd64.zip",
+          "download_url": "https://github.com/poseidon/terraform-provider-cue/releases/download/v0.4.1/terraform-provider-cue_0.4.1_linux_amd64.zip",
+          "shasum": "b46af777d4106fe1ef1f6949aeb75c3913053b627e756f47d07db25dd585962b"
+        }
+      ]
+    },
+    {
       "version": "0.4.0",
       "protocols": [
         "5.0"
