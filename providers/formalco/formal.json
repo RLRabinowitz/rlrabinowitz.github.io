@@ -2,6 +2,114 @@
   "repository": "https://github.com/formalco/terraform-provider-formal",
   "versions": [
     {
+      "version": "4.0.5",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/formalco/terraform-provider-formal/releases/download/v4.0.5/terraform-provider-formal_4.0.5_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/formalco/terraform-provider-formal/releases/download/v4.0.5/terraform-provider-formal_4.0.5_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-formal_4.0.5_darwin_arm64.zip",
+          "download_url": "https://github.com/formalco/terraform-provider-formal/releases/download/v4.0.5/terraform-provider-formal_4.0.5_darwin_arm64.zip",
+          "shasum": "925f3443cb8f46bc695595ffeda368eee6d25c03decb24ce786edd62b26feced"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-formal_4.0.5_windows_386.zip",
+          "download_url": "https://github.com/formalco/terraform-provider-formal/releases/download/v4.0.5/terraform-provider-formal_4.0.5_windows_386.zip",
+          "shasum": "a1733a54b4e7f9984c5bb5acfabe01a6fd65cdc1e2f2f1ad45ba21dc4ad975db"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-formal_4.0.5_windows_arm64.zip",
+          "download_url": "https://github.com/formalco/terraform-provider-formal/releases/download/v4.0.5/terraform-provider-formal_4.0.5_windows_arm64.zip",
+          "shasum": "22b38ab75a318892fe790a422c9e6ddd784df57d5b24b22f90153ce2d0beeae6"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-formal_4.0.5_freebsd_386.zip",
+          "download_url": "https://github.com/formalco/terraform-provider-formal/releases/download/v4.0.5/terraform-provider-formal_4.0.5_freebsd_386.zip",
+          "shasum": "be85145c293bf1fcbd1832970986d4cab759ac61efe83c2f5b8ccd64f588b462"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-formal_4.0.5_windows_arm.zip",
+          "download_url": "https://github.com/formalco/terraform-provider-formal/releases/download/v4.0.5/terraform-provider-formal_4.0.5_windows_arm.zip",
+          "shasum": "06803a92990a0488a8b729b74b8bfe4255735b4504003d7c2caf7340035d71d9"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-formal_4.0.5_freebsd_arm64.zip",
+          "download_url": "https://github.com/formalco/terraform-provider-formal/releases/download/v4.0.5/terraform-provider-formal_4.0.5_freebsd_arm64.zip",
+          "shasum": "e24943b5dacdc1a07234b706df7f3eb74af8e6780cf61e84b44a112a8e2af0a3"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-formal_4.0.5_freebsd_amd64.zip",
+          "download_url": "https://github.com/formalco/terraform-provider-formal/releases/download/v4.0.5/terraform-provider-formal_4.0.5_freebsd_amd64.zip",
+          "shasum": "32d6bb1bccdca7030d15c01ce87075304c4596da4b70cf046801a94f2b4a8c95"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-formal_4.0.5_windows_amd64.zip",
+          "download_url": "https://github.com/formalco/terraform-provider-formal/releases/download/v4.0.5/terraform-provider-formal_4.0.5_windows_amd64.zip",
+          "shasum": "574bad619c1367871ea5b67cce1b718e1f45bd5702bba780be5491e90e753bca"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-formal_4.0.5_freebsd_arm.zip",
+          "download_url": "https://github.com/formalco/terraform-provider-formal/releases/download/v4.0.5/terraform-provider-formal_4.0.5_freebsd_arm.zip",
+          "shasum": "b68d6efee4f2bf7f232c58569c09be3e4f036d166287d18ca8a51c8bdb52747c"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-formal_4.0.5_linux_386.zip",
+          "download_url": "https://github.com/formalco/terraform-provider-formal/releases/download/v4.0.5/terraform-provider-formal_4.0.5_linux_386.zip",
+          "shasum": "81dad0a052601bead4f6d50b8ded9d096adcecf369ecb79c8a26dc461b7e5a6c"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-formal_4.0.5_linux_arm64.zip",
+          "download_url": "https://github.com/formalco/terraform-provider-formal/releases/download/v4.0.5/terraform-provider-formal_4.0.5_linux_arm64.zip",
+          "shasum": "efab8661f87a0e963822dc9dd45b0bc77a8efc8f7425745865dc95a79852c086"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-formal_4.0.5_linux_amd64.zip",
+          "download_url": "https://github.com/formalco/terraform-provider-formal/releases/download/v4.0.5/terraform-provider-formal_4.0.5_linux_amd64.zip",
+          "shasum": "ab14f54037d546b5a42bee978c94f2626b98716954fcd9fc8ce8f4c86fee0ee7"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-formal_4.0.5_linux_arm.zip",
+          "download_url": "https://github.com/formalco/terraform-provider-formal/releases/download/v4.0.5/terraform-provider-formal_4.0.5_linux_arm.zip",
+          "shasum": "3027af8f786ce8554df73e3348adc36339e8cd5a822c23be7fed238afcb01b41"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-formal_4.0.5_darwin_amd64.zip",
+          "download_url": "https://github.com/formalco/terraform-provider-formal/releases/download/v4.0.5/terraform-provider-formal_4.0.5_darwin_amd64.zip",
+          "shasum": "54b96e1007475f7174ed4d73f820375f6db9c8db2cd86af23a05b7d52b53c9ce"
+        }
+      ]
+    },
+    {
       "version": "3.4.7",
       "protocols": [
         "5.0"
