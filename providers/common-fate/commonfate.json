@@ -2,6 +2,114 @@
   "repository": "https://github.com/common-fate/terraform-provider-commonfate",
   "versions": [
     {
+      "version": "2.18.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/common-fate/terraform-provider-commonfate/releases/download/v2.18.0/terraform-provider-commonfate_2.18.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/common-fate/terraform-provider-commonfate/releases/download/v2.18.0/terraform-provider-commonfate_2.18.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-commonfate_2.18.0_linux_386.zip",
+          "download_url": "https://github.com/common-fate/terraform-provider-commonfate/releases/download/v2.18.0/terraform-provider-commonfate_2.18.0_linux_386.zip",
+          "shasum": "64fffa587fc5ca6b1f69ddf0c36f536d7a7c4b9a6822e52a6890d11bba463378"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-commonfate_2.18.0_windows_arm64.zip",
+          "download_url": "https://github.com/common-fate/terraform-provider-commonfate/releases/download/v2.18.0/terraform-provider-commonfate_2.18.0_windows_arm64.zip",
+          "shasum": "4e13d7a2ea3472dbc122d22670b9e2d3f548cfd182b8228755ba1bb74a58449e"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-commonfate_2.18.0_darwin_arm64.zip",
+          "download_url": "https://github.com/common-fate/terraform-provider-commonfate/releases/download/v2.18.0/terraform-provider-commonfate_2.18.0_darwin_arm64.zip",
+          "shasum": "01a0b60e792bdbf3552d184ad13e1339955c9e301b0785e4746a15d0b4c69b10"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-commonfate_2.18.0_windows_386.zip",
+          "download_url": "https://github.com/common-fate/terraform-provider-commonfate/releases/download/v2.18.0/terraform-provider-commonfate_2.18.0_windows_386.zip",
+          "shasum": "5ef2f60c1d8ed138d31d6e9a24301f0ecb9d6787582d6a7184eedfc995bec5ca"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-commonfate_2.18.0_linux_arm.zip",
+          "download_url": "https://github.com/common-fate/terraform-provider-commonfate/releases/download/v2.18.0/terraform-provider-commonfate_2.18.0_linux_arm.zip",
+          "shasum": "9395d33826e02509e8e93783897c9c735dbe0dd7aa11fde234288457346d195b"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-commonfate_2.18.0_freebsd_386.zip",
+          "download_url": "https://github.com/common-fate/terraform-provider-commonfate/releases/download/v2.18.0/terraform-provider-commonfate_2.18.0_freebsd_386.zip",
+          "shasum": "6442afdbabb06bc0101281251296334fe3537055bc2f7aab1703e3d0b4da0c3a"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-commonfate_2.18.0_windows_amd64.zip",
+          "download_url": "https://github.com/common-fate/terraform-provider-commonfate/releases/download/v2.18.0/terraform-provider-commonfate_2.18.0_windows_amd64.zip",
+          "shasum": "ae4c167df894926fe574e64cd56cbc9afcd7fbb510ed258ee610ec21aee545b2"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-commonfate_2.18.0_linux_amd64.zip",
+          "download_url": "https://github.com/common-fate/terraform-provider-commonfate/releases/download/v2.18.0/terraform-provider-commonfate_2.18.0_linux_amd64.zip",
+          "shasum": "93762b2de3247543eefb146dc8607b6ecd6b2f0602cd93c7ecb3eb9e3aa0182b"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-commonfate_2.18.0_windows_arm.zip",
+          "download_url": "https://github.com/common-fate/terraform-provider-commonfate/releases/download/v2.18.0/terraform-provider-commonfate_2.18.0_windows_arm.zip",
+          "shasum": "8bdc4f82734196fff4cc61b0e53660faf66775fc88834db365a52ead23a7df18"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-commonfate_2.18.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/common-fate/terraform-provider-commonfate/releases/download/v2.18.0/terraform-provider-commonfate_2.18.0_freebsd_amd64.zip",
+          "shasum": "3a4c21766e2335586e218da20a4a0d2d477277ae09c6cb7a2750fc6db50855dd"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-commonfate_2.18.0_linux_arm64.zip",
+          "download_url": "https://github.com/common-fate/terraform-provider-commonfate/releases/download/v2.18.0/terraform-provider-commonfate_2.18.0_linux_arm64.zip",
+          "shasum": "37d83d3f059bb57a3ae101f4c7bac00d8346b8fff68cd160ce8e242eeb9ebd36"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-commonfate_2.18.0_freebsd_arm.zip",
+          "download_url": "https://github.com/common-fate/terraform-provider-commonfate/releases/download/v2.18.0/terraform-provider-commonfate_2.18.0_freebsd_arm.zip",
+          "shasum": "08e5bdd1de59a2db63c06f47981ac88fb3deadbde4924a7588b1d95c7c6c923e"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-commonfate_2.18.0_darwin_amd64.zip",
+          "download_url": "https://github.com/common-fate/terraform-provider-commonfate/releases/download/v2.18.0/terraform-provider-commonfate_2.18.0_darwin_amd64.zip",
+          "shasum": "9cd97e8bbf118d7f724f65c09fd440f593f88e79abf032802ae48764525861d5"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-commonfate_2.18.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/common-fate/terraform-provider-commonfate/releases/download/v2.18.0/terraform-provider-commonfate_2.18.0_freebsd_arm64.zip",
+          "shasum": "9874b1d6108eb77f9d4ba03cc06f1fcaec91f446b9eb53ee90fd99a7d8db662e"
+        }
+      ]
+    },
+    {
       "version": "2.17.0",
       "protocols": [
         "5.0"
