@@ -2,6 +2,114 @@
   "repository": "https://github.com/lightstep/terraform-provider-lightstep",
   "versions": [
     {
+      "version": "1.95.3",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/lightstep/terraform-provider-lightstep/releases/download/v1.95.3/terraform-provider-lightstep_1.95.3_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/lightstep/terraform-provider-lightstep/releases/download/v1.95.3/terraform-provider-lightstep_1.95.3_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-lightstep_1.95.3_windows_amd64.zip",
+          "download_url": "https://github.com/lightstep/terraform-provider-lightstep/releases/download/v1.95.3/terraform-provider-lightstep_1.95.3_windows_amd64.zip",
+          "shasum": "4d72d8d490cdf2b6958356a9eff1c4beae52cf7b2afee65e8b31d7126ad6e39d"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-lightstep_1.95.3_linux_386.zip",
+          "download_url": "https://github.com/lightstep/terraform-provider-lightstep/releases/download/v1.95.3/terraform-provider-lightstep_1.95.3_linux_386.zip",
+          "shasum": "8e08c28b8e9814b53bc067f4fe733c93ecafc20a66752068540893afeaa5f065"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-lightstep_1.95.3_windows_386.zip",
+          "download_url": "https://github.com/lightstep/terraform-provider-lightstep/releases/download/v1.95.3/terraform-provider-lightstep_1.95.3_windows_386.zip",
+          "shasum": "73d2a9bfb23e69a13cf6b0355b49eaa57630df7cac62c283bc66eb09e4ca7ed6"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-lightstep_1.95.3_freebsd_arm64.zip",
+          "download_url": "https://github.com/lightstep/terraform-provider-lightstep/releases/download/v1.95.3/terraform-provider-lightstep_1.95.3_freebsd_arm64.zip",
+          "shasum": "633f2e9dffb3afa6b934ad2063ed0228057bfe31116fbc382f26470b371258b9"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-lightstep_1.95.3_freebsd_arm.zip",
+          "download_url": "https://github.com/lightstep/terraform-provider-lightstep/releases/download/v1.95.3/terraform-provider-lightstep_1.95.3_freebsd_arm.zip",
+          "shasum": "117ee8b041f3ae944818c72df867b0488e7dbfb32a95e533eda0f559def53b13"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-lightstep_1.95.3_freebsd_amd64.zip",
+          "download_url": "https://github.com/lightstep/terraform-provider-lightstep/releases/download/v1.95.3/terraform-provider-lightstep_1.95.3_freebsd_amd64.zip",
+          "shasum": "9f3a13560b64e66c8bee18aad934e350597da58a9919e12fae46997b51539f09"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-lightstep_1.95.3_linux_amd64.zip",
+          "download_url": "https://github.com/lightstep/terraform-provider-lightstep/releases/download/v1.95.3/terraform-provider-lightstep_1.95.3_linux_amd64.zip",
+          "shasum": "346734abddb1ed3391169dec856eefd6c87fb4041ceb08b2337437fb23acc0d0"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-lightstep_1.95.3_freebsd_386.zip",
+          "download_url": "https://github.com/lightstep/terraform-provider-lightstep/releases/download/v1.95.3/terraform-provider-lightstep_1.95.3_freebsd_386.zip",
+          "shasum": "86493f4bbcb77c378e562e5ba6d7bbe5459706e437743d1cc1f6daad86e959e8"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-lightstep_1.95.3_darwin_amd64.zip",
+          "download_url": "https://github.com/lightstep/terraform-provider-lightstep/releases/download/v1.95.3/terraform-provider-lightstep_1.95.3_darwin_amd64.zip",
+          "shasum": "fd3d79e27f57d14a803ad5205a6f5a9e200effc3785a77ab5b5824c7c54af820"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-lightstep_1.95.3_windows_arm.zip",
+          "download_url": "https://github.com/lightstep/terraform-provider-lightstep/releases/download/v1.95.3/terraform-provider-lightstep_1.95.3_windows_arm.zip",
+          "shasum": "ec765ea05780e69900aa5a1067c34c1d82251188b7943982ea6903d0f52ef523"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-lightstep_1.95.3_linux_arm.zip",
+          "download_url": "https://github.com/lightstep/terraform-provider-lightstep/releases/download/v1.95.3/terraform-provider-lightstep_1.95.3_linux_arm.zip",
+          "shasum": "9a0d40e6b87c78af548a031d992d5db98a571dd4eb1ab42d574e9c2458984242"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-lightstep_1.95.3_darwin_arm64.zip",
+          "download_url": "https://github.com/lightstep/terraform-provider-lightstep/releases/download/v1.95.3/terraform-provider-lightstep_1.95.3_darwin_arm64.zip",
+          "shasum": "6a1c1127e79c252bcfd5270f4f6f460ac0393407b4aedc6010aa9c780f886e33"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-lightstep_1.95.3_windows_arm64.zip",
+          "download_url": "https://github.com/lightstep/terraform-provider-lightstep/releases/download/v1.95.3/terraform-provider-lightstep_1.95.3_windows_arm64.zip",
+          "shasum": "1336a1a4a3bc02cf527582d92a0a018eec5b7603fdf113c7cca43f1fc2323367"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-lightstep_1.95.3_linux_arm64.zip",
+          "download_url": "https://github.com/lightstep/terraform-provider-lightstep/releases/download/v1.95.3/terraform-provider-lightstep_1.95.3_linux_arm64.zip",
+          "shasum": "10aafae58800deb059b7dc95bf2b35f65cb0a2197256d877ae66daa0e57ee1af"
+        }
+      ]
+    },
+    {
       "version": "1.95.2",
       "protocols": [
         "5.0"
@@ -10,102 +118,102 @@
       "shasums_signature_url": "https://github.com/lightstep/terraform-provider-lightstep/releases/download/v1.95.2/terraform-provider-lightstep_1.95.2_SHA256SUMS.sig",
       "targets": [
         {
-          "os": "linux",
-          "arch": "arm64",
-          "filename": "terraform-provider-lightstep_1.95.2_linux_arm64.zip",
-          "download_url": "https://github.com/lightstep/terraform-provider-lightstep/releases/download/v1.95.2/terraform-provider-lightstep_1.95.2_linux_arm64.zip",
-          "shasum": "1293973fbc26f97eea81274b1255d5764e360d2645677cdc05a6f831ef0eb21c"
-        },
-        {
-          "os": "windows",
-          "arch": "arm64",
-          "filename": "terraform-provider-lightstep_1.95.2_windows_arm64.zip",
-          "download_url": "https://github.com/lightstep/terraform-provider-lightstep/releases/download/v1.95.2/terraform-provider-lightstep_1.95.2_windows_arm64.zip",
-          "shasum": "c104c3fe743a2db38d45dc3fc7c883f4ba69194031fac589d0c8fb76457ee946"
-        },
-        {
-          "os": "linux",
-          "arch": "386",
-          "filename": "terraform-provider-lightstep_1.95.2_linux_386.zip",
-          "download_url": "https://github.com/lightstep/terraform-provider-lightstep/releases/download/v1.95.2/terraform-provider-lightstep_1.95.2_linux_386.zip",
-          "shasum": "02833c6ab2015a4f83b4b5b91d7c9c0ba1e466d84a66808d1c3639c2b43ec4ae"
-        },
-        {
-          "os": "darwin",
-          "arch": "amd64",
-          "filename": "terraform-provider-lightstep_1.95.2_darwin_amd64.zip",
-          "download_url": "https://github.com/lightstep/terraform-provider-lightstep/releases/download/v1.95.2/terraform-provider-lightstep_1.95.2_darwin_amd64.zip",
-          "shasum": "6449541e2791ae3be569334b28e4ce772a86b101ad772c8a12276155c1ff1616"
-        },
-        {
           "os": "freebsd",
-          "arch": "arm",
-          "filename": "terraform-provider-lightstep_1.95.2_freebsd_arm.zip",
-          "download_url": "https://github.com/lightstep/terraform-provider-lightstep/releases/download/v1.95.2/terraform-provider-lightstep_1.95.2_freebsd_arm.zip",
-          "shasum": "d311ff67ff61d70b08e2e757f985c9279c71bb5a4ca56a3ba1d00f895f5f6b68"
-        },
-        {
-          "os": "freebsd",
-          "arch": "386",
-          "filename": "terraform-provider-lightstep_1.95.2_freebsd_386.zip",
-          "download_url": "https://github.com/lightstep/terraform-provider-lightstep/releases/download/v1.95.2/terraform-provider-lightstep_1.95.2_freebsd_386.zip",
-          "shasum": "2207ff8c9eea6e5a9e90514fdb8ca19b3d5868bdc1103f8728700a357f950834"
-        },
-        {
-          "os": "darwin",
           "arch": "arm64",
-          "filename": "terraform-provider-lightstep_1.95.2_darwin_arm64.zip",
-          "download_url": "https://github.com/lightstep/terraform-provider-lightstep/releases/download/v1.95.2/terraform-provider-lightstep_1.95.2_darwin_arm64.zip",
-          "shasum": "4f1192660cbb9aacd345d6c88f6bb4290cdc19f3ff6dff3ac10989e39f093e0e"
-        },
-        {
-          "os": "linux",
-          "arch": "amd64",
-          "filename": "terraform-provider-lightstep_1.95.2_linux_amd64.zip",
-          "download_url": "https://github.com/lightstep/terraform-provider-lightstep/releases/download/v1.95.2/terraform-provider-lightstep_1.95.2_linux_amd64.zip",
-          "shasum": "3919ccdef029caae05bd97f2d5ce1b90a2902b09ab46c84e79c569b797664e6c"
-        },
-        {
-          "os": "windows",
-          "arch": "amd64",
-          "filename": "terraform-provider-lightstep_1.95.2_windows_amd64.zip",
-          "download_url": "https://github.com/lightstep/terraform-provider-lightstep/releases/download/v1.95.2/terraform-provider-lightstep_1.95.2_windows_amd64.zip",
-          "shasum": "7ba33649e019b34cd2e2203a0702866b848eac61231f9c6d723098c418fa98c9"
+          "filename": "terraform-provider-lightstep_1.95.2_freebsd_arm64.zip",
+          "download_url": "https://github.com/lightstep/terraform-provider-lightstep/releases/download/v1.95.2/terraform-provider-lightstep_1.95.2_freebsd_arm64.zip",
+          "shasum": "f160052131e2a536d71d4b5921d102c35d911a2b8e1402a6afd7eed00568410b"
         },
         {
           "os": "windows",
           "arch": "arm",
           "filename": "terraform-provider-lightstep_1.95.2_windows_arm.zip",
           "download_url": "https://github.com/lightstep/terraform-provider-lightstep/releases/download/v1.95.2/terraform-provider-lightstep_1.95.2_windows_arm.zip",
-          "shasum": "e4f625e6dee0a292ad2964dd75588dd8e3558ff0111fb5de2469868ba2c1daaf"
+          "shasum": "d969b471e0d441c31de2ea45b744883375b2bbec4c4f162b9da2d533ca3902bf"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-lightstep_1.95.2_darwin_amd64.zip",
+          "download_url": "https://github.com/lightstep/terraform-provider-lightstep/releases/download/v1.95.2/terraform-provider-lightstep_1.95.2_darwin_amd64.zip",
+          "shasum": "535fafb1e6318c02d667a7b3000c70bdaacff5be08dca969d982f08db7d6f4b9"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-lightstep_1.95.2_darwin_arm64.zip",
+          "download_url": "https://github.com/lightstep/terraform-provider-lightstep/releases/download/v1.95.2/terraform-provider-lightstep_1.95.2_darwin_arm64.zip",
+          "shasum": "0810c2685e1b87c398ee49291a58c3da2cdfa6a8bc993b683d0e073057bc0045"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-lightstep_1.95.2_freebsd_386.zip",
+          "download_url": "https://github.com/lightstep/terraform-provider-lightstep/releases/download/v1.95.2/terraform-provider-lightstep_1.95.2_freebsd_386.zip",
+          "shasum": "bfebbee45ffc6878c48c3429e90ae151b913058c10cface07d3336959731c6f8"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-lightstep_1.95.2_windows_amd64.zip",
+          "download_url": "https://github.com/lightstep/terraform-provider-lightstep/releases/download/v1.95.2/terraform-provider-lightstep_1.95.2_windows_amd64.zip",
+          "shasum": "f745e7948f903317b0d16ed5749760f46e00d7308f15fd74a1e37117e1d343ee"
         },
         {
           "os": "linux",
-          "arch": "arm",
-          "filename": "terraform-provider-lightstep_1.95.2_linux_arm.zip",
-          "download_url": "https://github.com/lightstep/terraform-provider-lightstep/releases/download/v1.95.2/terraform-provider-lightstep_1.95.2_linux_arm.zip",
-          "shasum": "d2ae7abbdca8f01558e484b91866ccacb1143e45ba08661ebe7ff389fb7229a9"
+          "arch": "amd64",
+          "filename": "terraform-provider-lightstep_1.95.2_linux_amd64.zip",
+          "download_url": "https://github.com/lightstep/terraform-provider-lightstep/releases/download/v1.95.2/terraform-provider-lightstep_1.95.2_linux_amd64.zip",
+          "shasum": "b2ae71a409b6262f5266d6d024d020c8810c20aa22e33c447a946114fcb496d8"
         },
         {
           "os": "windows",
           "arch": "386",
           "filename": "terraform-provider-lightstep_1.95.2_windows_386.zip",
           "download_url": "https://github.com/lightstep/terraform-provider-lightstep/releases/download/v1.95.2/terraform-provider-lightstep_1.95.2_windows_386.zip",
-          "shasum": "5ac929238ff5592354371744e5454900202fb4f350a4cb29d723177b500db14f"
-        },
-        {
-          "os": "freebsd",
-          "arch": "arm64",
-          "filename": "terraform-provider-lightstep_1.95.2_freebsd_arm64.zip",
-          "download_url": "https://github.com/lightstep/terraform-provider-lightstep/releases/download/v1.95.2/terraform-provider-lightstep_1.95.2_freebsd_arm64.zip",
-          "shasum": "5007471132b7721d3179ca99d3f07f150f15dfbf79bab0a89200605b999a5ab7"
+          "shasum": "8b39f75d03da67c91289cc692935a1039cca0af9cdc969840ae0c3a4539c7d3d"
         },
         {
           "os": "freebsd",
           "arch": "amd64",
           "filename": "terraform-provider-lightstep_1.95.2_freebsd_amd64.zip",
           "download_url": "https://github.com/lightstep/terraform-provider-lightstep/releases/download/v1.95.2/terraform-provider-lightstep_1.95.2_freebsd_amd64.zip",
-          "shasum": "f8c237a8bbdcff085d56b0575354e70303ec5b6a9380ac836bcad33aa4a7ca72"
+          "shasum": "29c1ce9625eb7e4362b7aae82972bbd8c6aa14ae77ef0ae45785ae467b10f5af"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-lightstep_1.95.2_linux_arm.zip",
+          "download_url": "https://github.com/lightstep/terraform-provider-lightstep/releases/download/v1.95.2/terraform-provider-lightstep_1.95.2_linux_arm.zip",
+          "shasum": "8b49a1c3cd04a0efc6971ccd4daae126715cbeeb2fcaf43f73f213c4d32b3a34"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-lightstep_1.95.2_freebsd_arm.zip",
+          "download_url": "https://github.com/lightstep/terraform-provider-lightstep/releases/download/v1.95.2/terraform-provider-lightstep_1.95.2_freebsd_arm.zip",
+          "shasum": "711808342c1fd19976f8d45471c311d69abc5f18170b51da26f35beeadc01546"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-lightstep_1.95.2_linux_arm64.zip",
+          "download_url": "https://github.com/lightstep/terraform-provider-lightstep/releases/download/v1.95.2/terraform-provider-lightstep_1.95.2_linux_arm64.zip",
+          "shasum": "e1d5bf7d943efc6667d2530e9ca41f563d12caff84f0b277a77ff7357eab7977"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-lightstep_1.95.2_windows_arm64.zip",
+          "download_url": "https://github.com/lightstep/terraform-provider-lightstep/releases/download/v1.95.2/terraform-provider-lightstep_1.95.2_windows_arm64.zip",
+          "shasum": "b1bcb2075f57b6aee37e2472accde1f4a89513d6dd3f3f83f0d2a878dfc527c2"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-lightstep_1.95.2_linux_386.zip",
+          "download_url": "https://github.com/lightstep/terraform-provider-lightstep/releases/download/v1.95.2/terraform-provider-lightstep_1.95.2_linux_386.zip",
+          "shasum": "bc5ad591ffbdb45e96fcf9cae4a743ecf754dd0395cab59bb6a4a75482b52663"
         }
       ]
     },
