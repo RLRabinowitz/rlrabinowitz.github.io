@@ -2,6 +2,222 @@
   "repository": "https://github.com/owain-nortal/terraform-provider-neos",
   "versions": [
     {
+      "version": "0.1.10",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/owain-nortal/terraform-provider-neos/releases/download/v0.1.10/terraform-provider-neos_0.1.10_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/owain-nortal/terraform-provider-neos/releases/download/v0.1.10/terraform-provider-neos_0.1.10_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-neos_0.1.10_darwin_amd64.zip",
+          "download_url": "https://github.com/owain-nortal/terraform-provider-neos/releases/download/v0.1.10/terraform-provider-neos_0.1.10_darwin_amd64.zip",
+          "shasum": "12b198094593fcc989647edaef36302a0021066a3e291055a413d35ade4a03b2"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-neos_0.1.10_windows_amd64.zip",
+          "download_url": "https://github.com/owain-nortal/terraform-provider-neos/releases/download/v0.1.10/terraform-provider-neos_0.1.10_windows_amd64.zip",
+          "shasum": "931b6a689c832df19abf5479e9470fd1761921b4560e55ac2c3c01ee43d15387"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-neos_0.1.10_linux_386.zip",
+          "download_url": "https://github.com/owain-nortal/terraform-provider-neos/releases/download/v0.1.10/terraform-provider-neos_0.1.10_linux_386.zip",
+          "shasum": "ec99ba046bf8f6e0e1c530abb4883b335ccb1b09859254feb8852f093fefe488"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-neos_0.1.10_windows_arm.zip",
+          "download_url": "https://github.com/owain-nortal/terraform-provider-neos/releases/download/v0.1.10/terraform-provider-neos_0.1.10_windows_arm.zip",
+          "shasum": "f7c4228697a06bc7e201b133701f18d6d70dbc3fdebd246e602ebb64e58e991e"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-neos_0.1.10_freebsd_arm64.zip",
+          "download_url": "https://github.com/owain-nortal/terraform-provider-neos/releases/download/v0.1.10/terraform-provider-neos_0.1.10_freebsd_arm64.zip",
+          "shasum": "22e3a83effea07bc2465e659dc880d53d905992d943ba91a765c2f5794e77ae3"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-neos_0.1.10_darwin_arm64.zip",
+          "download_url": "https://github.com/owain-nortal/terraform-provider-neos/releases/download/v0.1.10/terraform-provider-neos_0.1.10_darwin_arm64.zip",
+          "shasum": "ed500f97d578572ff478f4b279178c687d9c056da5b5b3ca01c65bd0b5f165c3"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-neos_0.1.10_windows_386.zip",
+          "download_url": "https://github.com/owain-nortal/terraform-provider-neos/releases/download/v0.1.10/terraform-provider-neos_0.1.10_windows_386.zip",
+          "shasum": "faacf34107732a068010febfa5416ffc34567ccff593a89be1903e7ffe057fea"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-neos_0.1.10_linux_amd64.zip",
+          "download_url": "https://github.com/owain-nortal/terraform-provider-neos/releases/download/v0.1.10/terraform-provider-neos_0.1.10_linux_amd64.zip",
+          "shasum": "7528406a72020f7060148ff4f0cd378876a57c911aac3b637fd1564e2b4e4650"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-neos_0.1.10_freebsd_386.zip",
+          "download_url": "https://github.com/owain-nortal/terraform-provider-neos/releases/download/v0.1.10/terraform-provider-neos_0.1.10_freebsd_386.zip",
+          "shasum": "6d7e0061036f56090a579febb6091091a111036126e90b1815e1c534ca953e57"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-neos_0.1.10_linux_arm.zip",
+          "download_url": "https://github.com/owain-nortal/terraform-provider-neos/releases/download/v0.1.10/terraform-provider-neos_0.1.10_linux_arm.zip",
+          "shasum": "a72d6b6a63044962423ed810d50f47eeedef2c8dfb7db36913fe2db737df31ea"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-neos_0.1.10_linux_arm64.zip",
+          "download_url": "https://github.com/owain-nortal/terraform-provider-neos/releases/download/v0.1.10/terraform-provider-neos_0.1.10_linux_arm64.zip",
+          "shasum": "f630b4f1ff81a46d9c1c49b287965f269487edf1f921519f6f349ee0fec0195a"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-neos_0.1.10_freebsd_arm.zip",
+          "download_url": "https://github.com/owain-nortal/terraform-provider-neos/releases/download/v0.1.10/terraform-provider-neos_0.1.10_freebsd_arm.zip",
+          "shasum": "210e1ebda4f5e308ea4a48e994ba9f43bce7d2adc1a96586af4c7fe9ea6cbd17"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-neos_0.1.10_freebsd_amd64.zip",
+          "download_url": "https://github.com/owain-nortal/terraform-provider-neos/releases/download/v0.1.10/terraform-provider-neos_0.1.10_freebsd_amd64.zip",
+          "shasum": "86a7f4cb7649db455816c6e905aa185cc2bfd8dbdb32e46efab9ac04d8a69ada"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-neos_0.1.10_windows_arm64.zip",
+          "download_url": "https://github.com/owain-nortal/terraform-provider-neos/releases/download/v0.1.10/terraform-provider-neos_0.1.10_windows_arm64.zip",
+          "shasum": "685ebf71dc450e38563030e57f310acdeeaa56bf2203226898f0f1afb5d64bfc"
+        }
+      ]
+    },
+    {
+      "version": "0.1.9",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/owain-nortal/terraform-provider-neos/releases/download/v0.1.9/terraform-provider-neos_0.1.9_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/owain-nortal/terraform-provider-neos/releases/download/v0.1.9/terraform-provider-neos_0.1.9_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-neos_0.1.9_linux_arm64.zip",
+          "download_url": "https://github.com/owain-nortal/terraform-provider-neos/releases/download/v0.1.9/terraform-provider-neos_0.1.9_linux_arm64.zip",
+          "shasum": "c3648e1738e3fa4df7203f28fc64c5b17b6ca5fb4512cb4601a6e06aff79fc07"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-neos_0.1.9_freebsd_amd64.zip",
+          "download_url": "https://github.com/owain-nortal/terraform-provider-neos/releases/download/v0.1.9/terraform-provider-neos_0.1.9_freebsd_amd64.zip",
+          "shasum": "3e455e2c688b041e099748e8038c8043f4cd6ce7fcf8f58150dc04cd238ce3f9"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-neos_0.1.9_freebsd_386.zip",
+          "download_url": "https://github.com/owain-nortal/terraform-provider-neos/releases/download/v0.1.9/terraform-provider-neos_0.1.9_freebsd_386.zip",
+          "shasum": "47d57f48772fa44f67c7a5435f3ad900fc5d9446169504c0e4d51ebc5eb547e9"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-neos_0.1.9_linux_arm.zip",
+          "download_url": "https://github.com/owain-nortal/terraform-provider-neos/releases/download/v0.1.9/terraform-provider-neos_0.1.9_linux_arm.zip",
+          "shasum": "09e2f9eedd4ad25c82cdefedc6d6ea7937dc23be4518fa108cd979380daf1f48"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-neos_0.1.9_darwin_arm64.zip",
+          "download_url": "https://github.com/owain-nortal/terraform-provider-neos/releases/download/v0.1.9/terraform-provider-neos_0.1.9_darwin_arm64.zip",
+          "shasum": "22ab6d6aa92fc3c33b632653f6cdb9fd3914bae3990a1bd76328e4f62661dcd0"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-neos_0.1.9_linux_amd64.zip",
+          "download_url": "https://github.com/owain-nortal/terraform-provider-neos/releases/download/v0.1.9/terraform-provider-neos_0.1.9_linux_amd64.zip",
+          "shasum": "f1447abd4cefa10e2a8156e541c0da23bcac75bba65ab596d07d9d35d8327501"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-neos_0.1.9_windows_arm64.zip",
+          "download_url": "https://github.com/owain-nortal/terraform-provider-neos/releases/download/v0.1.9/terraform-provider-neos_0.1.9_windows_arm64.zip",
+          "shasum": "903e4951ec3039b112066db32155d13bf1924d711cd5edf09bbb58dd70d5800c"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-neos_0.1.9_windows_amd64.zip",
+          "download_url": "https://github.com/owain-nortal/terraform-provider-neos/releases/download/v0.1.9/terraform-provider-neos_0.1.9_windows_amd64.zip",
+          "shasum": "a14c102e99fc3c58ee8cf31448578317080375654837d1e841938584b5e4411c"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-neos_0.1.9_windows_arm.zip",
+          "download_url": "https://github.com/owain-nortal/terraform-provider-neos/releases/download/v0.1.9/terraform-provider-neos_0.1.9_windows_arm.zip",
+          "shasum": "60502be13123d005c62f82c783c9bdee193ade3f8d9282beb7a9137b830856b1"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-neos_0.1.9_linux_386.zip",
+          "download_url": "https://github.com/owain-nortal/terraform-provider-neos/releases/download/v0.1.9/terraform-provider-neos_0.1.9_linux_386.zip",
+          "shasum": "60dbb28e1bdf7a8aa821976033febd676bf2eef46464062bf9fde82079be0d42"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-neos_0.1.9_freebsd_arm64.zip",
+          "download_url": "https://github.com/owain-nortal/terraform-provider-neos/releases/download/v0.1.9/terraform-provider-neos_0.1.9_freebsd_arm64.zip",
+          "shasum": "57144e33d4a0e883895128cbf8863616f40abd6dc8024b0d2c999ee727c26675"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-neos_0.1.9_freebsd_arm.zip",
+          "download_url": "https://github.com/owain-nortal/terraform-provider-neos/releases/download/v0.1.9/terraform-provider-neos_0.1.9_freebsd_arm.zip",
+          "shasum": "a737a0aec3734fe520bbb4623813a497d9985249eeea784c4c3f308963ab3dfe"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-neos_0.1.9_windows_386.zip",
+          "download_url": "https://github.com/owain-nortal/terraform-provider-neos/releases/download/v0.1.9/terraform-provider-neos_0.1.9_windows_386.zip",
+          "shasum": "0dc3fae9840da2da4f2bfd2304a3c3571ffc5ef5898a08a40bb474e0724ce872"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-neos_0.1.9_darwin_amd64.zip",
+          "download_url": "https://github.com/owain-nortal/terraform-provider-neos/releases/download/v0.1.9/terraform-provider-neos_0.1.9_darwin_amd64.zip",
+          "shasum": "bf098a08f7b4c98c714e56e480629bd0968dac82eb7921c58585063570cb2a3e"
+        }
+      ]
+    },
+    {
       "version": "0.1.8",
       "protocols": [
         "5.0"
