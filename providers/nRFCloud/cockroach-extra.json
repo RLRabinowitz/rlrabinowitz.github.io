@@ -2,6 +2,114 @@
   "repository": "https://github.com/nRFCloud/terraform-provider-cockroach-extra",
   "versions": [
     {
+      "version": "0.0.22",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/nRFCloud/terraform-provider-cockroach-extra/releases/download/v0.0.22/terraform-provider-cockroach-extra_0.0.22_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/nRFCloud/terraform-provider-cockroach-extra/releases/download/v0.0.22/terraform-provider-cockroach-extra_0.0.22_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-cockroach-extra_0.0.22_windows_arm64.zip",
+          "download_url": "https://github.com/nRFCloud/terraform-provider-cockroach-extra/releases/download/v0.0.22/terraform-provider-cockroach-extra_0.0.22_windows_arm64.zip",
+          "shasum": "934bf2c8ae4f4ca42b64eaec153ff4eb05973b12ee0af6f784ad957b44c881f4"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-cockroach-extra_0.0.22_freebsd_amd64.zip",
+          "download_url": "https://github.com/nRFCloud/terraform-provider-cockroach-extra/releases/download/v0.0.22/terraform-provider-cockroach-extra_0.0.22_freebsd_amd64.zip",
+          "shasum": "9289c5621792549b4e14605fe202fd1da367827d2d159fd2c7a4f67985886737"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-cockroach-extra_0.0.22_darwin_arm64.zip",
+          "download_url": "https://github.com/nRFCloud/terraform-provider-cockroach-extra/releases/download/v0.0.22/terraform-provider-cockroach-extra_0.0.22_darwin_arm64.zip",
+          "shasum": "bb8d784bbaec189983ae25e608538753473eb1986ea8dbd5813cffc436c68a00"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-cockroach-extra_0.0.22_freebsd_arm64.zip",
+          "download_url": "https://github.com/nRFCloud/terraform-provider-cockroach-extra/releases/download/v0.0.22/terraform-provider-cockroach-extra_0.0.22_freebsd_arm64.zip",
+          "shasum": "b7d0e87b77dfb3f7867714b1e3de863b8f3c99ab151ca9a4b7176b08f32b7590"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-cockroach-extra_0.0.22_linux_arm.zip",
+          "download_url": "https://github.com/nRFCloud/terraform-provider-cockroach-extra/releases/download/v0.0.22/terraform-provider-cockroach-extra_0.0.22_linux_arm.zip",
+          "shasum": "f4e4dda189a48c46074cee8b491d66654c3749f9afb80801fe923f1eba95e071"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-cockroach-extra_0.0.22_windows_arm.zip",
+          "download_url": "https://github.com/nRFCloud/terraform-provider-cockroach-extra/releases/download/v0.0.22/terraform-provider-cockroach-extra_0.0.22_windows_arm.zip",
+          "shasum": "5e5eecedc653b5d38b744b3923af8bd4ade68b924a2a8de0c9b05e25f8156b0f"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-cockroach-extra_0.0.22_windows_386.zip",
+          "download_url": "https://github.com/nRFCloud/terraform-provider-cockroach-extra/releases/download/v0.0.22/terraform-provider-cockroach-extra_0.0.22_windows_386.zip",
+          "shasum": "0722f9ec63ce38d7b496ff4972919d65bc88bdd823bc11696103d0a7ba467a9c"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-cockroach-extra_0.0.22_freebsd_386.zip",
+          "download_url": "https://github.com/nRFCloud/terraform-provider-cockroach-extra/releases/download/v0.0.22/terraform-provider-cockroach-extra_0.0.22_freebsd_386.zip",
+          "shasum": "e1de00cfba86816377927300f216a5f6d92a112d14d6e35e57d1c30108d05aa2"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-cockroach-extra_0.0.22_freebsd_arm.zip",
+          "download_url": "https://github.com/nRFCloud/terraform-provider-cockroach-extra/releases/download/v0.0.22/terraform-provider-cockroach-extra_0.0.22_freebsd_arm.zip",
+          "shasum": "a802d53b3fd9386de2b1c77aa5890cd34fedc7cb3d8f7f1f085a5697f7f8bb03"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-cockroach-extra_0.0.22_linux_amd64.zip",
+          "download_url": "https://github.com/nRFCloud/terraform-provider-cockroach-extra/releases/download/v0.0.22/terraform-provider-cockroach-extra_0.0.22_linux_amd64.zip",
+          "shasum": "930fe39e8cab70a96c5349831ab5917c056ab18b095d33b1c8d4eb4ec42e4060"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-cockroach-extra_0.0.22_linux_386.zip",
+          "download_url": "https://github.com/nRFCloud/terraform-provider-cockroach-extra/releases/download/v0.0.22/terraform-provider-cockroach-extra_0.0.22_linux_386.zip",
+          "shasum": "c8421c1f4c461f6c7051a82654bcbfe945aab40163460b638f26413891a448f0"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-cockroach-extra_0.0.22_linux_arm64.zip",
+          "download_url": "https://github.com/nRFCloud/terraform-provider-cockroach-extra/releases/download/v0.0.22/terraform-provider-cockroach-extra_0.0.22_linux_arm64.zip",
+          "shasum": "1aa8aa2ba380f3c8dbfc667eaa75325e88902d1757b2a98c1e82accf0b238170"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-cockroach-extra_0.0.22_windows_amd64.zip",
+          "download_url": "https://github.com/nRFCloud/terraform-provider-cockroach-extra/releases/download/v0.0.22/terraform-provider-cockroach-extra_0.0.22_windows_amd64.zip",
+          "shasum": "e44af1035116c56e007df3635bdd89ee252a12a07f34e6f5703896a226f01f04"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-cockroach-extra_0.0.22_darwin_amd64.zip",
+          "download_url": "https://github.com/nRFCloud/terraform-provider-cockroach-extra/releases/download/v0.0.22/terraform-provider-cockroach-extra_0.0.22_darwin_amd64.zip",
+          "shasum": "b3a9c48812ba26b2cb23f31d135a2068a32b1a7fd0cc9fc71e982aae60d840fc"
+        }
+      ]
+    },
+    {
       "version": "0.0.21",
       "protocols": [
         "5.0"
