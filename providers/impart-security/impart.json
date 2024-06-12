@@ -2,6 +2,114 @@
   "repository": "https://github.com/impart-security/terraform-provider-impart",
   "versions": [
     {
+      "version": "0.6.1",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/impart-security/terraform-provider-impart/releases/download/v0.6.1/terraform-provider-impart_0.6.1_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/impart-security/terraform-provider-impart/releases/download/v0.6.1/terraform-provider-impart_0.6.1_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-impart_0.6.1_linux_386.zip",
+          "download_url": "https://github.com/impart-security/terraform-provider-impart/releases/download/v0.6.1/terraform-provider-impart_0.6.1_linux_386.zip",
+          "shasum": "6dfac12a7f60883584e7a19b43002d47d592e1bcae5cbab2cfc454b48caafe22"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-impart_0.6.1_windows_arm64.zip",
+          "download_url": "https://github.com/impart-security/terraform-provider-impart/releases/download/v0.6.1/terraform-provider-impart_0.6.1_windows_arm64.zip",
+          "shasum": "9551af1422e773d2ac78cc2c01bc81279133ab42c458a46ffd487f1c4248eb91"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-impart_0.6.1_darwin_amd64.zip",
+          "download_url": "https://github.com/impart-security/terraform-provider-impart/releases/download/v0.6.1/terraform-provider-impart_0.6.1_darwin_amd64.zip",
+          "shasum": "2b8ed71a54faee50fa445f5476d83a858d85b08f8fa238400ffd08cb2c24a5cc"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-impart_0.6.1_freebsd_amd64.zip",
+          "download_url": "https://github.com/impart-security/terraform-provider-impart/releases/download/v0.6.1/terraform-provider-impart_0.6.1_freebsd_amd64.zip",
+          "shasum": "552e169a1afb07ed618b30ba71c670d803c29a84845d9beb9182c24219ec49ae"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-impart_0.6.1_freebsd_arm.zip",
+          "download_url": "https://github.com/impart-security/terraform-provider-impart/releases/download/v0.6.1/terraform-provider-impart_0.6.1_freebsd_arm.zip",
+          "shasum": "7e19d05d6a9be41f3b4e3add2c68bdc1b837e4a271655320d55532b648c5ff82"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-impart_0.6.1_linux_arm.zip",
+          "download_url": "https://github.com/impart-security/terraform-provider-impart/releases/download/v0.6.1/terraform-provider-impart_0.6.1_linux_arm.zip",
+          "shasum": "fbf4349762ae89dcd91bf3cdcdb4b957b3521295ff1c5989ae0722316733d122"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-impart_0.6.1_windows_arm.zip",
+          "download_url": "https://github.com/impart-security/terraform-provider-impart/releases/download/v0.6.1/terraform-provider-impart_0.6.1_windows_arm.zip",
+          "shasum": "082034f256cbc4fd13d1fa2e2f2005820fd41763b0603619976f7cc8d8d25094"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-impart_0.6.1_freebsd_arm64.zip",
+          "download_url": "https://github.com/impart-security/terraform-provider-impart/releases/download/v0.6.1/terraform-provider-impart_0.6.1_freebsd_arm64.zip",
+          "shasum": "d820de499eacb7190aee2595b7b8d7f31db5a316e033a9bfd8e2cf04e76e23a6"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-impart_0.6.1_freebsd_386.zip",
+          "download_url": "https://github.com/impart-security/terraform-provider-impart/releases/download/v0.6.1/terraform-provider-impart_0.6.1_freebsd_386.zip",
+          "shasum": "409789f44d49476340e2dacc8938488ba1293a01b9af17b77cdca7980722e603"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-impart_0.6.1_darwin_arm64.zip",
+          "download_url": "https://github.com/impart-security/terraform-provider-impart/releases/download/v0.6.1/terraform-provider-impart_0.6.1_darwin_arm64.zip",
+          "shasum": "bf3088a574fb9e2ec9da5760ea09555a43cc7e6eb80db5b9823a5691f2f2ba7e"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-impart_0.6.1_windows_amd64.zip",
+          "download_url": "https://github.com/impart-security/terraform-provider-impart/releases/download/v0.6.1/terraform-provider-impart_0.6.1_windows_amd64.zip",
+          "shasum": "3bb618051e4fbff5e85ba5dcddfdc8db78f4c8358057040c034a5810f49063bd"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-impart_0.6.1_windows_386.zip",
+          "download_url": "https://github.com/impart-security/terraform-provider-impart/releases/download/v0.6.1/terraform-provider-impart_0.6.1_windows_386.zip",
+          "shasum": "5ebf6e2570990c7f8c30d32dc5423f1584ef3c0145516dbf5ab02b6a4d77fd8a"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-impart_0.6.1_linux_amd64.zip",
+          "download_url": "https://github.com/impart-security/terraform-provider-impart/releases/download/v0.6.1/terraform-provider-impart_0.6.1_linux_amd64.zip",
+          "shasum": "4defcaa319c9e4d18e9f9bce1a65000d2e60f4e0497733e4bc43a85be71e2ec4"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-impart_0.6.1_linux_arm64.zip",
+          "download_url": "https://github.com/impart-security/terraform-provider-impart/releases/download/v0.6.1/terraform-provider-impart_0.6.1_linux_arm64.zip",
+          "shasum": "debdc1b053ccf60e922cef5c5cef8dbf9257a81c04b7785aef5d44ac33bb0189"
+        }
+      ]
+    },
+    {
       "version": "0.6.0",
       "protocols": [
         "5.0"
