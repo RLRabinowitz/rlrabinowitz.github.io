@@ -2,6 +2,107 @@
   "repository": "https://github.com/BetterStackHQ/terraform-provider-better-uptime",
   "versions": [
     {
+      "version": "0.9.4",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/BetterStackHQ/terraform-provider-better-uptime/releases/download/v0.9.4/terraform-provider-better-uptime_0.9.4_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/BetterStackHQ/terraform-provider-better-uptime/releases/download/v0.9.4/terraform-provider-better-uptime_0.9.4_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-better-uptime_0.9.4_freebsd_arm.zip",
+          "download_url": "https://github.com/BetterStackHQ/terraform-provider-better-uptime/releases/download/v0.9.4/terraform-provider-better-uptime_0.9.4_freebsd_arm.zip",
+          "shasum": "6359b68aaa6f4e95a4b212ffb5fc5ead84e9d4b3da3b1baecc6f4ade8dc82515"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-better-uptime_0.9.4_linux_arm.zip",
+          "download_url": "https://github.com/BetterStackHQ/terraform-provider-better-uptime/releases/download/v0.9.4/terraform-provider-better-uptime_0.9.4_linux_arm.zip",
+          "shasum": "284dad0ded4ce8ab210a022b4e96d0e89e65e87bfecd8e66df810bbfa24286e7"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-better-uptime_0.9.4_linux_386.zip",
+          "download_url": "https://github.com/BetterStackHQ/terraform-provider-better-uptime/releases/download/v0.9.4/terraform-provider-better-uptime_0.9.4_linux_386.zip",
+          "shasum": "cb6dd8a38c495f6b3654d69c3cdead9c3a995b73f655e40f2041e885eb6831ea"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-better-uptime_0.9.4_windows_386.zip",
+          "download_url": "https://github.com/BetterStackHQ/terraform-provider-better-uptime/releases/download/v0.9.4/terraform-provider-better-uptime_0.9.4_windows_386.zip",
+          "shasum": "249addb89ec3e544603f5c924d83efda4b6417d3c15427adbee6eb5d170e7fe3"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-better-uptime_0.9.4_linux_amd64.zip",
+          "download_url": "https://github.com/BetterStackHQ/terraform-provider-better-uptime/releases/download/v0.9.4/terraform-provider-better-uptime_0.9.4_linux_amd64.zip",
+          "shasum": "b8ff3fee29a6bfe26dbd4c8b4c5c31be89e96f7d3b40224368bb8f5de1ff8641"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-better-uptime_0.9.4_windows_amd64.zip",
+          "download_url": "https://github.com/BetterStackHQ/terraform-provider-better-uptime/releases/download/v0.9.4/terraform-provider-better-uptime_0.9.4_windows_amd64.zip",
+          "shasum": "7f106dfb6729b82278e6f0262f9a3a0ba5f70bc40c97131d8c6bd1129e07fd4b"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-better-uptime_0.9.4_freebsd_386.zip",
+          "download_url": "https://github.com/BetterStackHQ/terraform-provider-better-uptime/releases/download/v0.9.4/terraform-provider-better-uptime_0.9.4_freebsd_386.zip",
+          "shasum": "7feb35f4bbea60daf142f44aab7b767b35b15d95d049f4ac6f8fd60eb1c13d38"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-better-uptime_0.9.4_windows_arm.zip",
+          "download_url": "https://github.com/BetterStackHQ/terraform-provider-better-uptime/releases/download/v0.9.4/terraform-provider-better-uptime_0.9.4_windows_arm.zip",
+          "shasum": "1182d50c911885e2acbf965b03bf187f9a0ac86a8ea50a01da58a4fcf87c879f"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-better-uptime_0.9.4_freebsd_arm64.zip",
+          "download_url": "https://github.com/BetterStackHQ/terraform-provider-better-uptime/releases/download/v0.9.4/terraform-provider-better-uptime_0.9.4_freebsd_arm64.zip",
+          "shasum": "8ab191fa2e0a30fbfc02fcfd046747de4dc327f63f0734be98edfcc880508512"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-better-uptime_0.9.4_linux_arm64.zip",
+          "download_url": "https://github.com/BetterStackHQ/terraform-provider-better-uptime/releases/download/v0.9.4/terraform-provider-better-uptime_0.9.4_linux_arm64.zip",
+          "shasum": "f43021a178bef81a0d28634de1c6bfda44361bd9efb01b90efc625ae16ef17ad"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-better-uptime_0.9.4_freebsd_amd64.zip",
+          "download_url": "https://github.com/BetterStackHQ/terraform-provider-better-uptime/releases/download/v0.9.4/terraform-provider-better-uptime_0.9.4_freebsd_amd64.zip",
+          "shasum": "f2ee40ff08fb3e6764c46ae1d5b60a795267ef10f159d91307803053edefcb32"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-better-uptime_0.9.4_darwin_amd64.zip",
+          "download_url": "https://github.com/BetterStackHQ/terraform-provider-better-uptime/releases/download/v0.9.4/terraform-provider-better-uptime_0.9.4_darwin_amd64.zip",
+          "shasum": "5b1cbf230c7e6718108462200507e2dd05172b235412d9415e0c78c2e103bcde"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-better-uptime_0.9.4_darwin_arm64.zip",
+          "download_url": "https://github.com/BetterStackHQ/terraform-provider-better-uptime/releases/download/v0.9.4/terraform-provider-better-uptime_0.9.4_darwin_arm64.zip",
+          "shasum": "8beaadb8c90c4197c6bbfc5aaf65a5d32b2d82a4565531c2a68fd680b07da9ea"
+        }
+      ]
+    },
+    {
       "version": "0.9.3",
       "protocols": [
         "5.0"
