@@ -2,6 +2,114 @@
   "repository": "https://github.com/sourcegraph/terraform-provider-postgresql",
   "versions": [
     {
+      "version": "1.23.0-sg.2",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/sourcegraph/terraform-provider-postgresql/releases/download/v1.23.0-sg.2/terraform-provider-postgresql_1.23.0-sg.2_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/sourcegraph/terraform-provider-postgresql/releases/download/v1.23.0-sg.2/terraform-provider-postgresql_1.23.0-sg.2_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-postgresql_1.23.0-sg.2_darwin_arm64.zip",
+          "download_url": "https://github.com/sourcegraph/terraform-provider-postgresql/releases/download/v1.23.0-sg.2/terraform-provider-postgresql_1.23.0-sg.2_darwin_arm64.zip",
+          "shasum": "146d2bc98c924816cdf85f8487d1c73aa8e77684de0007216186a99b0aff66b9"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-postgresql_1.23.0-sg.2_freebsd_arm.zip",
+          "download_url": "https://github.com/sourcegraph/terraform-provider-postgresql/releases/download/v1.23.0-sg.2/terraform-provider-postgresql_1.23.0-sg.2_freebsd_arm.zip",
+          "shasum": "d88e69e0094c8826b50cd5c47a28f29e44ff4dc207a2ffdf98676ab1c72f2ad8"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-postgresql_1.23.0-sg.2_freebsd_arm64.zip",
+          "download_url": "https://github.com/sourcegraph/terraform-provider-postgresql/releases/download/v1.23.0-sg.2/terraform-provider-postgresql_1.23.0-sg.2_freebsd_arm64.zip",
+          "shasum": "1663739b1a1f1031d0ad27147533d5d3489c83e39542f57e67c6864a37813502"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-postgresql_1.23.0-sg.2_windows_arm.zip",
+          "download_url": "https://github.com/sourcegraph/terraform-provider-postgresql/releases/download/v1.23.0-sg.2/terraform-provider-postgresql_1.23.0-sg.2_windows_arm.zip",
+          "shasum": "1dea6b1945673696ecc7380e105c3a9e1d5254404607d83433bb455976c107c0"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-postgresql_1.23.0-sg.2_freebsd_386.zip",
+          "download_url": "https://github.com/sourcegraph/terraform-provider-postgresql/releases/download/v1.23.0-sg.2/terraform-provider-postgresql_1.23.0-sg.2_freebsd_386.zip",
+          "shasum": "63d5b90e4793695ea2ef45eda90cd9ef4f1e0bc260d4f11e1cf55cff37d736a8"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-postgresql_1.23.0-sg.2_linux_amd64.zip",
+          "download_url": "https://github.com/sourcegraph/terraform-provider-postgresql/releases/download/v1.23.0-sg.2/terraform-provider-postgresql_1.23.0-sg.2_linux_amd64.zip",
+          "shasum": "80258367079d2e055490fbf81ec774e632e3c46f182221a7787aefd83d998940"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-postgresql_1.23.0-sg.2_darwin_amd64.zip",
+          "download_url": "https://github.com/sourcegraph/terraform-provider-postgresql/releases/download/v1.23.0-sg.2/terraform-provider-postgresql_1.23.0-sg.2_darwin_amd64.zip",
+          "shasum": "df4084120a70b504145bf3681772a8368bbb6d3277700e1994c23d7b7e4ed476"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-postgresql_1.23.0-sg.2_linux_386.zip",
+          "download_url": "https://github.com/sourcegraph/terraform-provider-postgresql/releases/download/v1.23.0-sg.2/terraform-provider-postgresql_1.23.0-sg.2_linux_386.zip",
+          "shasum": "402323211d5d7d0dcae9ef097cc3a4914dcfeb0a070eabc11035357d869c3f11"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-postgresql_1.23.0-sg.2_freebsd_amd64.zip",
+          "download_url": "https://github.com/sourcegraph/terraform-provider-postgresql/releases/download/v1.23.0-sg.2/terraform-provider-postgresql_1.23.0-sg.2_freebsd_amd64.zip",
+          "shasum": "ba18e5289df7d400e34215f152a3b5efa8b1f1ec8d5dbe518b3b62e78940727b"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-postgresql_1.23.0-sg.2_windows_amd64.zip",
+          "download_url": "https://github.com/sourcegraph/terraform-provider-postgresql/releases/download/v1.23.0-sg.2/terraform-provider-postgresql_1.23.0-sg.2_windows_amd64.zip",
+          "shasum": "4a7b180aca1cc0c5f06cc48ae42ba19327a99d2cb8b6cc247d741eec96728b5b"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-postgresql_1.23.0-sg.2_linux_arm.zip",
+          "download_url": "https://github.com/sourcegraph/terraform-provider-postgresql/releases/download/v1.23.0-sg.2/terraform-provider-postgresql_1.23.0-sg.2_linux_arm.zip",
+          "shasum": "9d1ddcb883362f3dbae0cbd757f7a7834b3af07ab8d61e99656ddebe62e5f279"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-postgresql_1.23.0-sg.2_windows_386.zip",
+          "download_url": "https://github.com/sourcegraph/terraform-provider-postgresql/releases/download/v1.23.0-sg.2/terraform-provider-postgresql_1.23.0-sg.2_windows_386.zip",
+          "shasum": "d4371e488ca639a9babe22d75bd42c29e35095f608d269afae189d6580670ab2"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-postgresql_1.23.0-sg.2_linux_arm64.zip",
+          "download_url": "https://github.com/sourcegraph/terraform-provider-postgresql/releases/download/v1.23.0-sg.2/terraform-provider-postgresql_1.23.0-sg.2_linux_arm64.zip",
+          "shasum": "7679bebf498a66671a38d76046f9cd6ff3d8911fa1e8c3902ae38a24e2ed0000"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-postgresql_1.23.0-sg.2_windows_arm64.zip",
+          "download_url": "https://github.com/sourcegraph/terraform-provider-postgresql/releases/download/v1.23.0-sg.2/terraform-provider-postgresql_1.23.0-sg.2_windows_arm64.zip",
+          "shasum": "629a73d67c462bb3fb6b938d72140062f97e58c3b1001a30e15723e8be57a208"
+        }
+      ]
+    },
+    {
       "version": "1.23.0-sg.1",
       "protocols": [
         "5.0"
