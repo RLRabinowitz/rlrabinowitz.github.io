@@ -2,6 +2,222 @@
   "repository": "https://github.com/RafaySystems/terraform-provider-rafay",
   "versions": [
     {
+      "version": "2.6-patch-goreleaser3",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/RafaySystems/terraform-provider-rafay/releases/download/v2.6-patch-goreleaser3/terraform-provider-rafay_2.6-patch-goreleaser3_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/RafaySystems/terraform-provider-rafay/releases/download/v2.6-patch-goreleaser3/terraform-provider-rafay_2.6-patch-goreleaser3_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-rafay_2.6-patch-goreleaser3_freebsd_386.zip",
+          "download_url": "https://github.com/RafaySystems/terraform-provider-rafay/releases/download/v2.6-patch-goreleaser3/terraform-provider-rafay_2.6-patch-goreleaser3_freebsd_386.zip",
+          "shasum": "f22b97587ffc0ef7ca55d869fad4cb1a4f1c58ceef196713a7e97427e24d2879"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-rafay_2.6-patch-goreleaser3_darwin_arm64.zip",
+          "download_url": "https://github.com/RafaySystems/terraform-provider-rafay/releases/download/v2.6-patch-goreleaser3/terraform-provider-rafay_2.6-patch-goreleaser3_darwin_arm64.zip",
+          "shasum": "c3fc94174080d4396414ee36d5be1890610ad7db9933933af6785c0ed460f212"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-rafay_2.6-patch-goreleaser3_windows_386.zip",
+          "download_url": "https://github.com/RafaySystems/terraform-provider-rafay/releases/download/v2.6-patch-goreleaser3/terraform-provider-rafay_2.6-patch-goreleaser3_windows_386.zip",
+          "shasum": "501cd6bef2ed6b8129fa9dbd8b5337c8deeb8a853b69bc3dd17fead66af483b5"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-rafay_2.6-patch-goreleaser3_freebsd_amd64.zip",
+          "download_url": "https://github.com/RafaySystems/terraform-provider-rafay/releases/download/v2.6-patch-goreleaser3/terraform-provider-rafay_2.6-patch-goreleaser3_freebsd_amd64.zip",
+          "shasum": "06b4d9e4735ed8b202ba706f5006d0851d65a5720a1e16c7b947a1ee008fe7a3"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-rafay_2.6-patch-goreleaser3_linux_arm.zip",
+          "download_url": "https://github.com/RafaySystems/terraform-provider-rafay/releases/download/v2.6-patch-goreleaser3/terraform-provider-rafay_2.6-patch-goreleaser3_linux_arm.zip",
+          "shasum": "44b48b8aff0f0365377d4e1a22dc37e006c2284eefcd9195dee5203d28dce9eb"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-rafay_2.6-patch-goreleaser3_windows_arm.zip",
+          "download_url": "https://github.com/RafaySystems/terraform-provider-rafay/releases/download/v2.6-patch-goreleaser3/terraform-provider-rafay_2.6-patch-goreleaser3_windows_arm.zip",
+          "shasum": "b51e7880fb0274ab0e69365aaf9112138fafc98098f9d123511dee032c6c6154"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-rafay_2.6-patch-goreleaser3_linux_arm64.zip",
+          "download_url": "https://github.com/RafaySystems/terraform-provider-rafay/releases/download/v2.6-patch-goreleaser3/terraform-provider-rafay_2.6-patch-goreleaser3_linux_arm64.zip",
+          "shasum": "013ad4d1a8fe62a5bad710626f5442e8e60da72458f00b96776b3fe72ddb36a5"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-rafay_2.6-patch-goreleaser3_linux_amd64.zip",
+          "download_url": "https://github.com/RafaySystems/terraform-provider-rafay/releases/download/v2.6-patch-goreleaser3/terraform-provider-rafay_2.6-patch-goreleaser3_linux_amd64.zip",
+          "shasum": "ec5390a3b90e0805a9284b31c8ba6ca30be085020d6f8c6511c2b622be903c86"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-rafay_2.6-patch-goreleaser3_windows_arm64.zip",
+          "download_url": "https://github.com/RafaySystems/terraform-provider-rafay/releases/download/v2.6-patch-goreleaser3/terraform-provider-rafay_2.6-patch-goreleaser3_windows_arm64.zip",
+          "shasum": "3c1f5bde925a3e13884c69b2d840981901726e9b94f6418be204b78159748b48"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-rafay_2.6-patch-goreleaser3_linux_386.zip",
+          "download_url": "https://github.com/RafaySystems/terraform-provider-rafay/releases/download/v2.6-patch-goreleaser3/terraform-provider-rafay_2.6-patch-goreleaser3_linux_386.zip",
+          "shasum": "a215c6509cfc0ca2d15516d881486401a5c2be6c00d2312d5daef98cb53c2d40"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-rafay_2.6-patch-goreleaser3_freebsd_arm.zip",
+          "download_url": "https://github.com/RafaySystems/terraform-provider-rafay/releases/download/v2.6-patch-goreleaser3/terraform-provider-rafay_2.6-patch-goreleaser3_freebsd_arm.zip",
+          "shasum": "9f2f61f3a8f8ff54666d6a323446fd42829add82ee897a5470f5995d548dbd74"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-rafay_2.6-patch-goreleaser3_windows_amd64.zip",
+          "download_url": "https://github.com/RafaySystems/terraform-provider-rafay/releases/download/v2.6-patch-goreleaser3/terraform-provider-rafay_2.6-patch-goreleaser3_windows_amd64.zip",
+          "shasum": "23f6f3eee33843de6e6fb975342af675dc2b7ed77cc7aa4d47ce31c6dbc2f7b3"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-rafay_2.6-patch-goreleaser3_freebsd_arm64.zip",
+          "download_url": "https://github.com/RafaySystems/terraform-provider-rafay/releases/download/v2.6-patch-goreleaser3/terraform-provider-rafay_2.6-patch-goreleaser3_freebsd_arm64.zip",
+          "shasum": "c2743e566a8ba90fc3511613ca2f3899b16bf1831f4063047155d6272debdc49"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-rafay_2.6-patch-goreleaser3_darwin_amd64.zip",
+          "download_url": "https://github.com/RafaySystems/terraform-provider-rafay/releases/download/v2.6-patch-goreleaser3/terraform-provider-rafay_2.6-patch-goreleaser3_darwin_amd64.zip",
+          "shasum": "2d160eaf9ed1bc6278cde9c6ca0c6ef97b1625000266042007d207cb2bfc2769"
+        }
+      ]
+    },
+    {
+      "version": "2.6-patch-goreleaser",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/RafaySystems/terraform-provider-rafay/releases/download/v2.6-patch-goreleaser/terraform-provider-rafay_2.6-patch-goreleaser_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/RafaySystems/terraform-provider-rafay/releases/download/v2.6-patch-goreleaser/terraform-provider-rafay_2.6-patch-goreleaser_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-rafay_2.6-patch-goreleaser_darwin_amd64.zip",
+          "download_url": "https://github.com/RafaySystems/terraform-provider-rafay/releases/download/v2.6-patch-goreleaser/terraform-provider-rafay_2.6-patch-goreleaser_darwin_amd64.zip",
+          "shasum": "7c8af16996f71d8f14c91d0e468d4d237482467928a186d4fa83b219b43eb1cb"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-rafay_2.6-patch-goreleaser_linux_arm.zip",
+          "download_url": "https://github.com/RafaySystems/terraform-provider-rafay/releases/download/v2.6-patch-goreleaser/terraform-provider-rafay_2.6-patch-goreleaser_linux_arm.zip",
+          "shasum": "a3220171cc4edeb4bfb794d796269dbe6ccc77ddcba2c4ba245b2f4522083589"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-rafay_2.6-patch-goreleaser_linux_386.zip",
+          "download_url": "https://github.com/RafaySystems/terraform-provider-rafay/releases/download/v2.6-patch-goreleaser/terraform-provider-rafay_2.6-patch-goreleaser_linux_386.zip",
+          "shasum": "6f9c3f2ba95189ba1fe50c9b8253bc0102df04df400b1d78d79f526670e586aa"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-rafay_2.6-patch-goreleaser_windows_arm.zip",
+          "download_url": "https://github.com/RafaySystems/terraform-provider-rafay/releases/download/v2.6-patch-goreleaser/terraform-provider-rafay_2.6-patch-goreleaser_windows_arm.zip",
+          "shasum": "d70d1a421c019008167fbbc7c03d40103381d08d7d88d8cc69808c13c8487eb9"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-rafay_2.6-patch-goreleaser_windows_386.zip",
+          "download_url": "https://github.com/RafaySystems/terraform-provider-rafay/releases/download/v2.6-patch-goreleaser/terraform-provider-rafay_2.6-patch-goreleaser_windows_386.zip",
+          "shasum": "76fbd13514c00a52495d5934f97d5c9c0349bb17c32e21e3788f9b7547fdb344"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-rafay_2.6-patch-goreleaser_windows_arm64.zip",
+          "download_url": "https://github.com/RafaySystems/terraform-provider-rafay/releases/download/v2.6-patch-goreleaser/terraform-provider-rafay_2.6-patch-goreleaser_windows_arm64.zip",
+          "shasum": "064380e289e9ec4536cbcfe04ec002fdf6a03a890d3a3746c315611fde77a153"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-rafay_2.6-patch-goreleaser_linux_arm64.zip",
+          "download_url": "https://github.com/RafaySystems/terraform-provider-rafay/releases/download/v2.6-patch-goreleaser/terraform-provider-rafay_2.6-patch-goreleaser_linux_arm64.zip",
+          "shasum": "3420369a4489a1ba62e938facc1321efd5bde80f3ed2b9c2fa365701326c06db"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-rafay_2.6-patch-goreleaser_linux_amd64.zip",
+          "download_url": "https://github.com/RafaySystems/terraform-provider-rafay/releases/download/v2.6-patch-goreleaser/terraform-provider-rafay_2.6-patch-goreleaser_linux_amd64.zip",
+          "shasum": "ad695c922b627ce2f0faae32f610157ca0cf56608e53f39356b2269602181d33"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-rafay_2.6-patch-goreleaser_freebsd_386.zip",
+          "download_url": "https://github.com/RafaySystems/terraform-provider-rafay/releases/download/v2.6-patch-goreleaser/terraform-provider-rafay_2.6-patch-goreleaser_freebsd_386.zip",
+          "shasum": "e11c8280d24b0adbf6c5532cec4f6499c56014351b858e0b4a3776a46f1e842c"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-rafay_2.6-patch-goreleaser_freebsd_arm.zip",
+          "download_url": "https://github.com/RafaySystems/terraform-provider-rafay/releases/download/v2.6-patch-goreleaser/terraform-provider-rafay_2.6-patch-goreleaser_freebsd_arm.zip",
+          "shasum": "227243617743840ce4cc1e3f41ef70bdf54523d5cf333bdd7a9ec6e879f201bb"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-rafay_2.6-patch-goreleaser_darwin_arm64.zip",
+          "download_url": "https://github.com/RafaySystems/terraform-provider-rafay/releases/download/v2.6-patch-goreleaser/terraform-provider-rafay_2.6-patch-goreleaser_darwin_arm64.zip",
+          "shasum": "a1c7deda75a528135328e93cdefc9f55fd4974b25ea6b18ad0eb17369b7663c4"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-rafay_2.6-patch-goreleaser_freebsd_arm64.zip",
+          "download_url": "https://github.com/RafaySystems/terraform-provider-rafay/releases/download/v2.6-patch-goreleaser/terraform-provider-rafay_2.6-patch-goreleaser_freebsd_arm64.zip",
+          "shasum": "e1c4a53bffbbd53c57a095cb727d5a5596b9d573ed7341d761e76808718bca97"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-rafay_2.6-patch-goreleaser_freebsd_amd64.zip",
+          "download_url": "https://github.com/RafaySystems/terraform-provider-rafay/releases/download/v2.6-patch-goreleaser/terraform-provider-rafay_2.6-patch-goreleaser_freebsd_amd64.zip",
+          "shasum": "6df3d81b95d06f33879890d7cb6a1ba53e884006f9e97c34a91bdb8cac434ed3"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-rafay_2.6-patch-goreleaser_windows_amd64.zip",
+          "download_url": "https://github.com/RafaySystems/terraform-provider-rafay/releases/download/v2.6-patch-goreleaser/terraform-provider-rafay_2.6-patch-goreleaser_windows_amd64.zip",
+          "shasum": "f620bf1425c50eb1df57612a05f2fcf78a4cb416df071e42e1c2d1cad36716db"
+        }
+      ]
+    },
+    {
       "version": "1.1.30",
       "protocols": [
         "5.0"
