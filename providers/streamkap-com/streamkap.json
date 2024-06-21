@@ -2,6 +2,114 @@
   "repository": "https://github.com/streamkap-com/terraform-provider-streamkap",
   "versions": [
     {
+      "version": "1.1.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/streamkap-com/terraform-provider-streamkap/releases/download/v1.1.0/terraform-provider-streamkap_1.1.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/streamkap-com/terraform-provider-streamkap/releases/download/v1.1.0/terraform-provider-streamkap_1.1.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-streamkap_1.1.0_linux_amd64.zip",
+          "download_url": "https://github.com/streamkap-com/terraform-provider-streamkap/releases/download/v1.1.0/terraform-provider-streamkap_1.1.0_linux_amd64.zip",
+          "shasum": "31caf45eb3fe51acb9d480a88f4386c0eeb7f91fca2b93cd386c1f262ad89d91"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-streamkap_1.1.0_freebsd_386.zip",
+          "download_url": "https://github.com/streamkap-com/terraform-provider-streamkap/releases/download/v1.1.0/terraform-provider-streamkap_1.1.0_freebsd_386.zip",
+          "shasum": "009e16ee117b88f1af58607a808924ebda3fa4d93b6dbb76b6930a5a2ba16d03"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-streamkap_1.1.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/streamkap-com/terraform-provider-streamkap/releases/download/v1.1.0/terraform-provider-streamkap_1.1.0_freebsd_amd64.zip",
+          "shasum": "5025cc1d11f3f46100208adfce047bf170298f43cc67fd456af3e0cc5d898d33"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-streamkap_1.1.0_windows_arm64.zip",
+          "download_url": "https://github.com/streamkap-com/terraform-provider-streamkap/releases/download/v1.1.0/terraform-provider-streamkap_1.1.0_windows_arm64.zip",
+          "shasum": "fe1575e9ebb116e4288ab02671953d4ccb625a7700c12ccfa921d0034adcc093"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-streamkap_1.1.0_freebsd_arm.zip",
+          "download_url": "https://github.com/streamkap-com/terraform-provider-streamkap/releases/download/v1.1.0/terraform-provider-streamkap_1.1.0_freebsd_arm.zip",
+          "shasum": "5a6f124ed8911c1912e95a1a95ceb0cb8c571304150afefd7eebbb30c88af5d2"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-streamkap_1.1.0_linux_386.zip",
+          "download_url": "https://github.com/streamkap-com/terraform-provider-streamkap/releases/download/v1.1.0/terraform-provider-streamkap_1.1.0_linux_386.zip",
+          "shasum": "1194c970103884187416aebce47f5cda1ae72ee9f17f9926d42b16859a065649"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-streamkap_1.1.0_darwin_amd64.zip",
+          "download_url": "https://github.com/streamkap-com/terraform-provider-streamkap/releases/download/v1.1.0/terraform-provider-streamkap_1.1.0_darwin_amd64.zip",
+          "shasum": "f64f315d54897660968751f1ff0e0845b9d9594395bf2f534f1ae677df617e3f"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-streamkap_1.1.0_linux_arm64.zip",
+          "download_url": "https://github.com/streamkap-com/terraform-provider-streamkap/releases/download/v1.1.0/terraform-provider-streamkap_1.1.0_linux_arm64.zip",
+          "shasum": "1b1f1c60ad94d7e3c06b91ce2aa089cc4e2ab88e31b518ebf8bbae13406ebbd1"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-streamkap_1.1.0_linux_arm.zip",
+          "download_url": "https://github.com/streamkap-com/terraform-provider-streamkap/releases/download/v1.1.0/terraform-provider-streamkap_1.1.0_linux_arm.zip",
+          "shasum": "e9cedd9fa8ecb539ed7980bcda6ace8b68b5de7536c7c4b5158e7f61eb664746"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-streamkap_1.1.0_windows_amd64.zip",
+          "download_url": "https://github.com/streamkap-com/terraform-provider-streamkap/releases/download/v1.1.0/terraform-provider-streamkap_1.1.0_windows_amd64.zip",
+          "shasum": "6cc6f2d2baff3a281526eed2ccf269d88ae630faf959efecf92242b894058452"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-streamkap_1.1.0_darwin_arm64.zip",
+          "download_url": "https://github.com/streamkap-com/terraform-provider-streamkap/releases/download/v1.1.0/terraform-provider-streamkap_1.1.0_darwin_arm64.zip",
+          "shasum": "7246608fe2d3c297c9a7d4745096ac25fd28eda11ee0810c8b09283dd67432e3"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-streamkap_1.1.0_windows_arm.zip",
+          "download_url": "https://github.com/streamkap-com/terraform-provider-streamkap/releases/download/v1.1.0/terraform-provider-streamkap_1.1.0_windows_arm.zip",
+          "shasum": "b868bb9973c07a3d191ff220269a38602257d539c641200610f5a2c76f85c6db"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-streamkap_1.1.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/streamkap-com/terraform-provider-streamkap/releases/download/v1.1.0/terraform-provider-streamkap_1.1.0_freebsd_arm64.zip",
+          "shasum": "31c53b5aadcb82d826399acd53579dbe34feb0ca8f40785f8ad9ea950360d675"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-streamkap_1.1.0_windows_386.zip",
+          "download_url": "https://github.com/streamkap-com/terraform-provider-streamkap/releases/download/v1.1.0/terraform-provider-streamkap_1.1.0_windows_386.zip",
+          "shasum": "46e5f08b08d2511efce5c1af54e84fcd07b24f94b8241cbfe81e9beb4e978220"
+        }
+      ]
+    },
+    {
       "version": "1.0.2",
       "protocols": [
         "5.0"
@@ -10,102 +118,102 @@
       "shasums_signature_url": "https://github.com/streamkap-com/terraform-provider-streamkap/releases/download/v1.0.2/terraform-provider-streamkap_1.0.2_SHA256SUMS.sig",
       "targets": [
         {
-          "os": "windows",
-          "arch": "386",
-          "filename": "terraform-provider-streamkap_1.0.2_windows_386.zip",
-          "download_url": "https://github.com/streamkap-com/terraform-provider-streamkap/releases/download/v1.0.2/terraform-provider-streamkap_1.0.2_windows_386.zip",
-          "shasum": "aa594f4156cfb262b8551782749c4a67e70ff3d168f853c9818777fb907a260c"
-        },
-        {
-          "os": "linux",
-          "arch": "arm",
-          "filename": "terraform-provider-streamkap_1.0.2_linux_arm.zip",
-          "download_url": "https://github.com/streamkap-com/terraform-provider-streamkap/releases/download/v1.0.2/terraform-provider-streamkap_1.0.2_linux_arm.zip",
-          "shasum": "200a8398b3d12729d6e2277f6651d57b1b19e7e8dd6027d2e77b3703e287d37c"
-        },
-        {
-          "os": "freebsd",
-          "arch": "arm64",
-          "filename": "terraform-provider-streamkap_1.0.2_freebsd_arm64.zip",
-          "download_url": "https://github.com/streamkap-com/terraform-provider-streamkap/releases/download/v1.0.2/terraform-provider-streamkap_1.0.2_freebsd_arm64.zip",
-          "shasum": "6ec0189643efa9878f2ab4107c5a765b159b29b18ca1f049979edc6c553c1f5f"
-        },
-        {
           "os": "darwin",
           "arch": "amd64",
           "filename": "terraform-provider-streamkap_1.0.2_darwin_amd64.zip",
           "download_url": "https://github.com/streamkap-com/terraform-provider-streamkap/releases/download/v1.0.2/terraform-provider-streamkap_1.0.2_darwin_amd64.zip",
-          "shasum": "4a504f9d052bbb3ce67ac2d4bef5ef38790d5ea6950990c1ab06dffae74bde06"
-        },
-        {
-          "os": "freebsd",
-          "arch": "386",
-          "filename": "terraform-provider-streamkap_1.0.2_freebsd_386.zip",
-          "download_url": "https://github.com/streamkap-com/terraform-provider-streamkap/releases/download/v1.0.2/terraform-provider-streamkap_1.0.2_freebsd_386.zip",
-          "shasum": "c71e31e3c0a765879318c25ce2afa8fe8628ea9d94e1633757a488855e7cee99"
-        },
-        {
-          "os": "windows",
-          "arch": "arm",
-          "filename": "terraform-provider-streamkap_1.0.2_windows_arm.zip",
-          "download_url": "https://github.com/streamkap-com/terraform-provider-streamkap/releases/download/v1.0.2/terraform-provider-streamkap_1.0.2_windows_arm.zip",
-          "shasum": "5c4cdcfd23717d1e7b72b6fa953c02fc67b7fb5f7715a7c960eb5e0010ca7f60"
-        },
-        {
-          "os": "linux",
-          "arch": "arm64",
-          "filename": "terraform-provider-streamkap_1.0.2_linux_arm64.zip",
-          "download_url": "https://github.com/streamkap-com/terraform-provider-streamkap/releases/download/v1.0.2/terraform-provider-streamkap_1.0.2_linux_arm64.zip",
-          "shasum": "20c4e91c8da134beb2b3a5620bc6f007553f149a26d2f9e56e6f675bc4ced710"
-        },
-        {
-          "os": "windows",
-          "arch": "amd64",
-          "filename": "terraform-provider-streamkap_1.0.2_windows_amd64.zip",
-          "download_url": "https://github.com/streamkap-com/terraform-provider-streamkap/releases/download/v1.0.2/terraform-provider-streamkap_1.0.2_windows_amd64.zip",
-          "shasum": "b65878653edc6e1e41b1f8c8ca03c1fa5791a76d8e2586510fba43831d32607b"
-        },
-        {
-          "os": "windows",
-          "arch": "arm64",
-          "filename": "terraform-provider-streamkap_1.0.2_windows_arm64.zip",
-          "download_url": "https://github.com/streamkap-com/terraform-provider-streamkap/releases/download/v1.0.2/terraform-provider-streamkap_1.0.2_windows_arm64.zip",
-          "shasum": "ceb8dcab2b91c5acf68a83eae36d3805552f898771ee77a1fac7c97c696fcc30"
-        },
-        {
-          "os": "darwin",
-          "arch": "arm64",
-          "filename": "terraform-provider-streamkap_1.0.2_darwin_arm64.zip",
-          "download_url": "https://github.com/streamkap-com/terraform-provider-streamkap/releases/download/v1.0.2/terraform-provider-streamkap_1.0.2_darwin_arm64.zip",
-          "shasum": "8508db4179268d2fe96dfe9cada49704e0c524825799794f66b5c5be9bd56aff"
-        },
-        {
-          "os": "freebsd",
-          "arch": "amd64",
-          "filename": "terraform-provider-streamkap_1.0.2_freebsd_amd64.zip",
-          "download_url": "https://github.com/streamkap-com/terraform-provider-streamkap/releases/download/v1.0.2/terraform-provider-streamkap_1.0.2_freebsd_amd64.zip",
-          "shasum": "6321d814fcb2b628e8fea7f759aef632e25f001adc0712e6bf9db51c074676f6"
+          "shasum": "fbdef60019fb941fde70d1eb9dc2c41ae590d1253129b0f18e345ed7eff6d323"
         },
         {
           "os": "freebsd",
           "arch": "arm",
           "filename": "terraform-provider-streamkap_1.0.2_freebsd_arm.zip",
           "download_url": "https://github.com/streamkap-com/terraform-provider-streamkap/releases/download/v1.0.2/terraform-provider-streamkap_1.0.2_freebsd_arm.zip",
-          "shasum": "f579ea22579fe264939e6a7ca5b193efa010015eece731c7fa8c8a978a0b06a5"
+          "shasum": "dd4ab9f6a6c7182661436be91f16f73c791b1496df5977462f5a3190d7c9bd38"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-streamkap_1.0.2_windows_arm64.zip",
+          "download_url": "https://github.com/streamkap-com/terraform-provider-streamkap/releases/download/v1.0.2/terraform-provider-streamkap_1.0.2_windows_arm64.zip",
+          "shasum": "9ad546dd51958eb372fa8d5056e2f86db3057da5ad42f3fcdc4b0e939512b57c"
         },
         {
           "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-streamkap_1.0.2_linux_arm.zip",
+          "download_url": "https://github.com/streamkap-com/terraform-provider-streamkap/releases/download/v1.0.2/terraform-provider-streamkap_1.0.2_linux_arm.zip",
+          "shasum": "0022f96f6c192d75f9f7970ee260ec4e5dc418b6738257485d4e77df11435956"
+        },
+        {
+          "os": "freebsd",
           "arch": "386",
-          "filename": "terraform-provider-streamkap_1.0.2_linux_386.zip",
-          "download_url": "https://github.com/streamkap-com/terraform-provider-streamkap/releases/download/v1.0.2/terraform-provider-streamkap_1.0.2_linux_386.zip",
-          "shasum": "0627305df13d6ee7b55a172d4645df232ac4d88abb36e86c62420dffcbb774c5"
+          "filename": "terraform-provider-streamkap_1.0.2_freebsd_386.zip",
+          "download_url": "https://github.com/streamkap-com/terraform-provider-streamkap/releases/download/v1.0.2/terraform-provider-streamkap_1.0.2_freebsd_386.zip",
+          "shasum": "6bb7dcef02dfa1e96e4d8562fe161b812ce94fbb3e6ef443e957daf62c63af18"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-streamkap_1.0.2_windows_amd64.zip",
+          "download_url": "https://github.com/streamkap-com/terraform-provider-streamkap/releases/download/v1.0.2/terraform-provider-streamkap_1.0.2_windows_amd64.zip",
+          "shasum": "1d11095aa4156842f0a065eca0d131d9ee7600a02c11cfaf58aea1c58bf76f07"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-streamkap_1.0.2_freebsd_arm64.zip",
+          "download_url": "https://github.com/streamkap-com/terraform-provider-streamkap/releases/download/v1.0.2/terraform-provider-streamkap_1.0.2_freebsd_arm64.zip",
+          "shasum": "254fe9c8eef6f9ff1a6276b7d3f0758eb31f1e6db5ffb017fb1fe396d523fd5f"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-streamkap_1.0.2_freebsd_amd64.zip",
+          "download_url": "https://github.com/streamkap-com/terraform-provider-streamkap/releases/download/v1.0.2/terraform-provider-streamkap_1.0.2_freebsd_amd64.zip",
+          "shasum": "0faee2a0e602b5ccc27b4b49ed706695241c4913b57fdbd4ec6c2409b6eaf649"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-streamkap_1.0.2_windows_386.zip",
+          "download_url": "https://github.com/streamkap-com/terraform-provider-streamkap/releases/download/v1.0.2/terraform-provider-streamkap_1.0.2_windows_386.zip",
+          "shasum": "a126e47ff0b0b20590af14313f42e7b89864cb231cf8fc83b449df1d38c5176c"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-streamkap_1.0.2_darwin_arm64.zip",
+          "download_url": "https://github.com/streamkap-com/terraform-provider-streamkap/releases/download/v1.0.2/terraform-provider-streamkap_1.0.2_darwin_arm64.zip",
+          "shasum": "2a2d087428fe71e9550c48af190868fa6f5842c247a49eba26251630594346c1"
         },
         {
           "os": "linux",
           "arch": "amd64",
           "filename": "terraform-provider-streamkap_1.0.2_linux_amd64.zip",
           "download_url": "https://github.com/streamkap-com/terraform-provider-streamkap/releases/download/v1.0.2/terraform-provider-streamkap_1.0.2_linux_amd64.zip",
-          "shasum": "69e61b8d2e0b14c7a33608f9f91d499bf6d40d506ce6e67608dea2d4b583f6ed"
+          "shasum": "fab8775d12448748c8d5ea41bf0a6095e39d7b4d7347634f1701497700ee822b"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-streamkap_1.0.2_windows_arm.zip",
+          "download_url": "https://github.com/streamkap-com/terraform-provider-streamkap/releases/download/v1.0.2/terraform-provider-streamkap_1.0.2_windows_arm.zip",
+          "shasum": "1df0d1a545bc1c355081e938b65069fac428bc61d6a3fce21f4a46b8084f8aa9"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-streamkap_1.0.2_linux_arm64.zip",
+          "download_url": "https://github.com/streamkap-com/terraform-provider-streamkap/releases/download/v1.0.2/terraform-provider-streamkap_1.0.2_linux_arm64.zip",
+          "shasum": "63aa01047cf49f3ce6249c394c669b5af05758b1af5eaf1a07c233ee118fcb87"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-streamkap_1.0.2_linux_386.zip",
+          "download_url": "https://github.com/streamkap-com/terraform-provider-streamkap/releases/download/v1.0.2/terraform-provider-streamkap_1.0.2_linux_386.zip",
+          "shasum": "76a8b974ef55cada94b9df0a496428626921ea9675b0ea8ea1b915baee9d4c82"
         }
       ]
     },
