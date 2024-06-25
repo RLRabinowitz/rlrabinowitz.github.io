@@ -2,6 +2,114 @@
   "repository": "https://github.com/aquasecurity/terraform-provider-aquasec",
   "versions": [
     {
+      "version": "0.8.29",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/aquasecurity/terraform-provider-aquasec/releases/download/v0.8.29/terraform-provider-aquasec_0.8.29_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/aquasecurity/terraform-provider-aquasec/releases/download/v0.8.29/terraform-provider-aquasec_0.8.29_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-aquasec_0.8.29_linux_arm.zip",
+          "download_url": "https://github.com/aquasecurity/terraform-provider-aquasec/releases/download/v0.8.29/terraform-provider-aquasec_0.8.29_linux_arm.zip",
+          "shasum": "f4def608f62d63dea3fdb40196de7a19f42296468b68fef9067dc71ece8992fb"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-aquasec_0.8.29_freebsd_amd64.zip",
+          "download_url": "https://github.com/aquasecurity/terraform-provider-aquasec/releases/download/v0.8.29/terraform-provider-aquasec_0.8.29_freebsd_amd64.zip",
+          "shasum": "2463310adadef3d66fdf1500d6da8f7519b787f090124397293df2184391ac17"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-aquasec_0.8.29_freebsd_386.zip",
+          "download_url": "https://github.com/aquasecurity/terraform-provider-aquasec/releases/download/v0.8.29/terraform-provider-aquasec_0.8.29_freebsd_386.zip",
+          "shasum": "73b54ae18546c3404d976a975a2fb05e28b5fa53d977e749df1c011b3d17d034"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-aquasec_0.8.29_darwin_arm64.zip",
+          "download_url": "https://github.com/aquasecurity/terraform-provider-aquasec/releases/download/v0.8.29/terraform-provider-aquasec_0.8.29_darwin_arm64.zip",
+          "shasum": "e61d862f31e5cff10f876f842359db74e5ec968f8106a8f838d941fd8f6dfc79"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-aquasec_0.8.29_windows_arm.zip",
+          "download_url": "https://github.com/aquasecurity/terraform-provider-aquasec/releases/download/v0.8.29/terraform-provider-aquasec_0.8.29_windows_arm.zip",
+          "shasum": "45660d96e2718a65e28b79d9927be19a384fc2fc162decad466dde91e6dc6265"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-aquasec_0.8.29_linux_386.zip",
+          "download_url": "https://github.com/aquasecurity/terraform-provider-aquasec/releases/download/v0.8.29/terraform-provider-aquasec_0.8.29_linux_386.zip",
+          "shasum": "33d8936efee8474d55ae7843a10feca035c80e7c754873242e7b662ba70f597e"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-aquasec_0.8.29_linux_amd64.zip",
+          "download_url": "https://github.com/aquasecurity/terraform-provider-aquasec/releases/download/v0.8.29/terraform-provider-aquasec_0.8.29_linux_amd64.zip",
+          "shasum": "1ffe5d287ded85945f470ea2c40619bd71b0948c2fc25bbf30426c1cfaae1832"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-aquasec_0.8.29_freebsd_arm64.zip",
+          "download_url": "https://github.com/aquasecurity/terraform-provider-aquasec/releases/download/v0.8.29/terraform-provider-aquasec_0.8.29_freebsd_arm64.zip",
+          "shasum": "b1915698be78df4e5169a7668813e82273a30b110251bafaa578fa5d26d88f14"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-aquasec_0.8.29_windows_386.zip",
+          "download_url": "https://github.com/aquasecurity/terraform-provider-aquasec/releases/download/v0.8.29/terraform-provider-aquasec_0.8.29_windows_386.zip",
+          "shasum": "26863e8be05a15fd88e10a1caba560001ba4e4184c8fdfddf6e7309754b1fee9"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-aquasec_0.8.29_windows_arm64.zip",
+          "download_url": "https://github.com/aquasecurity/terraform-provider-aquasec/releases/download/v0.8.29/terraform-provider-aquasec_0.8.29_windows_arm64.zip",
+          "shasum": "c153901b0230d4c5eb49d850f7f5c217274159966522afc966de67324d573493"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-aquasec_0.8.29_windows_amd64.zip",
+          "download_url": "https://github.com/aquasecurity/terraform-provider-aquasec/releases/download/v0.8.29/terraform-provider-aquasec_0.8.29_windows_amd64.zip",
+          "shasum": "9be0528d6f3dfd1cdd17d4f233af28856856469c08ede255a3ef2fcddc35ff56"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-aquasec_0.8.29_linux_arm64.zip",
+          "download_url": "https://github.com/aquasecurity/terraform-provider-aquasec/releases/download/v0.8.29/terraform-provider-aquasec_0.8.29_linux_arm64.zip",
+          "shasum": "8dfab3555cdf93a13427f242ab339ab8b85ec03e3166eb7f512fc3fbd47e9dae"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-aquasec_0.8.29_freebsd_arm.zip",
+          "download_url": "https://github.com/aquasecurity/terraform-provider-aquasec/releases/download/v0.8.29/terraform-provider-aquasec_0.8.29_freebsd_arm.zip",
+          "shasum": "897dd273de2b4e7a2f2baf74fd7bbbaf3f29790b42c696fefec0bafc6bf20d94"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-aquasec_0.8.29_darwin_amd64.zip",
+          "download_url": "https://github.com/aquasecurity/terraform-provider-aquasec/releases/download/v0.8.29/terraform-provider-aquasec_0.8.29_darwin_amd64.zip",
+          "shasum": "546d4956e32a114c90414ca9e93922693b7b5c85036fc58cbe01e9fa5f16dbbe"
+        }
+      ]
+    },
+    {
       "version": "0.8.28",
       "protocols": [
         "5.0"
@@ -11,101 +119,101 @@
       "targets": [
         {
           "os": "freebsd",
-          "arch": "arm",
-          "filename": "terraform-provider-aquasec_0.8.28_freebsd_arm.zip",
-          "download_url": "https://github.com/aquasecurity/terraform-provider-aquasec/releases/download/v0.8.28/terraform-provider-aquasec_0.8.28_freebsd_arm.zip",
-          "shasum": "d35c9029c523ebf5276cab70467506fa01c45bfc12ac56a6b277d172b7b60064"
-        },
-        {
-          "os": "windows",
-          "arch": "amd64",
-          "filename": "terraform-provider-aquasec_0.8.28_windows_amd64.zip",
-          "download_url": "https://github.com/aquasecurity/terraform-provider-aquasec/releases/download/v0.8.28/terraform-provider-aquasec_0.8.28_windows_amd64.zip",
-          "shasum": "99ef63b55faf565384433b0fb2a705b3ecb9b82664fab5bf9789cde626daf93a"
-        },
-        {
-          "os": "darwin",
           "arch": "arm64",
-          "filename": "terraform-provider-aquasec_0.8.28_darwin_arm64.zip",
-          "download_url": "https://github.com/aquasecurity/terraform-provider-aquasec/releases/download/v0.8.28/terraform-provider-aquasec_0.8.28_darwin_arm64.zip",
-          "shasum": "2cd6777ff06f31aaee33973d907a76eee8caa9f101e3038d84c68241e5fdc0b7"
-        },
-        {
-          "os": "windows",
-          "arch": "arm64",
-          "filename": "terraform-provider-aquasec_0.8.28_windows_arm64.zip",
-          "download_url": "https://github.com/aquasecurity/terraform-provider-aquasec/releases/download/v0.8.28/terraform-provider-aquasec_0.8.28_windows_arm64.zip",
-          "shasum": "a43bce67a377539cb16105013d5a9ca892a4f010347a064763ad01a1673bcc44"
-        },
-        {
-          "os": "windows",
-          "arch": "386",
-          "filename": "terraform-provider-aquasec_0.8.28_windows_386.zip",
-          "download_url": "https://github.com/aquasecurity/terraform-provider-aquasec/releases/download/v0.8.28/terraform-provider-aquasec_0.8.28_windows_386.zip",
-          "shasum": "b2054a2d078e3051088714c475c62b40d8c9e5609608182083418bf95f7e80eb"
-        },
-        {
-          "os": "freebsd",
-          "arch": "386",
-          "filename": "terraform-provider-aquasec_0.8.28_freebsd_386.zip",
-          "download_url": "https://github.com/aquasecurity/terraform-provider-aquasec/releases/download/v0.8.28/terraform-provider-aquasec_0.8.28_freebsd_386.zip",
-          "shasum": "9667bb55f0874ae3f219fc371db2a0786979556aea1eb68308b7b25c061b306a"
-        },
-        {
-          "os": "darwin",
-          "arch": "amd64",
-          "filename": "terraform-provider-aquasec_0.8.28_darwin_amd64.zip",
-          "download_url": "https://github.com/aquasecurity/terraform-provider-aquasec/releases/download/v0.8.28/terraform-provider-aquasec_0.8.28_darwin_amd64.zip",
-          "shasum": "679fe779e8094da644c179ced6b936d41984252316ea9a414abbefb2fea7e1c6"
-        },
-        {
-          "os": "linux",
-          "arch": "arm",
-          "filename": "terraform-provider-aquasec_0.8.28_linux_arm.zip",
-          "download_url": "https://github.com/aquasecurity/terraform-provider-aquasec/releases/download/v0.8.28/terraform-provider-aquasec_0.8.28_linux_arm.zip",
-          "shasum": "29de3353e190185dfb9f252e1661ecfe0e8379423dc98e37536f047111a256d5"
+          "filename": "terraform-provider-aquasec_0.8.28_freebsd_arm64.zip",
+          "download_url": "https://github.com/aquasecurity/terraform-provider-aquasec/releases/download/v0.8.28/terraform-provider-aquasec_0.8.28_freebsd_arm64.zip",
+          "shasum": "2f9d3257915f195720fcb858617dd8572b75b080068ba7aa91453d5958eb9efd"
         },
         {
           "os": "windows",
           "arch": "arm",
           "filename": "terraform-provider-aquasec_0.8.28_windows_arm.zip",
           "download_url": "https://github.com/aquasecurity/terraform-provider-aquasec/releases/download/v0.8.28/terraform-provider-aquasec_0.8.28_windows_arm.zip",
-          "shasum": "f2479e31418f36b7b9ddc97738926af48c51de6e8c288c89a48d8fde5cb1d476"
+          "shasum": "bb284c9e0557f86b63b1f33ede62688c5de76610386ae41e3b83bcf1250fdbc9"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-aquasec_0.8.28_darwin_arm64.zip",
+          "download_url": "https://github.com/aquasecurity/terraform-provider-aquasec/releases/download/v0.8.28/terraform-provider-aquasec_0.8.28_darwin_arm64.zip",
+          "shasum": "5292c672c04fe7a3b68037ffb4d895f7f7838d8739ea7d32fb32953638e007c7"
         },
         {
           "os": "freebsd",
-          "arch": "amd64",
-          "filename": "terraform-provider-aquasec_0.8.28_freebsd_amd64.zip",
-          "download_url": "https://github.com/aquasecurity/terraform-provider-aquasec/releases/download/v0.8.28/terraform-provider-aquasec_0.8.28_freebsd_amd64.zip",
-          "shasum": "d861d39bd761c22bab0b40ad7bf75ea81b6d08c205cfff2a24f208268578bfa3"
+          "arch": "386",
+          "filename": "terraform-provider-aquasec_0.8.28_freebsd_386.zip",
+          "download_url": "https://github.com/aquasecurity/terraform-provider-aquasec/releases/download/v0.8.28/terraform-provider-aquasec_0.8.28_freebsd_386.zip",
+          "shasum": "b9242cc9363632d3364454277a970076377059c93a8f40d05b702d817f8e2cf8"
         },
         {
-          "os": "linux",
-          "arch": "386",
-          "filename": "terraform-provider-aquasec_0.8.28_linux_386.zip",
-          "download_url": "https://github.com/aquasecurity/terraform-provider-aquasec/releases/download/v0.8.28/terraform-provider-aquasec_0.8.28_linux_386.zip",
-          "shasum": "076e076eff845aef7f542bed2b0776dad2211ca5277d819671ce2cbdd1d2a331"
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-aquasec_0.8.28_windows_arm64.zip",
+          "download_url": "https://github.com/aquasecurity/terraform-provider-aquasec/releases/download/v0.8.28/terraform-provider-aquasec_0.8.28_windows_arm64.zip",
+          "shasum": "77820a32db7728207270b09fe787af8ecc5f9038b62d34fc1921e5ba68601599"
         },
         {
           "os": "linux",
           "arch": "arm64",
           "filename": "terraform-provider-aquasec_0.8.28_linux_arm64.zip",
           "download_url": "https://github.com/aquasecurity/terraform-provider-aquasec/releases/download/v0.8.28/terraform-provider-aquasec_0.8.28_linux_arm64.zip",
-          "shasum": "567958b8de72ec15a5627a3f44968f177bf65161c74e84f3e8342b9270ee1ab5"
+          "shasum": "7eb50c79f5a7b56d8ed23a8b632accd49543e1f891d388f225f24f3821bbd39a"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-aquasec_0.8.28_windows_386.zip",
+          "download_url": "https://github.com/aquasecurity/terraform-provider-aquasec/releases/download/v0.8.28/terraform-provider-aquasec_0.8.28_windows_386.zip",
+          "shasum": "3f8e59e709b8f81818b0e4854674c8498d29fc027fe61e3495ff16ff4cf9cbe1"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-aquasec_0.8.28_darwin_amd64.zip",
+          "download_url": "https://github.com/aquasecurity/terraform-provider-aquasec/releases/download/v0.8.28/terraform-provider-aquasec_0.8.28_darwin_amd64.zip",
+          "shasum": "fd94921a1889ddd9e7b006db779a18ac7018f579b56b44f4bf8302029b895a25"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-aquasec_0.8.28_linux_386.zip",
+          "download_url": "https://github.com/aquasecurity/terraform-provider-aquasec/releases/download/v0.8.28/terraform-provider-aquasec_0.8.28_linux_386.zip",
+          "shasum": "a937173ac65848e50d77220e6bc150998fb39ec08edff8a28f71f1bef5be680b"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-aquasec_0.8.28_freebsd_amd64.zip",
+          "download_url": "https://github.com/aquasecurity/terraform-provider-aquasec/releases/download/v0.8.28/terraform-provider-aquasec_0.8.28_freebsd_amd64.zip",
+          "shasum": "78c0ec0214fb823b01751b454a443462d3e659e1e865b52e7309c2b176b5c64f"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-aquasec_0.8.28_freebsd_arm.zip",
+          "download_url": "https://github.com/aquasecurity/terraform-provider-aquasec/releases/download/v0.8.28/terraform-provider-aquasec_0.8.28_freebsd_arm.zip",
+          "shasum": "6966e7cb88494fa9b7a47d7c3134b1fb4874f44adab2f1381ebb6a0aa14c4c6d"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-aquasec_0.8.28_linux_arm.zip",
+          "download_url": "https://github.com/aquasecurity/terraform-provider-aquasec/releases/download/v0.8.28/terraform-provider-aquasec_0.8.28_linux_arm.zip",
+          "shasum": "a7a68a716288644753dca925be79e12b052ddd49d3bdb2ed6d63f5e03a6d5689"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-aquasec_0.8.28_windows_amd64.zip",
+          "download_url": "https://github.com/aquasecurity/terraform-provider-aquasec/releases/download/v0.8.28/terraform-provider-aquasec_0.8.28_windows_amd64.zip",
+          "shasum": "0ba3c7c8133ef6460b78bc95732c0695c50532b34f5b9c7612825ab426562c4a"
         },
         {
           "os": "linux",
           "arch": "amd64",
           "filename": "terraform-provider-aquasec_0.8.28_linux_amd64.zip",
           "download_url": "https://github.com/aquasecurity/terraform-provider-aquasec/releases/download/v0.8.28/terraform-provider-aquasec_0.8.28_linux_amd64.zip",
-          "shasum": "e8a90a5104e94d8003cf1cd187a0b96f227372baca92c69a9d6aa96a856b9ca8"
-        },
-        {
-          "os": "freebsd",
-          "arch": "arm64",
-          "filename": "terraform-provider-aquasec_0.8.28_freebsd_arm64.zip",
-          "download_url": "https://github.com/aquasecurity/terraform-provider-aquasec/releases/download/v0.8.28/terraform-provider-aquasec_0.8.28_freebsd_arm64.zip",
-          "shasum": "96510f8fd966ef210990da3c05bb1b44a0aa16e85af5e0f05147f8cae4f9dfb6"
+          "shasum": "d2e8062c7e7b0a724a7e378cb77ec4e38cf614ccc7467850321c8e2aecf6084c"
         }
       ]
     },
