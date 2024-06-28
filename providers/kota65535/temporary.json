@@ -2,6 +2,222 @@
   "repository": "https://github.com/kota65535/terraform-provider-temporary",
   "versions": [
     {
+      "version": "1.0.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/kota65535/terraform-provider-temporary/releases/download/v1.0.0/terraform-provider-temporary_1.0.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/kota65535/terraform-provider-temporary/releases/download/v1.0.0/terraform-provider-temporary_1.0.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-temporary_1.0.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/kota65535/terraform-provider-temporary/releases/download/v1.0.0/terraform-provider-temporary_1.0.0_freebsd_amd64.zip",
+          "shasum": "278949dbfb815e9f2393b6ebc51edd0c7f5135f4d5cc5a7a1780df0fc026b67e"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-temporary_1.0.0_windows_386.zip",
+          "download_url": "https://github.com/kota65535/terraform-provider-temporary/releases/download/v1.0.0/terraform-provider-temporary_1.0.0_windows_386.zip",
+          "shasum": "e70a6b8cbc3d3dd196d7216997658e2b9c3d8974fa8280639542d4c4731bc06f"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-temporary_1.0.0_linux_arm.zip",
+          "download_url": "https://github.com/kota65535/terraform-provider-temporary/releases/download/v1.0.0/terraform-provider-temporary_1.0.0_linux_arm.zip",
+          "shasum": "37529165e1731e064e0f3fa7c592f7ea1253a3d3a606ba1e1dff4f5c07083358"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-temporary_1.0.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/kota65535/terraform-provider-temporary/releases/download/v1.0.0/terraform-provider-temporary_1.0.0_freebsd_arm64.zip",
+          "shasum": "b2897164fc048df55e8741a45cce1b07807ee147a20d1fefa2feb2dbc496213b"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-temporary_1.0.0_windows_arm.zip",
+          "download_url": "https://github.com/kota65535/terraform-provider-temporary/releases/download/v1.0.0/terraform-provider-temporary_1.0.0_windows_arm.zip",
+          "shasum": "c3dc91ace9bb71c2931a473ed7cba30ff90a61bbe621a4345076f9a745002fe9"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-temporary_1.0.0_freebsd_386.zip",
+          "download_url": "https://github.com/kota65535/terraform-provider-temporary/releases/download/v1.0.0/terraform-provider-temporary_1.0.0_freebsd_386.zip",
+          "shasum": "47c8b391abf357d02b3ac6df108de7edb971a5175d5be3fc7e735c26bdbd81c7"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-temporary_1.0.0_darwin_amd64.zip",
+          "download_url": "https://github.com/kota65535/terraform-provider-temporary/releases/download/v1.0.0/terraform-provider-temporary_1.0.0_darwin_amd64.zip",
+          "shasum": "03910f59bfdb9aac4b09d70e28a209e2e248d73a222ce273b6cd52c6801c52ef"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-temporary_1.0.0_darwin_arm64.zip",
+          "download_url": "https://github.com/kota65535/terraform-provider-temporary/releases/download/v1.0.0/terraform-provider-temporary_1.0.0_darwin_arm64.zip",
+          "shasum": "b26e0354a1254bd869db20fefaf48e5d71215784ca539748301ab7251fbd8611"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-temporary_1.0.0_linux_386.zip",
+          "download_url": "https://github.com/kota65535/terraform-provider-temporary/releases/download/v1.0.0/terraform-provider-temporary_1.0.0_linux_386.zip",
+          "shasum": "ce1086ff43dc959ffd2b32cffa3f73dc9ed06b8507dfc5b91ac81c4ec27cc4f4"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-temporary_1.0.0_windows_arm64.zip",
+          "download_url": "https://github.com/kota65535/terraform-provider-temporary/releases/download/v1.0.0/terraform-provider-temporary_1.0.0_windows_arm64.zip",
+          "shasum": "3031d952f578e57f9499ac6c4a88e1d6ea29f5591a91859ce31d3911871f1390"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-temporary_1.0.0_windows_amd64.zip",
+          "download_url": "https://github.com/kota65535/terraform-provider-temporary/releases/download/v1.0.0/terraform-provider-temporary_1.0.0_windows_amd64.zip",
+          "shasum": "22d30c51556dcfad8dc2b43888b1a8c43b77f021ff79e4f4533df14228b19a26"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-temporary_1.0.0_linux_amd64.zip",
+          "download_url": "https://github.com/kota65535/terraform-provider-temporary/releases/download/v1.0.0/terraform-provider-temporary_1.0.0_linux_amd64.zip",
+          "shasum": "fd2245f073e82cc374089a15797b01b40f1f301cbbac602c9f3e380bf53eae38"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-temporary_1.0.0_freebsd_arm.zip",
+          "download_url": "https://github.com/kota65535/terraform-provider-temporary/releases/download/v1.0.0/terraform-provider-temporary_1.0.0_freebsd_arm.zip",
+          "shasum": "4f0c6038b8c834a0a770638d266fcc8dfe6ba92ad26056693b444ed125affc5b"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-temporary_1.0.0_linux_arm64.zip",
+          "download_url": "https://github.com/kota65535/terraform-provider-temporary/releases/download/v1.0.0/terraform-provider-temporary_1.0.0_linux_arm64.zip",
+          "shasum": "741c867f8db36ffea7d13824837db28f8eb6e39546925e303e1c380a5347dca4"
+        }
+      ]
+    },
+    {
+      "version": "0.2.1",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/kota65535/terraform-provider-temporary/releases/download/v0.2.1/terraform-provider-temporary_0.2.1_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/kota65535/terraform-provider-temporary/releases/download/v0.2.1/terraform-provider-temporary_0.2.1_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-temporary_0.2.1_linux_arm.zip",
+          "download_url": "https://github.com/kota65535/terraform-provider-temporary/releases/download/v0.2.1/terraform-provider-temporary_0.2.1_linux_arm.zip",
+          "shasum": "cb43a19fc2821b87c98b927ee335aebd9b6152a814da64dc75fd538cc961fc09"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-temporary_0.2.1_freebsd_amd64.zip",
+          "download_url": "https://github.com/kota65535/terraform-provider-temporary/releases/download/v0.2.1/terraform-provider-temporary_0.2.1_freebsd_amd64.zip",
+          "shasum": "b6e435f7642a4d86975b6573a1e7a7a38585b9a35b53046846f55d473ea0c28d"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-temporary_0.2.1_freebsd_arm.zip",
+          "download_url": "https://github.com/kota65535/terraform-provider-temporary/releases/download/v0.2.1/terraform-provider-temporary_0.2.1_freebsd_arm.zip",
+          "shasum": "4653cb83722329390854c2deba81fa9672324f31eb2abc61549fe5a22a519b24"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-temporary_0.2.1_windows_arm64.zip",
+          "download_url": "https://github.com/kota65535/terraform-provider-temporary/releases/download/v0.2.1/terraform-provider-temporary_0.2.1_windows_arm64.zip",
+          "shasum": "e58c2f9a3b28d67c17c14781b422235163e2b502bf6d46729dc37a4979b522a0"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-temporary_0.2.1_windows_arm.zip",
+          "download_url": "https://github.com/kota65535/terraform-provider-temporary/releases/download/v0.2.1/terraform-provider-temporary_0.2.1_windows_arm.zip",
+          "shasum": "fe811c674fadb9a7f731f846a472b13d9d484e7fbbfb24c4606f2e6d941ce0b4"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-temporary_0.2.1_windows_386.zip",
+          "download_url": "https://github.com/kota65535/terraform-provider-temporary/releases/download/v0.2.1/terraform-provider-temporary_0.2.1_windows_386.zip",
+          "shasum": "8676d0ee0f7192d492488fcda6f2d0a633ab4489ad95d14b085d3f63dee43fe5"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-temporary_0.2.1_windows_amd64.zip",
+          "download_url": "https://github.com/kota65535/terraform-provider-temporary/releases/download/v0.2.1/terraform-provider-temporary_0.2.1_windows_amd64.zip",
+          "shasum": "be21a05ec14314840f57de9b27151106a01f3169133f9e65708ebe8552907d47"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-temporary_0.2.1_linux_arm64.zip",
+          "download_url": "https://github.com/kota65535/terraform-provider-temporary/releases/download/v0.2.1/terraform-provider-temporary_0.2.1_linux_arm64.zip",
+          "shasum": "f85e4efdcc9a24c53e154e302015d654ad1d4316a0775160f5fb0884246d7a08"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-temporary_0.2.1_freebsd_386.zip",
+          "download_url": "https://github.com/kota65535/terraform-provider-temporary/releases/download/v0.2.1/terraform-provider-temporary_0.2.1_freebsd_386.zip",
+          "shasum": "74720cd63b2736a70e3654237082ae64ffc33d44b3abe62c9451e3fc81cff311"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-temporary_0.2.1_linux_amd64.zip",
+          "download_url": "https://github.com/kota65535/terraform-provider-temporary/releases/download/v0.2.1/terraform-provider-temporary_0.2.1_linux_amd64.zip",
+          "shasum": "46879ea5ce1d630f3fb6a749edaeb34f5238b5943c3ce2756b18734e398c6248"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-temporary_0.2.1_freebsd_arm64.zip",
+          "download_url": "https://github.com/kota65535/terraform-provider-temporary/releases/download/v0.2.1/terraform-provider-temporary_0.2.1_freebsd_arm64.zip",
+          "shasum": "477cd3a984c76646958f2d7d9d96b3c4ec64f899ab28e20e2546a3270f02812d"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-temporary_0.2.1_linux_386.zip",
+          "download_url": "https://github.com/kota65535/terraform-provider-temporary/releases/download/v0.2.1/terraform-provider-temporary_0.2.1_linux_386.zip",
+          "shasum": "1aa71cc9f9a64d48f27dd310c541878435638fa9250e5f0f71fa92b9283c745e"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-temporary_0.2.1_darwin_arm64.zip",
+          "download_url": "https://github.com/kota65535/terraform-provider-temporary/releases/download/v0.2.1/terraform-provider-temporary_0.2.1_darwin_arm64.zip",
+          "shasum": "2b30b14b2f3d565a62a594e20ce16429e97d5fe3502e9bd6cfbfd2fd8c92a780"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-temporary_0.2.1_darwin_amd64.zip",
+          "download_url": "https://github.com/kota65535/terraform-provider-temporary/releases/download/v0.2.1/terraform-provider-temporary_0.2.1_darwin_amd64.zip",
+          "shasum": "c21b3d3581216c8884d6e65ffc2073498678da6e6a7d422e365734257db1d2d8"
+        }
+      ]
+    },
+    {
       "version": "0.2.0",
       "protocols": [
         "5.0"
