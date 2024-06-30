@@ -2,6 +2,114 @@
   "repository": "https://github.com/marshallford/terraform-provider-pfsense",
   "versions": [
     {
+      "version": "0.7.1",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/marshallford/terraform-provider-pfsense/releases/download/v0.7.1/terraform-provider-pfsense_0.7.1_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/marshallford/terraform-provider-pfsense/releases/download/v0.7.1/terraform-provider-pfsense_0.7.1_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-pfsense_0.7.1_windows_amd64.zip",
+          "download_url": "https://github.com/marshallford/terraform-provider-pfsense/releases/download/v0.7.1/terraform-provider-pfsense_0.7.1_windows_amd64.zip",
+          "shasum": "72d51ea3a8e97728eccc86ce83331871b3d56593117103797b136a40069eb3ac"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-pfsense_0.7.1_freebsd_arm.zip",
+          "download_url": "https://github.com/marshallford/terraform-provider-pfsense/releases/download/v0.7.1/terraform-provider-pfsense_0.7.1_freebsd_arm.zip",
+          "shasum": "984152fe78ec4f9a174738cc6c2a98cbee7cbff046529bd71b0e17facac0cfa8"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-pfsense_0.7.1_freebsd_amd64.zip",
+          "download_url": "https://github.com/marshallford/terraform-provider-pfsense/releases/download/v0.7.1/terraform-provider-pfsense_0.7.1_freebsd_amd64.zip",
+          "shasum": "82ef1312f5da9a24a14be0e33fb5e4c0632054ba8c1102bfe3413a7c7db9cfab"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-pfsense_0.7.1_freebsd_arm64.zip",
+          "download_url": "https://github.com/marshallford/terraform-provider-pfsense/releases/download/v0.7.1/terraform-provider-pfsense_0.7.1_freebsd_arm64.zip",
+          "shasum": "a8f5e2262d5c34f3529f100ba493414f69d9f082b97983f6f76358ae0b6da034"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-pfsense_0.7.1_windows_386.zip",
+          "download_url": "https://github.com/marshallford/terraform-provider-pfsense/releases/download/v0.7.1/terraform-provider-pfsense_0.7.1_windows_386.zip",
+          "shasum": "fffd28340d28c5c54dd25b886840eb4ca91ea8a90441607503d72e554fb31a2d"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-pfsense_0.7.1_windows_arm64.zip",
+          "download_url": "https://github.com/marshallford/terraform-provider-pfsense/releases/download/v0.7.1/terraform-provider-pfsense_0.7.1_windows_arm64.zip",
+          "shasum": "d631d1fd3ac2b461832928946fba6ba8f1dbc5cabc6c505e4621ee9c60c8bf7a"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-pfsense_0.7.1_freebsd_386.zip",
+          "download_url": "https://github.com/marshallford/terraform-provider-pfsense/releases/download/v0.7.1/terraform-provider-pfsense_0.7.1_freebsd_386.zip",
+          "shasum": "ad36a44c4a7ce3d032cec5240fd5964890d2c09913ab7200b2a85da402472a39"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-pfsense_0.7.1_linux_amd64.zip",
+          "download_url": "https://github.com/marshallford/terraform-provider-pfsense/releases/download/v0.7.1/terraform-provider-pfsense_0.7.1_linux_amd64.zip",
+          "shasum": "693f64451d00d176fe119ff321e1c080bc3c4bbf3fe33f0bc26061f3bf989e25"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-pfsense_0.7.1_windows_arm.zip",
+          "download_url": "https://github.com/marshallford/terraform-provider-pfsense/releases/download/v0.7.1/terraform-provider-pfsense_0.7.1_windows_arm.zip",
+          "shasum": "7d587c7adddface0ece9ce0b8f9617435b482d6b20fd88b39aea4b617cb59701"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-pfsense_0.7.1_darwin_arm64.zip",
+          "download_url": "https://github.com/marshallford/terraform-provider-pfsense/releases/download/v0.7.1/terraform-provider-pfsense_0.7.1_darwin_arm64.zip",
+          "shasum": "4855f2ffdddd19b53072217a81c74fc04f35393cb857d58242788445e7470634"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-pfsense_0.7.1_linux_arm64.zip",
+          "download_url": "https://github.com/marshallford/terraform-provider-pfsense/releases/download/v0.7.1/terraform-provider-pfsense_0.7.1_linux_arm64.zip",
+          "shasum": "1ebee3ce15c45fea48b232d44c9c9c76304b4cd85618ce56ad8fccbb8cf09742"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-pfsense_0.7.1_linux_arm.zip",
+          "download_url": "https://github.com/marshallford/terraform-provider-pfsense/releases/download/v0.7.1/terraform-provider-pfsense_0.7.1_linux_arm.zip",
+          "shasum": "ea550abd5cc3c93ac6f8ec07de4f1a4b3fe7e731578ccacb7a0deb4dc14db756"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-pfsense_0.7.1_linux_386.zip",
+          "download_url": "https://github.com/marshallford/terraform-provider-pfsense/releases/download/v0.7.1/terraform-provider-pfsense_0.7.1_linux_386.zip",
+          "shasum": "74e10cc755546e82bea4cfc4348e19f1c70de6f2b0c82ff70a1f81a0ea85e329"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-pfsense_0.7.1_darwin_amd64.zip",
+          "download_url": "https://github.com/marshallford/terraform-provider-pfsense/releases/download/v0.7.1/terraform-provider-pfsense_0.7.1_darwin_amd64.zip",
+          "shasum": "79cb1d4703dfc8e3f7ce2998fee96fa013285bdd6e233d75f0412beacb0ed83c"
+        }
+      ]
+    },
+    {
       "version": "0.7.0",
       "protocols": [
         "5.0"
@@ -754,114 +862,6 @@
           "filename": "terraform-provider-pfsense_0.1.0_linux_arm64.zip",
           "download_url": "https://github.com/marshallford/terraform-provider-pfsense/releases/download/v0.1.0/terraform-provider-pfsense_0.1.0_linux_arm64.zip",
           "shasum": "6337d851b27d0935adb67f6a4abc8f46cfec0a33b442c7e6f4340c2167967bbc"
-        }
-      ]
-    },
-    {
-      "version": "0.1.0-rc01",
-      "protocols": [
-        "5.0"
-      ],
-      "shasums_url": "https://github.com/marshallford/terraform-provider-pfsense/releases/download/v0.1.0-rc01/terraform-provider-pfsense_0.1.0-rc01_SHA256SUMS",
-      "shasums_signature_url": "https://github.com/marshallford/terraform-provider-pfsense/releases/download/v0.1.0-rc01/terraform-provider-pfsense_0.1.0-rc01_SHA256SUMS.sig",
-      "targets": [
-        {
-          "os": "freebsd",
-          "arch": "arm",
-          "filename": "terraform-provider-pfsense_0.1.0-rc01_freebsd_arm.zip",
-          "download_url": "https://github.com/marshallford/terraform-provider-pfsense/releases/download/v0.1.0-rc01/terraform-provider-pfsense_0.1.0-rc01_freebsd_arm.zip",
-          "shasum": "e357abc9dc1de6aab326387680d7d0d9cea93d6c2200cf0eda6718c4fb718312"
-        },
-        {
-          "os": "freebsd",
-          "arch": "amd64",
-          "filename": "terraform-provider-pfsense_0.1.0-rc01_freebsd_amd64.zip",
-          "download_url": "https://github.com/marshallford/terraform-provider-pfsense/releases/download/v0.1.0-rc01/terraform-provider-pfsense_0.1.0-rc01_freebsd_amd64.zip",
-          "shasum": "d525d5a17c23b5fe2bfbf15925db26f68406cc488e0d28c3e3b7a4bfb0d0c773"
-        },
-        {
-          "os": "freebsd",
-          "arch": "arm64",
-          "filename": "terraform-provider-pfsense_0.1.0-rc01_freebsd_arm64.zip",
-          "download_url": "https://github.com/marshallford/terraform-provider-pfsense/releases/download/v0.1.0-rc01/terraform-provider-pfsense_0.1.0-rc01_freebsd_arm64.zip",
-          "shasum": "fef9812a23fd89790467ef94477a026f56ee940d494206db8d54daaad800baca"
-        },
-        {
-          "os": "linux",
-          "arch": "amd64",
-          "filename": "terraform-provider-pfsense_0.1.0-rc01_linux_amd64.zip",
-          "download_url": "https://github.com/marshallford/terraform-provider-pfsense/releases/download/v0.1.0-rc01/terraform-provider-pfsense_0.1.0-rc01_linux_amd64.zip",
-          "shasum": "aabdafe4a04ae947a5a9e939a5e70d7baec18d25b8e98fa1cc8d2d979d095b9f"
-        },
-        {
-          "os": "darwin",
-          "arch": "amd64",
-          "filename": "terraform-provider-pfsense_0.1.0-rc01_darwin_amd64.zip",
-          "download_url": "https://github.com/marshallford/terraform-provider-pfsense/releases/download/v0.1.0-rc01/terraform-provider-pfsense_0.1.0-rc01_darwin_amd64.zip",
-          "shasum": "842d56b5396be774b4906501fa88384c46107dc276514dc291aaf91f1bf43dc4"
-        },
-        {
-          "os": "freebsd",
-          "arch": "386",
-          "filename": "terraform-provider-pfsense_0.1.0-rc01_freebsd_386.zip",
-          "download_url": "https://github.com/marshallford/terraform-provider-pfsense/releases/download/v0.1.0-rc01/terraform-provider-pfsense_0.1.0-rc01_freebsd_386.zip",
-          "shasum": "0128925f97c20ac22c00cea8f02b261c668c6e5f86f720899eedf3d95389ec0b"
-        },
-        {
-          "os": "windows",
-          "arch": "arm",
-          "filename": "terraform-provider-pfsense_0.1.0-rc01_windows_arm.zip",
-          "download_url": "https://github.com/marshallford/terraform-provider-pfsense/releases/download/v0.1.0-rc01/terraform-provider-pfsense_0.1.0-rc01_windows_arm.zip",
-          "shasum": "ce0309d40ea291febf4b086ee7554d9241d3206297abecc338862c1e75783608"
-        },
-        {
-          "os": "windows",
-          "arch": "amd64",
-          "filename": "terraform-provider-pfsense_0.1.0-rc01_windows_amd64.zip",
-          "download_url": "https://github.com/marshallford/terraform-provider-pfsense/releases/download/v0.1.0-rc01/terraform-provider-pfsense_0.1.0-rc01_windows_amd64.zip",
-          "shasum": "04ec1fc8d8938145326b68566fa4929e98c41ae6edd9143be99036a502c2dd3b"
-        },
-        {
-          "os": "windows",
-          "arch": "arm64",
-          "filename": "terraform-provider-pfsense_0.1.0-rc01_windows_arm64.zip",
-          "download_url": "https://github.com/marshallford/terraform-provider-pfsense/releases/download/v0.1.0-rc01/terraform-provider-pfsense_0.1.0-rc01_windows_arm64.zip",
-          "shasum": "0980b3bbeaa7bc37d997f376d339531671f786626bf61c558cdefbe992acfe23"
-        },
-        {
-          "os": "linux",
-          "arch": "386",
-          "filename": "terraform-provider-pfsense_0.1.0-rc01_linux_386.zip",
-          "download_url": "https://github.com/marshallford/terraform-provider-pfsense/releases/download/v0.1.0-rc01/terraform-provider-pfsense_0.1.0-rc01_linux_386.zip",
-          "shasum": "21a201bd70a2e9be1f2fde96bb0afc12baf791517c3f7c10d81f5fecbb6adb85"
-        },
-        {
-          "os": "linux",
-          "arch": "arm",
-          "filename": "terraform-provider-pfsense_0.1.0-rc01_linux_arm.zip",
-          "download_url": "https://github.com/marshallford/terraform-provider-pfsense/releases/download/v0.1.0-rc01/terraform-provider-pfsense_0.1.0-rc01_linux_arm.zip",
-          "shasum": "76041e389b9091d18287096d64e8b3450d4df2bc1dbc7a14f050233a58a77d53"
-        },
-        {
-          "os": "linux",
-          "arch": "arm64",
-          "filename": "terraform-provider-pfsense_0.1.0-rc01_linux_arm64.zip",
-          "download_url": "https://github.com/marshallford/terraform-provider-pfsense/releases/download/v0.1.0-rc01/terraform-provider-pfsense_0.1.0-rc01_linux_arm64.zip",
-          "shasum": "b0eb7e323095d3da356fef8759997c5cd05ccaf08eb4692b7cd11e320f26b523"
-        },
-        {
-          "os": "darwin",
-          "arch": "arm64",
-          "filename": "terraform-provider-pfsense_0.1.0-rc01_darwin_arm64.zip",
-          "download_url": "https://github.com/marshallford/terraform-provider-pfsense/releases/download/v0.1.0-rc01/terraform-provider-pfsense_0.1.0-rc01_darwin_arm64.zip",
-          "shasum": "037a0a5879dca3644aa9fc453ea42924d277ec702b44667da52eb833d7f62237"
-        },
-        {
-          "os": "windows",
-          "arch": "386",
-          "filename": "terraform-provider-pfsense_0.1.0-rc01_windows_386.zip",
-          "download_url": "https://github.com/marshallford/terraform-provider-pfsense/releases/download/v0.1.0-rc01/terraform-provider-pfsense_0.1.0-rc01_windows_386.zip",
-          "shasum": "b621cfc2f9d0c5a1f3d341d8177f863770133cc01d2692d3ff0d97a1818fd468"
         }
       ]
     }
