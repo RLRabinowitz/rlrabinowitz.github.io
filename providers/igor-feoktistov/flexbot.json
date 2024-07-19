@@ -2,6 +2,37 @@
   "repository": "https://github.com/igor-feoktistov/terraform-provider-flexbot",
   "versions": [
     {
+      "version": "1.10.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/igor-feoktistov/terraform-provider-flexbot/releases/download/v1.10.0/terraform-provider-flexbot_1.10.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/igor-feoktistov/terraform-provider-flexbot/releases/download/v1.10.0/terraform-provider-flexbot_1.10.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-flexbot_v1.10.0_darwin_amd64.zip",
+          "download_url": "https://github.com/igor-feoktistov/terraform-provider-flexbot/releases/download/v1.10.0/terraform-provider-flexbot_v1.10.0_darwin_amd64.zip",
+          "shasum": "64deb9784ad83090b3185749ba98cba17538c48c9591cce63d26b1b96a061d9f"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-flexbot_v1.10.0_linux_amd64.zip",
+          "download_url": "https://github.com/igor-feoktistov/terraform-provider-flexbot/releases/download/v1.10.0/terraform-provider-flexbot_v1.10.0_linux_amd64.zip",
+          "shasum": "673091e03a925ccce7b97806f22c55ff9f0c9ed9cafcae63e88556f96b89f6d4"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-flexbot_v1.10.0_linux_arm64.zip",
+          "download_url": "https://github.com/igor-feoktistov/terraform-provider-flexbot/releases/download/v1.10.0/terraform-provider-flexbot_v1.10.0_linux_arm64.zip",
+          "shasum": "125a2a53475e2c3c62646fc0530c84c4722bb8984ff7e44f418178ccaf46f6f0"
+        }
+      ]
+    },
+    {
       "version": "1.9.9",
       "protocols": [
         "5.0"
