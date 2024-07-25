@@ -2,6 +2,114 @@
   "repository": "https://github.com/ubie-oss/terraform-provider-lightdash",
   "versions": [
     {
+      "version": "0.7.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/ubie-oss/terraform-provider-lightdash/releases/download/v0.7.0/terraform-provider-lightdash_0.7.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/ubie-oss/terraform-provider-lightdash/releases/download/v0.7.0/terraform-provider-lightdash_0.7.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-lightdash_0.7.0_linux_arm64.zip",
+          "download_url": "https://github.com/ubie-oss/terraform-provider-lightdash/releases/download/v0.7.0/terraform-provider-lightdash_0.7.0_linux_arm64.zip",
+          "shasum": "b6dcbd984e219f0a6de158c3a29e6be82720e7ccb1a56e1718a95ed8c818de59"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-lightdash_0.7.0_darwin_arm64.zip",
+          "download_url": "https://github.com/ubie-oss/terraform-provider-lightdash/releases/download/v0.7.0/terraform-provider-lightdash_0.7.0_darwin_arm64.zip",
+          "shasum": "66be852d3fb26c40c64de95b6eaeefc91e090a395dec079e966798e596bbfde8"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-lightdash_0.7.0_freebsd_arm.zip",
+          "download_url": "https://github.com/ubie-oss/terraform-provider-lightdash/releases/download/v0.7.0/terraform-provider-lightdash_0.7.0_freebsd_arm.zip",
+          "shasum": "c75cb550013dd9c142d482938eed71b19b57599a77561aa9cbd1821afd742bc1"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-lightdash_0.7.0_linux_arm.zip",
+          "download_url": "https://github.com/ubie-oss/terraform-provider-lightdash/releases/download/v0.7.0/terraform-provider-lightdash_0.7.0_linux_arm.zip",
+          "shasum": "ca3616033d82ecd29caec14a6e2d9f5d145624a5e662f0e88b8d795e4b82054c"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-lightdash_0.7.0_windows_arm.zip",
+          "download_url": "https://github.com/ubie-oss/terraform-provider-lightdash/releases/download/v0.7.0/terraform-provider-lightdash_0.7.0_windows_arm.zip",
+          "shasum": "a74f1ec7f4a50613d73311730da2cb72c437cb813ea29ebef16efed747813736"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-lightdash_0.7.0_windows_arm64.zip",
+          "download_url": "https://github.com/ubie-oss/terraform-provider-lightdash/releases/download/v0.7.0/terraform-provider-lightdash_0.7.0_windows_arm64.zip",
+          "shasum": "53332178dc5b757d17170ee6234c32119ef2950ba720c975473efe5658df6d22"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-lightdash_0.7.0_linux_386.zip",
+          "download_url": "https://github.com/ubie-oss/terraform-provider-lightdash/releases/download/v0.7.0/terraform-provider-lightdash_0.7.0_linux_386.zip",
+          "shasum": "7bbda64f044ce58633e12319b0f4fd52a1dc14ef87aa1c5b3f3084d9d90e5d7b"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-lightdash_0.7.0_linux_amd64.zip",
+          "download_url": "https://github.com/ubie-oss/terraform-provider-lightdash/releases/download/v0.7.0/terraform-provider-lightdash_0.7.0_linux_amd64.zip",
+          "shasum": "36dbbba9a0863d4c6d3407b3f4b0e39b45b80cc63b541c5dbbe89e7812dddd64"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-lightdash_0.7.0_freebsd_386.zip",
+          "download_url": "https://github.com/ubie-oss/terraform-provider-lightdash/releases/download/v0.7.0/terraform-provider-lightdash_0.7.0_freebsd_386.zip",
+          "shasum": "f3a0f71fc8ba3e85a68df23a630ae845cc43880f4f73b484f92350b6cce3a84b"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-lightdash_0.7.0_darwin_amd64.zip",
+          "download_url": "https://github.com/ubie-oss/terraform-provider-lightdash/releases/download/v0.7.0/terraform-provider-lightdash_0.7.0_darwin_amd64.zip",
+          "shasum": "2093b46cdd3295287cf0118a8dba3b06279cabeabb7af0d4343d7e4a5ffcc147"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-lightdash_0.7.0_windows_amd64.zip",
+          "download_url": "https://github.com/ubie-oss/terraform-provider-lightdash/releases/download/v0.7.0/terraform-provider-lightdash_0.7.0_windows_amd64.zip",
+          "shasum": "bd5fcb046dd5284e62c132cc62a66baaf6d9e452d291b55eeec289a75e599279"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-lightdash_0.7.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/ubie-oss/terraform-provider-lightdash/releases/download/v0.7.0/terraform-provider-lightdash_0.7.0_freebsd_amd64.zip",
+          "shasum": "233680cc693af969e98bc232509a1ff6ce7e15b0bdd18287c8b9c44c406e4c2a"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-lightdash_0.7.0_windows_386.zip",
+          "download_url": "https://github.com/ubie-oss/terraform-provider-lightdash/releases/download/v0.7.0/terraform-provider-lightdash_0.7.0_windows_386.zip",
+          "shasum": "f8bbaa34270d5ce52e25e4caea6f782cc8cd37ad964edfc6f4d5fb54abdf6ef6"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-lightdash_0.7.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/ubie-oss/terraform-provider-lightdash/releases/download/v0.7.0/terraform-provider-lightdash_0.7.0_freebsd_arm64.zip",
+          "shasum": "4a898591c48a27f2c5c1753dd0a46a38103f6a04bf510a72bb115226eb09366c"
+        }
+      ]
+    },
+    {
       "version": "0.6.5",
       "protocols": [
         "5.0"
