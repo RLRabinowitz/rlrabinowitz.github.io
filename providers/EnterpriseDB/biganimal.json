@@ -2,6 +2,114 @@
   "repository": "https://github.com/EnterpriseDB/terraform-provider-biganimal",
   "versions": [
     {
+      "version": "0.11.2-draft",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/EnterpriseDB/terraform-provider-biganimal/releases/download/v0.11.2-draft/terraform-provider-biganimal_0.11.2-draft_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/EnterpriseDB/terraform-provider-biganimal/releases/download/v0.11.2-draft/terraform-provider-biganimal_0.11.2-draft_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-biganimal_0.11.2-draft_freebsd_arm64.zip",
+          "download_url": "https://github.com/EnterpriseDB/terraform-provider-biganimal/releases/download/v0.11.2-draft/terraform-provider-biganimal_0.11.2-draft_freebsd_arm64.zip",
+          "shasum": "81ce01db2ccc6efe02e15c2831b49092cb57e5038d2db6fc8a8639b4402f4853"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-biganimal_0.11.2-draft_windows_arm.zip",
+          "download_url": "https://github.com/EnterpriseDB/terraform-provider-biganimal/releases/download/v0.11.2-draft/terraform-provider-biganimal_0.11.2-draft_windows_arm.zip",
+          "shasum": "44db024e64b094520f8f262a31a5d8d6b1a39061809865502b514b3c59ac0491"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-biganimal_0.11.2-draft_linux_arm.zip",
+          "download_url": "https://github.com/EnterpriseDB/terraform-provider-biganimal/releases/download/v0.11.2-draft/terraform-provider-biganimal_0.11.2-draft_linux_arm.zip",
+          "shasum": "cecb68cfee900ed42e1e5bddc33aa377d2c3afe5c030c369fecc45346c66a458"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-biganimal_0.11.2-draft_freebsd_386.zip",
+          "download_url": "https://github.com/EnterpriseDB/terraform-provider-biganimal/releases/download/v0.11.2-draft/terraform-provider-biganimal_0.11.2-draft_freebsd_386.zip",
+          "shasum": "5c4d63cde20a2105bf5d59f610830c46902c9f4fbeee17a79dbb5db30a3a3073"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-biganimal_0.11.2-draft_linux_arm64.zip",
+          "download_url": "https://github.com/EnterpriseDB/terraform-provider-biganimal/releases/download/v0.11.2-draft/terraform-provider-biganimal_0.11.2-draft_linux_arm64.zip",
+          "shasum": "be18195dd6d1df94d2aa7846f0585db8442e7428692dfb89ad67ea71a8af2edc"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-biganimal_0.11.2-draft_windows_arm64.zip",
+          "download_url": "https://github.com/EnterpriseDB/terraform-provider-biganimal/releases/download/v0.11.2-draft/terraform-provider-biganimal_0.11.2-draft_windows_arm64.zip",
+          "shasum": "c52f1981ff89d388be554be77d2a0015736734c2a7683f69a308cd1d88f8a371"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-biganimal_0.11.2-draft_freebsd_arm.zip",
+          "download_url": "https://github.com/EnterpriseDB/terraform-provider-biganimal/releases/download/v0.11.2-draft/terraform-provider-biganimal_0.11.2-draft_freebsd_arm.zip",
+          "shasum": "d2b623f976119ca2bc32aa723a55197c43c56825d076b395bb10aac62c4f6814"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-biganimal_0.11.2-draft_freebsd_amd64.zip",
+          "download_url": "https://github.com/EnterpriseDB/terraform-provider-biganimal/releases/download/v0.11.2-draft/terraform-provider-biganimal_0.11.2-draft_freebsd_amd64.zip",
+          "shasum": "6696dd5a99547f100756977b17f6b39dab661adffa047a60358060d785149f9e"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-biganimal_0.11.2-draft_linux_386.zip",
+          "download_url": "https://github.com/EnterpriseDB/terraform-provider-biganimal/releases/download/v0.11.2-draft/terraform-provider-biganimal_0.11.2-draft_linux_386.zip",
+          "shasum": "d5e8c7069506ea5dc8c278eec67565e7320f16cefb90ec94c4577ea2ed6645f8"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-biganimal_0.11.2-draft_darwin_amd64.zip",
+          "download_url": "https://github.com/EnterpriseDB/terraform-provider-biganimal/releases/download/v0.11.2-draft/terraform-provider-biganimal_0.11.2-draft_darwin_amd64.zip",
+          "shasum": "85985bc024d1cdb09f6827b27c00d292d0a2748a4a1c1c0aa89c9db51b521457"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-biganimal_0.11.2-draft_windows_386.zip",
+          "download_url": "https://github.com/EnterpriseDB/terraform-provider-biganimal/releases/download/v0.11.2-draft/terraform-provider-biganimal_0.11.2-draft_windows_386.zip",
+          "shasum": "c7c53fa6b3e2be9f6d7938c92e3385bd12a9d6133492e139e8f5a4d62ed34cf6"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-biganimal_0.11.2-draft_windows_amd64.zip",
+          "download_url": "https://github.com/EnterpriseDB/terraform-provider-biganimal/releases/download/v0.11.2-draft/terraform-provider-biganimal_0.11.2-draft_windows_amd64.zip",
+          "shasum": "1f015e2d324def6e36c735e6b91fb65547f7b8d34e2bea5b82f38bfea0585510"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-biganimal_0.11.2-draft_linux_amd64.zip",
+          "download_url": "https://github.com/EnterpriseDB/terraform-provider-biganimal/releases/download/v0.11.2-draft/terraform-provider-biganimal_0.11.2-draft_linux_amd64.zip",
+          "shasum": "40ea43da5501793ffa3442521a038c58503a027493619ff1132ec075639ecca8"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-biganimal_0.11.2-draft_darwin_arm64.zip",
+          "download_url": "https://github.com/EnterpriseDB/terraform-provider-biganimal/releases/download/v0.11.2-draft/terraform-provider-biganimal_0.11.2-draft_darwin_arm64.zip",
+          "shasum": "e840751e98d3ff099dcca786345964b4ad1c229bdec656ce5ad617e54122196f"
+        }
+      ]
+    },
+    {
       "version": "0.11.1-draft",
       "protocols": [
         "5.0"
@@ -10,102 +118,102 @@
       "shasums_signature_url": "https://github.com/EnterpriseDB/terraform-provider-biganimal/releases/download/v0.11.1-draft/terraform-provider-biganimal_0.11.1-draft_SHA256SUMS.sig",
       "targets": [
         {
-          "os": "darwin",
-          "arch": "amd64",
-          "filename": "terraform-provider-biganimal_0.11.1-draft_darwin_amd64.zip",
-          "download_url": "https://github.com/EnterpriseDB/terraform-provider-biganimal/releases/download/v0.11.1-draft/terraform-provider-biganimal_0.11.1-draft_darwin_amd64.zip",
-          "shasum": "870e05cc113aefe51741810a16b938adb803326c74524eb699f0f8b66d7ab660"
-        },
-        {
           "os": "windows",
-          "arch": "amd64",
-          "filename": "terraform-provider-biganimal_0.11.1-draft_windows_amd64.zip",
-          "download_url": "https://github.com/EnterpriseDB/terraform-provider-biganimal/releases/download/v0.11.1-draft/terraform-provider-biganimal_0.11.1-draft_windows_amd64.zip",
-          "shasum": "f816cbb855c291ca71212f792a57bb6116625a0de4508083c2b95dc9129c3569"
-        },
-        {
-          "os": "linux",
-          "arch": "arm64",
-          "filename": "terraform-provider-biganimal_0.11.1-draft_linux_arm64.zip",
-          "download_url": "https://github.com/EnterpriseDB/terraform-provider-biganimal/releases/download/v0.11.1-draft/terraform-provider-biganimal_0.11.1-draft_linux_arm64.zip",
-          "shasum": "0af764410a4a4ec1cfbc4a7cfbe7a0766e572542a3d4c254a1b23ead033bf840"
+          "arch": "arm",
+          "filename": "terraform-provider-biganimal_0.11.1-draft_windows_arm.zip",
+          "download_url": "https://github.com/EnterpriseDB/terraform-provider-biganimal/releases/download/v0.11.1-draft/terraform-provider-biganimal_0.11.1-draft_windows_arm.zip",
+          "shasum": "0074c1e61aab8587dad9fdcceeb5497702dec63e325f1b2ebd1b95d6a398427d"
         },
         {
           "os": "darwin",
           "arch": "arm64",
           "filename": "terraform-provider-biganimal_0.11.1-draft_darwin_arm64.zip",
           "download_url": "https://github.com/EnterpriseDB/terraform-provider-biganimal/releases/download/v0.11.1-draft/terraform-provider-biganimal_0.11.1-draft_darwin_arm64.zip",
-          "shasum": "f1a9962f84a10aaba7913a104ba696b4c65961720f18604256c493fe23495d7f"
-        },
-        {
-          "os": "linux",
-          "arch": "386",
-          "filename": "terraform-provider-biganimal_0.11.1-draft_linux_386.zip",
-          "download_url": "https://github.com/EnterpriseDB/terraform-provider-biganimal/releases/download/v0.11.1-draft/terraform-provider-biganimal_0.11.1-draft_linux_386.zip",
-          "shasum": "458549024c6c159776421d55a251e1ad53d67b2f340fdaeb4024b09ac60334fc"
-        },
-        {
-          "os": "windows",
-          "arch": "arm",
-          "filename": "terraform-provider-biganimal_0.11.1-draft_windows_arm.zip",
-          "download_url": "https://github.com/EnterpriseDB/terraform-provider-biganimal/releases/download/v0.11.1-draft/terraform-provider-biganimal_0.11.1-draft_windows_arm.zip",
-          "shasum": "a66ec638d3a03b2d605796c0501c97685023b684f095db8859a64a97413871de"
-        },
-        {
-          "os": "windows",
-          "arch": "386",
-          "filename": "terraform-provider-biganimal_0.11.1-draft_windows_386.zip",
-          "download_url": "https://github.com/EnterpriseDB/terraform-provider-biganimal/releases/download/v0.11.1-draft/terraform-provider-biganimal_0.11.1-draft_windows_386.zip",
-          "shasum": "145ffa6a3eb3fe56087f82052fad5765b9da76c16c3cced57de28e52452011d6"
-        },
-        {
-          "os": "freebsd",
-          "arch": "arm64",
-          "filename": "terraform-provider-biganimal_0.11.1-draft_freebsd_arm64.zip",
-          "download_url": "https://github.com/EnterpriseDB/terraform-provider-biganimal/releases/download/v0.11.1-draft/terraform-provider-biganimal_0.11.1-draft_freebsd_arm64.zip",
-          "shasum": "e07488cab92c0f9e5ee72446a714ab9d0aac87a1bc2f8ac2e57a047c58a6b500"
-        },
-        {
-          "os": "linux",
-          "arch": "arm",
-          "filename": "terraform-provider-biganimal_0.11.1-draft_linux_arm.zip",
-          "download_url": "https://github.com/EnterpriseDB/terraform-provider-biganimal/releases/download/v0.11.1-draft/terraform-provider-biganimal_0.11.1-draft_linux_arm.zip",
-          "shasum": "ba8db177ebc612098703d618d999d8f97ec2c4a58cdd5499989a61f03b1397b3"
-        },
-        {
-          "os": "linux",
-          "arch": "amd64",
-          "filename": "terraform-provider-biganimal_0.11.1-draft_linux_amd64.zip",
-          "download_url": "https://github.com/EnterpriseDB/terraform-provider-biganimal/releases/download/v0.11.1-draft/terraform-provider-biganimal_0.11.1-draft_linux_amd64.zip",
-          "shasum": "a35a79205b549c2f02a5b12ebaa881679b335389d3d348852821c53005cf058a"
+          "shasum": "4c1d5f4b7cbc1ba6c3992d7ff5c947d86d5b91ac9c98b356262122166e127fc0"
         },
         {
           "os": "freebsd",
           "arch": "386",
           "filename": "terraform-provider-biganimal_0.11.1-draft_freebsd_386.zip",
           "download_url": "https://github.com/EnterpriseDB/terraform-provider-biganimal/releases/download/v0.11.1-draft/terraform-provider-biganimal_0.11.1-draft_freebsd_386.zip",
-          "shasum": "cf719a9a51b22e10023826cef34626ce4c4fe5818b1297dc2a047094c944e226"
+          "shasum": "9f330da05d0c35f287c6b0e0d484d563bdcc11453d6c6bf58841516587fb7f5b"
         },
         {
-          "os": "freebsd",
+          "os": "linux",
           "arch": "amd64",
-          "filename": "terraform-provider-biganimal_0.11.1-draft_freebsd_amd64.zip",
-          "download_url": "https://github.com/EnterpriseDB/terraform-provider-biganimal/releases/download/v0.11.1-draft/terraform-provider-biganimal_0.11.1-draft_freebsd_amd64.zip",
-          "shasum": "7a48221d13d785d960b10982a77d1e09b6f43d0e1685efe54f80486fff638bf8"
-        },
-        {
-          "os": "freebsd",
-          "arch": "arm",
-          "filename": "terraform-provider-biganimal_0.11.1-draft_freebsd_arm.zip",
-          "download_url": "https://github.com/EnterpriseDB/terraform-provider-biganimal/releases/download/v0.11.1-draft/terraform-provider-biganimal_0.11.1-draft_freebsd_arm.zip",
-          "shasum": "045dc4634e13c0a4ae463992e9ab9b9b59829d14817149f218236d6cfdebc79e"
+          "filename": "terraform-provider-biganimal_0.11.1-draft_linux_amd64.zip",
+          "download_url": "https://github.com/EnterpriseDB/terraform-provider-biganimal/releases/download/v0.11.1-draft/terraform-provider-biganimal_0.11.1-draft_linux_amd64.zip",
+          "shasum": "a502742c36a4d0db28fcb38eefa5a90464c43db9523638cc68dca24d919ce429"
         },
         {
           "os": "windows",
           "arch": "arm64",
           "filename": "terraform-provider-biganimal_0.11.1-draft_windows_arm64.zip",
           "download_url": "https://github.com/EnterpriseDB/terraform-provider-biganimal/releases/download/v0.11.1-draft/terraform-provider-biganimal_0.11.1-draft_windows_arm64.zip",
-          "shasum": "b23e45a6835796b439ed956443b15d3873df0cd6fb44992aaf45b09998e9c0b0"
+          "shasum": "1c82a98d5b9a0cb118ef5b6beee921cf947471d02ef1d139f6497e6aaa80c39b"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-biganimal_0.11.1-draft_linux_arm64.zip",
+          "download_url": "https://github.com/EnterpriseDB/terraform-provider-biganimal/releases/download/v0.11.1-draft/terraform-provider-biganimal_0.11.1-draft_linux_arm64.zip",
+          "shasum": "0c80d5f60e6b3a167d104f22694dc85e3bbef5424b8acc0814f6dff232dc3416"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-biganimal_0.11.1-draft_freebsd_arm64.zip",
+          "download_url": "https://github.com/EnterpriseDB/terraform-provider-biganimal/releases/download/v0.11.1-draft/terraform-provider-biganimal_0.11.1-draft_freebsd_arm64.zip",
+          "shasum": "2f60e81a699ebc31e32f2dc23ac99f1338b0f5b5dd166014dc58b51249c1878c"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-biganimal_0.11.1-draft_darwin_amd64.zip",
+          "download_url": "https://github.com/EnterpriseDB/terraform-provider-biganimal/releases/download/v0.11.1-draft/terraform-provider-biganimal_0.11.1-draft_darwin_amd64.zip",
+          "shasum": "051f41033d905a2641c69a24a668c1bf78cd832a576bd3ba86e912545b8f276d"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-biganimal_0.11.1-draft_linux_386.zip",
+          "download_url": "https://github.com/EnterpriseDB/terraform-provider-biganimal/releases/download/v0.11.1-draft/terraform-provider-biganimal_0.11.1-draft_linux_386.zip",
+          "shasum": "8af3f56fca12661fa51d7a2fa158c59aed2413261eeea9e48c44b2779ed37ebd"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-biganimal_0.11.1-draft_freebsd_amd64.zip",
+          "download_url": "https://github.com/EnterpriseDB/terraform-provider-biganimal/releases/download/v0.11.1-draft/terraform-provider-biganimal_0.11.1-draft_freebsd_amd64.zip",
+          "shasum": "ca5ab4ea4513ef1d8d8a4e894ed5ecf84e2dba7eb5ea9b9cdadc7ece777eb37f"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-biganimal_0.11.1-draft_linux_arm.zip",
+          "download_url": "https://github.com/EnterpriseDB/terraform-provider-biganimal/releases/download/v0.11.1-draft/terraform-provider-biganimal_0.11.1-draft_linux_arm.zip",
+          "shasum": "623ece5e1fadfc44cc7dc45eecf0d2339f044ebd11406e3ec3d404fd7235eff3"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-biganimal_0.11.1-draft_windows_amd64.zip",
+          "download_url": "https://github.com/EnterpriseDB/terraform-provider-biganimal/releases/download/v0.11.1-draft/terraform-provider-biganimal_0.11.1-draft_windows_amd64.zip",
+          "shasum": "8dc968d465f19b447b7f36b4bcff3e158f39090d04e053c9074040f6bc46fdc7"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-biganimal_0.11.1-draft_freebsd_arm.zip",
+          "download_url": "https://github.com/EnterpriseDB/terraform-provider-biganimal/releases/download/v0.11.1-draft/terraform-provider-biganimal_0.11.1-draft_freebsd_arm.zip",
+          "shasum": "66b8eed9f63e9cbf5a901afd9aee470568e2c8914a1cea04efa71a08e8b6edd4"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-biganimal_0.11.1-draft_windows_386.zip",
+          "download_url": "https://github.com/EnterpriseDB/terraform-provider-biganimal/releases/download/v0.11.1-draft/terraform-provider-biganimal_0.11.1-draft_windows_386.zip",
+          "shasum": "46653fd87d82ce3a858bcbf880965f370c31bc4a2c65c02727c7a5f30a7cc247"
         }
       ]
     },
