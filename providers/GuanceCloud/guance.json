@@ -2,6 +2,114 @@
   "repository": "https://github.com/GuanceCloud/terraform-provider-guance",
   "versions": [
     {
+      "version": "0.0.6-alpha2",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/GuanceCloud/terraform-provider-guance/releases/download/v0.0.6-alpha2/terraform-provider-guance_0.0.6-alpha2_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/GuanceCloud/terraform-provider-guance/releases/download/v0.0.6-alpha2/terraform-provider-guance_0.0.6-alpha2_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-guance_0.0.6-alpha2_linux_arm64.zip",
+          "download_url": "https://github.com/GuanceCloud/terraform-provider-guance/releases/download/v0.0.6-alpha2/terraform-provider-guance_0.0.6-alpha2_linux_arm64.zip",
+          "shasum": "6b32f979c13c777332512de5a84897139e37629fefdf33bab32003e6ffbaed3a"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-guance_0.0.6-alpha2_linux_arm.zip",
+          "download_url": "https://github.com/GuanceCloud/terraform-provider-guance/releases/download/v0.0.6-alpha2/terraform-provider-guance_0.0.6-alpha2_linux_arm.zip",
+          "shasum": "c4b9a692ecb118473b0754f6c4c925ab37512193f4ecded2db7bc1187635f3a1"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-guance_0.0.6-alpha2_windows_arm.zip",
+          "download_url": "https://github.com/GuanceCloud/terraform-provider-guance/releases/download/v0.0.6-alpha2/terraform-provider-guance_0.0.6-alpha2_windows_arm.zip",
+          "shasum": "2e700b7821543a50ec82fda5f1f7446872a48c95b1e709484b3e3358fb37061c"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-guance_0.0.6-alpha2_windows_386.zip",
+          "download_url": "https://github.com/GuanceCloud/terraform-provider-guance/releases/download/v0.0.6-alpha2/terraform-provider-guance_0.0.6-alpha2_windows_386.zip",
+          "shasum": "564c00d4d478d6dbf3dd74d988653500c3a34b5caa8fe613c2a8a266dde09513"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-guance_0.0.6-alpha2_freebsd_386.zip",
+          "download_url": "https://github.com/GuanceCloud/terraform-provider-guance/releases/download/v0.0.6-alpha2/terraform-provider-guance_0.0.6-alpha2_freebsd_386.zip",
+          "shasum": "df2abea5b6f51883f5985eccf13c34c9e1ef30bd25b9bd5dfe50c2976702b680"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-guance_0.0.6-alpha2_freebsd_arm.zip",
+          "download_url": "https://github.com/GuanceCloud/terraform-provider-guance/releases/download/v0.0.6-alpha2/terraform-provider-guance_0.0.6-alpha2_freebsd_arm.zip",
+          "shasum": "a57d7602c0868e57b2aa4f157a7496e07869cc46f7768ad5ef9d5b1641982d78"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-guance_0.0.6-alpha2_freebsd_arm64.zip",
+          "download_url": "https://github.com/GuanceCloud/terraform-provider-guance/releases/download/v0.0.6-alpha2/terraform-provider-guance_0.0.6-alpha2_freebsd_arm64.zip",
+          "shasum": "5191a7ec71eba91cb84efb8e2eb17127553ffb5dc8b91ad0c8329ad0776b52e8"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-guance_0.0.6-alpha2_darwin_amd64.zip",
+          "download_url": "https://github.com/GuanceCloud/terraform-provider-guance/releases/download/v0.0.6-alpha2/terraform-provider-guance_0.0.6-alpha2_darwin_amd64.zip",
+          "shasum": "78b8e7a736564df6a33a4db819724ff21caf305c97a65c4a03a93d0693e74ad2"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-guance_0.0.6-alpha2_freebsd_amd64.zip",
+          "download_url": "https://github.com/GuanceCloud/terraform-provider-guance/releases/download/v0.0.6-alpha2/terraform-provider-guance_0.0.6-alpha2_freebsd_amd64.zip",
+          "shasum": "76c3dae720655c6a955658c61ebe9cc2c34261e506c9ae30cdc3395d9e6c8709"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-guance_0.0.6-alpha2_windows_arm64.zip",
+          "download_url": "https://github.com/GuanceCloud/terraform-provider-guance/releases/download/v0.0.6-alpha2/terraform-provider-guance_0.0.6-alpha2_windows_arm64.zip",
+          "shasum": "347ea9f06a985e0503e7e26324b82cd7018ce18df62f344485cb8597d3ead14b"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-guance_0.0.6-alpha2_linux_amd64.zip",
+          "download_url": "https://github.com/GuanceCloud/terraform-provider-guance/releases/download/v0.0.6-alpha2/terraform-provider-guance_0.0.6-alpha2_linux_amd64.zip",
+          "shasum": "a55f85477304e65b2b291c31b74bcddbdf4a10cd2ff02e376549cd5059b237e2"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-guance_0.0.6-alpha2_windows_amd64.zip",
+          "download_url": "https://github.com/GuanceCloud/terraform-provider-guance/releases/download/v0.0.6-alpha2/terraform-provider-guance_0.0.6-alpha2_windows_amd64.zip",
+          "shasum": "0aa87934c2acca9a522cbf02dfdad36e5887eab25d843ea0f646b20809bd9b03"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-guance_0.0.6-alpha2_linux_386.zip",
+          "download_url": "https://github.com/GuanceCloud/terraform-provider-guance/releases/download/v0.0.6-alpha2/terraform-provider-guance_0.0.6-alpha2_linux_386.zip",
+          "shasum": "767bfdc8d1adfa80c17e2c1bcb083c71bab6f479df768d12900feac84320ae3f"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-guance_0.0.6-alpha2_darwin_arm64.zip",
+          "download_url": "https://github.com/GuanceCloud/terraform-provider-guance/releases/download/v0.0.6-alpha2/terraform-provider-guance_0.0.6-alpha2_darwin_arm64.zip",
+          "shasum": "eb17e1ac8cdf0f3a6b8c14bf962d3c8ddc04f2ef69e2fae8c4e452938cdde980"
+        }
+      ]
+    },
+    {
       "version": "0.0.6-alpha1",
       "protocols": [
         "5.0"
@@ -10,102 +118,102 @@
       "shasums_signature_url": "https://github.com/GuanceCloud/terraform-provider-guance/releases/download/v0.0.6-alpha1/terraform-provider-guance_0.0.6-alpha1_SHA256SUMS.sig",
       "targets": [
         {
-          "os": "windows",
-          "arch": "arm64",
-          "filename": "terraform-provider-guance_0.0.6-alpha1_windows_arm64.zip",
-          "download_url": "https://github.com/GuanceCloud/terraform-provider-guance/releases/download/v0.0.6-alpha1/terraform-provider-guance_0.0.6-alpha1_windows_arm64.zip",
-          "shasum": "50092f790c1585eb8742c491aee6c1f528d43fc75971fe8db49ef57352ff162e"
-        },
-        {
-          "os": "windows",
-          "arch": "arm",
-          "filename": "terraform-provider-guance_0.0.6-alpha1_windows_arm.zip",
-          "download_url": "https://github.com/GuanceCloud/terraform-provider-guance/releases/download/v0.0.6-alpha1/terraform-provider-guance_0.0.6-alpha1_windows_arm.zip",
-          "shasum": "fcf713b5613e54472862d2af1ce270b309e58f8f24242f02d850dab1d10c6534"
-        },
-        {
-          "os": "darwin",
-          "arch": "arm64",
-          "filename": "terraform-provider-guance_0.0.6-alpha1_darwin_arm64.zip",
-          "download_url": "https://github.com/GuanceCloud/terraform-provider-guance/releases/download/v0.0.6-alpha1/terraform-provider-guance_0.0.6-alpha1_darwin_arm64.zip",
-          "shasum": "71bf3621679314584b34fe6e7f6b443ac27e08e18663ce22355c7eca7523d751"
-        },
-        {
-          "os": "windows",
-          "arch": "386",
-          "filename": "terraform-provider-guance_0.0.6-alpha1_windows_386.zip",
-          "download_url": "https://github.com/GuanceCloud/terraform-provider-guance/releases/download/v0.0.6-alpha1/terraform-provider-guance_0.0.6-alpha1_windows_386.zip",
-          "shasum": "2d37b208cae5eccd30373d9f64e0b96a9dce4c90154517ac02e9f89ed2c6398e"
-        },
-        {
-          "os": "linux",
-          "arch": "386",
-          "filename": "terraform-provider-guance_0.0.6-alpha1_linux_386.zip",
-          "download_url": "https://github.com/GuanceCloud/terraform-provider-guance/releases/download/v0.0.6-alpha1/terraform-provider-guance_0.0.6-alpha1_linux_386.zip",
-          "shasum": "9f5390e1906e49579f4c69f291473d6514a3a74d8d57424a777d1d9e908f17b2"
-        },
-        {
           "os": "freebsd",
-          "arch": "arm64",
-          "filename": "terraform-provider-guance_0.0.6-alpha1_freebsd_arm64.zip",
-          "download_url": "https://github.com/GuanceCloud/terraform-provider-guance/releases/download/v0.0.6-alpha1/terraform-provider-guance_0.0.6-alpha1_freebsd_arm64.zip",
-          "shasum": "cbde7d6245f612dc6b54075ca9084c38e278d77ed7c16993c9f95d1475c510d2"
-        },
-        {
-          "os": "linux",
           "arch": "amd64",
-          "filename": "terraform-provider-guance_0.0.6-alpha1_linux_amd64.zip",
-          "download_url": "https://github.com/GuanceCloud/terraform-provider-guance/releases/download/v0.0.6-alpha1/terraform-provider-guance_0.0.6-alpha1_linux_amd64.zip",
-          "shasum": "10da207b8ad7183be5f85541098dcd350bbf64d8193234725b4c4bbc388ea0b6"
-        },
-        {
-          "os": "linux",
-          "arch": "arm64",
-          "filename": "terraform-provider-guance_0.0.6-alpha1_linux_arm64.zip",
-          "download_url": "https://github.com/GuanceCloud/terraform-provider-guance/releases/download/v0.0.6-alpha1/terraform-provider-guance_0.0.6-alpha1_linux_arm64.zip",
-          "shasum": "f3b8fffce9f67730af8806c6988624c4c778ca7ee1c508cf20f1fbc696548e77"
+          "filename": "terraform-provider-guance_0.0.6-alpha1_freebsd_amd64.zip",
+          "download_url": "https://github.com/GuanceCloud/terraform-provider-guance/releases/download/v0.0.6-alpha1/terraform-provider-guance_0.0.6-alpha1_freebsd_amd64.zip",
+          "shasum": "6edd8347e9ee4e6112bd1360d81f0936bf1ab63afff56921da3ae250b27a4ed5"
         },
         {
           "os": "freebsd",
           "arch": "arm",
           "filename": "terraform-provider-guance_0.0.6-alpha1_freebsd_arm.zip",
           "download_url": "https://github.com/GuanceCloud/terraform-provider-guance/releases/download/v0.0.6-alpha1/terraform-provider-guance_0.0.6-alpha1_freebsd_arm.zip",
-          "shasum": "f0a74d7bff595961006a63ec59b850be90ba00d715da232124a3ebdfb26f558f"
-        },
-        {
-          "os": "darwin",
-          "arch": "amd64",
-          "filename": "terraform-provider-guance_0.0.6-alpha1_darwin_amd64.zip",
-          "download_url": "https://github.com/GuanceCloud/terraform-provider-guance/releases/download/v0.0.6-alpha1/terraform-provider-guance_0.0.6-alpha1_darwin_amd64.zip",
-          "shasum": "0f592f2a6e0c8b0d51ca79b30d6a36fcbc00192ac6fd1442e78e0a927b329d06"
-        },
-        {
-          "os": "freebsd",
-          "arch": "amd64",
-          "filename": "terraform-provider-guance_0.0.6-alpha1_freebsd_amd64.zip",
-          "download_url": "https://github.com/GuanceCloud/terraform-provider-guance/releases/download/v0.0.6-alpha1/terraform-provider-guance_0.0.6-alpha1_freebsd_amd64.zip",
-          "shasum": "96db8f8ee4a2aef29603975aec15260b3d1601ccfd34172cfccec315b7df4bd7"
-        },
-        {
-          "os": "linux",
-          "arch": "arm",
-          "filename": "terraform-provider-guance_0.0.6-alpha1_linux_arm.zip",
-          "download_url": "https://github.com/GuanceCloud/terraform-provider-guance/releases/download/v0.0.6-alpha1/terraform-provider-guance_0.0.6-alpha1_linux_arm.zip",
-          "shasum": "1880677ab911f7062328b778213d5189fb52e5d19509e416171664fc476f7ba2"
-        },
-        {
-          "os": "windows",
-          "arch": "amd64",
-          "filename": "terraform-provider-guance_0.0.6-alpha1_windows_amd64.zip",
-          "download_url": "https://github.com/GuanceCloud/terraform-provider-guance/releases/download/v0.0.6-alpha1/terraform-provider-guance_0.0.6-alpha1_windows_amd64.zip",
-          "shasum": "9aa7d0e1676dbb0edd868310f14faab1a02c593a9594b757018f8f6d185abe4b"
+          "shasum": "5159f6d0bba8c35a4a6721d834a9a942a36788171191e0a79b5ee3ea2a71520c"
         },
         {
           "os": "freebsd",
           "arch": "386",
           "filename": "terraform-provider-guance_0.0.6-alpha1_freebsd_386.zip",
           "download_url": "https://github.com/GuanceCloud/terraform-provider-guance/releases/download/v0.0.6-alpha1/terraform-provider-guance_0.0.6-alpha1_freebsd_386.zip",
-          "shasum": "722e4a48705bbbd7e900b94f7d803689619d43b6f762bcc33d070bfa56952037"
+          "shasum": "96d1f66d3238205ea792882f580409cba6394db055ac4fbfa9f21ca339595351"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-guance_0.0.6-alpha1_windows_arm.zip",
+          "download_url": "https://github.com/GuanceCloud/terraform-provider-guance/releases/download/v0.0.6-alpha1/terraform-provider-guance_0.0.6-alpha1_windows_arm.zip",
+          "shasum": "7610a7b9cb16d4d34af53dc280fc29c06b4e62131d7fd72c9292c4552f56f4fa"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-guance_0.0.6-alpha1_windows_arm64.zip",
+          "download_url": "https://github.com/GuanceCloud/terraform-provider-guance/releases/download/v0.0.6-alpha1/terraform-provider-guance_0.0.6-alpha1_windows_arm64.zip",
+          "shasum": "af1c55b4e0ec6ec7fba641114f6ed4931f78d25707227f7a2f14554090fbc294"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-guance_0.0.6-alpha1_windows_386.zip",
+          "download_url": "https://github.com/GuanceCloud/terraform-provider-guance/releases/download/v0.0.6-alpha1/terraform-provider-guance_0.0.6-alpha1_windows_386.zip",
+          "shasum": "48691b632e41011fe4b129d2e5e5e00244a2afcbe8112ad7ab103925a0bc34e1"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-guance_0.0.6-alpha1_freebsd_arm64.zip",
+          "download_url": "https://github.com/GuanceCloud/terraform-provider-guance/releases/download/v0.0.6-alpha1/terraform-provider-guance_0.0.6-alpha1_freebsd_arm64.zip",
+          "shasum": "5a10778ee1a18fa4fbbf93ceb430855fa92ad140c069c41ebadd0e659b59aaa4"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-guance_0.0.6-alpha1_windows_amd64.zip",
+          "download_url": "https://github.com/GuanceCloud/terraform-provider-guance/releases/download/v0.0.6-alpha1/terraform-provider-guance_0.0.6-alpha1_windows_amd64.zip",
+          "shasum": "3011afb1191be0564e1b835f009a8f930641a83f821c89c2f98e07eee3bde179"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-guance_0.0.6-alpha1_linux_arm.zip",
+          "download_url": "https://github.com/GuanceCloud/terraform-provider-guance/releases/download/v0.0.6-alpha1/terraform-provider-guance_0.0.6-alpha1_linux_arm.zip",
+          "shasum": "5c2d1c6cf31f9d13919832ef5879f96fa02de2bc83e84be433ecfc98bfe61a02"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-guance_0.0.6-alpha1_linux_386.zip",
+          "download_url": "https://github.com/GuanceCloud/terraform-provider-guance/releases/download/v0.0.6-alpha1/terraform-provider-guance_0.0.6-alpha1_linux_386.zip",
+          "shasum": "b008035e24172c4382edb2b3b387ca832b8ee57b4f7ec1ac7069caace5c21b6c"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-guance_0.0.6-alpha1_linux_amd64.zip",
+          "download_url": "https://github.com/GuanceCloud/terraform-provider-guance/releases/download/v0.0.6-alpha1/terraform-provider-guance_0.0.6-alpha1_linux_amd64.zip",
+          "shasum": "01a57f99cbdac6b6167cc8c5585affb9a38f16a5b7e55ae2c59dd840f3dfe291"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-guance_0.0.6-alpha1_darwin_arm64.zip",
+          "download_url": "https://github.com/GuanceCloud/terraform-provider-guance/releases/download/v0.0.6-alpha1/terraform-provider-guance_0.0.6-alpha1_darwin_arm64.zip",
+          "shasum": "54101ed8458d1dc223400b3ab476ea73e8f58728aa822f487484f054e8cc0715"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-guance_0.0.6-alpha1_darwin_amd64.zip",
+          "download_url": "https://github.com/GuanceCloud/terraform-provider-guance/releases/download/v0.0.6-alpha1/terraform-provider-guance_0.0.6-alpha1_darwin_amd64.zip",
+          "shasum": "ab90be96f7525cd0801185b10833a29c4cbcaa7f0efdc80a97bd9d1a4e85136e"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-guance_0.0.6-alpha1_linux_arm64.zip",
+          "download_url": "https://github.com/GuanceCloud/terraform-provider-guance/releases/download/v0.0.6-alpha1/terraform-provider-guance_0.0.6-alpha1_linux_arm64.zip",
+          "shasum": "46bffed6c45c5479356a7eade45c0ebe6305d6cf37d36952cdc5d2f046fe8e1c"
         }
       ]
     },
