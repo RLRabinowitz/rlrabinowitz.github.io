@@ -2,110 +2,110 @@
   "repository": "https://github.com/tdabasinskas/terraform-provider-backstage",
   "versions": [
     {
-      "version": "2.4.0-rc1",
+      "version": "2.4.0",
       "protocols": [
         "5.0"
       ],
-      "shasums_url": "https://github.com/tdabasinskas/terraform-provider-backstage/releases/download/v2.4.0-rc1/terraform-provider-backstage_2.4.0-rc1_SHA256SUMS",
-      "shasums_signature_url": "https://github.com/tdabasinskas/terraform-provider-backstage/releases/download/v2.4.0-rc1/terraform-provider-backstage_2.4.0-rc1_SHA256SUMS.sig",
+      "shasums_url": "https://github.com/tdabasinskas/terraform-provider-backstage/releases/download/v2.4.0/terraform-provider-backstage_2.4.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/tdabasinskas/terraform-provider-backstage/releases/download/v2.4.0/terraform-provider-backstage_2.4.0_SHA256SUMS.sig",
       "targets": [
         {
-          "os": "windows",
-          "arch": "386",
-          "filename": "terraform-provider-backstage_2.4.0-rc1_windows_386.zip",
-          "download_url": "https://github.com/tdabasinskas/terraform-provider-backstage/releases/download/v2.4.0-rc1/terraform-provider-backstage_2.4.0-rc1_windows_386.zip",
-          "shasum": "b32f899486f51fe3b21906d290d2a72b2cf04423affd9f2d086e203d2d537593"
-        },
-        {
-          "os": "windows",
-          "arch": "arm",
-          "filename": "terraform-provider-backstage_2.4.0-rc1_windows_arm.zip",
-          "download_url": "https://github.com/tdabasinskas/terraform-provider-backstage/releases/download/v2.4.0-rc1/terraform-provider-backstage_2.4.0-rc1_windows_arm.zip",
-          "shasum": "84920653be3729ab98c5aaf47d578e24194bbd10b180abd860c7199a4d37fcdf"
-        },
-        {
           "os": "freebsd",
-          "arch": "arm",
-          "filename": "terraform-provider-backstage_2.4.0-rc1_freebsd_arm.zip",
-          "download_url": "https://github.com/tdabasinskas/terraform-provider-backstage/releases/download/v2.4.0-rc1/terraform-provider-backstage_2.4.0-rc1_freebsd_arm.zip",
-          "shasum": "5645d53920afbc4c17bbc6d3944e7130e5dd22ac0818ce599a775781de0a78e6"
+          "arch": "386",
+          "filename": "terraform-provider-backstage_2.4.0_freebsd_386.zip",
+          "download_url": "https://github.com/tdabasinskas/terraform-provider-backstage/releases/download/v2.4.0/terraform-provider-backstage_2.4.0_freebsd_386.zip",
+          "shasum": "4d8e9499e54b0b59882baf286e65001b9b34d83d9d2d176fb9bff70361e86dd0"
         },
         {
           "os": "linux",
           "arch": "386",
-          "filename": "terraform-provider-backstage_2.4.0-rc1_linux_386.zip",
-          "download_url": "https://github.com/tdabasinskas/terraform-provider-backstage/releases/download/v2.4.0-rc1/terraform-provider-backstage_2.4.0-rc1_linux_386.zip",
-          "shasum": "04407a1fe347f83ee82f7b3053d12aef8215446838772757db7a0a99b41350dc"
+          "filename": "terraform-provider-backstage_2.4.0_linux_386.zip",
+          "download_url": "https://github.com/tdabasinskas/terraform-provider-backstage/releases/download/v2.4.0/terraform-provider-backstage_2.4.0_linux_386.zip",
+          "shasum": "a435fd5b03a7b6224b6a124ae1947e37415c0ccb1493be43a7f704be9bcd553d"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-backstage_2.4.0_windows_arm.zip",
+          "download_url": "https://github.com/tdabasinskas/terraform-provider-backstage/releases/download/v2.4.0/terraform-provider-backstage_2.4.0_windows_arm.zip",
+          "shasum": "e3c10677dcb6fb4c14f99d9d7997612fcf357057f07b4e1d11973a0c0d42affc"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-backstage_2.4.0_windows_arm64.zip",
+          "download_url": "https://github.com/tdabasinskas/terraform-provider-backstage/releases/download/v2.4.0/terraform-provider-backstage_2.4.0_windows_arm64.zip",
+          "shasum": "09f6331698df41d2f50deac610883c5cf57c6ff876ddf3bf0b475c5e3478839d"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-backstage_2.4.0_freebsd_arm.zip",
+          "download_url": "https://github.com/tdabasinskas/terraform-provider-backstage/releases/download/v2.4.0/terraform-provider-backstage_2.4.0_freebsd_arm.zip",
+          "shasum": "42550022acd5d96a0fced45a506dd16ba5d2f1f9f40bd37a4cba84e39391069f"
         },
         {
           "os": "darwin",
           "arch": "amd64",
-          "filename": "terraform-provider-backstage_2.4.0-rc1_darwin_amd64.zip",
-          "download_url": "https://github.com/tdabasinskas/terraform-provider-backstage/releases/download/v2.4.0-rc1/terraform-provider-backstage_2.4.0-rc1_darwin_amd64.zip",
-          "shasum": "c1b6fab02ef74be12d43a7468001b643e45cf54fd1125183ca2c18515077fd65"
-        },
-        {
-          "os": "darwin",
-          "arch": "arm64",
-          "filename": "terraform-provider-backstage_2.4.0-rc1_darwin_arm64.zip",
-          "download_url": "https://github.com/tdabasinskas/terraform-provider-backstage/releases/download/v2.4.0-rc1/terraform-provider-backstage_2.4.0-rc1_darwin_arm64.zip",
-          "shasum": "a95511da1b83bc25a53bf521129699002de65af7983f16fcc833cb08c2d2f47e"
-        },
-        {
-          "os": "windows",
-          "arch": "amd64",
-          "filename": "terraform-provider-backstage_2.4.0-rc1_windows_amd64.zip",
-          "download_url": "https://github.com/tdabasinskas/terraform-provider-backstage/releases/download/v2.4.0-rc1/terraform-provider-backstage_2.4.0-rc1_windows_amd64.zip",
-          "shasum": "11ebfa2bfc88d55e3192f40308e1ba659d9ef50365ac412bbf5e1ec768a7afd0"
+          "filename": "terraform-provider-backstage_2.4.0_darwin_amd64.zip",
+          "download_url": "https://github.com/tdabasinskas/terraform-provider-backstage/releases/download/v2.4.0/terraform-provider-backstage_2.4.0_darwin_amd64.zip",
+          "shasum": "05090c2424ce1348cb42378be355bca238754d17fa1ca82566c455515d9abddb"
         },
         {
           "os": "freebsd",
           "arch": "amd64",
-          "filename": "terraform-provider-backstage_2.4.0-rc1_freebsd_amd64.zip",
-          "download_url": "https://github.com/tdabasinskas/terraform-provider-backstage/releases/download/v2.4.0-rc1/terraform-provider-backstage_2.4.0-rc1_freebsd_amd64.zip",
-          "shasum": "f304506a9faa4bcc3be51d0a9304b58f7d46c1d219b4d58b9bebf5124a823122"
-        },
-        {
-          "os": "freebsd",
-          "arch": "386",
-          "filename": "terraform-provider-backstage_2.4.0-rc1_freebsd_386.zip",
-          "download_url": "https://github.com/tdabasinskas/terraform-provider-backstage/releases/download/v2.4.0-rc1/terraform-provider-backstage_2.4.0-rc1_freebsd_386.zip",
-          "shasum": "cae90ff2583c53cec8809a1caae5f2b5fbd31477220a508de02849755920a958"
-        },
-        {
-          "os": "freebsd",
-          "arch": "arm64",
-          "filename": "terraform-provider-backstage_2.4.0-rc1_freebsd_arm64.zip",
-          "download_url": "https://github.com/tdabasinskas/terraform-provider-backstage/releases/download/v2.4.0-rc1/terraform-provider-backstage_2.4.0-rc1_freebsd_arm64.zip",
-          "shasum": "5b243a15ead666fa86b57a85b5adec419f077a39f1c04b461a2a9ecee7c914be"
-        },
-        {
-          "os": "windows",
-          "arch": "arm64",
-          "filename": "terraform-provider-backstage_2.4.0-rc1_windows_arm64.zip",
-          "download_url": "https://github.com/tdabasinskas/terraform-provider-backstage/releases/download/v2.4.0-rc1/terraform-provider-backstage_2.4.0-rc1_windows_arm64.zip",
-          "shasum": "b9c6b39c7549f0ca25075bf37a72b8ab5828fe381838dea6b4240b42222bc213"
+          "filename": "terraform-provider-backstage_2.4.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/tdabasinskas/terraform-provider-backstage/releases/download/v2.4.0/terraform-provider-backstage_2.4.0_freebsd_amd64.zip",
+          "shasum": "6f23427a4efd661ff73e102f84a13aa8e4fa9143159279f77a298ea06d96014b"
         },
         {
           "os": "linux",
-          "arch": "amd64",
-          "filename": "terraform-provider-backstage_2.4.0-rc1_linux_amd64.zip",
-          "download_url": "https://github.com/tdabasinskas/terraform-provider-backstage/releases/download/v2.4.0-rc1/terraform-provider-backstage_2.4.0-rc1_linux_amd64.zip",
-          "shasum": "f71997a24a9af70574b5691825103c506032e67dc0a12a4d1c90453a14bd661a"
+          "arch": "arm64",
+          "filename": "terraform-provider-backstage_2.4.0_linux_arm64.zip",
+          "download_url": "https://github.com/tdabasinskas/terraform-provider-backstage/releases/download/v2.4.0/terraform-provider-backstage_2.4.0_linux_arm64.zip",
+          "shasum": "05c87d4ac224189e67a14a475ce68998064dda3c56598f3a6e3fb8290dec3552"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-backstage_2.4.0_windows_386.zip",
+          "download_url": "https://github.com/tdabasinskas/terraform-provider-backstage/releases/download/v2.4.0/terraform-provider-backstage_2.4.0_windows_386.zip",
+          "shasum": "9be56afa1375cda666e71c4f48a78fa48abd4793167aea6ae83e4431b07ded79"
         },
         {
           "os": "linux",
           "arch": "arm",
-          "filename": "terraform-provider-backstage_2.4.0-rc1_linux_arm.zip",
-          "download_url": "https://github.com/tdabasinskas/terraform-provider-backstage/releases/download/v2.4.0-rc1/terraform-provider-backstage_2.4.0-rc1_linux_arm.zip",
-          "shasum": "dab0cc94d81a57c5e143ea086b28ec672521f4fd1e3a24e3bce7c6e11239ad24"
+          "filename": "terraform-provider-backstage_2.4.0_linux_arm.zip",
+          "download_url": "https://github.com/tdabasinskas/terraform-provider-backstage/releases/download/v2.4.0/terraform-provider-backstage_2.4.0_linux_arm.zip",
+          "shasum": "1da82c99c424cdd77a59627f8cb64a901e6057dabdc2c966c3b9c735c55164b7"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-backstage_2.4.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/tdabasinskas/terraform-provider-backstage/releases/download/v2.4.0/terraform-provider-backstage_2.4.0_freebsd_arm64.zip",
+          "shasum": "4be6c55cc0bddfff1b19c9cb5ba8daf1ad56b06434e5faff9946e311b22bdcd1"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-backstage_2.4.0_windows_amd64.zip",
+          "download_url": "https://github.com/tdabasinskas/terraform-provider-backstage/releases/download/v2.4.0/terraform-provider-backstage_2.4.0_windows_amd64.zip",
+          "shasum": "83b45b40d8f7eca304e1fab82b1807b203c9051bd6218c4e9a810882b1c9ad00"
         },
         {
           "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-backstage_2.4.0_linux_amd64.zip",
+          "download_url": "https://github.com/tdabasinskas/terraform-provider-backstage/releases/download/v2.4.0/terraform-provider-backstage_2.4.0_linux_amd64.zip",
+          "shasum": "a25a03345931a342b51bffb8aa5e1df725e3d198dc9c47c382af7011a5a9e2ac"
+        },
+        {
+          "os": "darwin",
           "arch": "arm64",
-          "filename": "terraform-provider-backstage_2.4.0-rc1_linux_arm64.zip",
-          "download_url": "https://github.com/tdabasinskas/terraform-provider-backstage/releases/download/v2.4.0-rc1/terraform-provider-backstage_2.4.0-rc1_linux_arm64.zip",
-          "shasum": "465796712c8355f454c1d58afa61e8d85f2a4bfd17412d3409a888290117aca6"
+          "filename": "terraform-provider-backstage_2.4.0_darwin_arm64.zip",
+          "download_url": "https://github.com/tdabasinskas/terraform-provider-backstage/releases/download/v2.4.0/terraform-provider-backstage_2.4.0_darwin_arm64.zip",
+          "shasum": "8f68cfbd9e890403e75db7c2dcfd78de401a044d2a5d82d33270020fa8733519"
         }
       ]
     },
