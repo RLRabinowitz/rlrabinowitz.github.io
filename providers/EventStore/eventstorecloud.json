@@ -2,6 +2,72 @@
   "repository": "https://github.com/EventStore/terraform-provider-eventstorecloud",
   "versions": [
     {
+      "version": "1.5.29",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/EventStore/terraform-provider-eventstorecloud/releases/download/v1.5.29/terraform-provider-eventstorecloud_1.5.29_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/EventStore/terraform-provider-eventstorecloud/releases/download/v1.5.29/terraform-provider-eventstorecloud_1.5.29_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-eventstorecloud_1.5.29_darwin_arm64.zip",
+          "download_url": "https://github.com/EventStore/terraform-provider-eventstorecloud/releases/download/v1.5.29/terraform-provider-eventstorecloud_1.5.29_darwin_arm64.zip",
+          "shasum": "c8bc529b9acfcdd63b3012374c8b4befba5adf02a4a1e327b31bcc22f74efa50"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-eventstorecloud_1.5.29_linux_amd64.zip",
+          "download_url": "https://github.com/EventStore/terraform-provider-eventstorecloud/releases/download/v1.5.29/terraform-provider-eventstorecloud_1.5.29_linux_amd64.zip",
+          "shasum": "8bfdc3ba55ef43b686cee85db823cbe0b421b60732b84b46bcad443406584472"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-eventstorecloud_1.5.29_freebsd_arm64.zip",
+          "download_url": "https://github.com/EventStore/terraform-provider-eventstorecloud/releases/download/v1.5.29/terraform-provider-eventstorecloud_1.5.29_freebsd_arm64.zip",
+          "shasum": "cd3d8680db84ebf01c6aba77fba6c23211394d911bf6e129e25a69e2cc8881f2"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-eventstorecloud_1.5.29_darwin_amd64.zip",
+          "download_url": "https://github.com/EventStore/terraform-provider-eventstorecloud/releases/download/v1.5.29/terraform-provider-eventstorecloud_1.5.29_darwin_amd64.zip",
+          "shasum": "c93dc5263963a32e73b1fee381c6ccf4d22f2ea491fe20438d3f3b342aec417c"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-eventstorecloud_1.5.29_windows_arm64.zip",
+          "download_url": "https://github.com/EventStore/terraform-provider-eventstorecloud/releases/download/v1.5.29/terraform-provider-eventstorecloud_1.5.29_windows_arm64.zip",
+          "shasum": "c185a12415b5e1ad6b466f7da07da4a03d13c1384465eb9297a966388b40dc3a"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-eventstorecloud_1.5.29_windows_amd64.zip",
+          "download_url": "https://github.com/EventStore/terraform-provider-eventstorecloud/releases/download/v1.5.29/terraform-provider-eventstorecloud_1.5.29_windows_amd64.zip",
+          "shasum": "cb1f4b07b0df89d9c81c3338802e42e9d4bb1df0f6f78408e7f08a981598207d"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-eventstorecloud_1.5.29_linux_arm64.zip",
+          "download_url": "https://github.com/EventStore/terraform-provider-eventstorecloud/releases/download/v1.5.29/terraform-provider-eventstorecloud_1.5.29_linux_arm64.zip",
+          "shasum": "ab0e9afd1ba2eb10f9f3a57ffbb5f1b3b6b6f17cb3aff5da5740af892b5a02c1"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-eventstorecloud_1.5.29_freebsd_amd64.zip",
+          "download_url": "https://github.com/EventStore/terraform-provider-eventstorecloud/releases/download/v1.5.29/terraform-provider-eventstorecloud_1.5.29_freebsd_amd64.zip",
+          "shasum": "f06f8049e156f9154d5c7d6cf93d467947ca8660e38f7d95c4bad3cbeb923304"
+        }
+      ]
+    },
+    {
       "version": "1.5.28",
       "protocols": [
         "5.0"
@@ -10,60 +76,60 @@
       "shasums_signature_url": "https://github.com/EventStore/terraform-provider-eventstorecloud/releases/download/v1.5.28/terraform-provider-eventstorecloud_1.5.28_SHA256SUMS.sig",
       "targets": [
         {
-          "os": "windows",
-          "arch": "amd64",
-          "filename": "terraform-provider-eventstorecloud_1.5.28_windows_amd64.zip",
-          "download_url": "https://github.com/EventStore/terraform-provider-eventstorecloud/releases/download/v1.5.28/terraform-provider-eventstorecloud_1.5.28_windows_amd64.zip",
-          "shasum": "8a37e677844ae542d3355e849bdce10214dd44f6e8ea95531f93bbe272f9eb96"
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-eventstorecloud_1.5.28_darwin_arm64.zip",
+          "download_url": "https://github.com/EventStore/terraform-provider-eventstorecloud/releases/download/v1.5.28/terraform-provider-eventstorecloud_1.5.28_darwin_arm64.zip",
+          "shasum": "d9994abcf266ed3ce63f73e537387caa7568743fcfffe88cfb393644eddf5ec6"
         },
         {
           "os": "freebsd",
           "arch": "amd64",
           "filename": "terraform-provider-eventstorecloud_1.5.28_freebsd_amd64.zip",
           "download_url": "https://github.com/EventStore/terraform-provider-eventstorecloud/releases/download/v1.5.28/terraform-provider-eventstorecloud_1.5.28_freebsd_amd64.zip",
-          "shasum": "30a2d672839465277d183838dddf426fc2975d840e3e75d10715be6c8720e3ce"
-        },
-        {
-          "os": "freebsd",
-          "arch": "arm64",
-          "filename": "terraform-provider-eventstorecloud_1.5.28_freebsd_arm64.zip",
-          "download_url": "https://github.com/EventStore/terraform-provider-eventstorecloud/releases/download/v1.5.28/terraform-provider-eventstorecloud_1.5.28_freebsd_arm64.zip",
-          "shasum": "288d6ff200dd12c8c80220bc142c014460c82d8e1c999604846dff9f81634357"
-        },
-        {
-          "os": "windows",
-          "arch": "arm64",
-          "filename": "terraform-provider-eventstorecloud_1.5.28_windows_arm64.zip",
-          "download_url": "https://github.com/EventStore/terraform-provider-eventstorecloud/releases/download/v1.5.28/terraform-provider-eventstorecloud_1.5.28_windows_arm64.zip",
-          "shasum": "880b7e3d8c9ae2b3b9dc332825b3f40e468d613c34224b63dd29062727aa3892"
-        },
-        {
-          "os": "linux",
-          "arch": "arm64",
-          "filename": "terraform-provider-eventstorecloud_1.5.28_linux_arm64.zip",
-          "download_url": "https://github.com/EventStore/terraform-provider-eventstorecloud/releases/download/v1.5.28/terraform-provider-eventstorecloud_1.5.28_linux_arm64.zip",
-          "shasum": "efacb91048cc38933810389a4877b22a16cdd3e34d2e7ada9f1e30ef29287447"
-        },
-        {
-          "os": "linux",
-          "arch": "amd64",
-          "filename": "terraform-provider-eventstorecloud_1.5.28_linux_amd64.zip",
-          "download_url": "https://github.com/EventStore/terraform-provider-eventstorecloud/releases/download/v1.5.28/terraform-provider-eventstorecloud_1.5.28_linux_amd64.zip",
-          "shasum": "f9dd67519d70556000ae3ba6ac1fd647219b1cbf71db74111ebc42a9cfc81556"
-        },
-        {
-          "os": "darwin",
-          "arch": "arm64",
-          "filename": "terraform-provider-eventstorecloud_1.5.28_darwin_arm64.zip",
-          "download_url": "https://github.com/EventStore/terraform-provider-eventstorecloud/releases/download/v1.5.28/terraform-provider-eventstorecloud_1.5.28_darwin_arm64.zip",
-          "shasum": "7583ce4322f8a45bec70c0bfe72bccc6bf26db0026dce1413a15e39ac8b33950"
+          "shasum": "3566e5bdd0c171d18b4a8bda285c46a7fb7038cae23980460d9310c003fcd0c6"
         },
         {
           "os": "darwin",
           "arch": "amd64",
           "filename": "terraform-provider-eventstorecloud_1.5.28_darwin_amd64.zip",
           "download_url": "https://github.com/EventStore/terraform-provider-eventstorecloud/releases/download/v1.5.28/terraform-provider-eventstorecloud_1.5.28_darwin_amd64.zip",
-          "shasum": "a4328cdd430ff68e90ecc2bfde63657c4a4ef914b4ae88005403ff35ab8d1bc3"
+          "shasum": "5b33c26e6c7ac287badc12aedd6329cf394c037d649a6a7d0d7003e65c9d31ae"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-eventstorecloud_1.5.28_windows_arm64.zip",
+          "download_url": "https://github.com/EventStore/terraform-provider-eventstorecloud/releases/download/v1.5.28/terraform-provider-eventstorecloud_1.5.28_windows_arm64.zip",
+          "shasum": "90fd029daf882e58730f4e6a86a424f83cd32d56dba5b1ac066e1b7d1d4ac18b"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-eventstorecloud_1.5.28_freebsd_arm64.zip",
+          "download_url": "https://github.com/EventStore/terraform-provider-eventstorecloud/releases/download/v1.5.28/terraform-provider-eventstorecloud_1.5.28_freebsd_arm64.zip",
+          "shasum": "7911d534f0809bca3e8ec0a8088ff1df01bc9eeda4b31aeede5968167edb9579"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-eventstorecloud_1.5.28_windows_amd64.zip",
+          "download_url": "https://github.com/EventStore/terraform-provider-eventstorecloud/releases/download/v1.5.28/terraform-provider-eventstorecloud_1.5.28_windows_amd64.zip",
+          "shasum": "e00283377a8e6c32e9b2e5fa1faf083b0e05b0c3b2b190a0a6cf1615c60d82f3"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-eventstorecloud_1.5.28_linux_arm64.zip",
+          "download_url": "https://github.com/EventStore/terraform-provider-eventstorecloud/releases/download/v1.5.28/terraform-provider-eventstorecloud_1.5.28_linux_arm64.zip",
+          "shasum": "63464dc0d1bb8729ed794121b0a3612252c91d0c88a8f22c3a26e197cc001084"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-eventstorecloud_1.5.28_linux_amd64.zip",
+          "download_url": "https://github.com/EventStore/terraform-provider-eventstorecloud/releases/download/v1.5.28/terraform-provider-eventstorecloud_1.5.28_linux_amd64.zip",
+          "shasum": "90000b4ee8aa2bdc13c17f7298e5657b4d4d7406683a2a03de434ad4643c5868"
         }
       ]
     },
