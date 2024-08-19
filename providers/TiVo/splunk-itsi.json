@@ -2,110 +2,110 @@
   "repository": "https://github.com/TiVo/terraform-provider-splunk-itsi",
   "versions": [
     {
-      "version": "2.0.0-beta.16",
+      "version": "2.0.0",
       "protocols": [
         "5.0"
       ],
-      "shasums_url": "https://github.com/TiVo/terraform-provider-splunk-itsi/releases/download/v2.0.0-beta.16/terraform-provider-splunk-itsi_2.0.0-beta.16_SHA256SUMS",
-      "shasums_signature_url": "https://github.com/TiVo/terraform-provider-splunk-itsi/releases/download/v2.0.0-beta.16/terraform-provider-splunk-itsi_2.0.0-beta.16_SHA256SUMS.sig",
+      "shasums_url": "https://github.com/TiVo/terraform-provider-splunk-itsi/releases/download/v2.0.0/terraform-provider-splunk-itsi_2.0.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/TiVo/terraform-provider-splunk-itsi/releases/download/v2.0.0/terraform-provider-splunk-itsi_2.0.0_SHA256SUMS.sig",
       "targets": [
         {
           "os": "freebsd",
-          "arch": "386",
-          "filename": "terraform-provider-splunk-itsi_2.0.0-beta.16_freebsd_386.zip",
-          "download_url": "https://github.com/TiVo/terraform-provider-splunk-itsi/releases/download/v2.0.0-beta.16/terraform-provider-splunk-itsi_2.0.0-beta.16_freebsd_386.zip",
-          "shasum": "d642ede1a616c20714995625e44af3a9b8a6e9830a8bed6c40522ee834f01bf0"
-        },
-        {
-          "os": "freebsd",
-          "arch": "amd64",
-          "filename": "terraform-provider-splunk-itsi_2.0.0-beta.16_freebsd_amd64.zip",
-          "download_url": "https://github.com/TiVo/terraform-provider-splunk-itsi/releases/download/v2.0.0-beta.16/terraform-provider-splunk-itsi_2.0.0-beta.16_freebsd_amd64.zip",
-          "shasum": "4efa898bd33d9211ff4e0de4c0030ebc94d7e71d673f9340eef70f359552e648"
-        },
-        {
-          "os": "freebsd",
-          "arch": "arm64",
-          "filename": "terraform-provider-splunk-itsi_2.0.0-beta.16_freebsd_arm64.zip",
-          "download_url": "https://github.com/TiVo/terraform-provider-splunk-itsi/releases/download/v2.0.0-beta.16/terraform-provider-splunk-itsi_2.0.0-beta.16_freebsd_arm64.zip",
-          "shasum": "cbbc3ada9329676584c20f477cdec1916bad865f9929872764fd3481e82cb782"
-        },
-        {
-          "os": "linux",
-          "arch": "arm64",
-          "filename": "terraform-provider-splunk-itsi_2.0.0-beta.16_linux_arm64.zip",
-          "download_url": "https://github.com/TiVo/terraform-provider-splunk-itsi/releases/download/v2.0.0-beta.16/terraform-provider-splunk-itsi_2.0.0-beta.16_linux_arm64.zip",
-          "shasum": "d123d9488a74af43113ebde4da05d7bb4ddcbcb605b31849de1577f468745ac2"
-        },
-        {
-          "os": "darwin",
-          "arch": "amd64",
-          "filename": "terraform-provider-splunk-itsi_2.0.0-beta.16_darwin_amd64.zip",
-          "download_url": "https://github.com/TiVo/terraform-provider-splunk-itsi/releases/download/v2.0.0-beta.16/terraform-provider-splunk-itsi_2.0.0-beta.16_darwin_amd64.zip",
-          "shasum": "bcd67728c643f2bd6c9a3b7f9aec960282967809ded41e95124b2548488128fd"
+          "arch": "arm",
+          "filename": "terraform-provider-splunk-itsi_2.0.0_freebsd_arm.zip",
+          "download_url": "https://github.com/TiVo/terraform-provider-splunk-itsi/releases/download/v2.0.0/terraform-provider-splunk-itsi_2.0.0_freebsd_arm.zip",
+          "shasum": "1a35b8d09b304cd404731aebe4851fb440010805e5ce593b4876bcf2deacde03"
         },
         {
           "os": "windows",
-          "arch": "386",
-          "filename": "terraform-provider-splunk-itsi_2.0.0-beta.16_windows_386.zip",
-          "download_url": "https://github.com/TiVo/terraform-provider-splunk-itsi/releases/download/v2.0.0-beta.16/terraform-provider-splunk-itsi_2.0.0-beta.16_windows_386.zip",
-          "shasum": "8c1f62f726b4114e3c6aed09997bb85327c1f7dd51f61b9ccfd6c6ebc12e9b26"
-        },
-        {
-          "os": "linux",
-          "arch": "amd64",
-          "filename": "terraform-provider-splunk-itsi_2.0.0-beta.16_linux_amd64.zip",
-          "download_url": "https://github.com/TiVo/terraform-provider-splunk-itsi/releases/download/v2.0.0-beta.16/terraform-provider-splunk-itsi_2.0.0-beta.16_linux_amd64.zip",
-          "shasum": "424b4ce14a6c1c28998ebf933bb23042308dfd258505c5de99f73d18c30517e0"
+          "arch": "arm",
+          "filename": "terraform-provider-splunk-itsi_2.0.0_windows_arm.zip",
+          "download_url": "https://github.com/TiVo/terraform-provider-splunk-itsi/releases/download/v2.0.0/terraform-provider-splunk-itsi_2.0.0_windows_arm.zip",
+          "shasum": "2c03644b72a6ad12344b1b307de4dd8a006c2ae6544273a395ae98256357aaaf"
         },
         {
           "os": "darwin",
           "arch": "arm64",
-          "filename": "terraform-provider-splunk-itsi_2.0.0-beta.16_darwin_arm64.zip",
-          "download_url": "https://github.com/TiVo/terraform-provider-splunk-itsi/releases/download/v2.0.0-beta.16/terraform-provider-splunk-itsi_2.0.0-beta.16_darwin_arm64.zip",
-          "shasum": "beada0af551725136c4a01e91435b85d43204d9f018b5cb31eaddabeecb945c3"
-        },
-        {
-          "os": "windows",
-          "arch": "arm",
-          "filename": "terraform-provider-splunk-itsi_2.0.0-beta.16_windows_arm.zip",
-          "download_url": "https://github.com/TiVo/terraform-provider-splunk-itsi/releases/download/v2.0.0-beta.16/terraform-provider-splunk-itsi_2.0.0-beta.16_windows_arm.zip",
-          "shasum": "66a70a0ef8028a9006e288e492e1ce8d0f96344af551f3f5a6025ffdf96b7da3"
-        },
-        {
-          "os": "linux",
-          "arch": "386",
-          "filename": "terraform-provider-splunk-itsi_2.0.0-beta.16_linux_386.zip",
-          "download_url": "https://github.com/TiVo/terraform-provider-splunk-itsi/releases/download/v2.0.0-beta.16/terraform-provider-splunk-itsi_2.0.0-beta.16_linux_386.zip",
-          "shasum": "89fe2866220fa0f04825b378f5dcc693bdc638c1ec4193c318c041b06d6eb593"
-        },
-        {
-          "os": "freebsd",
-          "arch": "arm",
-          "filename": "terraform-provider-splunk-itsi_2.0.0-beta.16_freebsd_arm.zip",
-          "download_url": "https://github.com/TiVo/terraform-provider-splunk-itsi/releases/download/v2.0.0-beta.16/terraform-provider-splunk-itsi_2.0.0-beta.16_freebsd_arm.zip",
-          "shasum": "5bf4a01323fa5e0c37edab6d9b0c3e88627dac1989562e1e2f30ba1b9ad36798"
-        },
-        {
-          "os": "windows",
-          "arch": "amd64",
-          "filename": "terraform-provider-splunk-itsi_2.0.0-beta.16_windows_amd64.zip",
-          "download_url": "https://github.com/TiVo/terraform-provider-splunk-itsi/releases/download/v2.0.0-beta.16/terraform-provider-splunk-itsi_2.0.0-beta.16_windows_amd64.zip",
-          "shasum": "f0a3e7cb3a8ec40814fcdf9117559221e2a8d5e2f3c9c47567f8eb58632923e0"
+          "filename": "terraform-provider-splunk-itsi_2.0.0_darwin_arm64.zip",
+          "download_url": "https://github.com/TiVo/terraform-provider-splunk-itsi/releases/download/v2.0.0/terraform-provider-splunk-itsi_2.0.0_darwin_arm64.zip",
+          "shasum": "c266aca654c9bf78023c5cf9b3278256db6469ec4f087dea8e0a348c84162846"
         },
         {
           "os": "windows",
           "arch": "arm64",
-          "filename": "terraform-provider-splunk-itsi_2.0.0-beta.16_windows_arm64.zip",
-          "download_url": "https://github.com/TiVo/terraform-provider-splunk-itsi/releases/download/v2.0.0-beta.16/terraform-provider-splunk-itsi_2.0.0-beta.16_windows_arm64.zip",
-          "shasum": "0decff26b0458ed48ac023e18e03b194ff914528dd9a3454587986c680e34dec"
+          "filename": "terraform-provider-splunk-itsi_2.0.0_windows_arm64.zip",
+          "download_url": "https://github.com/TiVo/terraform-provider-splunk-itsi/releases/download/v2.0.0/terraform-provider-splunk-itsi_2.0.0_windows_arm64.zip",
+          "shasum": "63bebd75cfe601606b1d6e2178a5e43d5618f2849cd727eba45001aaf586c9d0"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-splunk-itsi_2.0.0_windows_386.zip",
+          "download_url": "https://github.com/TiVo/terraform-provider-splunk-itsi/releases/download/v2.0.0/terraform-provider-splunk-itsi_2.0.0_windows_386.zip",
+          "shasum": "639435bc04309e52e6a236615252023a1472d196f4d36c0ab994c3bddc87e800"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-splunk-itsi_2.0.0_linux_386.zip",
+          "download_url": "https://github.com/TiVo/terraform-provider-splunk-itsi/releases/download/v2.0.0/terraform-provider-splunk-itsi_2.0.0_linux_386.zip",
+          "shasum": "5ae82f5505f6ec22c945ce23d7152a69de7f9125d57b6ab3f8ef1a02f1d57504"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-splunk-itsi_2.0.0_windows_amd64.zip",
+          "download_url": "https://github.com/TiVo/terraform-provider-splunk-itsi/releases/download/v2.0.0/terraform-provider-splunk-itsi_2.0.0_windows_amd64.zip",
+          "shasum": "d7108900bc069fd5eb38bd130d9f8183e49cf02926a6c7790c38c870cddfd596"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-splunk-itsi_2.0.0_linux_amd64.zip",
+          "download_url": "https://github.com/TiVo/terraform-provider-splunk-itsi/releases/download/v2.0.0/terraform-provider-splunk-itsi_2.0.0_linux_amd64.zip",
+          "shasum": "53c2007377f70f8e5cc56dc9ed0cd508282577c361f999d2070468e87e3f818e"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-splunk-itsi_2.0.0_linux_arm64.zip",
+          "download_url": "https://github.com/TiVo/terraform-provider-splunk-itsi/releases/download/v2.0.0/terraform-provider-splunk-itsi_2.0.0_linux_arm64.zip",
+          "shasum": "cd29fdf7cf0b1209943f45baed6b301aa8267f93acc2d0323cc6bfe98cd495e0"
         },
         {
           "os": "linux",
           "arch": "arm",
-          "filename": "terraform-provider-splunk-itsi_2.0.0-beta.16_linux_arm.zip",
-          "download_url": "https://github.com/TiVo/terraform-provider-splunk-itsi/releases/download/v2.0.0-beta.16/terraform-provider-splunk-itsi_2.0.0-beta.16_linux_arm.zip",
-          "shasum": "3961dbb29c06a4f199c51c356ea8fad4da9ccb42b372fab8ee2de5b5c5d80d9b"
+          "filename": "terraform-provider-splunk-itsi_2.0.0_linux_arm.zip",
+          "download_url": "https://github.com/TiVo/terraform-provider-splunk-itsi/releases/download/v2.0.0/terraform-provider-splunk-itsi_2.0.0_linux_arm.zip",
+          "shasum": "007a507d61f7d1e52ef07f8cce54a55f426275d9c3149cf8a3d023e8e04ae664"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-splunk-itsi_2.0.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/TiVo/terraform-provider-splunk-itsi/releases/download/v2.0.0/terraform-provider-splunk-itsi_2.0.0_freebsd_amd64.zip",
+          "shasum": "4f9b0cbb3a0ba0bcd1a798497ccd0da7ee297a7bf4b763aa34e9943ea5ced1b2"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-splunk-itsi_2.0.0_darwin_amd64.zip",
+          "download_url": "https://github.com/TiVo/terraform-provider-splunk-itsi/releases/download/v2.0.0/terraform-provider-splunk-itsi_2.0.0_darwin_amd64.zip",
+          "shasum": "4d151ad0e548b075bf1de6ec4602583c5204e328d4c7f4cdd54a4674cf815303"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-splunk-itsi_2.0.0_freebsd_386.zip",
+          "download_url": "https://github.com/TiVo/terraform-provider-splunk-itsi/releases/download/v2.0.0/terraform-provider-splunk-itsi_2.0.0_freebsd_386.zip",
+          "shasum": "3f6c9da4920d18114533ffe49b2f291dd7346c76237f95f3a0ba8b10e2af54e2"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-splunk-itsi_2.0.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/TiVo/terraform-provider-splunk-itsi/releases/download/v2.0.0/terraform-provider-splunk-itsi_2.0.0_freebsd_arm64.zip",
+          "shasum": "518d020bbdbf393775b1e1dd22cfc9b78f58f820cfc6fa720747b5952ca91b7a"
         }
       ]
     },
