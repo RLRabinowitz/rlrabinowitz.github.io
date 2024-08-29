@@ -2,6 +2,107 @@
   "repository": "https://github.com/disc/terraform-provider-pritunl",
   "versions": [
     {
+      "version": "0.3.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/disc/terraform-provider-pritunl/releases/download/v0.3.0/terraform-provider-pritunl_0.3.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/disc/terraform-provider-pritunl/releases/download/v0.3.0/terraform-provider-pritunl_0.3.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-pritunl_0.3.0_freebsd_arm.zip",
+          "download_url": "https://github.com/disc/terraform-provider-pritunl/releases/download/v0.3.0/terraform-provider-pritunl_0.3.0_freebsd_arm.zip",
+          "shasum": "38bad545e958511651196fb614c70e8bd5e7d11ee205cd9668454d90821a4f2a"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-pritunl_0.3.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/disc/terraform-provider-pritunl/releases/download/v0.3.0/terraform-provider-pritunl_0.3.0_freebsd_arm64.zip",
+          "shasum": "dae069c97e4792003696fdf86a46bf54050b230cf038d85018a4714032252571"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-pritunl_0.3.0_linux_amd64.zip",
+          "download_url": "https://github.com/disc/terraform-provider-pritunl/releases/download/v0.3.0/terraform-provider-pritunl_0.3.0_linux_amd64.zip",
+          "shasum": "420cff96fe96c94f6d93e0cfea1192ef66f300d2ed88711d6734b78fcacca030"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-pritunl_0.3.0_linux_arm64.zip",
+          "download_url": "https://github.com/disc/terraform-provider-pritunl/releases/download/v0.3.0/terraform-provider-pritunl_0.3.0_linux_arm64.zip",
+          "shasum": "e73778ebd4babb3478ee573c93e1a44629aebd040bf37d71608388e37ffa1afe"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-pritunl_0.3.0_darwin_arm64.zip",
+          "download_url": "https://github.com/disc/terraform-provider-pritunl/releases/download/v0.3.0/terraform-provider-pritunl_0.3.0_darwin_arm64.zip",
+          "shasum": "25b1a8e76e1c4c80eca96ec6e5020bd1e178cca862379a1fbbb4e6eb3d5dc812"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-pritunl_0.3.0_freebsd_386.zip",
+          "download_url": "https://github.com/disc/terraform-provider-pritunl/releases/download/v0.3.0/terraform-provider-pritunl_0.3.0_freebsd_386.zip",
+          "shasum": "6d45515517ac6e97676b5af7b03e9b0bb892525ff6842506ab452a09cfe6f093"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-pritunl_0.3.0_windows_arm.zip",
+          "download_url": "https://github.com/disc/terraform-provider-pritunl/releases/download/v0.3.0/terraform-provider-pritunl_0.3.0_windows_arm.zip",
+          "shasum": "70d2971b9bef8a503238e37c9be773d22fe66f3ea8bc00649c95686985e8364a"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-pritunl_0.3.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/disc/terraform-provider-pritunl/releases/download/v0.3.0/terraform-provider-pritunl_0.3.0_freebsd_amd64.zip",
+          "shasum": "ff26a733227b2f70c3170b7d45e3d454fbb3183de55ae6edb7376936477f095d"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-pritunl_0.3.0_windows_386.zip",
+          "download_url": "https://github.com/disc/terraform-provider-pritunl/releases/download/v0.3.0/terraform-provider-pritunl_0.3.0_windows_386.zip",
+          "shasum": "82d4e50952cf60eb7c23bae6f5b5c9b533c809f1fa9472b024fdd094e618af2a"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-pritunl_0.3.0_linux_386.zip",
+          "download_url": "https://github.com/disc/terraform-provider-pritunl/releases/download/v0.3.0/terraform-provider-pritunl_0.3.0_linux_386.zip",
+          "shasum": "ab52dc00ab110adb577fd89cd84e6d461e918fd39bb6b9c32201701bcb86728f"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-pritunl_0.3.0_linux_arm.zip",
+          "download_url": "https://github.com/disc/terraform-provider-pritunl/releases/download/v0.3.0/terraform-provider-pritunl_0.3.0_linux_arm.zip",
+          "shasum": "f2a3cd43286dc6a3316624e8990041b40b637e3aa27f0b49c6197e823d8aec2e"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-pritunl_0.3.0_windows_amd64.zip",
+          "download_url": "https://github.com/disc/terraform-provider-pritunl/releases/download/v0.3.0/terraform-provider-pritunl_0.3.0_windows_amd64.zip",
+          "shasum": "112742417a99d71fd1b23cbbe2ec6d19a7020f7d604822277a786a53fc1a8a8b"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-pritunl_0.3.0_darwin_amd64.zip",
+          "download_url": "https://github.com/disc/terraform-provider-pritunl/releases/download/v0.3.0/terraform-provider-pritunl_0.3.0_darwin_amd64.zip",
+          "shasum": "03cf4d931145bf39af1f0ca9faa89f1bd64000cc1d6a71bc7d81bd6523541d3e"
+        }
+      ]
+    },
+    {
       "version": "0.2.1",
       "protocols": [
         "5.0"
