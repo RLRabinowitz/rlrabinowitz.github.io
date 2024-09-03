@@ -1,6 +1,30 @@
 {
   "versions": [
     {
+      "version": "0.0.21",
+      "protocols": [
+        "5.0"
+      ],
+      "platforms": [
+        {
+          "os": "darwin",
+          "arch": "arm64"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64"
+        }
+      ]
+    },
+    {
       "version": "0.0.13",
       "protocols": [
         "5.0"
