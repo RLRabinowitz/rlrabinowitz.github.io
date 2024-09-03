@@ -2,6 +2,222 @@
   "repository": "https://github.com/huaweicloud/terraform-provider-hcs",
   "versions": [
     {
+      "version": "2.4.6",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/huaweicloud/terraform-provider-hcs/releases/download/v2.4.6/terraform-provider-hcs_2.4.6_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/huaweicloud/terraform-provider-hcs/releases/download/v2.4.6/terraform-provider-hcs_2.4.6_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-hcs_2.4.6_freebsd_arm.zip",
+          "download_url": "https://github.com/huaweicloud/terraform-provider-hcs/releases/download/v2.4.6/terraform-provider-hcs_2.4.6_freebsd_arm.zip",
+          "shasum": "0446318ad1e6b8003942ec80a3fb654ead9efd556ad8204de90bc06e22ce4a8c"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-hcs_2.4.6_windows_amd64.zip",
+          "download_url": "https://github.com/huaweicloud/terraform-provider-hcs/releases/download/v2.4.6/terraform-provider-hcs_2.4.6_windows_amd64.zip",
+          "shasum": "acb7b7df504316cc5ab055083a790da26c3471e0bc49f8ac8cf559cdfd1919dc"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-hcs_2.4.6_windows_arm.zip",
+          "download_url": "https://github.com/huaweicloud/terraform-provider-hcs/releases/download/v2.4.6/terraform-provider-hcs_2.4.6_windows_arm.zip",
+          "shasum": "a0650a12db452c091398b6bc9db5848968602e34ff1a647ac5756c22bf4f291c"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-hcs_2.4.6_windows_386.zip",
+          "download_url": "https://github.com/huaweicloud/terraform-provider-hcs/releases/download/v2.4.6/terraform-provider-hcs_2.4.6_windows_386.zip",
+          "shasum": "b34f2ead82a0ba0d768a5ea2ec2852bccb6e1c839d38da0a3e86e3bfa759bcc0"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-hcs_2.4.6_darwin_arm64.zip",
+          "download_url": "https://github.com/huaweicloud/terraform-provider-hcs/releases/download/v2.4.6/terraform-provider-hcs_2.4.6_darwin_arm64.zip",
+          "shasum": "194896b317f3ff7ca2384d910600cfb4d2fb9893a85bb68e31ec7ad1a21020c5"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-hcs_2.4.6_linux_amd64.zip",
+          "download_url": "https://github.com/huaweicloud/terraform-provider-hcs/releases/download/v2.4.6/terraform-provider-hcs_2.4.6_linux_amd64.zip",
+          "shasum": "caef5ded6a0ea1683df05422986f2c6663f65013c114c57c606b5b586b34e5e4"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-hcs_2.4.6_darwin_amd64.zip",
+          "download_url": "https://github.com/huaweicloud/terraform-provider-hcs/releases/download/v2.4.6/terraform-provider-hcs_2.4.6_darwin_amd64.zip",
+          "shasum": "eb8ce18b98d4e3f102ff4b74ebf6f26b4a0fd3eaa7d5199fb1cf3b4075564498"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-hcs_2.4.6_freebsd_amd64.zip",
+          "download_url": "https://github.com/huaweicloud/terraform-provider-hcs/releases/download/v2.4.6/terraform-provider-hcs_2.4.6_freebsd_amd64.zip",
+          "shasum": "d6604eb9b2b37f92336d942a950dd73450fe973767c0c3723cbc3153bd9c6ded"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-hcs_2.4.6_windows_arm64.zip",
+          "download_url": "https://github.com/huaweicloud/terraform-provider-hcs/releases/download/v2.4.6/terraform-provider-hcs_2.4.6_windows_arm64.zip",
+          "shasum": "0ae2b180078d3faf8333d1ab1f86b91d768203f3a8fa3e31e205087f1c5c3f90"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-hcs_2.4.6_linux_arm.zip",
+          "download_url": "https://github.com/huaweicloud/terraform-provider-hcs/releases/download/v2.4.6/terraform-provider-hcs_2.4.6_linux_arm.zip",
+          "shasum": "29bf280681d307ca8a96c3be54c57cb2566ab9d294633ed074d14858a5ca383c"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-hcs_2.4.6_linux_386.zip",
+          "download_url": "https://github.com/huaweicloud/terraform-provider-hcs/releases/download/v2.4.6/terraform-provider-hcs_2.4.6_linux_386.zip",
+          "shasum": "31ea4120dd2c6e873df60123fe0e9b98383f2aac3ebf34ec66983aefcb8986bc"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-hcs_2.4.6_linux_arm64.zip",
+          "download_url": "https://github.com/huaweicloud/terraform-provider-hcs/releases/download/v2.4.6/terraform-provider-hcs_2.4.6_linux_arm64.zip",
+          "shasum": "375ef05d1bd4ed1f7b1739f85a7bac1deabb1be06364207df945f7050fc04961"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-hcs_2.4.6_freebsd_arm64.zip",
+          "download_url": "https://github.com/huaweicloud/terraform-provider-hcs/releases/download/v2.4.6/terraform-provider-hcs_2.4.6_freebsd_arm64.zip",
+          "shasum": "f6e2268402152a9ddb9d6a8af397c02d6fc398b3e36c4e154f4be06dfcb7754b"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-hcs_2.4.6_freebsd_386.zip",
+          "download_url": "https://github.com/huaweicloud/terraform-provider-hcs/releases/download/v2.4.6/terraform-provider-hcs_2.4.6_freebsd_386.zip",
+          "shasum": "24aacc3f1849ec7c216620c6fb8bfe13be83357aba93f3a420355b662b6f25c4"
+        }
+      ]
+    },
+    {
+      "version": "2.4.5",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/huaweicloud/terraform-provider-hcs/releases/download/v2.4.5/terraform-provider-hcs_2.4.5_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/huaweicloud/terraform-provider-hcs/releases/download/v2.4.5/terraform-provider-hcs_2.4.5_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-hcs_2.4.5_windows_arm64.zip",
+          "download_url": "https://github.com/huaweicloud/terraform-provider-hcs/releases/download/v2.4.5/terraform-provider-hcs_2.4.5_windows_arm64.zip",
+          "shasum": "f9d3bb0ca84739f08f48db05f39e170ac7f7d8ffeb4e9aac8b9689b9af09de5a"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-hcs_2.4.5_freebsd_amd64.zip",
+          "download_url": "https://github.com/huaweicloud/terraform-provider-hcs/releases/download/v2.4.5/terraform-provider-hcs_2.4.5_freebsd_amd64.zip",
+          "shasum": "c6b50a0bdd4f9e2a2cf168d89323fb9c1851ef3628a537f25755d4e7b05ccaf8"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-hcs_2.4.5_windows_amd64.zip",
+          "download_url": "https://github.com/huaweicloud/terraform-provider-hcs/releases/download/v2.4.5/terraform-provider-hcs_2.4.5_windows_amd64.zip",
+          "shasum": "b1383cdeaa33e1a99544f4b875cb715c89b13bcb3c0c10f89232c2d58798d451"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-hcs_2.4.5_freebsd_arm.zip",
+          "download_url": "https://github.com/huaweicloud/terraform-provider-hcs/releases/download/v2.4.5/terraform-provider-hcs_2.4.5_freebsd_arm.zip",
+          "shasum": "f35e17998ca12722ccc1784a64295c3b83c671f0b5ed12920fd2415060fc00e2"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-hcs_2.4.5_linux_arm64.zip",
+          "download_url": "https://github.com/huaweicloud/terraform-provider-hcs/releases/download/v2.4.5/terraform-provider-hcs_2.4.5_linux_arm64.zip",
+          "shasum": "ed943216a9d763eb27bda0078c266caefe9762f89f9289f4244c2e32a447aa35"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-hcs_2.4.5_freebsd_386.zip",
+          "download_url": "https://github.com/huaweicloud/terraform-provider-hcs/releases/download/v2.4.5/terraform-provider-hcs_2.4.5_freebsd_386.zip",
+          "shasum": "8a08ae666e22a43981e2484e40599ee6f4ba580719b0b51e43247c941e3ef6f8"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-hcs_2.4.5_windows_386.zip",
+          "download_url": "https://github.com/huaweicloud/terraform-provider-hcs/releases/download/v2.4.5/terraform-provider-hcs_2.4.5_windows_386.zip",
+          "shasum": "89aa37c8edfe78bc4421cd3d6e16edb24d83f4299ba6099744bb75df4f124943"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-hcs_2.4.5_darwin_amd64.zip",
+          "download_url": "https://github.com/huaweicloud/terraform-provider-hcs/releases/download/v2.4.5/terraform-provider-hcs_2.4.5_darwin_amd64.zip",
+          "shasum": "6969e3ac852956ca5697c1d3f05c182c9d0c06b4c328ab531e20990b059d49bb"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-hcs_2.4.5_windows_arm.zip",
+          "download_url": "https://github.com/huaweicloud/terraform-provider-hcs/releases/download/v2.4.5/terraform-provider-hcs_2.4.5_windows_arm.zip",
+          "shasum": "7462d0ff2b9f1d92c181a2cd07b79eb9af9dc7cb1ce8fcd701d5cd39567efe2a"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-hcs_2.4.5_linux_amd64.zip",
+          "download_url": "https://github.com/huaweicloud/terraform-provider-hcs/releases/download/v2.4.5/terraform-provider-hcs_2.4.5_linux_amd64.zip",
+          "shasum": "3f3bf107b462f1d67599df3cc80ec465765ec108f0ed5597768de108d678d848"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-hcs_2.4.5_linux_arm.zip",
+          "download_url": "https://github.com/huaweicloud/terraform-provider-hcs/releases/download/v2.4.5/terraform-provider-hcs_2.4.5_linux_arm.zip",
+          "shasum": "8e09ecbcc3a5cbb6c33fe26c54fee8831839ac0c95c955717ab0a648b73b1c2e"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-hcs_2.4.5_freebsd_arm64.zip",
+          "download_url": "https://github.com/huaweicloud/terraform-provider-hcs/releases/download/v2.4.5/terraform-provider-hcs_2.4.5_freebsd_arm64.zip",
+          "shasum": "a0fee800f2338709217d9180498870b3eb82c6f14c9d6e08b12bc5fe2b18c13f"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-hcs_2.4.5_linux_386.zip",
+          "download_url": "https://github.com/huaweicloud/terraform-provider-hcs/releases/download/v2.4.5/terraform-provider-hcs_2.4.5_linux_386.zip",
+          "shasum": "146c80e7304761f9e0a0b509c7f377533f41e3138432525107c2dd3c632cb5d1"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-hcs_2.4.5_darwin_arm64.zip",
+          "download_url": "https://github.com/huaweicloud/terraform-provider-hcs/releases/download/v2.4.5/terraform-provider-hcs_2.4.5_darwin_arm64.zip",
+          "shasum": "8bc714fbf7b68c67de478b43e9633f274be5186a96619d956453198cbbc2a626"
+        }
+      ]
+    },
+    {
       "version": "2.3.7",
       "protocols": [
         "5.0"
@@ -106,114 +322,6 @@
           "filename": "terraform-provider-hcs_2.3.7_linux_amd64.zip",
           "download_url": "https://github.com/huaweicloud/terraform-provider-hcs/releases/download/v2.3.7/terraform-provider-hcs_2.3.7_linux_amd64.zip",
           "shasum": "0e5aa4b02f8cfed03a90e7ac996c539ea006c624cdf907b4383f356e6f8014b3"
-        }
-      ]
-    },
-    {
-      "version": "2.4.5",
-      "protocols": [
-        "5.0"
-      ],
-      "shasums_url": "https://github.com/huaweicloud/terraform-provider-hcs/releases/download/v2.4.5/terraform-provider-hcs_2.4.5_SHA256SUMS",
-      "shasums_signature_url": "https://github.com/huaweicloud/terraform-provider-hcs/releases/download/v2.4.5/terraform-provider-hcs_2.4.5_SHA256SUMS.sig",
-      "targets": [
-        {
-          "os": "windows",
-          "arch": "arm64",
-          "filename": "terraform-provider-hcs_2.4.5_windows_arm64.zip",
-          "download_url": "https://github.com/huaweicloud/terraform-provider-hcs/releases/download/v2.4.5/terraform-provider-hcs_2.4.5_windows_arm64.zip",
-          "shasum": "48cce45d1a6e16f4ad161be06fdb653385711d65084c8c8c255c23eb82a58cf4"
-        },
-        {
-          "os": "windows",
-          "arch": "amd64",
-          "filename": "terraform-provider-hcs_2.4.5_windows_amd64.zip",
-          "download_url": "https://github.com/huaweicloud/terraform-provider-hcs/releases/download/v2.4.5/terraform-provider-hcs_2.4.5_windows_amd64.zip",
-          "shasum": "911ace0e4cccd0b2a23230c3e9269024dbc49aa45a8001f82c9f58c2efa96085"
-        },
-        {
-          "os": "linux",
-          "arch": "386",
-          "filename": "terraform-provider-hcs_2.4.5_linux_386.zip",
-          "download_url": "https://github.com/huaweicloud/terraform-provider-hcs/releases/download/v2.4.5/terraform-provider-hcs_2.4.5_linux_386.zip",
-          "shasum": "2b403ff1462023e65c8a4d3cb7a0b3a8fd1ed0c47113e712c35a54526c474ab3"
-        },
-        {
-          "os": "darwin",
-          "arch": "amd64",
-          "filename": "terraform-provider-hcs_2.4.5_darwin_amd64.zip",
-          "download_url": "https://github.com/huaweicloud/terraform-provider-hcs/releases/download/v2.4.5/terraform-provider-hcs_2.4.5_darwin_amd64.zip",
-          "shasum": "c5e7cae0a0a83367de8b39825f14c332d623ddb5325abad6bc4cf80ea8d1e1d8"
-        },
-        {
-          "os": "freebsd",
-          "arch": "arm",
-          "filename": "terraform-provider-hcs_2.4.5_freebsd_arm.zip",
-          "download_url": "https://github.com/huaweicloud/terraform-provider-hcs/releases/download/v2.4.5/terraform-provider-hcs_2.4.5_freebsd_arm.zip",
-          "shasum": "ecc3da5e38ee3494bfb2eeca77d88eb4413f217d5a5601642ebd6d75e27c6843"
-        },
-        {
-          "os": "linux",
-          "arch": "amd64",
-          "filename": "terraform-provider-hcs_2.4.5_linux_amd64.zip",
-          "download_url": "https://github.com/huaweicloud/terraform-provider-hcs/releases/download/v2.4.5/terraform-provider-hcs_2.4.5_linux_amd64.zip",
-          "shasum": "e69693fc4cd17ebfda8c91c8e32186b2a0d1291f97197d54daf13fc6048672b1"
-        },
-        {
-          "os": "windows",
-          "arch": "arm",
-          "filename": "terraform-provider-hcs_2.4.5_windows_arm.zip",
-          "download_url": "https://github.com/huaweicloud/terraform-provider-hcs/releases/download/v2.4.5/terraform-provider-hcs_2.4.5_windows_arm.zip",
-          "shasum": "0bd78d454f19a09372cb40d6791329a1bb8c02079235a8e77d0f13288903a351"
-        },
-        {
-          "os": "linux",
-          "arch": "arm64",
-          "filename": "terraform-provider-hcs_2.4.5_linux_arm64.zip",
-          "download_url": "https://github.com/huaweicloud/terraform-provider-hcs/releases/download/v2.4.5/terraform-provider-hcs_2.4.5_linux_arm64.zip",
-          "shasum": "708e77503b2c787aa1a53bc762e118b8f4597c54da4162bb6e81d3dc73713727"
-        },
-        {
-          "os": "windows",
-          "arch": "386",
-          "filename": "terraform-provider-hcs_2.4.5_windows_386.zip",
-          "download_url": "https://github.com/huaweicloud/terraform-provider-hcs/releases/download/v2.4.5/terraform-provider-hcs_2.4.5_windows_386.zip",
-          "shasum": "c8dbc72ac625af826843fda1e2aaceed17b5b0123b4a9c44fea20896b70dacee"
-        },
-        {
-          "os": "linux",
-          "arch": "arm",
-          "filename": "terraform-provider-hcs_2.4.5_linux_arm.zip",
-          "download_url": "https://github.com/huaweicloud/terraform-provider-hcs/releases/download/v2.4.5/terraform-provider-hcs_2.4.5_linux_arm.zip",
-          "shasum": "2b1aeb4b3106fa2845206c21a672f248747e3867419742110c8228d9c4cf42f5"
-        },
-        {
-          "os": "darwin",
-          "arch": "arm64",
-          "filename": "terraform-provider-hcs_2.4.5_darwin_arm64.zip",
-          "download_url": "https://github.com/huaweicloud/terraform-provider-hcs/releases/download/v2.4.5/terraform-provider-hcs_2.4.5_darwin_arm64.zip",
-          "shasum": "c2d180be8199953fc01898b0e7afa9d3fc0e5a60313726d6bd51238425403076"
-        },
-        {
-          "os": "freebsd",
-          "arch": "amd64",
-          "filename": "terraform-provider-hcs_2.4.5_freebsd_amd64.zip",
-          "download_url": "https://github.com/huaweicloud/terraform-provider-hcs/releases/download/v2.4.5/terraform-provider-hcs_2.4.5_freebsd_amd64.zip",
-          "shasum": "bfbbd0ad6baa012e98b1d53e8cebbaa90208679d5de826a106406c0e5516ff64"
-        },
-        {
-          "os": "freebsd",
-          "arch": "386",
-          "filename": "terraform-provider-hcs_2.4.5_freebsd_386.zip",
-          "download_url": "https://github.com/huaweicloud/terraform-provider-hcs/releases/download/v2.4.5/terraform-provider-hcs_2.4.5_freebsd_386.zip",
-          "shasum": "ade36e43b6ae60fe21bd24f8eeff43278485ab5d112542ebb637db0c854e2744"
-        },
-        {
-          "os": "freebsd",
-          "arch": "arm64",
-          "filename": "terraform-provider-hcs_2.4.5_freebsd_arm64.zip",
-          "download_url": "https://github.com/huaweicloud/terraform-provider-hcs/releases/download/v2.4.5/terraform-provider-hcs_2.4.5_freebsd_arm64.zip",
-          "shasum": "f5ca0fea55f97b7b32a841a737a835d6855c93ca86fb278ec4ae16c616d92e8c"
         }
       ]
     },
