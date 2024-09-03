@@ -2,6 +2,330 @@
   "repository": "https://github.com/common-fate/terraform-provider-commonfate",
   "versions": [
     {
+      "version": "2.25.0-alpha8",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/common-fate/terraform-provider-commonfate/releases/download/v2.25.0-alpha8/terraform-provider-commonfate_2.25.0-alpha8_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/common-fate/terraform-provider-commonfate/releases/download/v2.25.0-alpha8/terraform-provider-commonfate_2.25.0-alpha8_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-commonfate_2.25.0-alpha8_freebsd_386.zip",
+          "download_url": "https://github.com/common-fate/terraform-provider-commonfate/releases/download/v2.25.0-alpha8/terraform-provider-commonfate_2.25.0-alpha8_freebsd_386.zip",
+          "shasum": "3925d087c1dcde1b0667e4357d2acc8a3be372c126ceace6ce91be37d8bdec5e"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-commonfate_2.25.0-alpha8_linux_386.zip",
+          "download_url": "https://github.com/common-fate/terraform-provider-commonfate/releases/download/v2.25.0-alpha8/terraform-provider-commonfate_2.25.0-alpha8_linux_386.zip",
+          "shasum": "2e64a0d4140a97525961791f57a87bae79574c80851ba243a3a95e9d0ce3a107"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-commonfate_2.25.0-alpha8_windows_arm.zip",
+          "download_url": "https://github.com/common-fate/terraform-provider-commonfate/releases/download/v2.25.0-alpha8/terraform-provider-commonfate_2.25.0-alpha8_windows_arm.zip",
+          "shasum": "a6e297efb31faf9b70fff8239657ea752e34ececf3177928132fbddd1f415a47"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-commonfate_2.25.0-alpha8_linux_amd64.zip",
+          "download_url": "https://github.com/common-fate/terraform-provider-commonfate/releases/download/v2.25.0-alpha8/terraform-provider-commonfate_2.25.0-alpha8_linux_amd64.zip",
+          "shasum": "db289657d9d02e5f0f363f12081fa75011c613e70e968da39ed3afe1d93733a6"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-commonfate_2.25.0-alpha8_freebsd_arm64.zip",
+          "download_url": "https://github.com/common-fate/terraform-provider-commonfate/releases/download/v2.25.0-alpha8/terraform-provider-commonfate_2.25.0-alpha8_freebsd_arm64.zip",
+          "shasum": "f815cf3bc5d2b8b34459c9af5bcb5e936577a9fd34ad115facd948b553f1f489"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-commonfate_2.25.0-alpha8_linux_arm.zip",
+          "download_url": "https://github.com/common-fate/terraform-provider-commonfate/releases/download/v2.25.0-alpha8/terraform-provider-commonfate_2.25.0-alpha8_linux_arm.zip",
+          "shasum": "6462432bb500967edef72c410998e779ac085ca02cfeab532dcc1c7e70d7ee9a"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-commonfate_2.25.0-alpha8_freebsd_amd64.zip",
+          "download_url": "https://github.com/common-fate/terraform-provider-commonfate/releases/download/v2.25.0-alpha8/terraform-provider-commonfate_2.25.0-alpha8_freebsd_amd64.zip",
+          "shasum": "05d04edeb2d2b1f597dbc1193686211809c8f27a14009265e508be91e9731169"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-commonfate_2.25.0-alpha8_windows_amd64.zip",
+          "download_url": "https://github.com/common-fate/terraform-provider-commonfate/releases/download/v2.25.0-alpha8/terraform-provider-commonfate_2.25.0-alpha8_windows_amd64.zip",
+          "shasum": "04a5f9e1a006b594e35f8e3b8005a7afdf60d3ac37ec9f4b0e47bb08b186387e"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-commonfate_2.25.0-alpha8_freebsd_arm.zip",
+          "download_url": "https://github.com/common-fate/terraform-provider-commonfate/releases/download/v2.25.0-alpha8/terraform-provider-commonfate_2.25.0-alpha8_freebsd_arm.zip",
+          "shasum": "f368b849bc1ead5a915e17b881c264181e3aa1fe9910db31c81458b80b5abc87"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-commonfate_2.25.0-alpha8_linux_arm64.zip",
+          "download_url": "https://github.com/common-fate/terraform-provider-commonfate/releases/download/v2.25.0-alpha8/terraform-provider-commonfate_2.25.0-alpha8_linux_arm64.zip",
+          "shasum": "556ae9984203389417feb947f0cc8f530ffc17d5bc65cb4df702fafa2db8c44e"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-commonfate_2.25.0-alpha8_darwin_arm64.zip",
+          "download_url": "https://github.com/common-fate/terraform-provider-commonfate/releases/download/v2.25.0-alpha8/terraform-provider-commonfate_2.25.0-alpha8_darwin_arm64.zip",
+          "shasum": "3e364c16f5406c6d7800faa266e7088d113df2eca4f45f9a12354593e0011c58"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-commonfate_2.25.0-alpha8_windows_386.zip",
+          "download_url": "https://github.com/common-fate/terraform-provider-commonfate/releases/download/v2.25.0-alpha8/terraform-provider-commonfate_2.25.0-alpha8_windows_386.zip",
+          "shasum": "df21f418f4170ad80cd2b2324f64e9e50c0da22cca031fff461980709f2bb3b8"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-commonfate_2.25.0-alpha8_darwin_amd64.zip",
+          "download_url": "https://github.com/common-fate/terraform-provider-commonfate/releases/download/v2.25.0-alpha8/terraform-provider-commonfate_2.25.0-alpha8_darwin_amd64.zip",
+          "shasum": "e8e71464908b9d2b7ff82460c26099a80cad1c9976c53d1d2ecda87668f3738f"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-commonfate_2.25.0-alpha8_windows_arm64.zip",
+          "download_url": "https://github.com/common-fate/terraform-provider-commonfate/releases/download/v2.25.0-alpha8/terraform-provider-commonfate_2.25.0-alpha8_windows_arm64.zip",
+          "shasum": "3f79ddd4d949210c8e1ac835e2c073c8852c078d76f518f1bb5d02a58f155be9"
+        }
+      ]
+    },
+    {
+      "version": "2.25.0-alpha7",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/common-fate/terraform-provider-commonfate/releases/download/v2.25.0-alpha7/terraform-provider-commonfate_2.25.0-alpha7_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/common-fate/terraform-provider-commonfate/releases/download/v2.25.0-alpha7/terraform-provider-commonfate_2.25.0-alpha7_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-commonfate_2.25.0-alpha7_freebsd_arm64.zip",
+          "download_url": "https://github.com/common-fate/terraform-provider-commonfate/releases/download/v2.25.0-alpha7/terraform-provider-commonfate_2.25.0-alpha7_freebsd_arm64.zip",
+          "shasum": "13c90ce667d4f3e52bb3e3671824c29e897571e6173d8f1d50f9119aa912ab1f"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-commonfate_2.25.0-alpha7_freebsd_386.zip",
+          "download_url": "https://github.com/common-fate/terraform-provider-commonfate/releases/download/v2.25.0-alpha7/terraform-provider-commonfate_2.25.0-alpha7_freebsd_386.zip",
+          "shasum": "8f58c33dac4c3cd8baad539e794b7b2ce213108db46a69b50adbc882faeb05bd"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-commonfate_2.25.0-alpha7_darwin_arm64.zip",
+          "download_url": "https://github.com/common-fate/terraform-provider-commonfate/releases/download/v2.25.0-alpha7/terraform-provider-commonfate_2.25.0-alpha7_darwin_arm64.zip",
+          "shasum": "bc3f5026f3e765a64a17e1cde790dc4901ea64e9331803e496f89c8984197cf4"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-commonfate_2.25.0-alpha7_freebsd_arm.zip",
+          "download_url": "https://github.com/common-fate/terraform-provider-commonfate/releases/download/v2.25.0-alpha7/terraform-provider-commonfate_2.25.0-alpha7_freebsd_arm.zip",
+          "shasum": "c4b58cd8f7d918f6008e395c1b911d1d00f9e5f331ac9a1d1e651ebadf408888"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-commonfate_2.25.0-alpha7_windows_386.zip",
+          "download_url": "https://github.com/common-fate/terraform-provider-commonfate/releases/download/v2.25.0-alpha7/terraform-provider-commonfate_2.25.0-alpha7_windows_386.zip",
+          "shasum": "82ddb1c31c8dd54d136ee7066dcc60e54e924c8134c685eeeae12956a1db5ac4"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-commonfate_2.25.0-alpha7_freebsd_amd64.zip",
+          "download_url": "https://github.com/common-fate/terraform-provider-commonfate/releases/download/v2.25.0-alpha7/terraform-provider-commonfate_2.25.0-alpha7_freebsd_amd64.zip",
+          "shasum": "a195cdf3280cca07832c75ce8ea1ca5be4c331c07c52c32bcc41d4c759509e86"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-commonfate_2.25.0-alpha7_windows_amd64.zip",
+          "download_url": "https://github.com/common-fate/terraform-provider-commonfate/releases/download/v2.25.0-alpha7/terraform-provider-commonfate_2.25.0-alpha7_windows_amd64.zip",
+          "shasum": "46975d8f02c18923e902b226c6946d61e42a63a245c42fa2c86908c48204e063"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-commonfate_2.25.0-alpha7_linux_amd64.zip",
+          "download_url": "https://github.com/common-fate/terraform-provider-commonfate/releases/download/v2.25.0-alpha7/terraform-provider-commonfate_2.25.0-alpha7_linux_amd64.zip",
+          "shasum": "068ee221fbf7dff87126b4991ec891c2f92e6b09f264546093c0344a27460693"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-commonfate_2.25.0-alpha7_windows_arm.zip",
+          "download_url": "https://github.com/common-fate/terraform-provider-commonfate/releases/download/v2.25.0-alpha7/terraform-provider-commonfate_2.25.0-alpha7_windows_arm.zip",
+          "shasum": "d50af79ec36ec57e2237aef20c94b417f496ff91d998270fb1a5bef8e976ea3e"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-commonfate_2.25.0-alpha7_darwin_amd64.zip",
+          "download_url": "https://github.com/common-fate/terraform-provider-commonfate/releases/download/v2.25.0-alpha7/terraform-provider-commonfate_2.25.0-alpha7_darwin_amd64.zip",
+          "shasum": "2b64459c62403f178651cb9ecd82db7350f7e351e732c5c8e7fa32035bb7658c"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-commonfate_2.25.0-alpha7_linux_arm.zip",
+          "download_url": "https://github.com/common-fate/terraform-provider-commonfate/releases/download/v2.25.0-alpha7/terraform-provider-commonfate_2.25.0-alpha7_linux_arm.zip",
+          "shasum": "c707d47955cdd2f4307d39ea21148be5dbbf2b05bee9a045a66638ec38f47d05"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-commonfate_2.25.0-alpha7_windows_arm64.zip",
+          "download_url": "https://github.com/common-fate/terraform-provider-commonfate/releases/download/v2.25.0-alpha7/terraform-provider-commonfate_2.25.0-alpha7_windows_arm64.zip",
+          "shasum": "3a46e0c1390b4f5ba0eb78b63048185277cfac5d904d8ee1a4f19dd613937f4b"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-commonfate_2.25.0-alpha7_linux_386.zip",
+          "download_url": "https://github.com/common-fate/terraform-provider-commonfate/releases/download/v2.25.0-alpha7/terraform-provider-commonfate_2.25.0-alpha7_linux_386.zip",
+          "shasum": "71535947b28fe3139c423aaeb4a3fdc06440dddb529005adcac2a384876bb74a"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-commonfate_2.25.0-alpha7_linux_arm64.zip",
+          "download_url": "https://github.com/common-fate/terraform-provider-commonfate/releases/download/v2.25.0-alpha7/terraform-provider-commonfate_2.25.0-alpha7_linux_arm64.zip",
+          "shasum": "a277c09d2c51402e927a749f8c4bbd9da48d50f054fb7064e4bc86e1d0150b33"
+        }
+      ]
+    },
+    {
+      "version": "2.25.0-alpha6",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/common-fate/terraform-provider-commonfate/releases/download/v2.25.0-alpha6/terraform-provider-commonfate_2.25.0-alpha6_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/common-fate/terraform-provider-commonfate/releases/download/v2.25.0-alpha6/terraform-provider-commonfate_2.25.0-alpha6_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-commonfate_2.25.0-alpha6_windows_386.zip",
+          "download_url": "https://github.com/common-fate/terraform-provider-commonfate/releases/download/v2.25.0-alpha6/terraform-provider-commonfate_2.25.0-alpha6_windows_386.zip",
+          "shasum": "8131e7b9f2202bc25d2cc0ab89e8cef8ba98b034e7772b81ffff5217d7333ec1"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-commonfate_2.25.0-alpha6_freebsd_arm.zip",
+          "download_url": "https://github.com/common-fate/terraform-provider-commonfate/releases/download/v2.25.0-alpha6/terraform-provider-commonfate_2.25.0-alpha6_freebsd_arm.zip",
+          "shasum": "7e9aec8fe1905c073473a427691b9da8c39e29c6019641bcd80ae0abddf22c83"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-commonfate_2.25.0-alpha6_darwin_arm64.zip",
+          "download_url": "https://github.com/common-fate/terraform-provider-commonfate/releases/download/v2.25.0-alpha6/terraform-provider-commonfate_2.25.0-alpha6_darwin_arm64.zip",
+          "shasum": "6605a82ae3c5422f5754d82995ff23775425b5e3de3dbb53fccb25866cb7a769"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-commonfate_2.25.0-alpha6_freebsd_arm64.zip",
+          "download_url": "https://github.com/common-fate/terraform-provider-commonfate/releases/download/v2.25.0-alpha6/terraform-provider-commonfate_2.25.0-alpha6_freebsd_arm64.zip",
+          "shasum": "6cd20bce58c5642f304a754aa5d552836b504836ad96feb6b1d2c5f34a2c42cc"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-commonfate_2.25.0-alpha6_freebsd_386.zip",
+          "download_url": "https://github.com/common-fate/terraform-provider-commonfate/releases/download/v2.25.0-alpha6/terraform-provider-commonfate_2.25.0-alpha6_freebsd_386.zip",
+          "shasum": "54c8e30c6f33277efa8a7afe3fc5653888b160f88f2d18d3310ecdcb0c6f7642"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-commonfate_2.25.0-alpha6_linux_amd64.zip",
+          "download_url": "https://github.com/common-fate/terraform-provider-commonfate/releases/download/v2.25.0-alpha6/terraform-provider-commonfate_2.25.0-alpha6_linux_amd64.zip",
+          "shasum": "eb10f3e1e0a1a72359a3c72a8ab7d616416efa20be6efd09f11a6eb85ab3fd18"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-commonfate_2.25.0-alpha6_windows_arm.zip",
+          "download_url": "https://github.com/common-fate/terraform-provider-commonfate/releases/download/v2.25.0-alpha6/terraform-provider-commonfate_2.25.0-alpha6_windows_arm.zip",
+          "shasum": "95ba4ead67733cb69f76e539b508c9be5c5c23f0382762b3048faa3c8ab2c269"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-commonfate_2.25.0-alpha6_darwin_amd64.zip",
+          "download_url": "https://github.com/common-fate/terraform-provider-commonfate/releases/download/v2.25.0-alpha6/terraform-provider-commonfate_2.25.0-alpha6_darwin_amd64.zip",
+          "shasum": "c46cff21769e2d3a9b6c8fcb8ae29136f884d258b9a8275980109cdf77efb594"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-commonfate_2.25.0-alpha6_windows_arm64.zip",
+          "download_url": "https://github.com/common-fate/terraform-provider-commonfate/releases/download/v2.25.0-alpha6/terraform-provider-commonfate_2.25.0-alpha6_windows_arm64.zip",
+          "shasum": "92eaa9be360692ab75c6975da68992b1e1c9373d176835c3f96e2c014dcc6b46"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-commonfate_2.25.0-alpha6_linux_arm64.zip",
+          "download_url": "https://github.com/common-fate/terraform-provider-commonfate/releases/download/v2.25.0-alpha6/terraform-provider-commonfate_2.25.0-alpha6_linux_arm64.zip",
+          "shasum": "95016a16a1f5ebf5a7fbd3aba825e3e3df12b4bf9e365bf868b98ac50212b0bf"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-commonfate_2.25.0-alpha6_windows_amd64.zip",
+          "download_url": "https://github.com/common-fate/terraform-provider-commonfate/releases/download/v2.25.0-alpha6/terraform-provider-commonfate_2.25.0-alpha6_windows_amd64.zip",
+          "shasum": "4b2b50c151a5ce379b6f39ce0f088ca74ef6849c99c6168ce291e45c30f6fec7"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-commonfate_2.25.0-alpha6_freebsd_amd64.zip",
+          "download_url": "https://github.com/common-fate/terraform-provider-commonfate/releases/download/v2.25.0-alpha6/terraform-provider-commonfate_2.25.0-alpha6_freebsd_amd64.zip",
+          "shasum": "afb6435f7fbb717184a3f26711f7177aeca25a6f3d67904e0e002e398bce11db"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-commonfate_2.25.0-alpha6_linux_386.zip",
+          "download_url": "https://github.com/common-fate/terraform-provider-commonfate/releases/download/v2.25.0-alpha6/terraform-provider-commonfate_2.25.0-alpha6_linux_386.zip",
+          "shasum": "8b466f45876b7facea9368c4504e805089dee9e40f620290fc5a02a02b548f9e"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-commonfate_2.25.0-alpha6_linux_arm.zip",
+          "download_url": "https://github.com/common-fate/terraform-provider-commonfate/releases/download/v2.25.0-alpha6/terraform-provider-commonfate_2.25.0-alpha6_linux_arm.zip",
+          "shasum": "f4e6a3f9bb9edbd03fa469cc0ae4208ba84ba4ef179ce99d2773d85c148cc612"
+        }
+      ]
+    },
+    {
       "version": "2.25.0-alpha5",
       "protocols": [
         "5.0"
