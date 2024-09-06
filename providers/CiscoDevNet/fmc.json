@@ -2,6 +2,292 @@
   "repository": "https://github.com/CiscoDevNet/terraform-provider-fmc",
   "versions": [
     {
+      "version": "1.5.1",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/CiscoDevNet/terraform-provider-fmc/releases/download/v1.5.1/terraform-provider-fmc_1.5.1_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/CiscoDevNet/terraform-provider-fmc/releases/download/v1.5.1/terraform-provider-fmc_1.5.1_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-fmc_1.5.1_linux_arm.zip",
+          "download_url": "https://github.com/CiscoDevNet/terraform-provider-fmc/releases/download/v1.5.1/terraform-provider-fmc_1.5.1_linux_arm.zip",
+          "shasum": "784c5998542a2ad2f23d8c73b484a010065909dbca7936a53f589836afe443ff"
+        },
+        {
+          "os": "openbsd",
+          "arch": "386",
+          "filename": "terraform-provider-fmc_1.5.1_openbsd_386.zip",
+          "download_url": "https://github.com/CiscoDevNet/terraform-provider-fmc/releases/download/v1.5.1/terraform-provider-fmc_1.5.1_openbsd_386.zip",
+          "shasum": "dec16b1baa3e5320d5987fbd33dab4b1306177f293baf4ac78acb8c8441a92fd"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-fmc_1.5.1_darwin_amd64.zip",
+          "download_url": "https://github.com/CiscoDevNet/terraform-provider-fmc/releases/download/v1.5.1/terraform-provider-fmc_1.5.1_darwin_amd64.zip",
+          "shasum": "e3d12a35b377f29e805d15cc8c31795dd7ed9abc02b71623b419f20590512af0"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-fmc_1.5.1_windows_arm64.zip",
+          "download_url": "https://github.com/CiscoDevNet/terraform-provider-fmc/releases/download/v1.5.1/terraform-provider-fmc_1.5.1_windows_arm64.zip",
+          "shasum": "953a9f4a3c66eec148f64a6260a8dd5667e4c64dd5b192eeb28a06d79e46ca06"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-fmc_1.5.1_windows_386.zip",
+          "download_url": "https://github.com/CiscoDevNet/terraform-provider-fmc/releases/download/v1.5.1/terraform-provider-fmc_1.5.1_windows_386.zip",
+          "shasum": "0b45366ad0d31c907e27821c9d81b35b19137690f4a8ec842b12894fd04a3815"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-fmc_1.5.1_freebsd_amd64.zip",
+          "download_url": "https://github.com/CiscoDevNet/terraform-provider-fmc/releases/download/v1.5.1/terraform-provider-fmc_1.5.1_freebsd_amd64.zip",
+          "shasum": "e6926e16749682fa9324e6ba41a24d6659fc72e1936c1a639409670a299fefa8"
+        },
+        {
+          "os": "openbsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-fmc_1.5.1_openbsd_amd64.zip",
+          "download_url": "https://github.com/CiscoDevNet/terraform-provider-fmc/releases/download/v1.5.1/terraform-provider-fmc_1.5.1_openbsd_amd64.zip",
+          "shasum": "16ab69277426eb05c133059a055e8dd436718f3a57a7fdd8bacdec70296b80f2"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-fmc_1.5.1_darwin_arm64.zip",
+          "download_url": "https://github.com/CiscoDevNet/terraform-provider-fmc/releases/download/v1.5.1/terraform-provider-fmc_1.5.1_darwin_arm64.zip",
+          "shasum": "628a956cf973020c75cdbce6a8d158238784ae0b88197bdc193fed94fdc56e01"
+        },
+        {
+          "os": "openbsd",
+          "arch": "arm",
+          "filename": "terraform-provider-fmc_1.5.1_openbsd_arm.zip",
+          "download_url": "https://github.com/CiscoDevNet/terraform-provider-fmc/releases/download/v1.5.1/terraform-provider-fmc_1.5.1_openbsd_arm.zip",
+          "shasum": "17bf671e184fa34360b4641f6b0a3326eb79da4c6c60eb72f6dbf6b2d089036b"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-fmc_1.5.1_freebsd_arm.zip",
+          "download_url": "https://github.com/CiscoDevNet/terraform-provider-fmc/releases/download/v1.5.1/terraform-provider-fmc_1.5.1_freebsd_arm.zip",
+          "shasum": "e13f35b21ad2057a200ac2f8bb9064dc3d5c9636593629f8e6dc76ae4bdd49a5"
+        },
+        {
+          "os": "openbsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-fmc_1.5.1_openbsd_arm64.zip",
+          "download_url": "https://github.com/CiscoDevNet/terraform-provider-fmc/releases/download/v1.5.1/terraform-provider-fmc_1.5.1_openbsd_arm64.zip",
+          "shasum": "853fe2fd26c6956cba1c850be05df961cc943b68a5bfd88c5e262e534f334f97"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-fmc_1.5.1_freebsd_386.zip",
+          "download_url": "https://github.com/CiscoDevNet/terraform-provider-fmc/releases/download/v1.5.1/terraform-provider-fmc_1.5.1_freebsd_386.zip",
+          "shasum": "16f298d57cfac88a34aee8c236dbac28af386396c569b6a82000aa4e498a22fc"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-fmc_1.5.1_freebsd_arm64.zip",
+          "download_url": "https://github.com/CiscoDevNet/terraform-provider-fmc/releases/download/v1.5.1/terraform-provider-fmc_1.5.1_freebsd_arm64.zip",
+          "shasum": "3022f0613d49814a83271efe3d36b6cc81f099d48f751cc48fd23a6c5e486627"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-fmc_1.5.1_windows_amd64.zip",
+          "download_url": "https://github.com/CiscoDevNet/terraform-provider-fmc/releases/download/v1.5.1/terraform-provider-fmc_1.5.1_windows_amd64.zip",
+          "shasum": "fd5db49dda66d332e8416cf9bbaa31eea74bde783a57fa053f2287c6a0d73165"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-fmc_1.5.1_linux_arm64.zip",
+          "download_url": "https://github.com/CiscoDevNet/terraform-provider-fmc/releases/download/v1.5.1/terraform-provider-fmc_1.5.1_linux_arm64.zip",
+          "shasum": "23b43633d222e13c4f547583b0322655abaf1242c1212a3f55d3090849b0c8f1"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-fmc_1.5.1_linux_amd64.zip",
+          "download_url": "https://github.com/CiscoDevNet/terraform-provider-fmc/releases/download/v1.5.1/terraform-provider-fmc_1.5.1_linux_amd64.zip",
+          "shasum": "db5b985e761f129181d70c773af98dad43be69822e5fccf24f90d8815200047d"
+        },
+        {
+          "os": "solaris",
+          "arch": "amd64",
+          "filename": "terraform-provider-fmc_1.5.1_solaris_amd64.zip",
+          "download_url": "https://github.com/CiscoDevNet/terraform-provider-fmc/releases/download/v1.5.1/terraform-provider-fmc_1.5.1_solaris_amd64.zip",
+          "shasum": "15e2187f1c3fd6e4deac3abf21662c4d0dce644f13fb907e0d0b36fe33c79a8b"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-fmc_1.5.1_windows_arm.zip",
+          "download_url": "https://github.com/CiscoDevNet/terraform-provider-fmc/releases/download/v1.5.1/terraform-provider-fmc_1.5.1_windows_arm.zip",
+          "shasum": "c27e07e9dbb81c6ea4ccaca1702d95ec66f69c7887819e3cda8c2e1afb94ca52"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-fmc_1.5.1_linux_386.zip",
+          "download_url": "https://github.com/CiscoDevNet/terraform-provider-fmc/releases/download/v1.5.1/terraform-provider-fmc_1.5.1_linux_386.zip",
+          "shasum": "458a442bfcc99101459d9dcbccea966b93cae93d07e520e45b1cbc1de5f4d1c9"
+        }
+      ]
+    },
+    {
+      "version": "1.5",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/CiscoDevNet/terraform-provider-fmc/releases/download/v1.5/terraform-provider-fmc_1.5_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/CiscoDevNet/terraform-provider-fmc/releases/download/v1.5/terraform-provider-fmc_1.5_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-fmc_1.5_windows_arm64.zip",
+          "download_url": "https://github.com/CiscoDevNet/terraform-provider-fmc/releases/download/v1.5/terraform-provider-fmc_1.5_windows_arm64.zip",
+          "shasum": "8a983d572e80a5edc125a2ffb672c7c5032a4d245769477848116972b8ef7de1"
+        },
+        {
+          "os": "openbsd",
+          "arch": "arm",
+          "filename": "terraform-provider-fmc_1.5_openbsd_arm.zip",
+          "download_url": "https://github.com/CiscoDevNet/terraform-provider-fmc/releases/download/v1.5/terraform-provider-fmc_1.5_openbsd_arm.zip",
+          "shasum": "c9d4644c2df5670b69b63db28747ab60afe4f3d9c1791e1b09b56243c884cafd"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-fmc_1.5_freebsd_386.zip",
+          "download_url": "https://github.com/CiscoDevNet/terraform-provider-fmc/releases/download/v1.5/terraform-provider-fmc_1.5_freebsd_386.zip",
+          "shasum": "2ca55e864e0e72a654a6d31907f7662e372514688315fe9e430d20c79f82557b"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-fmc_1.5_darwin_arm64.zip",
+          "download_url": "https://github.com/CiscoDevNet/terraform-provider-fmc/releases/download/v1.5/terraform-provider-fmc_1.5_darwin_arm64.zip",
+          "shasum": "1d02e1611c4c859869dce1da0b268863cb8fa8d657d34f941a2860d5fa20f1c8"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-fmc_1.5_linux_386.zip",
+          "download_url": "https://github.com/CiscoDevNet/terraform-provider-fmc/releases/download/v1.5/terraform-provider-fmc_1.5_linux_386.zip",
+          "shasum": "3038f6cf75aea4cc8eb346f7b9e563d316ae1d18959d4a8f13350c8276ff3c07"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-fmc_1.5_freebsd_amd64.zip",
+          "download_url": "https://github.com/CiscoDevNet/terraform-provider-fmc/releases/download/v1.5/terraform-provider-fmc_1.5_freebsd_amd64.zip",
+          "shasum": "b80d871c69f52e3748691e9f8197f45042592eccf0464db6729ab53781c56fc1"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-fmc_1.5_darwin_amd64.zip",
+          "download_url": "https://github.com/CiscoDevNet/terraform-provider-fmc/releases/download/v1.5/terraform-provider-fmc_1.5_darwin_amd64.zip",
+          "shasum": "c70f6a2ca3df12cd2c598b840983df8d8830aa830b41ebcb55a5c84d89e5266e"
+        },
+        {
+          "os": "openbsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-fmc_1.5_openbsd_amd64.zip",
+          "download_url": "https://github.com/CiscoDevNet/terraform-provider-fmc/releases/download/v1.5/terraform-provider-fmc_1.5_openbsd_amd64.zip",
+          "shasum": "da4338766437665fe824b94f31226362fbfbca6384f1cd2cc811c7237ff9be64"
+        },
+        {
+          "os": "openbsd",
+          "arch": "386",
+          "filename": "terraform-provider-fmc_1.5_openbsd_386.zip",
+          "download_url": "https://github.com/CiscoDevNet/terraform-provider-fmc/releases/download/v1.5/terraform-provider-fmc_1.5_openbsd_386.zip",
+          "shasum": "cd952122a1f74a5e541cdcff7654394ad7d196f691b1cce5fb45190d372c7b35"
+        },
+        {
+          "os": "openbsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-fmc_1.5_openbsd_arm64.zip",
+          "download_url": "https://github.com/CiscoDevNet/terraform-provider-fmc/releases/download/v1.5/terraform-provider-fmc_1.5_openbsd_arm64.zip",
+          "shasum": "0551d257deab257d8f43bb77cafc86d407eb66b33215bd16e6b3de5fb8bf81b3"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-fmc_1.5_windows_386.zip",
+          "download_url": "https://github.com/CiscoDevNet/terraform-provider-fmc/releases/download/v1.5/terraform-provider-fmc_1.5_windows_386.zip",
+          "shasum": "304d0bbedf7386df228628a9726b50a78dc90d905afb1895cbc1cb2a2f7e389f"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-fmc_1.5_linux_arm.zip",
+          "download_url": "https://github.com/CiscoDevNet/terraform-provider-fmc/releases/download/v1.5/terraform-provider-fmc_1.5_linux_arm.zip",
+          "shasum": "8f19e5e7de11fead9b59d79b31a896da5e5b12024c5153fff9d99b6fad50d1fd"
+        },
+        {
+          "os": "solaris",
+          "arch": "amd64",
+          "filename": "terraform-provider-fmc_1.5_solaris_amd64.zip",
+          "download_url": "https://github.com/CiscoDevNet/terraform-provider-fmc/releases/download/v1.5/terraform-provider-fmc_1.5_solaris_amd64.zip",
+          "shasum": "e72d31b45adec51422c96315e4791310f99d34e6642043f78d874830f056cf71"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-fmc_1.5_freebsd_arm.zip",
+          "download_url": "https://github.com/CiscoDevNet/terraform-provider-fmc/releases/download/v1.5/terraform-provider-fmc_1.5_freebsd_arm.zip",
+          "shasum": "e5821d8002fb663fc92f797ed1c8001cd15bda3dad5cae5067806225f37cc9d7"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-fmc_1.5_linux_amd64.zip",
+          "download_url": "https://github.com/CiscoDevNet/terraform-provider-fmc/releases/download/v1.5/terraform-provider-fmc_1.5_linux_amd64.zip",
+          "shasum": "0088bc71fdb57ca4825c0ceb703799fdffaf542bb165724644544a47a2716a87"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-fmc_1.5_linux_arm64.zip",
+          "download_url": "https://github.com/CiscoDevNet/terraform-provider-fmc/releases/download/v1.5/terraform-provider-fmc_1.5_linux_arm64.zip",
+          "shasum": "08acce0e050df254664c008a140363b8c8dec9a228169fa3655a3c34c5521449"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-fmc_1.5_windows_amd64.zip",
+          "download_url": "https://github.com/CiscoDevNet/terraform-provider-fmc/releases/download/v1.5/terraform-provider-fmc_1.5_windows_amd64.zip",
+          "shasum": "43000f5ee171081c505a184bde92c2418d2f9a7d905d1d255c2d1460ede6e79b"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-fmc_1.5_windows_arm.zip",
+          "download_url": "https://github.com/CiscoDevNet/terraform-provider-fmc/releases/download/v1.5/terraform-provider-fmc_1.5_windows_arm.zip",
+          "shasum": "cc00f02fd97ac4f09532c9ab5110ebe86318741ba6808fe54444ccebeffe41b1"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-fmc_1.5_freebsd_arm64.zip",
+          "download_url": "https://github.com/CiscoDevNet/terraform-provider-fmc/releases/download/v1.5/terraform-provider-fmc_1.5_freebsd_arm64.zip",
+          "shasum": "00f6fc7a7ce0def375fe83c29bbc091363f9d2c6327e90b8aa50801f3fd74b08"
+        }
+      ]
+    },
+    {
       "version": "1.4.8",
       "protocols": [
         "5.0"
