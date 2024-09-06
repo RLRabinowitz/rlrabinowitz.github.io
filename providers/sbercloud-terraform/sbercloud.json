@@ -2,6 +2,114 @@
   "repository": "https://github.com/sbercloud-terraform/terraform-provider-sbercloud",
   "versions": [
     {
+      "version": "1.12.3",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/sbercloud-terraform/terraform-provider-sbercloud/releases/download/v1.12.3/terraform-provider-sbercloud_1.12.3_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/sbercloud-terraform/terraform-provider-sbercloud/releases/download/v1.12.3/terraform-provider-sbercloud_1.12.3_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-sbercloud_1.12.3_windows_386.zip",
+          "download_url": "https://github.com/sbercloud-terraform/terraform-provider-sbercloud/releases/download/v1.12.3/terraform-provider-sbercloud_1.12.3_windows_386.zip",
+          "shasum": "bcbe0612101235ff1a51458e947f5600f6937260fb56a2dcc3d76e88d1302859"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-sbercloud_1.12.3_freebsd_amd64.zip",
+          "download_url": "https://github.com/sbercloud-terraform/terraform-provider-sbercloud/releases/download/v1.12.3/terraform-provider-sbercloud_1.12.3_freebsd_amd64.zip",
+          "shasum": "969fd054ed21c44e21832334d282e6781564e0e9d6476f06771df582f76a8fe5"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-sbercloud_1.12.3_windows_amd64.zip",
+          "download_url": "https://github.com/sbercloud-terraform/terraform-provider-sbercloud/releases/download/v1.12.3/terraform-provider-sbercloud_1.12.3_windows_amd64.zip",
+          "shasum": "37a18e8206594fb3d869e7d0848514d7150e7812c6a784c7378a4bf24a47edc9"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-sbercloud_1.12.3_windows_arm64.zip",
+          "download_url": "https://github.com/sbercloud-terraform/terraform-provider-sbercloud/releases/download/v1.12.3/terraform-provider-sbercloud_1.12.3_windows_arm64.zip",
+          "shasum": "6bcf366b11c76ef1a362560f83c3c85da6cea1db60defd4e4c1659d0a57b53de"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-sbercloud_1.12.3_linux_arm64.zip",
+          "download_url": "https://github.com/sbercloud-terraform/terraform-provider-sbercloud/releases/download/v1.12.3/terraform-provider-sbercloud_1.12.3_linux_arm64.zip",
+          "shasum": "03e1ea52e809d3a46333b65854742d107e94db3eb40eccd38f5d3ed634042d72"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-sbercloud_1.12.3_linux_386.zip",
+          "download_url": "https://github.com/sbercloud-terraform/terraform-provider-sbercloud/releases/download/v1.12.3/terraform-provider-sbercloud_1.12.3_linux_386.zip",
+          "shasum": "eec9247d0e8dc98a951c214adf2b01ce3820bda4ec36ec20f5659e200dda8dc5"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-sbercloud_1.12.3_freebsd_arm64.zip",
+          "download_url": "https://github.com/sbercloud-terraform/terraform-provider-sbercloud/releases/download/v1.12.3/terraform-provider-sbercloud_1.12.3_freebsd_arm64.zip",
+          "shasum": "789db45edd4880da7de9145c3e0eae995c2074d54ca28545e221d071eef8fe0d"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-sbercloud_1.12.3_linux_amd64.zip",
+          "download_url": "https://github.com/sbercloud-terraform/terraform-provider-sbercloud/releases/download/v1.12.3/terraform-provider-sbercloud_1.12.3_linux_amd64.zip",
+          "shasum": "930a1f5018ccda6c4eba4d37231a4983fe875fed2c090b6fe061d78a69c8c4e2"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-sbercloud_1.12.3_windows_arm.zip",
+          "download_url": "https://github.com/sbercloud-terraform/terraform-provider-sbercloud/releases/download/v1.12.3/terraform-provider-sbercloud_1.12.3_windows_arm.zip",
+          "shasum": "ae7b011194186a897ac1eac217af52103e6ad988247e2899fcd6b4fa1c0c5c16"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-sbercloud_1.12.3_linux_arm.zip",
+          "download_url": "https://github.com/sbercloud-terraform/terraform-provider-sbercloud/releases/download/v1.12.3/terraform-provider-sbercloud_1.12.3_linux_arm.zip",
+          "shasum": "5076b2191e82d4032b7dba8c4db9468c723b54e2b1b7fb7d84fd7f84f16edbfb"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-sbercloud_1.12.3_freebsd_arm.zip",
+          "download_url": "https://github.com/sbercloud-terraform/terraform-provider-sbercloud/releases/download/v1.12.3/terraform-provider-sbercloud_1.12.3_freebsd_arm.zip",
+          "shasum": "02365526bc0d7af8d29431ff385bd6d9ca0e034100f3ff9f75d6f33c83a4608d"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-sbercloud_1.12.3_darwin_amd64.zip",
+          "download_url": "https://github.com/sbercloud-terraform/terraform-provider-sbercloud/releases/download/v1.12.3/terraform-provider-sbercloud_1.12.3_darwin_amd64.zip",
+          "shasum": "5fe9934d5edc8744e52067ae15fa4052a2a0e0578ee4fbd9d6d44d66965ab231"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-sbercloud_1.12.3_freebsd_386.zip",
+          "download_url": "https://github.com/sbercloud-terraform/terraform-provider-sbercloud/releases/download/v1.12.3/terraform-provider-sbercloud_1.12.3_freebsd_386.zip",
+          "shasum": "b658a33b9b9af75d90fd456b1921ac3f40a67b8889a0fd03b16531e0bcb0d66c"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-sbercloud_1.12.3_darwin_arm64.zip",
+          "download_url": "https://github.com/sbercloud-terraform/terraform-provider-sbercloud/releases/download/v1.12.3/terraform-provider-sbercloud_1.12.3_darwin_arm64.zip",
+          "shasum": "24345fa2bcfa8d8553d4b877bae65f213b258a81a184437148e3d801d83ec610"
+        }
+      ]
+    },
+    {
       "version": "1.12.2",
       "protocols": [
         "5.0"
