@@ -1,4 +1,4 @@
-# Registry PoC
+# Fork of Registry PoC
 Relates to https://github.com/opentofu/opentofu/issues/741
 
 This PoC demonstrates how GitHub repository could be used as the source of truth for the providers and modules of OpenTofu, and later be hosted in GH Pages for OpenTofu CLI to consume
