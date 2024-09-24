@@ -2,6 +2,114 @@
   "repository": "https://github.com/octoenergy/terraform-provider-splitpolicies",
   "versions": [
     {
+      "version": "0.1.3",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/octoenergy/terraform-provider-splitpolicies/releases/download/v0.1.3/terraform-provider-splitpolicies_0.1.3_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/octoenergy/terraform-provider-splitpolicies/releases/download/v0.1.3/terraform-provider-splitpolicies_0.1.3_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-splitpolicies_0.1.3_windows_arm.zip",
+          "download_url": "https://github.com/octoenergy/terraform-provider-splitpolicies/releases/download/v0.1.3/terraform-provider-splitpolicies_0.1.3_windows_arm.zip",
+          "shasum": "457a04976c9fca5e5671db61dd78aa7efbae1902b32db95f233dc972af82e429"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-splitpolicies_0.1.3_freebsd_386.zip",
+          "download_url": "https://github.com/octoenergy/terraform-provider-splitpolicies/releases/download/v0.1.3/terraform-provider-splitpolicies_0.1.3_freebsd_386.zip",
+          "shasum": "fffc3fdc1435a088c1fbe4eab56cc7bab5a3db257a702d2f95bc3847e555970a"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-splitpolicies_0.1.3_freebsd_arm64.zip",
+          "download_url": "https://github.com/octoenergy/terraform-provider-splitpolicies/releases/download/v0.1.3/terraform-provider-splitpolicies_0.1.3_freebsd_arm64.zip",
+          "shasum": "96b0e87e7526cf0d77a083748e6a2192e24f214ef2c19e842fa4d9c97efdd4ad"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-splitpolicies_0.1.3_windows_arm64.zip",
+          "download_url": "https://github.com/octoenergy/terraform-provider-splitpolicies/releases/download/v0.1.3/terraform-provider-splitpolicies_0.1.3_windows_arm64.zip",
+          "shasum": "90f72aa2b6f55ec228dddf60c54ad78548e29275e31997d2d4f14984610c1b05"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-splitpolicies_0.1.3_linux_386.zip",
+          "download_url": "https://github.com/octoenergy/terraform-provider-splitpolicies/releases/download/v0.1.3/terraform-provider-splitpolicies_0.1.3_linux_386.zip",
+          "shasum": "3cefd16da4fce321bf79868fb21842c99da36bab3c262e78402a9dbca63e2770"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-splitpolicies_0.1.3_freebsd_amd64.zip",
+          "download_url": "https://github.com/octoenergy/terraform-provider-splitpolicies/releases/download/v0.1.3/terraform-provider-splitpolicies_0.1.3_freebsd_amd64.zip",
+          "shasum": "6860aafbdbfce808461750edcb8c6700bd0533ce6e2d143ced8206377432fd59"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-splitpolicies_0.1.3_windows_amd64.zip",
+          "download_url": "https://github.com/octoenergy/terraform-provider-splitpolicies/releases/download/v0.1.3/terraform-provider-splitpolicies_0.1.3_windows_amd64.zip",
+          "shasum": "6261d9fa86282a7768e6fb1bbe1c9ea75ac113847f57d13d11677c78cc857022"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-splitpolicies_0.1.3_linux_arm64.zip",
+          "download_url": "https://github.com/octoenergy/terraform-provider-splitpolicies/releases/download/v0.1.3/terraform-provider-splitpolicies_0.1.3_linux_arm64.zip",
+          "shasum": "fbe0da59c96dbfb707370566d79137c0eec03841f0a9f7de3d3d5113f9c1203e"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-splitpolicies_0.1.3_freebsd_arm.zip",
+          "download_url": "https://github.com/octoenergy/terraform-provider-splitpolicies/releases/download/v0.1.3/terraform-provider-splitpolicies_0.1.3_freebsd_arm.zip",
+          "shasum": "b1632cb7cdfd1ce78aa78ee1ef3c76075c8f364c73ec103394f8d8590e9b73ad"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-splitpolicies_0.1.3_windows_386.zip",
+          "download_url": "https://github.com/octoenergy/terraform-provider-splitpolicies/releases/download/v0.1.3/terraform-provider-splitpolicies_0.1.3_windows_386.zip",
+          "shasum": "6bded5ebb7d51753200f498f0e96ec9ef1f889cac8ce95ec29d182dd124c6dce"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-splitpolicies_0.1.3_linux_arm.zip",
+          "download_url": "https://github.com/octoenergy/terraform-provider-splitpolicies/releases/download/v0.1.3/terraform-provider-splitpolicies_0.1.3_linux_arm.zip",
+          "shasum": "b5bf28396b81e55f2e56dd227ed91c78dacbf2cf3af3461d9628d748e7405be2"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-splitpolicies_0.1.3_darwin_amd64.zip",
+          "download_url": "https://github.com/octoenergy/terraform-provider-splitpolicies/releases/download/v0.1.3/terraform-provider-splitpolicies_0.1.3_darwin_amd64.zip",
+          "shasum": "845021cb3652a0135d42c81098829f53d245de71f90cc989a7e61868c5eb4bef"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-splitpolicies_0.1.3_darwin_arm64.zip",
+          "download_url": "https://github.com/octoenergy/terraform-provider-splitpolicies/releases/download/v0.1.3/terraform-provider-splitpolicies_0.1.3_darwin_arm64.zip",
+          "shasum": "1e6af1ea825df511130362e73e9ad2ed9c6a248a1a600c7244b6a2606a8a3d56"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-splitpolicies_0.1.3_linux_amd64.zip",
+          "download_url": "https://github.com/octoenergy/terraform-provider-splitpolicies/releases/download/v0.1.3/terraform-provider-splitpolicies_0.1.3_linux_amd64.zip",
+          "shasum": "dc0c1a1d2844726bf13c2a361fce74b0baf500ec2f677801c8c531264f64f33f"
+        }
+      ]
+    },
+    {
       "version": "0.1.2",
       "protocols": [
         "5.0"
