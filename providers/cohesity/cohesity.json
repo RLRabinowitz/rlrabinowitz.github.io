@@ -2,6 +2,114 @@
   "repository": "https://github.com/cohesity/terraform-provider-cohesity",
   "versions": [
     {
+      "version": "2.1.1",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/cohesity/terraform-provider-cohesity/releases/download/v2.1.1/terraform-provider-cohesity_2.1.1_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/cohesity/terraform-provider-cohesity/releases/download/v2.1.1/terraform-provider-cohesity_2.1.1_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-cohesity_2.1.1_darwin_amd64.zip",
+          "download_url": "https://github.com/cohesity/terraform-provider-cohesity/releases/download/v2.1.1/terraform-provider-cohesity_2.1.1_darwin_amd64.zip",
+          "shasum": "df7fe7032e1e9213d8f89fcbd264173a1fc143751a8d341cb3f45404ebf6ce94"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-cohesity_2.1.1_freebsd_arm.zip",
+          "download_url": "https://github.com/cohesity/terraform-provider-cohesity/releases/download/v2.1.1/terraform-provider-cohesity_2.1.1_freebsd_arm.zip",
+          "shasum": "73210dd94829a05fe0c415faf9e58b77053e37f72ee9852c1282fe05efa930e5"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-cohesity_2.1.1_windows_386.zip",
+          "download_url": "https://github.com/cohesity/terraform-provider-cohesity/releases/download/v2.1.1/terraform-provider-cohesity_2.1.1_windows_386.zip",
+          "shasum": "4e8d2d96b67cc0b98b136bf9c8302b8ace00c26c7426481577a1f4846a4c7ab2"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-cohesity_2.1.1_freebsd_386.zip",
+          "download_url": "https://github.com/cohesity/terraform-provider-cohesity/releases/download/v2.1.1/terraform-provider-cohesity_2.1.1_freebsd_386.zip",
+          "shasum": "d0416281f273545f1a1a6bc900eb8f065f8c381092aedcbd5eb93d7e27ec12cb"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-cohesity_2.1.1_windows_arm.zip",
+          "download_url": "https://github.com/cohesity/terraform-provider-cohesity/releases/download/v2.1.1/terraform-provider-cohesity_2.1.1_windows_arm.zip",
+          "shasum": "4fcc86760719c6eb3582206c9ff6c5dce4195c33018f51ccb05a15eed6025eda"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-cohesity_2.1.1_windows_arm64.zip",
+          "download_url": "https://github.com/cohesity/terraform-provider-cohesity/releases/download/v2.1.1/terraform-provider-cohesity_2.1.1_windows_arm64.zip",
+          "shasum": "aec8f275edacc42f602c8fc228181816e8eb40a7a3a173de0dc5da2ac9ea9bd3"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-cohesity_2.1.1_linux_arm64.zip",
+          "download_url": "https://github.com/cohesity/terraform-provider-cohesity/releases/download/v2.1.1/terraform-provider-cohesity_2.1.1_linux_arm64.zip",
+          "shasum": "a227a986518cf01c6bf7056d844606e506ac44d236e6a7994a5b70bb8db6cdea"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-cohesity_2.1.1_windows_amd64.zip",
+          "download_url": "https://github.com/cohesity/terraform-provider-cohesity/releases/download/v2.1.1/terraform-provider-cohesity_2.1.1_windows_amd64.zip",
+          "shasum": "2beb921b39b8504c962e0b6a9050bbf0324a8f7195e7921e4e6486ec2a915fe7"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-cohesity_2.1.1_freebsd_arm64.zip",
+          "download_url": "https://github.com/cohesity/terraform-provider-cohesity/releases/download/v2.1.1/terraform-provider-cohesity_2.1.1_freebsd_arm64.zip",
+          "shasum": "e526867bb0627376e96aaa1484144b160a2d46bc197a10731ac97e237e0887ba"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-cohesity_2.1.1_freebsd_amd64.zip",
+          "download_url": "https://github.com/cohesity/terraform-provider-cohesity/releases/download/v2.1.1/terraform-provider-cohesity_2.1.1_freebsd_amd64.zip",
+          "shasum": "65e52f853f24278f5dbeb6b48ee2c1d00dc43b091f19c928327854a054f31dae"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-cohesity_2.1.1_linux_amd64.zip",
+          "download_url": "https://github.com/cohesity/terraform-provider-cohesity/releases/download/v2.1.1/terraform-provider-cohesity_2.1.1_linux_amd64.zip",
+          "shasum": "abe9bf797860c4d5d23c6cdff823711a3f186b1cc3e548606bd9f868eead5018"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-cohesity_2.1.1_linux_arm.zip",
+          "download_url": "https://github.com/cohesity/terraform-provider-cohesity/releases/download/v2.1.1/terraform-provider-cohesity_2.1.1_linux_arm.zip",
+          "shasum": "95db5c002fd25b83a5da5cdb2ab64d64d41d7e4409bef4b2223d9f82e28a9be7"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-cohesity_2.1.1_linux_386.zip",
+          "download_url": "https://github.com/cohesity/terraform-provider-cohesity/releases/download/v2.1.1/terraform-provider-cohesity_2.1.1_linux_386.zip",
+          "shasum": "465978fa7c14cd0454150bd040842aed9f18a93239c23e1a72ce57d286f27f5c"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-cohesity_2.1.1_darwin_arm64.zip",
+          "download_url": "https://github.com/cohesity/terraform-provider-cohesity/releases/download/v2.1.1/terraform-provider-cohesity_2.1.1_darwin_arm64.zip",
+          "shasum": "94014da71c57c9137f17cb0ae9971ec62119963e904e314820e3a6528855dc43"
+        }
+      ]
+    },
+    {
       "version": "2.1.0",
       "protocols": [
         "5.0"
@@ -10,102 +118,102 @@
       "shasums_signature_url": "https://github.com/cohesity/terraform-provider-cohesity/releases/download/v2.1.0/terraform-provider-cohesity_2.1.0_SHA256SUMS.sig",
       "targets": [
         {
-          "os": "linux",
-          "arch": "386",
-          "filename": "terraform-provider-cohesity_2.1.0_linux_386.zip",
-          "download_url": "https://github.com/cohesity/terraform-provider-cohesity/releases/download/v2.1.0/terraform-provider-cohesity_2.1.0_linux_386.zip",
-          "shasum": "8ddfa170abb3de6d8e74e66615f76efa5ac730252f06d3b384283a7f95ae01ed"
-        },
-        {
-          "os": "windows",
-          "arch": "arm",
-          "filename": "terraform-provider-cohesity_2.1.0_windows_arm.zip",
-          "download_url": "https://github.com/cohesity/terraform-provider-cohesity/releases/download/v2.1.0/terraform-provider-cohesity_2.1.0_windows_arm.zip",
-          "shasum": "cf85301cb784fee28cedc7fdbd42faa3615c6ab50ce8225e390ba8ab95b641fd"
-        },
-        {
-          "os": "freebsd",
-          "arch": "386",
-          "filename": "terraform-provider-cohesity_2.1.0_freebsd_386.zip",
-          "download_url": "https://github.com/cohesity/terraform-provider-cohesity/releases/download/v2.1.0/terraform-provider-cohesity_2.1.0_freebsd_386.zip",
-          "shasum": "1eab65faa778a2dc5c408936969523b0c012e3876755da7346f2b5d1958ccf94"
-        },
-        {
-          "os": "windows",
-          "arch": "386",
-          "filename": "terraform-provider-cohesity_2.1.0_windows_386.zip",
-          "download_url": "https://github.com/cohesity/terraform-provider-cohesity/releases/download/v2.1.0/terraform-provider-cohesity_2.1.0_windows_386.zip",
-          "shasum": "fe503c81712f523dab7499b95c0f443e1775b15e702bd9a07edd04988d48e5a2"
-        },
-        {
-          "os": "darwin",
-          "arch": "arm64",
-          "filename": "terraform-provider-cohesity_2.1.0_darwin_arm64.zip",
-          "download_url": "https://github.com/cohesity/terraform-provider-cohesity/releases/download/v2.1.0/terraform-provider-cohesity_2.1.0_darwin_arm64.zip",
-          "shasum": "0cc7ce2a87f6fc2b5fe369cee1c2b2a3b8124f1d4a5cfca69bcbf9379bd6ecc6"
-        },
-        {
-          "os": "darwin",
-          "arch": "amd64",
-          "filename": "terraform-provider-cohesity_2.1.0_darwin_amd64.zip",
-          "download_url": "https://github.com/cohesity/terraform-provider-cohesity/releases/download/v2.1.0/terraform-provider-cohesity_2.1.0_darwin_amd64.zip",
-          "shasum": "6057c89ad9bb8f524574ed981596e1613a9e4316e9978e0bd96e18c10f05018f"
-        },
-        {
-          "os": "windows",
-          "arch": "amd64",
-          "filename": "terraform-provider-cohesity_2.1.0_windows_amd64.zip",
-          "download_url": "https://github.com/cohesity/terraform-provider-cohesity/releases/download/v2.1.0/terraform-provider-cohesity_2.1.0_windows_amd64.zip",
-          "shasum": "ff8102290d0c25e26e4a7da3ecabce06cf8857ac73e53dec53455dd628c693d7"
-        },
-        {
-          "os": "freebsd",
-          "arch": "arm64",
-          "filename": "terraform-provider-cohesity_2.1.0_freebsd_arm64.zip",
-          "download_url": "https://github.com/cohesity/terraform-provider-cohesity/releases/download/v2.1.0/terraform-provider-cohesity_2.1.0_freebsd_arm64.zip",
-          "shasum": "27af1ae9be3d76ff35dd28f2a5eccc18ace79f9dbb18aa1f278557b6a6ac3716"
-        },
-        {
-          "os": "freebsd",
-          "arch": "arm",
-          "filename": "terraform-provider-cohesity_2.1.0_freebsd_arm.zip",
-          "download_url": "https://github.com/cohesity/terraform-provider-cohesity/releases/download/v2.1.0/terraform-provider-cohesity_2.1.0_freebsd_arm.zip",
-          "shasum": "d668a06d3e57f040deb3f66dfddcfbc7dc18c9b2e587b555524ff545a0548962"
-        },
-        {
           "os": "freebsd",
           "arch": "amd64",
           "filename": "terraform-provider-cohesity_2.1.0_freebsd_amd64.zip",
           "download_url": "https://github.com/cohesity/terraform-provider-cohesity/releases/download/v2.1.0/terraform-provider-cohesity_2.1.0_freebsd_amd64.zip",
-          "shasum": "3ef6c41a823a2d6bfcc11d81b45f09fec73038e5d3ee068694d53fd0dbb91f6c"
-        },
-        {
-          "os": "linux",
-          "arch": "arm64",
-          "filename": "terraform-provider-cohesity_2.1.0_linux_arm64.zip",
-          "download_url": "https://github.com/cohesity/terraform-provider-cohesity/releases/download/v2.1.0/terraform-provider-cohesity_2.1.0_linux_arm64.zip",
-          "shasum": "fcacac3c17dcaf77407cca568ebc1e082cde12be82d63e7a9a6dc019caeed1b8"
+          "shasum": "8975a5434fb1aae6c487103116d5afe55f7f7306611914b69caa8cb663fd2645"
         },
         {
           "os": "linux",
           "arch": "amd64",
           "filename": "terraform-provider-cohesity_2.1.0_linux_amd64.zip",
           "download_url": "https://github.com/cohesity/terraform-provider-cohesity/releases/download/v2.1.0/terraform-provider-cohesity_2.1.0_linux_amd64.zip",
-          "shasum": "15e661f2f3b5b9be2398c7fe3b7badc3228bbc5badf94b8618bd90cffd28dc1a"
+          "shasum": "ac208b14859faed2c559b7c5ad9bf8c945e82cd560a84209126f655688322b55"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-cohesity_2.1.0_windows_arm.zip",
+          "download_url": "https://github.com/cohesity/terraform-provider-cohesity/releases/download/v2.1.0/terraform-provider-cohesity_2.1.0_windows_arm.zip",
+          "shasum": "f8b1f61c4fd6e6398255303cd37df4c51e3d3fb5ae9cce8db59c520970aa4759"
         },
         {
           "os": "windows",
           "arch": "arm64",
           "filename": "terraform-provider-cohesity_2.1.0_windows_arm64.zip",
           "download_url": "https://github.com/cohesity/terraform-provider-cohesity/releases/download/v2.1.0/terraform-provider-cohesity_2.1.0_windows_arm64.zip",
-          "shasum": "8ceb1096725d4eba0c5f32ec61d119225e2402ca8f6b147f68e5dafca07c0b78"
+          "shasum": "33f8bbbc18eda08a8b5fbbf9fb837997ccbd73c5ea3a44093a69bcf170557356"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-cohesity_2.1.0_darwin_amd64.zip",
+          "download_url": "https://github.com/cohesity/terraform-provider-cohesity/releases/download/v2.1.0/terraform-provider-cohesity_2.1.0_darwin_amd64.zip",
+          "shasum": "9a79d133010da6a0213bc219e64a29621e745dd8517819228259fb474f10fbeb"
         },
         {
           "os": "linux",
           "arch": "arm",
           "filename": "terraform-provider-cohesity_2.1.0_linux_arm.zip",
           "download_url": "https://github.com/cohesity/terraform-provider-cohesity/releases/download/v2.1.0/terraform-provider-cohesity_2.1.0_linux_arm.zip",
-          "shasum": "8b45ab352333535753d60c9f0b24dd190c3e597824c9229608e4f444b0facde3"
+          "shasum": "82dd1261c0b65ba948467963f36895a76d490b703e60df28095eab87039552c2"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-cohesity_2.1.0_windows_386.zip",
+          "download_url": "https://github.com/cohesity/terraform-provider-cohesity/releases/download/v2.1.0/terraform-provider-cohesity_2.1.0_windows_386.zip",
+          "shasum": "ec6a0d01c5b834554191e91aaf0106064ba53c1ace49de1a4bc609e846925679"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-cohesity_2.1.0_windows_amd64.zip",
+          "download_url": "https://github.com/cohesity/terraform-provider-cohesity/releases/download/v2.1.0/terraform-provider-cohesity_2.1.0_windows_amd64.zip",
+          "shasum": "84ae84ebfc9b54fe7f294280f162b0a967955980234692768d77b95b52e33c4b"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-cohesity_2.1.0_linux_386.zip",
+          "download_url": "https://github.com/cohesity/terraform-provider-cohesity/releases/download/v2.1.0/terraform-provider-cohesity_2.1.0_linux_386.zip",
+          "shasum": "ca2aeb9ad57c64b0f120a7bc2f64cb778445fb4f4a1e938a1c0f744aa40af677"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-cohesity_2.1.0_freebsd_arm.zip",
+          "download_url": "https://github.com/cohesity/terraform-provider-cohesity/releases/download/v2.1.0/terraform-provider-cohesity_2.1.0_freebsd_arm.zip",
+          "shasum": "8ef8d7d59773b32ce5c02b2213130664b5d430e63d7f0da3782fbcd492912d79"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-cohesity_2.1.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/cohesity/terraform-provider-cohesity/releases/download/v2.1.0/terraform-provider-cohesity_2.1.0_freebsd_arm64.zip",
+          "shasum": "3c84f90ebc5e3920faa448c4e18ace8c8ee1f22c64292b696eff87f2dbe320dd"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-cohesity_2.1.0_linux_arm64.zip",
+          "download_url": "https://github.com/cohesity/terraform-provider-cohesity/releases/download/v2.1.0/terraform-provider-cohesity_2.1.0_linux_arm64.zip",
+          "shasum": "9c6c8a5e8c7e704b2e6020c072594b2442c113733740fd068d53728c73fd53c3"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-cohesity_2.1.0_freebsd_386.zip",
+          "download_url": "https://github.com/cohesity/terraform-provider-cohesity/releases/download/v2.1.0/terraform-provider-cohesity_2.1.0_freebsd_386.zip",
+          "shasum": "9f1e63fe98bfa0b9ae89dd5c0df91b511289be236002de303156bcf23df0e813"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-cohesity_2.1.0_darwin_arm64.zip",
+          "download_url": "https://github.com/cohesity/terraform-provider-cohesity/releases/download/v2.1.0/terraform-provider-cohesity_2.1.0_darwin_arm64.zip",
+          "shasum": "37487fe2d9b3132a8b582bbea4c00060cc1fe9561535b143df08e34e7cd60b8a"
         }
       ]
     },
