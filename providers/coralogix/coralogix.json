@@ -2,6 +2,222 @@
   "repository": "https://github.com/coralogix/terraform-provider-coralogix",
   "versions": [
     {
+      "version": "1.18.11",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/coralogix/terraform-provider-coralogix/releases/download/v1.18.11/terraform-provider-coralogix_1.18.11_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/coralogix/terraform-provider-coralogix/releases/download/v1.18.11/terraform-provider-coralogix_1.18.11_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-coralogix_1.18.11_linux_arm64.zip",
+          "download_url": "https://github.com/coralogix/terraform-provider-coralogix/releases/download/v1.18.11/terraform-provider-coralogix_1.18.11_linux_arm64.zip",
+          "shasum": "9b8eb165fc3a4436b4a90a700c25e34ad5ee8b8fa238e425cceb3da3322c0e5f"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-coralogix_1.18.11_windows_386.zip",
+          "download_url": "https://github.com/coralogix/terraform-provider-coralogix/releases/download/v1.18.11/terraform-provider-coralogix_1.18.11_windows_386.zip",
+          "shasum": "a589de55419591c7e76c920ab989b726d66c70e007c82f75846940605287447b"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-coralogix_1.18.11_linux_amd64.zip",
+          "download_url": "https://github.com/coralogix/terraform-provider-coralogix/releases/download/v1.18.11/terraform-provider-coralogix_1.18.11_linux_amd64.zip",
+          "shasum": "cd59cf7ef6c270b180af189233e0cb103d8a785efef7b49f3fce1e4d76c1780c"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-coralogix_1.18.11_freebsd_386.zip",
+          "download_url": "https://github.com/coralogix/terraform-provider-coralogix/releases/download/v1.18.11/terraform-provider-coralogix_1.18.11_freebsd_386.zip",
+          "shasum": "7c2b662ae9c56ee7285528ea6193be2d5356bdf1888df6ef51e3fe55da203f91"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-coralogix_1.18.11_windows_arm.zip",
+          "download_url": "https://github.com/coralogix/terraform-provider-coralogix/releases/download/v1.18.11/terraform-provider-coralogix_1.18.11_windows_arm.zip",
+          "shasum": "c1a66c98e514b35b9a0dcd643ecf68fd9e49c5e11ff2ad9e8b93c9b38330a578"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-coralogix_1.18.11_linux_386.zip",
+          "download_url": "https://github.com/coralogix/terraform-provider-coralogix/releases/download/v1.18.11/terraform-provider-coralogix_1.18.11_linux_386.zip",
+          "shasum": "2ae214cb992aa665d1e4217e60e4ac1030cfd47e7b9b3362bf77ff43af4c43ff"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-coralogix_1.18.11_windows_amd64.zip",
+          "download_url": "https://github.com/coralogix/terraform-provider-coralogix/releases/download/v1.18.11/terraform-provider-coralogix_1.18.11_windows_amd64.zip",
+          "shasum": "011c626176d64a882ed1e2671024ed92b5775e6f8cb24c3bd3313da5b026bcac"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-coralogix_1.18.11_freebsd_arm64.zip",
+          "download_url": "https://github.com/coralogix/terraform-provider-coralogix/releases/download/v1.18.11/terraform-provider-coralogix_1.18.11_freebsd_arm64.zip",
+          "shasum": "474b089598744d1b1cf9d263a7e4f1abfd062a42f9b241275b1b11d1dadff234"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-coralogix_1.18.11_linux_arm.zip",
+          "download_url": "https://github.com/coralogix/terraform-provider-coralogix/releases/download/v1.18.11/terraform-provider-coralogix_1.18.11_linux_arm.zip",
+          "shasum": "7ea0c669fc29101909b1ab8afd9bd0c7a52f46e2fbdb6bf3261ff931bc5928c9"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-coralogix_1.18.11_windows_arm64.zip",
+          "download_url": "https://github.com/coralogix/terraform-provider-coralogix/releases/download/v1.18.11/terraform-provider-coralogix_1.18.11_windows_arm64.zip",
+          "shasum": "97743bd98a177d6d31e331762b38941d04857ff1c3893bd0de3bc03b6730f1e4"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-coralogix_1.18.11_darwin_amd64.zip",
+          "download_url": "https://github.com/coralogix/terraform-provider-coralogix/releases/download/v1.18.11/terraform-provider-coralogix_1.18.11_darwin_amd64.zip",
+          "shasum": "28a51af34c4a7dac5e74117c1925b56abd4df77f3e00ee941f47a28f451c1300"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-coralogix_1.18.11_freebsd_amd64.zip",
+          "download_url": "https://github.com/coralogix/terraform-provider-coralogix/releases/download/v1.18.11/terraform-provider-coralogix_1.18.11_freebsd_amd64.zip",
+          "shasum": "fd476a7cdf6b992f6b1d85a6dcadf77af8495e31bab60db3b28cbf42b34041b8"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-coralogix_1.18.11_darwin_arm64.zip",
+          "download_url": "https://github.com/coralogix/terraform-provider-coralogix/releases/download/v1.18.11/terraform-provider-coralogix_1.18.11_darwin_arm64.zip",
+          "shasum": "b582c9ed3943de7f8837de341bf7e6a3f31cf0063d73559f768f181f2c799c2e"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-coralogix_1.18.11_freebsd_arm.zip",
+          "download_url": "https://github.com/coralogix/terraform-provider-coralogix/releases/download/v1.18.11/terraform-provider-coralogix_1.18.11_freebsd_arm.zip",
+          "shasum": "5c58b6054b4e1d9af67bfa9785433db6855925fe62bf147b35dff91c81779d45"
+        }
+      ]
+    },
+    {
+      "version": "1.18.10",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/coralogix/terraform-provider-coralogix/releases/download/1.18.10/terraform-provider-coralogix_1.18.10_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/coralogix/terraform-provider-coralogix/releases/download/1.18.10/terraform-provider-coralogix_1.18.10_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-coralogix_1.18.10_linux_amd64.zip",
+          "download_url": "https://github.com/coralogix/terraform-provider-coralogix/releases/download/1.18.10/terraform-provider-coralogix_1.18.10_linux_amd64.zip",
+          "shasum": "c3f57d8513d2be1e2b7da5358aa3aaa9f3de01fc4c5e57a7bafdca435c562dcd"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-coralogix_1.18.10_linux_arm64.zip",
+          "download_url": "https://github.com/coralogix/terraform-provider-coralogix/releases/download/1.18.10/terraform-provider-coralogix_1.18.10_linux_arm64.zip",
+          "shasum": "353f84099d8d85fde4f3a397098e4ab1e6449c5f38d58395aff5206c93d571c6"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-coralogix_1.18.10_freebsd_arm64.zip",
+          "download_url": "https://github.com/coralogix/terraform-provider-coralogix/releases/download/1.18.10/terraform-provider-coralogix_1.18.10_freebsd_arm64.zip",
+          "shasum": "b51c06a2fe98177f50025943ca15348651267a1c1e564384ac3895917c3adbec"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-coralogix_1.18.10_freebsd_amd64.zip",
+          "download_url": "https://github.com/coralogix/terraform-provider-coralogix/releases/download/1.18.10/terraform-provider-coralogix_1.18.10_freebsd_amd64.zip",
+          "shasum": "562a871844c32e2835bdae4e9542835bd8bb8bd29370611346a0747d552b9885"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-coralogix_1.18.10_windows_arm.zip",
+          "download_url": "https://github.com/coralogix/terraform-provider-coralogix/releases/download/1.18.10/terraform-provider-coralogix_1.18.10_windows_arm.zip",
+          "shasum": "11e06e6ca116bb8f204d07bd9838078fd97bcefa03d6c35c6b263215688bea91"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-coralogix_1.18.10_freebsd_386.zip",
+          "download_url": "https://github.com/coralogix/terraform-provider-coralogix/releases/download/1.18.10/terraform-provider-coralogix_1.18.10_freebsd_386.zip",
+          "shasum": "e1a54547c4c935aa789f62086142732111ee93eb07363bbd2151cb2c6fbb4e50"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-coralogix_1.18.10_linux_arm.zip",
+          "download_url": "https://github.com/coralogix/terraform-provider-coralogix/releases/download/1.18.10/terraform-provider-coralogix_1.18.10_linux_arm.zip",
+          "shasum": "eb1d09eddd0a8c5bc471503697fb4bf35bb9027d7612211a01f82eeec2f3dbdc"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-coralogix_1.18.10_linux_386.zip",
+          "download_url": "https://github.com/coralogix/terraform-provider-coralogix/releases/download/1.18.10/terraform-provider-coralogix_1.18.10_linux_386.zip",
+          "shasum": "421546b389dc7f3bbe85075be5beb4970f2db8a09340d495856b72f8642d4f6c"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-coralogix_1.18.10_windows_386.zip",
+          "download_url": "https://github.com/coralogix/terraform-provider-coralogix/releases/download/1.18.10/terraform-provider-coralogix_1.18.10_windows_386.zip",
+          "shasum": "b6257a470a35704d3cf57ca2064d254e74b7bc3633edd451fe92611a0f1d52a4"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-coralogix_1.18.10_windows_arm64.zip",
+          "download_url": "https://github.com/coralogix/terraform-provider-coralogix/releases/download/1.18.10/terraform-provider-coralogix_1.18.10_windows_arm64.zip",
+          "shasum": "8ba82610fff2822868b86d2aba3559f8b14abc43d7697aa0f9cdb7a879278859"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-coralogix_1.18.10_darwin_arm64.zip",
+          "download_url": "https://github.com/coralogix/terraform-provider-coralogix/releases/download/1.18.10/terraform-provider-coralogix_1.18.10_darwin_arm64.zip",
+          "shasum": "c0aa794ed71b5bf00d702a101764dad2ead15ed1d53cc689483be36eb1ba82c3"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-coralogix_1.18.10_darwin_amd64.zip",
+          "download_url": "https://github.com/coralogix/terraform-provider-coralogix/releases/download/1.18.10/terraform-provider-coralogix_1.18.10_darwin_amd64.zip",
+          "shasum": "5c7685aef3143d49583a97a66585348d5291f7d4ffeb833767a05ed6b20242b0"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-coralogix_1.18.10_freebsd_arm.zip",
+          "download_url": "https://github.com/coralogix/terraform-provider-coralogix/releases/download/1.18.10/terraform-provider-coralogix_1.18.10_freebsd_arm.zip",
+          "shasum": "08826ddffdb1645d4578b942473bf538ed6a1560427d889b7c2babec5447fc4b"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-coralogix_1.18.10_windows_amd64.zip",
+          "download_url": "https://github.com/coralogix/terraform-provider-coralogix/releases/download/1.18.10/terraform-provider-coralogix_1.18.10_windows_amd64.zip",
+          "shasum": "c8f5cb5c6a18801accfcc72f7b88f6aa28d78d01ee9a19acba5812c5bd9d4d41"
+        }
+      ]
+    },
+    {
       "version": "1.18.9",
       "protocols": [
         "5.0"
