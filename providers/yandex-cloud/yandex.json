@@ -2,6 +2,107 @@
   "repository": "https://github.com/yandex-cloud/terraform-provider-yandex",
   "versions": [
     {
+      "version": "0.131.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/yandex-cloud/terraform-provider-yandex/releases/download/v0.131.0/terraform-provider-yandex_0.131.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/yandex-cloud/terraform-provider-yandex/releases/download/v0.131.0/terraform-provider-yandex_0.131.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-yandex_0.131.0_freebsd_386.zip",
+          "download_url": "https://github.com/yandex-cloud/terraform-provider-yandex/releases/download/v0.131.0/terraform-provider-yandex_0.131.0_freebsd_386.zip",
+          "shasum": "88f4375417b20453982fbf660f2704b9445fad773441d254330d538b9fd2d162"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-yandex_0.131.0_windows_386.zip",
+          "download_url": "https://github.com/yandex-cloud/terraform-provider-yandex/releases/download/v0.131.0/terraform-provider-yandex_0.131.0_windows_386.zip",
+          "shasum": "7510a8438fb0fc3d8ab627ec5d798dd95d4858d3858dc3505a05a3999583e4e4"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-yandex_0.131.0_windows_amd64.zip",
+          "download_url": "https://github.com/yandex-cloud/terraform-provider-yandex/releases/download/v0.131.0/terraform-provider-yandex_0.131.0_windows_amd64.zip",
+          "shasum": "ace59d9ce327ca0e99a6a7cf64c13837edc84ce99a1043d534d3a44942a33c8e"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-yandex_0.131.0_linux_386.zip",
+          "download_url": "https://github.com/yandex-cloud/terraform-provider-yandex/releases/download/v0.131.0/terraform-provider-yandex_0.131.0_linux_386.zip",
+          "shasum": "c4986213ee6b5662843995ac45d0c1ff8cb16e1f17d31376a73473168ad5ff8d"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-yandex_0.131.0_linux_arm64.zip",
+          "download_url": "https://github.com/yandex-cloud/terraform-provider-yandex/releases/download/v0.131.0/terraform-provider-yandex_0.131.0_linux_arm64.zip",
+          "shasum": "c628b342ec3fb3c335abfbfa4a700ba5a8c5a19482674d4e1e858761fec19ca6"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-yandex_0.131.0_linux_arm.zip",
+          "download_url": "https://github.com/yandex-cloud/terraform-provider-yandex/releases/download/v0.131.0/terraform-provider-yandex_0.131.0_linux_arm.zip",
+          "shasum": "fb255f4d04d04cd4983fb76fbfbaa752bac6ad09cd40ead8ed0544cadde52b1e"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-yandex_0.131.0_darwin_amd64.zip",
+          "download_url": "https://github.com/yandex-cloud/terraform-provider-yandex/releases/download/v0.131.0/terraform-provider-yandex_0.131.0_darwin_amd64.zip",
+          "shasum": "2f9cc3f08842904051d6ac6e2b9146a333ea2e6b3533ce645e6f9ac30953f02e"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-yandex_0.131.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/yandex-cloud/terraform-provider-yandex/releases/download/v0.131.0/terraform-provider-yandex_0.131.0_freebsd_arm64.zip",
+          "shasum": "754b5a805cd1b4b1303717e86c6e8348552a2f6fd9bbb33d99a3b486e157deea"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-yandex_0.131.0_darwin_arm64.zip",
+          "download_url": "https://github.com/yandex-cloud/terraform-provider-yandex/releases/download/v0.131.0/terraform-provider-yandex_0.131.0_darwin_arm64.zip",
+          "shasum": "acd1ae3b431a2dbf36dc0310e1f5f17889800dd5086488a29e47c2bda967b7ea"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-yandex_0.131.0_windows_arm.zip",
+          "download_url": "https://github.com/yandex-cloud/terraform-provider-yandex/releases/download/v0.131.0/terraform-provider-yandex_0.131.0_windows_arm.zip",
+          "shasum": "6e978b7521db92dab29551b882a61a42e633eb03719ba75551065023d69f17e3"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-yandex_0.131.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/yandex-cloud/terraform-provider-yandex/releases/download/v0.131.0/terraform-provider-yandex_0.131.0_freebsd_amd64.zip",
+          "shasum": "e93d7e804d4a1ccf67f89f36c24c7b23d09a8ffd1becbd81fcc861d7597983db"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-yandex_0.131.0_linux_amd64.zip",
+          "download_url": "https://github.com/yandex-cloud/terraform-provider-yandex/releases/download/v0.131.0/terraform-provider-yandex_0.131.0_linux_amd64.zip",
+          "shasum": "d9a2ecaca131bdc997338a8dab004ffad544968066e5b7aee215dd74d34ed520"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-yandex_0.131.0_freebsd_arm.zip",
+          "download_url": "https://github.com/yandex-cloud/terraform-provider-yandex/releases/download/v0.131.0/terraform-provider-yandex_0.131.0_freebsd_arm.zip",
+          "shasum": "3200449b32dd9bd1e93091afe40845c84a5148721d377c2035239691ba96250f"
+        }
+      ]
+    },
+    {
       "version": "0.130.0",
       "protocols": [
         "5.0"
