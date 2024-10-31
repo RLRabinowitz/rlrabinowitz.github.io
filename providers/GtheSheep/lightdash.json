@@ -2,6 +2,114 @@
   "repository": "https://github.com/GtheSheep/terraform-provider-lightdash",
   "versions": [
     {
+      "version": "0.0.13",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/GtheSheep/terraform-provider-lightdash/releases/download/v0.0.13/terraform-provider-lightdash_0.0.13_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/GtheSheep/terraform-provider-lightdash/releases/download/v0.0.13/terraform-provider-lightdash_0.0.13_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-lightdash_0.0.13_windows_386.zip",
+          "download_url": "https://github.com/GtheSheep/terraform-provider-lightdash/releases/download/v0.0.13/terraform-provider-lightdash_0.0.13_windows_386.zip",
+          "shasum": "44b7bd5ff3e4a3d5ba10a55c061ae82677c522af4f8621e2544a90c1d796379a"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-lightdash_0.0.13_linux_amd64.zip",
+          "download_url": "https://github.com/GtheSheep/terraform-provider-lightdash/releases/download/v0.0.13/terraform-provider-lightdash_0.0.13_linux_amd64.zip",
+          "shasum": "dfb1d70a0a550f16d159884202ab6eb78184873bd4026a67452a681d596f13da"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-lightdash_0.0.13_linux_386.zip",
+          "download_url": "https://github.com/GtheSheep/terraform-provider-lightdash/releases/download/v0.0.13/terraform-provider-lightdash_0.0.13_linux_386.zip",
+          "shasum": "32f4efa344a3f6c72ba1ad52ce528ababd6af4c0440ef704f0a74fa373360d09"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-lightdash_0.0.13_freebsd_amd64.zip",
+          "download_url": "https://github.com/GtheSheep/terraform-provider-lightdash/releases/download/v0.0.13/terraform-provider-lightdash_0.0.13_freebsd_amd64.zip",
+          "shasum": "a2b3e169a8caddc229bbfa19d1fca56548f0e7ee28e93bc015cb3239e57002e7"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-lightdash_0.0.13_freebsd_386.zip",
+          "download_url": "https://github.com/GtheSheep/terraform-provider-lightdash/releases/download/v0.0.13/terraform-provider-lightdash_0.0.13_freebsd_386.zip",
+          "shasum": "9a682d5e47841382bf7d2e1b9650a2693390134e83f57333e3888a8f4376828c"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-lightdash_0.0.13_windows_arm64.zip",
+          "download_url": "https://github.com/GtheSheep/terraform-provider-lightdash/releases/download/v0.0.13/terraform-provider-lightdash_0.0.13_windows_arm64.zip",
+          "shasum": "8476bb3d9f1f401aa236508c5879debaf4240fea507a35d678b88ca9b657199f"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-lightdash_0.0.13_linux_arm.zip",
+          "download_url": "https://github.com/GtheSheep/terraform-provider-lightdash/releases/download/v0.0.13/terraform-provider-lightdash_0.0.13_linux_arm.zip",
+          "shasum": "9efcd52d9032761af26c9d7d2164135475952867733443007cfda41a739f2192"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-lightdash_0.0.13_darwin_amd64.zip",
+          "download_url": "https://github.com/GtheSheep/terraform-provider-lightdash/releases/download/v0.0.13/terraform-provider-lightdash_0.0.13_darwin_amd64.zip",
+          "shasum": "42276222f6c95b21844a02d45fa7d8630bc4a053317b8f58a991be5c76fe556a"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-lightdash_0.0.13_windows_arm.zip",
+          "download_url": "https://github.com/GtheSheep/terraform-provider-lightdash/releases/download/v0.0.13/terraform-provider-lightdash_0.0.13_windows_arm.zip",
+          "shasum": "a9bfe7af8e8103ebf73c2a120e99bdd37fb9cca63ebd45830b1ec06a0a1d6c2c"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-lightdash_0.0.13_windows_amd64.zip",
+          "download_url": "https://github.com/GtheSheep/terraform-provider-lightdash/releases/download/v0.0.13/terraform-provider-lightdash_0.0.13_windows_amd64.zip",
+          "shasum": "7efecca3fdd25f6f482cfd7370d7e85fe824ff1140c322283a5236836c5e5e86"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-lightdash_0.0.13_linux_arm64.zip",
+          "download_url": "https://github.com/GtheSheep/terraform-provider-lightdash/releases/download/v0.0.13/terraform-provider-lightdash_0.0.13_linux_arm64.zip",
+          "shasum": "9cd40077b685da87a91848fcb805a9054a7089b2b429e352383809022c9cbbf1"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-lightdash_0.0.13_freebsd_arm.zip",
+          "download_url": "https://github.com/GtheSheep/terraform-provider-lightdash/releases/download/v0.0.13/terraform-provider-lightdash_0.0.13_freebsd_arm.zip",
+          "shasum": "1831704cb4734acb8f5d399fea3ae9c0646aa0d14db6f1492ebd516f2a0f4628"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-lightdash_0.0.13_darwin_arm64.zip",
+          "download_url": "https://github.com/GtheSheep/terraform-provider-lightdash/releases/download/v0.0.13/terraform-provider-lightdash_0.0.13_darwin_arm64.zip",
+          "shasum": "ef9e51c269a61e348b72ccf051040f12679622ef808d83cec591a923084162e3"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-lightdash_0.0.13_freebsd_arm64.zip",
+          "download_url": "https://github.com/GtheSheep/terraform-provider-lightdash/releases/download/v0.0.13/terraform-provider-lightdash_0.0.13_freebsd_arm64.zip",
+          "shasum": "bd09f99334d6467b0d5a38c198e1438bb88da18862aa5f0f22c174196a4fd84a"
+        }
+      ]
+    },
+    {
       "version": "0.0.12",
       "protocols": [
         "5.0"
@@ -14,98 +122,98 @@
           "arch": "arm",
           "filename": "terraform-provider-lightdash_0.0.12_linux_arm.zip",
           "download_url": "https://github.com/GtheSheep/terraform-provider-lightdash/releases/download/v0.0.12/terraform-provider-lightdash_0.0.12_linux_arm.zip",
-          "shasum": "0a445bd3d8bba1c386a9a78ae5dc958b0ef2f4f610f2828a5cd42c62a409177a"
-        },
-        {
-          "os": "freebsd",
-          "arch": "amd64",
-          "filename": "terraform-provider-lightdash_0.0.12_freebsd_amd64.zip",
-          "download_url": "https://github.com/GtheSheep/terraform-provider-lightdash/releases/download/v0.0.12/terraform-provider-lightdash_0.0.12_freebsd_amd64.zip",
-          "shasum": "d62eef88ffb202e3c591c973982fc366a0a3bbd617fcd6bfbe64fdcc03a1925c"
-        },
-        {
-          "os": "freebsd",
-          "arch": "arm64",
-          "filename": "terraform-provider-lightdash_0.0.12_freebsd_arm64.zip",
-          "download_url": "https://github.com/GtheSheep/terraform-provider-lightdash/releases/download/v0.0.12/terraform-provider-lightdash_0.0.12_freebsd_arm64.zip",
-          "shasum": "e3ba6ae6a204a59c02042f64df020b642c919d4c48236e464bd3fc7cafbefa18"
-        },
-        {
-          "os": "windows",
-          "arch": "arm",
-          "filename": "terraform-provider-lightdash_0.0.12_windows_arm.zip",
-          "download_url": "https://github.com/GtheSheep/terraform-provider-lightdash/releases/download/v0.0.12/terraform-provider-lightdash_0.0.12_windows_arm.zip",
-          "shasum": "d03b2b755685fbbb6227b4da1a9847ec18c4cc2dbcc36616da0615188cfc0c94"
-        },
-        {
-          "os": "freebsd",
-          "arch": "arm",
-          "filename": "terraform-provider-lightdash_0.0.12_freebsd_arm.zip",
-          "download_url": "https://github.com/GtheSheep/terraform-provider-lightdash/releases/download/v0.0.12/terraform-provider-lightdash_0.0.12_freebsd_arm.zip",
-          "shasum": "00ea00f29836bf8678781142661f9551828c9f9ede145a88f71caf6660ad44ee"
-        },
-        {
-          "os": "darwin",
-          "arch": "arm64",
-          "filename": "terraform-provider-lightdash_0.0.12_darwin_arm64.zip",
-          "download_url": "https://github.com/GtheSheep/terraform-provider-lightdash/releases/download/v0.0.12/terraform-provider-lightdash_0.0.12_darwin_arm64.zip",
-          "shasum": "8bb58bd139bb68808e7b55904180e2fd551ac430ff07db96008dd4a201f033b1"
-        },
-        {
-          "os": "linux",
-          "arch": "amd64",
-          "filename": "terraform-provider-lightdash_0.0.12_linux_amd64.zip",
-          "download_url": "https://github.com/GtheSheep/terraform-provider-lightdash/releases/download/v0.0.12/terraform-provider-lightdash_0.0.12_linux_amd64.zip",
-          "shasum": "955c05567b5991eef403760713dec44774d6d16b1ada07fb76990a0c3f606fda"
+          "shasum": "cd6de9df90691a7d3da91cfbf72ce045e01fce2c086d61e46ec63f1940208bb2"
         },
         {
           "os": "windows",
           "arch": "arm64",
           "filename": "terraform-provider-lightdash_0.0.12_windows_arm64.zip",
           "download_url": "https://github.com/GtheSheep/terraform-provider-lightdash/releases/download/v0.0.12/terraform-provider-lightdash_0.0.12_windows_arm64.zip",
-          "shasum": "7f9d8612e63daf845b63a6f140e233364008eda288987de457a4dab534d9e2f9"
+          "shasum": "c19d60b191fb7ed07fa243a2d94942c3134d30699a62ed18398d5b859172e9b2"
         },
         {
           "os": "freebsd",
-          "arch": "386",
-          "filename": "terraform-provider-lightdash_0.0.12_freebsd_386.zip",
-          "download_url": "https://github.com/GtheSheep/terraform-provider-lightdash/releases/download/v0.0.12/terraform-provider-lightdash_0.0.12_freebsd_386.zip",
-          "shasum": "a0c94acd795eff6f2b5e263faaa081e3eefd1e56085d26bcbd965107e7f1ff4f"
-        },
-        {
-          "os": "windows",
-          "arch": "386",
-          "filename": "terraform-provider-lightdash_0.0.12_windows_386.zip",
-          "download_url": "https://github.com/GtheSheep/terraform-provider-lightdash/releases/download/v0.0.12/terraform-provider-lightdash_0.0.12_windows_386.zip",
-          "shasum": "9af17720777c5187981601ccd7e780751cbdd27424c4f8d8d3082283179137e0"
-        },
-        {
-          "os": "windows",
           "arch": "amd64",
-          "filename": "terraform-provider-lightdash_0.0.12_windows_amd64.zip",
-          "download_url": "https://github.com/GtheSheep/terraform-provider-lightdash/releases/download/v0.0.12/terraform-provider-lightdash_0.0.12_windows_amd64.zip",
-          "shasum": "74e582a2f82078f8781a9d20e40fa0f69038a27a76f7806aec53c5242cdb8826"
-        },
-        {
-          "os": "darwin",
-          "arch": "amd64",
-          "filename": "terraform-provider-lightdash_0.0.12_darwin_amd64.zip",
-          "download_url": "https://github.com/GtheSheep/terraform-provider-lightdash/releases/download/v0.0.12/terraform-provider-lightdash_0.0.12_darwin_amd64.zip",
-          "shasum": "c361b1be06ece9037cca49e1efc9647d0ff084a54bae8ddfe19e45e8d5277da7"
+          "filename": "terraform-provider-lightdash_0.0.12_freebsd_amd64.zip",
+          "download_url": "https://github.com/GtheSheep/terraform-provider-lightdash/releases/download/v0.0.12/terraform-provider-lightdash_0.0.12_freebsd_amd64.zip",
+          "shasum": "138d5c27392aa057cc0db86d13fe848beeaffaf230b1309e31d5cc00284ac975"
         },
         {
           "os": "linux",
           "arch": "386",
           "filename": "terraform-provider-lightdash_0.0.12_linux_386.zip",
           "download_url": "https://github.com/GtheSheep/terraform-provider-lightdash/releases/download/v0.0.12/terraform-provider-lightdash_0.0.12_linux_386.zip",
-          "shasum": "f89fef61f65852e5c07b4ced047a849f3448daf97fc8e001b8eb2d3eb16f1d2c"
+          "shasum": "c4442f36c10004dbfb79b663b393ee3c52b4cbfc743b76bc0d26169ae2862e2e"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-lightdash_0.0.12_windows_386.zip",
+          "download_url": "https://github.com/GtheSheep/terraform-provider-lightdash/releases/download/v0.0.12/terraform-provider-lightdash_0.0.12_windows_386.zip",
+          "shasum": "e69703b0f1a52fdd664add1a9b3ba7023b020c135659f93eefc92421ec439074"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-lightdash_0.0.12_windows_arm.zip",
+          "download_url": "https://github.com/GtheSheep/terraform-provider-lightdash/releases/download/v0.0.12/terraform-provider-lightdash_0.0.12_windows_arm.zip",
+          "shasum": "dcee6a23efcca8e4a2655ecd2130b844ccb5742cece5e5f6d1b52079df8c6c3b"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-lightdash_0.0.12_linux_amd64.zip",
+          "download_url": "https://github.com/GtheSheep/terraform-provider-lightdash/releases/download/v0.0.12/terraform-provider-lightdash_0.0.12_linux_amd64.zip",
+          "shasum": "ae549da941db20d0a47d092efcccddc511ed33b11dab66def76b7045bf4074e7"
         },
         {
           "os": "linux",
           "arch": "arm64",
           "filename": "terraform-provider-lightdash_0.0.12_linux_arm64.zip",
           "download_url": "https://github.com/GtheSheep/terraform-provider-lightdash/releases/download/v0.0.12/terraform-provider-lightdash_0.0.12_linux_arm64.zip",
-          "shasum": "d03a2c02b162bacdbff6bf7280d21527c7c74a2c89c42ac5469e552c8d559b24"
+          "shasum": "6e1f0b473851a8ec175784a26d356ac95df7913b09f397c39d1ac1d80d305eb2"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-lightdash_0.0.12_darwin_arm64.zip",
+          "download_url": "https://github.com/GtheSheep/terraform-provider-lightdash/releases/download/v0.0.12/terraform-provider-lightdash_0.0.12_darwin_arm64.zip",
+          "shasum": "a40fc78fe64b3fbdb55d1786303fd3b109604e0a2626f6185797ed70a0701cef"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-lightdash_0.0.12_freebsd_arm64.zip",
+          "download_url": "https://github.com/GtheSheep/terraform-provider-lightdash/releases/download/v0.0.12/terraform-provider-lightdash_0.0.12_freebsd_arm64.zip",
+          "shasum": "b38c94f90009f8de4b6880528379ed4b4400a68fe4da0e1e9b7bde74b9ff014e"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-lightdash_0.0.12_darwin_amd64.zip",
+          "download_url": "https://github.com/GtheSheep/terraform-provider-lightdash/releases/download/v0.0.12/terraform-provider-lightdash_0.0.12_darwin_amd64.zip",
+          "shasum": "47031aa5526a5c87bc4d1003f97208a088a5ff665c6a32a44a750f8d3c29130e"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-lightdash_0.0.12_freebsd_arm.zip",
+          "download_url": "https://github.com/GtheSheep/terraform-provider-lightdash/releases/download/v0.0.12/terraform-provider-lightdash_0.0.12_freebsd_arm.zip",
+          "shasum": "cecd1290fcee129766ae1ab9970010e095f5a4758c6665282ff848ed37295f35"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-lightdash_0.0.12_freebsd_386.zip",
+          "download_url": "https://github.com/GtheSheep/terraform-provider-lightdash/releases/download/v0.0.12/terraform-provider-lightdash_0.0.12_freebsd_386.zip",
+          "shasum": "dbd1240a99d4524a5a70ffb62229ba35f90448403438d3601df9466b25aef666"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-lightdash_0.0.12_windows_amd64.zip",
+          "download_url": "https://github.com/GtheSheep/terraform-provider-lightdash/releases/download/v0.0.12/terraform-provider-lightdash_0.0.12_windows_amd64.zip",
+          "shasum": "a81fd3108a730fadb330eca62658a5048879e33ee909350936effb0de06cb374"
         }
       ]
     },
