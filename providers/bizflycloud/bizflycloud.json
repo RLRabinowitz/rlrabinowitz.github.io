@@ -2,6 +2,107 @@
   "repository": "https://github.com/bizflycloud/terraform-provider-bizflycloud",
   "versions": [
     {
+      "version": "0.2.1",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/bizflycloud/terraform-provider-bizflycloud/releases/download/v0.2.1/terraform-provider-bizflycloud_0.2.1_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/bizflycloud/terraform-provider-bizflycloud/releases/download/v0.2.1/terraform-provider-bizflycloud_0.2.1_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-bizflycloud_0.2.1_darwin_amd64.zip",
+          "download_url": "https://github.com/bizflycloud/terraform-provider-bizflycloud/releases/download/v0.2.1/terraform-provider-bizflycloud_0.2.1_darwin_amd64.zip",
+          "shasum": "ae1015ef3e014f703599ca3eb3d50a965c8545dbe6e702ed6d6246b668b7e0c1"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-bizflycloud_0.2.1_linux_arm.zip",
+          "download_url": "https://github.com/bizflycloud/terraform-provider-bizflycloud/releases/download/v0.2.1/terraform-provider-bizflycloud_0.2.1_linux_arm.zip",
+          "shasum": "ae5e9d1f7ed4044bf36abf0b10888cc8d16342c3c07f819e90525127572fc488"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-bizflycloud_0.2.1_windows_386.zip",
+          "download_url": "https://github.com/bizflycloud/terraform-provider-bizflycloud/releases/download/v0.2.1/terraform-provider-bizflycloud_0.2.1_windows_386.zip",
+          "shasum": "a7e814469ce7d1c3012d8b642531a0cf3bff2f57378912ac4da0669c26a1c689"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-bizflycloud_0.2.1_freebsd_arm64.zip",
+          "download_url": "https://github.com/bizflycloud/terraform-provider-bizflycloud/releases/download/v0.2.1/terraform-provider-bizflycloud_0.2.1_freebsd_arm64.zip",
+          "shasum": "a3fd7792e5d216deb4e8e13b39f97daf74c7fc0ed2beb9dbaf2d87170352b3ce"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-bizflycloud_0.2.1_windows_amd64.zip",
+          "download_url": "https://github.com/bizflycloud/terraform-provider-bizflycloud/releases/download/v0.2.1/terraform-provider-bizflycloud_0.2.1_windows_amd64.zip",
+          "shasum": "78491307e6db6a9d1ff8cfc1acab240f165d842f795edfcb4195341ad6be2044"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-bizflycloud_0.2.1_linux_arm64.zip",
+          "download_url": "https://github.com/bizflycloud/terraform-provider-bizflycloud/releases/download/v0.2.1/terraform-provider-bizflycloud_0.2.1_linux_arm64.zip",
+          "shasum": "fcf0f370db0a80728f511541f7d0c89604e2bde4f8b487039e860dfa61efe1e3"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-bizflycloud_0.2.1_linux_386.zip",
+          "download_url": "https://github.com/bizflycloud/terraform-provider-bizflycloud/releases/download/v0.2.1/terraform-provider-bizflycloud_0.2.1_linux_386.zip",
+          "shasum": "7a54dc536a0ae36c515280d3be1be51d2980d62d38d8b72146e4734994c35ecb"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-bizflycloud_0.2.1_linux_amd64.zip",
+          "download_url": "https://github.com/bizflycloud/terraform-provider-bizflycloud/releases/download/v0.2.1/terraform-provider-bizflycloud_0.2.1_linux_amd64.zip",
+          "shasum": "11acf3ab705c4354d7645ebbbb18ad06bb339c6f163671b8a51fbd2b3448c4ef"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-bizflycloud_0.2.1_freebsd_arm.zip",
+          "download_url": "https://github.com/bizflycloud/terraform-provider-bizflycloud/releases/download/v0.2.1/terraform-provider-bizflycloud_0.2.1_freebsd_arm.zip",
+          "shasum": "b5675bbf02ebefd32fdc7dbe967f03513684dfee5c9deaf30f8e422e64c8469b"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-bizflycloud_0.2.1_freebsd_386.zip",
+          "download_url": "https://github.com/bizflycloud/terraform-provider-bizflycloud/releases/download/v0.2.1/terraform-provider-bizflycloud_0.2.1_freebsd_386.zip",
+          "shasum": "743508083fe183ce5d8bbfc357be15f31444bd10bccada37478178a9e0aea283"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-bizflycloud_0.2.1_darwin_arm64.zip",
+          "download_url": "https://github.com/bizflycloud/terraform-provider-bizflycloud/releases/download/v0.2.1/terraform-provider-bizflycloud_0.2.1_darwin_arm64.zip",
+          "shasum": "77132b7e678bce30b827c3f74887ef514488b82516dc7d9d44360769205c120f"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-bizflycloud_0.2.1_freebsd_amd64.zip",
+          "download_url": "https://github.com/bizflycloud/terraform-provider-bizflycloud/releases/download/v0.2.1/terraform-provider-bizflycloud_0.2.1_freebsd_amd64.zip",
+          "shasum": "48c163792321fe7a3744394525f42a54e27d333499361408e17f58dfefe9c3e1"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-bizflycloud_0.2.1_windows_arm.zip",
+          "download_url": "https://github.com/bizflycloud/terraform-provider-bizflycloud/releases/download/v0.2.1/terraform-provider-bizflycloud_0.2.1_windows_arm.zip",
+          "shasum": "6286c9f1978a0a6fa86de9d604791b30c4a03ca621b9f9b7adce703a97d7f6aa"
+        }
+      ]
+    },
+    {
       "version": "0.2.0",
       "protocols": [
         "5.0"
