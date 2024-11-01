@@ -2,6 +2,114 @@
   "repository": "https://github.com/QueryDesk/terraform-provider-querydesk",
   "versions": [
     {
+      "version": "1.0.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/devhub-tools/terraform-provider-devhub/releases/download/v1.0.0/terraform-provider-devhub_1.0.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/devhub-tools/terraform-provider-devhub/releases/download/v1.0.0/terraform-provider-devhub_1.0.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-devhub_1.0.0_freebsd_386.zip",
+          "download_url": "https://github.com/devhub-tools/terraform-provider-devhub/releases/download/v1.0.0/terraform-provider-devhub_1.0.0_freebsd_386.zip",
+          "shasum": "d780a0df29ad585154ec6e1879a0ba74251ae9370bf275d2f2158229274e4e98"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-devhub_1.0.0_linux_386.zip",
+          "download_url": "https://github.com/devhub-tools/terraform-provider-devhub/releases/download/v1.0.0/terraform-provider-devhub_1.0.0_linux_386.zip",
+          "shasum": "802d1190bd0a17ea9fd0566896b96d196de62db701c2032b02c3e4624ac975b4"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-devhub_1.0.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/devhub-tools/terraform-provider-devhub/releases/download/v1.0.0/terraform-provider-devhub_1.0.0_freebsd_amd64.zip",
+          "shasum": "fe2099fc8e26a3ce692bc6e0f699abfaae3debbaef417d9c7e98461cf8ee4348"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-devhub_1.0.0_windows_arm.zip",
+          "download_url": "https://github.com/devhub-tools/terraform-provider-devhub/releases/download/v1.0.0/terraform-provider-devhub_1.0.0_windows_arm.zip",
+          "shasum": "f51db9b8671b38197a860cc0f58e7b14e5b3bb079360011036d7e3d2c0f26ff4"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-devhub_1.0.0_windows_386.zip",
+          "download_url": "https://github.com/devhub-tools/terraform-provider-devhub/releases/download/v1.0.0/terraform-provider-devhub_1.0.0_windows_386.zip",
+          "shasum": "e4651cb296929c77bd69c74d8d1c722d51f73132ff192aac6e9f6df08b2f7901"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-devhub_1.0.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/devhub-tools/terraform-provider-devhub/releases/download/v1.0.0/terraform-provider-devhub_1.0.0_freebsd_arm64.zip",
+          "shasum": "5a83ba60dc8b0e27aec9ebfc1150fad2431f981a81ef5663f76e7eb293432788"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-devhub_1.0.0_linux_amd64.zip",
+          "download_url": "https://github.com/devhub-tools/terraform-provider-devhub/releases/download/v1.0.0/terraform-provider-devhub_1.0.0_linux_amd64.zip",
+          "shasum": "59b26ce2b747b795079490d54fe7b599b67a41e0a2a7be25cb8bad321a60840a"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-devhub_1.0.0_darwin_amd64.zip",
+          "download_url": "https://github.com/devhub-tools/terraform-provider-devhub/releases/download/v1.0.0/terraform-provider-devhub_1.0.0_darwin_amd64.zip",
+          "shasum": "6d7a40ba262b9ace2904a1773bad52701e3723a2eac778da1e27e80d895605f5"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-devhub_1.0.0_freebsd_arm.zip",
+          "download_url": "https://github.com/devhub-tools/terraform-provider-devhub/releases/download/v1.0.0/terraform-provider-devhub_1.0.0_freebsd_arm.zip",
+          "shasum": "7663a69eda20b85b9ed51e04d2061712a102bf4dd277f670a6f826367f5f5785"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-devhub_1.0.0_windows_arm64.zip",
+          "download_url": "https://github.com/devhub-tools/terraform-provider-devhub/releases/download/v1.0.0/terraform-provider-devhub_1.0.0_windows_arm64.zip",
+          "shasum": "97bfa472504d501eef30f34cc5d9d864e33032b11548171eec21bcc32ef6b62d"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-devhub_1.0.0_linux_arm.zip",
+          "download_url": "https://github.com/devhub-tools/terraform-provider-devhub/releases/download/v1.0.0/terraform-provider-devhub_1.0.0_linux_arm.zip",
+          "shasum": "847449c284d3227659cbbf477166599cd205c314c2827da93bc7ff72de4711c9"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-devhub_1.0.0_windows_amd64.zip",
+          "download_url": "https://github.com/devhub-tools/terraform-provider-devhub/releases/download/v1.0.0/terraform-provider-devhub_1.0.0_windows_amd64.zip",
+          "shasum": "8b44ec991718278e15d0b9b00a0a290c7e3b3f67eb65ccb511dbadcc456c5b8b"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-devhub_1.0.0_darwin_arm64.zip",
+          "download_url": "https://github.com/devhub-tools/terraform-provider-devhub/releases/download/v1.0.0/terraform-provider-devhub_1.0.0_darwin_arm64.zip",
+          "shasum": "032694e1c98ce38b7c1a80818fadc8bd4fb0d32cd79214fe4747f5ff7adc9b5d"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-devhub_1.0.0_linux_arm64.zip",
+          "download_url": "https://github.com/devhub-tools/terraform-provider-devhub/releases/download/v1.0.0/terraform-provider-devhub_1.0.0_linux_arm64.zip",
+          "shasum": "196743b9b479feb09c964039d43fbb51e9ae05991930091d1632aaf5d654f2bf"
+        }
+      ]
+    },
+    {
       "version": "0.2.0",
       "protocols": [
         "5.0"
