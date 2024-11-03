@@ -2,6 +2,222 @@
   "repository": "https://github.com/aliksend/terraform-provider-dokku",
   "versions": [
     {
+      "version": "1.0.22",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/aliksend/terraform-provider-dokku/releases/download/v1.0.22/terraform-provider-dokku_1.0.22_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/aliksend/terraform-provider-dokku/releases/download/v1.0.22/terraform-provider-dokku_1.0.22_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-dokku_1.0.22_windows_386.zip",
+          "download_url": "https://github.com/aliksend/terraform-provider-dokku/releases/download/v1.0.22/terraform-provider-dokku_1.0.22_windows_386.zip",
+          "shasum": "dac8af3fb4c6524aa1f23b2c0a68397c45108266350b0dae097b84d5970a4e12"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-dokku_1.0.22_freebsd_arm.zip",
+          "download_url": "https://github.com/aliksend/terraform-provider-dokku/releases/download/v1.0.22/terraform-provider-dokku_1.0.22_freebsd_arm.zip",
+          "shasum": "eeba63c6b0d31d4ee37d6e0216cc66ca8d4f97750242bbaf379fe26554e9a89a"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-dokku_1.0.22_windows_arm.zip",
+          "download_url": "https://github.com/aliksend/terraform-provider-dokku/releases/download/v1.0.22/terraform-provider-dokku_1.0.22_windows_arm.zip",
+          "shasum": "6422b5c0ead8f40274491561199d575c2d04a4f293b3a47eeb5062cf66858d4c"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-dokku_1.0.22_freebsd_amd64.zip",
+          "download_url": "https://github.com/aliksend/terraform-provider-dokku/releases/download/v1.0.22/terraform-provider-dokku_1.0.22_freebsd_amd64.zip",
+          "shasum": "7d3a1627ff9c5220977739414d687a1da3f33e6f5b0dfa1432057fd16eb87bcc"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-dokku_1.0.22_windows_arm64.zip",
+          "download_url": "https://github.com/aliksend/terraform-provider-dokku/releases/download/v1.0.22/terraform-provider-dokku_1.0.22_windows_arm64.zip",
+          "shasum": "aabc64a6165e3c39cda9cc168f77fe61a3e863bb594d6cd82a16eb65615b95a5"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-dokku_1.0.22_darwin_arm64.zip",
+          "download_url": "https://github.com/aliksend/terraform-provider-dokku/releases/download/v1.0.22/terraform-provider-dokku_1.0.22_darwin_arm64.zip",
+          "shasum": "06685152e2caf42976d25e924e957dbc8d6a7b9ad80195b525f225ab02de9446"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-dokku_1.0.22_freebsd_386.zip",
+          "download_url": "https://github.com/aliksend/terraform-provider-dokku/releases/download/v1.0.22/terraform-provider-dokku_1.0.22_freebsd_386.zip",
+          "shasum": "5ae961a7a7508d1907ec51546ae5f1f81a7fd264fee360b00dc9de5da5e5ee34"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-dokku_1.0.22_freebsd_arm64.zip",
+          "download_url": "https://github.com/aliksend/terraform-provider-dokku/releases/download/v1.0.22/terraform-provider-dokku_1.0.22_freebsd_arm64.zip",
+          "shasum": "902bec2a7a0d79be195ff66c98a2007436b29679ed609b503ec355588339479c"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-dokku_1.0.22_linux_arm64.zip",
+          "download_url": "https://github.com/aliksend/terraform-provider-dokku/releases/download/v1.0.22/terraform-provider-dokku_1.0.22_linux_arm64.zip",
+          "shasum": "63aa3f1d032691292bcfd6af6680c4595c2d97a3fb1ca9b6e78934d9581c9ba1"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-dokku_1.0.22_linux_386.zip",
+          "download_url": "https://github.com/aliksend/terraform-provider-dokku/releases/download/v1.0.22/terraform-provider-dokku_1.0.22_linux_386.zip",
+          "shasum": "eb7b29e2c6692806c64dc3b5741cb0e32a1f842f3df711f189fb2cb22d0db7b0"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-dokku_1.0.22_linux_amd64.zip",
+          "download_url": "https://github.com/aliksend/terraform-provider-dokku/releases/download/v1.0.22/terraform-provider-dokku_1.0.22_linux_amd64.zip",
+          "shasum": "e9d98e39c37bd26747fc600145f3a96a13c25df3cca1010ade38e5542730d2f0"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-dokku_1.0.22_windows_amd64.zip",
+          "download_url": "https://github.com/aliksend/terraform-provider-dokku/releases/download/v1.0.22/terraform-provider-dokku_1.0.22_windows_amd64.zip",
+          "shasum": "ccef055f3e61dbbb84b8eb5ccf1eb96f675fe3474f3b982593f4069b98f9ed2e"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-dokku_1.0.22_linux_arm.zip",
+          "download_url": "https://github.com/aliksend/terraform-provider-dokku/releases/download/v1.0.22/terraform-provider-dokku_1.0.22_linux_arm.zip",
+          "shasum": "dd0356547319158ef7ea39aeea85a338a154e0ab7fff0459335b4d76b66fe08c"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-dokku_1.0.22_darwin_amd64.zip",
+          "download_url": "https://github.com/aliksend/terraform-provider-dokku/releases/download/v1.0.22/terraform-provider-dokku_1.0.22_darwin_amd64.zip",
+          "shasum": "b01c6a5fc8561b90dd74ea3ae313908e7eb4488c18919f8a48c46a5b9332a34d"
+        }
+      ]
+    },
+    {
+      "version": "1.0.21",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/aliksend/terraform-provider-dokku/releases/download/v1.0.21/terraform-provider-dokku_1.0.21_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/aliksend/terraform-provider-dokku/releases/download/v1.0.21/terraform-provider-dokku_1.0.21_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-dokku_1.0.21_windows_amd64.zip",
+          "download_url": "https://github.com/aliksend/terraform-provider-dokku/releases/download/v1.0.21/terraform-provider-dokku_1.0.21_windows_amd64.zip",
+          "shasum": "f958b7f6130b8ded2f061eee6a48aa5624f16c5bce96599f9908a0f084bbe339"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-dokku_1.0.21_freebsd_amd64.zip",
+          "download_url": "https://github.com/aliksend/terraform-provider-dokku/releases/download/v1.0.21/terraform-provider-dokku_1.0.21_freebsd_amd64.zip",
+          "shasum": "fb4af6e53d1d15b5e70f52dab36e5ad6ad535eba9b7e1adbd4d131ba90fa0a62"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-dokku_1.0.21_linux_arm.zip",
+          "download_url": "https://github.com/aliksend/terraform-provider-dokku/releases/download/v1.0.21/terraform-provider-dokku_1.0.21_linux_arm.zip",
+          "shasum": "5453e2c8963863f7c47fab06bd33a2eb27c41b41e803767fe91ea9eacc999d4a"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-dokku_1.0.21_freebsd_arm.zip",
+          "download_url": "https://github.com/aliksend/terraform-provider-dokku/releases/download/v1.0.21/terraform-provider-dokku_1.0.21_freebsd_arm.zip",
+          "shasum": "0c6039a4108478c640219d205207a7737ee5a2f42e32018f18a9ae86c42bfda5"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-dokku_1.0.21_linux_386.zip",
+          "download_url": "https://github.com/aliksend/terraform-provider-dokku/releases/download/v1.0.21/terraform-provider-dokku_1.0.21_linux_386.zip",
+          "shasum": "f9e7f8806cfb254300f772c5a51a039176681a4c5f48aa967aca5cf5b589c5ab"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-dokku_1.0.21_freebsd_386.zip",
+          "download_url": "https://github.com/aliksend/terraform-provider-dokku/releases/download/v1.0.21/terraform-provider-dokku_1.0.21_freebsd_386.zip",
+          "shasum": "1dff6848be5cdc04d95e507c4d890970edab4b1670f362a275a2687e76b7bfeb"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-dokku_1.0.21_windows_arm64.zip",
+          "download_url": "https://github.com/aliksend/terraform-provider-dokku/releases/download/v1.0.21/terraform-provider-dokku_1.0.21_windows_arm64.zip",
+          "shasum": "931fb849f50460ee88a56c601f28db35e4878685c563976ded5c49ef0347e976"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-dokku_1.0.21_darwin_amd64.zip",
+          "download_url": "https://github.com/aliksend/terraform-provider-dokku/releases/download/v1.0.21/terraform-provider-dokku_1.0.21_darwin_amd64.zip",
+          "shasum": "5c8f679f90c8dbabbf846dc380d02748ec13aabc7c092f4dd06650cb3a858a59"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-dokku_1.0.21_windows_386.zip",
+          "download_url": "https://github.com/aliksend/terraform-provider-dokku/releases/download/v1.0.21/terraform-provider-dokku_1.0.21_windows_386.zip",
+          "shasum": "796f884b128da496b8b6c1c6468616972aff950d20e6477480b7e1fec5b9fac4"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-dokku_1.0.21_linux_arm64.zip",
+          "download_url": "https://github.com/aliksend/terraform-provider-dokku/releases/download/v1.0.21/terraform-provider-dokku_1.0.21_linux_arm64.zip",
+          "shasum": "aa8852b45a48236c65b37b921d132544b55396b87ff6b00ca01e26e6814df0b7"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-dokku_1.0.21_windows_arm.zip",
+          "download_url": "https://github.com/aliksend/terraform-provider-dokku/releases/download/v1.0.21/terraform-provider-dokku_1.0.21_windows_arm.zip",
+          "shasum": "aa0849fb4b71b8ad497dc6470b3374fa869d85dcfb2b0bddf8afc6d0235c5744"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-dokku_1.0.21_darwin_arm64.zip",
+          "download_url": "https://github.com/aliksend/terraform-provider-dokku/releases/download/v1.0.21/terraform-provider-dokku_1.0.21_darwin_arm64.zip",
+          "shasum": "a959274b65a00e56e4a93e9e65bbbecb293b06188d3a1069fd21c2cbfe88888b"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-dokku_1.0.21_freebsd_arm64.zip",
+          "download_url": "https://github.com/aliksend/terraform-provider-dokku/releases/download/v1.0.21/terraform-provider-dokku_1.0.21_freebsd_arm64.zip",
+          "shasum": "37960d78b9bdfa7a7c78e8d2a35b03f5339da35f271ace579e5341b131f00723"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-dokku_1.0.21_linux_amd64.zip",
+          "download_url": "https://github.com/aliksend/terraform-provider-dokku/releases/download/v1.0.21/terraform-provider-dokku_1.0.21_linux_amd64.zip",
+          "shasum": "793ec9a7f8e4fa1c982969bc5da9dabe335f74722f6527daa474a4a54d9a4b8d"
+        }
+      ]
+    },
+    {
       "version": "1.0.20",
       "protocols": [
         "5.0"
