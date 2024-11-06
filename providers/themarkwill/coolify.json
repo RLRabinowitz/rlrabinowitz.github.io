@@ -2,6 +2,222 @@
   "repository": "https://github.com/themarkwill/terraform-provider-coolify",
   "versions": [
     {
+      "version": "4.3.2",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/marconneves/terraform-provider-coolify/releases/download/v4.3.2/terraform-provider-coolify_4.3.2_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/marconneves/terraform-provider-coolify/releases/download/v4.3.2/terraform-provider-coolify_4.3.2_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-coolify_4.3.2_darwin_arm64.zip",
+          "download_url": "https://github.com/marconneves/terraform-provider-coolify/releases/download/v4.3.2/terraform-provider-coolify_4.3.2_darwin_arm64.zip",
+          "shasum": "dcbe2103964da0d1d7d01c5dc3a6158e133e308b8d42ca2786bb1446d95ab55d"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-coolify_4.3.2_linux_arm64.zip",
+          "download_url": "https://github.com/marconneves/terraform-provider-coolify/releases/download/v4.3.2/terraform-provider-coolify_4.3.2_linux_arm64.zip",
+          "shasum": "9f7c9a7d74d01342d878b14332396ddf2e60ce2a449f1ae51dd79483f3f42e8b"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-coolify_4.3.2_windows_arm64.zip",
+          "download_url": "https://github.com/marconneves/terraform-provider-coolify/releases/download/v4.3.2/terraform-provider-coolify_4.3.2_windows_arm64.zip",
+          "shasum": "38371bc70a8b8ecfc92d1d9692ca936190b8c6e48d5acf80941f7edaf28f1564"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-coolify_4.3.2_freebsd_arm.zip",
+          "download_url": "https://github.com/marconneves/terraform-provider-coolify/releases/download/v4.3.2/terraform-provider-coolify_4.3.2_freebsd_arm.zip",
+          "shasum": "8fe63f2d0348c79ac4036d4c13a560c0a73d4cb18fb8344ed040aa3ab7e510b6"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-coolify_4.3.2_freebsd_arm64.zip",
+          "download_url": "https://github.com/marconneves/terraform-provider-coolify/releases/download/v4.3.2/terraform-provider-coolify_4.3.2_freebsd_arm64.zip",
+          "shasum": "f963d829a294fb780d4872f9fa79291745c5be6df04494e0880b2ce607086e35"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-coolify_4.3.2_linux_386.zip",
+          "download_url": "https://github.com/marconneves/terraform-provider-coolify/releases/download/v4.3.2/terraform-provider-coolify_4.3.2_linux_386.zip",
+          "shasum": "cfac2e23beefa7451ee236845b02c5520512cfc8cce5fc5c4208fbf6edb6fcea"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-coolify_4.3.2_darwin_amd64.zip",
+          "download_url": "https://github.com/marconneves/terraform-provider-coolify/releases/download/v4.3.2/terraform-provider-coolify_4.3.2_darwin_amd64.zip",
+          "shasum": "9b43d2baf9e719b2db745158b5263eb7d297fb5579707fdb87e21feff5384615"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-coolify_4.3.2_freebsd_amd64.zip",
+          "download_url": "https://github.com/marconneves/terraform-provider-coolify/releases/download/v4.3.2/terraform-provider-coolify_4.3.2_freebsd_amd64.zip",
+          "shasum": "6dd11777929d678f87b69ab685665804e75f920436f3bdc28f1521364a9994d4"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-coolify_4.3.2_windows_arm.zip",
+          "download_url": "https://github.com/marconneves/terraform-provider-coolify/releases/download/v4.3.2/terraform-provider-coolify_4.3.2_windows_arm.zip",
+          "shasum": "c3165b037fe9df3f3747dec2ee9a75325b74cd1774bc01b6348fd47fffc8ad71"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-coolify_4.3.2_windows_386.zip",
+          "download_url": "https://github.com/marconneves/terraform-provider-coolify/releases/download/v4.3.2/terraform-provider-coolify_4.3.2_windows_386.zip",
+          "shasum": "b41fb5522cbf6d59273a9248c0bef4c0da57d3fae5c41e60c6a2e7502315e601"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-coolify_4.3.2_freebsd_386.zip",
+          "download_url": "https://github.com/marconneves/terraform-provider-coolify/releases/download/v4.3.2/terraform-provider-coolify_4.3.2_freebsd_386.zip",
+          "shasum": "c0401aafe87815de587ae99d9550c25c4e60a2a1eb13faa9da273e88fe13747c"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-coolify_4.3.2_linux_amd64.zip",
+          "download_url": "https://github.com/marconneves/terraform-provider-coolify/releases/download/v4.3.2/terraform-provider-coolify_4.3.2_linux_amd64.zip",
+          "shasum": "1c2f8d17f9998a84d3139b0aec1c92d679acd6f54b8b9f80cd7c8cfada75855e"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-coolify_4.3.2_linux_arm.zip",
+          "download_url": "https://github.com/marconneves/terraform-provider-coolify/releases/download/v4.3.2/terraform-provider-coolify_4.3.2_linux_arm.zip",
+          "shasum": "ea2af643e700ffb648cfed26a462ca3727c787486ef5e9fece24a88d4cff9132"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-coolify_4.3.2_windows_amd64.zip",
+          "download_url": "https://github.com/marconneves/terraform-provider-coolify/releases/download/v4.3.2/terraform-provider-coolify_4.3.2_windows_amd64.zip",
+          "shasum": "e28b966aae138c30350bd1b88ad242cdda498cd959984bfcb8b432fd34ef75fc"
+        }
+      ]
+    },
+    {
+      "version": "4.3.1",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/marconneves/terraform-provider-coolify/releases/download/v4.3.1/terraform-provider-coolify_4.3.1_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/marconneves/terraform-provider-coolify/releases/download/v4.3.1/terraform-provider-coolify_4.3.1_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-coolify_4.3.1_windows_arm.zip",
+          "download_url": "https://github.com/marconneves/terraform-provider-coolify/releases/download/v4.3.1/terraform-provider-coolify_4.3.1_windows_arm.zip",
+          "shasum": "7016aac9d7e91aa1f04156d4122cc94844060e838a3fefb751f32d7fa5d25d22"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-coolify_4.3.1_windows_386.zip",
+          "download_url": "https://github.com/marconneves/terraform-provider-coolify/releases/download/v4.3.1/terraform-provider-coolify_4.3.1_windows_386.zip",
+          "shasum": "259e2ec6d753c94a32e86bdf0d45f9eed6df267c3cf2617eb49da05258e9d7d7"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-coolify_4.3.1_freebsd_amd64.zip",
+          "download_url": "https://github.com/marconneves/terraform-provider-coolify/releases/download/v4.3.1/terraform-provider-coolify_4.3.1_freebsd_amd64.zip",
+          "shasum": "3a1c6975f4a946ab8540f7678125bbfb64d45c81d04be4b6ac09049dab65443c"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-coolify_4.3.1_freebsd_arm64.zip",
+          "download_url": "https://github.com/marconneves/terraform-provider-coolify/releases/download/v4.3.1/terraform-provider-coolify_4.3.1_freebsd_arm64.zip",
+          "shasum": "d1884981df764797b0aac48e04982dadbd12b96ada61db7879e12d7d5fb6ed08"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-coolify_4.3.1_linux_386.zip",
+          "download_url": "https://github.com/marconneves/terraform-provider-coolify/releases/download/v4.3.1/terraform-provider-coolify_4.3.1_linux_386.zip",
+          "shasum": "f39c5aba85f7298d5d4d76f63938ddd38dac1a2f720c3ccce71b304874d23aed"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-coolify_4.3.1_linux_arm64.zip",
+          "download_url": "https://github.com/marconneves/terraform-provider-coolify/releases/download/v4.3.1/terraform-provider-coolify_4.3.1_linux_arm64.zip",
+          "shasum": "9e4894c5ed32165815a902eeb24f94965cb2cf9a1e96e59d1744f2971c7c1043"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-coolify_4.3.1_windows_amd64.zip",
+          "download_url": "https://github.com/marconneves/terraform-provider-coolify/releases/download/v4.3.1/terraform-provider-coolify_4.3.1_windows_amd64.zip",
+          "shasum": "6b787a5774abde0a476ab1d464894db011b40789366729e2b147a9742156f65e"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-coolify_4.3.1_darwin_amd64.zip",
+          "download_url": "https://github.com/marconneves/terraform-provider-coolify/releases/download/v4.3.1/terraform-provider-coolify_4.3.1_darwin_amd64.zip",
+          "shasum": "7027a9233022137994d2a8df6d5860e6573d809db16efa632e4b0d4171c86c62"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-coolify_4.3.1_freebsd_arm.zip",
+          "download_url": "https://github.com/marconneves/terraform-provider-coolify/releases/download/v4.3.1/terraform-provider-coolify_4.3.1_freebsd_arm.zip",
+          "shasum": "fe5f4c876759c0d53e6782bfa053d86adfe5f0ebaf30e8bfbaa8f560725301db"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-coolify_4.3.1_freebsd_386.zip",
+          "download_url": "https://github.com/marconneves/terraform-provider-coolify/releases/download/v4.3.1/terraform-provider-coolify_4.3.1_freebsd_386.zip",
+          "shasum": "a0b5928840a1393a18ebd3d4192667bde855af525cdb60a9810dcda836fa47cc"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-coolify_4.3.1_darwin_arm64.zip",
+          "download_url": "https://github.com/marconneves/terraform-provider-coolify/releases/download/v4.3.1/terraform-provider-coolify_4.3.1_darwin_arm64.zip",
+          "shasum": "c6219cff7e5c583788f1f2301cad92f05637116d0a122cd48df7e13a9b1a19c7"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-coolify_4.3.1_linux_amd64.zip",
+          "download_url": "https://github.com/marconneves/terraform-provider-coolify/releases/download/v4.3.1/terraform-provider-coolify_4.3.1_linux_amd64.zip",
+          "shasum": "f9545337a0464deb13e77e1d1c93805f45d0639db09b4107265e04e1f0cb59dd"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-coolify_4.3.1_windows_arm64.zip",
+          "download_url": "https://github.com/marconneves/terraform-provider-coolify/releases/download/v4.3.1/terraform-provider-coolify_4.3.1_windows_arm64.zip",
+          "shasum": "99975fa115363c45967bad7c64745dc5db5d21c5c68fc57d506abd06cc20fed2"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-coolify_4.3.1_linux_arm.zip",
+          "download_url": "https://github.com/marconneves/terraform-provider-coolify/releases/download/v4.3.1/terraform-provider-coolify_4.3.1_linux_arm.zip",
+          "shasum": "9a7b58a74b8ee58af210cb1256d7fe1897e7bb67565423e5e7e155dc4ad7bc1f"
+        }
+      ]
+    },
+    {
       "version": "4.3.0",
       "protocols": [
         "5.0"
