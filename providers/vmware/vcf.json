@@ -2,6 +2,114 @@
   "repository": "https://github.com/vmware/terraform-provider-vcf",
   "versions": [
     {
+      "version": "0.12.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/vmware/terraform-provider-vcf/releases/download/v0.12.0/terraform-provider-vcf_0.12.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/vmware/terraform-provider-vcf/releases/download/v0.12.0/terraform-provider-vcf_0.12.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-vcf_0.12.0_linux_amd64.zip",
+          "download_url": "https://github.com/vmware/terraform-provider-vcf/releases/download/v0.12.0/terraform-provider-vcf_0.12.0_linux_amd64.zip",
+          "shasum": "49890d4bc5632823b3a4b5c31181b14eccce5aad824b8907efe6809ad7f5c677"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-vcf_0.12.0_freebsd_arm.zip",
+          "download_url": "https://github.com/vmware/terraform-provider-vcf/releases/download/v0.12.0/terraform-provider-vcf_0.12.0_freebsd_arm.zip",
+          "shasum": "301ddf38e4ba94f27828a8a39f783ed86e2ff24e59358df9c5278d988d70e2cb"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-vcf_0.12.0_windows_arm.zip",
+          "download_url": "https://github.com/vmware/terraform-provider-vcf/releases/download/v0.12.0/terraform-provider-vcf_0.12.0_windows_arm.zip",
+          "shasum": "de4ec62009c023667f956724e9b86811504b55e029d422007f004be7c8a79ee7"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-vcf_0.12.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/vmware/terraform-provider-vcf/releases/download/v0.12.0/terraform-provider-vcf_0.12.0_freebsd_arm64.zip",
+          "shasum": "37c2725dc028f968739cb9c12fe8fc4178e711b6e74a31326aa55757c59d7675"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-vcf_0.12.0_freebsd_386.zip",
+          "download_url": "https://github.com/vmware/terraform-provider-vcf/releases/download/v0.12.0/terraform-provider-vcf_0.12.0_freebsd_386.zip",
+          "shasum": "a7d976bb2bc9c2186c1f60ba4ba40e1d8c305da0bcf1cc77d6c39e313d3907de"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-vcf_0.12.0_windows_386.zip",
+          "download_url": "https://github.com/vmware/terraform-provider-vcf/releases/download/v0.12.0/terraform-provider-vcf_0.12.0_windows_386.zip",
+          "shasum": "201c69b8a16c9866d4fbf51429f8fd7c73bcb4350dcdbb7e44ef4c56e950ed34"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-vcf_0.12.0_windows_amd64.zip",
+          "download_url": "https://github.com/vmware/terraform-provider-vcf/releases/download/v0.12.0/terraform-provider-vcf_0.12.0_windows_amd64.zip",
+          "shasum": "4179ba7123ca4070631a3fef9ba2f296ee683644f3dde2dd6e9dad91ec0dce67"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-vcf_0.12.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/vmware/terraform-provider-vcf/releases/download/v0.12.0/terraform-provider-vcf_0.12.0_freebsd_amd64.zip",
+          "shasum": "75a33557f497cd14e875de6bd79edc4847983134cb750581c25f48d46c9502dd"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-vcf_0.12.0_windows_arm64.zip",
+          "download_url": "https://github.com/vmware/terraform-provider-vcf/releases/download/v0.12.0/terraform-provider-vcf_0.12.0_windows_arm64.zip",
+          "shasum": "6b17a5610efe7c537fe29eba2892aabd6498c43ce2b750e8236abdf935700d67"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-vcf_0.12.0_linux_arm.zip",
+          "download_url": "https://github.com/vmware/terraform-provider-vcf/releases/download/v0.12.0/terraform-provider-vcf_0.12.0_linux_arm.zip",
+          "shasum": "55a6299b1be6a15fc2805e5dd8bb2813d8e3498a6441afbe9a511c057d972d9a"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-vcf_0.12.0_linux_arm64.zip",
+          "download_url": "https://github.com/vmware/terraform-provider-vcf/releases/download/v0.12.0/terraform-provider-vcf_0.12.0_linux_arm64.zip",
+          "shasum": "61eb6ca6e611a0788b43d760d9625714c839fe53dbd9e42021a218a554c66122"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-vcf_0.12.0_linux_386.zip",
+          "download_url": "https://github.com/vmware/terraform-provider-vcf/releases/download/v0.12.0/terraform-provider-vcf_0.12.0_linux_386.zip",
+          "shasum": "b5f674b4347abe652243024768727746e39d3b8f37a2e6e66f31a685085b3f44"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-vcf_0.12.0_darwin_amd64.zip",
+          "download_url": "https://github.com/vmware/terraform-provider-vcf/releases/download/v0.12.0/terraform-provider-vcf_0.12.0_darwin_amd64.zip",
+          "shasum": "c33bf4b69c952a4f2256314d11b9da4860a94bca16bcbbadf57f866096e155a5"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-vcf_0.12.0_darwin_arm64.zip",
+          "download_url": "https://github.com/vmware/terraform-provider-vcf/releases/download/v0.12.0/terraform-provider-vcf_0.12.0_darwin_arm64.zip",
+          "shasum": "cc50016d26e981ffbdfaed6f5fc50410f3b939a3bbdff60caf69c44214adf5d5"
+        }
+      ]
+    },
+    {
       "version": "0.11.0",
       "protocols": [
         "5.0"
@@ -10,102 +118,102 @@
       "shasums_signature_url": "https://github.com/vmware/terraform-provider-vcf/releases/download/v0.11.0/terraform-provider-vcf_0.11.0_SHA256SUMS.sig",
       "targets": [
         {
-          "os": "linux",
-          "arch": "arm64",
-          "filename": "terraform-provider-vcf_0.11.0_linux_arm64.zip",
-          "download_url": "https://github.com/vmware/terraform-provider-vcf/releases/download/v0.11.0/terraform-provider-vcf_0.11.0_linux_arm64.zip",
-          "shasum": "9122740c9f2657ef2da93e67bc490a1c591bcfd635f246da959fb593f3f70d1b"
-        },
-        {
-          "os": "freebsd",
-          "arch": "arm64",
-          "filename": "terraform-provider-vcf_0.11.0_freebsd_arm64.zip",
-          "download_url": "https://github.com/vmware/terraform-provider-vcf/releases/download/v0.11.0/terraform-provider-vcf_0.11.0_freebsd_arm64.zip",
-          "shasum": "3f2173fb050b320b4f79599fea9f5338ce84c0bbdef6f3253b73ab62f4ba15f0"
-        },
-        {
-          "os": "darwin",
+          "os": "windows",
           "arch": "amd64",
-          "filename": "terraform-provider-vcf_0.11.0_darwin_amd64.zip",
-          "download_url": "https://github.com/vmware/terraform-provider-vcf/releases/download/v0.11.0/terraform-provider-vcf_0.11.0_darwin_amd64.zip",
-          "shasum": "c187eb730f655160acc70162ef92746cc4c88e62a7ede813119f223b0740d0d0"
-        },
-        {
-          "os": "freebsd",
-          "arch": "arm",
-          "filename": "terraform-provider-vcf_0.11.0_freebsd_arm.zip",
-          "download_url": "https://github.com/vmware/terraform-provider-vcf/releases/download/v0.11.0/terraform-provider-vcf_0.11.0_freebsd_arm.zip",
-          "shasum": "5bdfea55fdbec4aae11db4fefbd604ff23365ce20a2ab967e6c1d9f312446a2e"
+          "filename": "terraform-provider-vcf_0.11.0_windows_amd64.zip",
+          "download_url": "https://github.com/vmware/terraform-provider-vcf/releases/download/v0.11.0/terraform-provider-vcf_0.11.0_windows_amd64.zip",
+          "shasum": "776bce8907f78accc455d37a93272cca3f9a98ac5245e1f8bc2e73b375a7c0ab"
         },
         {
           "os": "windows",
           "arch": "arm",
           "filename": "terraform-provider-vcf_0.11.0_windows_arm.zip",
           "download_url": "https://github.com/vmware/terraform-provider-vcf/releases/download/v0.11.0/terraform-provider-vcf_0.11.0_windows_arm.zip",
-          "shasum": "39c221ef2571bb8145664f3da50086ebb99d3cf5fa691d440899563e2481f30d"
-        },
-        {
-          "os": "darwin",
-          "arch": "arm64",
-          "filename": "terraform-provider-vcf_0.11.0_darwin_arm64.zip",
-          "download_url": "https://github.com/vmware/terraform-provider-vcf/releases/download/v0.11.0/terraform-provider-vcf_0.11.0_darwin_arm64.zip",
-          "shasum": "fe5a4e8eb60a360239b9f3e1ea2ef0e92038370ee2a2dadd7f75596f5dd4d5a0"
-        },
-        {
-          "os": "windows",
-          "arch": "amd64",
-          "filename": "terraform-provider-vcf_0.11.0_windows_amd64.zip",
-          "download_url": "https://github.com/vmware/terraform-provider-vcf/releases/download/v0.11.0/terraform-provider-vcf_0.11.0_windows_amd64.zip",
-          "shasum": "85cad70e9d7961783d3302e1d2942381ce93f956abf67032670c5b505b4a03fd"
-        },
-        {
-          "os": "freebsd",
-          "arch": "amd64",
-          "filename": "terraform-provider-vcf_0.11.0_freebsd_amd64.zip",
-          "download_url": "https://github.com/vmware/terraform-provider-vcf/releases/download/v0.11.0/terraform-provider-vcf_0.11.0_freebsd_amd64.zip",
-          "shasum": "082118416ee73a1c6edadabd9306ffaa55e6b9441bb9d3d40b26a0df39f7c3b2"
-        },
-        {
-          "os": "windows",
-          "arch": "386",
-          "filename": "terraform-provider-vcf_0.11.0_windows_386.zip",
-          "download_url": "https://github.com/vmware/terraform-provider-vcf/releases/download/v0.11.0/terraform-provider-vcf_0.11.0_windows_386.zip",
-          "shasum": "ff7392a13285bb98d5a12e3a298a7b9fadfa5080d43cd175b5541754e49294f5"
-        },
-        {
-          "os": "linux",
-          "arch": "amd64",
-          "filename": "terraform-provider-vcf_0.11.0_linux_amd64.zip",
-          "download_url": "https://github.com/vmware/terraform-provider-vcf/releases/download/v0.11.0/terraform-provider-vcf_0.11.0_linux_amd64.zip",
-          "shasum": "31227f2cc0b957d1de3467c8708e10d7dbf6a91f99131a457150d846a108e612"
+          "shasum": "0b51b8ab3219923b32985b25ac958c892f675be09b6c6f8fe2b33289e44cf305"
         },
         {
           "os": "windows",
           "arch": "arm64",
           "filename": "terraform-provider-vcf_0.11.0_windows_arm64.zip",
           "download_url": "https://github.com/vmware/terraform-provider-vcf/releases/download/v0.11.0/terraform-provider-vcf_0.11.0_windows_arm64.zip",
-          "shasum": "7df5386476542e7415eda5f6a885aea01856d7953053759667429bbe2aa7d36f"
+          "shasum": "9856d7e873ff9a305a666a3578369c8be1f5a5082a39d69c0e5e1210d3d6a13a"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-vcf_0.11.0_windows_386.zip",
+          "download_url": "https://github.com/vmware/terraform-provider-vcf/releases/download/v0.11.0/terraform-provider-vcf_0.11.0_windows_386.zip",
+          "shasum": "1407e18e3c8edee5a750a1cafa37b0c93f4db6693069c233a7583ef3380345c3"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-vcf_0.11.0_linux_amd64.zip",
+          "download_url": "https://github.com/vmware/terraform-provider-vcf/releases/download/v0.11.0/terraform-provider-vcf_0.11.0_linux_amd64.zip",
+          "shasum": "52f3bec83d2f9a8f095f45b1710a629a300f9b9fc2f86f39fa11e5544a6ae79d"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-vcf_0.11.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/vmware/terraform-provider-vcf/releases/download/v0.11.0/terraform-provider-vcf_0.11.0_freebsd_amd64.zip",
+          "shasum": "049fb71f87b1051393d559a80fcb7b5a9bd9aa98defbc2f45a91a8cd0c588e81"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-vcf_0.11.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/vmware/terraform-provider-vcf/releases/download/v0.11.0/terraform-provider-vcf_0.11.0_freebsd_arm64.zip",
+          "shasum": "338b33686364b3299f5eb002d51ed0fca71809df3b2d898330d6d36f18eeac25"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-vcf_0.11.0_darwin_amd64.zip",
+          "download_url": "https://github.com/vmware/terraform-provider-vcf/releases/download/v0.11.0/terraform-provider-vcf_0.11.0_darwin_amd64.zip",
+          "shasum": "7efa9a8719431d9c4a402b81b4d531eb93d39804e7fe1f6e1f06bc596502d5df"
         },
         {
           "os": "linux",
           "arch": "386",
           "filename": "terraform-provider-vcf_0.11.0_linux_386.zip",
           "download_url": "https://github.com/vmware/terraform-provider-vcf/releases/download/v0.11.0/terraform-provider-vcf_0.11.0_linux_386.zip",
-          "shasum": "0c01c334a459c5df046e70deed5f9ade2b713416c5fa9f4b2be0cd8ac9f1df8f"
-        },
-        {
-          "os": "freebsd",
-          "arch": "386",
-          "filename": "terraform-provider-vcf_0.11.0_freebsd_386.zip",
-          "download_url": "https://github.com/vmware/terraform-provider-vcf/releases/download/v0.11.0/terraform-provider-vcf_0.11.0_freebsd_386.zip",
-          "shasum": "0099b046ca1eadfc244bf5635e7ed96692bcb43f6b3a37f7c1795a46edfddf37"
+          "shasum": "db95472974256c33962e5b9eb17fb1b3757f3a64fdcb80e660a4a2f4901cb236"
         },
         {
           "os": "linux",
           "arch": "arm",
           "filename": "terraform-provider-vcf_0.11.0_linux_arm.zip",
           "download_url": "https://github.com/vmware/terraform-provider-vcf/releases/download/v0.11.0/terraform-provider-vcf_0.11.0_linux_arm.zip",
-          "shasum": "6c2a0352aefae3bf4553610b675b6ab76bf8297a0929d09c2b61a0f21fe9965a"
+          "shasum": "eb27f17feae8a51f9f1e0ba1c2c2aada21d24a45f0e7376830b8fa4418b70c74"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-vcf_0.11.0_darwin_arm64.zip",
+          "download_url": "https://github.com/vmware/terraform-provider-vcf/releases/download/v0.11.0/terraform-provider-vcf_0.11.0_darwin_arm64.zip",
+          "shasum": "6ef64f2658d556b7d578143c439ff9be71a5b4ec69e98c614cdcaf4147153c38"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-vcf_0.11.0_linux_arm64.zip",
+          "download_url": "https://github.com/vmware/terraform-provider-vcf/releases/download/v0.11.0/terraform-provider-vcf_0.11.0_linux_arm64.zip",
+          "shasum": "582ac3ea0fd2da2b0a49e017933fac25e003477241726ded1d62931db1dec8b0"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-vcf_0.11.0_freebsd_arm.zip",
+          "download_url": "https://github.com/vmware/terraform-provider-vcf/releases/download/v0.11.0/terraform-provider-vcf_0.11.0_freebsd_arm.zip",
+          "shasum": "ab3fdcd69211fb65fb4a5951a232fdba8df1f46d98dcc14354f66b8cc4c46196"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-vcf_0.11.0_freebsd_386.zip",
+          "download_url": "https://github.com/vmware/terraform-provider-vcf/releases/download/v0.11.0/terraform-provider-vcf_0.11.0_freebsd_386.zip",
+          "shasum": "443b9538891af817ee1497cdbbff5c9465c04f6536edfa0478ee54fb8d113f4d"
         }
       ]
     },
