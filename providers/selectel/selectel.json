@@ -2,6 +2,114 @@
   "repository": "https://github.com/selectel/terraform-provider-selectel",
   "versions": [
     {
+      "version": "6.0.1",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/selectel/terraform-provider-selectel/releases/download/v6.0.1/terraform-provider-selectel_6.0.1_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/selectel/terraform-provider-selectel/releases/download/v6.0.1/terraform-provider-selectel_6.0.1_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-selectel_6.0.1_freebsd_arm64.zip",
+          "download_url": "https://github.com/selectel/terraform-provider-selectel/releases/download/v6.0.1/terraform-provider-selectel_6.0.1_freebsd_arm64.zip",
+          "shasum": "b787a03356b5051b7d6613c582fa1da20b161d19c04044f4e67f868515ce2edf"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-selectel_6.0.1_windows_arm64.zip",
+          "download_url": "https://github.com/selectel/terraform-provider-selectel/releases/download/v6.0.1/terraform-provider-selectel_6.0.1_windows_arm64.zip",
+          "shasum": "6f6520c3ac52f7e544d7f7b54f7cea11096689521c666fcf3ec327217e6f3cb5"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-selectel_6.0.1_freebsd_386.zip",
+          "download_url": "https://github.com/selectel/terraform-provider-selectel/releases/download/v6.0.1/terraform-provider-selectel_6.0.1_freebsd_386.zip",
+          "shasum": "6022d5f7885448032b395e9c65ae99524ba19d12bb4d5b99afe1ef7f2b490fe7"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-selectel_6.0.1_windows_amd64.zip",
+          "download_url": "https://github.com/selectel/terraform-provider-selectel/releases/download/v6.0.1/terraform-provider-selectel_6.0.1_windows_amd64.zip",
+          "shasum": "50fe289e4f49fd75ea2a0a9aa32ea9e307337e37ebae43be1aafe7ca46bd8127"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-selectel_6.0.1_linux_arm.zip",
+          "download_url": "https://github.com/selectel/terraform-provider-selectel/releases/download/v6.0.1/terraform-provider-selectel_6.0.1_linux_arm.zip",
+          "shasum": "bac65e250e1ceb497537b066a95783a50bc7269a2e60cc9f8f0276cafb178362"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-selectel_6.0.1_linux_amd64.zip",
+          "download_url": "https://github.com/selectel/terraform-provider-selectel/releases/download/v6.0.1/terraform-provider-selectel_6.0.1_linux_amd64.zip",
+          "shasum": "415f603af1e067532855bc1665cd6c7a949a0ac7cda0f29b854c4b1856024154"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-selectel_6.0.1_darwin_arm64.zip",
+          "download_url": "https://github.com/selectel/terraform-provider-selectel/releases/download/v6.0.1/terraform-provider-selectel_6.0.1_darwin_arm64.zip",
+          "shasum": "a2c2abb169ad191377c4ddbeca7423dcc236503c463c4a2f11f9e51b810684bf"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-selectel_6.0.1_darwin_amd64.zip",
+          "download_url": "https://github.com/selectel/terraform-provider-selectel/releases/download/v6.0.1/terraform-provider-selectel_6.0.1_darwin_amd64.zip",
+          "shasum": "57418bf8d643d60e6646c6d78d09339e45afeba427df79c11b7b803d55dd296f"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-selectel_6.0.1_freebsd_arm.zip",
+          "download_url": "https://github.com/selectel/terraform-provider-selectel/releases/download/v6.0.1/terraform-provider-selectel_6.0.1_freebsd_arm.zip",
+          "shasum": "acc0399ec6894692578dd1bc4786eb209021398d57bca690a3e8633e7ac75720"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-selectel_6.0.1_linux_386.zip",
+          "download_url": "https://github.com/selectel/terraform-provider-selectel/releases/download/v6.0.1/terraform-provider-selectel_6.0.1_linux_386.zip",
+          "shasum": "f2a06a1f4db89ac139fb122e3ddfff37c809d26c5238a2c62867fd4b5a9302d9"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-selectel_6.0.1_windows_arm.zip",
+          "download_url": "https://github.com/selectel/terraform-provider-selectel/releases/download/v6.0.1/terraform-provider-selectel_6.0.1_windows_arm.zip",
+          "shasum": "483013375744f8fec40b4f3cc027ed679ed8ed044bc9ff4645e88a99951c2d27"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-selectel_6.0.1_linux_arm64.zip",
+          "download_url": "https://github.com/selectel/terraform-provider-selectel/releases/download/v6.0.1/terraform-provider-selectel_6.0.1_linux_arm64.zip",
+          "shasum": "0fd033dda42eaad0d2b25027a0d5da36334437f551aec37a9a4fd7a958b3218c"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-selectel_6.0.1_freebsd_amd64.zip",
+          "download_url": "https://github.com/selectel/terraform-provider-selectel/releases/download/v6.0.1/terraform-provider-selectel_6.0.1_freebsd_amd64.zip",
+          "shasum": "1be98467cc5b7abc273738967c3af5876797c869f55092fe3bf17beca8f7a435"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-selectel_6.0.1_windows_386.zip",
+          "download_url": "https://github.com/selectel/terraform-provider-selectel/releases/download/v6.0.1/terraform-provider-selectel_6.0.1_windows_386.zip",
+          "shasum": "8ef88675816f67d0dd0837012c665367f5e7bbbf3dd10674c602feca263d695f"
+        }
+      ]
+    },
+    {
       "version": "6.0.0",
       "protocols": [
         "5.0"
