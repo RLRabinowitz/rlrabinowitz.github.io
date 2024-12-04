@@ -119,94 +119,101 @@
       "targets": [
         {
           "os": "linux",
-          "arch": "amd64",
-          "filename": "terraform-provider-postgresql_0.0.0-2021-12-03_linux_amd64.zip",
-          "download_url": "https://github.com/Audibene-GMBH/terraform-provider-postgresql/releases/download/v0.0.0-2021-12-03/terraform-provider-postgresql_0.0.0-2021-12-03_linux_amd64.zip",
-          "shasum": "ea477e7578c6899452b4afc087b65b5072635dee0fe6e448ad610fc71ebaef43"
-        },
-        {
-          "os": "linux",
           "arch": "arm",
           "filename": "terraform-provider-postgresql_0.0.0-2021-12-03_linux_arm.zip",
           "download_url": "https://github.com/Audibene-GMBH/terraform-provider-postgresql/releases/download/v0.0.0-2021-12-03/terraform-provider-postgresql_0.0.0-2021-12-03_linux_arm.zip",
-          "shasum": "ed2e3e8fe072e46d76639c6399c8667cce5f50bc9a1655b506d8c776c58e8ca7"
-        },
-        {
-          "os": "windows",
-          "arch": "386",
-          "filename": "terraform-provider-postgresql_0.0.0-2021-12-03_windows_386.zip",
-          "download_url": "https://github.com/Audibene-GMBH/terraform-provider-postgresql/releases/download/v0.0.0-2021-12-03/terraform-provider-postgresql_0.0.0-2021-12-03_windows_386.zip",
-          "shasum": "955185ffeba2a41b23a208f704fe25c8fb0237f5e42b884463c11b6d152f21e0"
-        },
-        {
-          "os": "darwin",
-          "arch": "arm64",
-          "filename": "terraform-provider-postgresql_0.0.0-2021-12-03_darwin_arm64.zip",
-          "download_url": "https://github.com/Audibene-GMBH/terraform-provider-postgresql/releases/download/v0.0.0-2021-12-03/terraform-provider-postgresql_0.0.0-2021-12-03_darwin_arm64.zip",
-          "shasum": "0213942f1d044f903d9dd245c7a394f8f3aff524d90c3bb2aaa8976993091bbf"
-        },
-        {
-          "os": "freebsd",
-          "arch": "amd64",
-          "filename": "terraform-provider-postgresql_0.0.0-2021-12-03_freebsd_amd64.zip",
-          "download_url": "https://github.com/Audibene-GMBH/terraform-provider-postgresql/releases/download/v0.0.0-2021-12-03/terraform-provider-postgresql_0.0.0-2021-12-03_freebsd_amd64.zip",
-          "shasum": "d1a41165ffaff51ff5a1d11c3c18a2b32d16da72c75a172e264deb87e0242752"
-        },
-        {
-          "os": "linux",
-          "arch": "386",
-          "filename": "terraform-provider-postgresql_0.0.0-2021-12-03_linux_386.zip",
-          "download_url": "https://github.com/Audibene-GMBH/terraform-provider-postgresql/releases/download/v0.0.0-2021-12-03/terraform-provider-postgresql_0.0.0-2021-12-03_linux_386.zip",
-          "shasum": "972be6ed86c56c859d6b0f53d3e3083d342a3a260cbace18cab96325718da4ca"
-        },
-        {
-          "os": "windows",
-          "arch": "arm",
-          "filename": "terraform-provider-postgresql_0.0.0-2021-12-03_windows_arm.zip",
-          "download_url": "https://github.com/Audibene-GMBH/terraform-provider-postgresql/releases/download/v0.0.0-2021-12-03/terraform-provider-postgresql_0.0.0-2021-12-03_windows_arm.zip",
-          "shasum": "255a21d9ef60c7b13cc52dd8e66b84f8d1703774c4a987b91cccc3f10ee04dc8"
-        },
-        {
-          "os": "linux",
-          "arch": "arm64",
-          "filename": "terraform-provider-postgresql_0.0.0-2021-12-03_linux_arm64.zip",
-          "download_url": "https://github.com/Audibene-GMBH/terraform-provider-postgresql/releases/download/v0.0.0-2021-12-03/terraform-provider-postgresql_0.0.0-2021-12-03_linux_arm64.zip",
-          "shasum": "41378e1d300219139161ec0eb48a2274e312acdac8ba9e4d84d3510ffa587c1e"
-        },
-        {
-          "os": "darwin",
-          "arch": "amd64",
-          "filename": "terraform-provider-postgresql_0.0.0-2021-12-03_darwin_amd64.zip",
-          "download_url": "https://github.com/Audibene-GMBH/terraform-provider-postgresql/releases/download/v0.0.0-2021-12-03/terraform-provider-postgresql_0.0.0-2021-12-03_darwin_amd64.zip",
-          "shasum": "dfaadf91232148f22832ab0e186e7216490033fcbeb8dc2d9bcee54039376092"
-        },
-        {
-          "os": "freebsd",
-          "arch": "386",
-          "filename": "terraform-provider-postgresql_0.0.0-2021-12-03_freebsd_386.zip",
-          "download_url": "https://github.com/Audibene-GMBH/terraform-provider-postgresql/releases/download/v0.0.0-2021-12-03/terraform-provider-postgresql_0.0.0-2021-12-03_freebsd_386.zip",
-          "shasum": "0688690e594e36832f4915eb61f91e04eab6af6d8f5dca85f14fcf8b115f49ce"
+          "shasum": "f0cad852c11f2a0199d6e4283a322ba0d24a9e2bffb6e3f5dc0d022a890aa248"
         },
         {
           "os": "freebsd",
           "arch": "arm",
           "filename": "terraform-provider-postgresql_0.0.0-2021-12-03_freebsd_arm.zip",
           "download_url": "https://github.com/Audibene-GMBH/terraform-provider-postgresql/releases/download/v0.0.0-2021-12-03/terraform-provider-postgresql_0.0.0-2021-12-03_freebsd_arm.zip",
-          "shasum": "b8bff3ada861b2902dc22df02f908ef1010efddcea74c8d416430235fb66d495"
+          "shasum": "35a4c7f1b09c2057c3b1eb790916dd8bfe5963e093084784be37a29e29886eb2"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-postgresql_0.0.0-2021-12-03_darwin_arm64.zip",
+          "download_url": "https://github.com/Audibene-GMBH/terraform-provider-postgresql/releases/download/v0.0.0-2021-12-03/terraform-provider-postgresql_0.0.0-2021-12-03_darwin_arm64.zip",
+          "shasum": "2727c51a9505def591bad652aca59df230e013b3a63a195ed3e5d1bdcbc0b309"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-postgresql_0.0.0-2021-12-03_linux_amd64.zip",
+          "download_url": "https://github.com/Audibene-GMBH/terraform-provider-postgresql/releases/download/v0.0.0-2021-12-03/terraform-provider-postgresql_0.0.0-2021-12-03_linux_amd64.zip",
+          "shasum": "5d0decc55331b3d3de30fc81dc4162b6b6e7c579c8838cad29c42e1d5f4cf53b"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-postgresql_0.0.0-2021-12-03_darwin_amd64.zip",
+          "download_url": "https://github.com/Audibene-GMBH/terraform-provider-postgresql/releases/download/v0.0.0-2021-12-03/terraform-provider-postgresql_0.0.0-2021-12-03_darwin_amd64.zip",
+          "shasum": "3267fe790878e91f2032f5f505e6dcd5f6615bdaaeb1da4cb3e532731e9b79ce"
         },
         {
           "os": "windows",
-          "arch": "amd64",
-          "filename": "terraform-provider-postgresql_0.0.0-2021-12-03_windows_amd64.zip",
-          "download_url": "https://github.com/Audibene-GMBH/terraform-provider-postgresql/releases/download/v0.0.0-2021-12-03/terraform-provider-postgresql_0.0.0-2021-12-03_windows_amd64.zip",
-          "shasum": "0d9f376f76620353df9825ee085568e45f8b439181cf5da0047279632ba7bfab"
+          "arch": "386",
+          "filename": "terraform-provider-postgresql_0.0.0-2021-12-03_windows_386.zip",
+          "download_url": "https://github.com/Audibene-GMBH/terraform-provider-postgresql/releases/download/v0.0.0-2021-12-03/terraform-provider-postgresql_0.0.0-2021-12-03_windows_386.zip",
+          "shasum": "e6e1eb5e34b4e0fc747b786901427e01643c9c4c7090b59c6a2a6278cbc5f39f"
         },
         {
           "os": "freebsd",
           "arch": "arm64",
           "filename": "terraform-provider-postgresql_0.0.0-2021-12-03_freebsd_arm64.zip",
           "download_url": "https://github.com/Audibene-GMBH/terraform-provider-postgresql/releases/download/v0.0.0-2021-12-03/terraform-provider-postgresql_0.0.0-2021-12-03_freebsd_arm64.zip",
-          "shasum": "138c3d7c19cfb014603d4fed91310747105eefb0cb4cf157e866cf058a951970"
+          "shasum": "c0d93317d75d69d90e5f7c4ee517b765104fa77dcabfbd5bc3923ccc739303f5"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-postgresql_0.0.0-2021-12-03_freebsd_amd64.zip",
+          "download_url": "https://github.com/Audibene-GMBH/terraform-provider-postgresql/releases/download/v0.0.0-2021-12-03/terraform-provider-postgresql_0.0.0-2021-12-03_freebsd_amd64.zip",
+          "shasum": "683bb8c2ad7b4ac34b1599550befdc48cf58043e652f80963a2e0bd2913e46e0"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-postgresql_0.0.0-2021-12-03_linux_386.zip",
+          "download_url": "https://github.com/Audibene-GMBH/terraform-provider-postgresql/releases/download/v0.0.0-2021-12-03/terraform-provider-postgresql_0.0.0-2021-12-03_linux_386.zip",
+          "shasum": "2de4ed51add0a42537409ab28c3fdbf03c7df1521bc31153ec5f2d7b470ec1e9"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-postgresql_0.0.0-2021-12-03_windows_arm64.zip",
+          "download_url": "https://github.com/Audibene-GMBH/terraform-provider-postgresql/releases/download/v0.0.0-2021-12-03/terraform-provider-postgresql_0.0.0-2021-12-03_windows_arm64.zip",
+          "shasum": "02b471431f27d5f76b07df5a0b62c7368c19ae9f79daa703c98490f47b756d3e"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-postgresql_0.0.0-2021-12-03_windows_arm.zip",
+          "download_url": "https://github.com/Audibene-GMBH/terraform-provider-postgresql/releases/download/v0.0.0-2021-12-03/terraform-provider-postgresql_0.0.0-2021-12-03_windows_arm.zip",
+          "shasum": "2a462b5c166737b7d89a06d30b77d768c7dcce921bc229a03bcebfb9419b06ff"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-postgresql_0.0.0-2021-12-03_freebsd_386.zip",
+          "download_url": "https://github.com/Audibene-GMBH/terraform-provider-postgresql/releases/download/v0.0.0-2021-12-03/terraform-provider-postgresql_0.0.0-2021-12-03_freebsd_386.zip",
+          "shasum": "9ef2defeee09afe7a52f93ce45aeeb06f4a5ce7935becd41ed83be6ac1715538"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-postgresql_0.0.0-2021-12-03_windows_amd64.zip",
+          "download_url": "https://github.com/Audibene-GMBH/terraform-provider-postgresql/releases/download/v0.0.0-2021-12-03/terraform-provider-postgresql_0.0.0-2021-12-03_windows_amd64.zip",
+          "shasum": "b7ebdcda48d52f812f6dc25d45303ff48bdd25b0a5893a12fb44e6fa811d594b"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-postgresql_0.0.0-2021-12-03_linux_arm64.zip",
+          "download_url": "https://github.com/Audibene-GMBH/terraform-provider-postgresql/releases/download/v0.0.0-2021-12-03/terraform-provider-postgresql_0.0.0-2021-12-03_linux_arm64.zip",
+          "shasum": "5d31f01185bc2350c97c5f97434b0b8e6be2adb6899fcacf810b531432724ab9"
         }
       ]
     },
