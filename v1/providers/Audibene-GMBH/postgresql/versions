@@ -72,18 +72,30 @@
       "platforms": [
         {
           "os": "linux",
-          "arch": "amd64"
+          "arch": "arm"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64"
         },
         {
           "os": "linux",
-          "arch": "arm"
+          "arch": "amd64"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64"
         },
         {
           "os": "windows",
           "arch": "386"
         },
         {
-          "os": "darwin",
+          "os": "freebsd",
           "arch": "arm64"
         },
         {
@@ -96,30 +108,22 @@
         },
         {
           "os": "windows",
-          "arch": "arm"
-        },
-        {
-          "os": "linux",
           "arch": "arm64"
         },
         {
-          "os": "darwin",
-          "arch": "amd64"
+          "os": "windows",
+          "arch": "arm"
         },
         {
           "os": "freebsd",
           "arch": "386"
         },
         {
-          "os": "freebsd",
-          "arch": "arm"
-        },
-        {
           "os": "windows",
           "arch": "amd64"
         },
         {
-          "os": "freebsd",
+          "os": "linux",
           "arch": "arm64"
         }
       ]
