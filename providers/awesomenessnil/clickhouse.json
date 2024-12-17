@@ -2,6 +2,114 @@
   "repository": "https://github.com/awesomenessnil/terraform-provider-clickhouse",
   "versions": [
     {
+      "version": "0.2.5",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/katzucurry/terraform-provider-clickhouseops/releases/download/v0.2.5/terraform-provider-clickhouseops_0.2.5_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/katzucurry/terraform-provider-clickhouseops/releases/download/v0.2.5/terraform-provider-clickhouseops_0.2.5_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-clickhouseops_0.2.5_windows_amd64.zip",
+          "download_url": "https://github.com/katzucurry/terraform-provider-clickhouseops/releases/download/v0.2.5/terraform-provider-clickhouseops_0.2.5_windows_amd64.zip",
+          "shasum": "2aae7e910de965b32bc789005f4c4dadbb4d6de11cd02747660643ab303a5379"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-clickhouseops_0.2.5_linux_arm64.zip",
+          "download_url": "https://github.com/katzucurry/terraform-provider-clickhouseops/releases/download/v0.2.5/terraform-provider-clickhouseops_0.2.5_linux_arm64.zip",
+          "shasum": "9a81ca6f811e63ff6f79a9666e085a46609b7d8ed1f43745094f6d9e45df1122"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-clickhouseops_0.2.5_freebsd_arm64.zip",
+          "download_url": "https://github.com/katzucurry/terraform-provider-clickhouseops/releases/download/v0.2.5/terraform-provider-clickhouseops_0.2.5_freebsd_arm64.zip",
+          "shasum": "e507e7849ce18ca468b11090698d82b0cbe5e31a7f1aac8efb8d002ebe6e3431"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-clickhouseops_0.2.5_darwin_amd64.zip",
+          "download_url": "https://github.com/katzucurry/terraform-provider-clickhouseops/releases/download/v0.2.5/terraform-provider-clickhouseops_0.2.5_darwin_amd64.zip",
+          "shasum": "029dd0a3b3b367e1713d7bb81992404946a55350e7559c1426d8f8609d9f7545"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-clickhouseops_0.2.5_windows_386.zip",
+          "download_url": "https://github.com/katzucurry/terraform-provider-clickhouseops/releases/download/v0.2.5/terraform-provider-clickhouseops_0.2.5_windows_386.zip",
+          "shasum": "9244faa6b38993d9cf589023bc715477d4d33dfb879a413e1d5bd90405185ebe"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-clickhouseops_0.2.5_linux_arm.zip",
+          "download_url": "https://github.com/katzucurry/terraform-provider-clickhouseops/releases/download/v0.2.5/terraform-provider-clickhouseops_0.2.5_linux_arm.zip",
+          "shasum": "1b467f43bb4284d16cf3fe5f89265bcabca72f00aeb9d58faa877a151dcc086d"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-clickhouseops_0.2.5_windows_arm.zip",
+          "download_url": "https://github.com/katzucurry/terraform-provider-clickhouseops/releases/download/v0.2.5/terraform-provider-clickhouseops_0.2.5_windows_arm.zip",
+          "shasum": "0054c5c4ce7322e30f4e6f2a941abdec3afbc597ec0e636ff73588cc66f561a9"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-clickhouseops_0.2.5_freebsd_amd64.zip",
+          "download_url": "https://github.com/katzucurry/terraform-provider-clickhouseops/releases/download/v0.2.5/terraform-provider-clickhouseops_0.2.5_freebsd_amd64.zip",
+          "shasum": "e3c6be3dd87000796847d75ad5549c17dca8751c8fc98272de1a38bdd779b1dd"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-clickhouseops_0.2.5_freebsd_386.zip",
+          "download_url": "https://github.com/katzucurry/terraform-provider-clickhouseops/releases/download/v0.2.5/terraform-provider-clickhouseops_0.2.5_freebsd_386.zip",
+          "shasum": "d2aeb950beb835b723f603ffe49809808f7945eed72ffd48400e99892bdb7c47"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-clickhouseops_0.2.5_windows_arm64.zip",
+          "download_url": "https://github.com/katzucurry/terraform-provider-clickhouseops/releases/download/v0.2.5/terraform-provider-clickhouseops_0.2.5_windows_arm64.zip",
+          "shasum": "2c18931cb05892d167afc1fb7ba1c3788624406264e5b0951d966717904d45f0"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-clickhouseops_0.2.5_linux_amd64.zip",
+          "download_url": "https://github.com/katzucurry/terraform-provider-clickhouseops/releases/download/v0.2.5/terraform-provider-clickhouseops_0.2.5_linux_amd64.zip",
+          "shasum": "9b70e300582614873d36f5e8e4c83ec353a0bee630fb23a0e1ebf515ca936c9a"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-clickhouseops_0.2.5_linux_386.zip",
+          "download_url": "https://github.com/katzucurry/terraform-provider-clickhouseops/releases/download/v0.2.5/terraform-provider-clickhouseops_0.2.5_linux_386.zip",
+          "shasum": "750dc5ee8a262abea7c009ca1db76f7bde2197cd45187dd954777ec715edb1ee"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-clickhouseops_0.2.5_freebsd_arm.zip",
+          "download_url": "https://github.com/katzucurry/terraform-provider-clickhouseops/releases/download/v0.2.5/terraform-provider-clickhouseops_0.2.5_freebsd_arm.zip",
+          "shasum": "d022c54beb6317f0abe34dbae8bfb191c9129ff20235b86634c4b13e9ef4b44f"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-clickhouseops_0.2.5_darwin_arm64.zip",
+          "download_url": "https://github.com/katzucurry/terraform-provider-clickhouseops/releases/download/v0.2.5/terraform-provider-clickhouseops_0.2.5_darwin_arm64.zip",
+          "shasum": "f00a81300cd1fede2889fea40f89e7a5008cffe47a1d016aec37dfbdaf905bef"
+        }
+      ]
+    },
+    {
       "version": "0.2.4",
       "protocols": [
         "5.0"
