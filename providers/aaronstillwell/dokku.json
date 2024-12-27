@@ -2,6 +2,194 @@
   "repository": "https://github.com/aaronstillwell/terraform-provider-dokku",
   "versions": [
     {
+      "version": "0.5.1",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/aaronstillwell/terraform-provider-dokku/releases/download/v0.5.1/terraform-provider-dokku_0.5.1_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/aaronstillwell/terraform-provider-dokku/releases/download/v0.5.1/terraform-provider-dokku_0.5.1_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-dokku_0.5.1_darwin_amd64.zip",
+          "download_url": "https://github.com/aaronstillwell/terraform-provider-dokku/releases/download/v0.5.1/terraform-provider-dokku_0.5.1_darwin_amd64.zip",
+          "shasum": "59d0258857b278575b27733bf77342d869bfce4f0301e6a4ef2c6ebcc79ba240"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-dokku_0.5.1_freebsd_amd64.zip",
+          "download_url": "https://github.com/aaronstillwell/terraform-provider-dokku/releases/download/v0.5.1/terraform-provider-dokku_0.5.1_freebsd_amd64.zip",
+          "shasum": "7277c216a638e093c1a9471731461d7e16a55a28ed887ca0fd336185dc2b98e3"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-dokku_0.5.1_freebsd_386.zip",
+          "download_url": "https://github.com/aaronstillwell/terraform-provider-dokku/releases/download/v0.5.1/terraform-provider-dokku_0.5.1_freebsd_386.zip",
+          "shasum": "6e648e9bc1779d799481eab9b3ca083bf2b5d955a32054202c0d63b69801221c"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-dokku_0.5.1_linux_arm64.zip",
+          "download_url": "https://github.com/aaronstillwell/terraform-provider-dokku/releases/download/v0.5.1/terraform-provider-dokku_0.5.1_linux_arm64.zip",
+          "shasum": "70c53b29095aa6dafe547272e524a738f8c5e2ffb9dc2db9704f6da54607f88d"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-dokku_0.5.1_linux_arm.zip",
+          "download_url": "https://github.com/aaronstillwell/terraform-provider-dokku/releases/download/v0.5.1/terraform-provider-dokku_0.5.1_linux_arm.zip",
+          "shasum": "75ceb65222c1514e4f0561eb2d6bf571c6c2a0ee91648fc1ab0fb5dd8c580630"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-dokku_0.5.1_windows_arm.zip",
+          "download_url": "https://github.com/aaronstillwell/terraform-provider-dokku/releases/download/v0.5.1/terraform-provider-dokku_0.5.1_windows_arm.zip",
+          "shasum": "5114ee02028790d8e4997621eeaf401024339a00c6777c768e0df4dc0d06b6f8"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-dokku_0.5.1_windows_386.zip",
+          "download_url": "https://github.com/aaronstillwell/terraform-provider-dokku/releases/download/v0.5.1/terraform-provider-dokku_0.5.1_windows_386.zip",
+          "shasum": "639184b0c7a9b87e119bd2e65d307b707ff004c37753f1b536b1d7c5bfd85f9d"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-dokku_0.5.1_linux_amd64.zip",
+          "download_url": "https://github.com/aaronstillwell/terraform-provider-dokku/releases/download/v0.5.1/terraform-provider-dokku_0.5.1_linux_amd64.zip",
+          "shasum": "870f5eb5779521069f66f01502d3eb0d75ef101b0aadabb8f3147781d4848b5c"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-dokku_0.5.1_freebsd_arm64.zip",
+          "download_url": "https://github.com/aaronstillwell/terraform-provider-dokku/releases/download/v0.5.1/terraform-provider-dokku_0.5.1_freebsd_arm64.zip",
+          "shasum": "6a6df8f0c89cafeed64d13eea3c5237e4049ce6cd530c88267dcc6e8766307e7"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-dokku_0.5.1_linux_386.zip",
+          "download_url": "https://github.com/aaronstillwell/terraform-provider-dokku/releases/download/v0.5.1/terraform-provider-dokku_0.5.1_linux_386.zip",
+          "shasum": "e397c2fe75562361651e765715bcaf25b62a88563ee7568db3c3606fdebdb979"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-dokku_0.5.1_freebsd_arm.zip",
+          "download_url": "https://github.com/aaronstillwell/terraform-provider-dokku/releases/download/v0.5.1/terraform-provider-dokku_0.5.1_freebsd_arm.zip",
+          "shasum": "5ee6d0adad1eeabfafb4e21c06a8f9299178f3bfae6b22088cdf94c7f2fbe02a"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-dokku_0.5.1_windows_amd64.zip",
+          "download_url": "https://github.com/aaronstillwell/terraform-provider-dokku/releases/download/v0.5.1/terraform-provider-dokku_0.5.1_windows_amd64.zip",
+          "shasum": "ad216b77103b5a0aa44ee0f6baa457c4dc8cda9644ff59d4c15d9d1fbc12c4af"
+        }
+      ]
+    },
+    {
+      "version": "0.5.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/aaronstillwell/terraform-provider-dokku/releases/download/v0.5.0/terraform-provider-dokku_0.5.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/aaronstillwell/terraform-provider-dokku/releases/download/v0.5.0/terraform-provider-dokku_0.5.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-dokku_0.5.0_linux_amd64.zip",
+          "download_url": "https://github.com/aaronstillwell/terraform-provider-dokku/releases/download/v0.5.0/terraform-provider-dokku_0.5.0_linux_amd64.zip",
+          "shasum": "2a707e690f0b7b50adc2df2a211321791a30d9deaf1f5d8ab1b3eb54f20fd6e5"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-dokku_0.5.0_linux_386.zip",
+          "download_url": "https://github.com/aaronstillwell/terraform-provider-dokku/releases/download/v0.5.0/terraform-provider-dokku_0.5.0_linux_386.zip",
+          "shasum": "345f02d30daa1275e4ee4a3b57c4a29510977315a9450d3d1a3806575deb7541"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-dokku_0.5.0_windows_amd64.zip",
+          "download_url": "https://github.com/aaronstillwell/terraform-provider-dokku/releases/download/v0.5.0/terraform-provider-dokku_0.5.0_windows_amd64.zip",
+          "shasum": "d4bf2c4d6e238ab84bbb71c909c84bf618f6eb496adf1f94cc1885f6ec33640e"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-dokku_0.5.0_freebsd_arm.zip",
+          "download_url": "https://github.com/aaronstillwell/terraform-provider-dokku/releases/download/v0.5.0/terraform-provider-dokku_0.5.0_freebsd_arm.zip",
+          "shasum": "0e76f7707242eb16ff8536308641db004f5a806b0a80058cb261765ff5674130"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-dokku_0.5.0_windows_arm.zip",
+          "download_url": "https://github.com/aaronstillwell/terraform-provider-dokku/releases/download/v0.5.0/terraform-provider-dokku_0.5.0_windows_arm.zip",
+          "shasum": "269ed6acfaa82636605862aaba38c8b58f8bc027f50ca9db83bdad4edccbc6f6"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-dokku_0.5.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/aaronstillwell/terraform-provider-dokku/releases/download/v0.5.0/terraform-provider-dokku_0.5.0_freebsd_arm64.zip",
+          "shasum": "aad260f1cc9a3fc55fd12c0aedd9ae3ee1f6df1d752995159102347e1e654159"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-dokku_0.5.0_freebsd_386.zip",
+          "download_url": "https://github.com/aaronstillwell/terraform-provider-dokku/releases/download/v0.5.0/terraform-provider-dokku_0.5.0_freebsd_386.zip",
+          "shasum": "9a6c35b35cc50fc6233fb493660be4903307df682f97ca1985d92d3327c69a52"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-dokku_0.5.0_darwin_amd64.zip",
+          "download_url": "https://github.com/aaronstillwell/terraform-provider-dokku/releases/download/v0.5.0/terraform-provider-dokku_0.5.0_darwin_amd64.zip",
+          "shasum": "458eb41c638a0a1f72ac02d4c8743dfb247f0c7ca381865c16f12de0136fff00"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-dokku_0.5.0_linux_arm.zip",
+          "download_url": "https://github.com/aaronstillwell/terraform-provider-dokku/releases/download/v0.5.0/terraform-provider-dokku_0.5.0_linux_arm.zip",
+          "shasum": "4e4a48d52045d56d2d99c56cebe4f436d3a6785742182931cf1f9859f914ac86"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-dokku_0.5.0_linux_arm64.zip",
+          "download_url": "https://github.com/aaronstillwell/terraform-provider-dokku/releases/download/v0.5.0/terraform-provider-dokku_0.5.0_linux_arm64.zip",
+          "shasum": "d204606ab246acc3381cb726c0a108381c3fe70aed88b20ef0503d43d1db859b"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-dokku_0.5.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/aaronstillwell/terraform-provider-dokku/releases/download/v0.5.0/terraform-provider-dokku_0.5.0_freebsd_amd64.zip",
+          "shasum": "6070f192eab99224904100bca26ed241fce50a100f7689269f6b40ee87044664"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-dokku_0.5.0_windows_386.zip",
+          "download_url": "https://github.com/aaronstillwell/terraform-provider-dokku/releases/download/v0.5.0/terraform-provider-dokku_0.5.0_windows_386.zip",
+          "shasum": "447e64a5c5f93ff7a55254ab75100f4ea3b68267746220f68e7c790e390f28fa"
+        }
+      ]
+    },
+    {
       "version": "0.4.5",
       "protocols": [
         "5.0"
