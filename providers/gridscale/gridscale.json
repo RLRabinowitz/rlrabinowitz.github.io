@@ -2,6 +2,114 @@
   "repository": "https://github.com/gridscale/terraform-provider-gridscale",
   "versions": [
     {
+      "version": "2.0.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/gridscale/terraform-provider-gridscale/releases/download/v2.0.0/terraform-provider-gridscale_2.0.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/gridscale/terraform-provider-gridscale/releases/download/v2.0.0/terraform-provider-gridscale_2.0.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-gridscale_2.0.0_linux_arm64.zip",
+          "download_url": "https://github.com/gridscale/terraform-provider-gridscale/releases/download/v2.0.0/terraform-provider-gridscale_2.0.0_linux_arm64.zip",
+          "shasum": "91cc1e844425c50652ab6c701b7037cda371e4e126a817a1d10a10dc67f3e482"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-gridscale_2.0.0_darwin_arm64.zip",
+          "download_url": "https://github.com/gridscale/terraform-provider-gridscale/releases/download/v2.0.0/terraform-provider-gridscale_2.0.0_darwin_arm64.zip",
+          "shasum": "247f7b6deb845511499a287961522981ff80852ae2702a22b084c7390e553626"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-gridscale_2.0.0_windows_386.zip",
+          "download_url": "https://github.com/gridscale/terraform-provider-gridscale/releases/download/v2.0.0/terraform-provider-gridscale_2.0.0_windows_386.zip",
+          "shasum": "09ef8d61b8becec902b8baa2e0ae999b9e90c1292040dd792230d1a595a5a3f2"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-gridscale_2.0.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/gridscale/terraform-provider-gridscale/releases/download/v2.0.0/terraform-provider-gridscale_2.0.0_freebsd_amd64.zip",
+          "shasum": "ce0d7f58cb7a28ee051084e9f871530930811fb2f47d657d64962236e506c4c3"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-gridscale_2.0.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/gridscale/terraform-provider-gridscale/releases/download/v2.0.0/terraform-provider-gridscale_2.0.0_freebsd_arm64.zip",
+          "shasum": "1cd652c60ba8ff2f371da0e1bc8f7cb95e5230afffa404c8c1595b52e1bd54fd"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-gridscale_2.0.0_linux_386.zip",
+          "download_url": "https://github.com/gridscale/terraform-provider-gridscale/releases/download/v2.0.0/terraform-provider-gridscale_2.0.0_linux_386.zip",
+          "shasum": "7c4701d4ed93b98b1af1bce204838f512dd1d6925a2825d2c8e6e5ac8cd2ccb4"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-gridscale_2.0.0_windows_arm64.zip",
+          "download_url": "https://github.com/gridscale/terraform-provider-gridscale/releases/download/v2.0.0/terraform-provider-gridscale_2.0.0_windows_arm64.zip",
+          "shasum": "db862a14f9e19877e720f8ce913550fae2e22f170a6d365ecd481e9ffeb0a615"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-gridscale_2.0.0_windows_amd64.zip",
+          "download_url": "https://github.com/gridscale/terraform-provider-gridscale/releases/download/v2.0.0/terraform-provider-gridscale_2.0.0_windows_amd64.zip",
+          "shasum": "b67d28d46fc9987088610622b77ec891d29580065997f5f0e12789e56477b0c0"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-gridscale_2.0.0_freebsd_386.zip",
+          "download_url": "https://github.com/gridscale/terraform-provider-gridscale/releases/download/v2.0.0/terraform-provider-gridscale_2.0.0_freebsd_386.zip",
+          "shasum": "bdee59a6b973f0e7740efd997e5864787c32034d93da07c227e60a66ed780498"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-gridscale_2.0.0_freebsd_arm.zip",
+          "download_url": "https://github.com/gridscale/terraform-provider-gridscale/releases/download/v2.0.0/terraform-provider-gridscale_2.0.0_freebsd_arm.zip",
+          "shasum": "3fea1d8916d388cba0143b5c64ecd6c9396084b80bf3319e6ad403d82d7d56b7"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-gridscale_2.0.0_darwin_amd64.zip",
+          "download_url": "https://github.com/gridscale/terraform-provider-gridscale/releases/download/v2.0.0/terraform-provider-gridscale_2.0.0_darwin_amd64.zip",
+          "shasum": "6ac6ad97b9c0ae0a9a09a05f990c6b1af63537ae13af9c3ea9732fa9075e2c48"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-gridscale_2.0.0_linux_amd64.zip",
+          "download_url": "https://github.com/gridscale/terraform-provider-gridscale/releases/download/v2.0.0/terraform-provider-gridscale_2.0.0_linux_amd64.zip",
+          "shasum": "6fc150c794f1ab8f1f284cd3afe587364e4b21d5d01c4d044caab44e9d76cc8f"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-gridscale_2.0.0_linux_arm.zip",
+          "download_url": "https://github.com/gridscale/terraform-provider-gridscale/releases/download/v2.0.0/terraform-provider-gridscale_2.0.0_linux_arm.zip",
+          "shasum": "c97125cb3713ffca3b670985afeb43f5700017fef99fdf980f34e2101ab51051"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-gridscale_2.0.0_windows_arm.zip",
+          "download_url": "https://github.com/gridscale/terraform-provider-gridscale/releases/download/v2.0.0/terraform-provider-gridscale_2.0.0_windows_arm.zip",
+          "shasum": "cfecc2aeef0982100b509159a80cedb0bf3dafd58f766ef23b7658d894ad0483"
+        }
+      ]
+    },
+    {
       "version": "1.27.0",
       "protocols": [
         "5.0"
@@ -11,101 +119,101 @@
       "targets": [
         {
           "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-gridscale_1.27.0_linux_arm.zip",
+          "download_url": "https://github.com/gridscale/terraform-provider-gridscale/releases/download/v1.27.0/terraform-provider-gridscale_1.27.0_linux_arm.zip",
+          "shasum": "3ffb5bb7f5b23cdf636af4e58b3a3b950d06203fc050e9772b9b079a82d74d99"
+        },
+        {
+          "os": "linux",
           "arch": "arm64",
           "filename": "terraform-provider-gridscale_1.27.0_linux_arm64.zip",
           "download_url": "https://github.com/gridscale/terraform-provider-gridscale/releases/download/v1.27.0/terraform-provider-gridscale_1.27.0_linux_arm64.zip",
-          "shasum": "11b3704cd6ff2e303784a91c79e1129b566120f830ef8bb754d3763b3cc06d8a"
+          "shasum": "d483e87475ecf5283bcedc5811cbd3c20d84d4bf7638bee32ffb3e4902986326"
         },
         {
           "os": "windows",
           "arch": "amd64",
           "filename": "terraform-provider-gridscale_1.27.0_windows_amd64.zip",
           "download_url": "https://github.com/gridscale/terraform-provider-gridscale/releases/download/v1.27.0/terraform-provider-gridscale_1.27.0_windows_amd64.zip",
-          "shasum": "d233ecb7054b71a26d5554e673a2560bd3b442a82149860290591d230d7e94a3"
-        },
-        {
-          "os": "freebsd",
-          "arch": "amd64",
-          "filename": "terraform-provider-gridscale_1.27.0_freebsd_amd64.zip",
-          "download_url": "https://github.com/gridscale/terraform-provider-gridscale/releases/download/v1.27.0/terraform-provider-gridscale_1.27.0_freebsd_amd64.zip",
-          "shasum": "dace49bba1c727ee5ee39ea000cbfbc11eb59086972eca0b46596edf9ec08aea"
-        },
-        {
-          "os": "linux",
-          "arch": "amd64",
-          "filename": "terraform-provider-gridscale_1.27.0_linux_amd64.zip",
-          "download_url": "https://github.com/gridscale/terraform-provider-gridscale/releases/download/v1.27.0/terraform-provider-gridscale_1.27.0_linux_amd64.zip",
-          "shasum": "fcd39497043814280fdbf10690486470085459eebdcf022f90ae716ec0751523"
-        },
-        {
-          "os": "linux",
-          "arch": "386",
-          "filename": "terraform-provider-gridscale_1.27.0_linux_386.zip",
-          "download_url": "https://github.com/gridscale/terraform-provider-gridscale/releases/download/v1.27.0/terraform-provider-gridscale_1.27.0_linux_386.zip",
-          "shasum": "676c9b65f3f9898b297a69326d1b7b746f44b9193ab981f91ec3b44e47178a4d"
-        },
-        {
-          "os": "freebsd",
-          "arch": "arm",
-          "filename": "terraform-provider-gridscale_1.27.0_freebsd_arm.zip",
-          "download_url": "https://github.com/gridscale/terraform-provider-gridscale/releases/download/v1.27.0/terraform-provider-gridscale_1.27.0_freebsd_arm.zip",
-          "shasum": "aa12a0e1ada65c5c0723b733a8080d2089420bf005435aff5f0caf3accc15c5f"
-        },
-        {
-          "os": "windows",
-          "arch": "386",
-          "filename": "terraform-provider-gridscale_1.27.0_windows_386.zip",
-          "download_url": "https://github.com/gridscale/terraform-provider-gridscale/releases/download/v1.27.0/terraform-provider-gridscale_1.27.0_windows_386.zip",
-          "shasum": "822d4c1fbab9d5e87d1884ac326e3d31a1910b8c1d4eb5535aca0fb8dc4a4f40"
+          "shasum": "89cad009233495ef8c9dedf9f4206a5fba4b3559cc807b8a8e07dc33d2810657"
         },
         {
           "os": "windows",
           "arch": "arm64",
           "filename": "terraform-provider-gridscale_1.27.0_windows_arm64.zip",
           "download_url": "https://github.com/gridscale/terraform-provider-gridscale/releases/download/v1.27.0/terraform-provider-gridscale_1.27.0_windows_arm64.zip",
-          "shasum": "7b753916a372c867bbcc2f5fb7175f8b2804b54fd42075cc1082928a007ea922"
-        },
-        {
-          "os": "windows",
-          "arch": "arm",
-          "filename": "terraform-provider-gridscale_1.27.0_windows_arm.zip",
-          "download_url": "https://github.com/gridscale/terraform-provider-gridscale/releases/download/v1.27.0/terraform-provider-gridscale_1.27.0_windows_arm.zip",
-          "shasum": "c0c4772e5308eb909bda8781c781194abfcb7455b1af4a0568ae24a0a28e6343"
+          "shasum": "4906d18cda28e4bc920287d308504d7ffc205121c9d8bae4693143b877c5de16"
         },
         {
           "os": "freebsd",
-          "arch": "386",
-          "filename": "terraform-provider-gridscale_1.27.0_freebsd_386.zip",
-          "download_url": "https://github.com/gridscale/terraform-provider-gridscale/releases/download/v1.27.0/terraform-provider-gridscale_1.27.0_freebsd_386.zip",
-          "shasum": "75ddc44ca2524487ded085883fd6f9538fe9080c7f8c5fb67f14061ed81a5eac"
+          "arch": "arm",
+          "filename": "terraform-provider-gridscale_1.27.0_freebsd_arm.zip",
+          "download_url": "https://github.com/gridscale/terraform-provider-gridscale/releases/download/v1.27.0/terraform-provider-gridscale_1.27.0_freebsd_arm.zip",
+          "shasum": "fdffa167fb4d6cf0a9093dffcf6247efaa9061fff716045d23fce781fab45c92"
         },
         {
           "os": "darwin",
           "arch": "arm64",
           "filename": "terraform-provider-gridscale_1.27.0_darwin_arm64.zip",
           "download_url": "https://github.com/gridscale/terraform-provider-gridscale/releases/download/v1.27.0/terraform-provider-gridscale_1.27.0_darwin_arm64.zip",
-          "shasum": "e8622a5d67993fdcb6fd2d90bcb8c26cbaf17b8e1df01ef9c93b041f1cd7f504"
+          "shasum": "be59f3f0e42f7d5ca63a1c935832ebb35a619de646275c9b10a449eb4e07c1f3"
         },
         {
-          "os": "darwin",
+          "os": "linux",
           "arch": "amd64",
-          "filename": "terraform-provider-gridscale_1.27.0_darwin_amd64.zip",
-          "download_url": "https://github.com/gridscale/terraform-provider-gridscale/releases/download/v1.27.0/terraform-provider-gridscale_1.27.0_darwin_amd64.zip",
-          "shasum": "f1bc98c698d9518ce262ab62f3decccf25bc4d88229f5247f847de5f55acd74a"
+          "filename": "terraform-provider-gridscale_1.27.0_linux_amd64.zip",
+          "download_url": "https://github.com/gridscale/terraform-provider-gridscale/releases/download/v1.27.0/terraform-provider-gridscale_1.27.0_linux_amd64.zip",
+          "shasum": "03fe0964cf7e7d06e86bb40573bd69dbb67ce9ae9c69dd71774876a422fbf36a"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-gridscale_1.27.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/gridscale/terraform-provider-gridscale/releases/download/v1.27.0/terraform-provider-gridscale_1.27.0_freebsd_amd64.zip",
+          "shasum": "f0ded5eec49b819fae10aa952a5ff0cc3d8466cb61f6891c3852e3a4e8ff979c"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-gridscale_1.27.0_linux_386.zip",
+          "download_url": "https://github.com/gridscale/terraform-provider-gridscale/releases/download/v1.27.0/terraform-provider-gridscale_1.27.0_linux_386.zip",
+          "shasum": "6d07f47b0e550d9ba20e6b694101dbaddba02cf3f0d1d26f2e80723517b67e48"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-gridscale_1.27.0_freebsd_386.zip",
+          "download_url": "https://github.com/gridscale/terraform-provider-gridscale/releases/download/v1.27.0/terraform-provider-gridscale_1.27.0_freebsd_386.zip",
+          "shasum": "fece0c2647e29bb89810250056e0dae27fa32b6154a72e3df8e4242b026402f6"
         },
         {
           "os": "freebsd",
           "arch": "arm64",
           "filename": "terraform-provider-gridscale_1.27.0_freebsd_arm64.zip",
           "download_url": "https://github.com/gridscale/terraform-provider-gridscale/releases/download/v1.27.0/terraform-provider-gridscale_1.27.0_freebsd_arm64.zip",
-          "shasum": "c9b4d54f047bfb1b295698f67a766affd78c9a60587dfb840e6b11a50a2d5c82"
+          "shasum": "6db9b7ce4537a3c70819580eaada91b5b0217ac9b250d7a89520e3f25b84f445"
         },
         {
-          "os": "linux",
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-gridscale_1.27.0_darwin_amd64.zip",
+          "download_url": "https://github.com/gridscale/terraform-provider-gridscale/releases/download/v1.27.0/terraform-provider-gridscale_1.27.0_darwin_amd64.zip",
+          "shasum": "c9a411716878fa141fa4d2c0e3d1ef9e882eee2d71a0b0fbfbcaafd8d6b7a27c"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-gridscale_1.27.0_windows_386.zip",
+          "download_url": "https://github.com/gridscale/terraform-provider-gridscale/releases/download/v1.27.0/terraform-provider-gridscale_1.27.0_windows_386.zip",
+          "shasum": "7a94f3da130ea97699ddd0cc675fd58efa6887677bfb3d74120611b5e9baab70"
+        },
+        {
+          "os": "windows",
           "arch": "arm",
-          "filename": "terraform-provider-gridscale_1.27.0_linux_arm.zip",
-          "download_url": "https://github.com/gridscale/terraform-provider-gridscale/releases/download/v1.27.0/terraform-provider-gridscale_1.27.0_linux_arm.zip",
-          "shasum": "48cbfe88ba27cd01604b3806178de6a06829b03ed2f394db1968fe1120ec3886"
+          "filename": "terraform-provider-gridscale_1.27.0_windows_arm.zip",
+          "download_url": "https://github.com/gridscale/terraform-provider-gridscale/releases/download/v1.27.0/terraform-provider-gridscale_1.27.0_windows_arm.zip",
+          "shasum": "65455ba6c248101f221e48f9db6f6cdacd79157b72b4eeb8660877ce90f4ecc5"
         }
       ]
     },
