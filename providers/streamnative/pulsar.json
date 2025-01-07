@@ -2,6 +2,114 @@
   "repository": "https://github.com/streamnative/terraform-provider-pulsar",
   "versions": [
     {
+      "version": "0.4.4",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/streamnative/terraform-provider-pulsar/releases/download/v0.4.4/terraform-provider-pulsar_0.4.4_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/streamnative/terraform-provider-pulsar/releases/download/v0.4.4/terraform-provider-pulsar_0.4.4_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-pulsar_0.4.4_linux_arm.zip",
+          "download_url": "https://github.com/streamnative/terraform-provider-pulsar/releases/download/v0.4.4/terraform-provider-pulsar_0.4.4_linux_arm.zip",
+          "shasum": "3d41575eff9f419986c809b1295a4564236c33d074d49b21c41f662a62e121f8"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-pulsar_0.4.4_darwin_amd64.zip",
+          "download_url": "https://github.com/streamnative/terraform-provider-pulsar/releases/download/v0.4.4/terraform-provider-pulsar_0.4.4_darwin_amd64.zip",
+          "shasum": "fac265dc0d7809813b49caa0f8147490d674367388c1021f168725fb13675ef0"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-pulsar_0.4.4_windows_386.zip",
+          "download_url": "https://github.com/streamnative/terraform-provider-pulsar/releases/download/v0.4.4/terraform-provider-pulsar_0.4.4_windows_386.zip",
+          "shasum": "21046e3763567abb75121f11382b33d286fd3a580227394e9166a89cafcf7944"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-pulsar_0.4.4_windows_arm.zip",
+          "download_url": "https://github.com/streamnative/terraform-provider-pulsar/releases/download/v0.4.4/terraform-provider-pulsar_0.4.4_windows_arm.zip",
+          "shasum": "77ff91197d0cb87f5326f2a8598b88e687aa6f73e204209aff0102e02ff25bfe"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-pulsar_0.4.4_freebsd_386.zip",
+          "download_url": "https://github.com/streamnative/terraform-provider-pulsar/releases/download/v0.4.4/terraform-provider-pulsar_0.4.4_freebsd_386.zip",
+          "shasum": "14517012aa72549f30e5e00a377b5f6b1e8ad7f7e72da9fa10ad20a685e09c7e"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-pulsar_0.4.4_windows_arm64.zip",
+          "download_url": "https://github.com/streamnative/terraform-provider-pulsar/releases/download/v0.4.4/terraform-provider-pulsar_0.4.4_windows_arm64.zip",
+          "shasum": "b90016a56bbc6e5a3433f4c28ae3be133ebc79823534bb556f2e19865afd7399"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-pulsar_0.4.4_darwin_arm64.zip",
+          "download_url": "https://github.com/streamnative/terraform-provider-pulsar/releases/download/v0.4.4/terraform-provider-pulsar_0.4.4_darwin_arm64.zip",
+          "shasum": "b7aa25895856e41dc224edd404a5a1929e5c038407f4fc663d5bd8ad947d7393"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-pulsar_0.4.4_linux_amd64.zip",
+          "download_url": "https://github.com/streamnative/terraform-provider-pulsar/releases/download/v0.4.4/terraform-provider-pulsar_0.4.4_linux_amd64.zip",
+          "shasum": "3651a87fd97c801847fb278733fca9f26a311bc6468ca3d5c53092c81596b622"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-pulsar_0.4.4_linux_386.zip",
+          "download_url": "https://github.com/streamnative/terraform-provider-pulsar/releases/download/v0.4.4/terraform-provider-pulsar_0.4.4_linux_386.zip",
+          "shasum": "2fed72402033fc7d88091772e4ca2585705893ab3ed394cc8488097ab88cc303"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-pulsar_0.4.4_freebsd_amd64.zip",
+          "download_url": "https://github.com/streamnative/terraform-provider-pulsar/releases/download/v0.4.4/terraform-provider-pulsar_0.4.4_freebsd_amd64.zip",
+          "shasum": "a53a2ec1965b9b767d9b7c80d7aefc3a397c1265d5069a10145405c34513e254"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-pulsar_0.4.4_windows_amd64.zip",
+          "download_url": "https://github.com/streamnative/terraform-provider-pulsar/releases/download/v0.4.4/terraform-provider-pulsar_0.4.4_windows_amd64.zip",
+          "shasum": "55b47c428179f209c4d9ffa7962f2b44760fdc7192498a90bd7f179f98386310"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-pulsar_0.4.4_freebsd_arm.zip",
+          "download_url": "https://github.com/streamnative/terraform-provider-pulsar/releases/download/v0.4.4/terraform-provider-pulsar_0.4.4_freebsd_arm.zip",
+          "shasum": "7be6f32d036006387a2db04a6d2a13284831f6b4410fb94f6637964d15c5680e"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-pulsar_0.4.4_linux_arm64.zip",
+          "download_url": "https://github.com/streamnative/terraform-provider-pulsar/releases/download/v0.4.4/terraform-provider-pulsar_0.4.4_linux_arm64.zip",
+          "shasum": "1c945bac960e19037d68a549ab04f2620d9fe0ab04003deaad199e32595b1d69"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-pulsar_0.4.4_freebsd_arm64.zip",
+          "download_url": "https://github.com/streamnative/terraform-provider-pulsar/releases/download/v0.4.4/terraform-provider-pulsar_0.4.4_freebsd_arm64.zip",
+          "shasum": "183eb862839eceaea9f83eed4acf0b26f2f83c5f8cae8370ae4dc02116501516"
+        }
+      ]
+    },
+    {
       "version": "0.4.2",
       "protocols": [
         "5.0"
