@@ -2,6 +2,107 @@
   "repository": "https://github.com/PagerDuty/terraform-provider-pagerduty",
   "versions": [
     {
+      "version": "3.19.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/PagerDuty/terraform-provider-pagerduty/releases/download/v3.19.0/terraform-provider-pagerduty_3.19.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/PagerDuty/terraform-provider-pagerduty/releases/download/v3.19.0/terraform-provider-pagerduty_3.19.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-pagerduty_3.19.0_windows_amd64.zip",
+          "download_url": "https://github.com/PagerDuty/terraform-provider-pagerduty/releases/download/v3.19.0/terraform-provider-pagerduty_3.19.0_windows_amd64.zip",
+          "shasum": "899d6cbbd4dd8567f85877fcfedd92a82c3b5779bb72703995b6ec6483107ee3"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-pagerduty_3.19.0_linux_amd64.zip",
+          "download_url": "https://github.com/PagerDuty/terraform-provider-pagerduty/releases/download/v3.19.0/terraform-provider-pagerduty_3.19.0_linux_amd64.zip",
+          "shasum": "76b70f12a1bd1418c1b4a3767244c9d5905247ebead8ea3e7953ae65b6b9ad10"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-pagerduty_3.19.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/PagerDuty/terraform-provider-pagerduty/releases/download/v3.19.0/terraform-provider-pagerduty_3.19.0_freebsd_amd64.zip",
+          "shasum": "ca3220412453aa9be3c37e5615b991e31807a6b8187753099ce9c9e5eac9f914"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-pagerduty_3.19.0_windows_arm.zip",
+          "download_url": "https://github.com/PagerDuty/terraform-provider-pagerduty/releases/download/v3.19.0/terraform-provider-pagerduty_3.19.0_windows_arm.zip",
+          "shasum": "d78e0752fbcd485e861058947cd9d918fd447297a52852e46b8977fde2dc86e4"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-pagerduty_3.19.0_linux_386.zip",
+          "download_url": "https://github.com/PagerDuty/terraform-provider-pagerduty/releases/download/v3.19.0/terraform-provider-pagerduty_3.19.0_linux_386.zip",
+          "shasum": "0388de4365e897b66cd0625bda8938e165d360d536c2549b9ead710b2cf8c2fa"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-pagerduty_3.19.0_freebsd_arm.zip",
+          "download_url": "https://github.com/PagerDuty/terraform-provider-pagerduty/releases/download/v3.19.0/terraform-provider-pagerduty_3.19.0_freebsd_arm.zip",
+          "shasum": "7615724a28334578dda9cb181185bde84200dfe2edf5e370253713ffde3b4f45"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-pagerduty_3.19.0_freebsd_386.zip",
+          "download_url": "https://github.com/PagerDuty/terraform-provider-pagerduty/releases/download/v3.19.0/terraform-provider-pagerduty_3.19.0_freebsd_386.zip",
+          "shasum": "5af5e5f1875c5bbe2e4505b4bd55711f3f29bda3093bbd2764fe56b243b11a6e"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-pagerduty_3.19.0_darwin_arm64.zip",
+          "download_url": "https://github.com/PagerDuty/terraform-provider-pagerduty/releases/download/v3.19.0/terraform-provider-pagerduty_3.19.0_darwin_arm64.zip",
+          "shasum": "9226adb9e75fcf71651e9ea06071a356ed146a4f1092055e76ca5d8bccf5df08"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-pagerduty_3.19.0_windows_386.zip",
+          "download_url": "https://github.com/PagerDuty/terraform-provider-pagerduty/releases/download/v3.19.0/terraform-provider-pagerduty_3.19.0_windows_386.zip",
+          "shasum": "e165d509e9d56b5f9c0bc1c68fd7677bbe2714e8ccc2ea87ee9f3cc04cdfb6cd"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-pagerduty_3.19.0_linux_arm.zip",
+          "download_url": "https://github.com/PagerDuty/terraform-provider-pagerduty/releases/download/v3.19.0/terraform-provider-pagerduty_3.19.0_linux_arm.zip",
+          "shasum": "916be4bf056061d5b313a50a2bd4717de26e8978cc56d8a90f77edd22d3213c4"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-pagerduty_3.19.0_windows_arm64.zip",
+          "download_url": "https://github.com/PagerDuty/terraform-provider-pagerduty/releases/download/v3.19.0/terraform-provider-pagerduty_3.19.0_windows_arm64.zip",
+          "shasum": "552a72a8fbcd7aefd8f63b1af60a73c403d574035abe97974c75502dffb38f2b"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-pagerduty_3.19.0_linux_arm64.zip",
+          "download_url": "https://github.com/PagerDuty/terraform-provider-pagerduty/releases/download/v3.19.0/terraform-provider-pagerduty_3.19.0_linux_arm64.zip",
+          "shasum": "b957a1e35f5bdad21386472f6f32b6ae9670974b0c047218b8136957da941fde"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-pagerduty_3.19.0_darwin_amd64.zip",
+          "download_url": "https://github.com/PagerDuty/terraform-provider-pagerduty/releases/download/v3.19.0/terraform-provider-pagerduty_3.19.0_darwin_amd64.zip",
+          "shasum": "6be98b86cfcdb27333d2b9718681cfae039c9d5bd14e9810ef1effa1659dc85e"
+        }
+      ]
+    },
+    {
       "version": "3.18.3",
       "protocols": [
         "5.0"
