@@ -2,6 +2,114 @@
   "repository": "https://github.com/panther-labs/terraform-provider-panther",
   "versions": [
     {
+      "version": "0.2.3",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/panther-labs/terraform-provider-panther/releases/download/v0.2.3/terraform-provider-panther_0.2.3_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/panther-labs/terraform-provider-panther/releases/download/v0.2.3/terraform-provider-panther_0.2.3_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-panther_0.2.3_windows_amd64.zip",
+          "download_url": "https://github.com/panther-labs/terraform-provider-panther/releases/download/v0.2.3/terraform-provider-panther_0.2.3_windows_amd64.zip",
+          "shasum": "cca871974e445ec6b2b36fa76d24d8d1b12c5787661adec223796d0d423fbf8c"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-panther_0.2.3_linux_arm64.zip",
+          "download_url": "https://github.com/panther-labs/terraform-provider-panther/releases/download/v0.2.3/terraform-provider-panther_0.2.3_linux_arm64.zip",
+          "shasum": "dc3ebe6fc868c72ceaebe92e5336fc7948e38280a9fcb8cc5f52347ebbf6820b"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-panther_0.2.3_windows_arm.zip",
+          "download_url": "https://github.com/panther-labs/terraform-provider-panther/releases/download/v0.2.3/terraform-provider-panther_0.2.3_windows_arm.zip",
+          "shasum": "6d9cce6fb8fd5993d9b40bedf926d0b6691a3c6d4a8cf14d22e98899eb98cea6"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-panther_0.2.3_linux_amd64.zip",
+          "download_url": "https://github.com/panther-labs/terraform-provider-panther/releases/download/v0.2.3/terraform-provider-panther_0.2.3_linux_amd64.zip",
+          "shasum": "1454a5efbf455d25ef76da5eab7ded335004b14ab2db2ae1701b17b0702c3167"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-panther_0.2.3_darwin_amd64.zip",
+          "download_url": "https://github.com/panther-labs/terraform-provider-panther/releases/download/v0.2.3/terraform-provider-panther_0.2.3_darwin_amd64.zip",
+          "shasum": "f531630084658952d2007320bbc9de0aa512d44d0060ce515b272624b09ef486"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-panther_0.2.3_windows_386.zip",
+          "download_url": "https://github.com/panther-labs/terraform-provider-panther/releases/download/v0.2.3/terraform-provider-panther_0.2.3_windows_386.zip",
+          "shasum": "8bbdcd6868f23319928893cabe0798e97f062ee2e79def0f2706de8e30d4debc"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-panther_0.2.3_freebsd_amd64.zip",
+          "download_url": "https://github.com/panther-labs/terraform-provider-panther/releases/download/v0.2.3/terraform-provider-panther_0.2.3_freebsd_amd64.zip",
+          "shasum": "6bb25490eb57152060995dbe5005ab8ca9ccc4ea30235f6368b50c3f623b86a2"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-panther_0.2.3_freebsd_arm64.zip",
+          "download_url": "https://github.com/panther-labs/terraform-provider-panther/releases/download/v0.2.3/terraform-provider-panther_0.2.3_freebsd_arm64.zip",
+          "shasum": "2a8dbfef38f7c027e1824366e72986fcdb4471e7fe0e50c2887c0b8225c3ab4c"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-panther_0.2.3_linux_arm.zip",
+          "download_url": "https://github.com/panther-labs/terraform-provider-panther/releases/download/v0.2.3/terraform-provider-panther_0.2.3_linux_arm.zip",
+          "shasum": "87e243699364e8213395be92d3abfa2bfa3da0fc80442c810cc9d5c5f90f52d1"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-panther_0.2.3_freebsd_arm.zip",
+          "download_url": "https://github.com/panther-labs/terraform-provider-panther/releases/download/v0.2.3/terraform-provider-panther_0.2.3_freebsd_arm.zip",
+          "shasum": "e117514c731d3ec89f344b9ee80517a94bbf0df053b2bb07f6b6d31acad1f698"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-panther_0.2.3_linux_386.zip",
+          "download_url": "https://github.com/panther-labs/terraform-provider-panther/releases/download/v0.2.3/terraform-provider-panther_0.2.3_linux_386.zip",
+          "shasum": "b964490b12059084393abd1d01c51856473dca9cae5a347059b1ae41a5f6d435"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-panther_0.2.3_windows_arm64.zip",
+          "download_url": "https://github.com/panther-labs/terraform-provider-panther/releases/download/v0.2.3/terraform-provider-panther_0.2.3_windows_arm64.zip",
+          "shasum": "953bac1f6afc6232ad7f18954a3a080e01d73fc0967b531ccaf19b03ed7d19c3"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-panther_0.2.3_freebsd_386.zip",
+          "download_url": "https://github.com/panther-labs/terraform-provider-panther/releases/download/v0.2.3/terraform-provider-panther_0.2.3_freebsd_386.zip",
+          "shasum": "61a122fd1ac8351c8a6b4bbbccbbb60cc6a4605eb6c51b283b2c437795dbbdda"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-panther_0.2.3_darwin_arm64.zip",
+          "download_url": "https://github.com/panther-labs/terraform-provider-panther/releases/download/v0.2.3/terraform-provider-panther_0.2.3_darwin_arm64.zip",
+          "shasum": "487302a66c6986d80bbebc3cd5845226e07d4ff5007b4f4d1ed994a964793b60"
+        }
+      ]
+    },
+    {
       "version": "0.2.2",
       "protocols": [
         "5.0"
@@ -10,102 +118,102 @@
       "shasums_signature_url": "https://github.com/panther-labs/terraform-provider-panther/releases/download/v0.2.2/terraform-provider-panther_0.2.2_SHA256SUMS.sig",
       "targets": [
         {
-          "os": "freebsd",
-          "arch": "arm64",
-          "filename": "terraform-provider-panther_0.2.2_freebsd_arm64.zip",
-          "download_url": "https://github.com/panther-labs/terraform-provider-panther/releases/download/v0.2.2/terraform-provider-panther_0.2.2_freebsd_arm64.zip",
-          "shasum": "d4aa639a57f71040739d67e100a4bdfe7b3b590fc67ba6d83def37633a0b65fe"
-        },
-        {
-          "os": "windows",
-          "arch": "arm",
-          "filename": "terraform-provider-panther_0.2.2_windows_arm.zip",
-          "download_url": "https://github.com/panther-labs/terraform-provider-panther/releases/download/v0.2.2/terraform-provider-panther_0.2.2_windows_arm.zip",
-          "shasum": "e451b8d3b68cdbcdbf809efb492b3162b4dfcd320d98da0ebe45e8ecf4b153fb"
-        },
-        {
-          "os": "freebsd",
-          "arch": "386",
-          "filename": "terraform-provider-panther_0.2.2_freebsd_386.zip",
-          "download_url": "https://github.com/panther-labs/terraform-provider-panther/releases/download/v0.2.2/terraform-provider-panther_0.2.2_freebsd_386.zip",
-          "shasum": "08b5837339bb27f3d76665d494b464df1af7d0adf0e2f6598d398ba88ae2a87e"
-        },
-        {
-          "os": "linux",
-          "arch": "arm",
-          "filename": "terraform-provider-panther_0.2.2_linux_arm.zip",
-          "download_url": "https://github.com/panther-labs/terraform-provider-panther/releases/download/v0.2.2/terraform-provider-panther_0.2.2_linux_arm.zip",
-          "shasum": "d6ee5de9582e1e83a8ab0abd912969c99f1b7d420cb1a3eb6b7e44f3cf8ba9ff"
-        },
-        {
-          "os": "linux",
-          "arch": "386",
-          "filename": "terraform-provider-panther_0.2.2_linux_386.zip",
-          "download_url": "https://github.com/panther-labs/terraform-provider-panther/releases/download/v0.2.2/terraform-provider-panther_0.2.2_linux_386.zip",
-          "shasum": "48b96871633f1c52fb29a72adc69ead346ca785f835b489bd7dc645a66e99702"
-        },
-        {
           "os": "darwin",
           "arch": "arm64",
           "filename": "terraform-provider-panther_0.2.2_darwin_arm64.zip",
           "download_url": "https://github.com/panther-labs/terraform-provider-panther/releases/download/v0.2.2/terraform-provider-panther_0.2.2_darwin_arm64.zip",
-          "shasum": "0459fb24306595aa0a00d3482d842c0e36ff546030d10bf47ab800f499ab3a31"
-        },
-        {
-          "os": "windows",
-          "arch": "amd64",
-          "filename": "terraform-provider-panther_0.2.2_windows_amd64.zip",
-          "download_url": "https://github.com/panther-labs/terraform-provider-panther/releases/download/v0.2.2/terraform-provider-panther_0.2.2_windows_amd64.zip",
-          "shasum": "54b45d9ccaa0de3b39875c415bebb73cb6caf3cd5e61f7a4bca68cd928204a09"
-        },
-        {
-          "os": "linux",
-          "arch": "arm64",
-          "filename": "terraform-provider-panther_0.2.2_linux_arm64.zip",
-          "download_url": "https://github.com/panther-labs/terraform-provider-panther/releases/download/v0.2.2/terraform-provider-panther_0.2.2_linux_arm64.zip",
-          "shasum": "0a22353d3901430733d103756b1b2f0b82499a1db0a26ec3644ac228a690b39a"
-        },
-        {
-          "os": "darwin",
-          "arch": "amd64",
-          "filename": "terraform-provider-panther_0.2.2_darwin_amd64.zip",
-          "download_url": "https://github.com/panther-labs/terraform-provider-panther/releases/download/v0.2.2/terraform-provider-panther_0.2.2_darwin_amd64.zip",
-          "shasum": "ce5056a6c29da0bf2ce17e68985a185d9f8e0b2b9c94a3e45365f84de9133285"
-        },
-        {
-          "os": "freebsd",
-          "arch": "arm",
-          "filename": "terraform-provider-panther_0.2.2_freebsd_arm.zip",
-          "download_url": "https://github.com/panther-labs/terraform-provider-panther/releases/download/v0.2.2/terraform-provider-panther_0.2.2_freebsd_arm.zip",
-          "shasum": "704d8c28ee2a14e0eb854281005e4877ca438734bc21a6c80ad9aa4ca27435a1"
-        },
-        {
-          "os": "windows",
-          "arch": "386",
-          "filename": "terraform-provider-panther_0.2.2_windows_386.zip",
-          "download_url": "https://github.com/panther-labs/terraform-provider-panther/releases/download/v0.2.2/terraform-provider-panther_0.2.2_windows_386.zip",
-          "shasum": "e6ce60b6f8e7c94b423ec0b611deed93b7dfb57f9b63796679074d0edd942e4a"
+          "shasum": "93999bb7bd9510c9791a45c2bd073fa9532d146088ad319fe774f8c96c9e3cf5"
         },
         {
           "os": "freebsd",
           "arch": "amd64",
           "filename": "terraform-provider-panther_0.2.2_freebsd_amd64.zip",
           "download_url": "https://github.com/panther-labs/terraform-provider-panther/releases/download/v0.2.2/terraform-provider-panther_0.2.2_freebsd_amd64.zip",
-          "shasum": "6338e5d4b8633bbfdf3a64fd4a9caa13f0eca368d0123d05a9552e066c831003"
+          "shasum": "1032fb2f8dd9142d09e1c4a8b23e40bbd2d003714ae342cd111cb1cb2ad7e8fd"
         },
         {
-          "os": "windows",
+          "os": "linux",
           "arch": "arm64",
-          "filename": "terraform-provider-panther_0.2.2_windows_arm64.zip",
-          "download_url": "https://github.com/panther-labs/terraform-provider-panther/releases/download/v0.2.2/terraform-provider-panther_0.2.2_windows_arm64.zip",
-          "shasum": "7f557e18aab9bf4ce6b6e43f7f2d76515d9740cebbef4eb812fc53f78fcf6a2c"
+          "filename": "terraform-provider-panther_0.2.2_linux_arm64.zip",
+          "download_url": "https://github.com/panther-labs/terraform-provider-panther/releases/download/v0.2.2/terraform-provider-panther_0.2.2_linux_arm64.zip",
+          "shasum": "35c0a32b528cdfd7cfdb6134009e8fcea161f5f720319ca20b764699a226d118"
         },
         {
           "os": "linux",
           "arch": "amd64",
           "filename": "terraform-provider-panther_0.2.2_linux_amd64.zip",
           "download_url": "https://github.com/panther-labs/terraform-provider-panther/releases/download/v0.2.2/terraform-provider-panther_0.2.2_linux_amd64.zip",
-          "shasum": "2ca272d136d0e146aaf55c43af2020ad3876c34c0baa7770cb0a7f5c04b2a9b4"
+          "shasum": "dc8331202dbc3ff4ec91ce5b672f019b5764176d990b34207e08b8a22c3bf72e"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-panther_0.2.2_windows_arm.zip",
+          "download_url": "https://github.com/panther-labs/terraform-provider-panther/releases/download/v0.2.2/terraform-provider-panther_0.2.2_windows_arm.zip",
+          "shasum": "58437c350e9e0784af4cfc3de40c84bcf2cd4daaee3f6ef3c02287c6cb02ffb3"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-panther_0.2.2_linux_386.zip",
+          "download_url": "https://github.com/panther-labs/terraform-provider-panther/releases/download/v0.2.2/terraform-provider-panther_0.2.2_linux_386.zip",
+          "shasum": "53514acf0851ee609a456af2b9fecedf116b456c140917c5002211d9a36df331"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-panther_0.2.2_windows_arm64.zip",
+          "download_url": "https://github.com/panther-labs/terraform-provider-panther/releases/download/v0.2.2/terraform-provider-panther_0.2.2_windows_arm64.zip",
+          "shasum": "82567abe0ecd2e6f38e1f1da87504e0a2128a0727a3e67740e29663dc9e23c4f"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-panther_0.2.2_windows_amd64.zip",
+          "download_url": "https://github.com/panther-labs/terraform-provider-panther/releases/download/v0.2.2/terraform-provider-panther_0.2.2_windows_amd64.zip",
+          "shasum": "a18cc64c8061f485779cd6d105e8eac1e55cd580768928f8586a74cb4b73e093"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-panther_0.2.2_freebsd_arm.zip",
+          "download_url": "https://github.com/panther-labs/terraform-provider-panther/releases/download/v0.2.2/terraform-provider-panther_0.2.2_freebsd_arm.zip",
+          "shasum": "af4e67cfbec92abfd8e89656980f5a908891a406b598bf7813fdc7e848a88e85"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-panther_0.2.2_freebsd_386.zip",
+          "download_url": "https://github.com/panther-labs/terraform-provider-panther/releases/download/v0.2.2/terraform-provider-panther_0.2.2_freebsd_386.zip",
+          "shasum": "55b72978a5ac3b7056885463166a758a643aeb79d531ec31de097a886ad83f25"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-panther_0.2.2_windows_386.zip",
+          "download_url": "https://github.com/panther-labs/terraform-provider-panther/releases/download/v0.2.2/terraform-provider-panther_0.2.2_windows_386.zip",
+          "shasum": "1f65ded08a416a9f0a4c44f3cb7497ebf51f3d417cd503677f104be9ceb97588"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-panther_0.2.2_darwin_amd64.zip",
+          "download_url": "https://github.com/panther-labs/terraform-provider-panther/releases/download/v0.2.2/terraform-provider-panther_0.2.2_darwin_amd64.zip",
+          "shasum": "f5e3f635c916423d61ff49628853b9d7856c9a18b1f3afaa56724d814cccf9f9"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-panther_0.2.2_freebsd_arm64.zip",
+          "download_url": "https://github.com/panther-labs/terraform-provider-panther/releases/download/v0.2.2/terraform-provider-panther_0.2.2_freebsd_arm64.zip",
+          "shasum": "952afd0b246096716fb5ef80acd38dd436721c0b23273fa9b443624396931643"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-panther_0.2.2_linux_arm.zip",
+          "download_url": "https://github.com/panther-labs/terraform-provider-panther/releases/download/v0.2.2/terraform-provider-panther_0.2.2_linux_arm.zip",
+          "shasum": "2ffd4c0ac0e934133684899b080fe9f6725553148f740d42ce1f0c847504ba5b"
         }
       ]
     },
