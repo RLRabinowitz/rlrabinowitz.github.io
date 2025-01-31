@@ -2,6 +2,208 @@
   "repository": "https://github.com/BetterStackHQ/terraform-provider-better-uptime",
   "versions": [
     {
+      "version": "0.16.2",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/BetterStackHQ/terraform-provider-better-uptime/releases/download/v0.16.2/terraform-provider-better-uptime_0.16.2_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/BetterStackHQ/terraform-provider-better-uptime/releases/download/v0.16.2/terraform-provider-better-uptime_0.16.2_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-better-uptime_0.16.2_freebsd_386.zip",
+          "download_url": "https://github.com/BetterStackHQ/terraform-provider-better-uptime/releases/download/v0.16.2/terraform-provider-better-uptime_0.16.2_freebsd_386.zip",
+          "shasum": "b9950d359b3e637ad70954c825d21de1aa92a027e038818435ceafc90f245c1e"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-better-uptime_0.16.2_windows_arm.zip",
+          "download_url": "https://github.com/BetterStackHQ/terraform-provider-better-uptime/releases/download/v0.16.2/terraform-provider-better-uptime_0.16.2_windows_arm.zip",
+          "shasum": "19e518d328921126d4c7c48330ed66fc0f44f53cacdaf8fb357fb8691e6de6f2"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-better-uptime_0.16.2_freebsd_amd64.zip",
+          "download_url": "https://github.com/BetterStackHQ/terraform-provider-better-uptime/releases/download/v0.16.2/terraform-provider-better-uptime_0.16.2_freebsd_amd64.zip",
+          "shasum": "5f4443659419dbab768fd3acc9ca2b1f4fae7b7054cb06c091a0e749aab4c9ea"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-better-uptime_0.16.2_darwin_amd64.zip",
+          "download_url": "https://github.com/BetterStackHQ/terraform-provider-better-uptime/releases/download/v0.16.2/terraform-provider-better-uptime_0.16.2_darwin_amd64.zip",
+          "shasum": "e96ced370838d3da0c1e3b2cf0d3ec01721c3291cc6b350ee5a8f8e74cd18226"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-better-uptime_0.16.2_linux_arm.zip",
+          "download_url": "https://github.com/BetterStackHQ/terraform-provider-better-uptime/releases/download/v0.16.2/terraform-provider-better-uptime_0.16.2_linux_arm.zip",
+          "shasum": "9fd75a7a0de11683b17f9ae4a1777a1df5a828b9bcae349ff762c9d0d6d3e36c"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-better-uptime_0.16.2_linux_amd64.zip",
+          "download_url": "https://github.com/BetterStackHQ/terraform-provider-better-uptime/releases/download/v0.16.2/terraform-provider-better-uptime_0.16.2_linux_amd64.zip",
+          "shasum": "a9ab6cc11e964e9ca444e8dafe4bae4d95d1678be6f4f639f4d86aa2b83c917d"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-better-uptime_0.16.2_windows_amd64.zip",
+          "download_url": "https://github.com/BetterStackHQ/terraform-provider-better-uptime/releases/download/v0.16.2/terraform-provider-better-uptime_0.16.2_windows_amd64.zip",
+          "shasum": "d84f22806b6d56b2d228c97be8692a46223bbfe790e42da9dd8be6e148b8d2f1"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-better-uptime_0.16.2_freebsd_arm.zip",
+          "download_url": "https://github.com/BetterStackHQ/terraform-provider-better-uptime/releases/download/v0.16.2/terraform-provider-better-uptime_0.16.2_freebsd_arm.zip",
+          "shasum": "9c536cb0d11722d69fb0b85d48d96e75384248758dacfe170137a0e19d9f3d6d"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-better-uptime_0.16.2_linux_arm64.zip",
+          "download_url": "https://github.com/BetterStackHQ/terraform-provider-better-uptime/releases/download/v0.16.2/terraform-provider-better-uptime_0.16.2_linux_arm64.zip",
+          "shasum": "7646f1a5cb91384db4002b6b5a41399c3e021f9c6df21b03dbba980596828566"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-better-uptime_0.16.2_darwin_arm64.zip",
+          "download_url": "https://github.com/BetterStackHQ/terraform-provider-better-uptime/releases/download/v0.16.2/terraform-provider-better-uptime_0.16.2_darwin_arm64.zip",
+          "shasum": "9bd656d40d4d94fe0ef98383c964d2ce676715700539203d28d4019a8781eb23"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-better-uptime_0.16.2_freebsd_arm64.zip",
+          "download_url": "https://github.com/BetterStackHQ/terraform-provider-better-uptime/releases/download/v0.16.2/terraform-provider-better-uptime_0.16.2_freebsd_arm64.zip",
+          "shasum": "47ca8fd67c1264a946b1f0be6915afe2a68ee1586e5e0c92a165bbb9596aec88"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-better-uptime_0.16.2_linux_386.zip",
+          "download_url": "https://github.com/BetterStackHQ/terraform-provider-better-uptime/releases/download/v0.16.2/terraform-provider-better-uptime_0.16.2_linux_386.zip",
+          "shasum": "26e8842ff9b09981441d36e3075759c3a2396188162aebaa12335180ec97e609"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-better-uptime_0.16.2_windows_386.zip",
+          "download_url": "https://github.com/BetterStackHQ/terraform-provider-better-uptime/releases/download/v0.16.2/terraform-provider-better-uptime_0.16.2_windows_386.zip",
+          "shasum": "3fd4c7298be0420bd9734b785aedc869a354d81da254288a6b43bd95376d323d"
+        }
+      ]
+    },
+    {
+      "version": "0.16.1",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/BetterStackHQ/terraform-provider-better-uptime/releases/download/v0.16.1/terraform-provider-better-uptime_0.16.1_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/BetterStackHQ/terraform-provider-better-uptime/releases/download/v0.16.1/terraform-provider-better-uptime_0.16.1_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-better-uptime_0.16.1_freebsd_arm.zip",
+          "download_url": "https://github.com/BetterStackHQ/terraform-provider-better-uptime/releases/download/v0.16.1/terraform-provider-better-uptime_0.16.1_freebsd_arm.zip",
+          "shasum": "c04eeed14dbd29fe6a19024fbf9fcea482cb6b088d294e3070a118ce769ccb17"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-better-uptime_0.16.1_linux_amd64.zip",
+          "download_url": "https://github.com/BetterStackHQ/terraform-provider-better-uptime/releases/download/v0.16.1/terraform-provider-better-uptime_0.16.1_linux_amd64.zip",
+          "shasum": "733931a526391ce7b8a44e48fb86cf52dad81ff106385524e9eff58845a97973"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-better-uptime_0.16.1_linux_arm.zip",
+          "download_url": "https://github.com/BetterStackHQ/terraform-provider-better-uptime/releases/download/v0.16.1/terraform-provider-better-uptime_0.16.1_linux_arm.zip",
+          "shasum": "05495e6195d4538694537c30384de13ec17f35d250c1deaefa8c9de9720bb720"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-better-uptime_0.16.1_freebsd_386.zip",
+          "download_url": "https://github.com/BetterStackHQ/terraform-provider-better-uptime/releases/download/v0.16.1/terraform-provider-better-uptime_0.16.1_freebsd_386.zip",
+          "shasum": "a0b17ebb173246bf0d324b2c69f7e98b07a6d3baea131a44504e111c3afaa1fe"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-better-uptime_0.16.1_windows_386.zip",
+          "download_url": "https://github.com/BetterStackHQ/terraform-provider-better-uptime/releases/download/v0.16.1/terraform-provider-better-uptime_0.16.1_windows_386.zip",
+          "shasum": "d45d3f8b6fe23171491a37fa26a700b2e58cbd4736a2b9c10380b13ce2a2cca0"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-better-uptime_0.16.1_freebsd_arm64.zip",
+          "download_url": "https://github.com/BetterStackHQ/terraform-provider-better-uptime/releases/download/v0.16.1/terraform-provider-better-uptime_0.16.1_freebsd_arm64.zip",
+          "shasum": "698ccab8e0de50de6e8776ae5cb8c9cb736b1513391f76850d770982930d0c8d"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-better-uptime_0.16.1_windows_amd64.zip",
+          "download_url": "https://github.com/BetterStackHQ/terraform-provider-better-uptime/releases/download/v0.16.1/terraform-provider-better-uptime_0.16.1_windows_amd64.zip",
+          "shasum": "e33c2b60792df45e294fca599039dfa1f97e66f7e1e879b202c60105aed2872e"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-better-uptime_0.16.1_windows_arm.zip",
+          "download_url": "https://github.com/BetterStackHQ/terraform-provider-better-uptime/releases/download/v0.16.1/terraform-provider-better-uptime_0.16.1_windows_arm.zip",
+          "shasum": "708e202b403fbe3383b9d2595f4a7fa218a821a46f81eee5843185343a4eac3f"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-better-uptime_0.16.1_freebsd_amd64.zip",
+          "download_url": "https://github.com/BetterStackHQ/terraform-provider-better-uptime/releases/download/v0.16.1/terraform-provider-better-uptime_0.16.1_freebsd_amd64.zip",
+          "shasum": "88911822b960bd30db81eaa33ab3dabc4f4fdd7e48f26af868305f7eb807f26b"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-better-uptime_0.16.1_darwin_amd64.zip",
+          "download_url": "https://github.com/BetterStackHQ/terraform-provider-better-uptime/releases/download/v0.16.1/terraform-provider-better-uptime_0.16.1_darwin_amd64.zip",
+          "shasum": "17b6fae8d125c1a1441914c6278bb423581030a7d87abbfce00fa44ac67df9f1"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-better-uptime_0.16.1_linux_386.zip",
+          "download_url": "https://github.com/BetterStackHQ/terraform-provider-better-uptime/releases/download/v0.16.1/terraform-provider-better-uptime_0.16.1_linux_386.zip",
+          "shasum": "331d5d7f4a263f9deda525422ebb18c95fbd4901e1d5f7e1167c2392fd7afe6e"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-better-uptime_0.16.1_linux_arm64.zip",
+          "download_url": "https://github.com/BetterStackHQ/terraform-provider-better-uptime/releases/download/v0.16.1/terraform-provider-better-uptime_0.16.1_linux_arm64.zip",
+          "shasum": "5f7944280d38a13cf4b81b2c6018821b415b346ebd13388b98f92d67ab9019c6"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-better-uptime_0.16.1_darwin_arm64.zip",
+          "download_url": "https://github.com/BetterStackHQ/terraform-provider-better-uptime/releases/download/v0.16.1/terraform-provider-better-uptime_0.16.1_darwin_arm64.zip",
+          "shasum": "b5259c0e6e7d47d541ccf33afe2419b0f45829ab7e617cf02392ce3a0cb09408"
+        }
+      ]
+    },
+    {
       "version": "0.16.0",
       "protocols": [
         "5.0"
